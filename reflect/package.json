@@ -2,10 +2,10 @@
   "name": "reflect",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "run.js",
   "scripts": {
-    "test": "test",
-    "start": "node server.js"
+    "start": "node run",
+    "test": "test"
   },
   "author": "Nicky Hajal",
   "license": "ISC",

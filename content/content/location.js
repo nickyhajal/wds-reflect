@@ -60,13 +60,7 @@
   </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Lodging
-    Portland is an affordable destination, with the lowest hotel rates of
-    any major west coast city. Every year we arrange a number of discounts
-    from partner hotels. Other attendees rent through AirBnB or stay at a
-    local hostel. With Portland being a very popular destination in the summertime,
-    it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms
-    at these five iconic Portland properties, all within walking distance
-    to WDS events and activities:
+    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five iconic Portland properties, all within walking distance to WDS events and activities:
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/hotel-wide.png" width="100%" height="302" />
@@ -96,8 +90,7 @@
   <div className="clear" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Alternative Lodging Options
-    If you can&apos;t get a room at one of these hotels or just want to do something
-    else, there are numerous other options. Here are a couple of WDS attendee favorites:
+    If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Block type="caption" src="photos/hotel.png">
@@ -125,11 +118,7 @@
     </Block>
     <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
       ## Transportation
-      For all of these options, Portland&apos;s fast-and-easy light rail service
-      goes directly from the airport to downtown for $2.50 - no need to rent a
-      car during your whole time in the city. You can also come a day early or stay
-      a day late, and the discount hotel rates are valid during the entire
-      week surrounding the summit
+      For all of these options, Portland&apos;s fast-and-easy light rail service goes directly from the airport to downtown for $2.50 - no need to rent a car during your whole time in the city. You can also come a day early or stay a day late, and the discount hotel rates are valid during the entire week surrounding the summit
     </Block>
     <div className="clear" />
   </Block>
@@ -152,38 +141,20 @@
     ## The City
     <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/hawthorne.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
       ## Hawthorne Neighbourhood & Second Line of Title
-      Since 2011, WDS has brought together more than 10,000 remarkable
-      people from all 50 states and more than 40 countries.A full week of
-      events and an unforgettable keynote weekend in Portland, Oregon. Learn
-      remarkable techniques from unconventional thinkers, aquire powerful new
-      skills, and become inspired to free yourself from the “nine to five.”
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”
     </Block>
     <div className="clear" />
     <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/downtown.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
       ## Hawethorne Neighbourhood & Second Line of Title
-      Since 2011, WDS has brought together more than 10,000 remarkable
-      people from all 50 states and more than 40 countries.A full week of
-      events and an unforgettable keynote weekend in Portland, Oregon. Learn
-      remarkable techniques from unconventional thinkers, aquire powerful new
-      skills, and become inspired to free yourself from the “nine to five.”
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”
     </Block>
     <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
       ## Powell’s Books
-      Since 2011, WDS has brought together more than 10,000 remarkable
-      people from all 50 states and more than 40 countries. A full week of
-      events and an unforgettable keynote weekend in Portland, Oregon. Learn
-      remarkable techniques from unconventional thinkers, aquire powerful
-      new skills, and become inspired to free yourself from the “nine to
-      five.”
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”
     </Block>
     <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
       ## Waterfront
-      Since 2011, WDS has brought together more than 10,000 remarkable
-      people from all 50 states and more than 40 countries.A full week of
-      events and an unforgettable keynote weekend in Portland, Oregon. Learn
-      remarkable techniques from unconventional thinkers, aquire powerful
-      new skills, and become inspired to free yourself from the “nine to
-      five.”
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”
     </Block>
   </Block>
 </Section>

@@ -3,6 +3,7 @@ const app = require('express')();
 const async = require('async');
 const jsdom = require('jsdom');
 const execFile = require('child_process').execFile;
+const exec = require('child_process').exec;
 let $;
 const base = '../content/';
 const outDir = '../site/reflected/';
@@ -223,17 +224,25 @@ const saveRoutes = () => (
     });
   })
 )
-const rebuild = () => {
-  console.info("REBUILD");
-}
+const rebuild = () => (
+  new Promise((resolve, reject) => {
+    console.info("Reflected, now rebuilding...");
+    const cmd = "node run build";
+    exec(cmd, {cwd: "../site"}, (error, stdout, stderr) => {
+      console.info(stdout);
+      resolve();
+    });
+  })
+)
 
-const synced = (req, res) => {
-  res.send(content);
-}
+// const synced = (req, res) => {
+//   res.send(content);
+// }
 
-app.get('/sync', function (req, res) {
-  content = [];
-  execFile 'wds-reflect-sync', (err, stdout, stderr) ->
+const tasks = new Map(); // The collection of automation tasks ('clean', 'build', 'publish', etc.)
+tasks.set('build', () => (
+  new Promise((resolve, reject) => {
+    content = [];
     loadConfig()
     .then(loadGlobals)
     .then(loadContent)
@@ -241,6 +250,24 @@ app.get('/sync', function (req, res) {
     .then(saveContent)
     .then(saveRoutes)
     .then(rebuild)
-    .then(() => synced(req, res));
-});
-app.listen(8128);
+    .then(resolve);
+  })
+));
+tasks.set('sync', () => (
+  new Promise((resolve, reject) => {
+    execFile('wds-reflect-sync', (err, stdout, stderr) => {
+      run('build');
+      resolve();
+    });
+  })
+));
+
+function run(task) {
+  const start = new Date();
+  console.log(`Starting '${task}'...`);
+  return Promise.resolve().then(() => tasks.get(task)()).then(() => {
+    console.log(`Finished '${task}' after ${new Date().getTime() - start.getTime()}ms`);
+  }, err => console.error(err.stack));
+}
+// Execute the specified task or default one. E.g.: node run build
+run(/^\w/.test(process.argv[2] || '') ? process.argv[2] : 'start' /* default */);
