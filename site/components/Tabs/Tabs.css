@@ -1,0 +1,8 @@
+@import "vars.css";
+.shell {
+
+}
+.content {
+  padding: 50px;
+  background: $canvas;
+}

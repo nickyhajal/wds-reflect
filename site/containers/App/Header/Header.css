@@ -1,0 +1,67 @@
+@import "vars";
+
+.hiddenNav {
+	display: none;
+}
+
+
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+	padding: 16px 40px;
+	background: white;
+	box-sizing: border-box;
+	z-index: 10;
+}
+
+.logo {
+  color: blue;
+  text-decoration: none;
+  background-image: url(https://files.wds.fm/images/logo.png);
+  background-size: auto 100%;
+  width: 123px;
+  height: 26px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 1px;
+  position: relative;
+  z-index: 4;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.nav {
+  position: relative;
+  display: inline-block;
+  padding-right: 260px;
+  padding-left: 100px;
+  top: -5px;
+}
+
+.link {
+	color: $orange;
+	margin-right: 25px;
+	display: block;
+	float: left;
+	font-family: "Vitesse";
+	text-decoration: none;
+  line-height: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+  .row {
+    padding: 0px;
+  }
+
+}

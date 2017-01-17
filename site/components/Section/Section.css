@@ -1,0 +1,18 @@
+.shell {
+  width: 100%;
+  padding: 60px 0;
+}
+
+:global(.scriptHeader) {
+  float: right;
+  margin-top: -200px;
+  position: relative;
+}
+
+.headerImage {
+  margin-top: -60px;
+  margin-bottom: 60px;
+  -webkit-clip-path: url("#header-clip");
+  clip-path: url("#header-clip");
+}
+

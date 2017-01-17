@@ -1,0 +1,18 @@
+@import "vars.css";
+
+.button {
+  border: 0;
+  color: #fff;
+  font-size: 22px;
+  padding: 25px 0;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  float: left;
+
+  &:global(.active) {
+    background-color: $canvas !important;
+    color: $dark;
+    font-family: KarlaBold;
+  }
+}

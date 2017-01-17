@@ -1,0 +1,24 @@
+@import "vars.css";
+
+.shell {}
+.placeholder-shell {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.img {
+  transition: 1.5s all;
+}
+.placeholder-shell:hover .img {
+  transform: scale(1.09) translateX(16px) translateY(9px);
+}
+
+.play {
+  position: absolute;
+  margin: auto;
+  z-index: 3;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}

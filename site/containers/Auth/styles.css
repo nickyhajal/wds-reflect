@@ -1,0 +1,57 @@
+@value colors: "../../styles/colors.css";
+@value dblue, bblue from colors;
+
+.shell {
+  background: dblue;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 8rem;
+  }
+
+  form {
+    width: 25rem;
+    margin: 0 auto;
+    display: block;
+
+    input {
+      width: 100%;
+      padding: 0.95rem;
+      background: #fff;
+      border-radius: 0.25rem;
+      margin-bottom: 1rem;
+    }
+
+   :global(.submit) {
+      background-color: bblue;
+      padding: 0.95rem;
+      border: 0;
+      color: #fff;
+      width: 100%;
+      border-radius: 0.25rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-bottom: 0.9rem;
+    }
+   :global(.text-button) {
+      color: #fff;
+      font-size: 0.9rem;
+      border: 0;
+      background: transparent;
+      opacity: 0.7;
+      cursor: pointer;
+      transition: 0.2s all;
+
+      &:hover {
+        opacity: 1;
+      };
+    }
+  }
+}

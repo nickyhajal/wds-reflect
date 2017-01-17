@@ -1,0 +1,15 @@
+@value colors: "../../../../styles/colors.css";
+@value dblue, lblue, llblue from colors;
+@value fonts: "../../../../styles/fonts.css";
+@value ProximaBold from fonts;
+
+
+.shell {
+	background: lblue;
+	padding: 20px 0;
+}
+
+.logo {
+	font-size: 20px;
+	font-family: ProximaBold;
+}

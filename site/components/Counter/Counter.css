@@ -1,0 +1,26 @@
+@import "vars.css";
+
+.cal-shell {
+  position: relative;
+  width: 227px;
+  margin: 0 auto;
+
+  .content {
+    position: absolute;
+    left: 14px;
+    top: 74px;
+    margin: 0 auto;
+    width: 209px;
+    text-align: center;
+    color: $brown;
+    font-family: Vitesse;
+  }
+  .number {
+    font-size: 95px;
+    line-height: 77px;
+  }
+  .label {
+    font-size: 36px;
+    font-family: Vitesse;
+  }
+}

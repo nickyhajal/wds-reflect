@@ -1,0 +1,29 @@
+@import "vars.css";
+
+.box {
+  float: left;
+  width: 100%;
+
+  input {
+    background: transparent;
+    border: 3px solid $white;
+    padding: 14px 28px;
+    font-family: Karla;
+    width: 100%;
+  }
+}
+
+:global(.section-orange) input {
+  color: $white;
+
+  &::placeholder {
+    color: $white;
+    opacity: 0.8;
+  }
+  &:placeholder {
+    opacity: 0.8;
+  }
+  &::-webkit-input-placeholder {
+    opacity: 0.8;
+  };
+}
