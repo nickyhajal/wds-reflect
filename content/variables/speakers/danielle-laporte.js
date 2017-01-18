@@ -1,6 +1,6 @@
 name: "Danielle LaPorte",
 headerPhotos: "https://farm3.staticflickr.com/2179/5798014276_2c0698db3b_b.jpg,https://farm3.staticflickr.com/2811/9226352121_6f3dca63a9_b.jpg,https://farm3.staticflickr.com/2495/5797451267_cc4dfed1be_b.jpg",
-photo: "https://pbs.twimg.com/profile_images/613138289562746880/UL3JGRjJ.png",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Danielle+LaPorte.jpg",
 video: "//player.vimeo.com/video/28560240?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---
