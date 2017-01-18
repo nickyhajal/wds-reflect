@@ -4,9 +4,6 @@ photo: "https://pbs.twimg.com/profile_images/652279268043436038/OB4hhHyA.jpg"
 video: "//player.vimeo.com/video/70277457?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---
-**Andrew Warner** is the founder of <a href="https://mixergy.com/" target="_blank">Mixergy</a>, a site where 900 proven entrepreneurs teach how they built their companies. The site began because of Andrew’s epic failure.
+**Andrew Warner** is the founder of <a href="https://mixergy.com/" target="_blank">Mixergy</a>, a site where 900 proven entrepreneurs teach how they built their companies. The site began because of Andrew’s epic failure. After building a successful company, he became so arrogant about his entrepreneurial abilities that he started a $300,000 company that failed. Humbled, he decided to interview as many successful business founders as possible in order to learn from them. He published his interviews online so other entrepreneurs could learn along with him. 
 
-After building a successful company, he became so arrogant about his entrepreneurial abilities that he started a $300,000 company that failed. 
-
-Humbled, he decided to interview as many successful business founders as possible in order to learn from them. He published his interviews online so other entrepreneurs could learn along with him.
-
+At WDS 2013, Andrew shared a personal story of failure and growth, and explained the power of working with your true mind. He even led an on-stage meditation exercise. 
