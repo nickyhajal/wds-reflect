@@ -13,7 +13,8 @@
     "presets": [
       "react",
       "es2015",
-      "stage-1"
+      "stage-1",
+      "babili"
     ],
     "plugins": [
       "transform-runtime",
@@ -69,8 +70,7 @@
     "source-map-support": "^0.4.6",
     "stripe": "^4.12.0",
     "underscore.string": "^3.3.4",
-    "webpack": "^1.13.3",
-    "zepto": "^1.2.0"
+    "webpack": "^1.13.3"
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.0",
@@ -85,6 +85,7 @@
     "babel-project-relative-import": "^2.0.1",
     "babel-register": "^6.18.0",
     "babel-runtime": "^6.18.0",
+    "babili-webpack-plugin": "0.0.7",
     "browser-sync": "^2.17.5",
     "css-loader": "^0.25.0",
     "css-modules-require-hook": "^4.0.5",

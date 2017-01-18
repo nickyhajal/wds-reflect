@@ -202,8 +202,9 @@ const config = {
 
 // Optimize the bundle in release (production) mode
 if (!isDebug) {
+  const BabiliPlugin = require('babili-webpack-plugin');
   config.plugins.push(new webpack.optimize.DedupePlugin());
-  config.plugins.push(new webpack.optimize.UglifyJsPlugin({ compress: { warnings: isVerbose } }));
+  config.plugins.push(new BabiliPlugin());
   config.plugins.push(new webpack.optimize.AggressiveMergingPlugin());
 }
 
