@@ -1,4 +1,5 @@
 name: "J.D. Roth",
+year: "2012",
 headerPhotos: "https://farm9.staticflickr.com/8431/7537733108_8961c962db_c.jpg,https://farm8.staticflickr.com/7116/7537729158_5a22d504b7_c.jpg,https://farm9.staticflickr.com/8019/7537731364_94946021b0_c.jpg",
 photo: "",
 video: "//player.vimeo.com/video/48051775?byline=0&amp;portrait=0&amp;color=adbf27",
