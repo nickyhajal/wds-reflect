@@ -79,7 +79,7 @@ const loadConfig = () => (
 
 const loadContent = () => (
   new Promise((resolve, reject) => {
-    const contentDir = `${base}content`;
+    const contentDir = `${base}pages`;
     read(contentDir, (file, data) => (
       new Promise((resolve, reject) => {
         const bits = file.split('.');
