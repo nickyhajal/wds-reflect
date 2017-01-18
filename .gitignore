@@ -11,6 +11,7 @@ pids
 logs
 
 public
+site/public
 npm-debug.log
 node_modules
 images/markers
