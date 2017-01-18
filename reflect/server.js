@@ -231,9 +231,14 @@ const synced = (req, res) => {
   res.send(content);
 }
 
+app.get('/webhook81928181994019',  (req, res) => {
+  execFile('wds-reflect-sync', (err, stdout, stderr) => {
+    res.send('synced');
+  });
+});
 app.get('/sync', function (req, res) {
   content = [];
-  execFile 'wds-reflect-sync', (err, stdout, stderr) ->
+  execFile('wds-reflect-sync', (err, stdout, stderr) => {
     loadConfig()
     .then(loadGlobals)
     .then(loadContent)
