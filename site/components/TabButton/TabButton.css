@@ -15,4 +15,23 @@
     color: $dark;
     font-family: KarlaBold;
   }
+  &:global(.tab-button-dot) {
+    background-image: url("https://files.wds.fm/images/icon/dot-green-inactive.png");
+    background-size: 47px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: transparent;
+    color: $green;
+    font-size: 14px;
+    font-family: "Vitesse";
+    padding-top: 77px;
+    padding-bottom: 0;
+    margin-top: -12px;
+  }
+  &:global(.tab-button-dot.active) {
+    background-image: url("https://files.wds.fm/images/icon/dot-green.png");
+    background-color: transparent !important;
+  }
 }
+

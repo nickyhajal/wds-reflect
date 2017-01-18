@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import _ from 'lodash';
 import cx from 'classnames';
 import CSSModules from 'react-css-modules';
+import $ from 'jquery';
 import styles from './Image.css';
 import angler from '../../utils/angler';
 import unitize from '../../utils/unitize';
@@ -36,7 +37,10 @@ const Image = (props) => {
     width: unitize(props.width),
     height: unitize(props.height),
   });
-  const { tag, onClick, onMouseOver, onMouseOut, className, styleName, icon } = props;
+  const {
+    tag, onClick, onMouseOver, onMouseOut, className, styleName,
+    icon, anchor, preload
+  } = props;
   let { src } = props;
   const newProps = {
     onClick, onMouseOver, onMouseOut, styleName, className: cx(className),
@@ -69,9 +73,13 @@ const Image = (props) => {
     css.clipPath = clip;
     css.WebkitClipPath = clip;
   }
+  if (anchor === 'left') {
+    css.float = anchor;
+  }
 
   if (props.margin !== undefined) {
     css.margin = props.margin;
+    newProps.className = cx(`image-${anchor}`, newProps.className);
   }
   // Centered alignment
   if (props.align === 'center') {
@@ -79,6 +87,15 @@ const Image = (props) => {
     css.marginRight = 'auto';
   }
   newProps.style = css;
+  if (preload) {
+    $(() => {
+      const slug = src.replace(/\//g, '__').replace(/\./g, '___');
+      if (!$(`#${slug}`).length) {
+        const loads = $('#preloads');
+        loads.append($('<img/>').attr('src', src));
+      }
+    });
+  }
   return React.createElement(tag, newProps);
 };
 
@@ -91,15 +108,19 @@ Image.propTypes = {
   clip: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   position: PropTypes.string,
   align: PropTypes.string,
+  anchor: PropTypes.string,
   icon: PropTypes.string,
   height: PropTypes.string,
+  preload: PropTypes.bool,
 };
 
 Image.defaultProps = {
   clip: false,
   icon: '',
+  preload: false,
   tag: 'div',
   position: 'center',
+  anchor: 'unanchored',
   margin: false,
 };
 

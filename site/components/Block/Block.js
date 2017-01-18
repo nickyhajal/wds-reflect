@@ -90,6 +90,19 @@ const Block = (props) => {
     css.width = '306px';
     textAlign = 'left';
 
+  // 4Col Block
+  } else if (type === '4col') {
+    content = (
+      <div>
+        <div styleName="content"><Markdown>{children}</Markdown></div>
+      </div>
+    );
+    css.width = '210px';
+    textAlign = 'left';
+    css.float = 'left';
+    css.margin = '0 16px 0 0';
+
+
   // STANDARD TEXT BLOCK
   } else {
     content = (<Markdown>{children}</Markdown>);

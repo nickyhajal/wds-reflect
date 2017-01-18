@@ -5,12 +5,16 @@ import styles from './TabButton.css';
 const TabButton = (props) => {
   let className = props.active ? 'active ' : '';
   className += 'tab-button';
+  if (props.style === 'dots') {
+    className += ' tab-button-dot';
+  }
   return (<button onClick={props.onClick} styleName="button" className={className} style={props.css}>{props.children}</button>);
 };
 
 TabButton.propTypes = {
   active: PropTypes.bool,
   css: PropTypes.object,
+  style: PropTypes.string,
   onClick: PropTypes.func,
 };
 

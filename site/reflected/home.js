@@ -22,24 +22,19 @@ import Video from '../components/Video/Video';
 >
   <Image src="heading/weekend.png" width="819px" height="217px" align="center" />
   <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px">
-    #### A full week of events and an unforgettable keynote weekend in Portland, Oregon.{'\n'}
-    Learn remarkable techniques from unconventional thinkers, aquire powerful new skills,{'\n'}
-    and become inspired to free yourself from the “nine to five.”{'\n'}
+    #### A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”{'\n'}
   </Block>
 </Section>
 <Section color="white">
-  <Block width="501px" css={{ color: 'orange' }}>
-    ## World Domination Summit 2017: July 10 - 16, 2017 in Portland, Oregon{'\n'}
+  <Block width="600px" css={{ color: 'orange' }}>
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
+    ## July 10 - 16, 2017 in Portland, Oregon{'\n'}
   </Block>
-  <Block cols="6">
+  <Block cols="6" className="bigger">
 
-    Since 2011, WDS has brought together more than 10,000 people from more than forty countries.{'\n'}
-    As adventurers from all walks of life, our mission is to create a remarkable{'\n'}
-    community, challenge conventions, and empower each other to break down barriers{'\n'}
-    and achieve dreams.{'\n'}
+    Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community, challenge conventions, and empower each other to break down barriers and achieve dreams.{'\n'}
 
-    With discussions and activities on topics like living stress free, travel-hacking your{'\n'}
-    way around the globe, and launching your first book, it’s an experience like no other.{'\n'}
+    With discussions and activities on topics like living stress free, travel-hacking your way around the globe, and launching your first book, it’s an experience like no other.{'\n'}
     
     We’re doing it again in 2017, and all that’s missing is YOU!{'\n'}
   </Block>
@@ -58,36 +53,30 @@ import Video from '../components/Video/Video';
   </Block>
 </Section>
 <Section color="white">
-  <Block cols="6" css={{ marginBottom: '96px' }}>
+  <Block cols="6" css={{ marginBottom: '96px' }} className="bigger">
     ## Take the Tour{'\n'}
 
-    Since 2011, WDS has brought together more than 10,000 remarkable people from all 50{'\n'}
-    states and more than 40 countries. Our mission is to explore community, to undertake{'\n'}
-    an adventure, and to be of service to all those around us.{'\n'}
+    Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. Our mission is to explore community, to undertake an adventure, and to be of service to all those around us.{'\n'}
   </Block>
   <div>
     <Block type="image" src="photos/schedule.jpg">
       ## The Schedule{'\n'}
-      Since 2011, WDS has brought together more than 10,000{'\n'}
-      remarkable people from all 50 states and more than 40 countries.{'\n'}
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
       <Button to="/schedule">Get the Juicy Details</Button>
     </Block>
     <Block type="image" src="photos/happening.jpg">
       ## Happening in Portland, OR{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people{'\n'}
-      from all 50 states and more than 40 countries.{'\n'}
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
       <Button to="/location">Learn About Portland</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
       ## Academies{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people{'\n'}
-      from all 50 states and more than 40 countries.{'\n'}
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
       <Button to="/academies">See Them All</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
       ## WDS Foundations{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people{'\n'}
-      from all 50 states and more than 40 countries.{'\n'}
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
       <Button to="/academies">Tell Me More</Button>
     </Block>
   </div>
@@ -95,28 +84,20 @@ import Video from '../components/Video/Video';
   <Block>## And lots more!</Block>
   <Tabs>
     <Tab title="Activity Highlights" color="blue" layout="imageLeft">
-      <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you
-      a chance to meet the team, speakers. As we gather to begin WDS weekend, our
-      Friday night Opening Party gives you a chance to meet the team, speakers.
+      <Image src="photos/tab-zach.png" width="348px" height="324px" anchor="left" />
+      As WE gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
     </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you
-      a chance to meet the team, speakers. As we gather to begin WDS weekend, our
-      Friday night Opening Party gives you a chance to meet the team, speakers.
+      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
     </Tab>
     <Tab title="Events" color="green" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you
-      a chance to meet the team, speakers. As we gather to begin WDS weekend, our
-      Friday night Opening Party gives you a chance to meet the team, speakers.
+      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you
-      a chance to meet the team, speakers. As we gather to begin WDS weekend, our
-      Friday night Opening Party gives you a chance to meet the team, speakers.
+      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
     </Tab>
   </Tabs>
 </Section>

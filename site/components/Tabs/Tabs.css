@@ -6,3 +6,44 @@
   padding: 50px;
   background: $canvas;
 }
+.buttons {
+  position: relative;
+}
+.dots-line {
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35px;
+}
+.dots-controls {
+  height: 0;
+}
+
+.dots-controls button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 18px;
+  border: 0;
+  background-size: 17px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 6;
+  cursor: pointer;
+
+  &.arrow-prev {
+    background-image: url("https://files.wds.fm/images/icon/arrow-left-green.png");
+    position: relative;
+    z-index: 5;
+  }
+  &.arrow-next {
+    background-image: url("https://files.wds.fm/images/icon/arrow-right-green.png");
+    right: 0;
+  }
+}
+
+:global(.tabs-dots) .content {
+  width: 1092px;
+  margin-left: -30px;
+  }

@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import CSSModules from 'react-css-modules';
 import autoBind from 'react-autobind';
+import { Link } from 'react-router';
 
 
 // import Auth from '~/containers/Auth';
@@ -26,6 +27,15 @@ export class App extends Component {
         <main>
           { this.props.children }
         </main>
+        <div styleName="footer">
+          <div styleName="links">
+            <Link to="/faq">FAQ</Link>
+            <Link to="/story">Our Story</Link>
+          </div>
+          <div styleName="sub">
+            © World Domination Summit 2011-2017
+          </div>
+        </div>
       </div>
     );
   }

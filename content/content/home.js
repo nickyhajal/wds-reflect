@@ -10,10 +10,11 @@
   </Block>
 </Section>
 <Section color="white">
-  <Block width="501px" css={{ color: 'orange' }}>
-    ## World Domination Summit 2017: July 10 - 16, 2017 in Portland, Oregon
+  <Block width="600px" css={{ color: 'orange' }}>
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
+    ## July 10 - 16, 2017 in Portland, Oregon
   </Block>
-  <Block cols="6">
+  <Block cols="6" className="bigger">
 
     Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community, challenge conventions, and empower each other to break down barriers and achieve dreams.
 
@@ -36,7 +37,7 @@
   </Block>
 </Section>
 <Section color="white">
-  <Block cols="6" css={{ marginBottom: '96px' }}>
+  <Block cols="6" css={{ marginBottom: '96px' }} className="bigger">
     ## Take the Tour
 
     Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. Our mission is to explore community, to undertake an adventure, and to be of service to all those around us.
@@ -67,8 +68,8 @@
   <Block>## And lots more!</Block>
   <Tabs>
     <Tab title="Activity Highlights" color="blue" layout="imageLeft">
-      <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
+      <Image src="photos/tab-zach.png" width="348px" height="324px" anchor="left" />
+      As WE gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
     </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />

@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-  font-family: "Proxima N W01 Reg", sans-serif;
+  font-family: "Karla", sans-serif;
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
@@ -134,6 +134,8 @@ a:active,
 a:hover {
   outline-width: 0;
 }
+
+ul { padding: 0; margin: 0; list-style-position: inside; }
 
 /**
  * 1. Remove the bottom border in Firefox 39-.
@@ -272,14 +274,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Proxima N W01 Reg", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
 
 button {
-  font-family: "Proxima Nova W01 Medium", sans-serif;
+  font-family: "Karla", sans-serif;
 
 }
 

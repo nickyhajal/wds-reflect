@@ -10,6 +10,7 @@ const outDir = '../site/reflected/';
 let content = [];
 const config = {};
 const globals = {};
+const variables = {};
 jsdom.env("", function(err, win) {
     if (err) {
         console.error(err);
@@ -92,6 +93,47 @@ const loadContent = () => (
         resolve();
       })
     )).then(() => { resolve(); });
+  })
+);
+
+var setDeepValue = function(obj, path, value) {
+    if (path.indexOf('.') === -1) {
+      value.path = path;
+      obj.push(value);
+      return;
+    }
+
+    var dotIndex = path.indexOf('.');
+    const nextPath = path.substr(dotIndex + 1);
+    if (obj[path.substr(0, dotIndex)] === undefined) {
+      obj[path.substr(0, dotIndex)] = nextPath.indexOf('.') === -1 ? [] : {};
+    }
+    obj = obj[path.substr(0, dotIndex)];
+    return setDeepValue(obj, path.substr(dotIndex + 1), value);
+};
+const loadVariables = () => (
+  new Promise((resolve, reject) => {
+    const dir = `${base}variables`;
+    read(dir, (file, data) => (
+      new Promise((resolve, reject) => {
+        console.info(file);
+        const f = file.replace('../content/variables/', '').replace(/\.(.+)/, '').replace(/\//g, '.').replace('-', '__');
+        const obj = eval(`({${data}})`);
+        setDeepValue(variables, f, obj);
+        console.info(variables);
+        resolve();
+      })
+    )).then(() => { resolve(); });
+  })
+);
+
+const saveVariables = () => (
+  new Promise((resolve, reject) => {
+    const core = `${outDir}../core/`
+    let final = `export default JSON.parse(${JSON.stringify(variables)});`;
+    fs.writeFile(`${core}vars.js`, final, (err) => {
+      resolve();
+    })
   })
 );
 
@@ -240,25 +282,33 @@ const rebuild = () => (
 // }
 
 const tasks = new Map(); // The collection of automation tasks ('clean', 'build', 'publish', etc.)
+tasks.set('sync', () => (
+  new Promise((resolve, reject) => {
+    content = [];
+    loadConfig()
+    .then(loadGlobals)
+    .then(loadVariables)
+    .then(loadContent)
+    .then(processContent)
+    .then(saveVariables)
+    .then(saveContent)
+    .then(saveRoutes)
+    .then(resolve);
+  })
+));
 tasks.set('build', () => (
   new Promise((resolve, reject) => {
     content = [];
     loadConfig()
     .then(loadGlobals)
     .then(loadContent)
+    .then(loadVariables)
     .then(processContent)
+    .then(saveVariables)
     .then(saveContent)
     .then(saveRoutes)
     .then(rebuild)
     .then(resolve);
-  })
-));
-tasks.set('sync', () => (
-  new Promise((resolve, reject) => {
-    execFile('wds-reflect-sync', (err, stdout, stderr) => {
-      run('build');
-      resolve();
-    });
   })
 ));
 

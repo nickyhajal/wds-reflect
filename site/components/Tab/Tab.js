@@ -11,7 +11,6 @@ const Tab = (props) => {
   console.info(props.children);
   return (
   <div>
-  hey
   {props.children}</div>
 )};
 

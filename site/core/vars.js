@@ -1,0 +1,1 @@
+export default JSON.parse({"speakers":[{"name":"bob","path":"bob__markus"},{"name":"nicky","path":"nicky__hajal"}],"testimonials":[{"name":"nicky","path":"holly__merand"},{"name":"bob","path":"rhea__meta"}]});

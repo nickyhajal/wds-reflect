@@ -1,3 +1,43 @@
+@import 'vars';
+
 .shell {
   
+}
+.footer {
+  padding: 65px 0 80px;
+  text-align: center;
+  background: $dark;
+  .links {
+    margin: 10px auto;
+    display: inline-block;
+    a {
+      color: $white;
+      float: left;
+      margin-right: 20px;
+      position: relative;
+      text-decoration: none;
+
+      &:before {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: $white;
+        content: "";
+        position: absolute;
+        right: -12px;
+        top: 7px;
+      };
+    }
+    a:last-child {
+      margin-right: 0;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+  .sub {
+    color: $white;
+    opacity: 0.5;
+  }
 }

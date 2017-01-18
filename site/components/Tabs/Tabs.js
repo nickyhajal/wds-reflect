@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules';
 import $ from 'jquery';
 import autoBind from 'react-autobind';
 import styles from './Tabs.css';
+import Image from '../Image/Image';
 import TabButton from '../TabButton/TabButton';
 import colorize from '../../utils/colorize';
 
@@ -35,8 +36,37 @@ class Tabs extends React.Component {
   selectTab(id) {
     this.setState({ active: id });
   }
+  prev() {
+    const len = this.state.tabWidths.length;
+    let active = this.state.active;
+    if (active) {
+      active -= 1;
+    } else {
+      active = len - 1;
+    }
+    this.setState({ active });
+  }
+  next() {
+    const len = this.state.tabWidths.length - 1;
+    let active = this.state.active;
+    if (active === len) {
+      active = 0;
+    } else {
+      active += 1;
+    }
+    this.setState({ active });
+  }
   renderButtons(tabs) {
     const out = [];
+    if (this.props.style === 'dots') {
+      out.push(
+        <div key="dotscontrols" styleName="dots-controls">
+          <button key="btn-arrow-left" styleName="arrow-prev" onClick={() => { console.info('prev'); this.prev()}} />
+          <button key="btn-arrow-right" styleName="arrow-next" onClick={this.next} />
+          <Image key="button-line" src="icon/stroke-white.png" styleName="dots-line" width="794" height="4" />
+        </div>
+      );
+    }
     tabs.forEach((t, i) => {
       const css = { background: colorize(t.props.color) };
       const active = (this.state.active === i);
@@ -49,6 +79,7 @@ class Tabs extends React.Component {
           key={key}
           active={active}
           css={css}
+          style={this.props.style}
           tabId={i}
           onClick={() => this.selectTab(i)}
         >
@@ -61,12 +92,19 @@ class Tabs extends React.Component {
   }
   render() {
     const tabs = this.props.children;
+    let style ='tabs-normal';
+    if (this.props.style.length) {
+      style = `tabs-${this.props.style}`;
+    }
     return (
-      <div styleName="shell" ref={(shell) => { this.shell = shell; }}>
-        {this.renderButtons(tabs)}
-        <div className="clear"></div>
+      <div styleName="shell" className={style} ref={(shell) => { this.shell = shell; }}>
+        <div styleName="buttons">
+          {this.renderButtons(tabs)}
+        </div>
+        <div className="clear" />
         <div styleName="content">
           {tabs[this.state.active].props.children}
+          <div className="clear" />
         </div>
       </div>
     );
@@ -74,8 +112,11 @@ class Tabs extends React.Component {
 }
 
 Tabs.propTypes = {
+  style: PropTypes.string,
 };
+
 Tabs.defaultProps = {
+  style: '',
 };
 
 export default CSSModules(Tabs, styles);

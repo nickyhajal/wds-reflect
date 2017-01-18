@@ -36,6 +36,7 @@ import Video from '../components/Video/Video';
   ));
   const Page = () => (
     <div>
+      
 <Section
   headerVideo="//player.vimeo.com/video/184868405?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1"
   headerImage="hero/location.jpg"

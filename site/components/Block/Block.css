@@ -1,5 +1,27 @@
 @import "vars.css";
 
+.block-4col {
+  padding-top: 60px;
+  &:nth-of-type(4n) {
+    margin-right: 0 !important;
+  }
+  h2 {
+    font-size: 28px;
+    color: $blue;
+    font-family: "Vitesse";
+  }
+  p:first-of-type {
+    margin-top:10px;
+  }
+  ul {
+    margin-top: 10px;
+  }
+  p, li {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 4px;
+  }
+}
 .block-caption {
   width: 303px;
   height: 222px;
@@ -49,6 +71,8 @@
   }
 }
 .block-image {
+  background: $white;
+
   &:nth-of-type(2n) {
     margin-right: 0;
   }
@@ -58,8 +82,13 @@
   .content {
     padding: 0 50px 35px;
   }
+  p {
+    font-size: 14.5px;
+    line-height: 23px;
+  }
 }
 .block-image-narrow {
+  background: $canvas;
   &:nth-of-type(3n) {
     margin-right: 0;
   }
@@ -71,7 +100,6 @@
   }
 }
 .block-image, .block-image-narrow {
-  background: $canvas;
   float: left;
   margin-bottom: 86px;
   margin-right: 48px;
@@ -161,6 +189,9 @@
     line-height: 24px;
     color: $dark;
     margin-bottom: 32px;
+  }
+  h2:nth-of-type(2) {
+    margin-top: -28px;
   }
 }
 
