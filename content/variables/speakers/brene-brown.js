@@ -1,4 +1,5 @@
 name: "Brené Brown",
+year: "2013",
 headerPhotos: "https://farm8.staticflickr.com/7255/7523483516_c9682b8b9c_b.jpg,https://farm8.staticflickr.com/7258/7523483078_2ecce33174_b.jpg,https://farm9.staticflickr.com/8153/7523483740_4a90710c5d_b.jpg,https://farm9.staticflickr.com/8168/7523484808_158d67f423_b.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Brene+Brown.jpg",
 video: "//player.vimeo.com/video/57080852?byline=0&amp;portrait=0&amp;color=adbf27",
