@@ -1,4 +1,5 @@
 name: "Emiliya Zhivotovskay",
+year: "2016",
 headerPhotos: "https://c1.staticflickr.com/9/8586/28703009940_a989783e35_b.jpg,https://c1.staticflickr.com/9/8328/28703005150_198e9845ea_b.jpg,https://c1.staticflickr.com/9/8390/28372138143_74b3d3801d_b.jpg,https://c1.staticflickr.com/9/8580/28372126693_22eb04bb57_b.jpg",
 photo: "",
 video: "//player.vimeo.com/video/183022706?byline=0&amp;portrait=0&amp;color=adbf27",
