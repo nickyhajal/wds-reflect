@@ -4,7 +4,7 @@ photo: "http://www.bobsredmill.com/media/wysiwyg/bobsway/meet-values.jpg"
 video: "//player.vimeo.com/video/70167461?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---
-**Bob Moore** is passionate about whole grains and investing in his employees. He shared his story about creating the world recognized brand <a href="http://parenthacks.com" target="_blank">Bob's Red Mill</a> and how important it is to put people before profit.
+**Bob Moore** is passionate about whole grains and investing in his employees. He shared his story about creating the world recognized brand <a href="http://www.bobsredmill.com/" target="_blank">Bob's Red Mill</a> and how important it is to put people before profit.
 
 Bob Moore’s journey began serendipitously in the mid 1960s after coming across a book about old stone-grinding flour mills. His enthusiasm was immediate. Equipped with several sets of millstones from an old North Carolina water- powered flour mill, Bob and his wife, Charlee, began their first mill in Redding, California.
 
