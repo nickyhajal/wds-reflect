@@ -1,7 +1,7 @@
 name: "John Francis",
 year: "2014",
 headerPhotos: "https://farm6.staticflickr.com/5513/14655149654_db02c48d8c_b.jpg,https://farm3.staticflickr.com/2939/14470754189_9b7bd6aa2e_b.jpg,https://farm6.staticflickr.com/5545/14657006352_1b4b57d4a6_b.jpg,https://farm4.staticflickr.com/3880/14470703330_46a361367d_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/John+Francis.jpg",
 video: "//player.vimeo.com/video/102690043?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "People are part of the environment. If that’s true, then our first opportunity to be sustainable is in how we treat each other.",
 ---
