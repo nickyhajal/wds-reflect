@@ -1,6 +1,6 @@
 name: "Chase Jarvis",
 headerPhotos: "https://farm4.staticflickr.com/3790/9231310911_aa5bd45c35_c.jpg,https://farm6.staticflickr.com/5529/9234092316_59e9b3cc02_c.jpg",
-photo: "http://www.chasejarvis.com/wp-content/uploads/2010/02/chase-600x600.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/chase+jarvis.jpg",
 video: "//player.vimeo.com/video/70285966?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---
