@@ -1,4 +1,5 @@
 name: "Brad Montague & Robby Novak (aka Kid President)",
+year: "2015",
 headerPhotos: "https://farm4.staticflickr.com/3743/9231403243_9fe13f2384_c.jpg",
 photo: "",
 video: "//player.vimeo.com/video/134968995?byline=0&amp;portrait=0&amp;color=adbf27",
