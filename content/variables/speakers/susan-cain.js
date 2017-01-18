@@ -1,4 +1,5 @@
 name: "Susan Cain",
+year: "2012",
 headerPhotos: "https://farm8.staticflickr.com/7251/7523489364_2d57cb687f_c.jpg,https://farm8.staticflickr.com/7115/7523490210_034ece4614_c.jpg,https://farm9.staticflickr.com/8288/7523489534_a9a950fc31_c.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Susan+Cain.jpg",
 video: "//player.vimeo.com/video/48093792?byline=0&amp;portrait=0&amp;color=adbf27",
