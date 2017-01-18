@@ -1,4 +1,5 @@
 name: "Lissa Rankin",
+year: "2015",
 headerPhotos: "https://farm8.staticflickr.com/7438/9242331680_8926700e54_b.jpg",
 photo: "",
 video: "//player.vimeo.com/video/142905975?byline=0&amp;portrait=0&amp;color=adbf27",
