@@ -204,7 +204,7 @@ const config = {
 if (!isDebug) {
   const BabiliPlugin = require('babili-webpack-plugin');
   config.plugins.push(new webpack.optimize.DedupePlugin());
-  config.plugins.push(new BabiliPlugin());
+  // config.plugins.push(new BabiliPlugin());
   config.plugins.push(new webpack.optimize.AggressiveMergingPlugin());
 }
 
