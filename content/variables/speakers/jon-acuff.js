@@ -1,4 +1,5 @@
 name: "Jon Acuff",
+year: "2015",
 headerPhotos: "https://farm4.staticflickr.com/3699/9226362129_8a6395bf8b_b.jpg",
 photo: "",
 video: "//player.vimeo.com/video/134757198?byline=0&amp;portrait=0&amp;color=adbf27",
