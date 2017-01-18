@@ -16,13 +16,13 @@ import Video from '../components/Video/Video';
   const Page = () => (
     <div>
       <Section
-  headerImage="hero/academies.jpg"
+  headerImage="hero/schedule.jpg"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
 >
-  <Image src="heading/academies.png" width="565px" height="169px" className="scriptHeader" />
+  <Image src="heading/schedule.png" width="565px" height="169px" className="scriptHeader" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## At a WDS Academy{'\n'}
     At a WDS Academy, you might learn how to travel hack your way to the dream trip you&apos;ve always wanted to take, discover the science behind happiness, or begin building greater community. You&apos;ll have the opportunity to learn something new to help you live your own remarkable life story. It&apos;s a great way to lead into the main events of the WDS weekend and keep the conversations going after.{'\n'}

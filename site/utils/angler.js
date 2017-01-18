@@ -32,7 +32,7 @@ const addPolygon = (polygon) => {
 const convert = (p) => {
   if (
     p && (
-      p.indexOf('tr') > -1 || p.indexOf('tl') > -1 || p.indexOf('br') > -1 || p.indexOf('tr') > -1
+      p.indexOf('tr') > -1 || p.indexOf('tl') > -1 || p.indexOf('br') > -1 || p.indexOf('bl') > -1
     )
   ) {
     const points = {
@@ -54,7 +54,7 @@ const convert = (p) => {
       }
     });
     const { tl, tr, br, bl } = points;
-    return `${tl[0]} ${tl[1]}, ${tr[0]} ${tr[1]}, ${br[0]} ${br[1]}, ${bl[0]} ${bl[1]},`;
+    return `${tl[0]} ${tl[1]}, ${tr[0]} ${tr[1]}, ${br[0]} ${br[1]}, ${bl[0]} ${bl[1]}`;
   }
   return p;
 };
@@ -62,7 +62,7 @@ const convert = (p) => {
 const angler = (polygon) => {
   let poly = convert(polygon);
   let p = convert(polygon);
-  if (polygon.indexOf(' ') < 0) {
+  if (poly.indexOf(' ') < 0) {
     poly = poly.replace(/\./g, '__');
     p = map[poly] !== undefined ? map[poly] : false;
   }

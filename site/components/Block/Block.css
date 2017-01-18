@@ -72,6 +72,7 @@
 }
 .block-image {
   background: $white;
+  padding: 0;
 
   &:nth-of-type(2n) {
     margin-right: 0;
@@ -86,6 +87,52 @@
     font-size: 14.5px;
     line-height: 23px;
   }
+}
+.block-color {
+  background: $canvas;
+  margin-right: 36px;
+  &:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .heading {
+    height: 60px;
+  }
+  .content {
+    padding: 40px 40px 40px;
+  }
+  h3 {
+    font-family: VitesseBook;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  p, li {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+  li {
+    list-style-position: outside;
+    list-style-type: none;
+    position: relative;
+    padding-left: 16px;
+    &:before {
+      display: block;
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: $orange;
+      position: absolute;
+      left: -10px;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+    }
+  }
+}
+:global(.block-colored-) {
+  &blue li:before { background: $blue; };
+  &green li:before { background: $green; };
 }
 .block-image-narrow {
   background: $canvas;
@@ -169,6 +216,10 @@
   }
 }
 .block-text, .block-padded {
+  h5 {
+    font-family: Karla;
+    font-size: 18px;
+  }
   h4 {
     font-family: "VitesseLight";
     font-size: 24px;
@@ -195,6 +246,9 @@
   }
 }
 
+:global(.section-white) .block-image{
+  background: $canvas;
+}
 :global(.section-orange) .block-text {
   h2 {
     color: $white;

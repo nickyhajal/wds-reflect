@@ -33,10 +33,12 @@ const icons = {
 const Image = (props) => {
   // Setup props and variables
   let css = props.css;
+  console.info(props);
   css = _.defaults(css, {
     width: unitize(props.width),
     height: unitize(props.height),
   });
+  console.info(css);
   const {
     tag, onClick, onMouseOver, onMouseOut, className, styleName,
     icon, anchor, preload

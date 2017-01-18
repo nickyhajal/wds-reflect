@@ -81,7 +81,7 @@ const loadConfig = () => (
 
 const loadContent = () => (
   new Promise((resolve, reject) => {
-    const contentDir = `${base}content`;
+    const contentDir = `${base}pages`;
     read(contentDir, (file, data) => (
       new Promise((resolve, reject) => {
         const bits = file.split('.');
@@ -116,11 +116,30 @@ const loadVariables = () => (
     const dir = `${base}variables`;
     read(dir, (file, data) => (
       new Promise((resolve, reject) => {
-        console.info(file);
+        let json = '';
+        let content = '';
+        let on = 'json';
+        const lines = data.split('\n');
+        lines.forEach((v, i) => {
+          if (v.length) {
+            if (on === 'json' && v === '---') {
+              on = 'content';
+            } else {
+              if (on === 'json') {
+                json += `${v}\n`;
+              }
+              if (on === 'content') {
+                content += `${v}\n`;
+              }
+            }
+          }
+        });
+        const obj = eval(`({${json}})`);
+        if (content.length) {
+          obj.autocontent = content;
+        }
         const f = file.replace('../content/variables/', '').replace(/\.(.+)/, '').replace(/\//g, '.').replace('-', '__');
-        const obj = eval(`({${data}})`);
         setDeepValue(variables, f, obj);
-        console.info(variables);
         resolve();
       })
     )).then(() => { resolve(); });

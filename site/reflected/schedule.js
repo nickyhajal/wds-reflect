@@ -16,24 +16,24 @@ import Video from '../components/Video/Video';
   const Page = () => (
     <div>
       <Section
-  headerImage="hero/academies.jpg"
+  headerImage="hero/schedule.jpg"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
 >
-  <Image src="heading/academies.png" width="565px" height="169px" className="scriptHeader" />
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## At a WDS Academy{'\n'}
-    At a WDS Academy, you might learn how to travel hack your way to the dream trip you&apos;ve always wanted to take, discover the science behind happiness, or begin building greater community. You&apos;ll have the opportunity to learn something new to help you live your own remarkable life story. It&apos;s a great way to lead into the main events of the WDS weekend and keep the conversations going after.{'\n'}
+  <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" />
+  <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px' }} clip="top_lr_1.6">
+    ## A WDS Week of 2017{'\n'}
+
+    - **Tuesday** Small Group Activities and Attendee-Led Meetups{'\n'}
+    - **Wednesday** Small Group Activities and Attendee-Led Meetups{'\n'}
+    - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups{'\n'}
+    <li><b className="highlight highlight-1">Friday</b> Big Adventure, Academies, Opening Party</li>
+    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
+    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
+    - **Monday** Academies and Attendee-Led Meetups{'\n'}
   </Block>
-  <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" />
-</Section>
-<Section color="green">
-  <Block cols="6" css={{ padding: '50px 0 20px' }}>
-   ## Academies will return for WDS 2017 with more amazing topics and Academy leaders!{'\n'}
-   The list of WDS 2017 Academies will be made available spring 2017 so stay tuned!{'\n'}
- </Block>
 </Section>
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />

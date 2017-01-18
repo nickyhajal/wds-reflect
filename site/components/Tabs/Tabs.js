@@ -30,6 +30,7 @@ class Tabs extends React.Component {
       $('.tab-button', shell).each((i) => {
         tabWidths[i] += add;
       });
+      $('.dots-controls .image-unanchored', shell).css({ width: `${((tabWidths[0] * tabWidths.length) - tabWidths[0])}px` });
       this.setState({ tabWidths });
     }
   }
@@ -60,8 +61,8 @@ class Tabs extends React.Component {
     const out = [];
     if (this.props.style === 'dots') {
       out.push(
-        <div key="dotscontrols" styleName="dots-controls">
-          <button key="btn-arrow-left" styleName="arrow-prev" onClick={() => { console.info('prev'); this.prev()}} />
+        <div key="dotscontrols" styleName="dots-controls" className="dots-controls">
+          <button key="btn-arrow-left" styleName="arrow-prev" onClick={() => { this.prev()}} />
           <button key="btn-arrow-right" styleName="arrow-next" onClick={this.next} />
           <Image key="button-line" src="icon/stroke-white.png" styleName="dots-line" width="794" height="4" />
         </div>

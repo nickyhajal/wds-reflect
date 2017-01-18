@@ -13,7 +13,7 @@ import unitize from '../../utils/unitize';
 const Block = (props) => {
   const {
     type, height, imageClip, src, children, className, align,
-    clip, label, title, anchor, margin, background, icon,
+    clip, label, title, anchor, margin, background, icon, color
   } = props;
   const classes = [className];
   const css = _.defaults(colorize(props).css, {});
@@ -67,11 +67,20 @@ const Block = (props) => {
 
   // COLOR HEADER BLOCK
   } else if (type === 'color') {
-    css.padding = '50px';
+    css.width = '308px';
+    textAlign = 'left';
+    css.float = 'left';
+    const headerCss = {};
+    const finalClip = angler('br:0,-17%;');
+    headerCss.clipPath = finalClip;
+    headerCss.WebkitClipPath = finalClip;
+    headerCss.backgroundColor = colorize(color);
     content = (
       <div>
-        <div styleName="heading">{title}</div>
-        <Markdown>{children}</Markdown>
+        <div styleName="heading" style={headerCss}>{title}</div>
+        <div styleName="content" className={`block-colored-${color}`}>
+          <Markdown>{children}</Markdown>
+        </div>
       </div>
     );
 
@@ -155,6 +164,7 @@ Block.propTypes = {
   margin: PropTypes.string,
   background: PropTypes.string,
   anchor: PropTypes.string,
+  color: PropTypes.string,
   clip: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   className: PropTypes.string,
   title: PropTypes.string,
@@ -170,6 +180,7 @@ Block.defaultProps = {
   clip: false,
   textAlign: 'center',
   padding: false,
+  color: '',
   height: '',
   title: '',
   background: 'auto',

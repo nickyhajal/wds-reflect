@@ -24,7 +24,6 @@ String.prototype.indexOfRegex = function(regex, fromIndex = 0){
   return match ? str.indexOf(match[0]) + fromIndex : -1;
 }
 
-
 const read = (path, onFile, final) => (
   new Promise((resolve, reject) => {
     if (fs.lstatSync(path).isDirectory()) {
