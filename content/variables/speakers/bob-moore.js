@@ -1,6 +1,6 @@
 name: "Bob Moore",
 headerPhotos: "https://farm4.staticflickr.com/3789/9229138128_e73eed09da_c.jpg,https://farm8.staticflickr.com/7359/9229138802_a19a23fec2_c.jpg,https://farm4.staticflickr.com/3804/9226357473_a32317880a_c.jpg",
-photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Bob+Moore.jpg"
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Bob+Moore.jpg",
 video: "//player.vimeo.com/video/70167461?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---

@@ -1,53 +1,59 @@
 @import "vars.css";
-.block-image {
-  background: $canvas;
-  float: left;
-  margin-bottom: 86px;
-  margin-right: 48px;
 
-  &:nth-of-type(2n) {
-    margin-right: 0;
-  }
 
-  h2 {
-    font-family: "Vitesse";
-    font-size: 26px;
-    line-height: 38px;
-    margin-bottom: 20px;
-  }
-  .image-header {
-    margin-bottom: 48px;
-  }
-  .content {
-    padding: 0 50px 50px;
-  }
-  p {
-    margin-bottom: 0;
-  }
+.name {
+  color: $orange;
+  font-family: Vitesse;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
 }
-.block-text {
-  h4 {
-    font-family: "VitesseLight";
-    font-size: 24px;
-    line-height: 38px;
-    color: $dark;
-  }
-  h2 {
-    font-family: "Vitesse";
-    font-size: 26px;
-    line-height: 38px;
-    margin-bottom: 32px;
-  }
-  p {
-    font-size: 18px;
-    line-height: 27px;
-    color: $dark;
-    margin-bottom: 32px;
-  }
+.avatar {
+  border-radius: 50%;
+  margin: 0 auto 28px;
+  position: relative;
+  z-index: 2;
 }
 
-/*:global(.section-white) .block-text {
-  h2 {
-    color: $orange;
+.cutout {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 3;
+  margin: 0 auto;
+  right: 0;
+}
+.box {
+  padding: 100px 50px 50px;
+}
+.speakerList {
+  padding: 0;
+  position: relative;
+  :global(.slick-arrow) {
+    width: 40px;
+    height: 60px;
+    background-size: 28px 46px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+    cursor: pointer;
+
+    &:before {
+      display: none;
+    }
+    &:hover {
+      background-size: 28px 46px;
+    background-repeat: no-repeat;
+    background-position: center;
+      width: 40px;
+      height: 60px;
+    }
+
+    &:global(.slick-prev) {
+      background-image: url("https://files.wds.fm/images/icon/arrow-left-green.png");
+    }
+    &:global(.slick-next) {
+      background-image: url("https://files.wds.fm/images/icon/arrow-right-green.png");
+    }
   }
-};*/
+}

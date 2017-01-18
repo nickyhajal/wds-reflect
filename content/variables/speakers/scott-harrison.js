@@ -1,6 +1,6 @@
 name: "Scott Harrison",
-headerPhotos: "https://farm9.staticflickr.com/8025/7523487602_f85c11bac8_c.jpg,https://farm9.staticflickr.com/8282/7523487892_c16fd092bd_c.jpg,https://farm8.staticflickr.com/7109/7523487438_54c13c58c4_c.jpg"
-photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Scott+Harrison.jpg"
+headerPhotos: "https://farm9.staticflickr.com/8025/7523487602_f85c11bac8_c.jpg,https://farm9.staticflickr.com/8282/7523487892_c16fd092bd_c.jpg,https://farm8.staticflickr.com/7109/7523487438_54c13c58c4_c.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Scott+Harrison.jpg",
 video: "//player.vimeo.com/video/49843996?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---

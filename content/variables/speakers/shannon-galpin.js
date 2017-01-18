@@ -1,6 +1,6 @@
 name: "Shannon Galpin",
-headerPhotos: "https://farm3.staticflickr.com/2902/14454885207_27555d62ba_b.jpg,https://farm3.staticflickr.com/2916/14639117944_0206af9dea_b.jpg,https://farm4.staticflickr.com/3916/14454627790_9302586a1c_b.jpg,https://farm3.staticflickr.com/2899/14638046361_ff51c9763c_b.jpg,https://farm3.staticflickr.com/2916/14454685898_d5dd859b75_b.jpg"
-photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Shannon+Galpin.jpg"
+headerPhotos: "https://farm3.staticflickr.com/2902/14454885207_27555d62ba_b.jpg,https://farm3.staticflickr.com/2916/14639117944_0206af9dea_b.jpg,https://farm4.staticflickr.com/3916/14454627790_9302586a1c_b.jpg,https://farm3.staticflickr.com/2899/14638046361_ff51c9763c_b.jpg,https://farm3.staticflickr.com/2916/14454685898_d5dd859b75_b.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Shannon+Galpin.jpg",
 video: "//player.vimeo.com/video/102690001?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "I want you to leave here and use your voice. I want you to implore others to use theirs, and I want you to speak for those who don’t yet have one.",
 ---

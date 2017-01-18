@@ -1,6 +1,6 @@
 name: "Rev. angel Kyodo williams",
-headerPhotos: "https://c1.staticflickr.com/9/8642/28391063454_f2c2a60962_b.jpg,https://c1.staticflickr.com/9/8237/28935093581_81901f3bf3_b.jpg,https://c1.staticflickr.com/9/8721/29011070575_bf49aa90ef_b.jpg,https://c1.staticflickr.com/9/8786/29011066945_39c51a852b_b.jpg"
-photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Rev+angel.jpg"
+headerPhotos: "https://c1.staticflickr.com/9/8642/28391063454_f2c2a60962_b.jpg,https://c1.staticflickr.com/9/8237/28935093581_81901f3bf3_b.jpg,https://c1.staticflickr.com/9/8721/29011070575_bf49aa90ef_b.jpg,https://c1.staticflickr.com/9/8786/29011066945_39c51a852b_b.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Rev+angel.jpg",
 video: "//player.vimeo.com/video/183123706?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets.",
 ---

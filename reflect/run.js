@@ -149,7 +149,7 @@ const loadVariables = () => (
 const saveVariables = () => (
   new Promise((resolve, reject) => {
     const core = `${outDir}../core/`
-    let final = `export default JSON.parse(${JSON.stringify(variables)});`;
+    let final = `export default ${JSON.stringify(variables)};`;
     fs.writeFile(`${core}vars.js`, final, (err) => {
       resolve();
     })

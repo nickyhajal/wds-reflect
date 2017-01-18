@@ -1,6 +1,6 @@
 name: "Nancy Duarte",
-headerPhotos: "https://farm8.staticflickr.com/7432/9226362293_5e07e0afb8_c.jpg,https://farm8.staticflickr.com/7395/9226362127_9933b2b935_c.jpg,https://farm8.staticflickr.com/7353/9226362017_db7bc779a7_c.jpg"
-photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Nancy+Duarte.jpg"
+headerPhotos: "https://farm8.staticflickr.com/7432/9226362293_5e07e0afb8_c.jpg,https://farm8.staticflickr.com/7395/9226362127_9933b2b935_c.jpg,https://farm8.staticflickr.com/7353/9226362017_db7bc779a7_c.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Nancy+Duarte.jpg",
 video: "",
 quote: "",
 ---

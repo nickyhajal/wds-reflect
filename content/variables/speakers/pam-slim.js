@@ -1,6 +1,6 @@
 name: "Pam Slim",
-headerPhotos: "https://farm6.staticflickr.com/5061/5797510865_5ef4d0ab43_b.jpg,https://farm8.staticflickr.com/7123/7525321168_f1ef6b950d_b.jpg,https://farm9.staticflickr.com/8432/7523497812_dbe1c47257_b.jpg,https://farm6.staticflickr.com/5450/9226362367_fed50eb317_b.jpg,https://farm4.staticflickr.com/3678/9229137186_e50fc92f54_b.jpg"
-photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Pam+Slim.jpg"
+headerPhotos: "https://farm6.staticflickr.com/5061/5797510865_5ef4d0ab43_b.jpg,https://farm8.staticflickr.com/7123/7525321168_f1ef6b950d_b.jpg,https://farm9.staticflickr.com/8432/7523497812_dbe1c47257_b.jpg,https://farm6.staticflickr.com/5450/9226362367_fed50eb317_b.jpg,https://farm4.staticflickr.com/3678/9229137186_e50fc92f54_b.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Pam+Slim.jpg",
 video: "",
 quote: "",
 ---

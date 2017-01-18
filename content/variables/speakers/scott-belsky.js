@@ -1,6 +1,6 @@
 name: "Scott Belsky",
-headerPhotos: "https://farm9.staticflickr.com/8167/7525314368_8d65e6b786_c.jpg,https://farm8.staticflickr.com/7274/7525313974_4ae42f0787_c.jpg,https://farm8.staticflickr.com/7247/7525313492_a831002c08_c.jpg"
-photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Scott+Belsky.jpg"
+headerPhotos: "https://farm9.staticflickr.com/8167/7525314368_8d65e6b786_c.jpg,https://farm8.staticflickr.com/7274/7525313974_4ae42f0787_c.jpg,https://farm8.staticflickr.com/7247/7525313492_a831002c08_c.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Scott+Belsky.jpg",
 video: "//player.vimeo.com/video/49835760?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---

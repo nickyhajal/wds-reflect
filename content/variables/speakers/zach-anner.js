@@ -1,6 +1,6 @@
 name: "Zach Anner",
 headerPhotos: "https://c1.staticflickr.com/9/8587/28912796851_af0f4a7288_b.jpg,https://c1.staticflickr.com/9/8299/28883938652_dbaf105039_b.jpg,https://c1.staticflickr.com/9/8806/28372188003_a42ef22998_b.jpg,https://c1.staticflickr.com/9/8084/28703054730_fc57804e46_b.jpg",
-photo: "https://s3.amazonaws.com/el-files-wds/images/photos/zach-anner-square.png"
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/zach-anner-square.png",
 video: "//player.vimeo.com/video/183042075?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "We have a very short amount of time on the Earth and it is our responsibility to try and use that time to make a legacy and an impact. I don’t mind if anybody fails, or if anybody screws up, but if you have that voice in your head that’s telling you to do something, at least engage with that, and make it the best effort to make a mark on the world, and do it with compassion and love.",
 ---

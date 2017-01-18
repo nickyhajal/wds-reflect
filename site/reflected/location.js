@@ -11,6 +11,7 @@ import FormRow from '../components/FormRow/FormRow';
 import Input from '../components/Input/Input';
 import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
+import SpeakerList from '../components/SpeakerList/SpeakerList';
 
   import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
 
