@@ -1,6 +1,6 @@
 name: "Chris Brogan",
 headerPhotos: "https://farm8.staticflickr.com/7265/7531933544_8607b4d336_c.jpg,https://farm9.staticflickr.com/8014/7531933268_a7f05bd1f7_c.jpg,https://farm8.staticflickr.com/7257/7531930914_c8b9cd4433_c.jpg",
-photo: "https://pbs.twimg.com/profile_images/763830398908502016/cGXoBRCd.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Chris+Brogan.jpg",
 video: "//player.vimeo.com/video/48086341?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "The opposite of fear is not courage or bravery; the opposite of fear is surrender...Fear is part of courage.",
 ---
