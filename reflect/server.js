@@ -234,7 +234,7 @@ const synced = (req, res) => {
 app.get('/test', (req, res) => {
   res.send('works');
 })
-app.post('/webhook81928181994019',  (req, res) => {
+app.all('/webhook81928181994019',  (req, res) => {
   execFile('wds-reflect-sync', (err, stdout, stderr) => {
   });
   res.send('synced');
