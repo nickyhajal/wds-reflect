@@ -6,8 +6,7 @@
 >
   <Image src="heading/weekend.png" width="819px" height="217px" align="center" />
   <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px">
-    #### A full week of events and an unforgettable keynote weekend in Portland, Oregon.
-    Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”
+    #### A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”
   </Block>
 </Section>
 <Section color="white">
