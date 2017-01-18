@@ -247,5 +247,6 @@ app.get('/sync', function (req, res) {
     .then(saveRoutes)
     .then(rebuild)
     .then(() => synced(req, res));
+  });
 });
 app.listen(8128);
