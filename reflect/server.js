@@ -236,8 +236,8 @@ app.get('/test', (req, res) => {
 })
 app.get('/webhook81928181994019',  (req, res) => {
   execFile('wds-reflect-sync', (err, stdout, stderr) => {
-    res.send('synced');
   });
+  res.send('synced');
 });
 app.get('/sync', function (req, res) {
   content = [];
