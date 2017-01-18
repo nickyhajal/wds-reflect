@@ -7,36 +7,52 @@
   font-size: 18px;
   text-align: center;
   width: 100%;
+  padding: 10px 20px 0;
 }
 .avatar {
   border-radius: 50%;
-  margin: 0 auto 28px;
+  margin: 0 auto 20px;
   position: relative;
   z-index: 2;
 }
 
 .cutout {
   position: absolute;
-  top: 30px;
+  top: 100px;
   left: 0;
   z-index: 3;
   margin: 0 auto;
   right: 0;
 }
+.title p {
+  color: $orange;
+  font-size: 26px;
+  padding: 50px 0 0;
+  margin-bottom: -40px;
+  font-family: VitesseBold;
+}
 .box {
-  padding: 100px 50px 50px;
+  padding: 100px 0px 50px;
+  position: relative;
 }
 .speakerList {
-  padding: 0;
+  padding: 0 0px;
   position: relative;
   :global(.slick-arrow) {
+    display: none !important;
+  }
+  .controls button {
     width: 40px;
     height: 60px;
     background-size: 28px 46px;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: transparent;
     z-index: 6;
     cursor: pointer;
+    border: 0;
+    position: absolute;
+    top: 156px;
 
     &:before {
       display: none;
@@ -49,11 +65,21 @@
       height: 60px;
     }
 
-    &:global(.slick-prev) {
-      background-image: url("https://files.wds.fm/images/icon/arrow-left-green.png");
-    }
-    &:global(.slick-next) {
-      background-image: url("https://files.wds.fm/images/icon/arrow-right-green.png");
-    }
   }
+  .arrow-prev {
+    background-image: url("https://files.wds.fm/images/icon/arrow-left-green.png");
+    left: 25px;
+  }
+  .arrow-next {
+    background-image: url("https://files.wds.fm/images/icon/arrow-right-green.png");
+    right: 25px;
+  }
+}
+
+:global(.slick-slide.slick-active) {
+    opacity: 1;
+}
+:global(.slick-slide) {
+    opacity: 0;
+    transition: 0.2s all;
 }

@@ -110,8 +110,8 @@ form input {
       float: left;
     }
     .highlight {
-      background: #b7dbdf;
       padding: 10px;
+      position: relative;
       margin-top: -10px;
       margin-left: -10px;
       text-align: center;
@@ -121,6 +121,27 @@ form input {
       }
     }
   }
+}
+.highlight:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #b7dbdf;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border: 0;
+  }
+.highlight.highlight-1::before {
+    transform: skewX(4deg) rotate(2deg) skewY(0deg);
+}
+.highlight.highlight-2::before {
+    transform: skewX(3deg) rotate(2deg) skewY(-3deg);
+}
+.highlight.highlight-3::before {
+    transform: skewX(2deg) rotate(-1deg) skewY(0deg);
 }
 .has-checklist, .table-list {
   h2 { margin-bottom: 18px; margin-top: 15px; }

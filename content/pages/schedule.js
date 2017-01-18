@@ -21,5 +21,19 @@
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} />
   <div className="clear" />
   <SpeakerList title="WDS 2016 Speakers" />
+  <Grid>
+    <Block type="image" src="photos/fear.jpg">
+      ## Main Stage
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.
+      <Button to="/academies">Learn More</Button>
+    </Block>
+    <Block type="image" src="photos/letters.jpg">
+      ## Activities
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.
+      <Button to="/academies">Learn More</Button>
+    </Block>
+  </Grid>
+  <Block type="padded" background="sea">
+  </Block>
 </Section>
 <Import id="join-us" />

@@ -12,8 +12,11 @@ const settings = {
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 2,
-  rtl: true,
+  rtl: false,
+  centerPadding: "200px",
 };
+
+let slider;
 
 const speakerBlocks = () => {
   const out = [];
@@ -21,7 +24,7 @@ const speakerBlocks = () => {
   vars.speakers.forEach((v) => {
     const id = `speaker-${c}`;
     out.push(
-      <div styleName="box" key={id}>
+      <div styleName="box">
         <Image src="avatar-cutout.png" width="105" height="105" styleName="cutout" />
         <Image src={v.photo} width="105" height="105" styleName="avatar" />
         <div styleName="name">{v.name}</div>
@@ -32,14 +35,32 @@ const speakerBlocks = () => {
   return out;
 };
 
-const SpeakerList = (props) => {
+const renderTitle = title => (
+  (title !== undefined && title.length ? (
+    <Block styleName="title" width="100%">##{title}</Block>
+  ) : '')
+);
+
+const SpeakerList = ({ title, listSet }) => {
   return (
     <Block cols="8" bleed={false} styleName="speakerList" background="canvas">
-      <Slider {...settings}>
-        {speakerBlocks()}
-      </Slider>
+      {renderTitle(title)}
+      <div styleName="controls" className="dots-controls">
+        <button styleName="arrow-prev" onClick={() => { slider.slickPrev() }} />
+        <button styleName="arrow-next" onClick={() => { slider.slickNext() }} />
+      </div>
+      <Block cols="6">
+        <Slider ref={c => slider = c } {...settings}>
+          {speakerBlocks(listSet)}
+        </Slider>
+      </Block>
     </Block>
   );
+};
+
+SpeakerList.propTypes = {
+  title: PropTypes.string,
+  listSet: PropTypes.string,
 };
 
 export default CSSModules(SpeakerList, styles);
