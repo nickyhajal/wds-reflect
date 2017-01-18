@@ -1,4 +1,5 @@
 name: "John Francis",
+year: "2014",
 headerPhotos: "https://farm6.staticflickr.com/5513/14655149654_db02c48d8c_b.jpg,https://farm3.staticflickr.com/2939/14470754189_9b7bd6aa2e_b.jpg,https://farm6.staticflickr.com/5545/14657006352_1b4b57d4a6_b.jpg,https://farm4.staticflickr.com/3880/14470703330_46a361367d_b.jpg",
 photo: "",
 video: "//player.vimeo.com/video/102690043?byline=0&amp;portrait=0&amp;color=adbf27",
