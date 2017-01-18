@@ -1,6 +1,7 @@
 name: "Emiliya Zhivotovskay",
+year: "2016",
 headerPhotos: "https://c1.staticflickr.com/9/8586/28703009940_a989783e35_b.jpg,https://c1.staticflickr.com/9/8328/28703005150_198e9845ea_b.jpg,https://c1.staticflickr.com/9/8390/28372138143_74b3d3801d_b.jpg,https://c1.staticflickr.com/9/8580/28372126693_22eb04bb57_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Emiliya+Zhivotovskay.jpg",
 video: "//player.vimeo.com/video/183022706?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "The hero’s journey—the need to tell a story—has woven into the fabric of what it means to be human. And as we learn to talk differently to ourselves, to do the heavy lifting, we transcend being ‘homo sapien’ and ‘homo narrativus’, to become ‘homo florentissimo’—we become flourishing man.",
 ---

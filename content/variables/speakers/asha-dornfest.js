@@ -1,4 +1,5 @@
 name: "Asha Dornfest",
+year: "2015",
 headerPhotos: "https://farm4.staticflickr.com/3743/9231403243_9fe13f2384_c.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Asha+Dornfest.jpg",
 video: "//player.vimeo.com/video/134968994?byline=0&amp;portrait=0&amp;color=adbf27",

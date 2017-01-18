@@ -1,6 +1,7 @@
 name: "Gavin Aung Than",
+year: "2014",
 headerPhotos: "https://farm6.staticflickr.com/5528/14454685029_8b3656bec1_b.jpg,https://farm3.staticflickr.com/2931/14641292985_55fb3e9e11_b.jpg,https://farm3.staticflickr.com/2921/14618307696_bc3b94fd66_b.jpg,https://farm4.staticflickr.com/3889/14454886027_32582baae1_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Gavin+Aung+Than.jpg",
 video: "//player.vimeo.com/video/102629311?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "I don’t advise you to throw all caution to the wind like I did, but once in your life, taking a leap of faith is something you should try.",
 ---

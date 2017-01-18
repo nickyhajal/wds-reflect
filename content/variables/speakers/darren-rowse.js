@@ -1,6 +1,7 @@
 name: "Darren Rowse",
+year: "2013",
 headerPhotos: "https://farm6.staticflickr.com/5527/9226361671_bf39225e1b_c.jpg,https://farm3.staticflickr.com/2813/9229142338_451212eb1f_c.jpg,https://farm4.staticflickr.com/3746/9229141310_9dc114f7f8_c.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Darren+Rowse.jpg",
 video: "//player.vimeo.com/video/70159694?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---

@@ -1,6 +1,7 @@
 name: "David Fugate",
+year: "2011",
 headerPhotos: "https://farm3.staticflickr.com/2280/5800028285_3523a2f63a_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/David+Fugate.jpg",
 video: "",
 quote: "",
 ---

@@ -1,6 +1,7 @@
 name: "John Jantsch",
+year: "2014",
 headerPhotos: "https://farm4.staticflickr.com/3905/14662808415_570dba02d0_b.jpg,https://farm3.staticflickr.com/2940/14476177698_dd486981a9_b.jpg,https://farm6.staticflickr.com/5553/14476357217_328522a409_b.jpg,https://farm6.staticflickr.com/5526/14660545494_25f908b7bc_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/John+Jantsch.jpg",
 video: "//player.vimeo.com/video/102690042?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "I believe that each and every one of us has the power to change the world through the choices that we make every single day.",
 ---

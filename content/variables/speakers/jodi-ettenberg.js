@@ -1,6 +1,7 @@
 name: "Jodi Ettenberg",
+year: "2011",
 headerPhotos: "https://farm6.staticflickr.com/5240/5816271749_c274c5ceac_b.jpg,https://farm4.staticflickr.com/3305/5816270307_fa8a1db11d_b.jpg,https://farm4.staticflickr.com/3457/5816840534_c02821ffa2_b.jpg,https://farm4.staticflickr.com/3235/5816839582_e1af4eb7b0_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Jodi+Ettenberg.jpg",
 video: "//player.vimeo.com/video/285611322?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---

@@ -1,6 +1,7 @@
 name: "Derek Sivers",
+year: "2015",
 headerPhotos: "https://farm4.staticflickr.com/3743/9231403243_9fe13f2384_c.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Derek+Sivers.jpg",
 video: "//player.vimeo.com/video/134968996?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "I've been to Disneyworld, and that's supposed to be the happiest place on Earth. It's not. I actually think that Portland, during WDS, might be the happiest place on Earth.",
 ---

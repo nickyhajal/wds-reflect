@@ -1,4 +1,5 @@
 name: "Steve Schalchlin",
+year: "2013",
 headerPhotos: "https://farm8.staticflickr.com/7398/9239550931_f0ee765d1e_c.jpg,https://farm4.staticflickr.com/3678/9242331528_3f389ec638_c.jpg,https://farm4.staticflickr.com/3680/9239544765_f6f358c6d4_c.jpg,https://farm4.staticflickr.com/3693/9242331036_ecd3436136_c.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Steve+Schalchlin.jpg",
 video: "//player.vimeo.com/video/70277459?byline=0&amp;portrait=0&amp;color=adbf27",

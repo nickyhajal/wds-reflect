@@ -1,4 +1,5 @@
 name: "Michael Hyatt",
+year: "2014",
 headerPhotos: "https://farm4.staticflickr.com/3892/14676807473_31d59b073f_b.jpg,https://farm4.staticflickr.com/3918/14633926026_eb9e49b39c_b.jpg,https://farm4.staticflickr.com/3926/14470281938_8695564f5c_b.jpg,https://farm4.staticflickr.com/3889/14470464147_82ec998384_b.jpg"
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Michael+Hyatt.jpg"
 video: "//player.vimeo.com/video/102629305?byline=0&amp;portrait=0&amp;color=adbf27",

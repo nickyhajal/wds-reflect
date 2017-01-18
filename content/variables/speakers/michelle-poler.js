@@ -1,4 +1,5 @@
 name: "Michelle Poler",
+year: "2016",
 headerPhotos: "https://c1.staticflickr.com/9/8034/28888584061_1d06568a1a_b.jpg,https://c1.staticflickr.com/9/8593/28860367272_bbf33efdbd_b.jpg,https://c1.staticflickr.com/9/8747/28888592401_82c0812e9b_b.jpg,https://c2.staticflickr.com/8/7770/28888579691_9b561f7ae1_b.jpg"
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Michelle+Poler.jpg"
 video: "//player.vimeo.com/video/181998208?byline=0&amp;portrait=0&amp;color=adbf27",

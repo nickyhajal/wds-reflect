@@ -1,4 +1,5 @@
 name: "Chris Brogan",
+year: "2012",
 headerPhotos: "https://farm8.staticflickr.com/7265/7531933544_8607b4d336_c.jpg,https://farm9.staticflickr.com/8014/7531933268_a7f05bd1f7_c.jpg,https://farm8.staticflickr.com/7257/7531930914_c8b9cd4433_c.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Chris+Brogan.jpg",
 video: "//player.vimeo.com/video/48086341?byline=0&amp;portrait=0&amp;color=adbf27",
