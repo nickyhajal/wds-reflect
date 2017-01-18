@@ -1,4 +1,5 @@
 name: "Jadah Sellner",
+year: "2014",
 headerPhotos: "https://farm6.staticflickr.com/5583/14454898417_d73571029e_b.jpg,https://farm6.staticflickr.com/5033/14454698868_ef63f2dc3d_b.jpg,https://farm4.staticflickr.com/3868/14618318286_2cce1b5cb7_b.jpg,https://farm4.staticflickr.com/3898/14640874552_81a5fc3f97_b.jpg",
 photo: "",
 video: "//player.vimeo.com/video/102690002?byline=0&amp;portrait=0&amp;color=adbf27",
