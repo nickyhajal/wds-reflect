@@ -1,7 +1,7 @@
 name: "Karen Walrond",
 year: "2011",
 headerPhotos: "https://farm4.staticflickr.com/3650/5816846976_275a3bf79f_b.jpg,https://farm3.staticflickr.com/2104/5816846444_fb853263b2_b.jpg,https://farm3.staticflickr.com/2514/5816843972_724e92479d_b.jpg,https://farm3.staticflickr.com/2155/5816842572_25f391f533_b.jpg,https://farm4.staticflickr.com/3223/5816844616_bec1ab357c_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Karen+Walrond.jpg",
 video: "//player.vimeo.com/video/28561944?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "",
 ---
