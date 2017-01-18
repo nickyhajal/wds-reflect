@@ -1,4 +1,5 @@
 name: "A.J. Jacobs",
+year: "2014",
 headerPhotos: "https://farm6.staticflickr.com/5562/14638069811_1a5acbcd9a_b.jpg,https://farm4.staticflickr.com/3871/14454650740_175e7c4551_b.jpg,https://farm4.staticflickr.com/3842/14639135454_ec58f86ac4_b.jpg,https://farm6.staticflickr.com/5557/14641305855_3b98614438_b.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/AJ+Jacobs.jpg",
 video: "//player.vimeo.com/video/102629302?byline=0&amp;portrait=0&amp;color=adbf27",
