@@ -1,6 +1,6 @@
 name: "Elise Blaha Cripe",
 headerPhotos: "https://farm4.staticflickr.com/3836/14470997737_75f2b057aa_b.jpg,https://farm4.staticflickr.com/3921/14470801909_e66d2ee3a5_b.jpg,https://farm4.staticflickr.com/3903/14634459036_fa1b776823_b.jpg,https://farm6.staticflickr.com/5519/14470818358_97fe668924_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Elise+Blaha+Cripe.jpg",
 video: "//player.vimeo.com/video/102690004?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "You just do. You do it before you know the outcome. You start before you know how you’re going to finish. You set the goal before you have the skills to finish it. And you get uncomfortable, because that is what pushes you further.",
 ---
