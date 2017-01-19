@@ -1,7 +1,7 @@
 name: "Chris Guillebeau",
 year: "2011",
-headerPhotos: "",
-photo: "",
+headerPhotos: "https://farm1.staticflickr.com/309/19635556795_066b76fc74_k.jpg",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Chris+Guillebeau.jpg",
 video: "",
 quote: "",
 ---
