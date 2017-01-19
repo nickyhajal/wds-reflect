@@ -53,7 +53,7 @@
       </Block>
       <Block type="caption" src="photos/airport.png" css={{ left: '50px', top: '11px' }}>
         ### PDX Airport
-        **12.6 Mi** from Base
+        **12.6 Mi** from Base<Link to="/https://goo.gl/maps/teMTfSt4MzQ2">
       </Block>
     </Block>
     <div className="clear" />
@@ -63,26 +63,26 @@
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel), all within walking distance or a quick ride on public transit to WDS events and activities:
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="photos/hotel-wide.png" width="100%" height="302" />
+    <Image src="photos/Hotel-Modera-Lobby.png" width="100%" height="302" />
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Block type="caption" src="photos/hotel.png">
+    <Block type="caption" src="photos/WDS-Hotel-Society.jpg" label="Coming Soon">
       ### The WDS Hotel
       **0.8 Mi** from Base
     </Block>
-    <Block type="caption" src="photos/hotel.png">
+    <Block type="caption" src="photos/Paramount-Hotel.jpg" label="Coming Soon">
       ### Paramount Hotel
       **0.1 Mi** from Base
     </Block>
-    <Block type="caption" src="photos/hotel.png" label="Booking Code: WDS2017">
+    <Block type="caption" src="photos/Hotel-Modera-Exterior.jpg" label="Coming Soon">
       ### Hotel Modera
       **0.3 Mi** from Base
     </Block>
-    <Block type="caption" src="photos/hotel.png" label="Special Deal until 04/17">
+    <Block type="caption" src="photos/HiLo-Hotel-Exterior.jpg" label="Coming Soon">
       ### Hi-Lo Hotel
       **0.5 Mi** from Base
     </Block>
-    <Block type="caption" src="photos/hotel.png" label="Booking Code: WDS2017">
+    <Block type="caption" src="photos/Jupiter-Hotel-exterior.jpg" label="Coming Soon">
       ### Jupiter Hotel
       **1.5 Mi** from Base
     </Block>
@@ -93,17 +93,20 @@
     If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Block type="caption" src="photos/hotel.png">
+    <Block type="caption" src="photos/Cyrstal.Hotel.jpg">
       ### Crystal Hotel
       **0.6 Mi** from Base
+      <Link to="/www.mcmenamins.com/CrystalHotel">
     </Block>
-    <Block type="caption" src="photos/hotel.png">
+    <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### Portland Northwest Hostel
       **1.0 Mi** from Base
+      <Link to="/nwportlandhostel.com/">
     </Block>
-    <Block type="caption" src="photos/hotel.png">
-      ### Airbnb listings close to base
-      **{"< than .5 Mi"}** from Base
+    <Block type="caption" src="photos/PDX-airbnb.jpg">
+      ### Airbnb listings
+      **.5 Mi** from Base
+      <Link to="/https://goo.gl/yOaB4l">
     </Block>
   </Block>
   <div className="clear" />
@@ -114,25 +117,25 @@
     </Block>
     <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
       <Image src="icon/circle-map-green.png" align="center" width="153" height="130" margin="0 0 48px 0" />
-      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown (Portland's bike share program)</Button>
+      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
     </Block>
     <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
       ## Transportation
-      Portland has one the best public transit systems in the country - no need to rent a car during your whole time in the city. Of our many options Portland's fast-and-easy light rail service (MAX) goes directly from the airport to downtown for $2.50. Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new Bike Share program.
+      Portland has one the best public transit systems in the country - no need to rent a car during your whole time in the city. Of our many options Portland's fast-and-easy light rail service (MAX) goes directly from the airport to downtown for $2.50. Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new bikehsare program Biketown.
     </Block>
     <div className="clear" />
   </Block>
   <Block margin="125px 0 50px 0">
     ## Food & Dining
-    <Block type="image-narrow" src="photos/food.png">
+    <Block type="image-narrow" src="photos/food-carts.jpg">
       ## Food Carts
       <Button to="/schedule" fitToText>View More</Button>
     </Block>
-    <Block type="image-narrow" src="photos/food.png">
+    <Block type="image-narrow" src="photos/restaurants.jpg">
       ## Restaurants
       <Button to="/schedule" fitToText>View More</Button>
     </Block>
-    <Block type="image-narrow" src="photos/food.png">
+    <Block type="image-narrow" src="photos/farmers-market.jpg">
       ## Farmer&apos;s Markets
       <Button to="/schedule" fitToText>View More</Button>
     </Block>
