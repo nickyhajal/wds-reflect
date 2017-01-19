@@ -53,8 +53,7 @@
       </Block>
       <Block type="caption" src="photos/airport.png" css={{ left: '50px', top: '11px' }}>
         ### PDX Airport
-        **12.6 Mi** from Base<Link to="/https://goo.gl/maps/teMTfSt4MzQ2">
-      </Block>
+        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">**12.6 Mi** from Base</Link>
     </Block>
     <div className="clear" />
   </Block>
@@ -95,18 +94,15 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Block type="caption" src="photos/Cyrstal.Hotel.jpg">
       ### Crystal Hotel
-      **0.6 Mi** from Base
-      <Link to="/www.mcmenamins.com/CrystalHotel">
+      <Link to="http://www.mcmenamins.com/CrystalHotel">**0.6 Mi** from Base</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### Portland Northwest Hostel
-      **1.0 Mi** from Base
-      <Link to="/nwportlandhostel.com/">
+      <Link to="http://nwportlandhostel.com/">**1.0 Mi** from Base</Link>
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb listings
-      **.5 Mi** from Base
-      <Link to="/https://goo.gl/yOaB4l">
+      <Link to="https://goo.gl/yOaB4l">**.5 Mi** from Base</Link>
     </Block>
   </Block>
   <div className="clear" />
