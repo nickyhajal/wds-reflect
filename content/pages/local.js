@@ -16,19 +16,19 @@
     ## WDS Local Group Directory
     <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California
-      <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/minneapolis.st.paul.WDS.local.png">
       ## Minneapolis/St.Paul, Minnesota
-      <Button to="https://www.facebook.com/groups/WDSLocalMSP/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/WDSLocalMSP/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/new.york.city.WDS.local.png">
       ## New York City, New York
-      <Button to="https://www.facebook.com/groups/NYCWDS/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/NYCWDS/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/philadelphia.WDS.local.png">
       ## Philadelphia, Pennsylvania
-      <Button to="https://www.facebook.com/groups/WDSLocalPhiladelphia/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/WDSLocalPhiladelphia/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/portland.wds.local.jpg">
       ## Portland, Oregon
@@ -36,31 +36,31 @@
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/san.diego.WDS.local.jpg">
       ## San Diego, California
-      <Button to="https://www.facebook.com/groups/362794770457200/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/362794770457200/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/san.francisco.WDS.local.png">
       ## San Francisco, California
-      <Button to="https://www.facebook.com/groups/BayAreaWDSAlums/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/BayAreaWDSAlums/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/seattle.WDS.local.jpg">
       ## Seattle, Washington
-      <Button to="https://www.facebook.com/groups/WDSLocalSeattle/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/WDSLocalSeattle/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/toronto.WDS.local.png">
       ## Toronto, Canada
-      <Button to="https://www.facebook.com/groups/WDSToronto/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/WDSToronto/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/vanouver.WDS.local.png">
       ## Vancouver, Canada
-      <Button to="https://www.facebook.com/groups/VancouverWDS/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/VancouverWDS/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/victoria.WDS.local.png">
       ## Victoria, Canada
-      <Button to="https://www.facebook.com/groups/121832781617165/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/121832781617165/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/washington.dc.WDS.local.png">
       ## Washington, D.C.
-      <Button to="https://www.facebook.com/groups/263193840458019/" fitToText>Join Up</Button>
+      <Button to="https://www.facebook.com/groups/263193840458019/" newWindow={true} fitToText>Join Up</Button>
     </Block>
   </Block>
    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
