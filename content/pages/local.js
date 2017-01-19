@@ -81,8 +81,9 @@
   <Block cols="6" css={{ padding: '50px 0 20px' }}>
    ## Get Connected
 <font color="white">Does this sound like you? Click on the button below and we'll do our best to get you connected to a local group or help you start one in your area if it's possible.</font>
-
-<Button to="http://bit.ly/WDS-Local-Interest-Form" newWindow={true} styling="white" fitToText>Connect me to a group</Button>     
+<p>
+<Button to="http://bit.ly/WDS-Local-Interest-Form" newWindow={true} styling="white" fitToText>Connect me to a group</Button> 
+</p>    
  </Block>
 </Section>
 <Import id="join-us" />
