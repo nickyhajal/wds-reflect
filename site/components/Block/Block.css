@@ -254,7 +254,7 @@
     color: $white;
   }
 };
-:global(.block-color-orange).block-padded {
+:global(.block-color-orange).block-padded, :global(.block-color-sea).block-padded {
   h2, p {
     color: $white;
   }

@@ -103,7 +103,7 @@
     </Block>
     <Block type="caption" src="photos/hotel.png">
       ### Airbnb listings close to base
-      **< than .5 Mi** from Base
+      **{"< than .5 Mi"}** from Base
     </Block>
   </Block>
   <div className="clear" />

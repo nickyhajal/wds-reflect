@@ -29,7 +29,6 @@ String.prototype.indexOfRegex = function(regex, fromIndex = 0){
 
 const read = (path, onFile, final) => (
   new Promise((resolve, reject) => {
-    console.info('loadzp');
     if (fs.lstatSync(path).isDirectory()) {
       fs.readdir(path, (err, files) => {
         async.each(files, (file, cb) => {
@@ -57,7 +56,6 @@ const urlFromPath = (path, full) => {
 
 const loadGlobals = () => (
   new Promise((resolve, reject) => {
-    console.info('loadq');
     const dir = `${base}global`;
     read(dir, (file, data) => (
       new Promise((resolve, reject) => {
@@ -70,7 +68,6 @@ const loadGlobals = () => (
 
 const loadConfig = () => (
   new Promise((resolve, rej) => {
-    console.info('loadz');
     const path = `${base}config/`;
     const importPath = `${path}import.js`;
     if (fs.existsSync(importPath)) {
@@ -84,7 +81,6 @@ const loadConfig = () => (
 
 const loadContent = () => (
   new Promise((resolve, reject) => {
-    console.info('loadc');
     const contentDir = `${base}pages`;
     read(contentDir, (file, data) => (
       new Promise((resolve, reject) => {
@@ -101,8 +97,6 @@ const loadContent = () => (
 );
 
 var setDeepValue = function(obj, path, value) {
-  console.info(path);
-    console.info('loadal');
     if (path.indexOf('.') === -1) {
       value.path = path;
       obj.push(value);
@@ -119,7 +113,6 @@ var setDeepValue = function(obj, path, value) {
 };
 const loadVariables = () => (
   new Promise((resolve, reject) => {
-    console.info('loadv');
     const dir = `${base}variables`;
     read(dir, (file, data) => (
       new Promise((resolve, reject) => {
@@ -155,11 +148,11 @@ const loadVariables = () => (
 
 const saveVariables = () => (
   new Promise((resolve, reject) => {
-    console.info('loadz');
     const core = `${outDir}../core/`
     let final = `export default ${JSON.stringify(variables)};`;
     fs.writeFile(`${core}vars.js`, final, (err) => {
-      resolve();
+      if (err) { reject(err) }
+      else { resolve(); }
     })
   })
 );
@@ -288,7 +281,8 @@ const saveRoutes = () => (
       final = final.replace('%imports%', imports);
       final = final.replace('%pages%', pages);
       fs.writeFile(`${core}pages.js`, final, (err) => {
-        resolve();
+        if (err) { reject(err); }
+        else { resolve(); }
       })
     });
   })
@@ -298,8 +292,8 @@ const rebuild = () => (
     console.info("Reflected, now rebuilding...");
     const cmd = "node run build";
     exec(cmd, {cwd: "../site"}, (error, stdout, stderr) => {
-      console.info(stdout);
-      resolve();
+      if (error) { reject(error) }
+      else {console.info(stdout); resolve(); }
     });
   })
 )
