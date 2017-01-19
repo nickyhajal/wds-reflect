@@ -53,7 +53,7 @@
       </Block>
       <Block type="caption" src="photos/airport.png" css={{ left: '50px', top: '11px' }}>
         ### PDX Airport
-        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">**12.6 Mi** from Base</Link>
+        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">12.6 Mi from Base</Link>
       </Block>
     </Block>
     <div className="clear" />
@@ -66,7 +66,7 @@
     <Image src="photos/Hotel-Modera-Lobby.png" width="100%" height="302" />
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Block type="caption" src="photos/WDS-Hotel-Society.jpg" label="Coming Soon">
+    <Block type="caption" src="photos/society-hotel.jpg" label="Coming Soon">
       ### The WDS Hotel
       **0.8 Mi** from Base
     </Block>
@@ -95,15 +95,15 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Block type="caption" src="photos/Cyrstal.Hotel.jpg">
       ### Crystal Hotel
-      <Link to="http://www.mcmenamins.com/CrystalHotel">**0.6 Mi** from Base</Link>
+      <Link to="http://www.mcmenamins.com/CrystalHotel.jpg">0.6 Mi from Base</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
-     ### Portland Northwest Hostel
-      <Link to="http://nwportlandhostel.com/">**1.0 Mi** from Base</Link>
+     ### Portland NW Hostel
+      <Link to="http://nwportlandhostel.com/">1.0 Mi from Base</Link>
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb listings
-      <Link to="https://goo.gl/yOaB4l">**.5 Mi** from Base</Link>
+      <Link to="https://goo.gl/yOaB4l">.5 Mi from Base</Link>
     </Block>
   </Block>
   <div className="clear" />
@@ -113,7 +113,7 @@
       <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>
     </Block>
     <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
-      <Image src="icon/circle-map-green.png" align="center" width="153" height="130" margin="0 0 48px 0" />
+      <Image src="icon/outline-bike.png" align="center" width="153" height="130" margin="0 0 48px 0" />
       <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
     </Block>
     <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
@@ -141,17 +141,17 @@
     ## The City
     You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       
     <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/hawthorne.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-      ## Neighbourhoods & Hawthorne
+      ## Neighborhoods: & Hawthorne
       Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
     </Block>
     <div className="clear" />
-    <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/downtown.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-      ## Neighbourhood & West Side / Downtown
+    <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      ## Neighborhoods: NW & Pearl
       Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.
     </Block>
-    <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+    <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
       ## Powell’s Books
-     No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at <a href="https://goo.gl/maps/TC3PAN9f3jy" target="_blank">1005 W Burnside St.</a>.
+     No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at <Link to="https://goo.gl/maps/TC3PAN9f3jy" target="_blank">1005 W Burnside St.</Link>.
     </Block>
     <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
       ## Waterfront
