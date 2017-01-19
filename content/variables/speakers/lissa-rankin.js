@@ -1,7 +1,7 @@
 name: "Lissa Rankin",
 year: "2015",
 headerPhotos: "https://farm8.staticflickr.com/7438/9242331680_8926700e54_b.jpg",
-photo: "",
+photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Lissa+Rankin.jpg",
 video: "//player.vimeo.com/video/142905975?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "We need you. We need you to stand up and step into your purpose. Find the courage to use your voice, use your gifts, say yes to adventure, and to call upon one another for help.",
 ---
