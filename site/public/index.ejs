@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= config.title %></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB0f6-yOVfqeOdkaomM-eVuhIyWq3rHOTw"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+  </head>
+  <body>
+    <script type="text/javascript" src="//fast.fonts.net/jsapi/18e0316b-0c7c-4e34-aa90-b7c55bbddde0.js"></script>
+    <div id="root"></div>
+    <script src="<%= bundle %>"></script>
+    <%_ if (!debug && config.trackingID) { _%>
+    <script>
+      window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+      ga('create','<%= config.trackingID %>','auto');ga('send','pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <%_ } _%>
+    <script type="text/javascript" src="https://js.stripe.com/v2/" async defer></script>
+    <div id="polygons">
+        <svg width="0" height="0">
+          <defs>
+            <clipPath id="hl1" clipPathUnits="objectBoundingBox">
+              <polygon points="0 0, 1 0, 1 1, 0 0.5" />
+            </clipPath>
+          </defs>
+        </svg>
+
+    </div>
+    <div id="preloads"></div>
+  </body>
+</html>

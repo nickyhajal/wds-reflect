@@ -10,9 +10,8 @@ lib-cov
 pids
 logs
 
-public
-site/public
-site/public/*
+site/public/dist
+site/public/index.html
 npm-debug.log
 node_modules
 images/markers
