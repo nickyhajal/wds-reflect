@@ -136,10 +136,6 @@
       ## Farmer&apos;s Markets
       <Button to="/schedule" fitToText>View More</Button>
     </Block>
-  <Block type="image-narrow" src="photos/food.png">
-      ## Coffee & Beer
-  <Button to="/schedule" fitToText>View More</Button>
-    </Block>
   </Block>
   <Block margin="125px 0 50px 0">
     ## The City
