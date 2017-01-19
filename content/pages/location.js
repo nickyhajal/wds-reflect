@@ -54,6 +54,7 @@
       <Block type="caption" src="photos/airport.png" css={{ left: '50px', top: '11px' }}>
         ### PDX Airport
         <Link to="https://goo.gl/maps/teMTfSt4MzQ2">**12.6 Mi** from Base</Link>
+      </Block>
     </Block>
     <div className="clear" />
   </Block>
