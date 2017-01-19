@@ -119,7 +119,7 @@ import SpeakerList from '../components/SpeakerList/SpeakerList';
     </Block>
     <Block type="caption" src="photos/hotel.png">
       ### Airbnb listings close to base{'\n'}
-      **{"< than .5 Mi"}** from Base{'\n'}
+      **&lt; 0.5 Mi** from Base{'\n'}
     </Block>
   </Block>
   <div className="clear" />{'\n'}
@@ -140,43 +140,49 @@ import SpeakerList from '../components/SpeakerList/SpeakerList';
   </Block>
   <Block margin="125px 0 50px 0">
     ## Food & Dining{'\n'}
-    <Block type="image-narrow" src="photos/food.png">
-      ## Food Carts{'\n'}
-      <Button to="/schedule" fitToText>View More</Button>
-    </Block>
-    <Block type="image-narrow" src="photos/food.png">
-      ## Restaurants{'\n'}
-      <Button to="/schedule" fitToText>View More</Button>
-    </Block>
-    <Block type="image-narrow" src="photos/food.png">
-      ## Farmer&apos;s Markets{'\n'}
-      <Button to="/schedule" fitToText>View More</Button>
-    </Block>
-  <Block type="image-narrow" src="photos/food.png">
-      ## Coffee & Beer{'\n'}
-  <Button to="/schedule" fitToText>View More</Button>
-    </Block>
+    <Grid>
+      <Block type="image-narrow" src="photos/food.png">
+        ## Food Carts{'\n'}
+        <Button to="/schedule" fitToText>View More</Button>
+      </Block>
+      <Block type="image-narrow" src="photos/food.png">
+        ## Restaurants{'\n'}
+        <Button to="/schedule" fitToText>View More</Button>
+      </Block>
+      <Block type="image-narrow" src="photos/food.png">
+        ## Farmer&apos;s Markets{'\n'}
+        <Button to="/schedule" fitToText>View More</Button>
+      </Block>
+      <Block type="image-narrow" src="photos/food.png">
+        ## Coffee & Beer{'\n'}
+        <Button to="/schedule" fitToText>View More</Button>
+      </Block>
+    </Grid>
   </Block>
-  <Block margin="125px 0 50px 0">
-    ## The City{'\n'}
-    You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       {'\n'}
-    <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/hawthorne.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-      ## Neighbourhoods & Hawthorne{'\n'}
-      Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.{'\n'}
+  <Block margin="-60px 0 50px 0">
+    <Block cols="6">
+      ## The City{'\n'}
+      You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       {'\n'}
     </Block>
-    <div className="clear" />{'\n'}
-    <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/downtown.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-      ## Neighbourhood & West Side / Downtown{'\n'}
-      Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.{'\n'}
-    </Block>
-    <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-      ## Powell’s Books{'\n'}
-     No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at <a href="https://goo.gl/maps/TC3PAN9f3jy" target="_blank">1005 W Burnside St.</a>.
-    </Block>
-    <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-      ## Waterfront{'\n'}
-      Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.{'\n'}
-    </Block>
+    <Grid>
+      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/hawthorne.png" imageClip="tr:0,+10%;">
+        ## Neighbourhoods & Hawthorne{'\n'}
+        Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.{'\n'}
+      </Block>
+      <div className="clear" />{'\n'}
+      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/downtown.png" imageClip="tr:0,+10%;">
+        ## Neighbourhood & West Side / Downtown{'\n'}
+        Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.{'\n'}
+      </Block>
+      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells.png" imageClip="tr:0,+10%;">
+        ## Powell’s Books{'\n'}
+       No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at <a href="https://goo.gl/maps/TC3PAN9f3jy" target="_blank">1005 W Burnside St.</a>.
+      </Block>
+      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/waterfront.png" imageClip="tr:0,+10%;">
+        ## Waterfront{'\n'}
+        Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.{'\n'}
+      </Block>
+    </Grid>
   </Block>
 </Section>
 
