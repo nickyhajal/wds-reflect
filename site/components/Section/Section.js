@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import CSSModules from 'react-css-modules';
+import _ from 'lodash';
 import styles from './Section.css';
 import Image from '../Image/Image';
 import widther from '../../utils/widther';
@@ -29,7 +30,7 @@ const renderHeader = ({ headerImage, headerVideo, headerClip, headerSize, header
 
 const Section = (props) => {
   const p = colorize(props);
-  const shellCss = {
+  let shellCss = {
     backgroundColor: p.color,
   };
   const contentCss = {
@@ -43,12 +44,15 @@ const Section = (props) => {
   if (props.margin) {
     shellCss.margin = props.margin;
   }
+  shellCss = _.defaults(props.css, shellCss);
   return (
     <section className={`section-${props.color}`} styleName="shell" style={shellCss}>
       {renderHeader(p)}
-      <div className="contentainer" style={contentCss}>
-        {p.children}
-      </div>
+      {(props.bound ?
+        (<div className="contentainer" style={contentCss}>
+          {p.children}
+        </div>) : (p.children)
+      )}
     </section>
   );
 };
@@ -57,7 +61,8 @@ Section.propTypes = {
   color: PropTypes.string,
   clip: PropTypes.string,
   margin: PropTypes.string,
-  // bound: PropTypes.bool,
+  css: PropTypes.objectOf(PropTypes.string),
+  bound: PropTypes.bool,
 };
 Section.defaultProps = {
   color: 'white',

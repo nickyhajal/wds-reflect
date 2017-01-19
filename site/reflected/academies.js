@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 import Section from '../components/Section/Section';
 import Image from '../components/Image/Image';
 import Block from '../components/Block/Block';
@@ -12,6 +13,7 @@ import Input from '../components/Input/Input';
 import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
 import SpeakerList from '../components/SpeakerList/SpeakerList';
+import Testimonials from '../components/Testimonials/Testimonials';
 
   
   const Page = () => (

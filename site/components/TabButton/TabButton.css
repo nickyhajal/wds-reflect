@@ -4,16 +4,46 @@
   border: 0;
   color: #fff;
   font-size: 22px;
-  padding: 25px 0;
+  padding: 30px 0 20px;
   cursor: pointer;
   text-align: center;
   display: block;
   float: left;
+  position: relative;
+
+  &:nth-of-type(2):before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: rgba(0,0,0,0.1);
+  }
+  &:nth-of-type(2):after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background: rgba(0,0,0,0.1);
+  }
+  &:nth-of-type(3):before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: rgba(0,0,0,0.1);
+  }
 
   &:global(.active) {
     background-color: $canvas !important;
     color: $dark;
     font-family: KarlaBold;
+    &:before, &:after {display: none};
   }
   &:global(.tab-button-dot) {
     background-image: url("https://files.wds.fm/images/icon/dot-green-inactive.png");

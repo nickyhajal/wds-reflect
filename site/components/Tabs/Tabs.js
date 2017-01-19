@@ -6,6 +6,7 @@ import styles from './Tabs.css';
 import Image from '../Image/Image';
 import TabButton from '../TabButton/TabButton';
 import colorize from '../../utils/colorize';
+import angler from '../../utils/angler';
 
 class Tabs extends React.Component {
   constructor() {
@@ -26,7 +27,7 @@ class Tabs extends React.Component {
       });
       const tabWidth = tabWidths.reduce((a, b) => (a + b), 0);
       const diff = w - tabWidth;
-      const add = Math.floor(diff / tabWidths.length);
+      const add = +((diff / tabWidths.length).toFixed(1)) - 0.1;
       $('.tab-button', shell).each((i) => {
         tabWidths[i] += add;
       });
@@ -59,10 +60,16 @@ class Tabs extends React.Component {
   }
   renderButtons(tabs) {
     const out = [];
+    const angles = [
+      'tl:0,12%;tr:0,1%;',
+      'tl:0,6%;tr:0,17%;',
+      'tl:0,12%;tr:0,10%;',
+      'tl:0,6%;tr:0,12%;',
+    ];
     if (this.props.style === 'dots') {
       out.push(
         <div key="dotscontrols" styleName="dots-controls" className="dots-controls">
-          <button key="btn-arrow-left" styleName="arrow-prev" onClick={() => { this.prev()}} />
+          <button key="btn-arrow-left" styleName="arrow-prev" onClick={() => { this.prev() }} />
           <button key="btn-arrow-right" styleName="arrow-next" onClick={this.next} />
           <Image key="button-line" src="icon/stroke-white.png" styleName="dots-line" width="794" height="4" />
         </div>
@@ -75,6 +82,10 @@ class Tabs extends React.Component {
       if (this.state.tabWidths && this.state.tabWidths[i] !== undefined) {
         css.width = `${this.state.tabWidths[i]}px`;
       }
+      const angle = t.props.clip !== undefined ? t.props.clip : angles[i];
+      const finalClip = angler(angle);
+      css.clipPath = finalClip;
+      css.WebkitClipPath = finalClip;
       const tab = (
         <TabButton
           key={key}
@@ -93,7 +104,7 @@ class Tabs extends React.Component {
   }
   render() {
     const tabs = this.props.children;
-    let style ='tabs-normal';
+    let style = 'tabs-normal';
     if (this.props.style.length) {
       style = `tabs-${this.props.style}`;
     }
@@ -114,6 +125,7 @@ class Tabs extends React.Component {
 
 Tabs.propTypes = {
   style: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
 };
 
 Tabs.defaultProps = {

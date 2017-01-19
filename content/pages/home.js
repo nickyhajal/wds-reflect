@@ -23,7 +23,7 @@
     We’re doing it again in 2017, and all that’s missing is YOU!
   </Block>
 </Section>
-<Section color="green">
+<Section color="green" css={{ padding: '90px 0 230px 0' }}>
   <Block type="padded" cols="6" bleed={false} background="canvas" className="has-checklist" css={{ padding: '60px 40px' }} clip="top_lr_1.6">
     ## A WDS Weekend Includes:
 
@@ -36,6 +36,7 @@
     - A special community that will support you for life
   </Block>
 </Section>
+<Testimonials />
 <Section color="white">
   <Block cols="6" css={{ marginBottom: '96px' }} className="bigger">
     ## Take the Tour

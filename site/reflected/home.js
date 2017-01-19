@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 import Section from '../components/Section/Section';
 import Image from '../components/Image/Image';
 import Block from '../components/Block/Block';
@@ -12,6 +13,7 @@ import Input from '../components/Input/Input';
 import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
 import SpeakerList from '../components/SpeakerList/SpeakerList';
+import Testimonials from '../components/Testimonials/Testimonials';
 
   
   const Page = () => (
@@ -41,7 +43,7 @@ import SpeakerList from '../components/SpeakerList/SpeakerList';
     We’re doing it again in 2017, and all that’s missing is YOU!{'\n'}
   </Block>
 </Section>
-<Section color="green">
+<Section color="green" css={{ padding: '90px 0 230px 0' }}>
   <Block type="padded" cols="6" bleed={false} background="canvas" className="has-checklist" css={{ padding: '60px 40px' }} clip="top_lr_1.6">
     ## A WDS Weekend Includes:{'\n'}
 
@@ -54,6 +56,7 @@ import SpeakerList from '../components/SpeakerList/SpeakerList';
     - A special community that will support you for life{'\n'}
   </Block>
 </Section>
+<Testimonials />
 <Section color="white">
   <Block cols="6" css={{ marginBottom: '96px' }} className="bigger">
     ## Take the Tour{'\n'}

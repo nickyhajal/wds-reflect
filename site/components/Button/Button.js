@@ -27,7 +27,7 @@ class Button extends React.Component {
 
   render() {
     const {
-      component, onClick, className, to, href, children, fitToText
+      component, onClick, className, to, href, children, fitToText,
     } = this.props;
     let {
       styling, style, width, align,
