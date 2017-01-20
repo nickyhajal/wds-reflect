@@ -13,14 +13,14 @@
     - **Tuesday** Small Group Activities and Attendee-Led Meetups
     - **Wednesday** Small Group Activities and Attendee-Led Meetups
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
-    <li><b className="highlight highlight-1">Friday</b> Big Adventure, Academies, Opening Party</li>
+    <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
     <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
     - **Monday** Academies and Attendee-Led Meetups
   </Block>
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} />
   <div className="clear" />
-  <SpeakerList title="WDS 2016 Speakers" />
+  <SpeakerList title="Alumni Speakers" />
   <Grid margin="0 0 -80px 0">
     <Block type="image" src="photos/fear.jpg">
       ## Main Stage
