@@ -16,17 +16,15 @@
      ## Awesome Past Academies
      A snippet of some of our most popular Academies from previous years:
 <Grid>
-<Block type="padded" clip="tl:0,5%;" color="sea">
-  <Block cols="2">
+<Block type="color" clip="tl:0,5%;" color="sea">
 ## Title
 Content
-</Block>
 </Block>
 <Block type="padded" clip="tl:0,5%;" color="orange">
 ## Title
 Content
 </Block>
-<Block type="padded" clip="tl:0,5%;" color="green">
+<Block type="color" clip="tl:0,5%;" color="green">
 ## Title
 Content
 </Block>
