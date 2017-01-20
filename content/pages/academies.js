@@ -17,20 +17,20 @@
      A snippet of some of our most popular Academies from previous years:
 <Grid>
 <Block type="color" clip="tl:0,5%;" color="sea">
-## Title
-Content
+## Pro-Blogger Academy
+How to level up your blogging game with Darren Rowse and friends
 </Block>
-<Block type="padded" clip="tl:0,5%;" color="orange">
-## Title
-Content
+<Block type="color" clip="tl:0,5%;" color="orange">
+## Travel Hacking: Launchpad to the World
+How to use miles and points to achieve your travel dreams with Stephanie Zito
 </Block>
 <Block type="color" clip="tl:0,5%;" color="green">
-## Title
-Content
+## Rejection Academy
+How to overcome fear of failure and turn rejection into opportunities with Jia Jiang
 </Block>
-<Block type="padded" clip="tl:0,5%;" color="blue">
-## Title
-Content
+<Block type="color" clip="tl:0,5%;" color="blue">
+## The Science of Happiness
+Proven strategies to live happier with Vanessa Van Edwards
 </Block>
 </Grid>
       </Block>
