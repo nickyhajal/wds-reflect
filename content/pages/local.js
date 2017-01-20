@@ -87,7 +87,7 @@
  </Block>
 </Section>
 <Section color="white">
-   <Block margin="125px 0 50px 0">
+   <Block margin="50px 0 50px 0">
     ## WDS Local Group Directory
     <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California
