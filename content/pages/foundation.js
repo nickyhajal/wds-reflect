@@ -78,7 +78,7 @@
 2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. 
   </Block>
 </Section>
-<Section color="orange">
+<Section color="green">
   <Block cols="6" css={{ padding: '50px 0 20px' }}>
    ## Become a mentor
   We know the WDS community has a lot to offer, which a wide-range of knowledge and skills from which our Voyagers from could benefit. As we gear up for our 2017 applications, we’d like to give our community members a chance to share their expertise by signing up as a mentor in advance.
