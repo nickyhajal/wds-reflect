@@ -16,19 +16,19 @@
      ## Awesome Past Academies
      A snippet of some of our most popular Academies from previous years:
 <Grid>
-<Block type="color" clip="tl:0,5%;" color="sea">
+<Block type="color" color="sea">
 ## Pro-Blogger Academy
 How to level up your blogging game with Darren Rowse and friends
 </Block>
-<Block type="color" clip="tl:0,5%;" color="orange">
-## Travel Hacking: Launchpad to the World
-How to use miles and points to achieve your travel dreams with Stephanie Zito
+<Block type="color" color="orange">
+## Launchpad to the World
+How to travel hack and use miles and points to achieve your travel dreams with Stephanie Zito
 </Block>
-<Block type="color" clip="tl:0,5%;" color="green">
+<Block type="color" color="green">
 ## Rejection Academy
 How to overcome fear of failure and turn rejection into opportunities with Jia Jiang
 </Block>
-<Block type="color" clip="tl:0,5%;" color="blue">
+<Block type="color" color="blue">
 ## The Science of Happiness
 Proven strategies to live happier with Vanessa Van Edwards
 </Block>
