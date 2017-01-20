@@ -134,8 +134,8 @@ tasks.set('start', () => {
       // For more information visit https://browsersync.io/docs/options
       if (++count === 1) {
         bs.init({
-          port: process.env.PORT || 4000,
-          ui: { port: Number(process.env.PORT || 4000) + 1 },
+          port: process.env.PORT || 5000,
+          ui: { port: Number(process.env.PORT || 5000) + 1 },
           server: {
             baseDir: 'public',
             middleware: [

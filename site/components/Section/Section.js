@@ -22,9 +22,6 @@ const renderHeader = ({ headerImage, headerVideo, headerClip, headerSize, header
       <Image src={headerImage} clip={headerClip} width="100%" height={height} position={position} styleName="headerImage" />
     );
   }
-  if (headerVideo !== undefined) {
-
-  }
   return out;
 };
 

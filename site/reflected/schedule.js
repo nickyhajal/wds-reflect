@@ -67,7 +67,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Counter format="calendar" to="ticket-sale" />
   <Block width="400px" align="center" margin="50px 0 0">
     <Form
-      list="waitlist"
+      list="WDS 2017 Waiting List"
       successMessage="Great, we'll let you know when sales start!"
       buttonStart="Get Notified"
       buttonProgress="Sending..."

@@ -5,6 +5,7 @@ import styles from './Form.css';
 import Input from '../Input/Input';
 import FormRow from '../FormRow/FormRow';
 import Button from '../Button/Button';
+import axios from 'axios';
 
 class Form extends Component {
   constructor() {
@@ -18,7 +19,32 @@ class Form extends Component {
   submit(e) {
     e.preventDefault();
     e.stopPropagation();
+    const actions = [];
     const form = this.state.form;
+    this.setState({ status: 'loading' });
+    if (this.props.list !== undefined && this.props.list) {
+      actions.push(this.submitToList);
+    }
+    actions[0]().then(this.finish);
+  }
+  submitToList() {
+    return new Promise((resolve, reject) => {
+      const req = {
+        method: 'post',
+        withCredentials: true,
+        url: 'http://api.worlddominationsummit.com/api/user/addToList',
+      };
+      req.params = {
+        list: this.props.list,
+        name: this.state.form.full_name,
+        email: this.state.form.email,
+      };
+      axios(req)
+      .then(resolve);
+    });
+  }
+  finish() {
+    this.setState({ status: 'success' });
   }
   change(e) {
     const elm = e.target;
@@ -68,6 +94,7 @@ Form.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]),
+  list: PropTypes.string,
   buttonStart: PropTypes.string,
   buttonProgress: PropTypes.string,
   buttonSuccess: PropTypes.string,
