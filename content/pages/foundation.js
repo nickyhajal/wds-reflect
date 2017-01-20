@@ -81,9 +81,7 @@
 <Section color="green">
   <Block cols="6" css={{ padding: '50px 0 20px' }}>
    ## Become A Mentor
-  <font color="white">We know the WDS community has a lot to offer, which a wide-range of knowledge and skills from which our Voyagers from could benefit. As we gear up for our 2017 applications, we’d like to give our community members a chance to share their expertise by signing up as a mentor in advance.
-
-If you would like to contribute your knowledge and expertise to our Voyagers, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your skills!</font>
+  <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
 <Button to="https://worlddominationsummit.com/foundation/mentor-submission" newWindow={true} styling="white" fitToText>Share your expertise!</Button> 
  </Block>
