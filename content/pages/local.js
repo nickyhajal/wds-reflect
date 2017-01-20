@@ -86,18 +86,4 @@
  </Block>
  </Block>
 </Section>
-<Section color="white">
-   <Block margin="50px 0 50px 0">
-    ## WDS Local Group Directory
-    <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
-      ## Los Angeles, California
-    </Block>
-    <Block type="image-narrow" src="photos/wdslocal/minneapolis.st.paul.WDS.local.png">
-      ## Minneapolis/St.Paul, Minnesota
-    </Block>
-    <Block type="image-narrow" src="photos/wdslocal/new.york.city.WDS.local.png">
-      ## New York City, New York
-    </Block>
-  </Block>
-  </Section>
 <Import id="join-us" />
