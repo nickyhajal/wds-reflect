@@ -19,7 +19,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
   const Page = () => (
     <div>
       <Section
-  headerVideo="//player.vimeo.com/video/184868405?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1"
+  headerVideo="184868405"
   headerImage="hero/balls.jpg"
   headerClip="lr_header"
   color="canvas"
@@ -29,7 +29,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
     #### A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”{'\n'}
   </Block>
 </Section>
-<Section color="white">
+<Section color="white" css={{ padding: '90px 0 230px 0' }}>
   <Block width="600px" css={{ color: 'orange' }}>
     <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
     ## July 10 - 16, 2017 in Portland, Oregon{'\n'}
@@ -44,6 +44,11 @@ import Testimonials from '../components/Testimonials/Testimonials';
   </Block>
 </Section>
 <Section color="green" css={{ padding: '90px 0 230px 0' }}>
+  <Grid>
+    <Block type="padded" width="550" height="240" anchor="right" background="sea" feed="twitter" refresh="12" margin="-235px 0 0 0">I started my day breaking a world record and ended it enjoying time with some of the coolest people on the planet. Nothing better. #WDS2015</Block>
+  </Grid>
+  <div className="clear"></div>
+  <Image src="photos/people.jpg" width="426" height="263" margin="-120px 0 -80px -50px" />
   <Block type="padded" cols="6" bleed={false} background="canvas" className="has-checklist" css={{ padding: '60px 40px' }} clip="top_lr_1.6">
     ## A WDS Weekend Includes:{'\n'}
 

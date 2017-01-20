@@ -246,6 +246,45 @@
   }
 }
 
+:global(.block-dynamic) {
+  position: relative;
+
+  .block-dynamic-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+
+    span {
+      height: 100%;
+    }
+
+    .block-tweet {
+      font-size: 26px;
+      height: auto;
+      font-family: Vitesse;
+      color: $white;
+      text-align: left;
+    }
+    .block-tweeter {
+      font-size: 1.3vw;
+      height: auto;
+      font-family: Karla;
+      color: $white;
+      position: absolute;
+      bottom: 25px;
+      left: 40px;
+    }
+  };
+  .icon {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+  }
+}
+
 :global(.section-white) .block-image{
   background: $canvas;
 }

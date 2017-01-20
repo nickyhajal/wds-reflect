@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import CSSModules from 'react-css-modules';
 import autoBind from 'react-autobind';
 import { Link } from 'react-router';
+import Modals from '../../components/Modals/Modals';
 
 
 // import Auth from '~/containers/Auth';
@@ -36,6 +37,7 @@ export class App extends Component {
             © World Domination Summit 2011-2017
           </div>
         </div>
+        <Modals />
       </div>
     );
   }

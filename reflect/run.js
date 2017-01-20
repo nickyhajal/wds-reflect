@@ -134,7 +134,8 @@ const loadVariables = () => (
             }
           }
         });
-        const obj = eval(`({${json}})`);
+        json = (json.indexOf('[') === 0 || json.indexOf('{') === 0) ? JSON.stringify(JSON.parse(json)) : `{${json}}` ;
+        const obj = eval(`(${json})`);
         if (content.length) {
           obj.autocontent = content;
         }

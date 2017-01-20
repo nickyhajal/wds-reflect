@@ -46,7 +46,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
         <Block type="4col">
           ## Highlights{'\n'}
           - 6 Days of Community, Service & Adventure{'\n'}
-          - Overcoming our fears with =speaker={'\n'}
+          - Overcoming our fears with Michelle Poler{'\n'}
           - Dancing Jellyfish!{'\n'}
         </Block>
         <Block type="4col">
@@ -55,7 +55,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
         </Block>
         <Block type="4col">
           ## Popular Speakers{'\n'}
-          "The best time to build a website is at 4:21AM" -Nicky Hajal{'\n'}
+          "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Rev. angel Kyodo williams{'\n'}
         </Block>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
@@ -63,20 +63,88 @@ import Testimonials from '../components/Testimonials/Testimonials';
         <Block type="image" src="photos/trex.jpg">
           ## 2016 Photos {'\n'}{'\n'}
           2016 had some great moment, check out the photos!{'\n'}{'\n'}
-          <Button to="/academies">View Them</Button>
+          <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157669269939103">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2016 Videos{'\n'}{'\n'}
           2016 had some great moment, check out the videos!{'\n'}{'\n'}
-          <Button to="/academies">View Them</Button>
+          <Button to="https://vimeo.com/album/4366453">Watch Them</Button>
         </Block>
       </div>
     </Tab>
     <Tab title="2015">
       <Image src="art/legacy-2015.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+        <div>
+        <Block type="4col">
+          ## Year Five{'\n'}
+          July 9-11{'\n'}
+          Portland, OR{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Highlights{'\n'}
+          - 6 Days of Community, Service & Adventure{'\n'}
+          - Overcoming our fears with Michelle Poler{'\n'}
+          - Dancing Jellyfish!{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Big Surprise{'\n'}
+          WDS Tattoos on stage!{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Popular Speakers{'\n'}
+          "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Rev. angel Kyodo williams{'\n'}
+        </Block>
+      </div>
+      <div className="clear" style={{ paddingTop: '80px' }} />
+      <div>
+        <Block type="image" src="photos/trex.jpg">
+          ## 2015 Photos {'\n'}{'\n'}
+          2016 had some great moment, check out the photos!{'\n'}{'\n'}
+          <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
+        </Block>
+         <Block type="image" src="photos/chelsea.jpg">
+          ## 2015 Videos{'\n'}{'\n'}
+          2016 had some great moment, check out the videos!{'\n'}{'\n'}
+          <Button to="https://vimeo.com/album/4366453">Watch Them</Button>
+        </Block>
+      </div>
     </Tab>
     <Tab title="2014">
       <Image src="art/legacy-2014.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+        <div>
+        <Block type="4col">
+          ## Year Four{'\n'}
+          July 9-11{'\n'}
+          Portland, OR{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Highlights{'\n'}
+          - 6 Days of Community, Service & Adventure{'\n'}
+          - Overcoming our fears with Michelle Poler{'\n'}
+          - Dancing Jellyfish!{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Big Surprise{'\n'}
+          WDS Tattoos on stage!{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Popular Speakers{'\n'}
+          "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Rev. angel Kyodo williams{'\n'}
+        </Block>
+      </div>
+      <div className="clear" style={{ paddingTop: '80px' }} />
+      <div>
+        <Block type="image" src="photos/trex.jpg">
+          ## 2015 Photos {'\n'}{'\n'}
+          2016 had some great moment, check out the photos!{'\n'}{'\n'}
+          <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
+        </Block>
+         <Block type="image" src="photos/chelsea.jpg">
+          ## 2015 Videos{'\n'}{'\n'}
+          2016 had some great moment, check out the videos!{'\n'}{'\n'}
+          <Button to="https://vimeo.com/album/4366453">Watch Them</Button>
+        </Block>
+      </div>
     </Tab>
     <Tab title="2013">
       <Image src="art/legacy-2013.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>

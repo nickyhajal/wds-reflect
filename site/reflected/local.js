@@ -98,7 +98,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
      </Block>
 </Section>
 <Section color="sea">
-  <Block cols="5" css={{ padding: '50px 0 20px' }}>
+  <Block cols="5" css={{ padding: '20px 0 20px' }}>
    ## Get Connected{'\n'}
 <font color="white">Does this sound like you? Click on the button below and we'll do our best to get you connected to a local group or help you start one in your area if it's possible.</font>
 <Block anchor="center" align="center" width="300" margin="20px 0 0 0">

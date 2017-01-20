@@ -127,11 +127,11 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <div className="clear" />{'\n'}
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="orange">
     <Block anchor="left" align="none" width="222" margin="0 40px 0 0">
-      <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="26px 0 48px 0" />{'\n'}
+      <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="28px 0 48px 0" />{'\n'}
       <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>
     </Block>
     <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
-      <Image src="icon/circle-map-green.png" align="center" width="145" height="130" margin="26px 0 48px 0" />{'\n'}
+      <Image src="icon/bike-green-circle.png" align="center" width="145" height="130" margin="28px 0 48px 0" />{'\n'}
       <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
     </Block>
     <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
@@ -160,7 +160,7 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
   <Block margin="125px 0 50px 0">
     ## The City{'\n'}
     You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       {'\n'}
-    <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/hawthorne.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+    <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
       ## Neighborhoods: & Hawthorne{'\n'}
       Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.{'\n'}
     </Block>

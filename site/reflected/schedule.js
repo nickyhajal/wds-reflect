@@ -28,19 +28,20 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" />
   <Image src="photos/audience.png" width="426" height="263" margin="0 0 -100px -50px" />
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px' }} clip="top_lr_1.6">
-    ## A WDS Week of 2017{'\n'}
+    ## A Week of WDS: July 11th - 17th, 2017{'\n'}
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups{'\n'}
     - **Wednesday** Small Group Activities and Attendee-Led Meetups{'\n'}
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups{'\n'}
-    <li><b className="highlight highlight-1">Friday</b> Big Adventure, Academies, Opening Party</li>
+    <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
     <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
     - **Monday** Academies and Attendee-Led Meetups{'\n'}
+      <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>
   </Block>
-  <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} />
-  <div className="clear" />
-  <SpeakerList title="WDS 2016 Speakers" />
+  <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} />{'\n'}
+  <div className="clear" />{'\n'}
+  <SpeakerList title="Alumni Speakers" />{'\n'}
   <Grid margin="0 0 -80px 0">
     <Block type="image" src="photos/fear.jpg">
       ## Main Stage{'\n'}

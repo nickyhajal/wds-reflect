@@ -28,6 +28,11 @@ const icons = {
     w: '122px',
     h: '65px',
   },
+  twitter: {
+    src: 'icon/outline-tweet.png',
+    w: '82px',
+    h: '66px',
+  },
 };
 
 const Image = (props) => {

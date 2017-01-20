@@ -68,6 +68,32 @@ p {
   }
 }
 
+.tweet-enter {
+  opacity: 0.01;
+}
+
+.tweet-enter.tweet-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in 0.2s;
+}
+
+.tweet-leave {
+  opacity: 1;
+}
+
+.tweet-leave.tweet-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+.tweet-appear {
+  opacity: 0.01;
+}
+
+.tweet-appear.tweet-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in 0.2s;
+}
+
 .image-left {
   margin-right: 50px;
 }

@@ -19,6 +19,9 @@ export default function tasks(state = false, action) {
     case C.MODAL_SET_VISIBILITY: {
       return state.set('visibility', action.visibility);
     }
+    case C.MODAL_SET_DATA: {
+      return state.set('data', action.data);
+    }
     default:
       return state;
   }

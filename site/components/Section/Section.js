@@ -1,4 +1,6 @@
 import React, { PropTypes } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import CSSModules from 'react-css-modules';
 import _ from 'lodash';
 import styles from './Section.css';
@@ -6,9 +8,15 @@ import Image from '../Image/Image';
 import widther from '../../utils/widther';
 import colorize from '../../utils/colorize';
 import angler from '../../utils/angler';
+import actions from '../../actions';
 
-
-const renderHeader = ({ headerImage, headerVideo, headerClip, headerSize, headerPosition }) => {
+const openVideo = (act, headerVideo) => {
+  act.setModalData('video', { id: headerVideo });
+  act.openModal('video');
+};
+const renderHeader = ({
+  headerImage, headerVideo, headerClip, headerSize, headerPosition, act,
+}) => {
   let out = '';
   if (headerImage !== undefined) {
     let height = '524px';
@@ -19,7 +27,18 @@ const renderHeader = ({ headerImage, headerVideo, headerClip, headerSize, header
     }
     const position = (headerPosition === undefined) ? 'bottom' : headerPosition;
     out = (
-      <Image src={headerImage} clip={headerClip} width="100%" height={height} position={position} styleName="headerImage" />
+      <div styleName="header">
+        {headerVideo !== undefined && headerVideo ? <button styleName="playbtn" onClick={() => openVideo(act, headerVideo)} /> : '' }
+        <Image
+          src={headerImage}
+          onClick={() => openVideo(act, headerVideo)}
+          clip={headerClip}
+          width="100%"
+          height={height}
+          position={position}
+          styleName="headerImage"
+        />
+      </div>
     );
   }
   return out;
@@ -66,4 +85,7 @@ Section.defaultProps = {
   bound: true,
 };
 
-export default CSSModules(Section, styles);
+function mapDispatchToProps(dispatch) {
+  return { act: bindActionCreators(actions, dispatch) };
+}
+export default connect(null, mapDispatchToProps)(CSSModules(Section, styles));

@@ -10,6 +10,7 @@ const constants = createConstants(
 
   // MAIN PANEL ACTIONS
   'MODAL_SET_OPEN',
+  'MODAL_SET_DATA',
   'MODAL_SET_CLOSED',
   'MODAL_SET_VISIBILITY',
 
