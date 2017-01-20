@@ -16,19 +16,19 @@
      ## Awesome Past Academies
      A snippet of some of our most popular Academies from previous years:
 <Grid>
-<Block type="padded" cols="2" anchored="left" clip="tl:0,5%;" color="sea">
+<Block type="color" cols="2" anchored="left" align="none" width="222" clip="tl:0,5%;" color="sea">
 ## Title
 Content
 </Block>
-<Block type="padded" cols="2" anchored="left" clip="tl:0,5%;" color="orange">
+<Block type="color" cols="2" anchored="right" align="none" width="222" clip="tl:0,5%;" color="orange">
 ## Title
 Content
 </Block>
-<Block type="padded" cols="2" anchored="left" clip="tl:0,5%;" color="green">
+<Block type="color" cols="2" anchored="left" align="none" width="222" clip="tl:0,5%;" color="green">
 ## Title
 Content
 </Block>
-<Block type="padded" cols="2" anchored="left" clip="tl:0,5%;" color="blue">
+<Block type="color" cols="2" anchored="left" align="none" width="222" clip="tl:0,5%;" color="blue">
 ## Title
 Content
 </Block>
