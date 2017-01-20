@@ -109,11 +109,11 @@
   <div className="clear" />
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="orange">
     <Block anchor="left" align="none" width="222" margin="0 40px 0 0">
-      <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="26px 0 48px 0" />
+      <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="28px 0 48px 0" />
       <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>
     </Block>
     <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
-      <Image src="icon/circle-map-green.png" align="center" width="145" height="130" margin="26px 0 48px 0" />
+      <Image src="icon/bike-green-circle.png" align="center" width="145" height="130" margin="28px 0 48px 0" />
       <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
     </Block>
     <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
