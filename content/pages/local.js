@@ -78,7 +78,7 @@
      </Block>
 </Section>
 <Section color="sea">
-  <Block cols="5" css={{ padding: '50px 0 20px' }}>
+  <Block cols="5" css={{ padding: '20px 0 20px' }}>
    ## Get Connected
 <font color="white">Does this sound like you? Click on the button below and we'll do our best to get you connected to a local group or help you start one in your area if it's possible.</font>
 <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
@@ -86,4 +86,18 @@
  </Block>
  </Block>
 </Section>
+<Section color="white">
+   <Block margin="125px 0 50px 0">
+    ## WDS Local Group Directory
+    <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
+      ## Los Angeles, California
+    </Block>
+    <Block type="image-narrow" src="photos/wdslocal/minneapolis.st.paul.WDS.local.png">
+      ## Minneapolis/St.Paul, Minnesota
+    </Block>
+    <Block type="image-narrow" src="photos/wdslocal/new.york.city.WDS.local.png">
+      ## New York City, New York
+    </Block>
+  </Block>
+  </Section>
 <Import id="join-us" />
