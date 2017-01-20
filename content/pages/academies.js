@@ -36,7 +36,7 @@ Content
       </Block>
 </Section>
 <Section color="green">
-  <Block cols="6" css={{ padding: '50px 0 20px' }}>
+  <Block cols="6" css={{ padding: '20px 0 20px' }}>
    ## Academies will return for WDS 2017 with more amazing topics and Academy leaders!
    The list of WDS 2017 Academies will be made available spring 2017 so stay tuned!
  </Block>
