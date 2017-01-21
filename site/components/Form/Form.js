@@ -5,7 +5,8 @@ import styles from './Form.css';
 import Input from '../Input/Input';
 import FormRow from '../FormRow/FormRow';
 import Button from '../Button/Button';
-import axios from 'axios';
+import axios from 'axios'
+import _ from 'lodash';
 
 class Form extends Component {
   constructor() {
@@ -60,8 +61,12 @@ class Form extends Component {
       btnText = this.props.buttonSuccess;
     }
     const children = [];
+    let propsChildren = this.props.children;
     let c = 0;
-    this.props.children.forEach((elm) => {
+    if (!_.isArray(propsChildren)) {
+      propsChildren = [propsChildren];
+    }
+    propsChildren.forEach((elm) => {
       if (elm.type === Input || elm.type === FormRow) {
         const props = Object.assign({}, elm.props);
         props.onChange = this.change;

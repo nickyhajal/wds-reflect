@@ -1,0 +1,107 @@
+@import "vars";
+.modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 800px;
+  display: block;
+  background: $green;
+  padding: 65px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  transition: 0.2s all 0.1s;
+
+  iframe {
+    margin-bottom: -4px;
+  }
+}
+
+.form {
+  font-size: 19px;
+  color: $forest;
+  text-align: left;
+  line-height: 60px;
+
+  select {
+    margin: 0 10px;
+  }
+
+  button {
+    margin: 40px auto 0;
+    width: 200px !important;
+  }
+
+  input {
+    border-bottom: 1px solid #fff;
+    background: $green;
+    font-size: 19px;
+    padding-bottom: 6px;
+    margin: 0 10px;
+    color: $white;
+
+    &::placeholder {
+      color: $white;
+      opacity: 1;
+    }
+    &:placeholder {
+      opacity: 1;
+    }
+    &::-webkit-input-placeholder {
+      opacity: 1;
+    }
+  }
+}
+
+.modal button {
+  background: orange;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  font-family: VitesseBook;
+  padding: 11px 46px;
+  font-weight: normal;
+}
+.modal :global(button.modal-close) {
+  content: "X";
+width: auto;
+height: auto;
+background-size: 100% auto;
+position: absolute;
+right: -28px;
+top: -44px;
+background: $orange;
+color: $white;
+opacity: 0.8;
+font-size: 26px;
+padding: 4px 11px;
+border-radius: 50%;
+cursor: pointer;
+transition: 0.2s all;
+&:hover {
+  opacity: 1;
+};
+
+}
+
+@media screen and (max-width: 1024px) {
+  .modal :global(.modal-close) {
+    margin-top: 17px;
+    margin-bottom: 20px;
+  }
+  .modal {
+    width: 100% !important;
+    height: 100% !important;
+      padding: 0px 20px;
+    margin-left: 0;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .modal h2, .modal h3 {
+    width: 100% !important;
+  }
+  .modal p {
+    width: 100% important
+  }
+}

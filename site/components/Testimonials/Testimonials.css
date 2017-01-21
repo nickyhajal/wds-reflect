@@ -28,7 +28,23 @@
 
     &:global(.active) {
       opacity: 1;
+      &:before {
+        opacity: 0.5;
+      };
     };
+
+    &:before {
+      width: 105px;
+      height: 105px;
+      background: #62C0CA;
+      opacity: 0;
+      transition: 0.2s all;
+      content: "";
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      border-radius: 50%;
+    }
   }
 }
 .bigphoto {

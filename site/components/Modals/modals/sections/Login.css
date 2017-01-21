@@ -1,0 +1,21 @@
+@value colors: "../../../../styles/colors.css";
+@value orange, green from colors;
+
+.button {
+  margin-top: 6px;
+}
+
+.link {
+	font-family: KarlaBold;
+	color: green;
+}
+
+.back {
+	font-family: Karla;
+  font-size: 12pt;
+  padding-top: 15px;
+  color: rgb(121, 116, 102);
+  display: block;
+  text-decoration: none;
+  margin-bottom: -20px;
+}
