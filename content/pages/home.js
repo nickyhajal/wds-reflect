@@ -74,19 +74,20 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   <Tabs>
     <Tab title="Activity Highlights" color="blue" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" anchor="left" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
-    </Tab>
+     
+        Community, adventure, and service: for one week (or just a weekend if you prefer), you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world. 
+
+           </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
-    </Tab>
+Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    </Tab>
     <Tab title="Events" color="green" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
+        From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted an immersive experience.
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
+Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community. 
     </Tab>
   </Tabs>
 </Section>
