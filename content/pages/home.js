@@ -35,7 +35,7 @@
     - All access pass to main stage keynotes on Saturday & Sunday
     - Access to your choice of more than 150+ themed meetups all over the city (or host your own!)
     - Ability to connect with attendees and RSVP to your choice of activities through the WDS App
-    - Discounted registration for any of the 12 Academies taking place before and after the weekend
+    - Discounted registration for any of the 12 half-day Academies taking place before and after the weekend
     - Discounted and priority hotel registration, including the chance to stay at the new WDS Hotel™
     - Entrance to the Opening & Closing Parties
     - A special community that will support you for life
@@ -51,23 +51,22 @@
   <div>
     <Block type="image" src="photos/schedule.jpg">
       ## The Schedule
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.
-      <Button to="/schedule">Get the Juicy Details</Button>
+      With literally hundreds of activities taking place during WDS week, you won't be bored. (But we'll also have suggestions, so you won't be overwhelmed.)
+      <Button to="/schedule">See the Details</Button>
     </Block>
     <Block type="image" src="photos/happening.jpg">
       ## Happening in Portland, OR
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.
+     A creative, welcoming city with anything you could possibly want to eat.
       <Button to="/location">Learn About Portland</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
       ## Academies
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.
-      <Button to="/academies">See Them All</Button>
+      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders.
+      <Button to="/academies">Select Your Favorites</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
       ## WDS Foundations
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.
-      <Button to="/academies">Tell Me More</Button>
+Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/academies">Learn More</Button>
     </Block>
   </div>
   <div className="clear" />
@@ -75,7 +74,7 @@
   <Tabs>
     <Tab title="Activity Highlights" color="blue" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" anchor="left" />
-      As WE gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
+      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
     </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
