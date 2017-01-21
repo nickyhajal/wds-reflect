@@ -65,6 +65,7 @@ class Tabs extends React.Component {
       'tl:0,6%;tr:0,17%;',
       'tl:0,12%;tr:0,10%;',
       'tl:0,6%;tr:0,12%;',
+      'tl:0,6%;tr:0,12%;',
     ];
     if (this.props.style === 'dots') {
       out.push(
@@ -82,10 +83,12 @@ class Tabs extends React.Component {
       if (this.state.tabWidths && this.state.tabWidths[i] !== undefined) {
         css.width = `${this.state.tabWidths[i]}px`;
       }
-      const angle = t.props.clip !== undefined ? t.props.clip : angles[i];
-      const finalClip = angler(angle);
-      css.clipPath = finalClip;
-      css.WebkitClipPath = finalClip;
+      if (this.props.style !== 'dots') {
+        const angle = t.props.clip !== undefined ? t.props.clip : angles[i];
+        const finalClip = angler(angle);
+        css.clipPath = finalClip;
+        css.WebkitClipPath = finalClip;
+      }
       const tab = (
         <TabButton
           key={key}

@@ -59,6 +59,9 @@
     padding-bottom: 0;
     margin-top: -12px;
   }
+  &:global(.tab-button-dot:before), &:global(.tab-button-dot:after) {
+    display: none;
+  }
   &:global(.tab-button-dot.active) {
     background-image: url("https://files.wds.fm/images/icon/dot-green.png");
     background-color: transparent !important;
