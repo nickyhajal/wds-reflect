@@ -6,7 +6,7 @@
 >
   <Image src="heading/weekend.png" width="819px" height="217px" align="center" />
   <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px">
-    #### A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”
+    #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.
   </Block>
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }}>
@@ -16,9 +16,9 @@
   </Block>
   <Block cols="6" className="bigger">
 
-    Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community, challenge conventions, and empower each other to break down barriers and achieve dreams.
+    Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue a big dream. 
 
-    With discussions and activities on topics like living stress free, travel-hacking your way around the globe, and launching your first book, it’s an experience like no other.
+    With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.
     
     We’re doing it again in 2017, and all that’s missing is YOU!
   </Block>
