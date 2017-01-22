@@ -15,6 +15,11 @@ class Modals extends React.Component {
     act: PropTypes.objectOf(PropTypes.func),
   };
 
+  static modals = {
+    video: VideoModal,
+    tellAFriend: TellAFriend,
+  };
+
   constructor() {
     super();
     this.state = {
@@ -58,6 +63,15 @@ class Modals extends React.Component {
     this.props.act.closeModal();
   }
 
+  loadOpenPopup() {
+    if (this.props.modals.open) {
+      return React.createElement(Modals.modals[this.props.modals.open], {
+        close: this.close,
+        visible: true,
+      });
+    }
+  }
+
   render() {
     const vis = this.props.modals.visibility;
     return (
@@ -66,8 +80,7 @@ class Modals extends React.Component {
           onClick={this.close}
           styleName="overlay"
         />
-        <VideoModal close={this.close} visible={this.props.modals.open === 'video' ? vis : 'hidden'} />
-        <TellAFriend close={this.close} visible={this.props.modals.open === 'tellafriend' ? vis : 'hidden'} />
+        {this.loadOpenPopup()}
       </div>
     );
   }

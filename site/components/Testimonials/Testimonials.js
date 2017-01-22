@@ -85,8 +85,9 @@ class Testimonials extends React.Component {
     }
     const width = vars.testimonials.length * 113;
     const left = `${(this.state.shiftedTo * 105 * -1)}px`;
+    // clip="bl:0,-3%;"
     return (
-      <Section color="white" bound={false} clip="bl:0,-3%;">
+      <Section color="white" bound={false} >
         <div styleName="controls">
           <button styleName="arrow-prev" onClick={this.prev} />
           <button styleName="arrow-next" onClick={this.next} />

@@ -28,9 +28,9 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Image src="heading/story.png" width="429px" height="190px" className="scriptHeader" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Why WDS?{'\n'}
-    Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. A full week of events and an unforgettare than 40 countries. A full week of events and an unforgettable keynote weekend in Portland, Oregon.{'\n'}
+    Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. And now WDS offers a full week of events and an unforgettable keynote weekend in Portland, Oregon.{'\n'}
 
-    Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the nine to five. A full week of events and an unforgettable keynble keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the nine to five. A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five."{'\n'}
+    Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five."{'\n'}
   </Block>
 </Section>
 <Section color="canvas">
@@ -45,13 +45,13 @@ import Testimonials from '../components/Testimonials/Testimonials';
         </Block>
         <Block type="4col">
           ## Highlights{'\n'}
-          - 6 Days of Community, Service & Adventure{'\n'}
+          - 6 whole days of Community, Service & Adventure{'\n'}
           - Overcoming our fears with Michelle Poler{'\n'}
-          - Dancing Jellyfish!{'\n'}
+          - Dancing Jellyfish at the Closing Party!{'\n'}
         </Block>
         <Block type="4col">
           ## Big Surprise{'\n'}
-          WDS Tattoos on stage!{'\n'}
+          WDS branded tattoos backstage!{'\n'}
         </Block>
         <Block type="4col">
           ## Popular Speakers{'\n'}
@@ -62,12 +62,12 @@ import Testimonials from '../components/Testimonials/Testimonials';
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2016 Photos {'\n'}{'\n'}
-          2016 had some great moment, check out the photos!{'\n'}{'\n'}
+          2016 had some great moments, check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157669269939103">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2016 Videos{'\n'}{'\n'}
-          2016 had some great moment, check out the videos!{'\n'}{'\n'}
+          2016 had some great moments, check out the videos!{'\n'}{'\n'}
           <Button to="https://vimeo.com/album/4366453">Watch Them</Button>
         </Block>
       </div>
@@ -82,17 +82,17 @@ import Testimonials from '../components/Testimonials/Testimonials';
         </Block>
         <Block type="4col">
           ## Highlights{'\n'}
-          - 6 Days of Community, Service & Adventure{'\n'}
-          - Overcoming our fears with Michelle Poler{'\n'}
-          - Dancing Jellyfish!{'\n'}
+          - Lipstick selfies!{'\n'}
+          - Awesome Q&A with The Kid President{'\n'}
+          - Filler content {'\n'}
         </Block>
         <Block type="4col">
           ## Big Surprise{'\n'}
-          WDS Tattoos on stage!{'\n'}
+          Breakfast in bed Guinness World Record!{'\n'}
         </Block>
         <Block type="4col">
           ## Popular Speakers{'\n'}
-          "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Rev. angel Kyodo williams{'\n'}
+          "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Lewis Howes{'\n'}
         </Block>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
@@ -119,35 +119,69 @@ import Testimonials from '../components/Testimonials/Testimonials';
         </Block>
         <Block type="4col">
           ## Highlights{'\n'}
-          - 6 Days of Community, Service & Adventure{'\n'}
-          - Overcoming our fears with Michelle Poler{'\n'}
-          - Dancing Jellyfish!{'\n'}
+          - The Portland Experience Opening Party & the Portland Spirit Cruise{'\n'}
+          - Hot Air Balloon Rides at the Closing Party!{'\n'}
+          - The Great Namaste World Record{'\n'}
         </Block>
         <Block type="4col">
           ## Big Surprise{'\n'}
-          WDS Tattoos on stage!{'\n'}
+          I don't know, someone please tell me!{'\n'}
         </Block>
         <Block type="4col">
           ## Popular Speakers{'\n'}
-          "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Rev. angel Kyodo williams{'\n'}
+          "Choosing to take on the content for the page with info about all previous years' highlights and details is a great idea if you've only attended one event!" -Whitney Korenek{'\n'}
         </Block>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="photos/trex.jpg">
-          ## 2015 Photos {'\n'}{'\n'}
+          ## 2014 Photos {'\n'}{'\n'}
           2016 had some great moment, check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
-          ## 2015 Videos{'\n'}{'\n'}
+          ## 2014 Videos{'\n'}{'\n'}
           2016 had some great moment, check out the videos!{'\n'}{'\n'}
-          <Button to="https://vimeo.com/album/4366453">Watch Them</Button>
+          <Button to="https://vimeopro.com/aonc/wds-2014-keynotes">Watch Them</Button>
         </Block>
       </div>
     </Tab>
     <Tab title="2013">
       <Image src="art/legacy-2013.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+           <div>
+        <Block type="4col">
+          ## Year Four{'\n'}
+          July 9-11{'\n'}
+          Portland, OR{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Highlights{'\n'}
+          - The Portland Experience Opening Party & the Portland Spirit Cruise{'\n'}
+          - Hot Air Balloon Rides at the Closing Party!{'\n'}
+          - The Great Namaste World Record{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Big Surprise{'\n'}
+          I don't know, someone please tell me!{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Popular Speakers{'\n'}
+          "Choosing to take on the content for the page with info about all previous years' highlights and details is a great idea if you've only attended one event!" -Whitney Korenek{'\n'}
+        </Block>
+      </div>
+      <div className="clear" style={{ paddingTop: '80px' }} />
+      <div>
+        <Block type="image" src="photos/trex.jpg">
+          ## 2013 Photos {'\n'}{'\n'}
+          2013 had some great moments, check out the photos!{'\n'}{'\n'}
+          <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157634510088202">View Them</Button>
+        </Block>
+         <Block type="image" src="photos/chelsea.jpg">
+          ## 2013 Videos{'\n'}{'\n'}
+          2013 had some great moments, check out the videos!{'\n'}{'\n'}
+          <Button to="https://vimeopro.com/aonc/wds2015">Watch Them</Button>
+        </Block>
+      </div>
     </Tab>
     <Tab title="2012">
       <Image src="art/legacy-2012.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>

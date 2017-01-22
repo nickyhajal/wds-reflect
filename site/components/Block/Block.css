@@ -30,6 +30,10 @@
   margin-right: 25px;
   margin-bottom: 24px;
 
+  a {
+    color: $orange;
+  }
+
   &:nth-of-type(3n) {
     margin-right: 0;
   }
@@ -293,7 +297,10 @@
     color: $white;
   }
 };
-:global(.block-color-orange).block-padded, :global(.block-color-sea).block-padded {
+:global(.block-color-orange).block-padded,
+:global(.block-color-green).block-padded,
+:global(.block-color-blue).block-padded,
+:global(.block-color-sea).block-padded {
   h2, p {
     color: $white;
   }

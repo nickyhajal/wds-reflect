@@ -26,7 +26,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
 >
   <Image src="heading/weekend.png" width="819px" height="217px" align="center" />
   <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px">
-    #### A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”{'\n'}
+    #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
   </Block>
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }}>
@@ -36,9 +36,9 @@ import Testimonials from '../components/Testimonials/Testimonials';
   </Block>
   <Block cols="6" className="bigger">
 
-    Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community, challenge conventions, and empower each other to break down barriers and achieve dreams.{'\n'}
+    Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue a big dream. {'\n'}
 
-    With discussions and activities on topics like living stress free, travel-hacking your way around the globe, and launching your first book, it’s an experience like no other.{'\n'}
+    With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.{'\n'}
     
     We’re doing it again in 2017, and all that’s missing is YOU!{'\n'}
   </Block>
@@ -55,7 +55,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
     - All access pass to main stage keynotes on Saturday & Sunday{'\n'}
     - Access to your choice of more than 150+ themed meetups all over the city (or host your own!){'\n'}
     - Ability to connect with attendees and RSVP to your choice of activities through the WDS App{'\n'}
-    - Discounted registration for any of the 12 Academies taking place before and after the weekend{'\n'}
+    - Discounted registration for any of the 12 half-day Academies taking place before and after the weekend{'\n'}
     - Discounted and priority hotel registration, including the chance to stay at the new WDS Hotel™{'\n'}
     - Entrance to the Opening & Closing Parties{'\n'}
     - A special community that will support you for life{'\n'}
@@ -71,23 +71,22 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <div>
     <Block type="image" src="photos/schedule.jpg">
       ## The Schedule{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
-      <Button to="/schedule">Get the Juicy Details</Button>
+      With literally hundreds of activities taking place during WDS week, you won't be bored. (But we'll also have suggestions, so you won't be overwhelmed.){'\n'}
+      <Button to="/schedule">See the Details</Button>
     </Block>
     <Block type="image" src="photos/happening.jpg">
       ## Happening in Portland, OR{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
+     A creative, welcoming city with anything you could possibly want to eat.{'\n'}
       <Button to="/location">Learn About Portland</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
       ## Academies{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
-      <Button to="/academies">See Them All</Button>
+      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders.{'\n'}
+      <Button to="/academies">Select Your Favorites</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
       ## WDS Foundations{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
-      <Button to="/academies">Tell Me More</Button>
+Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/academies">Learn More</Button>
     </Block>
   </div>
   <div className="clear" />
@@ -95,19 +94,20 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Tabs>
     <Tab title="Activity Highlights" color="blue" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" anchor="left" />
-      As WE gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
-    </Tab>
+     
+        Community, adventure, and service: for one week (or just a weekend if you prefer), you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world. 
+
+           </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
-    </Tab>
+Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    </Tab>
     <Tab title="Events" color="green" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
+        From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted an immersive experience.
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
-      As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers. As we gather to begin WDS weekend, our Friday night Opening Party gives you a chance to meet the team, speakers.
+Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community. 
     </Tab>
   </Tabs>
 </Section>
@@ -135,8 +135,8 @@ import Testimonials from '../components/Testimonials/Testimonials';
 
 <Section color="green" clip="top_lr_2.6" margin="-22px 0 0">
   <Block margin="50px 0" width="420px">
-    ## Tell a Buddy{'\n'}
-    Bring a buddy! Great things are better when they’re shared with friends.{'\n'}
+    ## Tell a Friend{'\n'}
+    Spread the word! Great things are even better when they’re shared with friends.{'\n'}
     <Button modal="tellAFriend" width="184px" align="center">Share the Love</Button>
   </Block>
   <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" />

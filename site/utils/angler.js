@@ -60,10 +60,8 @@ const convert = (p) => {
 };
 
 const angler = (polygon) => {
-  console.error(polygon);
   let poly = convert(polygon);
   let p = convert(polygon);
-  console.info(p);
   if (poly.indexOf(' ') < 0) {
     poly = poly.replace(/\./g, '__');
     p = map[poly] !== undefined ? map[poly] : false;

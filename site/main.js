@@ -9,7 +9,7 @@ import auth from '~/utils/auth';
 import '~/styles/normalize.global.css';
 import '~/styles/main.global.css';
 
-
+Error.stackTraceLimit = Infinity;
 // Init Store
 // auth.getMe();
 
