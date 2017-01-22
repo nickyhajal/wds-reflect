@@ -38,6 +38,7 @@ const mobileHeader = (ticketClick, scrollTo) => (
   </header>
 );
 
+console.log(is.mobile())
 const Header = ({
   ticketClick, scrollTo,
 }) => (
