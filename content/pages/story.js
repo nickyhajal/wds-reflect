@@ -8,9 +8,13 @@
   <Image src="heading/story.png" width="429px" height="190px" className="scriptHeader" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Why WDS?
-    Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. And now WDS offers a full week of events and an unforgettable keynote weekend in Portland, Oregon.
+    Way back in 2011, we invited 500 friends to Portland, Oregon. Our common curiosity brought us together to explore one question: _How do we live a remarkable life in a conventional world?_  
 
-    Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five."
+Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included more than 10,000 people from all 50 states and more than 40 countries since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. 
+    
+    With a full week of events and an unforgettable keynote speaker-filled weekend you can learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five."
+  
+    In July, we’ll be doing it again and inviting all our friends (you!) to Portland for the Seventh World Domination Summit (WDS). Some things this year will be new, but our core principles of Community, Adventure, and Service will continue to guide our shared pursuit of changing the world.
   </Block>
 </Section>
 <Section color="canvas">
