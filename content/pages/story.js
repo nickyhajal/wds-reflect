@@ -46,7 +46,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2016 Photos {'\n'}
-          2016 had some great moments, check out the photos!{'\n'}
+          2016 had some amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157669269939103">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
@@ -72,7 +72,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
         </Block>
         <Block type="4col">
           ## Big Surprise
-          Giant projector on Portland building
+          Attendee photos projected on building during closing party
         </Block>
         <Block type="4col">
           ## Popular Speakers
@@ -83,12 +83,12 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2015 Photos {'\n'}
-          2015 had some great moment, check out the photos!{'\n'}
+          2015 had some amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2015 Videos{'\n'}
-          2015 had some great moment, check out the videos!{'\n'}
+          Want to relive the keynotes? Watch these videos! {'\n'}
           <Button to="https://vimeopro.com/aonc/wds2015">Watch Them</Button>
         </Block>
       </div>
@@ -120,12 +120,12 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2014 Photos {'\n'}
-          2014 had some great moment, check out the photos!{'\n'}
+          2014 had some amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157645692660113">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2014 Videos{'\n'}
-          2014 had some great moment, check out the videos!{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2014-keynotes">Watch Them</Button>
         </Block>
       </div>
@@ -146,23 +146,23 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
         </Block>
         <Block type="4col">
           ## Big Surprise
-          Champagne toast
+          Champagne toast in the Arlene Schnitzer Concert Hall
         </Block>
         <Block type="4col">
           ## Popular Speakers
-          Brene Brown signing "Don't Stop Believin'"
+          Brene Brown and Chris Guillebeau signing "Don't Stop Believing" live on stage
         </Block>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2013 Photos {'\n'}
-          2013 had some great moments, check out the photos!{'\n'}
+          2013 had some amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157634510088202">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2013 Videos{'\n'}
-          2013 had some great moments, check out the videos!{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}
           <Button to="https://vimeopro.com/aonc/wds1013">Watch Them</Button>
         </Block>
       </div>
@@ -194,12 +194,12 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2012 Photos {'\n'}
-          2012 had some great moments, check out the photos!{'\n'}
+          2012 had some amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157630469839810">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2012 Videos{'\n'}
-          2012 had some great moments, check out the videos!{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2012-keynotes">Watch Them</Button>
         </Block>
       </div>
@@ -231,12 +231,12 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2011 Photos {'\n'}
-          2011 had some great moments, check out the photos!{'\n'}
+          2011 had some amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157626854701827">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2011 Videos{'\n'}
-          2011 had some great moments, check out the videos!{'\n'}
+          Want to relive the keynotes? Watch these videos!{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2011-keynotes">Watch Them</Button>
         </Block>
       </div>
