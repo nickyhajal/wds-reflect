@@ -10,11 +10,11 @@
     ## Why WDS?
     Way back in 2011, we invited 500 friends to Portland, Oregon. Our common curiosity brought us together to explore one question: _How do we live a remarkable life in a conventional world?_  
 
-Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included more than 10,000 people from all 50 states and more than 40 countries since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. 
+Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included <strong>more than 10,000 people from all 50 states and more than 40 countries</strong> since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. 
     
-    With a full week of events and an unforgettable keynote speaker-filled weekend you can learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five."
+    With a full week of events and an unforgettable keynote speaker-filled weekend, you'll learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.
   
-    In July, we’ll be doing it again and inviting all our friends (you!) to Portland for the Seventh World Domination Summit (WDS). Some things this year will be new, but our core principles of Community, Adventure, and Service will continue to guide our shared pursuit of changing the world.
+    This July, we’re inviting all our friends (you!) to Portland for the seventh WDS. As always, some things this year will be new, but our core principles of Community, Adventure, and Service will continue to guide our shared pursuit of changing the world.
   </Block>
 </Section>
 <Section color="canvas">
@@ -51,7 +51,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2016 Videos{'\n'}
-          2016 had some great moments, check out the videos!{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2016-keynotes">Watch Them</Button>
         </Block>
       </div>
