@@ -9,7 +9,8 @@ const FormRow = ({ onChange, children }) => {
   const childArray = Array.isArray(children) ? children : [children];
   let c = 0;
   childArray.forEach((elm) => {
-    if (elm.type === Input) {
+    console.log(elm);
+    if (elm.type === Input || elm.type === 'input' || elm.type === 'select') {
       const props = Object.assign({}, elm.props);
       props.onChange = onChange;
       props.key = `formrowcontent-${c}`;

@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules';
 import { Link } from 'react-router';
 import TicketStub from '../../../components/TicketStub/TicketStub';
 import styles from './Header.css';
+import is from '../../../utils/is';
 
 const desktopHeader = (ticketClick, scrollTo) => (
   <header styleName="header">
@@ -41,7 +42,7 @@ const Header = ({
   ticketClick, scrollTo,
 }) => (
   (
-    window.outerWidth < 1025 ?
+    is.mobile() ?
     mobileHeader(ticketClick, scrollTo) :
     desktopHeader(ticketClick, scrollTo)
   )

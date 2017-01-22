@@ -22,25 +22,24 @@
   font-size: 19px;
   color: $forest;
   text-align: left;
-  line-height: 60px;
+  line-height: 50px;
 
   select {
     margin: 0 10px;
   }
 
   button {
-    margin: 40px auto 0;
+    margin: 20px auto 0;
     width: 200px !important;
+    padding: 16px 0;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: VitesseBook;
   }
 
   input {
-    border-bottom: 1px solid #fff;
-    background: $green;
-    font-size: 19px;
-    padding-bottom: 6px;
-    margin: 0 10px;
     color: $white;
-
     &::placeholder {
       color: $white;
       opacity: 1;
@@ -52,33 +51,35 @@
       opacity: 1;
     }
   }
+  .phraseInput {
+    border-bottom: 1px solid #fff;
+    background: $green;
+    font-size: 19px;
+    padding-bottom: 14px;
+    margin: 0 10px;
+  }
 }
 
-.modal button {
-  background: orange;
-  border: 0;
-  font-size: 16px;
-  color: #fff;
-  font-family: VitesseBook;
-  padding: 11px 46px;
-  font-weight: normal;
-}
 .modal :global(button.modal-close) {
   content: "X";
 width: auto;
 height: auto;
 background-size: 100% auto;
 position: absolute;
-right: -28px;
-top: -44px;
+right: -21px;
+top: -24px;
 background: $orange;
 color: $white;
 opacity: 0.8;
 font-size: 26px;
 padding: 4px 11px;
+  border: 0;
+  font-family: VitesseBook;
+  font-weight: normal;
 border-radius: 50%;
 cursor: pointer;
 transition: 0.2s all;
+border: 0;
 &:hover {
   opacity: 1;
 };

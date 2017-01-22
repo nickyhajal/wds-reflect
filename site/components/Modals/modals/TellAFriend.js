@@ -9,6 +9,7 @@ import Block from '../../Block/Block';
 import Form from '../../Form/Form';
 import Input from '../../Input/Input';
 import FormRow from '../../FormRow/FormRow';
+import Grid from '../../Grid/Grid';
 
 // Sections
 
@@ -16,8 +17,7 @@ class TellAFriend extends React.Component {
 
   static propTypes = {
     close: PropTypes.func,
-    modals: PropTypes.objectOf(PropTypes.object),
-    visible: PropTypes.string,
+    act: PropTypes.objectOf(PropTypes.func),
   };
 
   constructor() {
@@ -29,13 +29,10 @@ class TellAFriend extends React.Component {
     };
   }
 
-  goTo(e, page) {
-    if (page === 'close') {
-      this.props.close(e);
-    } else {
-      page = e;
-      this.setState({ page });
-    }
+  onSuccess() {
+    setTimeout(() => {
+      this.props.act.closeModal();
+    }, 2500);
   }
 
   render() {
@@ -52,13 +49,28 @@ class TellAFriend extends React.Component {
           Lets write to them together!
 
           <div styleName="form">
-            <Form list="" css={{ textAlign: 'left', padding: '20px 0' }}>
-              <div css={{ marginBottom: '30px' }}>
-                Hey, <input type="text" name="friend_name" placeholder="Friend's Name" /> it&apos;s me,
-                <input type="text" name="sender_name" placeholder="Your Name" />
-                I just found out about this <select><option>Awesome</option><option>Interesting</option><option>Rad</option><option>Inspiring</option><option>Super-cool</option></select>
+            <Form
+              list="WDS Tell A Friend"
+              defaults={{ custom: { adjective: 'Awesome' } }}
+              css={{ textAlign: 'left', padding: '20px 0' }}
+              onSuccess={this.onSuccess}
+            >
+              <FormRow css={{ marginBottom: '30px' }}>
+                Hey, <input type="text" styleName="phraseInput" name="full_name" placeholder="Friend's Name" /> it&apos;s me,
+                <input styleName="phraseInput" type="text" name="custom[friends_name]" placeholder="Your Name" />
+                I just found out about this <select name="custom[adjective]"><option>Awesome</option><option>Interesting</option><option>Rad</option><option>Inspiring</option><option>Super-cool</option></select>
                 weekend in Portland, OR called the World Domination Summit. We should check it out this year!
-              </div>
+              </FormRow>
+              <FormRow>
+                <Grid numCols="2" width="665">
+                  <Block>
+                    <Input placeholder="Your Email Address" id="custom[friends_email]" />
+                  </Block>
+                  <Block>
+                    <Input placeholder="Your Friend's Email Address" id="email" />
+                  </Block>
+                </Grid>
+              </FormRow>
             </Form>
           </div>
         </Block>

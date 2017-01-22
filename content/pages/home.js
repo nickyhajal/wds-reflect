@@ -42,8 +42,8 @@
   </Block>
 </Section>
 <Testimonials />
-<Section color="white">
-  <Block cols="6" css={{ marginBottom: '96px' }} className="bigger">
+<Section color="white" clip="tr:0,3%;" margin="-70px 0 0 0">
+  <Block cols="6" css={{ marginBottom: '96px' }} className="bigger" css={{ paddingTop: '80px' }}>
     ## Take the Tour
 
     Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. Our mission is to explore community, to undertake an adventure, and to be of service to all those around us.

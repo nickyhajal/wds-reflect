@@ -28,9 +28,13 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Image src="heading/story.png" width="429px" height="190px" className="scriptHeader" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Why WDS?{'\n'}
-    Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. And now WDS offers a full week of events and an unforgettable keynote weekend in Portland, Oregon.{'\n'}
+    Way back in 2011, we invited 500 friends to Portland, Oregon. Our common curiosity brought us together to explore one question: _How do we live a remarkable life in a conventional world?_  {'\n'}
 
-    Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five."{'\n'}
+Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included <strong>more than 10,000 people from all 50 states and more than 40 countries</strong> since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. 
+    
+    With a full week of events and an unforgettable keynote speaker-filled weekend, you'll learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
+  
+    This July, we’re inviting all our friends (you!) to Portland for the seventh WDS. As always, some things this year will be new, but our core principles of Community, Adventure, and Service will continue to guide our shared pursuit of changing the world.{'\n'}
   </Block>
 </Section>
 <Section color="canvas">
@@ -40,14 +44,14 @@ import Testimonials from '../components/Testimonials/Testimonials';
       <div>
         <Block type="4col">
           ## Year Six{'\n'}
-          August 9-14{'\n'}
+          August 9-14, 2016 {'\n'}
           Portland, OR{'\n'}
         </Block>
         <Block type="4col">
           ## Highlights{'\n'}
-          - 6 whole days of Community, Service & Adventure{'\n'}
-          - Overcoming our fears with Michelle Poler{'\n'}
-          - Dancing Jellyfish at the Closing Party!{'\n'}
+          - 6 Days of Community, Service & Adventure{'\n'}
+          - Overcoming our fears with Michelle Poler  {'\n'}
+          - Dancing Jellyfish!{'\n'}
         </Block>
         <Block type="4col">
           ## Big Surprise{'\n'}
@@ -62,13 +66,13 @@ import Testimonials from '../components/Testimonials/Testimonials';
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2016 Photos {'\n'}{'\n'}
-          2016 had some great moments, check out the photos!{'\n'}{'\n'}
+          2016 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157669269939103">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2016 Videos{'\n'}{'\n'}
-          2016 had some great moments, check out the videos!{'\n'}{'\n'}
-          <Button to="https://vimeo.com/album/4366453">Watch Them</Button>
+         Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
+          <Button to="https://vimeopro.com/aonc/wds-2016-keynotes">Watch Them</Button>
         </Block>
       </div>
     </Tab>
@@ -77,35 +81,35 @@ import Testimonials from '../components/Testimonials/Testimonials';
         <div>
         <Block type="4col">
           ## Year Five{'\n'}
-          July 9-11{'\n'}
+          July 9-13, 2015 {'\n'}
           Portland, OR{'\n'}
         </Block>
         <Block type="4col">
           ## Highlights{'\n'}
-          - Lipstick selfies!{'\n'}
-          - Awesome Q&A with The Kid President{'\n'}
-          - Filler content {'\n'}
+          - Lipstick selfies{'\n'}
+          - Q&A with The Kid President{'\n'}
+          - Breakfast in Bed Guinness World Record!{'\n'}
         </Block>
         <Block type="4col">
           ## Big Surprise{'\n'}
-          Breakfast in bed Guinness World Record!{'\n'}
+          Attendee photos projected on building during closing party{'\n'}
         </Block>
         <Block type="4col">
           ## Popular Speakers{'\n'}
-          "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Lewis Howes{'\n'}
+          "Your voice is never lost, it’s always waiting to be found." —Jon Acuff{'\n'}
         </Block>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2015 Photos {'\n'}{'\n'}
-          2016 had some great moment, check out the photos!{'\n'}{'\n'}
+          2015 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2015 Videos{'\n'}{'\n'}
-          2016 had some great moment, check out the videos!{'\n'}{'\n'}
-          <Button to="https://vimeo.com/album/4366453">Watch Them</Button>
+          Want to relive the keynotes? Watch these videos! {'\n'}{'\n'}
+          <Button to="https://vimeopro.com/aonc/wds2015">Watch Them</Button>
         </Block>
       </div>
     </Tab>
@@ -114,34 +118,34 @@ import Testimonials from '../components/Testimonials/Testimonials';
         <div>
         <Block type="4col">
           ## Year Four{'\n'}
-          July 9-11{'\n'}
+          July 10-14, 2014 {'\n'}
           Portland, OR{'\n'}
         </Block>
         <Block type="4col">
           ## Highlights{'\n'}
-          - The Portland Experience Opening Party & the Portland Spirit Cruise{'\n'}
-          - Hot Air Balloon Rides at the Closing Party!{'\n'}
+          - Portland Experience opening party{'\n'}
+          - Hot Air Balloon Rides!{'\n'}
           - The Great Namaste World Record{'\n'}
         </Block>
         <Block type="4col">
           ## Big Surprise{'\n'}
-          I don't know, someone please tell me!{'\n'}
+          Color shower{'\n'}
         </Block>
         <Block type="4col">
           ## Popular Speakers{'\n'}
-          "Choosing to take on the content for the page with info about all previous years' highlights and details is a great idea if you've only attended one event!" -Whitney Korenek{'\n'}
+          "Take imperfect action" —Jadah Sellner{'\n'}
         </Block>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2014 Photos {'\n'}{'\n'}
-          2016 had some great moment, check out the photos!{'\n'}{'\n'}
-          <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
+          2014 had some amazing moments. Check out the photos!{'\n'}{'\n'}
+          <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157645692660113">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2014 Videos{'\n'}{'\n'}
-          2016 had some great moment, check out the videos!{'\n'}{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2014-keynotes">Watch Them</Button>
         </Block>
       </div>
@@ -150,45 +154,113 @@ import Testimonials from '../components/Testimonials/Testimonials';
       <Image src="art/legacy-2013.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
            <div>
         <Block type="4col">
-          ## Year Four{'\n'}
-          July 9-11{'\n'}
+          ## Year Three{'\n'}
+          July 3-5, 2013 {'\n'}
           Portland, OR{'\n'}
         </Block>
         <Block type="4col">
           ## Highlights{'\n'}
-          - The Portland Experience Opening Party & the Portland Spirit Cruise{'\n'}
-          - Hot Air Balloon Rides at the Closing Party!{'\n'}
-          - The Great Namaste World Record{'\n'}
+          - First time at the Arlene Schnitzer Concert Hall{'\n'}
+          - Opening Party at the Oregon Zoo{'\n'}
+          - The World Float Guinness World Record{'\n'}
         </Block>
         <Block type="4col">
           ## Big Surprise{'\n'}
-          I don't know, someone please tell me!{'\n'}
+          Champagne toast in the Arlene Schnitzer Concert Hall{'\n'}
         </Block>
         <Block type="4col">
           ## Popular Speakers{'\n'}
-          "Choosing to take on the content for the page with info about all previous years' highlights and details is a great idea if you've only attended one event!" -Whitney Korenek{'\n'}
+          Brene Brown and Chris Guillebeau signing "Don't Stop Believing" live on stage{'\n'}
         </Block>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2013 Photos {'\n'}{'\n'}
-          2013 had some great moments, check out the photos!{'\n'}{'\n'}
+          2013 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157634510088202">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
           ## 2013 Videos{'\n'}{'\n'}
-          2013 had some great moments, check out the videos!{'\n'}{'\n'}
-          <Button to="https://vimeopro.com/aonc/wds2015">Watch Them</Button>
+         Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
+          <Button to="https://vimeopro.com/aonc/wds1013">Watch Them</Button>
         </Block>
       </div>
     </Tab>
     <Tab title="2012">
       <Image src="art/legacy-2012.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <div>
+        <Block type="4col">
+          ## Year Two{'\n'}
+          July 6-8, 2012 {'\n'}
+          Portland, OR{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Highlights{'\n'}
+          - First time at the Antoinette Hatfield Hall{'\n'}
+          - Bungee jumping with Joel Runyon{'\n'}
+          - Carnival themed Opening Party{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Big Surprise{'\n'}
+          The $100 Investment{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Popular Speakers{'\n'}
+          "The path to a passionate life is often way more complex than the simple advice 'follow your passion' would suggest." —Cal Newport{'\n'}
+        </Block>
+      </div>
+      <div className="clear" style={{ paddingTop: '80px' }} />
+      <div>
+        <Block type="image" src="photos/trex.jpg">
+          ## 2012 Photos {'\n'}{'\n'}
+          2012 had some amazing moments. Check out the photos!{'\n'}{'\n'}
+          <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157630469839810">View Them</Button>
+        </Block>
+         <Block type="image" src="photos/chelsea.jpg">
+          ## 2012 Videos{'\n'}{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
+          <Button to="https://vimeopro.com/aonc/wds-2012-keynotes">Watch Them</Button>
+        </Block>
+      </div>
     </Tab>
     <Tab title="2011">
       <Image src="art/legacy-2011.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
-    </Tab>
+       <div>
+        <Block type="4col">
+          ## Year One{'\n'}
+          June 3-5, 2011 {'\n'}
+          Portland, OR{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Highlights{'\n'}
+          - A giant ice sculpture{'\n'}
+          - Love notes from every attendee{'\n'}
+          - A dance party{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Big Surprise{'\n'}
+          We actually pulled this off!{'\n'}
+        </Block>
+        <Block type="4col">
+          ## Popular Speakers{'\n'}
+          "Adventuring occurs when we actually embrace possibility." —Jonathan Fields{'\n'}
+        </Block>
+      </div>
+      <div className="clear" style={{ paddingTop: '80px' }} />
+      <div>
+        <Block type="image" src="photos/trex.jpg">
+          ## 2011 Photos {'\n'}{'\n'}
+          2011 had some amazing moments. Check out the photos!{'\n'}{'\n'}
+          <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157626854701827">View Them</Button>
+        </Block>
+         <Block type="image" src="photos/chelsea.jpg">
+          ## 2011 Videos{'\n'}{'\n'}
+          Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
+          <Button to="https://vimeopro.com/aonc/wds-2011-keynotes">Watch Them</Button>
+        </Block>
+      </div>
+        </Tab>
   </Tabs>
 </Section>
 <Section color="orange">

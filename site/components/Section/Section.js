@@ -60,6 +60,9 @@ const Section = (props) => {
   if (props.margin) {
     shellCss.margin = props.margin;
   }
+  if (props.padding) {
+    shellCss.padding = props.padding;
+  }
   shellCss = _.defaults(props.css, shellCss);
   return (
     <section className={`section-${props.color}`} styleName="shell" style={shellCss}>
@@ -77,6 +80,7 @@ Section.propTypes = {
   color: PropTypes.string,
   clip: PropTypes.string,
   margin: PropTypes.string,
+  padding: PropTypes.string,
   css: PropTypes.objectOf(PropTypes.string),
   bound: PropTypes.bool,
 };

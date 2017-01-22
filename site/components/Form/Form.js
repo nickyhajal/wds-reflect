@@ -1,12 +1,12 @@
 import React, { PropTypes, Component } from 'react';
 import CSSModules from 'react-css-modules';
 import autoBind from 'react-autobind';
+import axios from 'axios';
+import _ from 'lodash';
 import styles from './Form.css';
 import Input from '../Input/Input';
 import FormRow from '../FormRow/FormRow';
 import Button from '../Button/Button';
-import axios from 'axios'
-import _ from 'lodash';
 
 class Form extends Component {
   constructor() {
@@ -21,7 +21,6 @@ class Form extends Component {
     e.preventDefault();
     e.stopPropagation();
     const actions = [];
-    const form = this.state.form;
     this.setState({ status: 'loading' });
     if (this.props.list !== undefined && this.props.list) {
       actions.push(this.submitToList);
@@ -35,10 +34,15 @@ class Form extends Component {
         withCredentials: true,
         url: 'http://api.worlddominationsummit.com/api/user/addToList',
       };
+      let form = this.state.form;
+      if (this.props.defaults !== undefined) {
+        form = _.defaultsDeep(this.state.form, this.props.defaults);
+      }
       req.params = {
         list: this.props.list,
-        name: this.state.form.full_name,
-        email: this.state.form.email,
+        name: form.full_name,
+        email: form.email,
+        custom: (form.custom !== undefined) ? form.custom : undefined,
       };
       axios(req)
       .then(resolve);
@@ -46,10 +50,13 @@ class Form extends Component {
   }
   finish() {
     this.setState({ status: 'success' });
+    if (this.props.onSuccess) {
+      this.props.onSuccess();
+    }
   }
   change(e) {
     const elm = e.target;
-    const form = this.state.form;
+    let form = this.state.form;
     form[elm.name] = elm.value;
     this.setState({ form });
   }
@@ -67,7 +74,12 @@ class Form extends Component {
       propsChildren = [propsChildren];
     }
     propsChildren.forEach((elm) => {
-      if (elm.type === Input || elm.type === FormRow) {
+      if (
+        elm.type === Input ||
+        elm.type === FormRow ||
+        elm.type === 'input' ||
+        elm.type === 'select'
+      ) {
         const props = Object.assign({}, elm.props);
         props.onChange = this.change;
         props.key = `formrow-${c}`;
@@ -91,6 +103,7 @@ Form.defaultProps = {
   method: 'ajax',
   buttonStart: 'Send',
   buttonSuccess: 'Success!',
+  onSuccess: false,
   buttonProgress: 'Sending...',
 };
 
@@ -99,6 +112,11 @@ Form.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]),
+  onSuccess: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.bool,
+  ]),
+  defaults: PropTypes.objectOf(PropTypes.string),
   list: PropTypes.string,
   buttonStart: PropTypes.string,
   buttonProgress: PropTypes.string,
