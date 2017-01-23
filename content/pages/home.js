@@ -72,16 +72,16 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   <div className="clear" />
   <Block>## And lots more!</Block>
   <Tabs>
-    <Tab title="Activity Highlights" color="blue" layout="imageLeft">
+    <Tab title="Activities" color="blue" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" anchor="left" />
      
-        Community, adventure, and service: for one week (or just a weekend if you prefer), you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world. 
+        Community, Adventure, and Service: for one week (or just a weekend if you prefer), you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world. 
 
            </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
 Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    </Tab>
-    <Tab title="Events" color="green" layout="imageLeft">
+    <Tab title="Special Events" color="green" layout="imageLeft">
       <Image src="photos/tab-zach.png" width="348px" height="324px" />
         From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted an immersive experience.
     </Tab>
