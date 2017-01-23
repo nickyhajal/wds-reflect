@@ -32,7 +32,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
 <Section color="white" css={{ padding: '90px 0 230px 0' }}>
   <Block width="600px" css={{ color: 'orange' }}>
     <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
-    ## July 10 - 16, 2017 in Portland, Oregon{'\n'}
+    ## July 11 - 17, 2017 in Portland, Oregon{'\n'}
   </Block>
   <Block cols="6" className="bigger">
 
@@ -50,7 +50,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <div className="clear"></div>
   <Image src="photos/people.jpg" width="426" height="263" margin="-120px 0 -80px -50px" />
   <Block type="padded"cols="6"bleed={false} background="canvas"className="has-checklist"css={{ padding: '60px 40px' }} mobile={{ padding: '100px 40px' }} clip="top_lr_1.6">
-    ## A WDS Weekend Includes:{'\n'}
+    ## A WDS 360 Ticket Includes:{'\n'}
 
     - All access pass to main stage keynotes on Saturday & Sunday{'\n'}
     - Access to your choice of more than 150+ themed meetups all over the city (or host your own!){'\n'}
@@ -75,17 +75,17 @@ import Testimonials from '../components/Testimonials/Testimonials';
       <Button to="/schedule">See the Details</Button>
     </Block>
     <Block type="image" src="photos/happening.jpg">
-      ## Happening in Portland, OR{'\n'}
-     A creative, welcoming city with anything you could possibly want to eat.{'\n'}
-      <Button to="/location">Learn About Portland</Button>
+      ## Our Story{'\n'}
+     There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   {'\n'}
+      <Button to="/story">See the highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
       ## Academies{'\n'}
       Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders.{'\n'}
-      <Button to="/academies">Select Your Favorites</Button>
+      <Button to="/academies">Learn More</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
-      ## WDS Foundations{'\n'}
+      ## WDS Foundation{'\n'}
 Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/academies">Learn More</Button>
     </Block>
   </div>
