@@ -57,11 +57,11 @@
     <Block type="image" src="photos/happening.jpg">
       ## Our Story
      There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   
-      <Button to="/story">See the highlights</Button>
+      <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
       ## Academies
-      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders.
+      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders to help you level-up your life. 
       <Button to="/academies">Learn More</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
