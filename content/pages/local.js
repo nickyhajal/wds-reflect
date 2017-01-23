@@ -14,6 +14,7 @@
   </Block>
   <Block margin="125px 0 50px 0">
     ## WDS Local Group Directory
+    <Grid>
     <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California
       <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
@@ -62,6 +63,7 @@
       ## Washington, D.C.
       <Button to="https://www.facebook.com/groups/263193840458019/" newWindow={true} fitToText>Join Up</Button>
     </Block>
+</Grid>
   </Block>
    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
    ## How Can I Get Involved?
