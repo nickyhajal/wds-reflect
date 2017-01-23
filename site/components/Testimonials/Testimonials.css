@@ -21,10 +21,13 @@
   width: 105px;
   height: 105px;
   padding: 0;
+  -webkit-transform: translate3d(0,0,0);
 
   div {
     opacity: 0.4;
     transition: 0.2s;
+    overflow: hidden;
+    border-radius: 50%;
 
     &:global(.active) {
       opacity: 1;

@@ -14,6 +14,8 @@ import colorize from '../../utils/colorize';
 import angler from '../../utils/angler';
 import unitize from '../../utils/unitize';
 import vars from '../../core/vars';
+import is from '../../utils/is';
+import mobilize from '../../utils/mobilize';
 
 
 class Block extends Component {
@@ -83,7 +85,7 @@ class Block extends Component {
       clip, label, title, anchor, margin, background, icon, color,
     } = props;
     const classes = [className];
-    const css = _.defaults(colorize(props).css, {});
+    let css = _.defaults(colorize(props).css, {});
     let textAlign = props.textAlign;
     css.width = widther(props);
     let content = '';
@@ -214,6 +216,12 @@ class Block extends Component {
     if (feed !== undefined) {
       classes.push('block-dynamic');
     }
+    if (is.mobile()) {
+      css = mobilize(props.mobile, css);
+      if (!is.set('width', props.mobile)) {
+        css.width = '100%';
+      }
+    }
     return (
       <div
         ref={(shell) => { this.shell = shell; }}
@@ -236,6 +244,7 @@ Block.propTypes = {
   margin: PropTypes.string,
   background: PropTypes.string,
   anchor: PropTypes.string,
+  mobile: PropTypes.objectOf(PropTypes.string),
   color: PropTypes.string,
   clip: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   className: PropTypes.string,
@@ -255,6 +264,7 @@ Block.defaultProps = {
   color: '',
   height: '',
   title: '',
+  mobile: { all: {}, phone: {}, tablet: {} },
   background: 'auto',
 };
 

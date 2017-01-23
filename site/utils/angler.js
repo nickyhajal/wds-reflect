@@ -19,12 +19,10 @@ const addPolygon = (polygon) => {
   const shell = $('#polygons');
   const id = slugify(polygon);
   shell.append(`
-    <svg width="0" height="0">
-      <defs>
-        <clipPath id="${id}" clipPathUnits="objectBoundingBox">
-          <polygon points="${polygon}" />
-        </clipPath>
-      </defs>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="546px" height="600px">
+      <clipPath id="${id}" clipPathUnits="objectBoundingBox">
+        <polygon points="${polygon}" />
+      </clipPath>
     </svg>
   `);
   angles.push(polygon);

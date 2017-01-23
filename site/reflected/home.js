@@ -24,7 +24,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
   headerClip="lr_header"
   color="canvas"
 >
-  <Image src="heading/weekend.png" width="819px" height="217px" align="center" />
+  <Image src="heading/weekend.png" width="819px" height="217px" align="center" mobile={{ all: { width: '580px', backgroundSize: '100% auto' } }}/>
   <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px">
     #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
   </Block>
@@ -45,11 +45,11 @@ import Testimonials from '../components/Testimonials/Testimonials';
 </Section>
 <Section color="green" css={{ padding: '90px 0 230px 0' }}>
   <Grid>
-    <Block type="padded" width="550" height="240" anchor="right" background="sea" feed="twitter" refresh="12" margin="-235px 0 0 0">I started my day breaking a world record and ended it enjoying time with some of the coolest people on the planet. Nothing better. #WDS2015</Block>
+    <Block type="padded" width="550" height="240" anchor="right" mobile={{ all: { width: '450px', right: '40px' } }} background="sea" feed="twitter" refresh="12" margin="-235px 0 0 0">I started my day breaking a world record and ended it enjoying time with some of the coolest people on the planet. Nothing better. #WDS2015</Block>
   </Grid>
   <div className="clear"></div>
   <Image src="photos/people.jpg" width="426" height="263" margin="-120px 0 -80px -50px" />
-  <Block type="padded" cols="6" bleed={false} background="canvas" className="has-checklist" css={{ padding: '60px 40px' }} clip="top_lr_1.6">
+  <Block type="padded"cols="6"bleed={false} background="canvas"className="has-checklist"css={{ padding: '60px 40px' }} mobile={{ padding: '100px 40px' }} clip="top_lr_1.6">
     ## A WDS Weekend Includes:{'\n'}
 
     - All access pass to main stage keynotes on Saturday & Sunday{'\n'}

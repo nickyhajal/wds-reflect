@@ -6,6 +6,8 @@ import $ from 'jquery';
 import styles from './Image.css';
 import angler from '../../utils/angler';
 import unitize from '../../utils/unitize';
+import is from '../../utils/is';
+import mobilize from '../../utils/mobilize';
 
 const icons = {
   outline_beers: {
@@ -91,7 +93,11 @@ const Image = (props) => {
     css.marginLeft = 'auto';
     css.marginRight = 'auto';
   }
+  if (is.mobile()) {
+    css = mobilize(props.mobile, css);
+  }
   newProps.style = css;
+  newProps.styleName = 'img';
   if (preload) {
     $(() => {
       const slug = src.replace(/\//g, '__').replace(/\./g, '___');
@@ -112,6 +118,7 @@ Image.propTypes = {
   width: PropTypes.string,
   clip: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   position: PropTypes.string,
+  mobile: PropTypes.objectOf(PropTypes.string),
   align: PropTypes.string,
   anchor: PropTypes.string,
   icon: PropTypes.string,
@@ -126,6 +133,7 @@ Image.defaultProps = {
   tag: 'div',
   position: 'center',
   anchor: 'unanchored',
+  mobile: { all: {}, phone: {}, tablet: {} },
   margin: false,
 };
 

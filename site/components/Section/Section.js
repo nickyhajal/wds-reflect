@@ -9,6 +9,7 @@ import widther from '../../utils/widther';
 import colorize from '../../utils/colorize';
 import angler from '../../utils/angler';
 import actions from '../../actions';
+import is from '../../utils/is';
 
 const openVideo = (act, headerVideo) => {
   act.setModalData('video', { id: headerVideo });
@@ -64,6 +65,13 @@ const Section = (props) => {
     shellCss.padding = props.padding;
   }
   shellCss = _.defaults(props.css, shellCss);
+  if (is.mobile()) {
+    if (!is.set('width', props.mobile)) {
+      contentCss.width = '100%';
+    }
+    shellCss.paddingRight = '20px';
+    shellCss.paddingLeft = '20px';
+  }
   return (
     <section className={`section-${props.color}`} styleName="shell" style={shellCss}>
       {renderHeader(p)}
@@ -79,6 +87,7 @@ const Section = (props) => {
 Section.propTypes = {
   color: PropTypes.string,
   clip: PropTypes.string,
+  mobile: PropTypes.objectOf(PropTypes.string),
   margin: PropTypes.string,
   padding: PropTypes.string,
   css: PropTypes.objectOf(PropTypes.string),
@@ -86,6 +95,7 @@ Section.propTypes = {
 };
 Section.defaultProps = {
   color: 'white',
+  mobile: { all: {}, phone: {}, tablet: {} },
   bound: true,
 };
 
