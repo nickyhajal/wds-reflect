@@ -74,20 +74,18 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   <Tabs>
     <Tab title="Activities" color="blue" layout="imageLeft">
       <Image src="photos/tab-activities.png" width="348px" height="324px" anchor="left" />
-     
-        ### Community, Adventure, and Service: for one week 
-      You’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world. 
-
-           </Tab>
+     Community, Adventure, and Service: for one week you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world. 
+       <Button to="/story">See the Highlights</Button>    
+       </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
-      <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="right" />
+      <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" />
 Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    </Tab>
     <Tab title="Special Events" color="green" layout="imageLeft">
       <Image src="photos/tab-events.png" width="348px" height="324px" anchor="left" />
         From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted an immersive experience.
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
-      <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="right" />
+      <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="left" />
 Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community. 
     </Tab>
   </Tabs>
