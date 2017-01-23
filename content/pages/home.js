@@ -74,8 +74,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   <Tabs>
     <Tab title="Activities" color="blue" layout="imageLeft">
       <Image src="photos/tab-activities.png" width="348px" height="324px" anchor="left" />
-     Community, Adventure, and Service: for one week you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world. 
-       <Button to="/story">See the Highlights</Button>    
+     Community, Adventure, and Service: for one week you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world.   
        </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" />
