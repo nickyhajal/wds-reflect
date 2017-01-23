@@ -59,7 +59,7 @@
       ## Victoria, Canada
       <Button to="https://www.facebook.com/groups/121832781617165/" newWindow={true} fitToText>Join Up</Button>
     </Block>
-    <Block type="image-narrow" src="photos/washington.dc.WDS.local.png">
+    <Block type="image-narrow" src="photos/wdslocal/washington.dc.WDS.local.png">
       ## Washington, D.C.
       <Button to="https://www.facebook.com/groups/263193840458019/" newWindow={true} fitToText>Join Up</Button>
     </Block>
