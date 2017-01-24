@@ -25,6 +25,9 @@
     margin-top: 4px;
   }
 }
+:global(.grid-block.dropped-button) {
+  position: relative;
+}
 .block-caption {
   width: 303px;
   height: 222px;

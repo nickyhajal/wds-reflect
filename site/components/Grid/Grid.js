@@ -1,7 +1,9 @@
 import React, { PropTypes } from 'react';
 import _ from 'lodash';
+import autoBind from 'react-autobind';
 import cx from 'classnames';
 import Block from '../Block/Block';
+import $ from 'jquery';
 import is from '../../utils/is';
 
 const processChildren = (props) => {
@@ -13,7 +15,7 @@ const processChildren = (props) => {
   childArray.forEach((elm, i) => {
     const gutter = parseInt(props.gutter, 10);
     const powerProps = _.pick(props, ['textAlign']);
-    const passed = _.cloneDeep({}, props.block);
+    const passed = _.cloneDeep(_.defaults(props.block, { className: '' }));
     const elmProps = Object.assign({ css: {}, anchor: 'left' }, passed, elm.props, powerProps);
     elmProps.key = `grid-${i}`;
     elmProps.className = cx('grid-block', props.className);
@@ -24,7 +26,7 @@ const processChildren = (props) => {
         numCols = parseInt(props.tabletCols, 10);
       }
       elmProps.width = (parseInt(props.width, 10) / numCols) - ((gutter * (numCols - 1)) / numCols);
-      elmProps.className = cx(`grid-cols-${numCols}`, elmProps.className);
+      elmProps.className = cx(`grid-cols-${numCols}`, elmProps.className, passed.className);
       const place = ((i) % (parseInt(numCols, 10)));
       elmProps.css.margin = `0 ${gutter}px ${gutter}px 0`;
       elmProps.css.clear = null;
@@ -38,30 +40,62 @@ const processChildren = (props) => {
   });
   return out;
 };
-const Grid = (props) => {
-  const passProps = Object.assign({}, props);
-  const p = Object.assign({ width: '996' }, props);
-  if (is.tablet()) {
-    p.width = window.screen.width - 40;
-    passProps.width = p.width;
+
+class Grid extends React.Component {
+  constructor() {
+    super();
+    autoBind(Object.getPrototypeOf(this));
   }
-  if (p.css === undefined) { p.css = {}; }
-  p.css.padding = props.padding;
-  return (<Block {...p}>
-    {processChildren(passProps)}
-    <div className="clear" />
-  </Block>);
-};
+  componentDidMount() {
+    if (this.props.equalize) {
+      let maxH = 0;
+      $('.grid-block', $(this.shell.shell)).each((i, elm) => {
+        maxH = $(elm).height() > maxH ? $(elm).height() : maxH;
+      });
+      $('.grid-block', $(this.shell.shell)).each((i, elm) => {
+        const $elm = $(elm);
+        $elm.css('height', `${maxH}px`);
+        if ($elm.hasClass('dropped-button')) {
+          const btn = $('.button', $elm)
+          const dims = btn.position();
+          btn.css({
+            position: 'absolute',
+            bottom: '28px',
+            left: `${dims.left}px`,
+          });
+        }
+      });
+    }
+  }
+  render() {
+    const passProps = Object.assign({}, this.props);
+    const p = Object.assign({ width: '996' }, this.props);
+    if (is.tablet()) {
+      p.width = window.screen.width - 40;
+      passProps.width = p.width;
+    }
+    if (p.css === undefined) { p.css = {}; }
+    p.css.padding = this.props.padding;
+    return (
+      <Block {...p} ref={(init) => { this.shell = init; }} >
+        {processChildren(passProps)}
+        <div className="clear" />
+      </Block>
+    );
+  }
+}
 
 Grid.propTypes = {
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   padding: PropTypes.string,
   gutter: PropTypes.string,
   numCols: PropTypes.string,
+  equalize: PropTypes.bool,
   tabletCols: PropTypes.string,
 };
 Grid.defaultProps = {
   width: '996',
+  equalize: false,
   gutter: '32',
 };
 

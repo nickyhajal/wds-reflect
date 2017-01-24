@@ -83,7 +83,7 @@ class Button extends React.Component {
         ref: node => (this.root = node),
         styleName: 'button',
         className: cx(
-          className
+          'button', className
         ),
         to,
         href,

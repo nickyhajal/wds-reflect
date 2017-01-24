@@ -34,7 +34,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
   </Block>
   <Block margin="125px 0 50px 0">
     ## WDS Local Group Directory{'\n'}
-    <Grid numCols="3" tabletCols="2">
+    <Grid numCols="3" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
     <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California
       <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
