@@ -10,7 +10,7 @@
     ## Why WDS?
     Way back in 2011, we invited 500 friends to Portland, Oregon. Our common curiosity brought us together to explore one question: _How do we live a remarkable life in a conventional world?_  
 
-Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included *more than 10,000 people from all 50 states and more than 40 countries* since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. 
+Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included **more than 10,000 people from all 50 states and more than 40 countries** since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. 
     
     With a full week of events and an unforgettable keynote speaker-filled weekend, you'll learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.
   
@@ -197,12 +197,12 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
-        <Block type="image" src="photos/trex.jpg">
+        <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2012+Pictures.jpg">
           ## 2012 Photos {'\n'}
           2012 had some amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157630469839810">View Them</Button>
         </Block>
-         <Block type="image" src="photos/chelsea.jpg">
+         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2012+Pictures.jpg">
           ## 2012 Videos{'\n'}
          Want to relive the keynotes? Watch these videos!{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2012-keynotes">Watch Them</Button>
