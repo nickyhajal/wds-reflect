@@ -1,7 +1,7 @@
 <Section
   headerImage="hero/foundation.jpg"
   headerClip="rl_header"
-  headerPosition="top"
+  headerPosition="center center"
   headerSize="thin"
   color="white"
 >
