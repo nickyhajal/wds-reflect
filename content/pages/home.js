@@ -84,7 +84,12 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
        </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" />
-Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    </Tab>
+Each day, there will be time set aside for attendees to host informal meetups. On any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.
+        
+Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    
+
+And if you have your own audience, you can host a meetup too. (Our dedicated attendee web app will tell you where each meetup is being held.)
+      </Tab>
     <Tab title="Special Events" color="green" layout="imageLeft">
       <Image src="photos/tab-events.png" width="348px" height="324px" anchor="left" />
         From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted an immersive experience.
