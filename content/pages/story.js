@@ -80,12 +80,12 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
-        <Block type="image" src="photos/trex.jpg">
+        <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2015+Pictures.jpg">
           ## 2015 Photos {'\n'}
           2015 had some amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
         </Block>
-         <Block type="image" src="photos/chelsea.jpg">
+         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2015+Videos.jpg">
           ## 2015 Videos{'\n'}
           Want to relive the keynotes? Watch these videos! {'\n'}
           <Button to="https://vimeopro.com/aonc/wds2015">Watch Them</Button>
