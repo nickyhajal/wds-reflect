@@ -1,6 +1,7 @@
 const colorize = (props) => {
   const map = {
     orange: 'CF7F1A',
+    gray: 'f2efed',
     green: 'B1BC40',
     forest: '33571D',
     sea: '62C0CA',

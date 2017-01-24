@@ -151,7 +151,6 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
         ## Neighborhoods: & Hawthorne
         Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
       </Block>
-      <div className="clear" />
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Neighborhoods: NW & Pearl
         Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.

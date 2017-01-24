@@ -212,12 +212,13 @@ const addJsxBreaks = (str) => {
   const lines = str.split("\n");
   let block = 0;
   let parentIsBlock = [];
+  let inTagDef = 0;
   lines.forEach((line) => {
     let l = line;
     let isTag = false;
 
     // Only continue if this block doesn't self-close
-    if (line.indexOfRegex(/\<[A-Z][a-z](.+)\/>/gi) < 0) {
+    if (line.indexOfRegex(/\<[A-Za-z](.+)\/(.+)>/gi) < 0) {
 
       // If it's a block, mark parent as true
       if (line.indexOf('<Block') > -1) {
@@ -236,7 +237,12 @@ const addJsxBreaks = (str) => {
         parentIsBlock.pop()
       }
     }
-    if (!isTag &&
+    console.log(line);
+    inTagDef += (line.match(/\</g) || []).length;
+    console.log(inTagDef, "<");
+    inTagDef -= (line.match(/\>/g) || []).length;
+    console.log(inTagDef, ">");
+    if (!isTag && !inTagDef &&
         parentIsBlock[parentIsBlock.length - 1] !== undefined &&
         parentIsBlock[parentIsBlock.length - 1] &&
         line.trim().length

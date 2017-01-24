@@ -7,6 +7,7 @@ import is from '../../utils/is';
 const processChildren = (props) => {
   const out = [];
   let childArray = props.children;
+  console.info(childArray);
   if (!_.isArray(props.children)) {
     childArray = [childArray];
   }

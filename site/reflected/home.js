@@ -31,7 +31,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>{'\n'}
     ## July 11 - 17, 2017 in Portland, Oregon{'\n'}
   </Block>
   <Block cols="6" className="bigger">
@@ -70,22 +70,22 @@ import Testimonials from '../components/Testimonials/Testimonials';
   </Block>
   <div>
     <Block type="image" src="photos/schedule.jpg">
-      ## The Schedule{'\n'}
-      With literally hundreds of activities taking place during WDS week, you won't be bored. (But we'll also have suggestions, so you won't be overwhelmed.){'\n'}
+      ## The Schedule
+      With literally hundreds of activities taking place during WDS week, you won't be bored. (But we'll also have suggestions, so you won't be overwhelmed.)
       <Button to="/schedule">See the Details</Button>
     </Block>
     <Block type="image" src="photos/happening.jpg">
-      ## Our Story{'\n'}
-     There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   {'\n'}
+      ## Our Story
+     There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   
       <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
-      ## Academies{'\n'}
-      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders to help you level-up your life. {'\n'}
+      ## Academies
+      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders to help you level-up your life. 
       <Button to="/academies">Learn More</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
-      ## WDS Foundation{'\n'}
+      ## WDS Foundation
 Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/academies">Learn More</Button>
     </Block>
   </div>
@@ -135,7 +135,7 @@ Our keynote speakers are bestselling authors, leading activists, and in-demand s
   <Block margin="50px 0" width="420px">
     ## Tell a Friend{'\n'}
     Spread the word! Great things are even better when they’re shared with friends.{'\n'}
-    <Button modal="tellAFriend" width="184px" align="center">Share the Love</Button>
+    <Button modal="tellAFriend" width="184px" align="center">Share the Love</Button>{'\n'}
   </Block>
   <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" />
 </Section>

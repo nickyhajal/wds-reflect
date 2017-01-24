@@ -67,12 +67,12 @@ import Testimonials from '../components/Testimonials/Testimonials';
         ### 1111 SW Broadway,{'\n'}
         ### Portland, OR 97205{'\n'}
       </Block>
-      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }} mobile={{ all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' } }}>
+      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }} mobile={{ all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' } }}>{'\n'}
         ### PDX Airport{'\n'}
-        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">12.6 Mi from Base</Link>
+        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">12.6 Mi from Base</Link>{'\n'}
       </Block>
     </Block>
-    <div className="clear" />{'\n'}
+    <div className="clear" />
   </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Lodging{'\n'}
@@ -84,28 +84,28 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2">
       <Block type="caption" src="photos/society-hotel.jpg" label="Coming Soon">
-        ### The WDS Hotel{'\n'}
-        **0.8 Mi** from Base{'\n'}
+        ### The WDS Hotel
+        **0.8 Mi** from Base
       </Block>
-      <Block type="caption" src="photos/Paramount-Hotel.jpg" label="Coming Soon">
+      <Block type="caption" src="photos/Paramount-Hotel.jpg" label="Coming Soon">{'\n'}
         ### Paramount Hotel{'\n'}
         **0.1 Mi** from Base{'\n'}
       </Block>
       <Block type="caption" src="photos/Hotel-Modera-Exterior.jpg" label="Coming Soon">
-        ### Hotel Modera{'\n'}
-        **0.3 Mi** from Base{'\n'}
+        ### Hotel Modera
+        **0.3 Mi** from Base
       </Block>
-      <Block type="caption" src="photos/HiLo-Hotel-Exterior.jpg" label="Coming Soon">
+      <Block type="caption" src="photos/HiLo-Hotel-Exterior.jpg" label="Coming Soon">{'\n'}
         ### Hi-Lo Hotel{'\n'}
         **0.5 Mi** from Base{'\n'}
       </Block>
-      <Block type="caption" src="photos/Jupiter-Hotel-exterior.jpg" label="Coming Soon">
+      <Block type="caption" src="photos/Jupiter-Hotel-exterior.jpg" label="Coming Soon">{'\n'}
         ### Jupiter Hotel{'\n'}
         **1.5 Mi** from Base{'\n'}
       </Block>
     </Grid>
   </Block>
-  <div className="clear" />{'\n'}
+  <div className="clear" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Alternative Lodging Options{'\n'}
     If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:{'\n'}
@@ -113,28 +113,28 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Crystal.Hotel.jpg">
-      ### Crystal Hotel{'\n'}
+      ### Crystal Hotel
       <Link to="http://www.mcmenamins.com/CrystalHotel">0.6 Mi from Base</Link>
     </Block>
-    <Block type="caption" src="photos/Portland-Hostel.jpg">
+    <Block type="caption" src="photos/Portland-Hostel.jpg">{'\n'}
      ### Portland NW Hostel{'\n'}
-      <Link to="http://nwportlandhostel.com/">1.0 Mi from Base</Link>
+      <Link to="http://nwportlandhostel.com/">1.0 Mi from Base</Link>{'\n'}
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
-      ### Airbnb listings{'\n'}
+      ### Airbnb listings
       <Link to="https://goo.gl/yOaB4l">0.5 Mi from Base</Link>
     </Block>
   </Grid>
   </Block>
-  <div className="clear" />{'\n'}
+  <div className="clear" />
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="orange">
     <Block anchor="left" align="none" width="222" margin="0 40px 0 0">
       <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="28px 0 48px 0" />{'\n'}
-      <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>
+      <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>{'\n'}
     </Block>
     <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
       <Image src="icon/bike-green-circle.png" align="center" width="145" height="130" margin="28px 0 48px 0" />{'\n'}
-      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
+      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>{'\n'}
     </Block>
     <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
       ## Transportation{'\n'}
@@ -142,22 +142,22 @@ import Testimonials from '../components/Testimonials/Testimonials';
 
 Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new bikehsare program Biketown.{'\n'}
     </Block>
-    <div className="clear" />{'\n'}
+    <div className="clear" />
   </Block>
   <Block margin="125px 0 50px 0">
     ## Food & Dining{'\n'}
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-narrow" src="photos/food-carts.jpg">
-        ## Food Carts{'\n'}
+        ## Food Carts
         <Button to="/schedule" fitToText>View More</Button>
       </Block>
-      <Block type="image-narrow" src="photos/restaurants.jpg">
+      <Block type="image-narrow" src="photos/restaurants.jpg">{'\n'}
         ## Restaurants{'\n'}
-        <Button to="/schedule" fitToText>View More</Button>
+        <Button to="/schedule" fitToText>View More</Button>{'\n'}
       </Block>
-      <Block type="image-narrow" src="photos/farmers-market.jpg">
+      <Block type="image-narrow" src="photos/farmers-market.jpg">{'\n'}
         ## Farmer&apos;s Markets{'\n'}
-        <Button to="/schedule" fitToText>View More</Button>
+        <Button to="/schedule" fitToText>View More</Button>{'\n'}
       </Block>
     </Grid>
   </Block>
@@ -166,21 +166,20 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       {'\n'}
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Neighborhoods: & Hawthorne{'\n'}
-        Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.{'\n'}
+        ## Neighborhoods: & Hawthorne
+        Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
       </Block>
-      <div className="clear" />
-      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">{'\n'}
         ## Neighborhoods: NW & Pearl{'\n'}
         Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.{'\n'}
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Powell’s Books{'\n'}
-       No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at 1005 W Burnside.{'\n'}
+        ## Powell’s Books
+       No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at 1005 W Burnside.
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Waterfront{'\n'}
-        Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.{'\n'}
+        ## Waterfront
+        Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.
       </Block>
     </Grid>
   </Block>

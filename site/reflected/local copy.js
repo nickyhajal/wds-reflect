@@ -36,51 +36,51 @@ import Testimonials from '../components/Testimonials/Testimonials';
     ## WDS Local Group Directory{'\n'}
     <Grid numCols="3" tabletCols="2">
     <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
-      ## Los Angeles, California
+      ## Los Angeles, California{'\n'}
       <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
     </Block>
-    <Block type="image-narrow" src="photos/wdslocal/minneapolis.st.paul.WDS.local.png">{'\n'}
+    <Block type="image-narrow" src="photos/wdslocal/minneapolis.st.paul.WDS.local.png">
       ## Minneapolis/St.Paul, Minnesota{'\n'}
-      <Button to="https://www.facebook.com/groups/WDSLocalMSP/" newWindow={true} fitToText>Join Up</Button>{'\n'}
+      <Button to="https://www.facebook.com/groups/WDSLocalMSP/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/new.york.city.WDS.local.png">
-      ## New York City,   New York
+      ## New York City,   New York{'\n'}
       <Button to="https://www.facebook.com/groups/NYCWDS/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/philadelphia.WDS.local.png">
-      ## Philadelphia, Pennsylvania
+      ## Philadelphia, Pennsylvania{'\n'}
       <Button to="https://www.facebook.com/groups/WDSLocalPhiladelphia/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/portland.wds.local.jpg">
-      ## Portland,   Oregon
+      ## Portland,   Oregon{'\n'}
       <Button to="https://www.facebook.com/groups/pdxwds/" fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/san.diego.WDS.local.jpg">
-      ## San Diego, California
+      ## San Diego, California{'\n'}
       <Button to="https://www.facebook.com/groups/362794770457200/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/san.francisco.WDS.local.png">
-      ## San Francisco, California
+      ## San Francisco, California{'\n'}
       <Button to="https://www.facebook.com/groups/BayAreaWDSAlums/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/seattle.WDS.local.jpg">
-      ## Seattle, Washington
+      ## Seattle, Washington{'\n'}
       <Button to="https://www.facebook.com/groups/WDSLocalSeattle/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/toronto.WDS.local.png">
-      ## Toronto,   Canada
+      ## Toronto,   Canada{'\n'}
       <Button to="https://www.facebook.com/groups/WDSToronto/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/vanouver.WDS.local.png">
-      ## Vancouver, Canada
+      ## Vancouver, Canada{'\n'}
       <Button to="https://www.facebook.com/groups/VancouverWDS/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/victoria.WDS.local.png">
-      ## Victoria, Canada
+      ## Victoria, Canada{'\n'}
       <Button to="https://www.facebook.com/groups/121832781617165/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/washington.dc.WDS.local.png">
-      ## Washington, D.C.
+      ## Washington, D.C.{'\n'}
       <Button to="https://www.facebook.com/groups/263193840458019/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     </Grid>
@@ -102,9 +102,9 @@ import Testimonials from '../components/Testimonials/Testimonials';
 <Section color="sea">
   <Block cols="5" css={{ padding: '20px 0 20px' }}>
    ## Get Connected{'\n'}
-<font color="white">Does this sound like you? Click on the button below and we'll do our best to get you connected to a local group or help you start one in your area if it's possible.</font>{'\n'}
+<font color="white">Does this sound like you? Click on the button below and we'll do our best to get you connected to a local group or help you start one in your area if it's possible.</font>
 <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="http://bit.ly/WDS-Local-Interest-Form" newWindow={true} styling="white" fitToText>Connect me to a group</Button> {'\n'}
+<Button to="http://bit.ly/WDS-Local-Interest-Form" newWindow={true} styling="white" fitToText>Connect me to a group</Button> 
  </Block>
  </Block>
 </Section>

@@ -107,15 +107,15 @@ To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.{'\n'}
     ##### Eligibility{'\n'}
    Currently the "Scholarships for Real Life" program is open only to those who have attended one of our past five WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2017.{'\n'}
 ##### Coming soon{'\n'}
-2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. 
+2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. {'\n'}
   </Block>
 </Section>
 <Section color="green">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
    ## Become A Mentor{'\n'}
-  <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>
+  <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>{'\n'}
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/foundation/mentor-submission" newWindow={true} styling="white" fitToText>Share your expertise!</Button> 
+<Button to="https://worlddominationsummit.com/foundation/mentor-submission" newWindow={true} styling="white" fitToText>Share your expertise!</Button> {'\n'}
  </Block>
   </Block>
 </Section>

@@ -221,6 +221,17 @@
   }
 }
 .block-text, .block-padded {
+  ul, ol {
+    list-style-position: outside;
+    padding: 0;
+    margin:  0 0 0 15px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  a {
+    color: $orange;
+  }
   h5 {
     font-family: Karla;
     font-size: 18px;

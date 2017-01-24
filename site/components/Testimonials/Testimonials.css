@@ -10,6 +10,7 @@
   /*left: -153px;*/
 }
 .avatar {
+  cursor: pointer;
   background: #fff;
   display: block;
   float: left;
