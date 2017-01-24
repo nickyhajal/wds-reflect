@@ -12,6 +12,7 @@ vars.js
 pids
 logs
 
+site/reflected/*
 site/public/dist
 site/public/index.html
 npm-debug.log
