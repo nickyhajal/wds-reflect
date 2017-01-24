@@ -57,11 +57,11 @@
     <Block type="image" src="photos/happening.jpg">
       ## Our Story
      There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   
-      <Button to="/story">See the highlights</Button>
+      <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
       ## Academies
-      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders.
+      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders to help you level-up your life. 
       <Button to="/academies">Learn More</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
@@ -72,21 +72,19 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   <div className="clear" />
   <Block>## And lots more!</Block>
   <Tabs>
-    <Tab title="Activity Highlights" color="blue" layout="imageLeft">
-      <Image src="photos/tab-zach.png" width="348px" height="324px" anchor="left" />
-     
-        Community, adventure, and service: for one week (or just a weekend if you prefer), you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world. 
-
-           </Tab>
+    <Tab title="Activities" color="blue" layout="imageLeft">
+      <Image src="photos/tab-activities.png" width="348px" height="324px" anchor="left" />
+     Community, Adventure, and Service: for one week you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world.   
+       </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
-      <Image src="photos/tab-zach.png" width="348px" height="324px" />
+      <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" />
 Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    </Tab>
-    <Tab title="Events" color="green" layout="imageLeft">
-      <Image src="photos/tab-zach.png" width="348px" height="324px" />
+    <Tab title="Special Events" color="green" layout="imageLeft">
+      <Image src="photos/tab-events.png" width="348px" height="324px" anchor="left" />
         From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted an immersive experience.
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
-      <Image src="photos/tab-zach.png" width="348px" height="324px" />
+      <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="left" />
 Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community. 
     </Tab>
   </Tabs>

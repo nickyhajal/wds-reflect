@@ -24,7 +24,7 @@
       <Button to="https://www.facebook.com/groups/WDSLocalMSP/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/new.york.city.WDS.local.png">
-      ## New York City, New York
+      ## New York City,   New York
       <Button to="https://www.facebook.com/groups/NYCWDS/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/philadelphia.WDS.local.png">
@@ -32,7 +32,7 @@
       <Button to="https://www.facebook.com/groups/WDSLocalPhiladelphia/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/portland.wds.local.jpg">
-      ## Portland, Oregon
+      ## Portland,   Oregon
       <Button to="https://www.facebook.com/groups/pdxwds/" fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/san.diego.WDS.local.jpg">
@@ -48,7 +48,7 @@
       <Button to="https://www.facebook.com/groups/WDSLocalSeattle/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/toronto.WDS.local.png">
-      ## Toronto, Canada
+      ## Toronto,   Canada
       <Button to="https://www.facebook.com/groups/WDSToronto/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/vanouver.WDS.local.png">
@@ -59,7 +59,7 @@
       ## Victoria, Canada
       <Button to="https://www.facebook.com/groups/121832781617165/" newWindow={true} fitToText>Join Up</Button>
     </Block>
-    <Block type="image-narrow" src="photos/washington.dc.WDS.local.png">
+    <Block type="image-narrow" src="photos/wdslocal/washington.dc.WDS.local.png">
       ## Washington, D.C.
       <Button to="https://www.facebook.com/groups/263193840458019/" newWindow={true} fitToText>Join Up</Button>
     </Block>
