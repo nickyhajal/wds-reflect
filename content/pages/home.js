@@ -84,7 +84,9 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
        </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" />
-Each day, there will be time set aside for attendees to host informal meetups. On any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.
+Attendee-led meetups have been a staple of WDS since our first year. In 2017, they're back and better than ever!
+        
+Each day, there will be time set aside for attendees to host these informal meetups, and on any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.
         
 Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    
 
@@ -92,11 +94,15 @@ And if you have your own audience, you can host a meetup too. (Our dedicated att
       </Tab>
     <Tab title="Special Events" color="green" layout="imageLeft">
       <Image src="photos/tab-events.png" width="348px" height="324px" anchor="left" />
-        From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted an immersive experience.
+        WDS is now a week-long gathering bringing together some of the most remarkable people from around the world. This means we have all-new activities and mini-events to create even more incredible memories together.
+        
+        From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted a wonderfully immersive experience. Join your fellow attendees at your choice of extracurricular activities around town—from film screenings and river cruises, to world record attempts and more!
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="left" />
-Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community. 
+Part of what makes WDS so great is our weekend of main stage events. Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community. 
+
+Over the weekend, each speaker will share a short message that combines personal stories with practical ideas on our main stag, but most speakers stick around for the entire weekend and are available for informal conversation.  Sunday afternoon—before we all head to the afterparty—we've set aside a space for our speakers to sign books and meet readers. Print books will be available for sale throughout the weekend, and if you're digital-only, you can stop by to say hi to your favorite author!
     </Tab>
   </Tabs>
 </Section>
