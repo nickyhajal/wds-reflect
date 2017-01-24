@@ -40,12 +40,11 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
 <Section color="canvas">
   <Tabs style="dots">
     <Tab title="2016">
-      <Image src="art/legacy-2016.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
       <div>
         <Block type="4col">
           ## Year Six{'\n'}
-          August 9-14, 2016 {'\n'}
-          Portland, OR{'\n'}
+          <p>August 9-14, 2016<br/>Portland, OR</p>
         </Block>
         <Block type="4col">
           ## Highlights{'\n'}
@@ -77,7 +76,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2015">
-      <Image src="art/legacy-2015.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2015.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
         <div>
         <Block type="4col">
           ## Year Five{'\n'}
@@ -114,7 +113,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2014">
-      <Image src="art/legacy-2014.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2014.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
         <div>
         <Block type="4col">
           ## Year Four{'\n'}
@@ -151,7 +150,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2013">
-      <Image src="art/legacy-2013.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2013.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
            <div>
         <Block type="4col">
           ## Year Three{'\n'}
@@ -188,7 +187,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2012">
-      <Image src="art/legacy-2012.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2012.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
       <div>
         <Block type="4col">
           ## Year Two{'\n'}
@@ -225,11 +224,11 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2011">
-      <Image src="art/legacy-2011.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2011.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
        <div>
         <Block type="4col">
           ## Year One{'\n'}
-          June 3-5, 2011 {'\n'}
+          June 3-5, 2011{'\n'}
           Portland, OR{'\n'}
         </Block>
         <Block type="4col">
@@ -267,7 +266,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
   <Block margin="50px 0">## Tickets go on sale again in:</Block>
   <Counter format="calendar" to="ticket-sale" />
-  <Block width="400px" align="center" margin="50px 0 0">
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
       successMessage="Great, we'll let you know when sales start!"

@@ -35,7 +35,6 @@ class VideoModal extends React.Component {
   }
 
   videoFrame() {
-    console.log(this.props.visible);
     if (
       this.props.visible !== 'hidden' &&
       this.props.modals.data.video !== undefined && 

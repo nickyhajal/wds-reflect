@@ -20,12 +20,11 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
 <Section color="canvas">
   <Tabs style="dots">
     <Tab title="2016">
-      <Image src="art/legacy-2016.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
       <div>
         <Block type="4col">
           ## Year Six
-          August 9-14, 2016 
-          Portland, OR
+          <p>August 9-14, 2016<br/>Portland, OR</p>
         </Block>
         <Block type="4col">
           ## Highlights
@@ -57,7 +56,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2015">
-      <Image src="art/legacy-2015.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2015.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
         <div>
         <Block type="4col">
           ## Year Five
@@ -94,7 +93,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2014">
-      <Image src="art/legacy-2014.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2014.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
         <div>
         <Block type="4col">
           ## Year Four
@@ -131,7 +130,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2013">
-      <Image src="art/legacy-2013.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2013.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
            <div>
         <Block type="4col">
           ## Year Three
@@ -168,7 +167,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2012">
-      <Image src="art/legacy-2012.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2012.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
       <div>
         <Block type="4col">
           ## Year Two
@@ -205,11 +204,11 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
     </Tab>
     <Tab title="2011">
-      <Image src="art/legacy-2011.jpg" width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2011.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
        <div>
         <Block type="4col">
           ## Year One
-          June 3-5, 2011 
+          June 3-5, 2011
           Portland, OR
         </Block>
         <Block type="4col">

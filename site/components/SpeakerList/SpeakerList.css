@@ -83,3 +83,13 @@
     opacity: 0;
     transition: 0.2s all;
 }
+
+@media(--tablet) {
+  .speakerList .controls button {
+    top: 32px;
+  }
+  :global(.slick-slide) {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}

@@ -37,9 +37,6 @@
     color: $orange;
   }
 
-  &:nth-of-type(3n) {
-    margin-right: 0;
-  }
   .label {
     background: $orange;
     color: $white;
@@ -184,6 +181,7 @@
     text-align: left;
     position: relative;
     top: 60px;
+    min-height: 330px;
 
     p {
       font-size: 14px;
@@ -192,7 +190,7 @@
   }
   .icon {
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
     right: -20px;
   }
 }

@@ -45,7 +45,17 @@
     margin-bottom: 32px;
   }
 }
+@media (--tablet) {
+  .content {
+    margin-left: -20px;
+    margin-right: -20px;
+    width: 100% !important;
 
+    :global(.banner) {
+      width: 100% !important;
+      background-position: 100% auto;
+  }
+}
 /*:global(.section-white) .block-text {
   h2 {
     color: $orange;

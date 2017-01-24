@@ -45,10 +45,10 @@ import Testimonials from '../components/Testimonials/Testimonials';
 </Section>
 <Section color="green" css={{ padding: '90px 0 230px 0' }}>
   <Grid>
-    <Block type="padded" width="550" height="240" anchor="right" mobile={{ all: { width: '450px', right: '40px' } }} background="sea" feed="twitter" refresh="12" margin="-235px 0 0 0">I started my day breaking a world record and ended it enjoying time with some of the coolest people on the planet. Nothing better. #WDS2015</Block>
+    <Block type="padded" width="550" height="240" anchor="right" mobile={{ all: { position: 'relative', zIndex: '6', top: '-85px', width: '450px', right: '20px' } }} background="sea" feed="twitter" refresh="12" margin="-235px 0 0 0">I started my day breaking a world record and ended it enjoying time with some of the coolest people on the planet. Nothing better. #WDS2015</Block>
   </Grid>
   <div className="clear"></div>
-  <Image src="photos/people.jpg" width="426" height="263" margin="-120px 0 -80px -50px" />
+  <Image src="photos/people.jpg" width="426" height="263" margin="-120px 0 -80px -50px" mobile={ { all: {position: 'relative', zIndex: '-1' }} }/>
   <Block type="padded"cols="6"bleed={false} background="canvas"className="has-checklist"css={{ padding: '60px 40px' }} mobile={{ padding: '100px 40px' }} clip="top_lr_1.6">
     ## A WDS 360 Ticket Includes:{'\n'}
 
@@ -115,7 +115,7 @@ Our keynote speakers are bestselling authors, leading activists, and in-demand s
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
   <Block margin="50px 0">## Tickets go on sale again in:</Block>
   <Counter format="calendar" to="ticket-sale" />
-  <Block width="400px" align="center" margin="50px 0 0">
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
       successMessage="Great, we'll let you know when sales start!"

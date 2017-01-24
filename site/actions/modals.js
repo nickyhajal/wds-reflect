@@ -24,19 +24,14 @@ export function openModal(modal) {
 
 export function setModalData(type, newData) {
   return (dispatch, getState) => {
-        console.log(dispatch);
-        console.log(getState().modals.data);
     let data = getState().modals.data;
     if (data === undefined) {
       data = {};
     }
-    console.info(data);
     if (data[type] === undefined) {
       data[type] = {};
     }
-    console.log(data);
     data[type] = _.merge(newData, data[type]);
-    console.log(data);
     dispatch({
       type: C.MODAL_SET_DATA,
       data,

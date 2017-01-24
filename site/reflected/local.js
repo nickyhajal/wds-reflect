@@ -34,6 +34,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
   </Block>
   <Block margin="125px 0 50px 0">
     ## WDS Local Group Directory{'\n'}
+    <Grid numCols="3" tabletCols="2">
     <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California{'\n'}
       <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
@@ -82,6 +83,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
       ## Washington, D.C.{'\n'}
       <Button to="https://www.facebook.com/groups/263193840458019/" newWindow={true} fitToText>Join Up</Button>
     </Block>
+    </Grid>
   </Block>
    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
    ## How Can I Get Involved?{'\n'}
@@ -110,7 +112,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
   <Block margin="50px 0">## Tickets go on sale again in:</Block>
   <Counter format="calendar" to="ticket-sale" />
-  <Block width="400px" align="center" margin="50px 0 0">
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
       successMessage="Great, we'll let you know when sales start!"

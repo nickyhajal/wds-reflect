@@ -2,6 +2,8 @@ import { createConstants } from 'redux-action-helper';
 
 const constants = createConstants(
 
+  // APP
+  'APP_SET_MENU',
   // AUTH
   'AUTH_SET_ME',
   'AUTH_SET_ERROR',

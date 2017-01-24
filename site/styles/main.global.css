@@ -1,3 +1,4 @@
+@import "vars.css";
 @font-face {font-family: "Vitesse"; src: url("https://files.wds.fm/fonts/VitesseMedium.otf") format("opentype");}
 @font-face {font-family: "VitesseLight"; src: url("https://files.wds.fm/fonts/VitesseLight.otf") format("opentype");}
 @font-face {font-family: "VitesseBold"; src: url("https://files.wds.fm/fonts/VitesseBold.otf") format("opentype");}

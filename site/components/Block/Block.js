@@ -109,7 +109,6 @@ class Block extends Component {
           <div styleName="content"><Markdown>{children}</Markdown></div>
         </div>
       );
-      css.width = '300px';
       textAlign = 'center';
 
     // OVERLAYED IMAGE BLOCK
@@ -165,7 +164,6 @@ class Block extends Component {
           <div styleName="content"><Markdown>{children}</Markdown></div>
         </div>
       );
-      css.width = '306px';
       textAlign = 'left';
 
     // 4Col Block
@@ -218,8 +216,24 @@ class Block extends Component {
     }
     if (is.mobile()) {
       css = mobilize(props.mobile, css);
-      if (!is.set('width', props.mobile)) {
-        css.width = '100%';
+      if (is.phone()) {
+        if (!is.set('width', props.mobile)) {
+          css.width = '100%';
+        }
+      }
+      if (is.tablet()) {
+        if (type === '4col') {
+          css.width = '46%';
+        } else if (type === 'image') {
+          css.width = '80%';
+          css.marginLeft = 'auto';
+          css.marginRight = 'auto';
+          css.float = 'none';
+        } else if (type === 'text' || type === 'padded') {
+          if (!is.set('width', props.mobile)) {
+            css.width = '100%';
+          }
+        }
       }
     }
     return (

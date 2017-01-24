@@ -1,7 +1,6 @@
 const is = {
   mobile() {
     const width = window.screen.width;
-    console.info(width);
     return width < 1006;
   },
   phone() {

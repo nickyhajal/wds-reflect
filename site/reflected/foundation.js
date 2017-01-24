@@ -123,7 +123,7 @@ To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.{'\n'}
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
   <Block margin="50px 0">## Tickets go on sale again in:</Block>
   <Counter format="calendar" to="ticket-sale" />
-  <Block width="400px" align="center" margin="50px 0 0">
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
       successMessage="Great, we'll let you know when sales start!"

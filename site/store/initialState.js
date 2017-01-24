@@ -1,6 +1,9 @@
 import { Map } from 'immutable';
 
 export default {
+  app: Map({
+    navOpen: false,
+  }),
   modals: Map({
     open: false,
     visibility: 'hidden',
