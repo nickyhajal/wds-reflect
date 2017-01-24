@@ -32,7 +32,6 @@ export class App extends Component {
     this.props.act.openMenu(!this.props.app.navOpen);
   }
   ticketClick() {
-    console.log("click");
     this.props.act.openModal('joinUs');
   }
   render() {

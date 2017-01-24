@@ -135,7 +135,7 @@ class Block extends Component {
 
     // COLOR HEADER BLOCK
     } else if (type === 'color') {
-      css.width = '308px';
+      // css.width = '308px';
       textAlign = 'left';
       css.float = 'left';
       const headerCss = {};

@@ -56,8 +56,15 @@ class Form extends Component {
   }
   change(e) {
     const elm = e.target;
-    let form = this.state.form;
-    form[elm.name] = elm.value;
+    const form = this.state.form;
+    const name = elm.name;
+    if (elm.name.indexOf('[') > -1) {
+      const bits = elm.name.replace(']', '').split('[');
+      if (form.custom === undefined) { form.custom = {}; }
+      form.custom[bits[1]] = elm.value;
+    } else {
+      form[name] = elm.value;
+    }
     this.setState({ form });
   }
   render() {

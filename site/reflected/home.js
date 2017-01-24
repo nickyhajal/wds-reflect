@@ -71,21 +71,25 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <div>
     <Block type="image" src="photos/schedule.jpg">
       ## The Schedule
+
       With literally hundreds of activities taking place during WDS week, you won't be bored. (But we'll also have suggestions, so you won't be overwhelmed.)
       <Button to="/schedule">See the Details</Button>
     </Block>
     <Block type="image" src="photos/happening.jpg">
       ## Our Story
+
      There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   
       <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
       ## Academies
+
       Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders to help you level-up your life. 
       <Button to="/academies">Learn More</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
       ## WDS Foundation
+      
 Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/academies">Learn More</Button>
     </Block>
   </div>

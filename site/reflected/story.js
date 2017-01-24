@@ -30,7 +30,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
     ## Why WDS?{'\n'}
     Way back in 2011, we invited 500 friends to Portland, Oregon. Our common curiosity brought us together to explore one question: _How do we live a remarkable life in a conventional world?_  {'\n'}
 
-Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included <strong>more than 10,000 people from all 50 states and more than 40 countries</strong> since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. {'\n'}
+Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included **more than 10,000 people from all 50 states and more than 40 countries** since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. {'\n'}
     
     With a full week of events and an unforgettable keynote speaker-filled weekend, you'll learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
   
@@ -42,24 +42,26 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     <Tab title="2016">
       <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
       <div>
-        <Block type="4col">
-          ## Year Six{'\n'}
-          <p>August 9-14, 2016<br/>Portland, OR</p>{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Highlights{'\n'}
-          - 6 Days of Community, Service & Adventure{'\n'}
-          - Overcoming our fears with Michelle Poler  {'\n'}
-          - Dancing Jellyfish!{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Big Surprise{'\n'}
-          WDS branded tattoos backstage!{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Popular Speakers{'\n'}
-          "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Rev. angel Kyodo williams{'\n'}
-        </Block>
+        <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
+          <Block type="color" color="green">
+            ## Year Six{'\n'}
+            <p>August 9-14, 2016<br/>Portland, OR</p>{'\n'}
+          </Block>
+          <Block type="color" color="blue">
+            ## Highlights{'\n'}
+            - 6 Days of Community, Service & Adventure{'\n'}
+            - Overcoming our fears with Michelle Poler  {'\n'}
+            - Dancing Jellyfish!{'\n'}
+          </Block>
+          <Block type="color" color="sea">
+            ## Big Surprise{'\n'}
+            WDS branded tattoos backstage!{'\n'}
+          </Block>
+          <Block type="color" color="orange">
+            ## Popular Speakers{'\n'}
+            "As people who want to commit themselves to ‘world domination,’ it is our responsibility to have some kind of a practice while the world is going to hell in a handbasket, other than buying handbaskets." -Rev. angel Kyodo williams{'\n'}
+          </Block>
+        </Grid>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
@@ -78,25 +80,26 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     <Tab title="2015">
       <Image src="art/legacy-2015.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
         <div>
-        <Block type="4col">
-          ## Year Five{'\n'}
-          July 9-13, 2015 {'\n'}
-          Portland, OR{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Highlights{'\n'}
-          - Lipstick selfies{'\n'}
-          - Q&A with The Kid President{'\n'}
-          - Breakfast in Bed Guinness World Record!{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Big Surprise{'\n'}
-          Attendee photos projected on building during closing party{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Popular Speakers{'\n'}
-          "Your voice is never lost, it’s always waiting to be found." —Jon Acuff{'\n'}
-        </Block>
+        <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
+          <Block type="color" color="green">
+            ## Year Five{'\n'}
+            <p>July 9-13, 2015<br/>Portland, OR</p>{'\n'}
+          </Block>
+          <Block type="color" color="blue">
+            ## Highlights{'\n'}
+            - Lipstick selfies{'\n'}
+            - Q&A with The Kid President{'\n'}
+            - Breakfast in Bed Guinness World Record!{'\n'}
+          </Block>
+          <Block type="color" color="sea">
+            ## Big Surprise{'\n'}
+            Attendee photos projected on building during closing party{'\n'}
+          </Block>
+          <Block type="color" color="orange">
+            ## Popular Speakers{'\n'}
+            "Your voice is never lost, it’s always waiting to be found." —Jon Acuff{'\n'}
+          </Block>
+        </Grid>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
@@ -115,25 +118,26 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     <Tab title="2014">
       <Image src="art/legacy-2014.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
         <div>
-        <Block type="4col">
-          ## Year Four{'\n'}
-          July 10-14, 2014 {'\n'}
-          Portland, OR{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Highlights{'\n'}
-          - Portland Experience opening party{'\n'}
-          - Hot Air Balloon Rides!{'\n'}
-          - The Great Namaste World Record{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Big Surprise{'\n'}
-          Color shower{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Popular Speakers{'\n'}
-          "Take imperfect action" —Jadah Sellner{'\n'}
-        </Block>
+        <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
+          <Block type="color" color="green">
+            ## Year Four{'\n'}
+            <p>July 10-14, 2014<br/>Portland, OR</p>{'\n'}
+          </Block>
+          <Block type="color" color="blue">
+            ## Highlights{'\n'}
+            - Portland Experience opening party{'\n'}
+            - Hot Air Balloon Rides!{'\n'}
+            - The Great Namaste World Record{'\n'}
+          </Block>
+          <Block type="color" color="sea">
+            ## Big Surprise{'\n'}
+            Color shower{'\n'}
+          </Block>
+          <Block type="color" color="orange">
+            ## Popular Speakers{'\n'}
+            "Take imperfect action" —Jadah Sellner{'\n'}
+          </Block>
+        </Grid>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
@@ -152,25 +156,26 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     <Tab title="2013">
       <Image src="art/legacy-2013.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
            <div>
-        <Block type="4col">
-          ## Year Three{'\n'}
-          July 3-5, 2013 {'\n'}
-          Portland, OR{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Highlights{'\n'}
-          - First time at the Arlene Schnitzer Concert Hall{'\n'}
-          - Opening Party at the Oregon Zoo{'\n'}
-          - The World Float Guinness World Record{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Big Surprise{'\n'}
-          Champagne toast in the Arlene Schnitzer Concert Hall{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Popular Speakers{'\n'}
-          Brene Brown and Chris Guillebeau signing "Don't Stop Believing" live on stage{'\n'}
-        </Block>
+        <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
+          <Block type="color" color="green">
+            ## Year Three{'\n'}
+            <p>July 3-5, 2013<br/>Portland, OR</p>{'\n'}
+          </Block>
+          <Block type="color" color="blue">
+            ## Highlights{'\n'}
+            - First time at the Arlene Schnitzer Concert Hall{'\n'}
+            - Opening Party at the Oregon Zoo{'\n'}
+            - The World Float Guinness World Record{'\n'}
+          </Block>
+          <Block type="color" color="sea">
+            ## Big Surprise{'\n'}
+            Champagne toast in the Arlene Schnitzer Concert Hall{'\n'}
+          </Block>
+          <Block type="color" color="orange">
+            ## Popular Speakers{'\n'}
+            Brene Brown and Chris Guillebeau signing "Don't Stop Believing" live on stage{'\n'}
+          </Block>
+        </Grid>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
@@ -189,25 +194,26 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     <Tab title="2012">
       <Image src="art/legacy-2012.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
       <div>
-        <Block type="4col">
-          ## Year Two{'\n'}
-          July 6-8, 2012 {'\n'}
-          Portland, OR{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Highlights{'\n'}
-          - First time at the Antoinette Hatfield Hall{'\n'}
-          - Bungee jumping with Joel Runyon{'\n'}
-          - Carnival themed Opening Party{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Big Surprise{'\n'}
-          The $100 Investment{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Popular Speakers{'\n'}
-          "The path to a passionate life is often way more complex than the simple advice 'follow your passion' would suggest." —Cal Newport{'\n'}
-        </Block>
+        <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
+          <Block type="color" color="green">
+            ## Year Two{'\n'}
+            <p>July 6-8, 2012<br/>Portland, OR</p>{'\n'}
+          </Block>
+          <Block type="color" color="blue">
+            ## Highlights{'\n'}
+            - First time at the Antoinette Hatfield Hall{'\n'}
+            - Bungee jumping with Joel Runyon{'\n'}
+            - Carnival themed Opening Party{'\n'}
+          </Block>
+          <Block type="color" color="sea">
+            ## Big Surprise{'\n'}
+            The $100 Investment{'\n'}
+          </Block>
+          <Block type="color" color="orange">
+            ## Popular Speakers{'\n'}
+            "The path to a passionate life is often way more complex than the simple advice 'follow your passion' would suggest." —Cal Newport{'\n'}
+          </Block>
+        </Grid>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
@@ -226,25 +232,26 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     <Tab title="2011">
       <Image src="art/legacy-2011.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
        <div>
-        <Block type="4col">
-          ## Year One{'\n'}
-          June 3-5, 2011{'\n'}
-          Portland, OR{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Highlights{'\n'}
-          - A giant ice sculpture{'\n'}
-          - Love notes from every attendee{'\n'}
-          - A dance party{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Big Surprise{'\n'}
-          We actually pulled this off!{'\n'}
-        </Block>
-        <Block type="4col">
-          ## Popular Speakers{'\n'}
-          "Adventuring occurs when we actually embrace possibility." —Jonathan Fields{'\n'}
-        </Block>
+        <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
+           <Block type="color" color="green">
+            ## Year One{'\n'}
+            <p>June 3-5, 2011<br/>Portland, OR</p>{'\n'}
+          </Block>
+           <Block type="color" color="blue">
+            ## Highlights{'\n'}
+            - A giant ice sculpture{'\n'}
+            - Love notes from every attendee{'\n'}
+            - A dance party{'\n'}
+          </Block>
+          <Block type="color" color="sea">
+            ## Big Surprise{'\n'}
+            We actually pulled this off!{'\n'}
+          </Block>
+          <Block type="color" color="orange">
+            ## Popular Speakers{'\n'}
+            "Adventuring occurs when we actually embrace possibility." —Jonathan Fields{'\n'}
+          </Block>
+        </Grid>
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>

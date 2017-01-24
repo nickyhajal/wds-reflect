@@ -46,7 +46,7 @@ const Image = (props) => {
   });
   const {
     tag, onClick, onMouseOver, onMouseOut, className, styleName,
-    icon, anchor, preload
+    icon, anchor, preload,
   } = props;
   let { src } = props;
   const newProps = {

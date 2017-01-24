@@ -62,14 +62,8 @@ class TellAFriend extends React.Component {
                 weekend in Portland, OR called the World Domination Summit. We should check it out this year!
               </FormRow>
               <FormRow>
-                <Grid numCols="2" width="665">
-                  <Block>
-                    <Input placeholder="Your Email Address" id="custom[friends_email]" />
-                  </Block>
-                  <Block>
-                    <Input placeholder="Your Friend's Email Address" id="email" />
-                  </Block>
-                </Grid>
+                <Input placeholder="Your Email Address" id="custom[friends_email]" css={{ width: '47%', float: 'left', marginRight: '1%' }} />
+                <Input placeholder="Your Friend's Email Address" id="email" css={{ width: '47%', float: 'left' }} />
               </FormRow>
             </Form>
           </div>

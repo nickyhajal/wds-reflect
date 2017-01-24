@@ -92,6 +92,16 @@
     line-height: 23px;
   }
 }
+:global(.grid-block).block-color {
+  .heading {
+    height: 28px;
+  }
+  .content {
+    padding: 30px 20px 20px;
+    margin-top: -10px;
+    background: #fff;
+  }
+}
 .block-color {
   background: $canvas;
   margin-right: 36px;

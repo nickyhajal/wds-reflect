@@ -237,11 +237,9 @@ const addJsxBreaks = (str) => {
         parentIsBlock.pop()
       }
     }
-    console.log(line);
     inTagDef += (line.match(/\</g) || []).length;
-    console.log(inTagDef, "<");
     inTagDef -= (line.match(/\>/g) || []).length;
-    console.log(inTagDef, ">");
+    if (inTagDef) { console.info(line) }
     if (!isTag && !inTagDef &&
         parentIsBlock[parentIsBlock.length - 1] !== undefined &&
         parentIsBlock[parentIsBlock.length - 1] &&

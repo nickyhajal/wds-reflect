@@ -7,14 +7,14 @@ import is from '../../utils/is';
 const processChildren = (props) => {
   const out = [];
   let childArray = props.children;
-  console.info(childArray);
   if (!_.isArray(props.children)) {
     childArray = [childArray];
   }
   childArray.forEach((elm, i) => {
     const gutter = parseInt(props.gutter, 10);
     const powerProps = _.pick(props, ['textAlign']);
-    const elmProps = Object.assign({ css: {}, anchor: 'left' }, props, elm.props, powerProps);
+    const passed = _.cloneDeep({}, props.block);
+    const elmProps = Object.assign({ css: {}, anchor: 'left' }, passed, elm.props, powerProps);
     elmProps.key = `grid-${i}`;
     elmProps.className = cx('grid-block', props.className);
     elmProps.align = '';
@@ -27,6 +27,7 @@ const processChildren = (props) => {
       elmProps.className = cx(`grid-cols-${numCols}`, elmProps.className);
       const place = ((i) % (parseInt(numCols, 10)));
       elmProps.css.margin = `0 ${gutter}px ${gutter}px 0`;
+      elmProps.css.clear = null;
       if (place === 0) {
         elmProps.css.clear = 'left';
       } else if (place === (numCols - 1)) {
