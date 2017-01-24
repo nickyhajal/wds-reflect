@@ -74,10 +74,10 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   <Tabs>
     <Tab title="Activities" color="blue" layout="imageLeft">
       <Image src="photos/tab-activities.png" width="348px" height="324px" anchor="left" />
-     Community, Adventure, and Service: for one week you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world.  
+     Community, Adventure, and Service: for one week you’ll be surrounded by like-minded people interested in pursuing big dreams and building a better world.  <br>
      
      
-     When you spend WDS with us in Portland, you’ll help us take over the city. With main-stage keynotes, hundreds of attendee-led meetups, dozens of workshops known as “Academies,” adventure activities, two big parties, and hundreds of new friends high-fiving you on street corners, it’s a truly immersive and awesome experience.
+     When you spend WDS with us in Portland, you’ll help us take over the city. With main-stage keynotes, hundreds of attendee-led meetups, dozens of workshops known as “Academies,” adventure activities, two big parties, and hundreds of new friends high-fiving you on street corners, it’s a truly immersive and awesome experience. <br>
      
 
      Everyone who comes to WDS is a big part of everything that happens. Our attendees make the community strong and independent with no corporate sponsorships.
