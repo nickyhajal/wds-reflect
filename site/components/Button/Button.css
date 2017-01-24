@@ -1,6 +1,6 @@
 @import "vars.css";
 
-.button {
+.button, :global(.block-text) a.button, :global(.block-padded) a.button {
   display: block;
   padding: 15px 28px;
   background: $orange;

@@ -18,8 +18,6 @@ export class App extends Component {
 
   static scrollTo() {
   }
-  static ticketClick() {
-  }
   constructor(props) {
     super(props);
     autoBind(Object.getPrototypeOf(this));
@@ -33,12 +31,16 @@ export class App extends Component {
   menuClick() {
     this.props.act.openMenu(!this.props.app.navOpen);
   }
+  ticketClick() {
+    console.log("click");
+    this.props.act.openModal('joinUs');
+  }
   render() {
     return (
       <div>
         <Header
           scrollTo={this.scrollTo}
-          ticketClick={this.openCheckout}
+          ticketClick={this.ticketClick}
           onMenuClick={this.menuClick}
           navOpen={this.props.app.navOpen}
         />

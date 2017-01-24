@@ -6,6 +6,7 @@ import autoBind from 'react-autobind';
 import styles from './Modals.css';
 import VideoModal from './modals/VideoModal.js';
 import TellAFriend from './modals/TellAFriend.js';
+import JoinUs from './modals/JoinUs.js';
 import actions from '../../actions';
 
 class Modals extends React.Component {
@@ -18,6 +19,7 @@ class Modals extends React.Component {
   static modals = {
     video: VideoModal,
     tellAFriend: TellAFriend,
+    joinUs: JoinUs,
   };
 
   constructor() {

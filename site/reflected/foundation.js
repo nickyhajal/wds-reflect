@@ -115,7 +115,7 @@ To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.{'\n'}
    ## Become A Mentor{'\n'}
   <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>{'\n'}
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/foundation/mentor-submission" newWindow={true} styling="white" fitToText>Share your expertise!</Button> {'\n'}
+<Button to="https://worlddominationsummit.wufoo.com/forms/w12waw4d1nmlnum/" newWindow={true} styling="white" fitToText>Share your expertise!</Button> {'\n'}
  </Block>
   </Block>
 </Section>
