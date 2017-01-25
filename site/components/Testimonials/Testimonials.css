@@ -78,28 +78,74 @@
   color: $blue;
 }
 .controls button {
-    width: 40px;
-    height: 60px;
-    background-size: 28px 46px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    z-index: 6;
-    cursor: pointer;
-    border: 0;
-    position: absolute;
-    top: -75px;
+  width: 40px;
+  height: 60px;
+  background-size: 28px 46px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  z-index: 6;
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+  top: -75px;
 
-    @media (--tablet) {
-      top: -30px;
+  @media (--tablet) {
+    top: -30px;
+  }
+  @media (--phone) {
+    top: -30px;
+  }
+}
+.arrow-prev {
+  background-image: url("https://files.wds.fm/images/icon/arrow-left-blue.png");
+  left: 65px;
+  @media (--phone) {
+    left: 20px;
+  }
+}
+.arrow-next {
+  background-image: url("https://files.wds.fm/images/icon/arrow-right-blue.png");
+  right: 65px;
+  @media (--phone) {
+    right: 20px;
+  }
+}
+
+@media (--phone) {
+  .avatarShell {
+    margin-top: -96px;
+  }
+  .avatar {
+  border: 4px solid #fff;
+  width: 70px;
+  height: 70px;
+  -webkit-transform: translate3d(0,0,0);
+
+    div {
+      &:before {
+        width: 70px;
+        height: 70px;
+      }
     }
-
   }
   .arrow-prev {
-    background-image: url("https://files.wds.fm/images/icon/arrow-left-blue.png");
-    left: 65px;
+    left: 15px;
   }
   .arrow-next {
-    background-image: url("https://files.wds.fm/images/icon/arrow-right-blue.png");
-    right: 65px;
+    right: 15px;
   }
+  .quote {
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 60px;
+  }
+  .title {
+    padding: 75px 0 15px;
+  }
+  .name {
+    font-size: 23px;
+    padding: 0 0 70px;
+    color: $blue;
+  }
+}

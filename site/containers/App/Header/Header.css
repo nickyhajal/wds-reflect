@@ -91,9 +91,12 @@
   cursor: pointer;
 }
 @media(--phone) {
-  .hiddenNav link {
-    font-size: 20px;
-    padding: 18px 0;
+  .hiddenNav {
+    padding-top: 80px !important;
+    .link {
+      font-size: 22px;
+      padding: 20px 0;
+    }
   }
 }
 @media(--tablet) {

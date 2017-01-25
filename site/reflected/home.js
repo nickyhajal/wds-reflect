@@ -14,6 +14,7 @@ import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
 import SpeakerList from '../components/SpeakerList/SpeakerList';
 import Testimonials from '../components/Testimonials/Testimonials';
+import is from '../utils/is';
 
   
   const Page = () => (
@@ -24,17 +25,17 @@ import Testimonials from '../components/Testimonials/Testimonials';
   headerClip="lr_header"
   color="canvas"
 >
-  <Image src="heading/weekend.png" width="819px" height="217px" align="center" mobile={{ all: { width: '580px', backgroundSize: '100% auto' } }}/>
-  <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px" mobile={{ all:{ width: '550px' } }}>
+  <Image src="heading/weekend.png" width="819px" height="217px" align="center" mobile={{ all: { width: '580px', backgroundSize: '100% auto' }, phone: { width: '320px', height: '97px' } }}/>
+  <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px" mobile={{ all:{ width: '550px' }, phone: {width: '100%'} }}>
     #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, acquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
   </Block>
 </Section>
-<Section color="white" css={{ padding: '90px 0 230px 0' }}>
+<Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
     <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
     ## July 11 - 17, 2017 in Portland, Oregon{'\n'}
   </Block>
-  <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' } }}>
+  <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
     Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue a big dream. {'\n'}
 
@@ -43,13 +44,39 @@ import Testimonials from '../components/Testimonials/Testimonials';
     We’re doing it again in 2017, and all that’s missing is YOU!{'\n'}
   </Block>
 </Section>
-<Section color="green" css={{ padding: '90px 0 230px 0' }}>
+<Section color="green" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
   <Grid>
-    <Block type="padded" width="550" height="240" anchor="right" mobile={{ all: { position: 'relative', zIndex: '6', top: '-85px', width: '450px', right: '20px' } }} background="sea" feed="twitter" refresh="12" margin="-235px 0 0 0">I started my day breaking a world record and ended it enjoying time with some of the coolest people on the planet. Nothing better. #WDS2015</Block>
+    <Block
+      type="padded"
+      width="550"
+      height="240"
+      anchor="right"
+      mobile={{
+        all: { position: 'relative', zIndex: '6', top: '-85px', width: '450px', right: '20px' },
+        phone: { width: '100%', margin: '-220px -20px 30px -12px' }
+      }}
+      background="sea"
+      feed="twitter"
+      refresh="12"
+      margin="-235px 0 0 0"
+    >{'\n'}
+      I started my day breaking a world record and ended it enjoying time with some of the coolest people on the planet. Nothing better. #WDS2015{'\n'}
+    </Block>
   </Grid>
   <div className="clear"></div>
   <Image src="photos/people.jpg" width="426" height="263" margin="-120px 0 -80px -50px" mobile={ { all: {position: 'relative', zIndex: '-1' }} }/>
-  <Block type="padded"cols="6"bleed={false} background="canvas"className="has-checklist"css={{ padding: '60px 40px' }} mobile={{ padding: '100px 40px' }} clip="top_lr_1.6">
+  <Block
+    type="padded"
+    cols="6"
+    bleed={false}
+    background="canvas"
+    className="has-checklist"
+    css={{ padding: '60px 40px' }}
+    mobile={{ phone: {
+      padding: '60px 25px 60px 10px'
+    }}}
+    clip="top_lr_1.6"
+  >{'\n'}
     ## A WDS 360 Ticket Includes:{'\n'}
 
     - All access pass to main stage keynotes on Saturday & Sunday{'\n'}
@@ -63,7 +90,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
 </Section>
 <Testimonials />
 <Section color="white" clip="tr:0,2%;" margin="-70px 0 0 0" mobile={{ all: {margin: '-120px 0 0 0' } }}>
-  <Block cols="6" css={{ marginBottom: '96px' }} className="bigger" css={{ paddingTop: '80px' }} mobile={{ all:{ padding: '80px 50px 0'}}}>
+  <Block cols="6" css={{ marginBottom: '96px' }} className="bigger" css={{ paddingTop: '80px' }} mobile={{ all:{ padding: '80px 50px 0'}, phone: { padding: '40px 20px 0' }}}>
     ## Take the Tour{'\n'}
 
     Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. Our mission is to explore community, to undertake an adventure, and to be of service to all those around us.{'\n'}
@@ -158,7 +185,7 @@ Over the weekend, each speaker will share a short message that combines personal
     Spread the word! Great things are even better when they’re shared with friends.{'\n'}
     <Button modal="tellAFriend" width="184px" align="center">Share the Love</Button>
   </Block>
-  <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" />
+  <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" mobile={{phone: {margin: '30px 0 -60px 30px'}}} />
 </Section>
 
 

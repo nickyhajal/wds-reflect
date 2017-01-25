@@ -4,5 +4,5 @@
     Spread the word! Great things are even better when they’re shared with friends.
     <Button modal="tellAFriend" width="184px" align="center">Share the Love</Button>
   </Block>
-  <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" />
+  <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" mobile={{phone: {margin: '30px 0 -60px 30px'}}} />
 </Section>

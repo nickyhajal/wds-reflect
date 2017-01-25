@@ -22,6 +22,11 @@ export class App extends Component {
     super(props);
     autoBind(Object.getPrototypeOf(this));
   }
+  componentDidMount() {
+    $(window).resize(() => {
+      this.forceUpdate();
+    });
+  }
   componentWillReceiveProps(nextProps) {
     if (nextProps.location !== this.props.location) {
       this.props.act.openMenu(false);

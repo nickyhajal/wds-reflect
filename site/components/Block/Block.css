@@ -89,6 +89,10 @@
   }
   .content {
     padding: 0 50px 35px;
+
+    @media(--phone) {
+      padding: 0 25px 20px;
+    }
   }
   p {
     font-size: 14.5px;
@@ -100,6 +104,7 @@
     height: 28px;
   }
   .content {
+    -webkit-transform: translate3d(0,0,0);
     padding: 30px 20px 20px;
     margin-top: -10px;
     background: #fff;
@@ -147,6 +152,9 @@
     }
   }
 }
+:global(.block-colored) {
+  -webkit-transform: translateZ(0);
+}
 :global(.block-colored-) {
   &blue li:before { background: $blue; };
   &green li:before { background: $green; };
@@ -167,6 +175,10 @@
   float: left;
   margin-bottom: 86px;
   margin-right: 48px;
+
+  @media(--phone) {
+    margin-bottom: 30px;
+  }
 
   h2 {
     font-family: "Vitesse";
@@ -254,6 +266,14 @@
     font-size: 24px;
     line-height: 38px;
     color: $dark;
+
+  }
+  @media(--phone) {
+    h4 {
+      font-size: 18px;
+      line-height: 30px;
+      padding: 0 15px;
+    }
   }
   h2 {
     font-family: "Vitesse";
@@ -296,9 +316,12 @@
       font-family: Vitesse;
       color: $white;
       text-align: left;
+      @media (--phone) {
+        font-size: 20px;
+      }
     }
     .block-tweeter {
-      font-size: 1.3vw;
+      font-size: 15px;
       height: auto;
       font-family: Karla;
       color: $white;
@@ -349,6 +372,8 @@
 @media (--tablet) {
   .block-image-overlay {
   margin-bottom: 120px;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
   .image {
     width: 405px !important;
   }
@@ -381,6 +406,41 @@
   }
   .icon {
     right: -20px;
+  }
+}
+}
+
+@media (--phone) {
+  .block-image-overlay {
+    float: none !important;
+  .image {
+    width: 300px !important;
+  }
+  .content {
+    clear: both;
+    width: 100%;
+    min-height: 0;
+    padding: 0 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+  }
+  .icon {
+    position: absolute;
+    bottom: -25px;
+    right: -20px;
+  }
+}
+.overlay-left {
+  .image-shell {
+    float: right !important;
+    margin-right: -20px !important;
+  }
+}
+.overlay-right {
+  .image-shell {
+    float: left !important;
+    margin-left: -20px !important;
   }
 }
 }

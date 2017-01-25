@@ -5,6 +5,10 @@
 .content {
   padding: 50px;
   background: $canvas;
+
+  @media(--phone) {
+    padding: 0;
+  }
 }
 .buttons {
   position: relative;

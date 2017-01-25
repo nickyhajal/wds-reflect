@@ -53,7 +53,15 @@
   background-position: 38px center;
   background-repeat: no-repeat;
 }
-
+@media (--phone) {
+  .playbtn {
+    width: 60px;
+    height: 60px;
+    top: 75px;
+    background-position: 25px center;
+    background-size: 16px 26px;
+  }
+}
 @media (--tablet) {
   .header {
     margin-left: -20px;

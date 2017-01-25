@@ -21,12 +21,13 @@ const renderHeader = ({
 }) => {
   let out = '';
   if (headerImage !== undefined) {
-    let height = '524px';
+    let height = is.phone() ? '300px' : '524px';
     if (headerSize !== undefined) {
       if (headerSize === 'thin') {
         height = '300px';
       }
     }
+    height = is.phone() ? '220px' : height;
     const position = (headerPosition === undefined) ? 'bottom' : headerPosition;
     out = (
       <div styleName="header">

@@ -14,6 +14,7 @@ import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
 import SpeakerList from '../components/SpeakerList/SpeakerList';
 import Testimonials from '../components/Testimonials/Testimonials';
+import is from '../utils/is';
 
   import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
 
@@ -52,13 +53,19 @@ import Testimonials from '../components/Testimonials/Testimonials';
     <Block>
       ## Your Base in Portland{'\n'}
     </Block>
-    <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' } }}>
+    <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
       <PDXLocationMap
         containerElement={
-          <Block style={{ height: '410px', width: '510px' }} clip="top_lr_2__6" />
+          (is.phone() ?
+            <div style={{ height: '220px', width: '260px' }} /> :
+            <div style={{ height: '400px', width: '510px' }} />
+          )
         }
         mapElement={
-          <div style={{ height: '400px', width: '510px' }} />
+          (is.phone() ?
+            <div style={{ height: '220px', width: '260px' }} /> :
+            <div style={{ height: '400px', width: '510px' }} />
+          )
         }
       />
     </Block>
@@ -67,7 +74,12 @@ import Testimonials from '../components/Testimonials/Testimonials';
         ### 1111 SW Broadway,{'\n'}
         ### Portland, OR 97205{'\n'}
       </Block>
-      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }} mobile={{ all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' } }}>
+      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }}
+        mobile={{
+          all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
+          phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
+        }}
+      >{'\n'}
         ### PDX Airport{'\n'}
         <Link to="https://goo.gl/maps/teMTfSt4MzQ2">12.6 Mi from Base</Link>
       </Block>

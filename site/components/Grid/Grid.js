@@ -25,6 +25,9 @@ const processChildren = (props) => {
       if (is.tablet() && props.tabletCols !== undefined) {
         numCols = parseInt(props.tabletCols, 10);
       }
+      if (is.phone()) {
+        numCols = 1;
+      }
       elmProps.width = (parseInt(props.width, 10) / numCols) - ((gutter * (numCols - 1)) / numCols);
       elmProps.className = cx(`grid-cols-${numCols}`, elmProps.className, passed.className);
       const place = ((i) % (parseInt(numCols, 10)));

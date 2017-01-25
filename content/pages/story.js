@@ -22,7 +22,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     <Tab title="2016">
       <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
       <div>
-        <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }} equalize>
+        <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }} >
           <Block type="color" color="green">
             ## Year Six
             <p>August 9-14, 2016<br/>Portland, OR</p>

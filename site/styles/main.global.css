@@ -129,12 +129,23 @@ form input {
   li {
     text-align: right;
     padding-left: 0;
+    @media(--phone) {
+      text-align: center;
+    }
 
     i, b, strong, em {
       display: block;
       font-weight: bold;
       font-style: normal;
       float: left;
+      @media(--phone) {
+        display: block;
+        font-size: 17px;
+        float: none;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto 10px !important;
+      }
     }
     .highlight {
       padding: 10px;
@@ -171,6 +182,11 @@ form input {
     transform: skewX(2deg) rotate(-1deg) skewY(0deg);
 }
 .has-checklist, .table-list {
+  @media(--phone) {
+    h2 {
+      margin-top: 40px;
+    }
+  }
   h2 { margin-bottom: 18px; margin-top: 15px; }
   span:last-of-type {display: block; margin-bottom: 25px;}
   ul {

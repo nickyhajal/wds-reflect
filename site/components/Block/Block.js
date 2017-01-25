@@ -92,9 +92,10 @@ class Block extends Component {
 
     // IMAGE BLOCK
     if (type === 'image') {
+      const iH = is.phone() ? '200' : '275;';
       content = (
         <div>
-          <Image styleName="image" width="100%" height="275px" src={src} clip="imageBlock" />
+          <Image styleName="image" width="100%" height={iH} src={src} clip="imageBlock" />
           <div styleName="content"><Markdown>{children}</Markdown></div>
         </div>
       );
@@ -146,7 +147,7 @@ class Block extends Component {
       content = (
         <div>
           <div styleName="heading" style={headerCss}>{title}</div>
-          <div styleName="content" className={`block-colored-${color}`}>
+          <div styleName="content" className={`block-colored-${color} block-colored`}>
             <Markdown>{children}</Markdown>
           </div>
         </div>
@@ -154,7 +155,7 @@ class Block extends Component {
 
     // PADDED BLOCK
     } else if (type === 'padded') {
-      css.padding = '50px';
+      css.padding = is.phone() ? '20px' : '50px';
       content = (<Markdown>{children}</Markdown>);
     } else if (type === 'caption') {
       content = (

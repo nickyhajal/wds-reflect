@@ -14,6 +14,7 @@ import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
 import SpeakerList from '../components/SpeakerList/SpeakerList';
 import Testimonials from '../components/Testimonials/Testimonials';
+import is from '../utils/is';
 
   
   const Page = () => (

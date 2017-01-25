@@ -37,7 +37,13 @@ class Video extends Component {
       />
     );
   }
-  renderPlaceholder(w, h) {
+  renderPlaceholder(width, height) {
+    let w = width;
+    let h = height;
+    if (is.mobile()) {
+      w = window.screen.width - 40;
+      h = (9 / 16) * w;
+    }
     return (
       <div styleName="placeholder-shell" onClick={this.play}>
         <Image src="icon/play.png" width="78" height="79" styleName="play" />
@@ -46,8 +52,12 @@ class Video extends Component {
     );
   }
   render() {
-    const width = unitize(widther(this.props));
-    const height = unitize((9 / 16) * parseInt(width, 10));
+    let width = widther(this.props);
+    let height = '';
+    if (is.mobile()) {
+      width = window.screen.width - 40;
+      height = (9 / 16) * width;
+    }
     return (
       <Block width={width} height={height} styleName="shell">
         {(

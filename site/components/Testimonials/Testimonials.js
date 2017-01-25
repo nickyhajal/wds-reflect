@@ -36,6 +36,11 @@ class Testimonials extends React.Component {
       p.num = 5;
       p.afterShift = 2;
     }
+    if (is.phone()) {
+      p.num = 3;
+      p.afterShift = 1;
+      p.trigger = 1;
+    }
     if (Math.abs(active - shiftedTo) > p.trigger) {
       shiftedTo = active - p.afterShift;
     }
@@ -70,9 +75,10 @@ class Testimonials extends React.Component {
       if (v.avatarPosition !== undefined) {
         x.position = v.avatarPosition;
       }
+      let size = is.phone() ? '66' : '97';
       out.push(
         <button key={id} styleName="avatar" onClick={() => this.goto(i)}>
-          <Image src={v.photo} width="97" height="97" className={className} {...x} />
+          <Image src={v.photo} width={size} height={size} className={className} {...x} />
         </button>
       );
     });
@@ -80,7 +86,7 @@ class Testimonials extends React.Component {
   }
   renderTestimonial(active) {
     return (
-      <Block width="840" mobile={{ all: { width: '628' }, phone: { width: '380' } }}>
+      <Block width="840" mobile={{ all: { width: '628' }, phone: { width: '100%', padding: '0 15px', fontSize: '16px' } }}>
         <h2 styleName="title">{this.props.title}</h2>
         <div styleName="quote">{active.content}</div>
         <div styleName="name">{active.name}</div>
@@ -93,8 +99,9 @@ class Testimonials extends React.Component {
     if (active.avatarPosition !== undefined) {
       x.position = active.avatarPosition;
     }
+    const shiftWidth = is.phone() ? 70 : 105;
     const width = vars.testimonials.length * 113;
-    const left = `${(this.state.shiftedTo * 105 * -1)}px`;
+    const left = `${(this.state.shiftedTo * shiftWidth * -1)}px`;
     // clip="bl:0,-3%;"
     return (
       <Section color="white" bound={false} >
@@ -103,7 +110,7 @@ class Testimonials extends React.Component {
           <button styleName="arrow-next" onClick={this.next} />
         </div>
         <Image width="100%" height="100%" src={active.photo} styleName="bigphoto" {...x} />
-        <Block width="945" styleName="avatarShell" mobile={{ all: { width: '525' }, phone: { width: '315' } }}>
+        <Block width="945" styleName="avatarShell" mobile={{ all: { width: '525' }, phone: { width: '210' } }}>
           <div styleName="avatars" style={{ width: `${width}px`, left }}>
             {this.renderAvatars()}
           </div>
