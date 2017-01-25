@@ -65,7 +65,7 @@ With the generous help of the WDS Scholarship for Real Life grant, Marla and Kas
 
 2017 plans include a tour with the film, exhibition & book, as well as accompanying keynote, workshop and development of a community engagement platform. As part of their mandate for social good, between 10-25% of net proceeds are donated back to grassroots organizations.
 
-<p>They are currently looking for website designers, developers, influencer mentors/advisors & community builders to contribute their talents and expertise. If you have an interest in contributing to their project please visit <Link to="http://theglobalsunriseproject.com">The Global Sunrise Project</Link> & email <Link to="mailto:theglobalsunriseproject@gmail.com">theglobalsunriseproject@gmail.com.</p>
+<p>They are currently looking for website designers, developers, influencer mentors/advisors & community builders to contribute their talents and expertise. If you have an interest in contributing to their project please visit <Link to="http://theglobalsunriseproject.com">The Global Sunrise Project</Link> & email <Link to="mailto:theglobalsunriseproject@gmail.com">theglobalsunriseproject@gmail.com</Link>.</p>
       </Block>
     </Tab>
 <Tab title="Kathleen and Joe Sindorf">
