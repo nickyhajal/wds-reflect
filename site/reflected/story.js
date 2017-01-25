@@ -30,7 +30,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
     ## Why WDS?{'\n'}
     Way back in 2011, we invited 500 friends to Portland, Oregon. Our common curiosity brought us together to explore one question: _How do we live a remarkable life in a conventional world?_  {'\n'}
 
-Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included *more than 10,000 people from all 50 states and more than 40 countries* since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. {'\n'}
+Fast forward to 2017, and we’re still exploring that question every summer with an in-person gathering that has now included **more than 10,000 people from all 50 states and more than 40 countries** since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. {'\n'}
     
     With a full week of events and an unforgettable keynote speaker-filled weekend, you'll learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
   
@@ -66,13 +66,13 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="photos/trex.jpg">
-          ## 2016 Photos {'\n'}
-          2016 had some amazing moments. Check out the photos!{'\n'}
+          ## 2016 Photos {'\n'}{'\n'}
+          2016 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157669269939103">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">
-          ## 2016 Videos{'\n'}
-         Want to relive the keynotes? Watch these videos!{'\n'}
+          ## 2016 Videos{'\n'}{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2016-keynotes">Watch Them</Button>
         </Block>
       </div>
@@ -104,13 +104,13 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2015+Pictures.jpg">
-          ## 2015 Photos {'\n'}
-          2015 had some amazing moments. Check out the photos!{'\n'}
+          ## 2015 Photos {'\n'}{'\n'}
+          2015 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
         </Block>
          <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2015+Videos.jpg">
-          ## 2015 Videos{'\n'}
-          Want to relive the keynotes? Watch these videos! {'\n'}
+          ## 2015 Videos{'\n'}{'\n'}
+          Want to relive the keynotes? Watch these videos! {'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds2015">Watch Them</Button>
         </Block>
       </div>
@@ -142,13 +142,13 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/Photos+2014.jpg">
-          ## 2014 Photos {'\n'}
-          2014 had some amazing moments. Check out the photos!{'\n'}
+          ## 2014 Photos {'\n'}{'\n'}
+          2014 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157645692660113">View Them</Button>
         </Block>
          <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2014+Videos.jpg">
-          ## 2014 Videos{'\n'}
-         Want to relive the keynotes? Watch these videos!{'\n'}
+          ## 2014 Videos{'\n'}{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2014-keynotes">Watch Them</Button>
         </Block>
       </div>
@@ -180,13 +180,13 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2013+Pictures.jpg">
-          ## 2013 Photos {'\n'}
-          2013 had some amazing moments. Check out the photos!{'\n'}
+          ## 2013 Photos {'\n'}{'\n'}
+          2013 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157634510088202">View Them</Button>
         </Block>
          <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2013+Videos.jpg">
-          ## 2013 Videos{'\n'}
-         Want to relive the keynotes? Watch these videos!{'\n'}
+          ## 2013 Videos{'\n'}{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds1013">Watch Them</Button>
         </Block>
       </div>
@@ -217,14 +217,14 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
-        <Block type="image" src="photos/trex.jpg">
-          ## 2012 Photos {'\n'}
-          2012 had some amazing moments. Check out the photos!{'\n'}
+        <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2012+Pictures.jpg">
+          ## 2012 Photos {'\n'}{'\n'}
+          2012 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157630469839810">View Them</Button>
         </Block>
-         <Block type="image" src="photos/chelsea.jpg">
-          ## 2012 Videos{'\n'}
-         Want to relive the keynotes? Watch these videos!{'\n'}
+         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2012+Videos.jpg">
+          ## 2012 Videos{'\n'}{'\n'}
+         Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2012-keynotes">Watch Them</Button>
         </Block>
       </div>
@@ -255,14 +255,14 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </div>
       <div className="clear" style={{ paddingTop: '80px' }} />
       <div>
-        <Block type="image" src="photos/trex.jpg">
-          ## 2011 Photos {'\n'}
-          2011 had some amazing moments. Check out the photos!{'\n'}
+        <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2011+Pictures.jpg">
+          ## 2011 Photos {'\n'}{'\n'}
+          2011 had some amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157626854701827">View Them</Button>
         </Block>
-         <Block type="image" src="photos/chelsea.jpg">
-          ## 2011 Videos{'\n'}
-          Want to relive the keynotes? Watch these videos!{'\n'}
+         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2011+Videos.jpg">
+          ## 2011 Videos{'\n'}{'\n'}
+          Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2011-keynotes">Watch Them</Button>
         </Block>
       </div>

@@ -25,16 +25,16 @@ import Testimonials from '../components/Testimonials/Testimonials';
   color="canvas"
 >
   <Image src="heading/weekend.png" width="819px" height="217px" align="center" mobile={{ all: { width: '580px', backgroundSize: '100% auto' } }}/>
-  <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px">
-    #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
+  <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px" mobile={{ all:{ width: '550px' } }}>
+    #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, acquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
   </Block>
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>{'\n'}
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
     ## July 11 - 17, 2017 in Portland, Oregon{'\n'}
   </Block>
-  <Block cols="6" className="bigger">
+  <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' } }}>
 
     Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue a big dream. {'\n'}
 
@@ -62,33 +62,33 @@ import Testimonials from '../components/Testimonials/Testimonials';
   </Block>
 </Section>
 <Testimonials />
-<Section color="white" clip="tr:0,3%;" margin="-70px 0 0 0">
-  <Block cols="6" css={{ marginBottom: '96px' }} className="bigger" css={{ paddingTop: '80px' }}>
+<Section color="white" clip="tr:0,2%;" margin="-70px 0 0 0" mobile={{ all: {margin: '-120px 0 0 0' } }}>
+  <Block cols="6" css={{ marginBottom: '96px' }} className="bigger" css={{ paddingTop: '80px' }} mobile={{ all:{ padding: '80px 50px 0'}}}>
     ## Take the Tour{'\n'}
 
     Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. Our mission is to explore community, to undertake an adventure, and to be of service to all those around us.{'\n'}
   </Block>
   <div>
     <Block type="image" src="photos/schedule.jpg">
-      ## The Schedule
+      ## The Schedule{'\n'}
 
-      With literally hundreds of activities taking place during WDS week, you won't be bored. (But we'll also have suggestions, so you won't be overwhelmed.)
+      With literally hundreds of activities taking place during WDS week, you won't be bored. (But we'll also have suggestions, so you won't be overwhelmed.){'\n'}
       <Button to="/schedule">See the Details</Button>
     </Block>
     <Block type="image" src="photos/happening.jpg">
-      ## Our Story
+      ## Our Story{'\n'}
 
-     There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   
+     There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   {'\n'}
       <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
-      ## Academies
+      ## Academies{'\n'}
 
-      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders to help you level-up your life. 
+      Intensive, half-day sessions on focused topics. Learn from alumni speakers and other community leaders to help you level-up your life. {'\n'}
       <Button to="/academies">Learn More</Button>
     </Block>
     <Block type="image" src="photos/foundation.jpg">
-      ## WDS Foundation
+      ## WDS Foundation{'\n'}
       
 Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/academies">Learn More</Button>
     </Block>
@@ -156,7 +156,7 @@ Over the weekend, each speaker will share a short message that combines personal
   <Block margin="50px 0" width="420px">
     ## Tell a Friend{'\n'}
     Spread the word! Great things are even better when they’re shared with friends.{'\n'}
-    <Button modal="tellAFriend" width="184px" align="center">Share the Love</Button>{'\n'}
+    <Button modal="tellAFriend" width="184px" align="center">Share the Love</Button>
   </Block>
   <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" />
 </Section>

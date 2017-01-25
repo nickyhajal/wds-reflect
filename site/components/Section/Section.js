@@ -10,6 +10,7 @@ import colorize from '../../utils/colorize';
 import angler from '../../utils/angler';
 import actions from '../../actions';
 import is from '../../utils/is';
+import mobilize from '../../utils/mobilize';
 
 const openVideo = (act, headerVideo) => {
   act.setModalData('video', { id: headerVideo });

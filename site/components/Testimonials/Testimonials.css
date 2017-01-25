@@ -90,6 +90,10 @@
     position: absolute;
     top: -75px;
 
+    @media (--tablet) {
+      top: -30px;
+    }
+
   }
   .arrow-prev {
     background-image: url("https://files.wds.fm/images/icon/arrow-left-blue.png");

@@ -33,24 +33,24 @@ import Testimonials from '../components/Testimonials/Testimonials';
     - **Tuesday** Small Group Activities and Attendee-Led Meetups{'\n'}
     - **Wednesday** Small Group Activities and Attendee-Led Meetups{'\n'}
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups{'\n'}
-    <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>{'\n'}
-    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>{'\n'}
-    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>{'\n'}
+    <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
+    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
+    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
     - **Monday** Academies and Attendee-Led Meetups{'\n'}
-      <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>{'\n'}
+      <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>
   </Block>
-  <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} />
-  <div className="clear" />
-  <SpeakerList title="Alumni Speakers" />
+  <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />{'\n'}
+  <div className="clear" />{'\n'}
+  <SpeakerList title="Alumni Speakers" />{'\n'}
   <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/fear.jpg">
-      ## Main Stage
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.
+      ## Main Stage{'\n'}
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
       <Button to="/academies">Learn More</Button>
     </Block>
     <Block type="image" src="photos/letters.jpg">
-      ## Activities
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.
+      ## Activities{'\n'}
+      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
       <Button to="/academies">Learn More</Button>
     </Block>
   </Grid>

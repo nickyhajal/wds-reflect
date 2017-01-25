@@ -106,3 +106,14 @@ border: 0;
     width: 100% important
   }
 }
+
+@media (--tablet) {
+  .modal {
+    top: 0 !important;
+    padding-top: 80px;
+    :global(button.modal-close) {
+      top: 10px;
+      right: 10px;
+    }
+  }
+}

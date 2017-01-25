@@ -59,7 +59,7 @@ const loadGlobals = () => (
     const dir = `${base}global`;
     read(dir, (file, data) => (
       new Promise((resolve, reject) => {
-        globals[urlFromPath(dir, file)] = addJsxBreaks(data);
+        globals[urlFromPath(dir, file)] = addJsxBreaks(data, file);
         resolve();
       })
     )).then(() => { resolve(); });
@@ -170,7 +170,7 @@ const processContent = () => (
       } else {
         main = page.content.trim();
       }
-      main = doImports(addJsxBreaks(main));
+      main = doImports(addJsxBreaks(main, page.url));
       content[inx].content = 
   `${config.import}
   ${pre}
@@ -207,7 +207,7 @@ const doImports = (str) => {
   return out;
 };
 
-const addJsxBreaks = (str) => {
+const addJsxBreaks = (str, file) => {
   let out = '';
   const lines = str.split("\n");
   let block = 0;
@@ -218,34 +218,48 @@ const addJsxBreaks = (str) => {
     let isTag = false;
 
     // Only continue if this block doesn't self-close
-    if (line.indexOfRegex(/\<[A-Za-z](.+)\/(.+)>/gi) < 0) {
+    if (line.indexOfRegex(/\<[A-Za-z](.+)((\s{0,1})\/>)/gi) < 0) {
 
+      // console.info('doesnt selfclose')
       // If it's a block, mark parent as true
       if (line.indexOf('<Block') > -1) {
         isTag = true;
         parentIsBlock.push(true);
+      // console.info('block start (push true)')
 
       // If not a block, mark as false
       } else if (line.indexOfRegex(/\<[A-Za-z](.+)/ig) > -1) {
         isTag = true;
         parentIsBlock.push(false);
+      // console.info('block not in a block (push false)')
       }
 
       // If closing a block, remove last parent (to revert to parent above)
       if (line.indexOfRegex(/\<\/[A-Za-z](.+)\>/gi) > -1) {
         isTag = true;
         parentIsBlock.pop()
+      // console.info('block close (pop)')
       }
+    } else {
+      // console.info('self-closer')
     }
     inTagDef += (line.match(/\</g) || []).length;
     inTagDef -= (line.match(/\>/g) || []).length;
-    if (inTagDef) { console.info(line) }
-    if (!isTag && !inTagDef &&
+    if (!isTag && inTagDef < 1 &&
         parentIsBlock[parentIsBlock.length - 1] !== undefined &&
         parentIsBlock[parentIsBlock.length - 1] &&
         line.trim().length
     ) {
       l = `${line}{'\\n'}`;
+    } else if (isTag) {
+    } else if (inTagDef) {
+    } else if (parentIsBlock[parentIsBlock.length - 1] !== undefined && parentIsBlock[parentIsBlock.length - 1]) {
+      // console.log('>>> '+line);
+    } else {
+      // console.log('otr', line)
+      // console.log('is tag', isTag);
+      // console.log('is tdf', inTagDef < 1);
+      // console.log('is blk',parentIsBlock[parentIsBlock.length - 1]);
     }
     out += `${l}\n`;
   });

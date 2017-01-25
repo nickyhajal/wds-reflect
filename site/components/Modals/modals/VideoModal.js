@@ -5,6 +5,7 @@ import autoBind from 'react-autobind';
 import { bindActionCreators } from 'redux';
 import actions from '~/actions/index';
 import styles from './VideoModal.css';
+import is from '../../../utils/is';
 
 // Sections
 
@@ -40,12 +41,18 @@ class VideoModal extends React.Component {
       this.props.modals.data.video !== undefined && 
       this.props.modals.data.video.id !== undefined
     ) {
+      let w = 800;
+      let h = 450;
+      if (is.mobile()) {
+        w = window.screen.width - 40;
+      }
+      h = (9 / 16) * w;
       return (
         <iframe
           className="modal-remove"
           src={`//player.vimeo.com/video/${this.props.modals.data.video.id}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1`}
-          width={800}
-          height={450}
+          width={w}
+          height={h}
           frameBorder="0"
           allowFullScreen
         />

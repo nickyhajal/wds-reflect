@@ -181,10 +181,10 @@
 .block-image-overlay {
   clear: both;
   position: relative;
-  margin-bottom: 120px;
-.image-shell {
-  position: relative;
-}
+  margin-bottom: 120px !important;
+  .image-shell {
+    position: relative;
+  }
   .image {
     width: 475px;
   }
@@ -344,3 +344,43 @@
     color: $forest;
   }
 };
+
+
+@media (--tablet) {
+  .block-image-overlay {
+  margin-bottom: 120px;
+  .image {
+    width: 405px !important;
+  }
+  .content {
+    width: 348px;
+    text-align: left;
+    position: relative;
+    top: 60px;
+    min-height: 330px;
+  }
+  .icon {
+    position: absolute;
+    bottom: -25px;
+    right: -20px;
+  }
+}
+.overlay-left {
+  .content {
+    padding: 40px 0 0 75px;
+    margin-left: -106px;
+  }
+  .icon {
+    left: -20px;
+  }
+}
+.overlay-right {
+  .content {
+    padding: 40px 75px 0 0;
+    margin-right: -106px;
+  }
+  .icon {
+    right: -20px;
+  }
+}
+}

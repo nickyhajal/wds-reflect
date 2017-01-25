@@ -244,6 +244,7 @@ class Block extends Component {
         style={css}
       >
         {(this.state.currentContent ? this.renderDynamicContent() : content)}
+        <div className="clear" />
       </div>
     );
   }

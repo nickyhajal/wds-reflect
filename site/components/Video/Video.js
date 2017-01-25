@@ -6,7 +6,7 @@ import Image from '../Image/Image';
 import Block from '../Block/Block.js';
 import widther from '../../utils/widther';
 import unitize from '../../utils/unitize';
-
+import is from '../../utils/is';
 
 class Video extends Component {
   constructor() {
@@ -19,7 +19,13 @@ class Video extends Component {
   play() {
     this.setState({ playing: true });
   }
-  renderVideo(w, h) {
+  renderVideo(width, height) {
+    let w = width;
+    let h = height;
+    if (is.mobile()) {
+      w = window.screen.width - 40;
+      h = (9 / 16) * w;
+    }
     return (
       <iframe
         className="modal-remove"

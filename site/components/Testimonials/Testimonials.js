@@ -6,6 +6,7 @@ import Image from '../Image/Image';
 import Block from '../Block/Block';
 import vars from '../../core/vars';
 import Section from '../Section/Section';
+import is from '../../utils/is';
 
 class Testimonials extends React.Component {
   constructor() {
@@ -26,11 +27,20 @@ class Testimonials extends React.Component {
   }
   shift(active) {
     let { shiftedTo } = this.state;
-    if (Math.abs(active - shiftedTo) > 2) {
-      shiftedTo = active - 4;
+    const p = {
+      num: 9,
+      afterShift: 4,
+      trigger: 2,
+    };
+    if (is.tablet()) {
+      p.num = 5;
+      p.afterShift = 2;
     }
-    if (vars.testimonials.length - shiftedTo < 9) {
-      shiftedTo = vars.testimonials.length - 9;
+    if (Math.abs(active - shiftedTo) > p.trigger) {
+      shiftedTo = active - p.afterShift;
+    }
+    if (vars.testimonials.length - shiftedTo < p.num) {
+      shiftedTo = vars.testimonials.length - p.num;
     }
     shiftedTo = shiftedTo < 0 ? 0 : shiftedTo;
     this.setState({
@@ -70,7 +80,7 @@ class Testimonials extends React.Component {
   }
   renderTestimonial(active) {
     return (
-      <Block width="840">
+      <Block width="840" mobile={{ all: { width: '628' }, phone: { width: '380' } }}>
         <h2 styleName="title">{this.props.title}</h2>
         <div styleName="quote">{active.content}</div>
         <div styleName="name">{active.name}</div>
@@ -93,7 +103,7 @@ class Testimonials extends React.Component {
           <button styleName="arrow-next" onClick={this.next} />
         </div>
         <Image width="100%" height="100%" src={active.photo} styleName="bigphoto" {...x} />
-        <Block width="945" styleName="avatarShell">
+        <Block width="945" styleName="avatarShell" mobile={{ all: { width: '525' }, phone: { width: '315' } }}>
           <div styleName="avatars" style={{ width: `${width}px`, left }}>
             {this.renderAvatars()}
           </div>

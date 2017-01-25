@@ -19,7 +19,7 @@
   <Block>## Featured Project</Block>
   <Tabs style="dots">
     <Tab title="Emily Wray">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/Emily+Wray.jpg" width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/Emily+Wray.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
         ## Voices of Petersburg
 
@@ -29,7 +29,7 @@ With the help of the Foundation, Emily and her team will build a mobile curricul
       </Block>
     </Tab>
     <Tab title="Valerie Groth">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation_valerie.jpg" width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation_valerie.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Ryan Banks Academy
 
@@ -39,7 +39,7 @@ There are many steps in her journey to build the school, and the Scholarship for
       </Block>
     </Tab>
     <Tab title="Ben & Amberlynn Slavin">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/Ben+%26+Amberlynn+Slavin.jpg" width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/Ben+%26+Amberlynn+Slavin.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## SnapType
 
@@ -62,7 +62,7 @@ To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.
     ## Selection Criteria
     Our selection committee will be looking at a number of factors to determine which projects best fit with our current goals.
   </Block>
-  <Grid>
+  <Grid numCols="3" tabletCols="2">
     <Block type="color" color="blue">
       ### Fit
       - Does the project serve others and create community?

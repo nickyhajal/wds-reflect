@@ -39,7 +39,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
   <Block>## Featured Project</Block>
   <Tabs style="dots">
     <Tab title="Emily Wray">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/Emily+Wray.jpg" width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/Emily+Wray.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
         ## Voices of Petersburg{'\n'}
 
@@ -49,7 +49,7 @@ With the help of the Foundation, Emily and her team will build a mobile curricul
       </Block>
     </Tab>
     <Tab title="Valerie Groth">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation_valerie.jpg" width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation_valerie.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Ryan Banks Academy{'\n'}
 
@@ -59,7 +59,7 @@ There are many steps in her journey to build the school, and the Scholarship for
       </Block>
     </Tab>
     <Tab title="Ben & Amberlynn Slavin">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/Ben+%26+Amberlynn+Slavin.jpg" width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/Ben+%26+Amberlynn+Slavin.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## SnapType{'\n'}
 
@@ -82,7 +82,7 @@ To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.{'\n'}
     ## Selection Criteria{'\n'}
     Our selection committee will be looking at a number of factors to determine which projects best fit with our current goals.{'\n'}
   </Block>
-  <Grid>
+  <Grid numCols="3" tabletCols="2">
     <Block type="color" color="blue">
       ### Fit{'\n'}
       - Does the project serve others and create community?{'\n'}
@@ -107,15 +107,15 @@ To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.{'\n'}
     ##### Eligibility{'\n'}
    Currently the "Scholarships for Real Life" program is open only to those who have attended one of our past five WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2017.{'\n'}
 ##### Coming soon{'\n'}
-2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. {'\n'}
+2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. 
   </Block>
 </Section>
 <Section color="green">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
    ## Become A Mentor{'\n'}
-  <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>{'\n'}
+  <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.wufoo.com/forms/w12waw4d1nmlnum/" newWindow={true} styling="white" fitToText>Share your expertise!</Button> {'\n'}
+<Button to="https://worlddominationsummit.wufoo.com/forms/w12waw4d1nmlnum/" newWindow={true} styling="white" fitToText>Share your expertise!</Button> 
  </Block>
   </Block>
 </Section>

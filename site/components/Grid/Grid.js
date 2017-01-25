@@ -28,12 +28,13 @@ const processChildren = (props) => {
       elmProps.width = (parseInt(props.width, 10) / numCols) - ((gutter * (numCols - 1)) / numCols);
       elmProps.className = cx(`grid-cols-${numCols}`, elmProps.className, passed.className);
       const place = ((i) % (parseInt(numCols, 10)));
-      elmProps.css.margin = `0 ${gutter}px ${gutter}px 0`;
+      elmProps.css.marginBottom = `${gutter}px`;
+      elmProps.css.marginRight = `${gutter}px`;
       elmProps.css.clear = null;
       if (place === 0) {
         elmProps.css.clear = 'left';
       } else if (place === (numCols - 1)) {
-        elmProps.css.margin = `0 0 ${gutter}px 0`;
+        elmProps.css.marginRight = '0';
       }
     }
     out.push(React.createElement(Block, elmProps));
@@ -47,16 +48,33 @@ class Grid extends React.Component {
     autoBind(Object.getPrototypeOf(this));
   }
   componentDidMount() {
+    setTimeout(() => {
+      this.equalize();
+    }, 100);
+  }
+  componentDidUpdate() {
+    this.equalize();
+  }
+  equalize() {
     if (this.props.equalize) {
       let maxH = 0;
       $('.grid-block', $(this.shell.shell)).each((i, elm) => {
+        const $elm = $(elm);
+        if ($elm.hasClass('dropped-button')) {
+          const btn = $('.button', $elm);
+          btn.css({
+            position: 'relative',
+            bottom: '',
+            left: '',
+          });
+        }
         maxH = $(elm).height() > maxH ? $(elm).height() : maxH;
       });
       $('.grid-block', $(this.shell.shell)).each((i, elm) => {
         const $elm = $(elm);
         $elm.css('height', `${maxH}px`);
         if ($elm.hasClass('dropped-button')) {
-          const btn = $('.button', $elm)
+          const btn = $('.button', $elm);
           const dims = btn.position();
           btn.css({
             position: 'absolute',

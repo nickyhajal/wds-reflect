@@ -23,13 +23,13 @@ import Testimonials from '../components/Testimonials/Testimonials';
   css={{ marginBottom: '-2px' }}
 >
   <Block width="768px" bleed={true} type="padded" background="gray" textAlign="left" margin="60px 0 80px" clip="tr:0,1%;">
-    <Block width="100%" margin="40px 0 0 0" textAlign="center">## FAQ</Block>{'\n'}
+    <Block width="100%" margin="40px 0 0 0" textAlign="center">## FAQ</Block>
 
     ### What is WDS?{'\n'}
 
     The World Domination Summit (WDS) is a gathering of creative, interesting people from all over the world. Every summer, thousands of people travel to Portland, Oregon for an immersive experience in life, work, and travel.{'\n'}
     The weekend consists of three primary activities: main-stage events with keynote speakers that are attended by the entire group, workshops that focus on specific topics, and lots of meetups, parties, and informal engagement. Despite the large number of people who attend, WDS is an introvert-friendly zone, and everyone who participates is a big part of the event.{'\n'}
-    <p>WDS was founded by <a href="http://chrisguillebeau.com" target="blank">Chris Guillebeau</a>, explorer of the world and <i>New York Times</i> bestselling author of <i>The $100 Startup</i>.</p>{'\n'}
+    <p>WDS was founded by <a href="http://chrisguillebeau.com" target="blank">Chris Guillebeau</a>, explorer of the world and <i>New York Times</i> bestselling author of <i>The $100 Startup</i>.</p>
 
     ### Can I nominate myself or someone I represent to be a speaker?{'\n'}
 
@@ -41,12 +41,12 @@ import Testimonials from '../components/Testimonials/Testimonials';
 
     ### Can I be a volunteer?{'\n'}
 
-    <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year, and you must be available during the entire weekend of the event. Applications will open after ticket sales end. When applications become available, Chris will make an announcement on his <a href="http://chrisguillebeau.com/">blog</a> and through <a href="https://twitter.com/chrisguillebeau">Twitter.</a></p>{'\n'}
+    <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year, and you must be available during the entire weekend of the event. Applications will open after ticket sales end. When applications become available, Chris will make an announcement on his <a href="http://chrisguillebeau.com/">blog</a> and through <a href="https://twitter.com/chrisguillebeau">Twitter.</a></p>
 
     ### How can I get a ticket?{'\n'}
 
     Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. {'\n'}
-    <p>The best way to be notified when tickets go on sale is to join the 2017 <a href="http://worlddominationsummit.com/register">waiting list.</a></p>{'\n'}
+    <p>The best way to be notified when tickets go on sale is to join the 2017 <a href="http://worlddominationsummit.com/register">waiting list.</a></p>
     Please note: Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.{'\n'}
 
     ### What is the refund/exchange policy on WDS tickets?{'\n'}
