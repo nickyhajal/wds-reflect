@@ -10,12 +10,12 @@ const desktopHeader = (ticketClick, scrollTo) => (
     <div styleName="row">
       <Link styleName="logo" to="/" alt="WDS Home" />
       <nav styleName="nav">
-        <Link to="/story" onClick={scrollTo} styleName="link">Story</Link>
-        <Link to="/schedule" onClick={scrollTo} styleName="link">Schedule</Link>
-        <Link to="/location" onClick={scrollTo} styleName="link">Location</Link>
-        <Link to="/academies" onClick={scrollTo} styleName="link">Academies</Link>
-        <Link to="/foundation" onClick={scrollTo} styleName="link">Foundation</Link>
-        <Link to="/local" onClick={scrollTo} styleName="link">WDS Local</Link>
+        <Link to="/story" onClick={scrollTo} activeClassName="active" styleName="link">Story</Link>
+        <Link to="/schedule" onClick={scrollTo} activeClassName="active" styleName="link">Schedule</Link>
+        <Link to="/location" onClick={scrollTo} activeClassName="active" styleName="link">Location</Link>
+        <Link to="/academies" onClick={scrollTo} activeClassName="active" styleName="link">Academies</Link>
+        <Link to="/foundation" onClick={scrollTo} activeClassName="active" styleName="link">Foundation</Link>
+        <Link to="/local" onClick={scrollTo} activeClassName="active" styleName="link">WDS Local</Link>
       </nav>
       <TicketStub onClick={ticketClick} />
     </div>
@@ -38,12 +38,12 @@ const mobileHeader = (ticketClick, scrollTo, navOpen, onMenuClick) => (
     </div>
     <div styleName="hiddenNav" className={navOpen ? 'open' : ''}>
       <nav styleName="nav">
-        <Link to="/story" onClick={scrollTo} styleName="link">Story</Link>
-        <Link to="/schedule" onClick={scrollTo} styleName="link">Schedule</Link>
-        <Link to="/location" onClick={scrollTo} styleName="link">Location</Link>
-        <Link to="/academies" onClick={scrollTo} styleName="link">Academies</Link>
-        <Link to="/foundation" onClick={scrollTo} styleName="link">Foundation</Link>
-        <Link to="/local" onClick={scrollTo} styleName="link">WDS Local</Link>
+        <Link to="/story" onClick={scrollTo} activeClassName="active" styleName="link">Story</Link>
+        <Link to="/schedule" onClick={scrollTo} activeClassName="active" styleName="link">Schedule</Link>
+        <Link to="/location" onClick={scrollTo} activeClassName="active" styleName="link">Location</Link>
+        <Link to="/academies" onClick={scrollTo} activeClassName="active" styleName="link">Academies</Link>
+        <Link to="/foundation" onClick={scrollTo} activeClassName="active" styleName="link">Foundation</Link>
+        <Link to="/local" onClick={scrollTo} activeClassName="active" styleName="link">WDS Local</Link>
       </nav>
     </div>
   </header>
