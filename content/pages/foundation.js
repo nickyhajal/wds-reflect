@@ -87,7 +87,7 @@ To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.
     ##### Eligibility
    Currently the "Scholarships for Real Life" program is open only to those who have attended one of our past five WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2017.
 ##### Coming soon
-2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. 
+<p>2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. </p>
   </Block>
 </Section>
 <Section color="green">
