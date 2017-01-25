@@ -29,8 +29,8 @@
 
     ### What is the refund/exchange policy on WDS tickets?
     All WDS tickets (360 and Connect) are non-refundable.
-    <p><b>For WDS 360:</b>  Transfers and name changes are available for a $100 fee from February until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.
-     <p><b>For WDS Connect:</b> There are no transfers or name changes for WDS Connect tickets.</p>
+    **For WDS 360:** Transfers and name changes are available for a $100 fee from February until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.
+     **For WDS Connect:** There are no transfers or name changes for WDS Connect tickets.
 
     ### How can I transfer a 360 ticket?
 
