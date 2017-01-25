@@ -68,7 +68,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <div>
         <Block type="image" src="photos/trex.jpg">
           ## 2016 Photos {'\n'}{'\n'}
-          2016 had some amazing moments. Check out the photos!{'\n'}{'\n'}
+          2016 had amazing moments. Check out the photos!{'\n'}{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157669269939103">View Them</Button>
         </Block>
          <Block type="image" src="photos/chelsea.jpg">

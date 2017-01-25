@@ -41,29 +41,23 @@ import is from '../utils/is';
     WDS is a sponsor-free, non-commercial gathering. We do not accept advertising or sponsored products.{'\n'}
 
     ### Can I be a volunteer?{'\n'}
-
-    <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year, and you must be available during the entire weekend of the event. Applications will open after ticket sales end. When applications become available, Chris will make an announcement on his <a href="http://chrisguillebeau.com/">blog</a> and through <a href="https://twitter.com/chrisguillebeau">Twitter.</a></p>
+    Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year, and you must be available during the entire weekend of the event. Applications will open after ticket sales end. When applications become available, Chris will make an announcement on his <a href="http://chrisguillebeau.com/">blog</a> and through <a href="https://twitter.com/chrisguillebeau">Twitter.</a>
 
     ### How can I get a ticket?{'\n'}
 
-    Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. {'\n'}
-    <p>The best way to be notified when tickets go on sale is to join the 2017 <a href="http://worlddominationsummit.com/register">waiting list.</a></p>
-    Please note: Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.{'\n'}
+    Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. The best way to be notified when tickets go on sale is to join the 2017 <a href="http://worlddominationsummit.com/register">waiting list.</a>
+    Please note: Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.
 
-    ### What is the refund/exchange policy on WDS tickets?{'\n'}
-    All WDS tickets (Connect and 360) are non-refundable.{'\n'}
-    For WDS 360:{'\n'}
-    Transfers and name changes are available for a $100 fee from February until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.{'\n'}
-    For WDS Connect:{'\n'}
-    There are no transfers or name changes for WDS Connect tickets.{'\n'}
+    ### What is the refund/exchange policy on WDS tickets?
+    All WDS tickets (360 and Connect) are non-refundable.
+    **For WDS 360:** Transfers and name changes are available for a $100 fee from February until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.
+     **For WDS Connect:** There are no transfers or name changes for WDS Connect tickets.
 
-    ### How can I transfer a 360 ticket?{'\n'}
+    ### How can I transfer a 360 ticket?
 
-    (Starting in mid-February) Ticket holders can transfer their ticket by:{'\n'}
-    <ol>
-      <li>Logging into your WDS account and looking for the transfer link at the bottom of the page</li> 
-    <li>contacting our concierge team at <a href="mailto:concierge@wds.fm">concierge@wds.fm</a>.</li>
-    </ol>
+    (Starting in mid-February) Ticket holders can transfer their ticket by:
+    1. Logging into your WDS account and looking for the transfer link at the bottom of the page 
+    2. Contacting our concierge team at <a href="mailto:concierge@wds.fm">concierge@wds.fm</a>
   </Block>
 </Section>
 <Section color="orange">

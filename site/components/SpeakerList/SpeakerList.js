@@ -5,12 +5,13 @@ import styles from './SpeakerList.css';
 import Image from '../Image/Image';
 import Block from '../Block/Block';
 import vars from '../../core/vars';
+import is from '../../utils/is';
 
 const settings = {
   dots: false,
   infinite: true,
   speed: 300,
-  slidesToShow: 4,
+  slidesToShow: is.phone() ? 2 : 4,
   slidesToScroll: 2,
   rtl: false,
   centerPadding: "200px",

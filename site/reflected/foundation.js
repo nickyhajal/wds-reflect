@@ -46,7 +46,7 @@ import is from '../utils/is';
 
         We’ve all experienced moments when we struggling to put into words an experience or emotion. Voices of Petersburg is a three-day digital storytelling workshop for clients of Petersburg Mental Health Services in Petersburg, Alaska. Participants choose an experience they want to share and write a script for a digital story to give voice to their struggles and triumphs. The process of writing, choosing supportive media assets, and bringing the story to the screen provides a platform for healing unique to the mental health therapies.{'\n'}
 
-With the help of the Foundation, Emily and her team will build a mobile curriculum that can travel outside of Petersburg and assist individuals in mental health facilities around the U.S. She is currently looking for assistance with social media, fundraising, and product development. you. If you are interested in contributing to her project, visit voicesofpetersburgak.com or email emilywray@gmail.com.{'\n'}
+<p>With the help of the Foundation, Emily and her team will build a mobile curriculum that can travel outside of Petersburg and assist individuals in mental health facilities around the U.S. She is currently looking for assistance with social media, fundraising, and product development. you. If you are interested in contributing to her project, visit <Link to="http://voicesofpetersburgak.com">voicesofpetersburgak.com</Link> or email <Link to="mailto:emilywray@gmail.com">emilywray@gmail.com</Link>.</p>
       </Block>
     </Tab>
     <Tab title="Valerie Groth">
@@ -56,13 +56,13 @@ With the help of the Foundation, Emily and her team will build a mobile curricul
 
         School teachers in urban districts face special challenges in promoting their students’ long-term academic success. It is no surprise that so-called “failing” schools are disproportionately situated in urban centers with high rates of poverty and crime. Valerie Groth is a mission to change that for Chicago-area students. In 2014, she founded Ryan Banks Academy, a coeducational boarding school that seeks to impact the lives of students through a rigorous college and career preparatory education, a supportive boarding program, and a focus on personal development in a positive environment. The goal of Ryan Banks Academy is to teach students not only the value of education, but also encourage them to focus on cultivating their own unique strengths, interests, and passions so that they may lead a purpose-filled life. Curriculum focuses not only on academic pursuits, but also on developing their relationships, core values, and mindset.{'\n'}
 
-There are many steps in her journey to build the school, and the Scholarship for Real Life grant will be helping get her fundraising efforts of the ground, as well as help support her burgeoning volunteer program. She is currently looking for assistance with grant writing and donor outreach, as well as anyone with a background in curriculum development. If you are interested in contributing to Ryan Banks Academy, you can email ryanbanksacademy@gmail.com or visit ryanbanksacademy.org{'\n'}
+<p>There are many steps in her journey to build the school, and the Scholarship for Real Life grant will be helping get her fundraising efforts of the ground, as well as help support her burgeoning volunteer program. She is currently looking for assistance with grant writing and donor outreach, as well as anyone with a background in curriculum development. If you are interested in contributing to Ryan Banks Academy, you can email <Link to="mailto:ryanbanksacademy@gmail.com">ryanbanksacademy@gmail.com</Link> or visit <Link to="http://www.ryanbanksacademy.org">ryanbanksacademy.org</Link></p>
       </Block>
     </Tab>
     <Tab title="Ben & Amberlynn Slavin">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/Ben+%26+Amberlynn+Slavin.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## SnapType{'\n'}
+        ## SnapType 2016{'\n'}
 
         SnapType breaks down the barriers to education and helps students survive in a school system that wasn’t designed for them. The app enables students to complete any school worksheet on an iPad.{'\n'}
 
@@ -72,7 +72,7 @@ Together with her husband, Ben Slavin, they created an app to take a picture of 
 
 A WDS Foundation scholarship was granted to help fund the development of SnapType for Android. Soon, students around the world will be given the chance to have more independence, self confidence and the opportunity to keep up with their peers!{'\n'}
 
-To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.{'\n'}
+<p>To learn more, or to contact Ben and Amberlynn, visit <Link to="http://www.snaptypeapp.com">SnapTypeApp.com</Link>.</p>
       </Block>
     </Tab>
   </Tabs>
@@ -108,7 +108,7 @@ To learn more, or to contact Ben and Amberlynn, visit SnapTypeApp.com.{'\n'}
     ##### Eligibility{'\n'}
    Currently the "Scholarships for Real Life" program is open only to those who have attended one of our past five WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2017.{'\n'}
 ##### Coming soon{'\n'}
-2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. 
+<p>2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. </p>
   </Block>
 </Section>
 <Section color="green">
