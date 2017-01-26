@@ -44,7 +44,7 @@
     <Image src="icon/outline-bed.png" width="101" height="78"  align="center" margin="0 0 40px 0" />
     <Block cols="5">
       ## Highly Sensitive Person Lounge
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries. A full week of events and an unforgettable keynote weekend in Portland, Oregon. Learn remarkable techniques from unconventional thinkers, aquire powerful new skills, and become inspired to free yourself from the “nine to five.”
+      Big events with lots of people can sometimes be overwhelming. We get that because we feel that way too! Since the very first WDS we've provided a dedicated quiet space with hammocks and masseuses for attendees to break away, relax, and recharge.
     </Block>
   </Block>
 </Section>
