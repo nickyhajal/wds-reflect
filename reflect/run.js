@@ -213,6 +213,7 @@ const addJsxBreaks = (str, file) => {
   let block = 0;
   let parentIsBlock = [];
   let inTagDef = 0;
+  let preload = {};
   lines.forEach((line) => {
     let l = line;
     let isTag = false;
@@ -243,8 +244,22 @@ const addJsxBreaks = (str, file) => {
     } else {
       // console.info('self-closer')
     }
+    if (line.indexOf('src') > -1 || line.indexOf('headerImage') > -1) {
+      const srcMatch = line.match(/(["'])(?:(?=(\\?))\2.)*?\1/)
+      preload.src = srcMatch[0].replace(/\"/g, '');
+    }
+    if (line.indexOf('preload') > -1) {
+      preload.shouldPreload = true;
+    }
+    if (preload.shouldPreload && preload.src) {
+      if (variables.preloads === undefined) { variables.preloads = [] }
+      variables.preloads.push(preload.src);
+    }
     inTagDef += (line.match(/\</g) || []).length;
     inTagDef -= (line.match(/\>/g) || []).length;
+    if (inTagDef < 1) {
+      preload = {shouldPreload: false, src: false};
+    }
     if (!isTag && inTagDef < 1 &&
         parentIsBlock[parentIsBlock.length - 1] !== undefined &&
         parentIsBlock[parentIsBlock.length - 1] &&

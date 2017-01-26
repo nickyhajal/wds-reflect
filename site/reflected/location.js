@@ -47,8 +47,9 @@ import is from '../utils/is';
   headerPosition="top"
   headerSize="thin"
   color="white"
+  preload
 >
-  <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" />
+  <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
     <Block>
       ## Your Base in Portland{'\n'}

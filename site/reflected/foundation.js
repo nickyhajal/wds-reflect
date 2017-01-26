@@ -25,8 +25,9 @@ import is from '../utils/is';
   headerPosition="center center"
   headerSize="thin"
   color="white"
+  preload
 >
-  <Image src="heading/foundation.png" width="470px" height="165px" className="scriptHeader" />
+  <Image src="heading/foundation.png" width="470px" height="165px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## The WDS Foundation{'\n'}
     The WDS Foundation seeks to put the right resources in the hands of amazing people who are acting on the three core values of WDS—community, adventure, and service.{'\n'}

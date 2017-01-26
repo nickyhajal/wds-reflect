@@ -100,10 +100,15 @@ const Image = (props) => {
   newProps.styleName = 'img';
   if (preload) {
     $(() => {
-      const slug = src.replace(/\//g, '__').replace(/\./g, '___');
+      const slug = src
+      .replace(/\//g, '__')
+      .replace(/\./g, '___')
+      .replace('+', '')
+      .replace(/\//g, '')
+      .replace(/:/g, '');
       if (!$(`#${slug}`).length) {
         const loads = $('#preloads');
-        loads.append($('<img/>').attr('src', src));
+        loads.append($('<img/>').attr('src', src).attr('id', `${slug}`));
       }
     });
   }

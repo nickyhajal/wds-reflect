@@ -4,8 +4,9 @@
   headerPosition="top"
   headerSize="thin"
   color="white"
+  preload
 >
-  <Image src="heading/local.png" width="545px" height="149px" className="scriptHeader" />
+  <Image src="heading/local.png" width="545px" height="149px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Living out our remarkable lives in community
     WDS Local is a way that alumni can gather regularly through out the year, support each other, and bring WDS home to their local communities. It's a way to continue conversations and go on new adventures together outside the annual WDS gathering in Portland.

@@ -4,8 +4,9 @@
   headerPosition="top"
   headerSize="thin"
   color="white"
+  preload
 >
-  <Image src="heading/story.png" width="429px" height="190px" className="scriptHeader" />
+  <Image src="heading/story.png" width="429px" height="190px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Why WDS?
     Way back in 2011, we invited 500 friends to Portland, Oregon. Our common curiosity brought us together to explore one question: _How do we live a remarkable life in a conventional world?_  

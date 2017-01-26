@@ -4,9 +4,10 @@
   headerPosition="top"
   headerSize="thin"
   color="white"
+  preload
 >
-  <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" />
-  <Image src="photos/audience.png" width="426" height="263" margin="0 0 -100px -50px" />
+  <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
+  <Image src="photos/audience.png" width="426" height="263" margin="0 0 -100px -50px" preload/>
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
     ## A Week of WDS: July 11th - 17th, 2017
 

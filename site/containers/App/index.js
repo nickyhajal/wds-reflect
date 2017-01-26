@@ -7,8 +7,11 @@ import $ from 'jquery';
 import { Link } from 'react-router';
 import Modals from '../../components/Modals/Modals';
 import actions from '../../actions';
+import vars from '../../core/vars';
+import preloader from '../../utils/preloader';
 
 
+const preloads = [];
 // import Auth from '~/containers/Auth';
 // import Dashboard from '~/containers/Dashboard';
 import Header from './Header';
@@ -20,12 +23,18 @@ export class App extends Component {
   }
   constructor(props) {
     super(props);
+    this.preloads = [];
     autoBind(Object.getPrototypeOf(this));
   }
   componentDidMount() {
     $(window).resize(() => {
       this.forceUpdate();
     });
+    if (vars.preloads !== undefined && vars.preloads.length) {
+      vars.preloads.forEach((v) => {
+        preloader(v);
+      });
+    }
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.location !== this.props.location) {
