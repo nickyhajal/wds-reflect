@@ -8,8 +8,8 @@
     ### What is WDS?
 
     The World Domination Summit (WDS) is a gathering of creative, interesting people from all over the world. Every summer, thousands of people travel to Portland, Oregon for an immersive experience in life, work, and travel.
-    The weekend consists of three primary activities: main-stage events with keynote speakers that are attended by the entire group, workshops that focus on specific topics, and lots of meetups, parties, and informal engagement. Despite the large number of people who attend, WDS is an introvert-friendly zone, and everyone who participates is a big part of the event.
-    <p>WDS was founded by <a href="http://chrisguillebeau.com" target="blank">Chris Guillebeau</a>, explorer of the world and <i>New York Times</i> bestselling author of <i>The $100 Startup</i>.</p>
+    The weekend consists of three primary activities: main-stage events with keynote speakers that are attended by the entire group, workshops that focus on specific topics, and lots of meetups, parties, and informal engagement. Despite the large number of people who attend, WDS is introvert-friendly, and everyone who participates is a big part of the event.
+    <p>WDS was founded by <Link to="http://chrisguillebeau.com" target="blank">Chris Guillebeau</Link>, explorer of the world and <i>New York Times</i> bestselling author of <i>The $100 Startup</i>.</p>
 
     ### Can I nominate myself or someone I represent to be a speaker?
 
@@ -20,11 +20,11 @@
     WDS is a sponsor-free, non-commercial gathering. We do not accept advertising or sponsored products.
 
     ### Can I be a volunteer?
-    Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year, and you must be available during the entire weekend of the event. Applications will open after ticket sales end. When applications become available, Chris will make an announcement on his <a href="http://chrisguillebeau.com/">blog</a> and through <a href="https://twitter.com/chrisguillebeau">Twitter.</a>
+    <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year, and you must be available during the entire weekend of the event. Applications will open after ticket sales end. When applications become available, Chris will make an announcement on his <Link to="http://chrisguillebeau.com/">blog</Link> and through <Link to="https://twitter.com/chrisguillebeau">Twitter.</Link></p>
 
     ### How can I get a ticket?
 
-    Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. The best way to be notified when tickets go on sale is to join the 2017 <a href="http://worlddominationsummit.com/register">waiting list.</a>
+    <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. The best way to be notified when tickets go on sale is to join the 2017 <Link to="http://worlddominationsummit.com/register">waiting list.</Link></p>
     Please note: Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.
 
     ### What is the refund/exchange policy on WDS tickets?
@@ -35,8 +35,11 @@
     ### How can I transfer a 360 ticket?
 
     (Starting in mid-February) Ticket holders can transfer their ticket by:
-    1. Logging into your WDS account and looking for the transfer link at the bottom of the page 
-    2. Contacting our concierge team at <a href="mailto:concierge@wds.fm">concierge@wds.fm</a>
+    <p>- Logging into your WDS account and looking for the transfer link at the bottom of the page, or,</p>
+    <p>- Contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link></p>
+       
+    ### Still have additional questions?
+     <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
   </Block>
 </Section>
 <Import id="join-us" />
