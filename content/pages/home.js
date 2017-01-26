@@ -43,7 +43,7 @@
     </Block>
   </Grid>
   <div className="clear"></div>
-  <Image src="photos/people.jpg" width="426" height="263" margin="-120px 0 -80px -50px" mobile={ { all: {position: 'relative', zIndex: '-1' }} }/>
+  <Image src="photos/people.jpg" width="426" height="263" margin="-120px 0 -80px -50px" mobile={ { all: {position: 'relative', zIndex: '-1' }, phone: {width: '100%', margin: '-120px 0 -80px -20px'}} }/>
   <Block
     type="padded"
     cols="6"
