@@ -38,10 +38,10 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     This July, we’re inviting all our friends (you!) to Portland for the seventh WDS. As always, some things this year will be new, but our core principles of Community, Adventure, and Service will continue to guide our shared pursuit of changing the world.{'\n'}
   </Block>
 </Section>
-<Section color="canvas">
-  <Tabs style="dots">
+<Section color="canvas" bound={false}>
+  <Tabs style="dots" contentWidth="1280">
     <Tab title="2016">
-      <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
       <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }} >
           <Block type="color" color="green">
@@ -64,8 +64,8 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
           </Block>
         </Grid>
       </div>
-      <div className="clear" style={{ paddingTop: '80px' }} />
-      <div>
+      <div className="clear" style={{ paddingTop: '80px' }} />{'\n'}
+      <Grid>
         <Block type="image" src="photos/trex.jpg">
           ## 2016 Photos {'\n'}{'\n'}
           2016 had amazing moments. Check out the photos!{'\n'}{'\n'}
@@ -76,10 +76,10 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
          Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2016-keynotes">Watch Them</Button>
         </Block>
-      </div>
+      </Grid>
     </Tab>
     <Tab title="2015">
-      <Image src="art/legacy-2015.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2015.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
         <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
           <Block type="color" color="green">
@@ -102,8 +102,8 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
           </Block>
         </Grid>
       </div>
-      <div className="clear" style={{ paddingTop: '80px' }} />
-      <div>
+      <div className="clear" style={{ paddingTop: '80px' }} />{'\n'}
+      <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2015+Pictures.jpg">
           ## 2015 Photos {'\n'}{'\n'}
           2015 had some amazing moments. Check out the photos!{'\n'}{'\n'}
@@ -114,10 +114,10 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
           Want to relive the keynotes? Watch these videos! {'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds2015">Watch Them</Button>
         </Block>
-      </div>
+      </Grid>
     </Tab>
     <Tab title="2014">
-      <Image src="art/legacy-2014.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2014.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
         <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
           <Block type="color" color="green">
@@ -140,8 +140,8 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
           </Block>
         </Grid>
       </div>
-      <div className="clear" style={{ paddingTop: '80px' }} />
-      <div>
+      <div className="clear" style={{ paddingTop: '80px' }} />{'\n'}
+      <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/Photos+2014.jpg">
           ## 2014 Photos {'\n'}{'\n'}
           2014 had some amazing moments. Check out the photos!{'\n'}{'\n'}
@@ -152,10 +152,10 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
          Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2014-keynotes">Watch Them</Button>
         </Block>
-      </div>
+     </Grid>
     </Tab>
     <Tab title="2013">
-      <Image src="art/legacy-2013.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2013.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
            <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
           <Block type="color" color="green">
@@ -178,8 +178,8 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
           </Block>
         </Grid>
       </div>
-      <div className="clear" style={{ paddingTop: '80px' }} />
-      <div>
+      <div className="clear" style={{ paddingTop: '80px' }} />{'\n'}
+      <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2013+Pictures.jpg">
           ## 2013 Photos {'\n'}{'\n'}
           2013 had some amazing moments. Check out the photos!{'\n'}{'\n'}
@@ -190,10 +190,10 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
          Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds1013">Watch Them</Button>
         </Block>
-      </div>
+      </Grid>
     </Tab>
     <Tab title="2012">
-      <Image src="art/legacy-2012.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2012.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>{'\n'}
       <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
           <Block type="color" color="green">
@@ -216,8 +216,8 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
           </Block>
         </Grid>
       </div>
-      <div className="clear" style={{ paddingTop: '80px' }} />
-      <div>
+      <div className="clear" style={{ paddingTop: '80px' }} />{'\n'}
+      <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2012+Pictures.jpg">
           ## 2012 Photos {'\n'}{'\n'}
           2012 had some amazing moments. Check out the photos!{'\n'}{'\n'}
@@ -228,10 +228,10 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
          Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2012-keynotes">Watch Them</Button>
         </Block>
-      </div>
+      </Grid>
     </Tab>
     <Tab title="2011">
-      <Image src="art/legacy-2011.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>
+      <Image src="art/legacy-2011.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>{'\n'}
        <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
            <Block type="color" color="green">
@@ -254,8 +254,8 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
           </Block>
         </Grid>
       </div>
-      <div className="clear" style={{ paddingTop: '80px' }} />
-      <div>
+      <div className="clear" style={{ paddingTop: '80px' }} />{'\n'}
+      <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2011+Pictures.jpg">
           ## 2011 Photos {'\n'}{'\n'}
           2011 had some amazing moments. Check out the photos!{'\n'}{'\n'}
@@ -266,7 +266,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
           Want to relive the keynotes? Watch these videos!{'\n'}{'\n'}
           <Button to="https://vimeopro.com/aonc/wds-2011-keynotes">Watch Them</Button>
         </Block>
-      </div>
+      </Grid>
         </Tab>
   </Tabs>
 </Section>

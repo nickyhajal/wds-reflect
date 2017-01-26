@@ -222,7 +222,7 @@ const addJsxBreaks = (str, file) => {
 
       // console.info('doesnt selfclose')
       // If it's a block, mark parent as true
-      if (line.indexOf('<Block') > -1) {
+      if (line.indexOf('<Block') > -1 || line.indexOf('<Tab') > -1) {
         isTag = true;
         parentIsBlock.push(true);
       // console.info('block start (push true)')

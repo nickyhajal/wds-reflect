@@ -2,11 +2,17 @@ import React, { PropTypes } from 'react';
 import CSSModules from 'react-css-modules';
 import $ from 'jquery';
 import autoBind from 'react-autobind';
+import Markdown from 'react-remarkable';
+import _ from 'lodash';
 import styles from './Tabs.css';
 import Image from '../Image/Image';
+import Block from '../Block/Block';
+import Grid from '../Grid/Grid';
 import TabButton from '../TabButton/TabButton';
 import colorize from '../../utils/colorize';
 import angler from '../../utils/angler';
+import is from '../../utils/is';
+import unitize from '../../utils/unitize';
 
 class Tabs extends React.Component {
   constructor() {
@@ -20,7 +26,7 @@ class Tabs extends React.Component {
   componentDidMount() {
     if (!this.state.tabWidths) {
       const shell = $(this.shell);
-      const w = shell.outerWidth();
+      const w = $('.tab-controls', shell).outerWidth();
       const tabWidths = [];
       $('.tab-button', shell).each((i, tab) => {
         tabWidths[i] = $(tab).outerWidth();
@@ -105,22 +111,51 @@ class Tabs extends React.Component {
     });
     return out;
   }
-  render() {
+  renderForPhone() {
+    const finalClip = angler('br:0,-6%;');
+    const headCss = {};
+    headCss.clipPath = finalClip;
+    headCss.WebkitClipPath = finalClip;
+    console.info(headCss);
+    return (
+      <div>
+        {this.props.children.map(tab => (
+          <div styleName="phoneTab">
+            <div style={_.merge({ backgroundColor: colorize(tab.props.color ? tab.props.color : 'blue') }, headCss)} styleName="phoneTitle">
+              {tab.props.title}
+            </div>
+            <div styleName="phoneContent">
+              <Markdown>{tab.props.children}</Markdown>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+  renderStandard() {
     const tabs = this.props.children;
+    const contentWidth = unitize(this.props.contentWidth);
+    return (
+      <div>
+        <div styleName="buttons" style={{ width: '996px' }} className="tab-controls">
+          {this.renderButtons(tabs)}
+        </div>
+        <div className="clear" />
+        <div styleName="content" style={{ width: contentWidth }}>
+          <Markdown>{tabs[this.state.active].props.children}</Markdown>
+          <div className="clear" />
+        </div>
+      </div>
+    );
+  }
+  render() {
     let style = 'tabs-normal';
     if (this.props.style.length) {
       style = `tabs-${this.props.style}`;
     }
     return (
       <div styleName="shell" className={style} ref={(shell) => { this.shell = shell; }}>
-        <div styleName="buttons">
-          {this.renderButtons(tabs)}
-        </div>
-        <div className="clear" />
-        <div styleName="content">
-          {tabs[this.state.active].props.children}
-          <div className="clear" />
-        </div>
+        {(is.phone() ? this.renderForPhone() : this.renderStandard())}
       </div>
     );
   }
@@ -128,11 +163,13 @@ class Tabs extends React.Component {
 
 Tabs.propTypes = {
   style: PropTypes.string,
+  contentWidth: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
 };
 
 Tabs.defaultProps = {
   style: '',
+  contentWidth: '996px',
 };
 
 export default CSSModules(Tabs, styles);

@@ -5,6 +5,7 @@
 .content {
   padding: 50px;
   background: $canvas;
+  margin: 0 auto;
 
   @media(--phone) {
     padding: 0;
@@ -12,6 +13,26 @@
 }
 .buttons {
   position: relative;
+  margin: 0 auto;
+}
+.phoneTab {
+  margin-bottom: 12px;
+
+  .phoneTitle {
+    text-align: center;
+    padding: 20px 20px 20px 23px;
+    color: $white;
+    font-size: 17px;
+    margin-bottom: -5px;
+  }
+  .phoneContent {
+    background: $canvas;
+    padding: 24px 20px 20px 20px;
+    font-size: 15px;
+  }
+}
+:global(.section-canvas) .phoneContent {
+  background: $white;
 }
 .dots-line {
   margin: 0 auto;
@@ -52,6 +73,5 @@
   @media (--tablet) {
     width: 100%;
   }
-  width: 1092px;
-  margin-left: 0px;
+  width: 100%;
   }

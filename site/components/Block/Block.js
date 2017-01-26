@@ -92,7 +92,7 @@ class Block extends Component {
 
     // IMAGE BLOCK
     if (type === 'image') {
-      const iH = is.phone() ? '200' : '275;';
+      const iH = is.phone() ? '200' : '275';
       content = (
         <div>
           <Image styleName="image" width="100%" height={iH} src={src} clip="imageBlock" />
