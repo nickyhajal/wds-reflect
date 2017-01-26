@@ -42,7 +42,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
 <Section color="canvas" bound={false}>
   <Tabs style="dots" contentWidth="1280">
     <Tab title="2016">
-      <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
+      <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' }, phone: { width: '100%', margin: '0', height: '160px', backgroundSize: 'cover' }}} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
       <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }} >
           <Block type="color" color="green">
@@ -80,7 +80,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </Grid>
     </Tab>
     <Tab title="2015">
-      <Image src="art/legacy-2015.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
+      <Image src="art/legacy-2015.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' }, phone: { width: '100%', margin: '0', height: '160px', backgroundSize: 'cover' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
         <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
           <Block type="color" color="green">
@@ -118,7 +118,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </Grid>
     </Tab>
     <Tab title="2014">
-      <Image src="art/legacy-2014.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
+      <Image src="art/legacy-2014.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' }, phone: { width: '100%', margin: '0', height: '160px', backgroundSize: 'cover' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
         <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
           <Block type="color" color="green">
@@ -156,7 +156,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
      </Grid>
     </Tab>
     <Tab title="2013">
-      <Image src="art/legacy-2013.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
+      <Image src="art/legacy-2013.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' }, phone: { width: '100%', margin: '0', height: '160px', backgroundSize: 'cover' } }} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
            <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
           <Block type="color" color="green">
@@ -194,7 +194,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </Grid>
     </Tab>
     <Tab title="2012">
-      <Image src="art/legacy-2012.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>{'\n'}
+      <Image src="art/legacy-2012.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' }, phone: { width: '100%', margin: '0', height: '160px', backgroundSize: 'cover' }}} width="1260" height="514" margin="0 0 0 -142px" preload/>{'\n'}
       <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
           <Block type="color" color="green">
@@ -232,7 +232,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </Grid>
     </Tab>
     <Tab title="2011">
-      <Image src="art/legacy-2011.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>{'\n'}
+      <Image src="art/legacy-2011.jpg"  mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' }, phone: { width: '100%', margin: '0', height: '160px', backgroundSize: 'cover' } }} width="1260" height="514" margin="0 0 0 -142px" preload/>{'\n'}
        <div>
         <Grid numCols="4" gutter="16" margin="32px 0 0 0" block={{ css: {padding: '0'} }}>
            <Block type="color" color="green">
