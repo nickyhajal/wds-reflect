@@ -21,9 +21,12 @@ const auth = {
     });
   },
   login(email, pw) {
+    console.info(email);
+    console.info(pw);
     Actions.setAuthStatus('loading');
     return api('post user/login', { username: email, password: pw })
     .then((raw) => {
+      console.log("RSP", raw)
       const rsp = raw.data;
       if (rsp.loggedin && rsp.me) {
         Actions.updateAuth(rsp.me);

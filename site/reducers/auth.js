@@ -20,6 +20,7 @@ export default function auth(state = Map, action) {
       });
 
     case C.AUTH_SET_STATUS:
+        console.log('SETUP AUTH STATUS')
       return state.withMutations((ctx) => {
         ctx.set('status', action.status);
         ctx.set('error', false);

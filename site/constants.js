@@ -21,6 +21,7 @@ const constants = createConstants(
 );
 
 // constants.apiUrl = 'api.worlddominationsummit.com/v1';
-constants.apiUrl = 'ela.nky/v1';
+constants.apiUrl = 'api.worlddominationsummit.com/api';
+// constants.apiUrl = 'ela.nky/v1';
 
 module.exports = constants;

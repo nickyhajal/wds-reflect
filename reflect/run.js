@@ -307,7 +307,7 @@ const saveRoutes = () => (
       let final = tpl;
       content.forEach((page) => {
         const full = page.url;
-        const clean = full.replace(/\//g, '$');
+        const clean = full.replace(/\//g, '$').replace('-', '__');
         const path = `../reflected/${full}.js`;
         imports += `import ${clean} from '${path}';\n`;
         pages += `pages.${clean} = ${clean};\n`;

@@ -21,6 +21,7 @@ const api = (url, data) => {
   } else {
     req.params = data;
   }
+  console.log(req);
   return axios(req);
 };
 
