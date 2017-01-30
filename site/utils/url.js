@@ -6,7 +6,7 @@ export default function url(type, protocol = 'https') {
     el: 'api.worlddominationsummit.com/api',
   };
   const useUrl = urls[type];
-  let useProtocol = useUrl.indexOf('ela.nky') > -1 ? 'http' : protocol;
+  let useProtocol = useUrl.indexOf('wds.nky') > -1 ? 'http' : protocol;
   if (protocol && protocol.indexOf('://') === -1) {
     useProtocol += '://';
   } else if (!protocol) {

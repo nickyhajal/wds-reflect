@@ -70,7 +70,7 @@ const Image = (props) => {
     newProps.src = src;
   } else {
     css.backgroundImage = `url(${src})`;
-    css.backgroundSize = 'cover';
+    css.backgroundSize = props.fit;
     css.backgroundRepeat = 'no-repeat';
     css.backgroundPosition = props.position;
   }
@@ -129,11 +129,13 @@ Image.propTypes = {
   icon: PropTypes.string,
   height: PropTypes.string,
   preload: PropTypes.bool,
+  fit: PropTypes.string,
 };
 
 Image.defaultProps = {
   clip: false,
   icon: '',
+  fit: 'cover',
   preload: false,
   tag: 'div',
   position: 'center',

@@ -5,7 +5,9 @@ import axios from 'axios';
 import _ from 'lodash';
 import styles from './Form.css';
 import Input from '../Input/Input';
+import Address from '../Address/Address';
 import FormRow from '../FormRow/FormRow';
+import FormWrap from '../FormWrap/FormWrap';
 import Button from '../Button/Button';
 
 class Form extends Component {
@@ -17,6 +19,20 @@ class Form extends Component {
       status: 'ready',
     };
   }
+  componentDidMount(props) {
+    console.log(">>>>>>>")
+    console.log('willupdate', this.props.values)
+    if (this.props.values !== undefined) {
+      this.setState({ form: this.props.values });
+    }
+  }
+  componentWillReceiveProps(props) {
+    console.log(">>>>>>>")
+    console.log('form', props.values)
+    if (props.values !== undefined) {
+      this.setState({ form: props.values });
+    }
+  }
   submit(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -25,7 +41,11 @@ class Form extends Component {
     if (this.props.list !== undefined && this.props.list) {
       actions.push(this.submitToList);
     }
-    actions[0]().then(this.finish);
+    if (this.props.onSubmit !== undefined && this.props.onSubmit) {
+      actions.push(this.props.onSubmit);
+    }
+    actions[0](this.state.form)
+    .then(this.finish);
   }
   submitToList() {
     return new Promise((resolve, reject) => {
@@ -45,13 +65,27 @@ class Form extends Component {
         custom: (form.custom !== undefined) ? form.custom : undefined,
       };
       axios(req)
-      .then(resolve);
+      .then(resolve)
+      .catch(reject);
     });
   }
-  finish() {
-    this.setState({ status: 'success' });
-    if (this.props.onSuccess) {
-      this.props.onSuccess();
+  error(err, rsp) {
+    console.log(err, rsp);
+  }
+  finish(rsp) {
+    if (rsp !== undefined && rsp.err) {
+      this.setState({ status: 'error' });
+      if (this.props.onError) {
+        this.props.onError(rsp);
+      }
+      setTimeout(() => {
+        this.setState({ status: 'ready' });
+      }, 4000);
+    } else {
+      this.setState({ status: 'success' });
+      if (this.props.onSuccess) {
+        this.props.onSuccess(rsp);
+      }
     }
   }
   change(e) {
@@ -67,12 +101,17 @@ class Form extends Component {
     }
     this.setState({ form });
   }
+  reset() {
+    this.setState({ status: 'ready' });
+  }
   render() {
     let btnText = this.props.buttonStart;
     if (this.state.status === 'loading') {
       btnText = this.props.buttonProgress;
     } else if (this.state.status === 'success') {
       btnText = this.props.buttonSuccess;
+    } else if (this.state.status === 'error') {
+      btnText = this.props.buttonError;
     }
     const children = [];
     let propsChildren = this.props.children;
@@ -84,11 +123,14 @@ class Form extends Component {
       if (
         elm.type === Input ||
         elm.type === FormRow ||
+        elm.type === FormWrap ||
+        elm.type === Address ||
         elm.type === 'input' ||
         elm.type === 'select'
       ) {
         const props = Object.assign({}, elm.props);
         props.onChange = this.change;
+        props.values = _.clone(this.state.form);
         props.key = `formrow-${c}`;
         children.push(React.createElement(elm.type, props));
         c += 1;
@@ -97,9 +139,9 @@ class Form extends Component {
       }
     });
     return (
-      <form action="" method="post" onSubmit={this.submit}>
+      <form action="" method="post" styleName="form" onSubmit={this.submit}>
         { children }
-        <Button styling="dark" width="100%">{btnText}</Button>
+        <Button styling={this.props.buttonStyle} width="100%">{btnText}</Button>
       </form>
     );
   }
@@ -110,8 +152,11 @@ Form.defaultProps = {
   method: 'ajax',
   buttonStart: 'Send',
   buttonSuccess: 'Success!',
+  buttonError: 'Hm, there was a problem.',
   onSuccess: false,
+  onError: false,
   buttonProgress: 'Sending...',
+  buttonStyle: 'dark',
 };
 
 Form.propTypes = {
@@ -123,11 +168,19 @@ Form.propTypes = {
     PropTypes.func,
     PropTypes.bool,
   ]),
+  onError: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.bool,
+  ]),
+  values: PropTypes.objectOf(PropTypes.string),
+  onSubmit: PropTypes.func,
   defaults: PropTypes.objectOf(PropTypes.string),
   list: PropTypes.string,
   buttonStart: PropTypes.string,
+  buttonStyle: PropTypes.string,
   buttonProgress: PropTypes.string,
   buttonSuccess: PropTypes.string,
+  buttonError: PropTypes.string,
 };
 
 export default CSSModules(Form, styles);

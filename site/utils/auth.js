@@ -1,6 +1,6 @@
 import { bindActionCreators } from 'redux';
 import * as AuthActions from '../actions/auth';
-import store from '~/core/store';
+import store from '../core/store';
 import api, { mock } from './api';
 
 const Actions = bindActionCreators(AuthActions, store.dispatch);
@@ -17,25 +17,33 @@ const auth = {
       }
     })
     .catch((error) => {
-      console.info(error);
+      console.error(error);
     });
   },
-  login(email, pw) {
-    console.info(email);
-    console.info(pw);
+  loginWithHash(id, autohide = false) {
+    auth.login(id, false, autohide);
+  },
+  login(id, pw, autohide = true) {
     Actions.setAuthStatus('loading');
-    return api('post user/login', { username: email, password: pw })
+    const params = {};
+    if (pw !== undefined && pw) {
+      params.email = id;
+      params.pw = pw;
+    } else if (id !== undefined) {
+      params.hash = id;
+    }
+    return api('post user/login', params)
     .then((raw) => {
-      console.log("RSP", raw)
       const rsp = raw.data;
+      console.log(rsp);
       if (rsp.loggedin && rsp.me) {
         Actions.updateAuth(rsp.me);
         Actions.setAuthStatus('success');
       } else {
-        Actions.setAuthError("Hm, that didn't seem right. Try again?");
+        Actions.setAuthError("Hm, that didn't seem right. Try again?", autohide);
       }
     }).catch(() => {
-      Actions.setAuthError("Hm, that didn't seem right. Try again?");
+      Actions.setAuthError("Hm, that didn't seem right. Try again?", autohide);
     });
   },
   createUser(userPkg) {

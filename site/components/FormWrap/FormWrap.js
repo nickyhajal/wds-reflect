@@ -1,16 +1,22 @@
 import React, { PropTypes } from 'react';
 import _ from 'lodash';
 import CSSModules from 'react-css-modules';
-import styles from './FormRow.css';
+import styles from './FormWrap.css';
 import Input from '../Input/Input';
+import FormRow from '../FormRow/FormRow';
 
 
-const FormRow = ({ onChange, children, values }) => {
+const FormWrap = ({ onChange, children, values }) => {
   const newChildren = [];
   const childArray = Array.isArray(children) ? children : [children];
   let c = 0;
   childArray.forEach((elm) => {
-    if (elm.type === Input || elm.type === 'input' || elm.type === 'select') {
+    if (
+        elm.type === Input ||
+        elm.type === FormRow ||
+        elm.type === 'input' ||
+        elm.type === 'select'
+      ) {
       const props = _.clone(elm.props);
       props.onChange = onChange;
       props.values = _.clone(values);
@@ -29,10 +35,10 @@ const FormRow = ({ onChange, children, values }) => {
   );
 };
 
-FormRow.defaultProps = {
+FormWrap.defaultProps = {
 };
 
-FormRow.propTypes = {
+FormWrap.propTypes = {
   onChange: PropTypes.func,
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
@@ -42,7 +48,4 @@ FormRow.propTypes = {
   key: PropTypes.string,
 };
 
-const Wrapped = CSSModules(FormRow, styles);
-Wrapped.typeStr = 'FormRow';
-
-export default Wrapped;
+export default CSSModules(FormWrap, styles);

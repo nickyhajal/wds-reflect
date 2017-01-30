@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import CSSModules from 'react-css-modules';
+import _ from 'lodash';
 import cx from 'classnames';
 import { bindActionCreators } from 'redux';
 import { Link } from 'react-router';
@@ -38,12 +39,15 @@ class Button extends React.Component {
     autoBind(Object.getPrototypeOf(this));
   }
 
-  click() {
+  click(e) {
     if (this.props.modal !== undefined) {
       if (this.props.beforeModal !== undefined) {
         this.props.beforeModal(this.props.act);
       }
       this.props.act.openModal(this.props.modal);
+    }
+    if (this.props.onClick !== undefined) {
+      this.props.onClick(e);
     }
   }
 
@@ -51,10 +55,9 @@ class Button extends React.Component {
     const {
       component, className, to, href, children, fitToText,
     } = this.props;
-    let { onClick } = this.props;
     let {
-      styling, style, width, align,
-    } = this.props;
+      styling, style, width, align, onClick,
+    } = _.clone(this.props);
     width = (width !== undefined) ? width : '';
     styling = (styling !== undefined) ? styling : '';
     style = (style !== undefined) ? style : {};
@@ -76,7 +79,6 @@ class Button extends React.Component {
     if (fitToText !== undefined && fitToText) {
       style.display = 'inline-block';
     }
-    onClick = onClick === undefined ? this.click : (e) => { onClick(e); this.click(e); };
     return React.createElement(
       component || (to ? Link : (href ? 'a' : 'button')), // eslint-disable-line no-nested-ternary
       {
@@ -88,7 +90,7 @@ class Button extends React.Component {
         to,
         href,
         style,
-        onClick,
+        onClick: this.click,
       },
       children
     );

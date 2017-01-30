@@ -4,6 +4,8 @@ const constants = createConstants(
 
   // APP
   'APP_SET_MENU',
+  'APP_SET_LOGIN_REDIRECT',
+
   // AUTH
   'AUTH_SET_ME',
   'AUTH_SET_ERROR',
@@ -21,7 +23,7 @@ const constants = createConstants(
 );
 
 // constants.apiUrl = 'api.worlddominationsummit.com/v1';
-constants.apiUrl = 'api.worlddominationsummit.com/api';
-// constants.apiUrl = 'ela.nky/v1';
+// constants.apiUrl = 'api.worlddominationsummit.com/api';
+constants.apiUrl = 'wds.nky/api';
 
 module.exports = constants;

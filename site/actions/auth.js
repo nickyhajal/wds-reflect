@@ -9,6 +9,21 @@ export function updateAuth(me) {
   };
 }
 
+export function updateMe(me, param) {
+  return (dispatch, getState) => {
+    let setMe = me;
+    if (param !== undefined && param) {
+      setMe = getState().auth.get('me');
+      setMe[me] = param;
+    }
+    dispatch({
+      type: C.AUTH_SET_ME,
+      me: setMe,
+      param,
+    });
+  };
+}
+
 export function setAuthStatus(status) {
   return (dispatch) => {
     dispatch({
@@ -18,18 +33,22 @@ export function setAuthStatus(status) {
   };
 }
 
-export function setAuthError(error) {
+export function setAuthError(error, autohide = true) {
   return (dispatch) => {
-    dispatch({
-      type: C.AUTH_SET_ERROR,
-      error,
-    });
     setTimeout(() => {
       dispatch({
-        type: C.AUTH_SET_STATUS,
-        status: 'ready',
+        type: C.AUTH_SET_ERROR,
+        error,
       });
-    }, 6000);
+    }, 1000);
+    if (autohide) {
+      setTimeout(() => {
+        dispatch({
+          type: C.AUTH_SET_STATUS,
+          status: 'ready',
+        });
+      }, 6000);
+    }
   };
 }
 

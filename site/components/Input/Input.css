@@ -1,12 +1,35 @@
 @import "vars.css";
 
+.pretext {
+  span {
+    float: left;
+    display: block;
+    background: white;
+    padding: 17px 7px 16px;
+    margin-bottom: -60px;
+    width: 71px;
+    color: $blue; 
+  }
+
+  input {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    padding: 14px 28px;
+    font-family: Karla;
+    margin-left: 70px;
+    display: block;
+    width: -moz-available;
+    width: -webkit-fill-available; 
+  }
+}
+
 .box {
   float: left;
   width: 100%;
 
   input {
     background: transparent;
-    border: 3px solid $white;
+    border: 2px solid $white;
     padding: 14px 28px;
     font-family: Karla;
     width: 100%;

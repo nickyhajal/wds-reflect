@@ -10,6 +10,7 @@ const outDir = '../site/reflected/';
 let content = [];
 const config = {};
 const globals = {};
+const globalComponents = [];
 const variables = {};
 jsdom.env("", function(err, win) {
     if (err) {
@@ -163,15 +164,15 @@ const processContent = () => (
     content.forEach((page, inx) => {
       let pre = '';
       let main = '';
-      if (page.content.indexOf('</Pre') > -1) {
-        const parts = page.content.split('</Pre>');
-        pre = parts[0].replace('<Pre>', '').trim();
+      if (page.content.indexOf('</Script') > -1) {
+        const parts = page.content.split('</Script>');
+        pre = parts[0].replace('<Script>', '').trim();
         main = parts[1];
       } else {
         main = page.content.trim();
       }
       main = doImports(addJsxBreaks(main, page.url));
-      content[inx].content = 
+      content[inx].content =
   `${config.import}
   ${pre}
   const Page = () => (
@@ -182,6 +183,41 @@ const processContent = () => (
 
   export default Page;
 `;
+    })
+    resolve();
+  })
+);
+
+const processGlobalComponents = () => (
+  new Promise((resolve, reject) => {
+    Object.keys(globals).forEach((inx) => {
+      let pre = '';
+      let main = '';
+      const page = globals[inx];
+      if (page.indexOf('</Script') > -1) {
+        const parts = page.split('</Script>');
+        pre = parts[0].replace('<Script>', '').trim();
+        main = parts[1];
+      } else {
+        main = page.trim();
+      }
+      const file = inx
+        .replace(/-([a-z])/g, g => g[1].toUpperCase())
+        .replace(/^[a-z]/, g => g[0].toUpperCase());
+      main = doImports(addJsxBreaks(main, file));
+      const imports = config.import.replace(/\'..\//g, "\'../../");
+      const content =
+  `${imports}
+  ${pre}
+  const Component = () => (
+    <div>
+      ${main}
+    </div>
+  );
+
+  export default Component;
+`;
+    globalComponents.push({file, content});
     })
     resolve();
   })
@@ -298,7 +334,44 @@ const saveContent = () => (
   })
 )
 
+const saveGlobalComponents = () => (
+  new Promise((resolve, reject) => {
+    console.log('saveglobal')
+    async.each(globalComponents, (page, cb) => {
+      console.log(page);
+      const path = `${outDir}/components/${page.file}.js`;
+      fs.writeFile(path, page.content, (err) => {
+        if (err) return console.log(err);
+        cb();
+      });
+    }, resolve);
+  })
+)
+
 const saveRoutes = () => (
+  new Promise((resolve, reject) => {
+    const core = `${outDir}../core/`
+    fs.readFile(`${core}pages.tpl.js`, 'utf8', (err, tpl) => {
+      let imports = '';
+      let pages = '';
+      let final = tpl;
+      content.forEach((page) => {
+        const full = page.url;
+        const clean = full.replace(/\//g, '$').replace('-', '__');
+        const path = `../reflected/${full}.js`;
+        imports += `import ${clean} from '${path}';\n`;
+        pages += `pages.${clean} = ${clean};\n`;
+      })
+      final = final.replace('%imports%', imports);
+      final = final.replace('%pages%', pages);
+      fs.writeFile(`${core}pages.js`, final, (err) => {
+        if (err) { reject(err); }
+        else { resolve(); }
+      })
+    });
+  })
+)
+const saveGlobal = () => (
   new Promise((resolve, reject) => {
     const core = `${outDir}../core/`
     fs.readFile(`${core}pages.tpl.js`, 'utf8', (err, tpl) => {
@@ -348,6 +421,8 @@ tasks.set('sync', () => (
     .then(saveVariables)
     .then(saveContent)
     .then(saveRoutes)
+    .then(processGlobalComponents)
+    .then(saveGlobalComponents)
     .then(resolve);
   })
 ));
@@ -362,6 +437,8 @@ tasks.set('build', () => (
     .then(saveVariables)
     .then(saveContent)
     .then(saveRoutes)
+    .then(processGlobalComponents)
+    .then(saveGlobalComponents)
     .then(rebuild)
     .then(resolve);
   })
