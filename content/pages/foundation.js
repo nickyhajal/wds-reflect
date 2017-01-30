@@ -18,7 +18,7 @@
 </Section>
 <Section color="canvas">
   <Block>## Featured Project</Block>
-  <Tabs style="dots" contentWidth="1280">
+  <Tabs style="dots">
     <Tab title="Emily Wray">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/Emily+Wray.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
