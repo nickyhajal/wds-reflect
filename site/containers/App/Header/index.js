@@ -39,7 +39,6 @@ const mobileHeader = (ticketClick, scrollTo, navOpen, onMenuClick) => (
       <nav styleName="nav">
         <Link to="/story" onClick={scrollTo} activeClassName="active" styleName="link">Story</Link>
         <Link to="/schedule" onClick={scrollTo} activeClassName="active" styleName="link">Schedule</Link>
-        <Link to="/location" onClick={scrollTo} activeClassName="active" styleName="link">Location</Link>
         <Link to="/academies" onClick={scrollTo} activeClassName="active" styleName="link">Academies</Link>
         <Link to="/foundation" onClick={scrollTo} activeClassName="active" styleName="link">Foundation</Link>
         <Link to="/local" onClick={scrollTo} activeClassName="active" styleName="link">WDS Local</Link>
