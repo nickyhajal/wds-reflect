@@ -24,8 +24,8 @@ class Video extends Component {
     let h = height;
     if (is.mobile()) {
       w = window.screen.width - 40;
-      h = (9 / 16) * w;
     }
+    h = (9 / 16) * w;
     return (
       <iframe
         className="modal-remove"
@@ -42,8 +42,8 @@ class Video extends Component {
     let h = height;
     if (is.mobile()) {
       w = window.screen.width - 40;
-      h = (9 / 16) * w;
     }
+    h = (9 / 16) * w;
     return (
       <div styleName="placeholder-shell" onClick={this.play}>
         <Image src="icon/play.png" width="78" height="79" styleName="play" />
@@ -52,12 +52,12 @@ class Video extends Component {
     );
   }
   render() {
-    let width = widther(this.props);
+    let width = parseInt(widther(this.props));
     let height = '';
     if (is.mobile()) {
       width = window.screen.width - 40;
-      height = (9 / 16) * width;
     }
+    height = (9 / 16) * width;
     return (
       <Block width={width} height={height} styleName="shell">
         {(

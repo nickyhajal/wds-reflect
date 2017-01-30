@@ -139,7 +139,8 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     <Tab title="Special Events" color="green" layout="imageLeft">
       <Image src="photos/tab-events.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>{'\n'}
       WDS is now a week-long gathering bringing together some of the most remarkable people from around the world. This means we have all-new activities and mini-events to create even more incredible memories together.{'\n'}
-      From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted a wonderfully immersive experience. Join your fellow attendees at your choice of extracurricular activities around town—from film screenings and river cruises, to world record attempts and more!{'\n'}
+      From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted a wonderfully immersive experience. {'\n'}
+      Join your fellow attendees at your choice of extracurricular activities around town—from film screenings and river cruises, to world record attempts and more!{'\n'}
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>{'\n'}
