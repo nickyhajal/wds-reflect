@@ -13,11 +13,11 @@
       ref={props.onMapLoad}
       defaultZoom={13}
       onMapLoad={handleMapLoad}
-      defaultCenter={{ lat: 45.519093, lng: -122.680258 }}
+      defaultCenter={{ lat: 45.516791, lng: -122.681333 }}  
       onClick={props.onMapClick}
     >
       <Marker
-        position={{ lat: 45.519093, lng: -122.680258 }}
+        position={{ lat: 45.516791, lng: -122.681333 }}
       />
     </GoogleMap>
   ));
@@ -53,7 +53,7 @@
     </Block>
     <Block anchor="left" width="370px" textAlign="left">
       <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
-        ### 1111 SW Broadway,
+        ### 1037 SW Broadway,
         ### Portland, OR 97205
       </Block>
       <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }}
@@ -164,7 +164,7 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Neighborhoods: & Hawthorne
+        ## Neighborhoods: Hawthorne
         Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
