@@ -70,8 +70,10 @@
   </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Lodging
-    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel), all within walking distance or a quick ride on public transit to WDS events and activities:
-  </Block>
+    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel)*, all within walking distance or a quick ride on public transit to WDS events and activities. 
+
+<p><i>*Please note: The ability to reserve your room at one of our partner hotels will be available soon.</i></p>
+</Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/modera-lobby.png" width="100%" height="302" />
   </Block>
@@ -143,15 +145,15 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-narrow" src="photos/food-carts.jpg">
         ## Food Carts
-        <Button to="/schedule" fitToText>View More</Button>
+        <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>View More</Button>
       </Block>
       <Block type="image-narrow" src="photos/restaurants.jpg">
         ## Restaurants
-        <Button to="/schedule" fitToText>View More</Button>
+        <Button to="http://pdx.eater.com/maps/best-portland-restaurants-38" newWindow={true} fitToText>View More</Button>
       </Block>
       <Block type="image-narrow" src="photos/farmers-market.jpg">
         ## Farmer&apos;s Markets
-        <Button to="/schedule" fitToText>View More</Button>
+        <Button to="http://www.portlandfarmersmarket.org/" newWindow={true} fitToText>View More</Button>
       </Block>
     </Grid>
   </Block>
