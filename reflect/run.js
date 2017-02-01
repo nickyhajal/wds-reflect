@@ -175,7 +175,7 @@ const processContent = () => (
       content[inx].content =
   `${config.import}
   ${pre}
-  const Page = () => (
+  const Page = (props) => (
     <div>
       ${main}
     </div>
@@ -209,7 +209,7 @@ const processGlobalComponents = () => (
       const content =
   `${imports}
   ${pre}
-  const Component = () => (
+  const Component = (props) => (
     <div>
       ${main}
     </div>

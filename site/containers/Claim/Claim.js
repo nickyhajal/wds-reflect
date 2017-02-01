@@ -5,6 +5,7 @@ import { Link } from 'react-router';
 import CSSModules from 'react-css-modules';
 import autoBind from 'react-autobind';
 import _ from 'lodash';
+import $ from 'jquery';
 import api from '../../utils/api';
 import auth from '../../utils/auth';
 import Block from '../../components/Block/Block';
@@ -32,6 +33,7 @@ export class App extends Component {
     this.state = {
       status: 'ready',
       claimCount: 0,
+      wantsTicket: true,
     };
   }
   componentWillMount() {
@@ -39,20 +41,67 @@ export class App extends Component {
       auth.loginWithHash(this.props.routeParams.id);
     }
   }
+  componentDidMount() {
+    const $e = $('.fillScreen');
+    if ($e.length) {
+      $e.css('height', `${$(window).outerHeight() - $e.offset().top}px`);
+    }
+  }
+  componentWillReceiveProps() {
+    this.fillScreen();
+  }
+  componentDidUpdate() {
+    this.fillScreen();
+  }
+  fillScreen() {
+    const body = document.body;
+    const html = document.documentElement;
+    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+    const scroll = Math.max(body.scrollHeight, html.clientHeight);
+    let bonus = 0;
+    if (scroll > html.clientHeight) {
+      bonus = 120;
+    }
+    const $e = $('.fillScreen');
+    if ($e.length) {
+      $e.css('min-height', `${height - $e.offset().top + bonus}px`);
+    }
+  }
+  showGiveTicket() {
+    this.setState({ wantsTicket: false });
+  }
   claimTree() {
     const c = {};
     const tickets = this.tickets;
-    c.title = 'Hmm, problem.';
-    c.subtitle = 'Hm...';
     if (tickets.claimed.length || tickets.unclaimed.length) {
       if (tickets.unclaimed.length) {
 
         // Claiming additional tickets
         if (this.meClaimed()) {
-          c.title = 'Who else should have your tickets?';
+          let h2 = 'Great, let\'s assign your other ticket!';
+          if (tickets.unclaimed.length > 1) {
+            c.title = 'Who else should get these tickets?';
+            h2 = 'Great, let\'s assign your other tickets!';
+          } else {
+            c.title = 'Who else should get this ticket?';
+          }
           c.action = (
             <div styleName="action">
-              <h2>Great, let&apos;s assign your other tickets!</h2>
+              <h2>{h2}</h2>
+              {this.renderTicketSetup()}
+            </div>
+          );
+        } else if (!this.state.wantsTicket) {
+          let h2 = 'Let\'s assign your ticket!';
+          if (tickets.unclaimed.length > 1) {
+            c.title = 'Who should get these tickets?';
+            h2 = 'Let\'s assign your tickets!';
+          } else {
+            c.title = 'Who should get this ticket?';
+          }
+          c.action = (
+            <div styleName="action">
+              <h2>{h2}</h2>
               {this.renderTicketSetup()}
             </div>
           );
@@ -62,26 +111,26 @@ export class App extends Component {
           // If you only have one ticket
           if (tickets.unclaimed.length === 1) {
             c.action = (
-              <div styleName="action">
+              <Block styleName="action" background="spice">
                 <h2>Will you be at WDS?</h2>
                 <Button onClick={this.claimForMe}>Yep! That ticket&apos;s for me!</Button>
                 <Button onClick={this.showGiveTicket}>
                   Nope, I want to give this ticket to someone else.
                 </Button>
-              </div>
+              </Block>
             );
           // If you have more than one ticket
           } else {
             const meClaimMsg = this.state.status === 'ready' ? 'Yep! Claim one for me!' : 'Claiming your ticket...';
             c.action = (
-              <div styleName="action">
+              <Block styleName="action" background="spice">
                 <h2>Will you be joining us there?</h2>
                 <p>Is one of your tickets for you?</p>
                 <Button onClick={this.claimForMe}>{meClaimMsg}</Button>
                 <Button onClick={this.showGiveTicket}>
                   Nope, they&apos;re all for other people.
                 </Button>
-              </div>
+              </Block>
             );
           }
         }
@@ -89,14 +138,14 @@ export class App extends Component {
         if (tickets.claimed.length > 1) {
           c.title = 'Nice work, you\'ve claimed all your tickets!';
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }}>
+            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
               ## Impressive! Now let&apos;s setup your account.
             </Block>
           );
         } else {
           c.title = 'Woohoo, your ticket is claimed!';
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }}>
+            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
               ## Now let&apos;s setup your account!
             </Block>
           );
@@ -125,6 +174,7 @@ export class App extends Component {
         this.tickets.countStr = `${this.tickets.count} tickets`;
       }
     }
+    console.log(this.tickets);
   }
   claimForMe(e) {
     e.preventDefault();
@@ -199,21 +249,23 @@ export class App extends Component {
     const content = this.claimTree();
     const title = content.title !== undefined ? content.title : `Woohoo! You have ${this.tickets.countStr} to WDS 2017!`;
     return (
-      <div styleName="shell">
-        <Section color="white">
-          <Block align="center" textAlign="center">
-            <Image src="logo.png" width="123" height="26" fit="contain" margin="-80px auto 110px" />
-          </Block>
-          <Block>
-            <h1>{title}</h1>
-          </Block>
-        </Section>
-        <Section color="orange">
-          <Block>
-            {content.action}
-          </Block>
-        </Section>
-      </div>
+      <Section color="orange" styleName="shell" className="fillScreen">
+        <Image
+          src="pattern/dot-cover.png"
+          width="1860px"
+          height="90%"
+          css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}
+        />
+        <Block align="center" textAlign="center">
+          <Image src="logo.png" width="123" height="26" fit="contain" margin="-104px auto 80px" />
+        </Block>
+        <Block>
+          <h1>{title}</h1>
+        </Block>
+        <Block>
+          {content.action}
+        </Block>
+      </Section>
     );
   }
   render() {

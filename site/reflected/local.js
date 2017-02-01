@@ -19,7 +19,7 @@ import ResetPass from '../components/ResetPass/ResetPass';
 import is from '../utils/is';
 
   
-  const Page = () => (
+  const Page = (props) => (
     <div>
       <Section
   headerImage="hero/local.jpg"

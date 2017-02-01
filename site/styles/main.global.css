@@ -48,6 +48,17 @@ p {
 	margin-bottom: 16px;
 }
 
+#loading-logo {
+    left:                       0px;
+    margin:                     0px auto;
+    position:                   absolute;
+    right:                      0px;
+    width:                      398px;
+    top:                        178px;
+    background:                 transparent url("https://files.wds.fm/images/wds-loading-optim.gif") repeat scroll 0% 0%;
+    height:                     400px;
+}
+
 .modal-close {
   background: url(https://files.wds.fm/images/button-close.png);
   width: 22.5px;

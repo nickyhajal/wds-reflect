@@ -40,7 +40,7 @@ import is from '../utils/is';
       />
     </GoogleMap>
   ));
-  const Page = () => (
+  const Page = (props) => (
     <div>
       
 <Section

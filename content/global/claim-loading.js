@@ -1,5 +1,9 @@
-<Section color="green" clip="top_lr_2.6" margin="-22px 0 0">
-  <Block margin="50px 0" width="420px">
-    ## Loading!
-  </Block>
+<Section color="green" margin="-60px 0 0" css={{ height: window.innerHeight+'px' }}>
+  <Image
+    src="pattern/dot-cover.png"
+    width="1860px"
+    height="90%"
+    css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}
+  />
+  <div id="loading-logo"></div>
 </Section>
