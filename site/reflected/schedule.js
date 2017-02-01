@@ -40,7 +40,7 @@ import is from '../utils/is';
     ## A Week of WDS: July 11th - 17th, 2017{'\n'}
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups{'\n'}
-    - **Wednesday** Small Group Activities and Attendee-Led Meetups{'\n'}
+    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups{'\n'}
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups{'\n'}
     <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>

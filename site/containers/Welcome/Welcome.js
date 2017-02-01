@@ -388,7 +388,7 @@ const parts = [
   [
     {
       title: 'Let the world you know you\'re going!',
-      button: 'Let\'s Go!',
+      button: 'none',
       className: 'focused',
       content: (
         <div>
@@ -396,6 +396,7 @@ const parts = [
             Twitter share will go here
           </p>
           <h2>Ready to meet your partners in World Domination?</h2>
+          <div style={{ marginBottom: '50px' }} />
           <Button to="/hub">Go to the Attendee Hub</Button>
         </div>
       ),
@@ -456,7 +457,7 @@ class Welcome extends Component {
         count += 1;
       });
     });
-    return ((on / count) * 100) + 10;
+    return ((on / count) * 100) + 12;
   }
   next() {
     const currSection = this.state.section;
@@ -555,7 +556,7 @@ class Welcome extends Component {
               </Form>
             </div>
           ) : ''}
-          {part.form === undefined ? (<Button onClick={this.next}>{button}</Button>) : ''}
+          {part.form === undefined && part.button !== 'none' ? (<Button onClick={this.next}>{button}</Button>) : ''}
           <div className="clear" />
         </div>
       </ReactCSSTransitionGroup>

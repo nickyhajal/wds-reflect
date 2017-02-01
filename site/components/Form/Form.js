@@ -48,7 +48,7 @@ class Form extends Component {
   processValues(vals) {
     const form = {};
     Object.keys(vals).forEach((i) => {
-      if (typeof vals[i] === 'object') {
+      if (vals[i] !== undefined && vals[i] !== null && typeof vals[i] === 'object') {
         Object.keys(vals[i]).forEach((j) => {
           form[`flat__${i}__${j}`] = vals[i][j];
         });

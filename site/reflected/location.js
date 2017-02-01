@@ -32,11 +32,11 @@ import is from '../utils/is';
       ref={props.onMapLoad}
       defaultZoom={13}
       onMapLoad={handleMapLoad}
-      defaultCenter={{ lat: 45.519093, lng: -122.680258 }}
+      defaultCenter={{ lat: 45.516791, lng: -122.681333 }}  
       onClick={props.onMapClick}
     >
       <Marker
-        position={{ lat: 45.519093, lng: -122.680258 }}
+        position={{ lat: 45.516791, lng: -122.681333 }}
       />
     </GoogleMap>
   ));
@@ -74,7 +74,7 @@ import is from '../utils/is';
     </Block>
     <Block anchor="left" width="370px" textAlign="left">
       <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
-        ### 1111 SW Broadway,{'\n'}
+        ### 1037 SW Broadway,{'\n'}
         ### Portland, OR 97205{'\n'}
       </Block>
       <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }}
@@ -91,8 +91,10 @@ import is from '../utils/is';
   </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Lodging{'\n'}
-    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel), all within walking distance or a quick ride on public transit to WDS events and activities:{'\n'}
-  </Block>
+    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel)*, all within walking distance or a quick ride on public transit to WDS events and activities. {'\n'}
+
+<p><i>*Please note: The ability to reserve your room at one of our partner hotels will be available soon.</i></p>
+</Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/modera-lobby.png" width="100%" height="302" />{'\n'}
   </Block>
@@ -164,15 +166,15 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-narrow" src="photos/food-carts.jpg">
         ## Food Carts{'\n'}
-        <Button to="/schedule" fitToText>View More</Button>
+        <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>View More</Button>
       </Block>
       <Block type="image-narrow" src="photos/restaurants.jpg">
         ## Restaurants{'\n'}
-        <Button to="/schedule" fitToText>View More</Button>
+        <Button to="http://pdx.eater.com/maps/best-portland-restaurants-38" newWindow={true} fitToText>View More</Button>
       </Block>
       <Block type="image-narrow" src="photos/farmers-market.jpg">
         ## Farmer&apos;s Markets{'\n'}
-        <Button to="/schedule" fitToText>View More</Button>
+        <Button to="http://www.portlandfarmersmarket.org/" newWindow={true} fitToText>View More</Button>
       </Block>
     </Grid>
   </Block>
@@ -183,7 +185,7 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Neighborhoods: & Hawthorne{'\n'}
+        ## Neighborhoods: Hawthorne{'\n'}
         Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.{'\n'}
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
