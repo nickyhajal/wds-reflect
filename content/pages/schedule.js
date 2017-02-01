@@ -17,7 +17,7 @@
     ## A Week of WDS: July 11th - 17th, 2017
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday** Small Group Activities and Attendee-Led Meetups
+    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
     <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
