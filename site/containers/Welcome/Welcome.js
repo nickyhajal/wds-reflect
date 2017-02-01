@@ -21,6 +21,7 @@ import types from '../../utils/types';
 import Form from '../../components/Form/Form';
 import FormRow from '../../components/FormRow/FormRow';
 import FormWrap from '../../components/FormWrap/FormWrap';
+import Answer from '../../components/Answer/Answer';
 import Input from '../../components/Input/Input';
 import ClaimLoading from '../../reflected/components/ClaimLoading';
 import Address from '../../components/Address/Address';
@@ -218,13 +219,8 @@ const parts = [
           </div>
         </div>
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <label>What are you excited about?</label>
-            <Input type="multi" id="answers[2]" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer type="multi" question_id="2" label="What are you excited about?" />
       ),
     },
     {
@@ -240,13 +236,8 @@ const parts = [
           </p>
         </div>
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <label>What&apos;s your super-power?</label>
-            <Input type="multi" id="answers[3]" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer type="multi" question_id="3" label="What's your super-power?" />
       ),
     },
     {
@@ -262,13 +253,8 @@ const parts = [
           </p>
         </div>
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <label>What's your goal?</label>
-            <Input type="multi" id="answers[4]" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer type="multi" question_id="4" label="What's your goal?" />
       ),
     },
     {
@@ -284,13 +270,8 @@ const parts = [
           </p>
         </div>
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <label>How can we help?</label>
-            <Input type="multi" id="answers[10]" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer type="multi" question_id="10" label="How can we help?" />
       ),
     },
     {
@@ -303,13 +284,8 @@ const parts = [
           </p>
         </div>
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <label>How can you help?</label>
-            <Input type="multi" id="answers[11]" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer type="multi" question_id="11" label="How can you help?" />
       ),
     },
     {
@@ -322,13 +298,8 @@ const parts = [
           </p>
         </div>
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <label>How do you serve?</label>
-            <Input type="multi" id="answers[19]" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer type="multi" question_id="19" label="How do you serve?" />
       ),
     },
   ],
@@ -339,12 +310,8 @@ const parts = [
       content: (
         <div />
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <Input id="answers[15]" placeholder="Your Fave Book" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer question_id="15" label="Your Fave Book" />
       ),
     },
     {
@@ -353,12 +320,8 @@ const parts = [
       content: (
         <div />
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <Input id="answers[16]" placeholder="What's tune pumps you up?" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer question_id="16" label="What's your jam?" />
       ),
     },
     {
@@ -367,12 +330,8 @@ const parts = [
       content: (
         <div />
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <Input id="answers[17]" placeholder="What's your reward?" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer question_id="17" label="What's your reward?" />
       ),
     },
     {
@@ -381,12 +340,8 @@ const parts = [
       content: (
         <div />
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <Input id="answers[18]" placeholder="How do you relax?" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer type="multi" question_id="18" label="How do you relax?" />
       ),
     },
     {
@@ -395,12 +350,8 @@ const parts = [
       content: (
         <div />
       ),
-      form: (
-        <FormWrap>
-          <FormRow autosize="true">
-            <Input id="answers[8]" type="multi" placeholder="What quote inspires you?" />
-          </FormRow>
-        </FormWrap>
+      customForm: (
+        <Answer type="multi" question_id="8" label="What quote inspires you?" />
       ),
     },
   ],
@@ -408,13 +359,13 @@ const parts = [
     {
       title: 'Let the world you know you\'re going!',
       button: 'none',
-      className: 'focused',
+      className: 'focused focused-tablet-center',
       content: (
         <div>
           <Tweet />
           <h2>Ready to meet your partners in World Domination?</h2>
           <div style={{ marginBottom: '20px' }} />
-          <Button to="/hub">Go to the Attendee Hub</Button>
+          <Button to="/hub" styleName="hubButton">Go to the Attendee Hub</Button>
           <div style={{ marginBottom: '60px' }} />
         </div>
       ),
@@ -579,7 +530,7 @@ class Welcome extends Component {
   pick() {
     return _.pick(this.props.auth.me, [
       'user_id', 'first_name', 'last_name', 'user_name', 'email', 'phone', 'address', 'address2', 'city',
-      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'answers', 'calling_code',
+      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'calling_code',
     ]);
   }
   renderPart(format) {
@@ -587,6 +538,7 @@ class Welcome extends Component {
     const button = part.button !== undefined ? part.button : 'Save & Continue';
     const current = (this.form !== undefined && this.form.state.form !== undefined) ? this.form.state.form : {};
     const values = _.defaults(current, this.pick());
+    console.log(values);
     const className = part.className !== undefined ? part.className : '';
     return (
       <ReactCSSTransitionGroup
@@ -623,7 +575,12 @@ class Welcome extends Component {
               </Form>
             </div>
           ) : ''}
-          {part.form === undefined && part.button !== 'none' ? (<Button onClick={this.next}>{button}</Button>) : ''}
+          {part.customForm !== undefined ? (
+            <div styleName="form-shell">
+              {React.cloneElement(part.customForm, { onFinish: this.next })}
+            </div>
+          ) : ''}
+          {part.form === undefined && part.button !== 'none' && part.customForm === undefined ? (<Button onClick={this.next}>{button}</Button>) : ''}
           <div className="clear" />
           {
             (format.indexOf('col1') > -1 && (this.state.section !== 0 || this.state.step !== 0) ? (
@@ -646,6 +603,7 @@ class Welcome extends Component {
       <Section color="blue" styleName="shell" className={className}>
         <Image
           src="pattern/dot-cover.png"
+          styleName="dots"
           width="1860px"
           height="90%"
           css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}

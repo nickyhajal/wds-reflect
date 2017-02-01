@@ -2,8 +2,9 @@ import React, { PropTypes } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Input.css';
 
-const Input = ({ id, type, placeholder, onChange, css, values, pretext, height, postChange }) => {
-  const vals = values !== undefined ? values : {};
+const Input = ({ value, id, type, placeholder, onChange, css, values, pretext, height, postChange }) => {
+  let vals = values !== undefined ? values : {};
+
   let valId = id;
   if (valId.indexOf('[') > -1) {
     valId = `flat__${valId.replace(/\]/g, '').split('[').join('__')}`;
@@ -15,19 +16,20 @@ const Input = ({ id, type, placeholder, onChange, css, values, pretext, height, 
       postChange(e);
     };
   }
-  const value = vals[valId] !== undefined ? vals[valId] : '';
+  let val = vals[valId] !== undefined ? vals[valId] : '';
+  val = value !== undefined ? value : val;
   return (
     <div styleName="box" style={css} styleName={(pretext.length ? 'pretext' : '')}>
       {(pretext.length ? <span>{pretext}</span> : '')}
       {
         (type === 'multi') ?
-        (<textarea name={valId} placeholder={placeholder} value={value} onChange={change} />) :
+        (<textarea name={valId} placeholder={placeholder} value={val} onChange={change} />) :
         (<input
           styleName="inp"
           type={type}
           name={valId}
           placeholder={placeholder}
-          value={value}
+          value={val}
           onChange={change}
         />)
       }

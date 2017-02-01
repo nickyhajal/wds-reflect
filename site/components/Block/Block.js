@@ -260,7 +260,7 @@ Block.propTypes = {
   margin: PropTypes.string,
   background: PropTypes.string,
   anchor: PropTypes.string,
-  mobile: PropTypes.objectOf(PropTypes.string),
+  mobile: PropTypes.objectOf([PropTypes.string, PropTypes.objectOf[PropTypes.string]]),
   color: PropTypes.string,
   clip: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   className: PropTypes.string,

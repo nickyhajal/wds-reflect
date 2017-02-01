@@ -9,11 +9,7 @@ const auth = {
   processAnswers(obj) {
     const me = obj;
     if (me.answers !== undefined) {
-      me.answerList = JSON.parse(me.answers);
-      me.answers = {};
-      me.answerList.forEach((v, i) => {
-        me.answers[v.question_id] = v.answer;
-      });
+      me.answers = JSON.parse(me.answers);
     }
     return me;
   },

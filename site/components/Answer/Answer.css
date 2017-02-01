@@ -1,0 +1,23 @@
+@import "vars.css";
+
+.shell {
+
+position: relative;
+  margin-bottom: 20px;
+  width: 380px;
+  margin-top: -20px;
+
+  button {
+    font-size: 16px;
+    clear: both;
+    margin-right: 13px;
+    margin-top: 28px !important;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .inp {
+    border: 2px solid $white;
+  }
+}
+

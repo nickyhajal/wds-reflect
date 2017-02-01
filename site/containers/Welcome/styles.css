@@ -45,10 +45,24 @@
     padding: 30px;
     padding-left: 0;
     width: 100%;
+    @media(--tablet) {
+      margin-top: 80px;
+    }
   }
 }
 
 
+.hubButton {}
+@media(--tablet) {
+  :global(.focused-tablet-center) {
+    text-align: center;
+
+    .hubButton {
+      width: 280px;
+      margin: 0 auto;
+    }
+  }
+}
 .part-shell {
   position: absolute;
   left: 0;
@@ -57,6 +71,10 @@
   margin: 0 auto;
   color: $white;
   width: 880px;
+
+  @media(--tablet) {
+    width: 100%;
+  }
 
   &:global(.focused) {
     padding: 40px;
@@ -71,6 +89,9 @@
     .content-shell {
       width: 500px;
       float: none;
+      @media(--tablet) {
+        width: 100%;
+      }
     }
   }
 
@@ -78,6 +99,10 @@
     font-family: Vitesse;
     font-size: 28px;
     margin-bottom: 36px;
+
+    @media(--tablet) {
+      margin-bottom: 54px;
+    }
   }
   p {
     line-height: 26px;
@@ -93,6 +118,12 @@
   float: left;
   width: 415px;
   margin-right: 100px;
+
+  @media(--tablet) {
+    float: none;
+    width: 550px;
+    margin: 0 auto;
+  }
 }
 :global(.col1) {
   width: 550px;
@@ -121,6 +152,13 @@
 .form-shell {
   float: left;
   width: 365px;
+
+  @media(--tablet) {
+    float: none;
+    margin: 0 auto;
+    top: 70px;
+    position: relative;
+  }
 
   label {
     color: $white;
@@ -204,4 +242,16 @@
   opacity: 0.8;
   margin-top: -5px;
   margin-bottom: 10px;
+}
+
+.dots {
+  @media (--tablet) {
+    top: 48px !important;
+    left: 0 !important;
+    width: 60% !important;
+    height: 660px !important;
+    background-size: 1540px !important;
+    background-repeat: repeat !important;
+    background-position: -510px -180px !important;
+  }
 }
