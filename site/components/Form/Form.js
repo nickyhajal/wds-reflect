@@ -123,6 +123,9 @@ class Form extends Component {
     form[name] = elm.value;
     this.setState({ form });
   }
+  clear() {
+    this.setState({ form: {} });
+  }
   reset() {
     this.setState({ status: 'ready' });
   }

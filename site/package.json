@@ -82,6 +82,7 @@
     "socket.io-client": "^1.7.2",
     "source-map-support": "^0.4.6",
     "stripe": "^4.12.0",
+    "superagent": "^3.4.1",
     "underscore.string": "^3.3.4",
     "webpack": "^1.13.3"
   },

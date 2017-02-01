@@ -202,7 +202,10 @@ export class App extends Component {
   }
   ticketedSuccess(rsp) {
     this.setState({ status: 'assigned-ticket', claimCount: (this.state.claimCount + 1) });
-    setTimeout(() => this.props.act.updateMe('tickets', rsp.tickets), 50);
+    setTimeout(() => {
+      this.form.clear().reset();
+      this.props.act.updateMe('tickets', rsp.tickets);
+    }, 50);
   }
   ticketedError(rsp) {
     if (rsp.err) {
@@ -211,6 +214,11 @@ export class App extends Component {
     setTimeout(() => {
       this.setState({ error: '' });
     }, 8000);
+  }
+  setForm(form) {
+    if (form !== null) {
+      this.form = form;
+    }
   }
   renderError() {
     if (this.state.error !== undefined && this.state.error.length) {
@@ -233,7 +241,7 @@ export class App extends Component {
       <Block width="500" background="spice" css={{ padding: '50px 50px 35px 50px' }} styleName="assigner">
         <h3>{`Ticket ${on} of ${total}`}</h3>
         {this.renderError()}
-        <Form onSubmit={this.giveTicket} onSuccess={this.ticketedSuccess} onError={this.ticketedError} buttonStart="Give Ticket" buttonProgress={progress}>
+        <Form ref={this.setForm} onSubmit={this.giveTicket} onSuccess={this.ticketedSuccess} onError={this.ticketedError} buttonStart="Give Ticket" buttonProgress={progress}>
           <FormRow>
             <Input id="name" placeholder="Attendee&apos;s Name" />
           </FormRow>
