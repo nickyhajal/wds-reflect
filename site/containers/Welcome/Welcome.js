@@ -32,6 +32,7 @@ const sections = [
   'A Bit About You',
   'The Real You',
   'Rapid Fire Q&A',
+  'Aww yeah!',
 ];
 const parts = [
   [
