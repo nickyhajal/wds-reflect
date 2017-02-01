@@ -6,11 +6,25 @@ import api, { mock } from './api';
 const Actions = bindActionCreators(AuthActions, store.dispatch);
 const auth = {
   mock,
+  processAnswers(obj) {
+    const me = obj;
+    if (me.answers !== undefined) {
+      me.answerList = JSON.parse(me.answers);
+      me.answers = {};
+      me.answerList.forEach((v, i) => {
+        me.answers[v.question_id] = v.answer;
+      });
+    }
+    return me;
+  },
   getMe() {
     return api('get assets', { assets: 'me' })
     .then((raw) => {
       const rsp = raw.data;
       if (rsp.me) {
+        if (rsp.me.answers !== undefined) {
+          rsp.me = this.processAnswers(rsp.me);
+        }
         Actions.updateAuth(rsp.me);
       } else {
         Actions.updateAuth(false);
@@ -35,8 +49,10 @@ const auth = {
     return api('post user/login', params)
     .then((raw) => {
       const rsp = raw.data;
-      console.log(rsp);
       if (rsp.loggedin && rsp.me) {
+        if (rsp.me.answers !== undefined) {
+          rsp.me = this.processAnswers(rsp.me);
+        }
         Actions.updateAuth(rsp.me);
         Actions.setAuthStatus('success');
       } else {

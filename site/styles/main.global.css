@@ -119,7 +119,7 @@ p {
 
 .welcomeHeader-appear.welcomeHeader-appear-active {
   opacity: 1;
-  transition: opacity .5s ease-in 0.2s;
+  transition: opacity .5s ease-in 0.00s;
 }
 
 .welcomeContent-enter {
@@ -128,7 +128,7 @@ p {
 
 .welcomeContent-enter.welcomeContent-enter-active {
   opacity: 1;
-  transition: opacity 500ms ease-in 0.2s;
+  transition: opacity 0.5s ease-in 0.2s;
 }
 
 .welcomeContent-leave {
@@ -137,7 +137,8 @@ p {
 
 .welcomeContent-leave.welcomeContent-leave-active {
   opacity: 0.01;
-  transition: opacity 300ms ease-in;
+  transition: opacity 200ms ease-in, top 900ms;
+  top: 208px;
 }
 .welcomeContent-appear {
   opacity: 0.01;
@@ -145,7 +146,7 @@ p {
 
 .welcomeContent-appear.welcomeContent-appear-active {
   opacity: 1;
-  transition: opacity .5s ease-in 0.2s;
+  transition: opacity .5s ease-in 0.3s;
 }
 
 .image-left {

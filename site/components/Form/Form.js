@@ -20,18 +20,43 @@ class Form extends Component {
     };
   }
   componentDidMount(props) {
-    console.log(">>>>>>>")
-    console.log('willupdate', this.props.values)
     if (this.props.values !== undefined) {
-      this.setState({ form: this.props.values });
+      this.processValues(this.props.values);
     }
   }
   componentWillReceiveProps(props) {
-    console.log(">>>>>>>")
-    console.log('form', props.values)
     if (props.values !== undefined) {
-      this.setState({ form: props.values });
+      this.processValues(props.values);
     }
+  }
+  getValues() {
+    const form = this.state.form;
+    const final = {};
+    Object.keys(form).forEach((i) => {
+      if (i.indexOf('flat__') > -1) {
+        const bits = i.replace('flat__', '').split('__');
+        if (final[bits[0]] === undefined) {
+          final[bits[0]] = {};
+        }
+        final[bits[0]][bits[1]] = form[i];
+      } else {
+        final[i] = form[i];
+      }
+    });
+    return final;
+  }
+  processValues(vals) {
+    const form = {};
+    Object.keys(vals).forEach((i) => {
+      if (typeof vals[i] === 'object') {
+        Object.keys(vals[i]).forEach((j) => {
+          form[`flat__${i}__${j}`] = vals[i][j];
+        });
+      } else {
+        form[i] = vals[i];
+      }
+    });
+    this.setState({ form });
   }
   submit(e) {
     e.preventDefault();

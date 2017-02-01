@@ -12,14 +12,13 @@ export function updateAuth(me) {
 export function updateMe(me, param) {
   return (dispatch, getState) => {
     let setMe = me;
-    if (param !== undefined && param) {
+    if (param !== undefined) {
       setMe = getState().auth.get('me');
       setMe[me] = param;
     }
     dispatch({
       type: C.AUTH_SET_ME,
       me: setMe,
-      param,
     });
   };
 }

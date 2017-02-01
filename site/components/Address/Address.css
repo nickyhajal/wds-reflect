@@ -2,7 +2,14 @@
 
 .row {
   display: block;
-  clear: both;
   margin-bottom: 20px;
   width: 100%;
+
+  label {
+    text-align: left;
+  }
+
+  :global(.Select-value) {
+    text-align: left;
+  }
 }

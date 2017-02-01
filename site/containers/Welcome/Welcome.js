@@ -1,13 +1,12 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { Link } from 'react-router';
-import Dropzone from 'react-dropzone';
+import { Link, browserHistory } from 'react-router';
 import CSSModules from 'react-css-modules';
-import $ from 'jQuery';
+import $ from 'jquery';
+import scrollTo from 'jquery.scrollto';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; // ES6
 import autoBind from 'react-autobind';
-import { browserHistory } from 'react-router';
 import _ from 'lodash';
 import api from '../../utils/api';
 import auth from '../../utils/auth';
@@ -25,12 +24,14 @@ import Input from '../../components/Input/Input';
 import ClaimLoading from '../../reflected/components/ClaimLoading';
 import Address from '../../components/Address/Address';
 import ClaimError from '../../reflected/components/ClaimError';
+import PhotoUpload from '../../components/PhotoUpload/PhotoUpload';
+import TwitterConnect from '../../components/TwitterConnect/TwitterConnect';
 
 const sections = [
   'Let\'s Get Started',
   'A Bit About You',
   'The Real You',
-  'Rapid Fire',
+  'Rapid Fire Q&A',
 ];
 const parts = [
   [
@@ -42,8 +43,8 @@ const parts = [
         <div>
           <p>
             This quick walkthrough will help you get your WDS account
-            setup to so you can begin connecting with your fellow
-            attendees and to help us serve you best!
+            setup so you can begin connecting with your fellow
+            attendees and help us serve you best!
           </p>
           <p>
             Ready?
@@ -57,7 +58,7 @@ const parts = [
       title: 'The Basics',
       content: (
         <div>
-          <div styleName="sublabel">
+          <div>
             <p>Let&apos;s start things off easy!</p>
             <p>
               Please double check that we have your real name
@@ -108,6 +109,7 @@ const parts = [
     },
     {
       title: 'We like to send things!',
+      format: 'col1 col2-form',
       content: (
         <div>
           <div>
@@ -140,6 +142,10 @@ const parts = [
       form: (
         <FormWrap>
           <FormRow autosize="true">
+            <label>Twitter Account</label>
+            <TwitterConnect />
+          </FormRow>
+          <FormRow autosize="true">
             <label>Facebook Username</label>
             <Input id="facebook" placeholder="Your Facebook Username" pretext="fb.com/" />
           </FormRow>
@@ -155,10 +161,228 @@ const parts = [
         </FormWrap>
       ),
     },
+    {
+      title: 'A Smile is Worth a Thousand Words',
+      content: (
+        <div>
+          <div>
+            <p>
+              Help us brighten up the site by adding a picture of yourself
+              to your WDS Profile.
+            </p>
+            <p>
+              Oh, and it&apos;ll also help you connect with your fellow attendees.
+            </p>
+          </div>
+        </div>
+      ),
+      form: (
+        <div>
+          <PhotoUpload />
+        </div>
+      ),
+    },
   ],
   [
+    {
+      title: 'What are you excited about these days?',
+      content: (
+        <div>
+          <div>
+            <p>
+              WDS is all about sharing passions and interests!
+            </p>
+            <p>
+              What&apos;s lighting you up lately?
+            </p>
+          </div>
+        </div>
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <label>What are you excited about?</label>
+            <Input type="multi" id="answers[2]" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s your super-power?',
+      content: (
+        <div>
+          <p>
+            We all have different abilities and strengths that allow us to
+            contribute to our communities and the World in different ways.
+          </p>
+          <p>
+            What&apos;s yours?
+          </p>
+        </div>
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <label>What&apos;s your super-power?</label>
+            <Input type="multi" id="answers[3]" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s your goal for WDS2017?',
+      content: (
+        <div>
+          <p>
+            The first step to getting the most out of
+            WDS is having a clear intention.
+          </p>
+          <p>
+            What&apos;s your goal for our time together?
+          </p>
+        </div>
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <label>What's your goal?</label>
+            <Input type="multi" id="answers[4]" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s something you\'d love help with from the WDS community?',
+      content: (
+        <div>
+          <p>
+            The WDS community is full of incredibly skilled people that frequently
+            support each other in business and life.
+          </p>
+          <p>
+            How can we help you?
+          </p>
+        </div>
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <label>How can we help?</label>
+            <Input type="multi" id="answers[10]" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What is something you can offer to another WDS attendee?',
+      content: (
+        <div>
+          <p>
+            Receving is great, but giving is better! How can you use your
+            strengths to help other members of the WDS community?
+          </p>
+        </div>
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <label>How can you help?</label>
+            <Input type="multi" id="answers[11]" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s your favorite way to contribute to society at large?',
+      content: (
+        <div>
+          <p>
+            One of the 3 key principals of WDS is <i>Service</i>. We love to learn about
+            the ways people contribute and help attendees find new ways to serve.
+          </p>
+        </div>
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <label>How do you serve?</label>
+            <Input type="multi" id="answers[19]" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
   ],
   [
+    {
+      title: 'What book has had the biggest impact on your life?',
+      format: 'col1',
+      content: (
+        <div />
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <Input id="answers[15]" placeholder="Your Fave Book" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s your favorite song to get pumped up?',
+      format: 'col1',
+      content: (
+        <div />
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <Input id="answers[16]" placeholder="What's tune pumps you up?" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s your favorite treat to celebrate a job well-done?',
+      format: 'col1',
+      content: (
+        <div />
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <Input id="answers[16]" placeholder="What's your reward?" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s your favorite beverage to kick-back and relax?',
+      format: 'col1',
+      content: (
+        <div />
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <Input id="answers[18]" placeholder="What's your reward?" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s your favorite quote?',
+      format: 'col1',
+      content: (
+        <div />
+      ),
+      form: (
+        <FormWrap>
+          <FormRow autosize="true">
+            <Input id="answers[8]" type="multi" placeholder="What quote inspires you?" />
+          </FormRow>
+        </FormWrap>
+      ),
+    },
   ],
 ];
 
@@ -169,8 +393,8 @@ class Welcome extends Component {
     autoBind(Object.getPrototypeOf(this));
     this.state = {
       status: 'ready',
-      step: 3,
-      section: 1,
+      step: 0,
+      section: 0,
     };
   }
   componentWillMount() {
@@ -184,17 +408,17 @@ class Welcome extends Component {
       $e.css('height', `${$(window).outerHeight() - $e.offset().top}px`);
     }
   }
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps() {
     this.fillScreen();
   }
-  componentDidUpdate(nextProps) {
+  componentDidUpdate() {
     this.fillScreen();
   }
   fillScreen() {
     const body = document.body;
     const html = document.documentElement;
-    const height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
-    const scroll = Math.max( body.scrollHeight, html.clientHeight);
+    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+    const scroll = Math.max(body.scrollHeight, html.clientHeight);
     let bonus = 0;
     if (scroll > html.clientHeight) {
       bonus = 120;
@@ -218,7 +442,6 @@ class Welcome extends Component {
     return ((on / count) * 100) + 10;
   }
   next() {
-    console.log(">> NEXT");
     const currSection = this.state.section;
     const currPart = this.state.step;
     let useSection = currSection;
@@ -238,6 +461,7 @@ class Welcome extends Component {
       step: usePart,
       section: useSection,
     });
+    $('body').scrollTo(0, 200);
   }
   setForm(form) {
     if (form !== null) {
@@ -246,7 +470,7 @@ class Welcome extends Component {
   }
   save() {
     return new Promise((resolve, reject) => {
-      const post = _.clone(this.form.state.form);
+      const post = _.clone(this.form.getValues());
       post.user_id = this.props.auth.me.user_id;
       api('patch user', post)
       .then((rsp) => {
@@ -276,13 +500,14 @@ class Welcome extends Component {
       </div>
     );
   }
-  renderPart() {
+  renderPart(format) {
     const part = parts[this.state.section][this.state.step];
     const button = part.button !== undefined ? part.button : 'Save & Continue';
     const values = _.pick(this.props.auth.me, [
       'first_name', 'last_name', 'email', 'phone', 'address', 'address2', 'city',
-      'country', 'region', 'zip', 'instagram', 'facebook', 'site'
+      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'answers',
     ]);
+    let className = part.className !== undefined ? part.className : '';
     return (
       <ReactCSSTransitionGroup
         transitionName="welcomeContent"
@@ -291,27 +516,27 @@ class Welcome extends Component {
         transitionEnterTimeout={500}
         transitionLeaveTimeout={300}
       >
-        <div styleName="part-shell" className={part.className} key={`k-${this.state.section}-${this.state.step}`}>
-            <div styleName="content-shell">
-              <h3>{part.title}</h3>
-              {part.content}
-            </div>
+        <div styleName="part-shell" className={`${className} ${format}`} key={`k-${this.state.section}-${this.state.step}`}>
+          <div styleName="content-shell">
+            <h3>{part.title}</h3>
+            {part.content}
+          </div>
           {part.form !== undefined ? (
-              <div styleName="form-shell">
-                <Form
-                  ref={this.setForm}
-                  values={values}
-                  key={`kf-${this.state.section}-${this.state.step}`}
-                  buttonStart={button}
-                  buttonStyle="orange"
-                  onSubmit={this.save}
-                  onSuccess={this.next}
-                  buttonProgress="Saving..."
-                  buttonSuccess="Saved!"
-                >
-                  {part.form}
-                </Form>
-              </div>
+            <div styleName="form-shell">
+              <Form
+                ref={this.setForm}
+                values={values}
+                key={`kf-${this.state.section}-${this.state.step}`}
+                buttonStart={button}
+                buttonStyle="orange"
+                onSubmit={this.save}
+                onSuccess={this.next}
+                buttonProgress="Saving..."
+                buttonSuccess="Saved!"
+              >
+                {part.form}
+              </Form>
+            </div>
           ) : ''}
           {part.form === undefined ? (<Button onClick={this.next}>{button}</Button>) : ''}
           <div className="clear" />
@@ -322,6 +547,7 @@ class Welcome extends Component {
   renderWalkthrough() {
     const section = sections[this.state.sections];
     const part = parts[this.state.section][this.state.step];
+    let format = part.format !== undefined ? part.format : '2col';
     return (
       <Section color="blue" styleName="shell" className="fillScreen">
         <Image
@@ -333,8 +559,8 @@ class Welcome extends Component {
         <Block align="center" textAlign="center">
           <Image src="logo.png" width="123" height="26" fit="contain" margin="-104px auto 80px" />
         </Block>
-        {this.renderHeader()}
-        {this.renderPart()}
+        {this.renderHeader(format)}
+        {this.renderPart(format)}
       </Section>
     );
   }

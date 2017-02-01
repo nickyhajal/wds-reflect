@@ -11,7 +11,6 @@ if (process.env.NODE_ENV === 'test') {
 
 const api = (url, data) => {
   const bits = url.split(' ');
-  console.log(url)
   const req = {
     method: bits[0],
     url: `${urler('api')}/${bits[1]}`,
@@ -22,8 +21,6 @@ const api = (url, data) => {
   } else {
     req.params = data;
   }
-  console.log(data);
-  console.log(req);
   return axios(req);
 };
 

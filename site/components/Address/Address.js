@@ -8,6 +8,7 @@ import styles from './Address.css';
 import Input from '../Input/Input';
 import FormRow from '../FormRow/FormRow';
 import FormWrap from '../FormWrap/FormWrap';
+
 import provinces from '../../utils/provinces';
 
 
@@ -73,7 +74,7 @@ class Address extends React.Component {
     }
     if (label) {
       return (
-        <FormRow>
+        <div>
           <label>{label}</label>
           <Select
             ref={(elm) => { this.countrySelect = elm; }}
@@ -83,12 +84,13 @@ class Address extends React.Component {
             value={this.props.values.region}
             options={regions}
           />
-        </FormRow>
+        </div>
       );
     }
     return '';
   }
   render() {
+    const pushProps = _.omit(this.props, ['className']);
     const countries = this.getCountries();
     return (
       <FormWrap {...this.props}>
@@ -103,21 +105,29 @@ class Address extends React.Component {
           />
         </FormRow>
         <FormRow>
-          <label>Address Line 1</label>
-          <Input id="address" />
+          <FormWrap style={{ float: 'left', width: '48%', marginRight: '4%' }} {...pushProps}>
+            <label>Address Line 1</label>
+            <Input id="address" />
+          </FormWrap>
+          <FormWrap style={{ float: 'left', width: '48%' }} {...pushProps}>
+            <label>Address Line 2</label>
+            <Input id="address2" />
+          </FormWrap>
         </FormRow>
         <FormRow>
-          <label>Address Line 2</label>
-          <Input id="address2" />
+          <FormWrap style={{ float: 'left', width: '48%', marginRight: '4%' }} {...pushProps}>
+            <label>City</label>
+            <Input id="city" />
+          </FormWrap>
+          <FormWrap style={{ float: 'left', width: '48%' }} {...pushProps}>
+            {this.renderRegionRow()}
+          </FormWrap>
         </FormRow>
         <FormRow>
-          <label>City</label>
-          <Input id="city" />
-        </FormRow>
-        {this.renderRegionRow()}
-        <FormRow>
+          <FormWrap style={{ width: '48%' }} {...pushProps}>
           <label>Postal Code</label>
           <Input id="zip" />
+          </FormWrap>
         </FormRow>
       </FormWrap>
     );

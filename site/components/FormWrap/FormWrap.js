@@ -6,7 +6,8 @@ import Input from '../Input/Input';
 import FormRow from '../FormRow/FormRow';
 
 
-const FormWrap = ({ onChange, children, values }) => {
+const FormWrap = (props) => {
+  const { onChange, children, values } = props;
   const newChildren = [];
   const childArray = Array.isArray(children) ? children : [children];
   let c = 0;
@@ -17,18 +18,18 @@ const FormWrap = ({ onChange, children, values }) => {
         elm.type === 'input' ||
         elm.type === 'select'
       ) {
-      const props = _.clone(elm.props);
-      props.onChange = onChange;
-      props.values = _.clone(values);
-      props.key = `formrowcontent-${c}`;
-      newChildren.push(React.createElement(elm.type, props));
+      const fProps = _.clone(elm.props);
+      fProps.onChange = onChange;
+      fProps.values = _.clone(values);
+      fProps.key = `formrowcontent-${c}`;
+      newChildren.push(React.createElement(elm.type, fProps));
       c += 1;
     } else {
       newChildren.push(elm);
     }
   });
   return (
-    <div styleName="row">
+    <div styleName="row" {...props}>
       { newChildren }
       <div className="clear" />
     </div>

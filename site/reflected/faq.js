@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import Link from '../components/Link/Link';
 import Section from '../components/Section/Section';
 import Image from '../components/Image/Image';
 import Block from '../components/Block/Block';

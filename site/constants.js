@@ -22,8 +22,8 @@ const constants = createConstants(
   'SEARCH_SET_QUERY',
 );
 
-// constants.apiUrl = 'api.worlddominationsummit.com/v1';
-// constants.apiUrl = 'api.worlddominationsummit.com/api';
-constants.apiUrl = 'wds.nky/api';
+constants.url = 'wds.nky';
+// constants.url = 'api.worlddominationsummit.com';
+constants.apiUrl = `${constants.url}/api`;
 
 module.exports = constants;

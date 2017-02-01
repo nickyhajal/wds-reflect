@@ -19,7 +19,7 @@
     margin-left: 70px;
     display: block;
     width: -moz-available;
-    width: -webkit-fill-available; 
+    width: -webkit-fill; 
   }
 }
 
@@ -27,13 +27,13 @@
   float: left;
   width: 100%;
 
-  input {
-    background: transparent;
-    border: 2px solid $white;
-    padding: 14px 28px;
-    font-family: Karla;
-    width: 100%;
-  }
+}
+.inp {
+  background: transparent;
+  border: 2px solid $white;
+  padding: 14px 28px;
+  font-family: Karla;
+  width: 100%;
 }
 
 :global(.section-orange) input {
