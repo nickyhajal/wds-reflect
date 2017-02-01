@@ -203,13 +203,13 @@ const config = {
 
 // Optimize the bundle in release (production) mode
 if (!isDebug) {
-  config.plugins.push(new webpack.optimize.DedupePlugin());
-  config.plugins.push(new webpack.optimize.UglifyJsPlugin({
-    compress: {
-      warnings: isVerbose,
-    },
-  }));
-  config.plugins.push(new webpack.optimize.AggressiveMergingPlugin());
+  // config.plugins.push(new webpack.optimize.DedupePlugin());
+  // config.plugins.push(new webpack.optimize.UglifyJsPlugin({
+  //   compress: {
+  //     warnings: isVerbose,
+  //   },
+  // }));
+  // config.plugins.push(new webpack.optimize.AggressiveMergingPlugin());
 }
 
 // Hot Module Replacement (HMR) + React Hot Reload
