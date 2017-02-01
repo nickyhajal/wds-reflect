@@ -1,4 +1,5 @@
 import C from '~/constants';
+import _ from 'lodash';
 
 export function updateAuth(me) {
   return (dispatch) => {
@@ -19,6 +20,16 @@ export function updateMe(me, param) {
     dispatch({
       type: C.AUTH_SET_ME,
       me: setMe,
+    });
+  };
+}
+
+export function mergeMe(me) {
+  return (dispatch, getState) => {
+    const existing = getState().auth.get('me');
+    dispatch({
+      type: C.AUTH_SET_ME,
+      me: _.defaults(me, existing),
     });
   };
 }

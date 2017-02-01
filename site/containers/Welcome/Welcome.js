@@ -14,6 +14,7 @@ import Block from '../../components/Block/Block';
 import Button from '../../components/Button/Button';
 import Image from '../../components/Image/Image';
 import Section from '../../components/Section/Section';
+import Tweet from '../../components/Tweet/Tweet';
 import actions from '../../actions';
 import styles from './styles.css';
 import types from '../../utils/types';
@@ -25,6 +26,8 @@ import ClaimLoading from '../../reflected/components/ClaimLoading';
 import Address from '../../components/Address/Address';
 import ClaimError from '../../reflected/components/ClaimError';
 import PhotoUpload from '../../components/PhotoUpload/PhotoUpload';
+import Phone from '../../components/Phone/Phone';
+import Username from '../../components/Username/Username';
 import TwitterConnect from '../../components/TwitterConnect/TwitterConnect';
 
 const sections = [
@@ -101,10 +104,7 @@ const parts = [
       ),
       form: (
         <FormWrap>
-          <FormRow autosize="true">
-            <label>Your Phone Number</label>
-            <Input id="phone" placeholder="Your Phone Number" required="You didn't enter your phone number!" />
-          </FormRow>
+          <Phone />
         </FormWrap>
       ),
     },
@@ -181,6 +181,25 @@ const parts = [
         <div>
           <PhotoUpload />
         </div>
+      ),
+    },
+    {
+      title: 'Even an Explorer Needs a Home(page)',
+      content: (
+        <div>
+          <div>
+            <p>
+              Once we&apos;re done here, you&apos;ll have
+              your very own WDS Profile. What should it be?
+            </p>
+          </div>
+        </div>
+      ),
+      form: (
+        <FormWrap>
+          <label>Your Profile URL</label>
+          <Username />
+        </FormWrap>
       ),
     },
   ],
@@ -351,7 +370,7 @@ const parts = [
       form: (
         <FormWrap>
           <FormRow autosize="true">
-            <Input id="answers[16]" placeholder="What's your reward?" />
+            <Input id="answers[17]" placeholder="What's your reward?" />
           </FormRow>
         </FormWrap>
       ),
@@ -365,7 +384,7 @@ const parts = [
       form: (
         <FormWrap>
           <FormRow autosize="true">
-            <Input id="answers[18]" placeholder="What's your reward?" />
+            <Input id="answers[18]" placeholder="How do you relax?" />
           </FormRow>
         </FormWrap>
       ),
@@ -392,12 +411,11 @@ const parts = [
       className: 'focused',
       content: (
         <div>
-          <p>
-            Twitter share will go here
-          </p>
+          <Tweet />
           <h2>Ready to meet your partners in World Domination?</h2>
-          <div style={{ marginBottom: '50px' }} />
+          <div style={{ marginBottom: '20px' }} />
           <Button to="/hub">Go to the Attendee Hub</Button>
+          <div style={{ marginBottom: '60px' }} />
         </div>
       ),
     },
@@ -411,13 +429,17 @@ class Welcome extends Component {
     autoBind(Object.getPrototypeOf(this));
     this.state = {
       status: 'ready',
-      step: 0,
-      section: 0,
     };
+    this.started = false;
   }
   componentWillMount() {
     if (!this.props.auth.me && this.props.routeParams.id !== undefined) {
-      auth.loginWithHash(this.props.routeParams.id);
+      auth.loginWithHash(this.props.routeParams.id)
+      .then(() => {
+        this.start();
+      });
+    } else {
+      this.start();
     }
   }
   componentDidMount() {
@@ -431,6 +453,18 @@ class Welcome extends Component {
   }
   componentDidUpdate() {
     this.fillScreen();
+  }
+  start() {
+    if (!this.started) {
+     if (this.props.auth.me.intro !== undefined && this.props.auth.me.intro.indexOf(',') > -1) {
+        const bits = this.props.auth.me.intro.split(',');
+        this.started = true;
+        this.setState({ section: +bits[0], step: +bits[1] });
+      } else if (this.props.auth.me.email) {
+        this.started = true;
+        this.setState({ section: 0, step: 0 });
+      }
+    }
   }
   fillScreen() {
     const body = document.body;
@@ -459,6 +493,22 @@ class Welcome extends Component {
     });
     return ((on / count) * 100) + 12;
   }
+  back() {
+    const currSection = this.state.section;
+    const currPart = this.state.step;
+    let useSection = currSection;
+    let usePart = currPart - 1;
+
+    if (usePart < 0) {
+      useSection -= 1;
+      usePart = parts[useSection].length - 1;
+    }
+    this.setState({
+      step: usePart,
+      section: useSection,
+    });
+    $('body').scrollTo(0, 200);
+  }
   next() {
     const currSection = this.state.section;
     const currPart = this.state.step;
@@ -480,6 +530,8 @@ class Welcome extends Component {
       section: useSection,
     });
     $('body').scrollTo(0, 200);
+    const step = `${useSection},${usePart}`;
+    api('patch user', { intro: step, user_id: this.props.auth.me.user_id });
   }
   setForm(form) {
     if (form !== null) {
@@ -487,9 +539,9 @@ class Welcome extends Component {
     }
   }
   save() {
+    let post = this.form.getValues();
+    post.user_id = this.props.auth.me.user_id;
     return new Promise((resolve, reject) => {
-      const post = _.clone(this.form.getValues());
-      post.user_id = this.props.auth.me.user_id;
       api('patch user', post)
       .then((rsp) => {
         resolve(rsp);
@@ -518,14 +570,18 @@ class Welcome extends Component {
       </div>
     );
   }
+  pick() {
+    return _.pick(this.props.auth.me, [
+      'user_id', 'first_name', 'last_name', 'user_name', 'email', 'phone', 'address', 'address2', 'city',
+      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'answers', 'calling_code',
+    ]);
+  }
   renderPart(format) {
     const part = parts[this.state.section][this.state.step];
     const button = part.button !== undefined ? part.button : 'Save & Continue';
-    const values = _.pick(this.props.auth.me, [
-      'first_name', 'last_name', 'email', 'phone', 'address', 'address2', 'city',
-      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'answers',
-    ]);
-    let className = part.className !== undefined ? part.className : '';
+    const current = (this.form !== undefined && this.form.state.form !== undefined) ? this.form.state.form : {};
+    const values = _.defaults(current, this.pick());
+    const className = part.className !== undefined ? part.className : '';
     return (
       <ReactCSSTransitionGroup
         transitionName="welcomeContent"
@@ -538,6 +594,11 @@ class Welcome extends Component {
           <div styleName="content-shell">
             <h3>{part.title}</h3>
             {part.content}
+            {
+              (format.indexOf('col1') < 0 && (this.state.section !== 0 || this.state.step !== 0) ? (
+                <Link styleName="back" onClick={this.back} >◂ Back</Link>
+              ) : '')
+            }
           </div>
           {part.form !== undefined ? (
             <div styleName="form-shell">
@@ -558,6 +619,11 @@ class Welcome extends Component {
           ) : ''}
           {part.form === undefined && part.button !== 'none' ? (<Button onClick={this.next}>{button}</Button>) : ''}
           <div className="clear" />
+          {
+            (format.indexOf('col1') > -1 && (this.state.section !== 0 || this.state.step !== 0) ? (
+              <Link styleName="back" onClick={this.back} >◂ Back</Link>
+            ) : '')
+          }
         </div>
       </ReactCSSTransitionGroup>
     );
@@ -566,8 +632,12 @@ class Welcome extends Component {
     const section = sections[this.state.sections];
     const part = parts[this.state.section][this.state.step];
     let format = part.format !== undefined ? part.format : '2col';
+    let className = 'fillScreen not-started';
+    if (this.started) {
+      className = 'fillScreen started';
+    }
     return (
-      <Section color="blue" styleName="shell" className="fillScreen">
+      <Section color="blue" styleName="shell" className={className}>
         <Image
           src="pattern/dot-cover.png"
           width="1860px"
@@ -586,7 +656,11 @@ class Welcome extends Component {
     if (!this.props.auth.me && !this.props.auth.error) {
       return <ClaimLoading />;
     } else if (this.props.auth.me) {
-      return this.renderWalkthrough();
+      if (this.started) {
+        return this.renderWalkthrough();
+      } else {
+        return <ClaimLoading />;
+      }
     }
     return <ClaimError />;
   }

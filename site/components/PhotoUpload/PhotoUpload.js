@@ -32,7 +32,7 @@ class PhotoUpload extends React.Component {
         const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
       },
     };
-    axios.post(`http://${C.url}/upload-avatar`, data, config)
+    axios.post(`https://${C.url}/upload-avatar`, data, config)
     .then((res) => {
       const me = this.props.auth.me;
       this.props.act.updateMe('pic', `https://avatar.wds.fm/${me.user_id}?${_.random(0, 100)}`);
@@ -51,7 +51,7 @@ class PhotoUpload extends React.Component {
   render() {
     let pic = false;
     if (this.props.auth.me.pic !== undefined && this.props.auth.me.pic.length) {
-      pic = `http://avatar.wds.fm/${this.props.auth.me.user_id}?width=250&${_.random(0, 100)}`;
+      pic = `https://avatar.wds.fm/${this.props.auth.me.user_id}?width=250&${_.random(0, 100)}`;
     }
     return (
       <div>

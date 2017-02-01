@@ -3,6 +3,8 @@ import _ from 'lodash';
 import CSSModules from 'react-css-modules';
 import styles from './FormWrap.css';
 import Input from '../Input/Input';
+import Username from '../Username/Username';
+import Phone from '../Phone/Phone';
 import FormRow from '../FormRow/FormRow';
 
 
@@ -14,6 +16,8 @@ const FormWrap = (props) => {
   childArray.forEach((elm) => {
     if (
         elm.type === Input ||
+        elm.type === Username ||
+        elm.type === Phone ||
         elm.type === FormRow ||
         elm.type === 'input' ||
         elm.type === 'select'
@@ -38,6 +42,7 @@ const FormWrap = (props) => {
 
 FormWrap.defaultProps = {
 };
+FormWrap.displayName = 'FormWrap';
 
 FormWrap.propTypes = {
   onChange: PropTypes.func,

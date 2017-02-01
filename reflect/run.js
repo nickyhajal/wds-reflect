@@ -215,6 +215,7 @@ const processGlobalComponents = () => (
     </div>
   );
 
+  Component.displayName = '${file}';
   export default Component;
 `;
     globalComponents.push({file, content});

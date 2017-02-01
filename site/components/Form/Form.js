@@ -8,6 +8,7 @@ import Input from '../Input/Input';
 import Address from '../Address/Address';
 import FormRow from '../FormRow/FormRow';
 import FormWrap from '../FormWrap/FormWrap';
+import Username from '../Username/Username';
 import Button from '../Button/Button';
 
 class Form extends Component {
@@ -32,15 +33,17 @@ class Form extends Component {
   getValues() {
     const form = this.state.form;
     const final = {};
-    Object.keys(form).forEach((i) => {
+    Object.keys(_.clone(form)).forEach((i) => {
       if (i.indexOf('flat__') > -1) {
         const bits = i.replace('flat__', '').split('__');
         if (final[bits[0]] === undefined) {
           final[bits[0]] = {};
         }
-        final[bits[0]][bits[1]] = form[i];
+        final[bits[0]][`q-${bits[1]}`] = form[i];
       } else {
-        final[i] = form[i];
+        if (i !== 'answers') {
+          final[i] = form[i];
+        }
       }
     });
     return final;
@@ -117,13 +120,7 @@ class Form extends Component {
     const elm = e.target;
     const form = this.state.form;
     const name = elm.name;
-    if (elm.name.indexOf('[') > -1) {
-      const bits = elm.name.replace(']', '').split('[');
-      if (form.custom === undefined) { form.custom = {}; }
-      form.custom[bits[1]] = elm.value;
-    } else {
-      form[name] = elm.value;
-    }
+    form[name] = elm.value;
     this.setState({ form });
   }
   reset() {
@@ -150,6 +147,7 @@ class Form extends Component {
         elm.type === FormRow ||
         elm.type === FormWrap ||
         elm.type === Address ||
+        elm.type === Username ||
         elm.type === 'input' ||
         elm.type === 'select'
       ) {

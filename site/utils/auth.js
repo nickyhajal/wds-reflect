@@ -35,32 +35,41 @@ const auth = {
     });
   },
   loginWithHash(id, autohide = false) {
-    auth.login(id, false, autohide);
+    return (new Promise((resolve, reject) => {
+      auth.login(id, false, autohide)
+      .then(resolve)
+      .catch(reject);
+    }));
   },
   login(id, pw, autohide = true) {
-    Actions.setAuthStatus('loading');
-    const params = {};
-    if (pw !== undefined && pw) {
-      params.email = id;
-      params.pw = pw;
-    } else if (id !== undefined) {
-      params.hash = id;
-    }
-    return api('post user/login', params)
-    .then((raw) => {
-      const rsp = raw.data;
-      if (rsp.loggedin && rsp.me) {
-        if (rsp.me.answers !== undefined) {
-          rsp.me = this.processAnswers(rsp.me);
-        }
-        Actions.updateAuth(rsp.me);
-        Actions.setAuthStatus('success');
-      } else {
-        Actions.setAuthError("Hm, that didn't seem right. Try again?", autohide);
+    return (new Promise((resolve, reject) => {
+      Actions.setAuthStatus('loading');
+      const params = {};
+      if (pw !== undefined && pw) {
+        params.email = id;
+        params.pw = pw;
+      } else if (id !== undefined) {
+        params.hash = id;
       }
-    }).catch(() => {
-      Actions.setAuthError("Hm, that didn't seem right. Try again?", autohide);
-    });
+      return api('post user/login', params)
+      .then((raw) => {
+        const rsp = raw.data;
+        if (rsp.loggedin && rsp.me) {
+          if (rsp.me.answers !== undefined) {
+            rsp.me = this.processAnswers(rsp.me);
+          }
+          Actions.updateAuth(rsp.me);
+          Actions.setAuthStatus('success');
+          resolve();
+        } else {
+          Actions.setAuthError("Hm, that didn't seem right. Try again?", autohide);
+          reject();
+        }
+      }).catch(() => {
+        Actions.setAuthError("Hm, that didn't seem right. Try again?", autohide);
+        reject();
+      });
+    }));
   },
   createUser(userPkg) {
     const pkg = userPkg;

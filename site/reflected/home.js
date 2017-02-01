@@ -119,7 +119,7 @@ import is from '../utils/is';
     <Block type="image" src="photos/foundation.jpg">
       ## WDS Foundation{'\n'}
       
-Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/academies">Learn More</Button>
+Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/foundation">Learn More</Button>
     </Block>
   </div>
   <div className="clear" />

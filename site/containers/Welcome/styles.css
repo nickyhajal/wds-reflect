@@ -22,6 +22,33 @@
   font-family: VitesseBold;
 }
 
+.back {
+  font-family: Karla;
+  font-size: 12pt;
+  padding: 20px;
+  padding-left: 0;
+  color: $white;
+  display: block;
+  text-decoration: none;
+  margin-bottom: -20px;
+  opacity: 0.7;
+  width: 120px;
+  transition: 0.2s all;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+}
+:global(.col1) {
+  .back {
+    margin-top: 20px;
+    padding: 30px;
+    padding-left: 0;
+    width: 100%;
+  }
+}
+
+
 .part-shell {
   position: absolute;
   left: 0;

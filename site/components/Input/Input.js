@@ -2,11 +2,18 @@ import React, { PropTypes } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Input.css';
 
-const Input = ({ id, type, placeholder, onChange, css, values, pretext, height }) => {
+const Input = ({ id, type, placeholder, onChange, css, values, pretext, height, postChange }) => {
   const vals = values !== undefined ? values : {};
   let valId = id;
   if (valId.indexOf('[') > -1) {
     valId = `flat__${valId.replace(/\]/g, '').split('[').join('__')}`;
+  }
+  let change = onChange;
+  if (postChange !== undefined) {
+    change = (e) => {
+      onChange(e);
+      postChange(e);
+    };
   }
   const value = vals[valId] !== undefined ? vals[valId] : '';
   return (
@@ -14,14 +21,14 @@ const Input = ({ id, type, placeholder, onChange, css, values, pretext, height }
       {(pretext.length ? <span>{pretext}</span> : '')}
       {
         (type === 'multi') ?
-        (<textarea name={valId} placeholder={placeholder} value={value} onChange={onChange} />) :
+        (<textarea name={valId} placeholder={placeholder} value={value} onChange={change} />) :
         (<input
           styleName="inp"
           type={type}
           name={valId}
           placeholder={placeholder}
           value={value}
-          onChange={onChange}
+          onChange={change}
         />)
       }
     </div>
@@ -45,6 +52,7 @@ Input.defaultProps = {
   style: {},
 };
 
+Input.displayName = 'Input';
 const Wrapped = CSSModules(Input, styles);
 Wrapped.typeStr = 'Input';
 
