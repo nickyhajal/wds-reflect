@@ -1,0 +1,38 @@
+@import "vars.css";
+
+.shell {
+
+position: relative;
+  margin-bottom: 20px;
+  width: 380px;
+  margin-top: -20px;
+
+  button {
+    padding: 10px 11px;
+    font-size: 16px;
+    clear: both;
+    margin-right: 13px;
+    margin-top: 0 !important;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .count {
+    position: absolute;
+    top: 0;
+    font-family: KarlaItalic;
+    font-size: 18px;
+    right: 0;
+  }
+  .tweet {
+
+  padding: 20px;
+  background: transparent;
+  color: $white;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  height: 100px;
+  width: 380px;
+  }
+}
+
