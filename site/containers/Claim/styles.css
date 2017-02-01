@@ -8,11 +8,26 @@
     color: $white;
     text-align: center;
     font-family: VitesseBold;
+
+    @media(--tablet) {
+      width: 600px;
+
+      @media(--phone) {
+        font-size: 32px;
+        margin-top: 60px;
+        font-family: Vitesse;
+        width: 100%;
+      }
+    }
   }
 }
 .action {
  padding: 50px;
  color: $white;
+
+ @media(--phone) {
+  padding: 24px 16px;
+ }
 
   h2 {
     color: $white;
@@ -30,6 +45,11 @@
     display: inline-block;
     margin-right: 20px;
     background: $dark;
+
+    @media(--phone) {
+      width: 100%;
+      margin-bottom: 10px;
+    }
   }
 }
 .assigner {
@@ -39,11 +59,25 @@
     text-transform: uppercase;
     margin-top: -24px;
     margin-bottom: 20px;
+
+    @media(--phone) {
+      text-align: center;
+    }
   }
   .error {
     color: #FFFFFF;
     background: #1716164d;
     padding: 18px;
     margin: 18px 0px;
+  }
+}
+
+.finishBtn {
+  width: 300px;
+  padding: 20px 10px !important;
+  margin: 60px auto 0;
+
+  @media(--phone) {
+    width: 100%;
   }
 }

@@ -39,6 +39,9 @@ export class App extends Component {
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.location !== this.props.location) {
+      if (nextProps.location.pathname.indexOf('welcome') > -1 && this.props.location.pathname.indexOf('claim') > -1) {
+        $('body').addClass('start-transition transition-orange-to-blue');
+      }
       this.props.act.openMenu(false);
       $('html,body').animate({ scrollTop:0 }, 0);
     }

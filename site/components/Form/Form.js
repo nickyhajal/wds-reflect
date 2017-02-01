@@ -9,6 +9,7 @@ import Address from '../Address/Address';
 import FormRow from '../FormRow/FormRow';
 import FormWrap from '../FormWrap/FormWrap';
 import Username from '../Username/Username';
+import $ from 'jquery';
 import Button from '../Button/Button';
 
 class Form extends Component {
@@ -125,9 +126,15 @@ class Form extends Component {
   }
   clear() {
     this.setState({ form: {} });
+    $('input', $(this.shell)).first().focus();
   }
   reset() {
     this.setState({ status: 'ready' });
+  }
+  setForm(form) {
+    if (form !== null) {
+      this.shell = form;
+    }
   }
   render() {
     let btnText = this.props.buttonStart;
@@ -165,7 +172,7 @@ class Form extends Component {
       }
     });
     return (
-      <form action="" method="post" styleName="form" onSubmit={this.submit}>
+      <form ref={this.setForm} action="" method="post" styleName="form" onSubmit={this.submit}>
         { children }
         <Button styling={this.props.buttonStyle} width="100%">{btnText}</Button>
       </form>

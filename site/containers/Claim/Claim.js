@@ -42,10 +42,7 @@ export class App extends Component {
     }
   }
   componentDidMount() {
-    const $e = $('.fillScreen');
-    if ($e.length) {
-      $e.css('height', `${$(window).outerHeight() - $e.offset().top}px`);
-    }
+    this.fillScreen();
   }
   componentWillReceiveProps() {
     this.fillScreen();
@@ -63,6 +60,7 @@ export class App extends Component {
       bonus = 120;
     }
     const $e = $('.fillScreen');
+    console.log('FILL SCREEN', $e.length)
     if ($e.length) {
       $e.css('min-height', `${height - $e.offset().top + bonus}px`);
     }
@@ -86,7 +84,7 @@ export class App extends Component {
             c.title = 'Who else should get this ticket?';
           }
           c.action = (
-            <div styleName="action">
+            <div styleName="action" style={{ marginTop: '-40px' }}>
               <h2>{h2}</h2>
               {this.renderTicketSetup()}
             </div>
@@ -100,7 +98,7 @@ export class App extends Component {
             c.title = 'Who should get this ticket?';
           }
           c.action = (
-            <div styleName="action">
+            <div styleName="action" style={{ marginTop: '-40px' }}>
               <h2>{h2}</h2>
               {this.renderTicketSetup()}
             </div>
@@ -140,13 +138,15 @@ export class App extends Component {
           c.action = (
             <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
               ## Impressive! Now let&apos;s setup your account.
+              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
             </Block>
           );
         } else {
           c.title = 'Woohoo, your ticket is claimed!';
           c.action = (
             <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-              ## Now let&apos;s setup your account!
+              ## Great job! Now let&apos;s setup your account!
+              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
             </Block>
           );
         }
@@ -174,7 +174,6 @@ export class App extends Component {
         this.tickets.countStr = `${this.tickets.count} tickets`;
       }
     }
-    console.log(this.tickets);
   }
   claimForMe(e) {
     e.preventDefault();
@@ -203,7 +202,10 @@ export class App extends Component {
   ticketedSuccess(rsp) {
     this.setState({ status: 'assigned-ticket', claimCount: (this.state.claimCount + 1) });
     setTimeout(() => {
-      this.form.clear().reset();
+      this.form.clear();
+      setTimeout(() => {
+        this.form.reset();
+      }, 1200);
       this.props.act.updateMe('tickets', rsp.tickets);
     }, 50);
   }
@@ -238,12 +240,21 @@ export class App extends Component {
     const on = ts.claimed.length + 1;
     const total = ts.claimed.length + ts.unclaimed.length;
     return (
-      <Block width="500" background="spice" css={{ padding: '50px 50px 35px 50px' }} styleName="assigner">
+      <Block
+        width="500"
+        background="spice"
+        css={{ padding: '50px 50px 35px 50px' }}
+        mobile={{ phone: { padding: '42px 24px', marginTop: '20px' } }}
+        styleName="assigner"
+      >
         <h3>{`Ticket ${on} of ${total}`}</h3>
         {this.renderError()}
         <Form ref={this.setForm} onSubmit={this.giveTicket} onSuccess={this.ticketedSuccess} onError={this.ticketedError} buttonStart="Give Ticket" buttonProgress={progress}>
           <FormRow>
-            <Input id="name" placeholder="Attendee&apos;s Name" />
+            <Input id="first_name" placeholder="Attendee&apos;s First Name" />
+          </FormRow>
+          <FormRow>
+            <Input id="last_name" placeholder="Attendee&apos;s Last Name" />
           </FormRow>
           <FormRow>
             <Input id="email" placeholder="Attendee&apos;s E-Mail Address" />
@@ -263,6 +274,7 @@ export class App extends Component {
           width="1860px"
           height="90%"
           css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}
+          mobile={{ phone: { display: 'none' } }}
         />
         <Block align="center" textAlign="center">
           <Image src="logo.png" width="123" height="26" fit="contain" margin="-104px auto 80px" />

@@ -34,6 +34,22 @@ main {
   top: -999999px;
 }
 
+.start-transition {
+  section.fillScreen {
+    transition: 0s background-color;
+  }
+}
+.do-transition {
+  section.fillScreen {
+    transition: 0.5s background-color;
+  }
+}
+.transition-orange-to-blue {
+  section.fillScreen {
+    background-color: $orange !important;
+  }
+}
+
 .contentainer {
   margin: 0 auto;
   max-width: 1000px;

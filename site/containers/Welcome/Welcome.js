@@ -447,8 +447,14 @@ class Welcome extends Component {
     if ($e.length) {
       $e.css('height', `${$(window).outerHeight() - $e.offset().top}px`);
     }
+    setTimeout(() => {
+      $('body').removeClass('start-transition').addClass('do-transition');
+      setTimeout(() => {
+        $('body').removeClass('transition-orange-to-blue');
+      }, 40);
+    }, 100);
   }
-  componentWillReceiveProps() {
+  componentWillReceiveProps(nextProps) {
     this.fillScreen();
   }
   componentDidUpdate() {
@@ -456,7 +462,7 @@ class Welcome extends Component {
   }
   start() {
     if (!this.started) {
-     if (this.props.auth.me.intro !== undefined && this.props.auth.me.intro.indexOf(',') > -1) {
+      if (this.props.auth.me.intro !== undefined && this.props.auth.me.intro.indexOf(',') > -1) {
         const bits = this.props.auth.me.intro.split(',');
         this.started = true;
         this.setState({ section: +bits[0], step: +bits[1] });
