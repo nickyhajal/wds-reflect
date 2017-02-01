@@ -132,6 +132,7 @@
 
   .progress-frame {
     background: url(https://files.wds.fm/images/elm/progress-shell-long.png);
+    background-repeat: no-repeat;
     background-size: contain;
     width: 671px;
     height: 39px;

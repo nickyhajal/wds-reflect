@@ -32,7 +32,7 @@ const sections = [
   'A Bit About You',
   'The Real You',
   'Rapid Fire Q&A',
-  'Aww yeah!',
+  'Aww Yeah, You Did It!',
 ];
 const parts = [
   [
@@ -382,6 +382,22 @@ const parts = [
             <Input id="answers[8]" type="multi" placeholder="What quote inspires you?" />
           </FormRow>
         </FormWrap>
+      ),
+    },
+  ],
+  [
+    {
+      title: 'Let the world you know you\'re going!',
+      button: 'Let\'s Go!',
+      className: 'focused',
+      content: (
+        <div>
+          <p>
+            Twitter share will go here
+          </p>
+          <h2>Ready to meet your partners in World Domination?</h2>
+          <Button to="/hub">Go to the Attendee Hub</Button>
+        </div>
       ),
     },
   ],
