@@ -8,3 +8,12 @@ export function openMenu(visibility) {
     });
   };
 }
+
+export function setLoginRedirect(loginRedirectUrl) {
+  return (dispatch) => {
+    dispatch({
+      type: C.APP_SET_LOGIN_REDIRECT,
+      loginRedirectUrl,
+    });
+  };
+}

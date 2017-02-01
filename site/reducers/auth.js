@@ -1,13 +1,15 @@
 import C from '~/constants';
 import { Map } from 'immutable';
+import _ from 'lodash';
 
 export default function auth(state = Map, action) {
   switch (action.type) {
     case C.AUTH_SET_ME:
       return state.withMutations((ctx) => {
-        ctx.set('me', action.me);
+        ctx.set('me', _.clone(action.me));
         ctx.set('error', false);
         ctx.set('status', 'ready');
+        ctx.set('checked', true);
         return ctx;
       });
 

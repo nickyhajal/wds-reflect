@@ -5,7 +5,7 @@ const Pageloader = () => {
   let page = 'home';
   const uri = window.location.pathname.substr(1);
   if (uri.length) {
-    page = uri;
+    page = uri.replace('-', '__');
     if (pages[page] === undefined) {
       page = 'page404';
     }

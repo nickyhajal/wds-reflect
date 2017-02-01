@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import CSSModules from 'react-css-modules';
 import _ from 'lodash';
+import cx from 'classnames';
 import styles from './Section.css';
 import Image from '../Image/Image';
 import widther from '../../utils/widther';
@@ -75,7 +76,7 @@ const Section = (props) => {
     shellCss.paddingLeft = '20px';
   }
   return (
-    <section className={`section-${props.color}`} styleName="shell" style={shellCss}>
+    <section className={cx(props.className, `section-${props.color}`)} styleName="shell" style={shellCss}>
       {renderHeader(p)}
       {(props.bound ?
         (<div className="contentainer" style={contentCss}>

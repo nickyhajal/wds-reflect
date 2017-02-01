@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import CSSModules from 'react-css-modules';
 import autoBind from 'react-autobind';
+import 'react-select/dist/react-select.css';
 import $ from 'jquery';
 import { Link } from 'react-router';
 import Modals from '../../components/Modals/Modals';
@@ -39,7 +40,7 @@ export class App extends Component {
   componentWillReceiveProps(nextProps) {
     if (nextProps.location !== this.props.location) {
       this.props.act.openMenu(false);
-      $('html,body').animate({ scrollTop:0 },0);
+      $('html,body').animate({ scrollTop:0 }, 0);
     }
   }
   menuClick() {
@@ -48,7 +49,7 @@ export class App extends Component {
   ticketClick() {
     this.props.act.openModal('joinUs');
   }
-  render() {
+  renderSiteMode() {
     return (
       <div>
         <Header
@@ -72,6 +73,27 @@ export class App extends Component {
         <Modals />
       </div>
     );
+  }
+  renderFocusMode() {
+    return (
+      <main>
+        { this.props.children }
+      </main>
+    );
+  }
+  renderSocialMode() {
+    return (
+      <main>
+        { this.props.children }
+      </main>
+    );
+  }
+  render() {
+    const path = this.props.location.pathname;
+    if (path.indexOf('/claim') > -1 || path.indexOf('/welcome') > -1) {
+      return this.renderFocusMode();
+    }
+    return this.renderSiteMode();
   }
 }
 

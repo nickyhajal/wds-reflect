@@ -95,6 +95,60 @@ p {
   transition: opacity .5s ease-in 0.2s;
 }
 
+
+.welcomeHeader-enter {
+  opacity: 0.01;
+}
+
+.welcomeHeader-enter.welcomeHeader-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in 0.2s;
+}
+
+.welcomeHeader-leave {
+  opacity: 1;
+}
+
+.welcomeHeader-leave.welcomeHeader-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+.welcomeHeader-appear {
+  opacity: 0.01;
+}
+
+.welcomeHeader-appear.welcomeHeader-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in 0.00s;
+}
+
+.welcomeContent-enter {
+  opacity: 0.01;
+}
+
+.welcomeContent-enter.welcomeContent-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in 0.2s;
+}
+
+.welcomeContent-leave {
+  opacity: 1;
+}
+
+.welcomeContent-leave.welcomeContent-leave-active {
+  opacity: 0.01;
+  transition: opacity 200ms ease-in, top 900ms;
+  top: 208px;
+}
+.welcomeContent-appear {
+  opacity: 0.01;
+}
+
+.welcomeContent-appear.welcomeContent-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in 0.3s;
+}
+
 .image-left {
   margin-right: 50px;
 }

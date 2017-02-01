@@ -24,3 +24,39 @@
     font-family: Vitesse;
   }
 }
+
+.form {
+  :global(.Select-control) {
+    background-color: transparent;
+    border-radius: 0;
+    cursor: default;
+    display: table;
+    border-spacing: 0;
+    border-collapse: separate;
+    height: 36px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 7px;
+
+    :global(.Select-value) {
+      top: 8px !important;
+      left: 20px !important;
+
+      span {
+        color: $white !important;
+      }
+    }
+    :global(.Select-value-label) {
+      color: $white !important;
+    }
+  }
+  :global(.Select-arrow) {
+    border-top-color: $white;
+    &:hover {
+      border-top-color: $white;
+    }
+  }
+}

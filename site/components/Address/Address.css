@@ -1,0 +1,15 @@
+@import "vars.css";
+
+.row {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+
+  label {
+    text-align: left;
+  }
+
+  :global(.Select-value) {
+    text-align: left;
+  }
+}

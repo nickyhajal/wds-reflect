@@ -1,0 +1,24 @@
+@import "vars.css";
+
+.dropzone {
+  width: 100%;
+  text-align: center;
+  padding: 42px 0;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: 0.1s all;
+
+  &:global(.hasPic) {
+    margin-left: 129px;
+    width: 235px;
+    padding: 41px 30px 42px;
+  };
+  &:hover {
+    background: rgba(255,255,255,0.1);
+  };
+}
+
+.photo {
+  float: left;
+  margin-right: 30px;
+}

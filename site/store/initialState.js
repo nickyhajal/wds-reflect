@@ -3,6 +3,7 @@ import { Map } from 'immutable';
 export default {
   app: Map({
     navOpen: false,
+    loginRedirectUrl: false,
   }),
   modals: Map({
     open: false,
@@ -11,6 +12,7 @@ export default {
   }),
   auth: Map({
     me: false,
+    checked: false,
     status: 'ready',
     error: false,
   }),

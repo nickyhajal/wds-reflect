@@ -1,0 +1,8 @@
+@import "vars.css";
+
+.row {
+  display: block;
+  clear: both;
+  margin-bottom: 20px;
+  width: 100%;
+}

@@ -4,6 +4,8 @@ const constants = createConstants(
 
   // APP
   'APP_SET_MENU',
+  'APP_SET_LOGIN_REDIRECT',
+
   // AUTH
   'AUTH_SET_ME',
   'AUTH_SET_ERROR',
@@ -20,7 +22,8 @@ const constants = createConstants(
   'SEARCH_SET_QUERY',
 );
 
-// constants.apiUrl = 'api.worlddominationsummit.com/v1';
-constants.apiUrl = 'ela.nky/v1';
+constants.url = 'wds.nky';
+// constants.url = 'api.worlddominationsummit.com';
+constants.apiUrl = `${constants.url}/api`;
 
 module.exports = constants;

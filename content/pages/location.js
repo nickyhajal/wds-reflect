@@ -1,4 +1,4 @@
-<Pre>
+<Script>
   import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
 
   let mapComponent = false;
@@ -21,7 +21,7 @@
       />
     </GoogleMap>
   ));
-</Pre>
+</Script>
 <Section
   headerImage="hero/location.jpg"
   headerClip="rl_header"
