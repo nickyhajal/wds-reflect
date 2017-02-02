@@ -205,7 +205,7 @@ Form.propTypes = {
     PropTypes.func,
     PropTypes.bool,
   ]),
-  values: PropTypes.objectOf(PropTypes.string),
+  values: PropTypes.objectOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number])),
   onSubmit: PropTypes.func,
   defaults: PropTypes.objectOf(PropTypes.string),
   list: PropTypes.string,

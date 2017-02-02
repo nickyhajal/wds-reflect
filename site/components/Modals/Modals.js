@@ -72,6 +72,7 @@ class Modals extends React.Component {
         visible: true,
       });
     }
+    return '';
   }
 
   render() {

@@ -39,7 +39,7 @@ const Input = ({ value, id, type, placeholder, onChange, css, values, pretext, h
 
 Input.propTypes = {
   id: PropTypes.string,
-  values: PropTypes.objectOf(PropTypes.string),
+  values: PropTypes.objectOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number])),
   placeholder: PropTypes.string,
   height: PropTypes.string,
   pretext: PropTypes.string,

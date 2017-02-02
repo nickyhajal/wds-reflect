@@ -65,11 +65,13 @@ class Grid extends React.Component {
         const $elm = $(elm);
         if ($elm.hasClass('dropped-button')) {
           const btn = $('.button', $elm);
-          btn.css({
-            position: 'relative',
-            bottom: '',
-            left: '',
-          });
+          if (btn.length) {
+            btn.css({
+              position: 'relative',
+              bottom: '',
+              left: '',
+            });
+          }
         }
         maxH = $(elm).height() > maxH ? $(elm).height() : maxH;
       });
@@ -78,12 +80,14 @@ class Grid extends React.Component {
         $elm.css('height', `${maxH}px`);
         if ($elm.hasClass('dropped-button')) {
           const btn = $('.button', $elm);
-          const dims = btn.position();
-          btn.css({
-            position: 'absolute',
-            bottom: '28px',
-            left: `${dims.left}px`,
-          });
+          if (btn.length) {
+            const dims = btn.position();
+            btn.css({
+              position: 'absolute',
+              bottom: '28px',
+              left: `${dims.left}px`,
+            });
+          }
         }
       });
     }

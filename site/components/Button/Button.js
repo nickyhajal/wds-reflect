@@ -79,7 +79,6 @@ class Button extends React.Component {
     if (fitToText !== undefined && fitToText) {
       style.display = 'inline-block';
     }
-    console.log(component || (to ? Link : (href ? 'a' : 'button')))
     return React.createElement(
       component || (to ? Link : (href ? 'a' : 'button')), // eslint-disable-line no-nested-ternary
       {
