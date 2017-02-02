@@ -146,8 +146,8 @@ export class App extends Component {
               we plan this year&apos;s WDS.&nbsp;</p>
               <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.&nbsp;
               If you know someone who should be with us this summer,&nbsp;
-              <a onClick={this.invite}>tell them to join the&nbsp;
-              waiting list</a>—that way they&apos;ll get first notice of when the sale is ready.&nbsp;
+              <Link to="/join-us">tell them to join the&nbsp;
+              waiting list</Link>—that way they&apos;ll get first notice of when the sale is ready.&nbsp;
               (And they&apos;ll have you to thank.)</p>
             </Block>
           );
@@ -162,8 +162,8 @@ export class App extends Component {
               we plan this year&apos;s WDS.&nbsp;</p>
               <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.&nbsp;
               If you know someone who should be with us this summer,&nbsp;
-              <a onClick={this.invite}>tell them to join the&nbsp;
-              waiting list</a>—that way they&apos;ll get first notice of when the sale is ready.&nbsp;
+              <Link to="/join-us">tell them to join the&nbsp;
+              waiting list</Link>—that way they&apos;ll get first notice of when the sale is ready.&nbsp;
               (And they&apos;ll have you to thank.)</p>
             </Block>
           );
