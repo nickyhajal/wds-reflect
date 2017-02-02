@@ -48,7 +48,7 @@ class JoinUs extends React.Component {
         <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
         <Block margin="50px 0" width="100%">## Tickets go on sale again in:</Block>
         <Counter format="calendar" to="ticket-sale" />
-        <Block width="600px" align="center" margin="50px 0 0" css={{ maxWidth: '400px' }}>
+        <Block width="600px" align="center" margin="50px 0 0" css={{ maxWidth: '800px' }}>
           <Form
             styleName="form"
             list="WDS 2017 Waiting List"
@@ -59,7 +59,7 @@ class JoinUs extends React.Component {
             onSuccess={this.onSuccess}
           >
             <FormRow>
-              <FormWrap style={{ float: 'left', width: '48%', marginRight: '3%' }}>
+              <FormWrap style={{ float: 'left', width: '48%', marginRight: '4%' }}>
                 <Input id="full_name" placeholder="Your Full Name" />
               </FormWrap>
               <FormWrap style={{ float: 'left', width: '48%' }}>

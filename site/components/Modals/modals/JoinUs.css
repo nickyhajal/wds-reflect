@@ -16,6 +16,10 @@
   iframe {
     margin-bottom: -4px;
   }
+  :global(.countdown-calendar) {
+    transform: scale(0.7);
+    margin: -50px auto -40px ;
+  }
 }
 
 .form {
