@@ -86,7 +86,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2015+Pictures.jpg">
           ## 2015 Photos {'\n'}
-          2015 had some amazing moments. Check out the photos!{'\n'}
+          2015 had amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums">View Them</Button>
         </Block>
          <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2015+Videos.jpg">
@@ -124,7 +124,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/Photos+2014.jpg">
           ## 2014 Photos {'\n'}
-          2014 had some amazing moments. Check out the photos!{'\n'}
+          2014 had amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157645692660113">View Them</Button>
         </Block>
          <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2014+Videos.jpg">
@@ -162,7 +162,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2013+Pictures.jpg">
           ## 2013 Photos {'\n'}
-          2013 had some amazing moments. Check out the photos!{'\n'}
+          2013 had amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157634510088202">View Them</Button>
         </Block>
          <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2013+Videos.jpg">
@@ -200,7 +200,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2012+Pictures.jpg">
           ## 2012 Photos {'\n'}
-          2012 had some amazing moments. Check out the photos!{'\n'}
+          2012 had amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157630469839810">View Them</Button>
         </Block>
          <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2012+Videos.jpg">
@@ -238,7 +238,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       <Grid>
         <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2011+Pictures.jpg">
           ## 2011 Photos {'\n'}
-          2011 had some amazing moments. Check out the photos!{'\n'}
+          2011 had amazing moments. Check out the photos!{'\n'}
           <Button to="https://www.flickr.com/photos/chrisguillebeau/albums/72157626854701827">View Them</Button>
         </Block>
          <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/2011+Videos.jpg">
