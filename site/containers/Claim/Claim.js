@@ -73,6 +73,7 @@ export class App extends Component {
   claimTree() {
     const c = {};
     const tickets = this.tickets;
+    const total = tickets.claimed.length + tickets.unclaimed.length;
     if (tickets.claimed.length || tickets.unclaimed.length) {
       if (tickets.unclaimed.length) {
 
@@ -110,10 +111,11 @@ export class App extends Component {
         } else {
           // If you only have one ticket
           if (tickets.unclaimed.length === 1) {
+            const meClaimMsg = this.state.status === 'ready' ? 'Yep! That ticket\'s for me!' : 'Claiming your ticket...';
             c.action = (
               <Block styleName="action" background="spice">
                 <h2>Will you be at WDS?</h2>
-                <Button onClick={this.claimForMe}>Yep! That ticket&apos;s for me!</Button>
+                <Button onClick={this.claimForMe}>{meClaimMsg}</Button>
                 <Button onClick={this.showGiveTicket}>
                   Nope, I want to give this ticket to someone else.
                 </Button>
@@ -122,13 +124,14 @@ export class App extends Component {
           // If you have more than one ticket
           } else {
             const meClaimMsg = this.state.status === 'ready' ? 'Yep! Claim one for me!' : 'Claiming your ticket...';
+            const all = total === 2 ? 'both' : 'all';
             c.action = (
               <Block styleName="action" background="spice">
                 <h2>Will you be joining us there?</h2>
                 <p>Is one of your tickets for you?</p>
                 <Button onClick={this.claimForMe}>{meClaimMsg}</Button>
                 <Button onClick={this.showGiveTicket}>
-                  Nope, they&apos;re all for other people.
+                  {`Nope, they're ${all} for other people.`}
                 </Button>
               </Block>
             );
@@ -136,12 +139,12 @@ export class App extends Component {
         }
       } else if (tickets.claimed.length) {
         if (tickets.claimed.length > 1) {
-          c.title = 'Nice work, you\'ve claimed all your tickets!';
+          c.title = 'Nice work, you\'ve claimed your tickets!';
           c.action = (
             <Block styleName="action" css={{ textAlign: 'center' }} className="endClaim" background="spice">
               ## Awesome, you&apos;re all set!{'\n'}{'\n'}
               <p>IMPORTANT: Next week, we&apos;ll send you another email with info on how&nbsp;
-              to set up your profile. It&apos;s quick and easy process that will help you connect&nbsp;
+              to set up your profile. It&apos;s a quick and easy process that will help you connect&nbsp;
               with your fellow attendees and allow us to serve you better as&nbsp;
               we plan this year&apos;s WDS.&nbsp;</p>
               <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.&nbsp;
@@ -156,14 +159,14 @@ export class App extends Component {
           c.action = (
             <Block styleName="action" css={{ textAlign: 'center' }} className="endClaim" background="spice">
               ## Awesome, you&apos;re all set!{'\n'}{'\n'}
-              <p>IMPORTANT: Next week, we&apos;ll send you another email with info on how&nbsp;
-              to set up your profile. It&apos;s quick and easy process that will help you connect&nbsp;
-              with your fellow attendees and allow us to serve you better as&nbsp;
+              <p>IMPORTANT: Next week, we&apos;ll send you another email with info on how
+              to set up your profile. It&apos;s a quick and easy process that will help you connect
+              with your fellow attendees and allow us to serve you better as
               we plan this year&apos;s WDS.&nbsp;</p>
-              <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.&nbsp;
+              <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.
               If you know someone who should be with us this summer,&nbsp;
-              <Link to="/join-us">tell them to join the&nbsp;
-              waiting list</Link>—that way they&apos;ll get first notice of when the sale is ready.&nbsp;
+              <Link to="/join-us">tell them to join the
+              waiting list</Link>—that way they&apos;ll get first notice of when the sale is ready.
               (And they&apos;ll have you to thank.)</p>
             </Block>
           );

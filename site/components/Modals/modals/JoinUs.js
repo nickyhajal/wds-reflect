@@ -9,6 +9,7 @@ import Block from '../../Block/Block';
 import Form from '../../Form/Form';
 import Input from '../../Input/Input';
 import FormRow from '../../FormRow/FormRow';
+import FormWrap from '../../FormWrap/FormWrap';
 import Image from '../../Image/Image';
 import Counter from '../../Counter/Counter';
 
@@ -42,13 +43,14 @@ class JoinUs extends React.Component {
       top = 0;
     }
     return (
-      <Block cols="8" styleName="modal" background="orange" className="modal" css={{ top: `${top}px` }} clip="tr:0,2%;">
+      <Block cols="8" styleName="modal" background="orange" className="modal" css={{ top: `${top}px` }}>
         <button href="#" className="modal-close" onClick={this.props.close}>x</button>
         <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
         <Block margin="50px 0" width="100%">## Tickets go on sale again in:</Block>
         <Counter format="calendar" to="ticket-sale" />
-        <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: '400px' }}>
+        <Block width="600px" align="center" margin="50px 0 0" css={{ maxWidth: '400px' }}>
           <Form
+            styleName="form"
             list="WDS 2017 Waiting List"
             successMessage="Great, we'll let you know when sales start!"
             buttonStart="Get Notified"
@@ -57,10 +59,12 @@ class JoinUs extends React.Component {
             onSuccess={this.onSuccess}
           >
             <FormRow>
-              <Input id="full_name" placeholder="Your Full Name" />
-            </FormRow>
-            <FormRow>
-              <Input id="email" placeholder="Your Email Address" />
+              <FormWrap style={{ float: 'left', width: '48%', marginRight: '3%' }}>
+                <Input id="full_name" placeholder="Your Full Name" />
+              </FormWrap>
+              <FormWrap style={{ float: 'left', width: '48%' }}>
+                <Input id="email" placeholder="Your Email Address" />
+              </FormWrap>
             </FormRow>
           </Form>
         </Block>

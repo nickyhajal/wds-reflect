@@ -39,17 +39,19 @@
   width: 100%;
 }
 
-:global(.section-orange) input {
-  color: $white;
-
-  &::placeholder {
+:global(.section-orange), :global(.block-color-orange) {
+  input {
     color: $white;
-    opacity: 0.8;
+
+    &::placeholder {
+      color: $white;
+      opacity: 0.8;
+    }
+    &:placeholder {
+      opacity: 0.8;
+    }
+    &::-webkit-input-placeholder {
+      opacity: 0.8;
+    };
   }
-  &:placeholder {
-    opacity: 0.8;
-  }
-  &::-webkit-input-placeholder {
-    opacity: 0.8;
-  };
 }

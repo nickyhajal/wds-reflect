@@ -36,6 +36,9 @@
       z-index: 2;
       cursor: pointer;
     }
+    @media (--phone) {
+      width: 100%;
+    }
   }
 };
 .action {

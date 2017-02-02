@@ -24,7 +24,7 @@ export function syncAssets() {
   return (dispatch) => {
     api('get assets', { assets: 'interests' })
     .then((rsp) => {
-      const assets = _.pick(rsp.data.assets, ['interests']);
+      const assets = _.pick(rsp.data, ['interests']);
       dispatch({
         type: C.APP_SET_ASSETS,
         assets,

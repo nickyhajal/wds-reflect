@@ -20,7 +20,6 @@
 
 .form {
   font-size: 19px;
-  color: $forest;
   text-align: left;
   line-height: 50px;
 
@@ -45,18 +44,13 @@
       opacity: 1;
     }
     &:placeholder {
+      color: $white;
       opacity: 1;
     }
     &::-webkit-input-placeholder {
+      color: $white;
       opacity: 1;
     }
-  }
-  .phraseInput {
-    border-bottom: 1px solid #fff;
-    background: $green;
-    font-size: 19px;
-    padding-bottom: 14px;
-    margin: 0 10px;
   }
 }
 
