@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link as ReactLink } from 'react-router';
+import _ from 'lodash';
 
 export default class Link extends React.Component {
   parseTo(to) {
@@ -15,9 +16,10 @@ export default class Link extends React.Component {
     const { to, children, ...rest } = this.props;
     const toLocation = this.parseTo(to);
     const isInternal = this.isInternal(toLocation);
+    console.log(toLocation, isInternal, to);
     if (isInternal) {
       return (<ReactLink to={toLocation.pathname} {...rest}>{children}</ReactLink>);
     }
-    return (<a href={to} target="_blank" {...rest}>{children}</a>);
+    return (<a href={to} target="_blank" {..._.omit(rest, ['href'])}>{children}</a>);
   }
 }
