@@ -12,6 +12,7 @@ import api from '../../utils/api';
 import auth from '../../utils/auth';
 import Block from '../../components/Block/Block';
 import Button from '../../components/Button/Button';
+import is from '../../utils/is';
 import Image from '../../components/Image/Image';
 import Section from '../../components/Section/Section';
 import Tweet from '../../components/Tweet/Tweet';
@@ -341,7 +342,7 @@ const parts = [
         <div />
       ),
       customForm: (
-        <Answer type="multi" question_id="18" label="How do you relax?" />
+        <Answer question_id="18" label="How do you relax?" />
       ),
     },
     {
@@ -394,10 +395,7 @@ class Welcome extends Component {
     }
   }
   componentDidMount() {
-    const $e = $('.fillScreen');
-    if ($e.length) {
-      $e.css('height', `${$(window).outerHeight() - $e.offset().top}px`);
-    }
+    this.fillScreen();
     setTimeout(() => {
       $('body').removeClass('start-transition').addClass('do-transition');
       setTimeout(() => {
@@ -553,7 +551,7 @@ class Welcome extends Component {
             <h3>{part.title}</h3>
             {part.content}
             {
-              (format.indexOf('col1') < 0 && (this.state.section !== 0 || this.state.step !== 0) ? (
+              (!is.mobile() && format.indexOf('col1') < 0 && (this.state.section !== 0 || this.state.step !== 0) ? (
                 <Link styleName="back" onClick={this.back} >◂ Back</Link>
               ) : '')
             }
@@ -583,7 +581,7 @@ class Welcome extends Component {
           {part.form === undefined && part.button !== 'none' && part.customForm === undefined ? (<Button onClick={this.next}>{button}</Button>) : ''}
           <div className="clear" />
           {
-            (format.indexOf('col1') > -1 && (this.state.section !== 0 || this.state.step !== 0) ? (
+            ((format.indexOf('col1') > -1 && (this.state.section !== 0 || this.state.step !== 0) || is.mobile()) ? (
               <Link styleName="back" onClick={this.back} >◂ Back</Link>
             ) : '')
           }

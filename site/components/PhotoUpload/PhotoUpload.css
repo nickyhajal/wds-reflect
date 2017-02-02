@@ -12,6 +12,13 @@
     margin-left: 129px;
     width: 235px;
     padding: 41px 30px 42px;
+
+    @media(--phone) {
+      margin-left: 129px;
+      width: 189px;
+      padding: 38px 30px 35px;
+      font-size: 14px;
+    }
   };
   &:hover {
     background: rgba(255,255,255,0.1);

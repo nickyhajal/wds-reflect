@@ -11,6 +11,11 @@
     font-size: 16px;
     float: left;
     margin-right: 13px;
+    @media(--phone) {
+      width: 100%;
+      float: none;
+      margin-bottom: 10px;
+    }
   }
   button:last-of-type {
     margin-right: 0;

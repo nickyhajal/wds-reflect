@@ -93,7 +93,7 @@ class Address extends React.Component {
     const pushProps = _.omit(this.props, ['className']);
     const countries = this.getCountries();
     return (
-      <FormWrap {...this.props}>
+      <FormWrap {...this.props} styleName="addrRow">
         <FormRow>
           <label>Country</label>
           <Select
