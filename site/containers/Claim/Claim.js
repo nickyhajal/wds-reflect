@@ -34,6 +34,7 @@ export class App extends Component {
       status: 'ready',
       claimCount: 0,
       wantsTicket: true,
+      justClaimedMe: false,
     };
   }
   componentWillMount() {
@@ -79,10 +80,14 @@ export class App extends Component {
 
         // Claiming additional tickets
         if (this.meClaimed()) {
-          let h2 = 'Great, let\'s assign your other ticket!';
+          let justClaimedMe = '';
+          if (this.state.justClaimedMe) {
+            justClaimedMe = 'we connected that ticket to your account! Now, ';
+          }
+          let h2 = `Great, ${justClaimedMe}let's assign your other ticket!`;
           if (tickets.unclaimed.length > 1) {
             c.title = 'Who else should get these tickets?';
-            h2 = 'Great, let\'s assign your other tickets!';
+            h2 = `Great, ${justClaimedMe}let's assign your other tickets!`;
           } else {
             c.title = 'Who else should get this ticket?';
           }
@@ -201,7 +206,7 @@ export class App extends Component {
     this.setState({ status: 'claiming-me' });
     api('post me/claim-ticket', {})
     .then((rsp) => {
-      this.setState({ status: 'claimed-me', claimCount: (this.state.claimCount + 1) });
+      this.setState({ justClaimedMe: true, status: 'claimed-me', claimCount: (this.state.claimCount + 1) });
       this.props.act.updateMe('tickets', rsp.data.tickets);
     });
   }
@@ -221,7 +226,7 @@ export class App extends Component {
     });
   }
   ticketedSuccess(rsp) {
-    this.setState({ status: 'assigned-ticket', claimCount: (this.state.claimCount + 1) });
+    this.setState({ justClaimedMe: false, status: 'assigned-ticket', claimCount: (this.state.claimCount + 1) });
     setTimeout(() => {
       this.form.clear();
       setTimeout(() => {
