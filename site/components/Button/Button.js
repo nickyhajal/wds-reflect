@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules';
 import _ from 'lodash';
 import cx from 'classnames';
 import { bindActionCreators } from 'redux';
-import { Link } from 'react-router';
+import Link from '../Link/Link';
 import autoBind from 'react-autobind';
 import styles from './Button.css';
 import colorize from '../../utils/colorize';
