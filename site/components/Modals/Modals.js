@@ -12,7 +12,7 @@ import actions from '../../actions';
 class Modals extends React.Component {
 
   static propTypes = {
-    modals: PropTypes.objectOf(PropTypes.string),
+    modals: PropTypes.objectOf(PropTypes.object),
     act: PropTypes.objectOf(PropTypes.func),
   };
 

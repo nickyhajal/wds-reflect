@@ -10,6 +10,7 @@ import Modals from '../../components/Modals/Modals';
 import actions from '../../actions';
 import vars from '../../core/vars';
 import preloader from '../../utils/preloader';
+import types from '../../utils/types';
 
 
 const preloads = [];
@@ -36,6 +37,7 @@ export class App extends Component {
         preloader(v);
       });
     }
+    this.props.act.syncAssets();
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.location !== this.props.location) {
@@ -81,6 +83,7 @@ export class App extends Component {
     return (
       <main>
         { this.props.children }
+        <Modals />
       </main>
     );
   }
@@ -88,6 +91,7 @@ export class App extends Component {
     return (
       <main>
         { this.props.children }
+        <Modals />
       </main>
     );
   }
@@ -113,20 +117,9 @@ function mapStateToProps(state) {
 }
 
 App.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.func,
-    PropTypes.string,
-  ]),
-  auth: PropTypes.shape({
-    me: PropTypes.oneOfType([
-      PropTypes.object,
-      PropTypes.bool,
-    ]).isRequired,
-  }).isRequired,
-  app: PropTypes.shape({
-    navOpen: PropTypes.bool,
-  }).isRequired,
+  children: types.children,
+  auth: types.auth,
+  app: types.app,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(App, styles));

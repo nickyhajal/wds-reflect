@@ -5,6 +5,7 @@ const constants = createConstants(
   // APP
   'APP_SET_MENU',
   'APP_SET_LOGIN_REDIRECT',
+  'APP_SET_ASSETS',
 
   // AUTH
   'AUTH_SET_ME',

@@ -11,6 +11,9 @@ const types = {
   actions: PropTypes.objectOf(PropTypes.func),
   app: PropTypes.shape({
     navOpen: PropTypes.bool,
+    assets: PropTypes.shape({
+      interests: PropTypes.arrayOf(PropTypes.string),
+    }),
   }).isRequired,
 };
 export default types;

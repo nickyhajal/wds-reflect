@@ -10,7 +10,7 @@ const FormRow = ({ onChange, children, values }) => {
   const childArray = Array.isArray(children) ? children : [children];
   let c = 0;
   childArray.forEach((elm) => {
-    if (elm.type.displayName === 'Input' || elm.type === 'input' || elm.type === 'select') {
+    if (elm.type !== undefined && ((elm.type.displayName !== undefined && elm.type.displayName === 'Input') || elm.type === 'input' || elm.type === 'select')) {
       const props = _.clone(elm.props);
       props.onChange = onChange;
       props.values = _.clone(values);

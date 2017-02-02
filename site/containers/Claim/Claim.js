@@ -60,13 +60,15 @@ export class App extends Component {
       bonus = 120;
     }
     const $e = $('.fillScreen');
-    console.log('FILL SCREEN', $e.length)
     if ($e.length) {
       $e.css('min-height', `${height - $e.offset().top + bonus}px`);
     }
   }
   showGiveTicket() {
     this.setState({ wantsTicket: false });
+  }
+  invite() {
+    this.props.act.openModal('tellAFriend');
   }
   claimTree() {
     const c = {};
@@ -136,17 +138,33 @@ export class App extends Component {
         if (tickets.claimed.length > 1) {
           c.title = 'Nice work, you\'ve claimed all your tickets!';
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-              ## Impressive! Now let&apos;s setup your account.
-              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+            <Block styleName="action" css={{ textAlign: 'center' }} className="endClaim" background="spice">
+              ## Awesome, you&apos;re all set!{'\n'}{'\n'}
+              <p>IMPORTANT: Next week, we&apos;ll send you another email with info on how&nbsp;
+              to set up your profile. It&apos;s quick and easy process that will help you connect&nbsp;
+              with your fellow attendees and allow us to serve you better as&nbsp;
+              we plan this year&apos;s WDS.&nbsp;</p>
+              <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.&nbsp;
+              If you know someone who should be with us this summer,&nbsp;
+              <a onClick={this.invite}>tell them to join the&nbsp;
+              waiting list</a>—that way they&apos;ll get first notice of when the sale is ready.&nbsp;
+              (And they&apos;ll have you to thank.)</p>
             </Block>
           );
         } else {
           c.title = 'Woohoo, your ticket is claimed!';
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-              ## Great job! Now let&apos;s setup your account!
-              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+            <Block styleName="action" css={{ textAlign: 'center' }} className="endClaim" background="spice">
+              ## Awesome, you&apos;re all set!{'\n'}{'\n'}
+              <p>IMPORTANT: Next week, we&apos;ll send you another email with info on how&nbsp;
+              to set up your profile. It&apos;s quick and easy process that will help you connect&nbsp;
+              with your fellow attendees and allow us to serve you better as&nbsp;
+              we plan this year&apos;s WDS.&nbsp;</p>
+              <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.&nbsp;
+              If you know someone who should be with us this summer,&nbsp;
+              <a onClick={this.invite}>tell them to join the&nbsp;
+              waiting list</a>—that way they&apos;ll get first notice of when the sale is ready.&nbsp;
+              (And they&apos;ll have you to thank.)</p>
             </Block>
           );
         }

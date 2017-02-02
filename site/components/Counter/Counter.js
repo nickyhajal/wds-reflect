@@ -8,7 +8,7 @@ const Counter = ({ format, to }) => {
   const now = moment().format('X');
   let countTo = moment();
   if (to === 'ticket-sale') {
-    countTo = moment('2017-02-08 12:00:00');
+    countTo = moment('2017-02-15 16:00:00');
   } else if (to !== undefined) {
     countTo = moment(to);
   }
