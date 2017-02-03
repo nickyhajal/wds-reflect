@@ -1,6 +1,6 @@
 import C from '~/constants';
-import api from '../utils/api';
 import _ from 'lodash';
+import api from '../utils/api';
 
 export function openMenu(visibility) {
   return (dispatch) => {

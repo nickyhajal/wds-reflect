@@ -17,6 +17,7 @@ export function updateMe(me, param) {
       setMe = getState().auth.get('me');
       setMe[me] = param;
     }
+    console.log(setMe)
     dispatch({
       type: C.AUTH_SET_ME,
       me: setMe,
@@ -67,5 +68,21 @@ export function attemptLogin() {
     dispatch({
       type: C.AUTH_ATTEMPT_LOGIN,
     });
+  };
+}
+
+export function addInterest(interest) {
+  return (dispatch, getState) => {
+    const ints = getState().auth.get('me').interests;
+    ints.push(interest);
+    console.log(ints);
+    updateMe('interests', ints)(dispatch, getState);
+  };
+}
+
+export function removeInterest(interest) {
+  return (dispatch, getState) => {
+    const ints = getState().auth.get('me').interests;
+    updateMe('interests', _.difference(ints, [interest]))(dispatch, getState);
   };
 }

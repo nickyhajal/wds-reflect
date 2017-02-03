@@ -35,7 +35,7 @@ class Block extends Component {
     }
   }
   getContent() {
-    let refreshTime = '12';
+    let refreshTime = '7';
     let id = '';
     if (this.props.feed !== undefined && vars[this.props.feed] !== undefined) {
       const all = vars[this.props.feed][0];

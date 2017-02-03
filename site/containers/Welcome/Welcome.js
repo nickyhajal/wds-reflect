@@ -28,6 +28,7 @@ import ClaimLoading from '../../reflected/components/ClaimLoading';
 import Address from '../../components/Address/Address';
 import ClaimError from '../../reflected/components/ClaimError';
 import PhotoUpload from '../../components/PhotoUpload/PhotoUpload';
+import InterestPicker from '../../components/InterestPicker/InterestPicker';
 import Phone from '../../components/Phone/Phone';
 import Username from '../../components/Username/Username';
 import TwitterConnect from '../../components/TwitterConnect/TwitterConnect';
@@ -303,6 +304,21 @@ const parts = [
         <Answer type="multi" question_id="19" label="How do you serve?" />
       ),
     },
+    {
+      title: 'Which of these are you passionate about?',
+      format: 'col1',
+      content: (
+        <div>
+          <p>
+            We love to know about our attendees interests to help you
+            get to know other attendees you may connect with!
+          </p>
+        </div>
+      ),
+      customForm: (
+        <InterestPicker />
+      ),
+    },
   ],
   [
     {
@@ -536,7 +552,6 @@ class Welcome extends Component {
     const button = part.button !== undefined ? part.button : 'Save & Continue';
     const current = (this.form !== undefined && this.form.state.form !== undefined) ? this.form.state.form : {};
     const values = _.defaults(current, this.pick());
-    console.log(values);
     const className = part.className !== undefined ? part.className : '';
     return (
       <ReactCSSTransitionGroup
