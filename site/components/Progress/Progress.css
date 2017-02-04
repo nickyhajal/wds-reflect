@@ -1,0 +1,91 @@
+@import "vars.css";
+
+:global(.format-long) {
+  &.progress {
+    width: 671px;
+  }
+  .progress-frame {
+    background: url(https://files.wds.fm/images/elm/progress-shell-long.png);
+    width: 671px;
+    height: 39px;
+  }
+  .progress-fill {
+    height: 35px;
+    width: 98%;
+  }
+  .progress-bar {
+    height: 37px;
+    right: 6px;
+    top: 3px;
+    &:before {
+      background: url(https://files.wds.fm/images/elm/progress-cap.png) transparent;
+      height: 32px;
+      left: -6px;
+      width: 7px;
+    }
+  }
+}
+:global(.format-short) {
+  &.progress {
+    width: 428px;
+  }
+  .progress-frame {
+    background: url(https://files.wds.fm/images/elm/progress-shell-short.png);
+    width: 428px;
+    height: 67px;
+  }
+  .progress-fill {
+    height: 63px;
+    width: 400px;
+  }
+  .progress-bar {
+    height: 64px;
+right: 22px;
+    top: 1px;
+    &:before {
+      background: url(https://files.wds.fm/images/elm/progress-cap-short.png);
+      height: 62px;
+      width: 5px;
+      left: -5px;
+    }
+  }
+}
+
+.progress {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+
+
+  @media (--phone) {
+    display: none;
+  }
+
+  .progress-frame {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 4;
+  }
+  .progress-fill {
+    background: $green;
+    top: 0;
+    z-index: 1;
+    position: absolute;
+    left: 4px;
+  }
+  .progress-bar {
+    background: $white;
+    position: absolute;
+    top: 1px;
+    z-index: 2;
+    transition: 0.7s all;
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: 3;
+      display: block;
+      top: 2px;
+    };
+  }
+}

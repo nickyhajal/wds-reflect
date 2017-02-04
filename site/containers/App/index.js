@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import CSSModules from 'react-css-modules';
@@ -11,13 +11,10 @@ import actions from '../../actions';
 import vars from '../../core/vars';
 import preloader from '../../utils/preloader';
 import types from '../../utils/types';
-
-
-const preloads = [];
-// import Auth from '~/containers/Auth';
-// import Dashboard from '~/containers/Dashboard';
 import Header from './Header';
 import styles from './styles.css';
+// import Auth from '~/containers/Auth';
+// import Dashboard from '~/containers/Dashboard';
 
 export class App extends Component {
 
@@ -38,6 +35,7 @@ export class App extends Component {
       });
     }
     this.props.act.syncAssets();
+    this.props.act.startListeningToSettings();
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.location !== this.props.location) {
@@ -45,7 +43,7 @@ export class App extends Component {
         $('body').addClass('start-transition transition-orange-to-blue');
       }
       this.props.act.openMenu(false);
-      $('html,body').animate({ scrollTop:0 }, 0);
+      $('html,body').animate({ scrollTop: 0 }, 0);
     }
   }
   menuClick() {
@@ -118,8 +116,9 @@ function mapStateToProps(state) {
 
 App.propTypes = {
   children: types.children,
-  auth: types.auth,
   app: types.app,
+  location: types.location,
+  act: types.actions,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(App, styles));

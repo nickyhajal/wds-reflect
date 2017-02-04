@@ -57,8 +57,7 @@
 :global(.col1) {
   .back {
     margin-top: 20px;
-    padding: 30px;
-    padding-left: 0;
+    padding: 30px 0;
     width: 100%;
     @media(--tablet) {
       margin-top: 80px;
@@ -234,57 +233,6 @@
     padding: 10px;
     width: 100%;
     height: 120px;
-  }
-}
-
-.progress {
-  position: relative;
-  width: 671px;
-  margin: 0 auto;
-  overflow: hidden;
-
-  @media (--phone) {
-    display: none;
-  }
-
-  .progress-frame {
-    background: url(https://files.wds.fm/images/elm/progress-shell-long.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 671px;
-    height: 39px;
-    position: relative;
-    z-index: 4;
-  }
-  .progress-fill {
-    background: $green;
-    z-index: 1;
-    height: 35px;
-    width: 98%;
-    top: 3px;
-    position: absolute;
-    left: 4px;
-  }
-  .progress-bar {
-    background: $white;
-    position: absolute;
-    right: 6px;
-    top: 1px;
-    z-index: 2;
-    height: 37px;
-    width: 3px;
-    transition: 0.7s all;
-    &:before {
-      background: url(https://files.wds.fm/images/elm/progress-cap.png);
-      height: 32px;
-      width: 7px;
-      content: "";
-      position: absolute;
-      z-index: 3;
-      left: -6px;
-      display: block;
-      top: 2px;
-    };
   }
 }
 

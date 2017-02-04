@@ -6,6 +6,7 @@ const constants = createConstants(
   'APP_SET_MENU',
   'APP_SET_LOGIN_REDIRECT',
   'APP_SET_ASSETS',
+  'APP_SET_SETTINGS',
 
   // AUTH
   'AUTH_SET_ME',
@@ -21,10 +22,13 @@ const constants = createConstants(
 
   // SEARCH
   'SEARCH_SET_QUERY',
+
 );
 
-// constants.url = 'wds.nky';
-constants.url = 'api.worlddominationsummit.com';
+constants.fire_key = 'AIzaSyD77ljc6Wdoc3AKg_a1FnE58QDyCWhSgSA';
+constants.fire_url = 'worlddominationsummit';
+constants.url = 'wds.nky';
+// constants.url = 'api.worlddominationsummit.com';
 constants.apiUrl = `${constants.url}/api`;
 
 module.exports = constants;

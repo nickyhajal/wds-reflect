@@ -341,7 +341,7 @@
   background: $canvas;
 }
 :global(.section-orange) .block-text {
-  h2 {
+  h2, p {
     color: $white;
   }
 };

@@ -1,5 +1,6 @@
 import C from '~/constants';
 import _ from 'lodash';
+import api from '../utils/api';
 
 export function updateAuth(me) {
   return (dispatch) => {
@@ -75,7 +76,7 @@ export function addInterest(interest) {
   return (dispatch, getState) => {
     const ints = getState().auth.get('me').interests;
     ints.push(interest);
-    console.log(ints);
+    api('post user/interest', { interest_id: interest });
     updateMe('interests', ints)(dispatch, getState);
   };
 }
@@ -83,6 +84,7 @@ export function addInterest(interest) {
 export function removeInterest(interest) {
   return (dispatch, getState) => {
     const ints = getState().auth.get('me').interests;
+    api('delete user/interest', { interest_id: interest });
     updateMe('interests', _.difference(ints, [interest]))(dispatch, getState);
   };
 }

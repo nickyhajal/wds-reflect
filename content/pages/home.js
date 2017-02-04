@@ -1,3 +1,4 @@
+<Import id="buy-box" />
 <Section
   headerVideo="184868405"
   headerImage="hero/balls.jpg"

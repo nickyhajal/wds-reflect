@@ -14,6 +14,7 @@ import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
 import SpeakerList from '../components/SpeakerList/SpeakerList';
 import Testimonials from '../components/Testimonials/Testimonials';
+import TicketCounter from '../../site/components/TicketCounter/TicketCounter';
 import Login from '../components/Login/Login';
 import ResetPass from '../components/ResetPass/ResetPass';
 import is from '../utils/is';

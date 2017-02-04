@@ -9,10 +9,11 @@ const types = {
     ]).isRequired,
   }).isRequired,
   actions: PropTypes.objectOf(PropTypes.func),
+  location: PropTypes.objectOf(PropTypes.string),
   app: PropTypes.shape({
     navOpen: PropTypes.bool,
     assets: PropTypes.shape({
-      interests: PropTypes.arrayOf(PropTypes.string),
+      interests: PropTypes.arrayOf(PropTypes.object),
     }),
   }).isRequired,
 };

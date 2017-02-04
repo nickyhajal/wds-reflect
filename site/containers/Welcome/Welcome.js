@@ -32,6 +32,7 @@ import InterestPicker from '../../components/InterestPicker/InterestPicker';
 import Phone from '../../components/Phone/Phone';
 import Username from '../../components/Username/Username';
 import TwitterConnect from '../../components/TwitterConnect/TwitterConnect';
+import Progress from '../../components/Progress/Progress';
 
 const sections = [
   'Let\'s Get Started',
@@ -307,6 +308,9 @@ const parts = [
     {
       title: 'Which of these are you passionate about?',
       format: 'col1',
+      button: 'Continue',
+      postButton: true,
+      buttonStyles: { width: '300px', margin: '50px auto 20px' },
       content: (
         <div>
           <p>
@@ -425,44 +429,10 @@ class Welcome extends Component {
   componentDidUpdate() {
     this.fillScreen();
   }
-  start() {
-    if (!this.started) {
-      if (this.props.auth.me.intro !== undefined && this.props.auth.me.intro.indexOf(',') > -1) {
-        const bits = this.props.auth.me.intro.split(',');
-        this.started = true;
-        this.setState({ section: +bits[0], step: +bits[1] });
-      } else if (this.props.auth.me.email) {
-        this.started = true;
-        this.setState({ section: 0, step: 0 });
-      }
+  setForm(form) {
+    if (form !== null) {
+      this.form = form;
     }
-  }
-  fillScreen() {
-    const body = document.body;
-    const html = document.documentElement;
-    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
-    const scroll = Math.max(body.scrollHeight, html.clientHeight);
-    let bonus = 0;
-    if (scroll > html.clientHeight) {
-      bonus = 120;
-    }
-    const $e = $('.fillScreen');
-    if ($e.length) {
-      $e.css('min-height', `${height - $e.offset().top + bonus}px`);
-    }
-  }
-  completed() {
-    let count = 0;
-    let on = 0;
-    sections.forEach((s, sinx) => {
-      parts[sinx].forEach((p, pinx) => {
-        if (this.state.section === sinx && this.state.step === pinx) {
-          on = count;
-        }
-        count += 1;
-      });
-    });
-    return ((on / count) * 100) + 12;
   }
   back() {
     const currSection = this.state.section;
@@ -479,6 +449,33 @@ class Welcome extends Component {
       section: useSection,
     });
     $('body').scrollTo(0, 200);
+  }
+  completed() {
+    let count = 0;
+    let on = 0;
+    sections.forEach((s, sinx) => {
+      parts[sinx].forEach((p, pinx) => {
+        if (this.state.section === sinx && this.state.step === pinx) {
+          on = count;
+        }
+        count += 1;
+      });
+    });
+    return ((on / count) * 100) + 12;
+  }
+  fillScreen() {
+    const body = document.body;
+    const html = document.documentElement;
+    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+    const scroll = Math.max(body.scrollHeight, html.clientHeight);
+    let bonus = 0;
+    if (scroll > html.clientHeight) {
+      bonus = 120;
+    }
+    const $e = $('.fillScreen');
+    if ($e.length) {
+      $e.css('min-height', `${height - $e.offset().top + bonus}px`);
+    }
   }
   next() {
     const currSection = this.state.section;
@@ -504,9 +501,16 @@ class Welcome extends Component {
     const step = `${useSection},${usePart}`;
     api('patch user', { intro: step, user_id: this.props.auth.me.user_id });
   }
-  setForm(form) {
-    if (form !== null) {
-      this.form = form;
+  start() {
+    if (!this.started) {
+      if (this.props.auth.me.intro !== undefined && this.props.auth.me.intro.indexOf(',') > -1) {
+        const bits = this.props.auth.me.intro.split(',');
+        this.started = true;
+        this.setState({ section: +bits[0], step: +bits[1] });
+      } else if (this.props.auth.me.email) {
+        this.started = true;
+        this.setState({ section: 0, step: 0 });
+      }
     }
   }
   save() {
@@ -520,15 +524,16 @@ class Welcome extends Component {
       .catch(reject);
     });
   }
+  pick() {
+    return _.pick(this.props.auth.me, [
+      'user_id', 'first_name', 'last_name', 'user_name', 'email', 'phone', 'address', 'address2', 'city',
+      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'calling_code',
+    ]);
+  }
   renderHeader() {
-    const w = 671 - ((671 - 13) * (this.completed() / 100));
     return (
       <div>
-        <div styleName="progress">
-          <div styleName="progress-frame" />
-          <div styleName="progress-fill" />
-          <div styleName="progress-bar" style={{ width: `${w}px` }} />
-        </div>
+        <Progress completed={this.completed()} />
         <ReactCSSTransitionGroup
           transitionName="welcomeHeader"
           transitionAppear
@@ -541,15 +546,10 @@ class Welcome extends Component {
       </div>
     );
   }
-  pick() {
-    return _.pick(this.props.auth.me, [
-      'user_id', 'first_name', 'last_name', 'user_name', 'email', 'phone', 'address', 'address2', 'city',
-      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'calling_code',
-    ]);
-  }
   renderPart(format) {
     const part = parts[this.state.section][this.state.step];
     const button = part.button !== undefined ? part.button : 'Save & Continue';
+    const buttonStyles = part.buttonStyles !== undefined ? part.buttonStyles : {};
     const current = (this.form !== undefined && this.form.state.form !== undefined) ? this.form.state.form : {};
     const values = _.defaults(current, this.pick());
     const className = part.className !== undefined ? part.className : '';
@@ -593,7 +593,12 @@ class Welcome extends Component {
               {React.cloneElement(part.customForm, { onFinish: this.next })}
             </div>
           ) : ''}
-          {part.form === undefined && part.button !== 'none' && part.customForm === undefined ? (<Button onClick={this.next}>{button}</Button>) : ''}
+          { part.postButton ||
+            (part.form === undefined &&
+            part.button !== 'none' &&
+            part.customForm === undefined) ?
+              (<Button style={buttonStyles} onClick={this.next}>{button}</Button>) : ''
+          }
           <div className="clear" />
           {
             ((format.indexOf('col1') > -1 && (this.state.section !== 0 || this.state.step !== 0) || is.mobile()) ? (
@@ -605,9 +610,8 @@ class Welcome extends Component {
     );
   }
   renderWalkthrough() {
-    const section = sections[this.state.sections];
     const part = parts[this.state.section][this.state.step];
-    let format = part.format !== undefined ? part.format : '2col';
+    const format = part.format !== undefined ? part.format : '2col';
     let className = 'fillScreen not-started';
     if (this.started) {
       className = 'fillScreen started';
@@ -617,9 +621,9 @@ class Welcome extends Component {
         <Image
           src="pattern/dot-cover.png"
           styleName="dots"
-          width="1860px"
+          width="100%"
           height="90%"
-          css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}
+          css={{ position: 'absolute', top: '-100px', left: '-280px', zIndex: '-1' }}
         />
         <Block align="center" textAlign="center">
           <Image src="logo.png" width="123" height="26" fit="contain" margin="-104px auto 80px" />
@@ -635,9 +639,8 @@ class Welcome extends Component {
     } else if (this.props.auth.me) {
       if (this.started) {
         return this.renderWalkthrough();
-      } else {
-        return <ClaimLoading />;
       }
+      return <ClaimLoading />;
     }
     return <ClaimError />;
   }

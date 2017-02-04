@@ -4,6 +4,7 @@ export default {
   app: Map({
     navOpen: false,
     loginRedirectUrl: false,
+    settings: 0,
     assets: Map({}),
   }),
   modals: Map({

@@ -1,0 +1,39 @@
+@import "vars.css";
+
+.interests {
+  width: 700px;
+  margin-left: -165px;
+
+  button {
+    border: 2px solid $white;
+    padding: 10px;
+    color: $white;
+    background: transparent;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: 0.2s all;
+
+    &:hover {
+      background-color: rgba(255,255,255, 0.15);
+    };
+  }
+
+  h3 {
+    clear: both;
+    margin-bottom: 8px;
+    margin-top: 20px;
+  }
+}
+.mine {
+  button:hover {
+    background-color: rgb(237, 47, 0);
+    border-color: rgb(237, 47, 0);
+  }
+}
+
+.all {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
