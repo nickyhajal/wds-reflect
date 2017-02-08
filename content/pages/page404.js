@@ -5,6 +5,8 @@
   <Block width="768px" bleed={true} type="padded" background="white" textAlign="left" margin="60px 0 80px" clip="tr:0,1%;">
     <Block width="100%" margin="40px 0 0 0" textAlign="center">## Page destroyed by our kitty overlords!</Block>
     
+    <Image src="photos/overlord-kitty.png" width="100%" />
+    
     While we try and calm our furry masters with catnip and treats, here are some existing pages that may help you find what you're looking for:
     
     ### The WDS FAQ page

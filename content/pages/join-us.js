@@ -18,6 +18,8 @@
     With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.
     
     We’re doing it again in 2017, and all that’s missing is YOU!
+      
+    All tickets cost $647 and are sold on a first-come, first-served basis.
     
     <Button to="/be-there" fitToText>Join Us!</Button>
   </Block>
