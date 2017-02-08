@@ -28,9 +28,17 @@
   <Block margin="125px 0 50px 0">
     ## What's Included in My Ticket
     <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
+        <Block type="image" src="photos/JoinUs/image-speakers.png">
+        ## Main Stage Speakers
+       Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community.
+      </Block>
       <Block type="image" src="photos/JoinUs/image-meetups.jpg">
         ## Meetups
-        Each year attendees help lead over 100+ meetups in and around Portland. Share your expertise. Coordinate an adventure. The best part is you can do both!
+        Every year attendees help lead over 100+ meetups in and around Portland. Share your expertise. Coordinate an adventure. The best part is you can do both!
+      </Block>
+      <Block type="image" src="photos/JoinUs/image-activities.png">
+        ## Activities
+        From fun social gatherings, to starting off the day with yoga, to focused discussions, WDS attendees take part in a variety of activities throughout the week.
       </Block>
       <Block type="image" src="photos/JoinUs/image-people.jpg">
         ## Incredible People
