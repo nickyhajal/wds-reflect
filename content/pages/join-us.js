@@ -38,19 +38,19 @@
       </Block>
       <Block type="image" src="photos/JoinUs/image-activities.png">
         ## Activities
-        From fun social gatherings, to starting off the day with yoga, to focused discussions, WDS attendees take part in a variety of activities throughout the week.
+        From fun social gatherings to focused discussions, starting off the day with yoga to ending the night in Karaoke, choose from a variety of special WDS hosted adventures and activities throughout the week.
       </Block>
       <Block type="image" src="photos/JoinUs/image-people.jpg">
         ## Incredible People
-        Our incredible adenturers come from over 40+ different countries and all 50 states. At WDS there will be abundance of opportunities to make new connections.
+        Our incredible adventurers come from over 40+ different countries and all 50 states. At WDS there will be an abundance of opportunities to make new, life-long connections.
       </Block>
       <Block type="image" src="photos/JoinUs/image-academies.jpg">
         ## Academies
-        These half-day workshops are the only event offered to the general public. As a WDS ticket holder you get first access to the Academy of your choice at a huge discount.
+        These half-day workshops feature past favorite speakers and WDS community members that are experts in their fields. As a WDS ticket holder you get first access to the Academy of your choice at a huge discount.
       </Block>
        <Block type="image" src="photos/JoinUs/image-hotel.jpg">
         ## Hotel Discounts
-        Each year we partner with iconic Portland properties to offer our attendees special discounted prices booking your stay in Portland.  
+        Each year we partner with iconic Portland properties to offer our attendees special discounted prices when booking your stay in Portland.  
       </Block>
       <Block type="image" src="photos/JoinUs/image-parties.jpg">
         ## Celebrations
