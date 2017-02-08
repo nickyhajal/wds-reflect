@@ -44,6 +44,12 @@ export class App extends Component {
   }
   componentDidMount() {
     this.fillScreen();
+    setTimeout(() => {
+      $('body').removeClass('start-transition').addClass('do-transition');
+      setTimeout(() => {
+        $('body').removeClass('transition-green-to-orange');
+      }, 5);
+    }, 5);
   }
   componentWillReceiveProps() {
     this.fillScreen();

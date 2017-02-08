@@ -33,7 +33,7 @@ class TicketCounter extends React.Component {
     if (this.isLive('numbers')) {
       messages.push((
         <div styleName="remaining" key="remaining">
-          <span>{(this.sale.max - this.sale.sales)}</span>
+          <span>{(this.sale.max - this.sale.sold)}</span>
           <div>Tickets Remaining</div>
         </div>
       ));

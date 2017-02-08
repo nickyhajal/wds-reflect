@@ -53,6 +53,11 @@ main {
     background-color: $orange !important;
   }
 }
+.transition-green-to-orange {
+  section.fillScreen {
+    background-color: $green !important;
+  }
+}
 
 .contentainer {
   margin: 0 auto;

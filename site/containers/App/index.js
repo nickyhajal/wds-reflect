@@ -45,6 +45,9 @@ export class App extends Component {
       if (nextProps.location.pathname.indexOf('welcome') > -1 && this.props.location.pathname.indexOf('claim') > -1) {
         $('body').addClass('start-transition transition-orange-to-blue');
       }
+      if (nextProps.location.pathname.indexOf('claim') > -1 && this.props.location.pathname.indexOf('be-there') > -1) {
+        $('body').addClass('start-transition transition-green-to-orange');
+      }
       this.props.act.openMenu(false);
       $('html,body').animate({ scrollTop: 0 }, 0);
     }

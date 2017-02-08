@@ -337,9 +337,7 @@ const saveContent = () => (
 
 const saveGlobalComponents = () => (
   new Promise((resolve, reject) => {
-    console.log('saveglobal')
     async.each(globalComponents, (page, cb) => {
-      console.log(page);
       const path = `${outDir}/components/${page.file}.js`;
       fs.writeFile(path, page.content, (err) => {
         if (err) return console.log(err);
