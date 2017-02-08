@@ -81,7 +81,7 @@ class Form extends Component {
       const req = {
         method: 'post',
         withCredentials: true,
-        url: 'http://api.worlddominationsummit.com/api/user/addToList',
+        url: 'https://api.worlddominationsummit.com/api/user/addToList',
       };
       let form = this.state.form;
       if (this.props.defaults !== undefined) {
