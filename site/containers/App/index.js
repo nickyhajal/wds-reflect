@@ -6,7 +6,7 @@ import autoBind from 'react-autobind';
 import 'react-select/dist/react-select.css';
 import $ from 'jquery';
 import _ from 'lodash';
-import { Link } from 'react-router';
+import { Link, browserHistory } from 'react-router';
 import Modals from '../../components/Modals/Modals';
 import actions from '../../actions';
 import vars from '../../core/vars';
@@ -56,7 +56,12 @@ export class App extends Component {
     this.props.act.openMenu(!this.props.app.navOpen);
   }
   ticketClick() {
-    this.props.act.openModal('joinUs');
+    if (window.location.pathname.indexOf('join-us') > -1) {
+      browserHistory.replace('/be-there');
+    } else {
+      browserHistory.replace('/join-us');
+      // this.props.act.openModal('joinUs');
+    }
   }
   pathHas(c) {
     const checks = _.isArray(c) ? c : [c];
