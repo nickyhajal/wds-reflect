@@ -18,6 +18,12 @@ export default {
     status: 'ready',
     error: false,
   }),
+  checkout: Map({
+    quantity: 1,
+    status: 'start',
+    processStatus: false,
+    error: false,
+  }),
   search: Map({
     query: '',
   }),

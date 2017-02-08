@@ -6,6 +6,7 @@ import Person from '../containers/Person/';
 import Claim from '../containers/Claim/Claim';
 import Welcome from '../containers/Welcome/Welcome';
 import Pageloader from '../containers/Pageloader/';
+import TicketPurchase from '../containers/TicketPurchase/TicketPurchase';
 import EnsureLoggedIn from '../containers/EnsureLoggedIn/EnsureLoggedIn';
 
 const routes = (
@@ -16,6 +17,7 @@ const routes = (
     <Route path="/person/:id" component={Person} />
     <Route path="/claim/:id" component={Claim} />
     <Route path="/welcome/:id" component={Welcome} />
+    <Route path="/be-there" component={TicketPurchase} />
     <Route component={EnsureLoggedIn}>
       <Route path="/claim" component={Claim} />
       <Route path="/welcome" component={Welcome} />

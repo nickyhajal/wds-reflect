@@ -23,6 +23,10 @@ main {
   padding-top: 60px;
 }
 
+.animated {
+  transition: 0.2s all;
+}
+
 .bigger p {
   font-size: 18px;
   line-height: 27px;
@@ -345,7 +349,6 @@ form input {
   opacity: 0.35;
 }
 .Select-control {
-	 background-color: #eeefe9;
   border-radius: 0;
   cursor: default;
   display: table;
@@ -386,6 +389,7 @@ form input {
 .Select-placeholder,
 .Select--single > .Select-control .Select-value {
   bottom: 0;
+  text-align: left;
   color: #fff;
   left: 18px;
   line-height: 34px;
@@ -676,6 +680,41 @@ form input {
 .Select--multi.is-disabled .Select-value-icon:active {
   background-color: #fcfcfc;
 }
+
+.Select-control {
+    background-color: transparent;
+    border-radius: 0;
+    cursor: default;
+    display: table;
+    border-spacing: 0;
+    border-collapse: separate;
+    height: 36px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 7px;
+
+    .Select-value {
+      top: 8px !important;
+      left: 20px !important;
+
+      span {
+        color: $white !important;
+      }
+    }
+    .Select-value-label {
+      color: $white !important;
+    }
+  .Select-arrow {
+    border-top-color: $white;
+    &:hover {
+      border-top-color: $white;
+    }
+  }
+}
+
 @keyframes Select-animation-spin {
   to {
     transform: rotate(1turn);

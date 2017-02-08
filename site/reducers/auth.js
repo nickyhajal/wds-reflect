@@ -21,6 +21,16 @@ export default function auth(state = Map, action) {
         return ctx;
       });
 
+    case C.AUTH_SET_CARD:
+      return state.withMutations((ctx) => {
+        ctx.set('card', action.card);
+        ctx.set('useExistingCard', action.existing);
+        return ctx;
+      });
+
+    case C.AUTH_SET_USE_EXISTING_CARD:
+      return state.set('useExistingCard', action.existing);
+
     case C.AUTH_SET_STATUS:
       return state.withMutations((ctx) => {
         ctx.set('status', action.status);

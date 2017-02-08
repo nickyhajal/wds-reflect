@@ -11,8 +11,10 @@ const constants = createConstants(
   // AUTH
   'AUTH_SET_ME',
   'AUTH_SET_ERROR',
+  'AUTH_SET_CARD',
   'AUTH_SET_STATUS',
   'AUTH_LOGOUT',
+  'AUTH_SET_USE_EXISTING_CARD',
 
   // MAIN PANEL ACTIONS
   'MODAL_SET_OPEN',
@@ -23,11 +25,19 @@ const constants = createConstants(
   // SEARCH
   'SEARCH_SET_QUERY',
 
+  // CHECKOUT
+  'CHECKOUT_SET_STATUS',
+  'CHECKOUT_SET_QUANTITY',
+  'CHECKOUT_SET_ERROR',
+  'CHECKOUT_SET_PROCESS_STATUS',
+
 );
 
 constants.fire_key = 'AIzaSyD77ljc6Wdoc3AKg_a1FnE58QDyCWhSgSA';
 constants.fire_url = 'worlddominationsummit';
+constants.stripe_pk = 'pk_test_8WKTIWKXB6T1eFT9sFqrymCM';
 constants.url = 'wds.nky';
+// constants.stripe_pk = 'pk_live_v32iH6nfQOgPmKgQiNOrnZCi';
 // constants.url = 'api.worlddominationsummit.com';
 constants.apiUrl = `${constants.url}/api`;
 

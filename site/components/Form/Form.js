@@ -172,7 +172,7 @@ class Form extends Component {
       }
     });
     return (
-      <form ref={this.setForm} action="" method="post" styleName="form" onSubmit={this.submit}>
+      <form ref={this.setForm} action="" method="post" styleName="form" onSubmit={this.submit} className={this.props.className}>
         { children }
         <Button styling={this.props.buttonStyle} width="100%">{btnText}</Button>
       </form>

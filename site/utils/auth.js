@@ -1,4 +1,5 @@
 import { bindActionCreators } from 'redux';
+import moment from 'moment';
 import * as AuthActions from '../actions/auth';
 import store from '../core/store';
 import api, { mock } from './api';
@@ -13,18 +14,21 @@ const auth = {
     }
     return me;
   },
+  setMe(raw) {
+    const rsp = raw.data;
+    if (rsp.me) {
+      if (rsp.me.answers !== undefined) {
+        rsp.me = this.processAnswers(rsp.me);
+      }
+      Actions.updateAuth(rsp.me);
+    } else {
+      Actions.updateAuth(false);
+    }
+  },
   getMe() {
     return api('get assets', { assets: 'me' })
     .then((raw) => {
-      const rsp = raw.data;
-      if (rsp.me) {
-        if (rsp.me.answers !== undefined) {
-          rsp.me = this.processAnswers(rsp.me);
-        }
-        Actions.updateAuth(rsp.me);
-      } else {
-        Actions.updateAuth(false);
-      }
+      this.setMe(raw);
     })
     .catch((error) => {
       console.error(error);
@@ -42,19 +46,16 @@ const auth = {
       Actions.setAuthStatus('loading');
       const params = {};
       if (pw !== undefined && pw) {
-        params.email = id;
-        params.pw = pw;
+        params.username = id;
+        params.password = pw;
       } else if (id !== undefined) {
         params.hash = id;
       }
       return api('post user/login', params)
       .then((raw) => {
         const rsp = raw.data;
+        this.setMe(raw);
         if (rsp.loggedin && rsp.me) {
-          if (rsp.me.answers !== undefined) {
-            rsp.me = this.processAnswers(rsp.me);
-          }
-          Actions.updateAuth(rsp.me);
           Actions.setAuthStatus('success');
           resolve();
         } else {
@@ -71,7 +72,34 @@ const auth = {
     const pkg = userPkg;
     pkg.login = true;
     pkg.ignore_existing = true;
-    return api('post user', pkg);
+    Actions.updateAuth(userPkg);
+    return api('post user', pkg)
+    .then((raw) => {
+      this.setMe(raw);
+    });
+  },
+  getCard() {
+    api('get user/card', {})
+    .then((raw) => {
+      const rsp = raw.data;
+      const now = moment();
+      if (
+        rsp.card !== undefined &&
+        rsp.card &&
+        ((
+          rsp.card.exp_month >= now.format('M') &&
+          rsp.card.exp_year >= now.format('YYYY')) ||
+          rsp.card.exp_year > now.format('YYYY')
+        )
+      ) {
+        Actions.updateCard(rsp.card, true);
+      } else {
+        Actions.updateCard(false, false);
+      }
+    });
+  },
+  charge(pkg) {
+    return api('post product/charge', pkg);
   },
   reset(username, password, hash) {
     const pkg = {

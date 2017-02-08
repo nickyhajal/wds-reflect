@@ -297,7 +297,7 @@ export class App extends Component {
       <Section color="orange" styleName="shell" className="fillScreen">
         <Image
           src="pattern/dot-cover.png"
-          width="1860px"
+          width="100%"
           height="90%"
           css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}
           mobile={{ phone: { display: 'none' } }}

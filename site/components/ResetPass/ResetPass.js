@@ -7,6 +7,7 @@ import autoBind from 'react-autobind';
 import styles from './ResetPass.css';
 import actions from '../../actions';
 import auth from '../../utils/auth';
+import types from '../../utils/types';
 import Button from '../Button/Button';
 
 class Login extends React.Component {
@@ -15,9 +16,15 @@ class Login extends React.Component {
     auth: PropTypes.object,
     action: PropTypes.object,
     backLink: PropTypes.string,
-    onBack: PropTypes.func,
-    // goTo: PropTypes.func,
+    title: PropTypes.stringOrBool,
+    onBack: types.funcOrBool,
+    act: types.actions,
   };
+
+  static defaultProps = {
+    onBack: false,
+    title: 'Reset Your WDS Password',
+  }
 
   constructor() {
     super();
@@ -38,7 +45,10 @@ class Login extends React.Component {
   back(e) {
     e.stopPropagation();
     e.preventDefault();
-    // this.props.goTo('login');
+    if (this.props.onBack) {
+      this.props.onBack();
+      this.props.act.setAuthStatus('ready');
+    }
   }
 
 
@@ -51,21 +61,21 @@ class Login extends React.Component {
 
   render() {
     let btnStr = 'Send Reset E-Mail';
-    if (this.props.auth.resetStatus === 'sending') {
+    if (this.props.auth.status === 'loading') {
       btnStr = 'Sending...';
-    } else if (this.props.auth.resetError) {
-      btnStr = this.props.auth.resetError;
-    } else if (this.props.auth.resetStatus === 'success') {
+    } else if (this.props.auth.error) {
+      btnStr = this.props.auth.error;
+    } else if (this.props.auth.status === 'success') {
       btnStr = 'Success, check your email!';
     }
     return (
-      <div className="modal-section">
-        <h2>Reset Your WDS Password</h2>
+      <div className="modal-section resetSection">
+        {this.props.title ? (<h2>{this.props.title}</h2>) : ''}
         <p>
           Enter the email address on your account and
           we'll send you an email to reset your password.
         </p>
-        <form onSubmit={this.reset}>
+        <form onSubmit={this.reset} className="resetForm">
           <div className="form-row">
             <div className="form-box">
               <label>E-Mail Address</label>
@@ -79,12 +89,13 @@ class Login extends React.Component {
           <div className="form-row">
             <div className="form-box">
               <Button styleName="button" onClick={this.reset}>{btnStr}</Button>
-              {(this.props.backLink !== undefined ?
-                <Link styleName="back" to={this.props.backLink} onClick={this.props.onBack} >◂ Back</Link> :
+              {(this.props.backLink !== undefined || this.props.onBack ?
+                <Link styleName="back" className="formBack" to={this.props.backLink} onClick={this.back} >◂ Back</Link> :
                 ''
               )}
             </div>
           </div>
+          <div className="clear" />
         </form>
       </div>
     );

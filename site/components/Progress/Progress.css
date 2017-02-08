@@ -12,6 +12,7 @@
   .progress-fill {
     height: 35px;
     width: 98%;
+    top: 0;
   }
   .progress-bar {
     height: 37px;
@@ -35,7 +36,8 @@
     height: 67px;
   }
   .progress-fill {
-    height: 63px;
+    top: 2px;
+    height: 61px;
     width: 400px;
   }
   .progress-bar {
@@ -67,9 +69,18 @@ right: 22px;
     position: relative;
     z-index: 4;
   }
+  .progress-status {
+    color: color($forest a(70%));
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: #33571D99;
+    top: 23px;
+    left: -10px;
+    z-index: 5;
+  }
   .progress-fill {
     background: $green;
-    top: 0;
     z-index: 1;
     position: absolute;
     left: 4px;

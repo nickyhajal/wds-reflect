@@ -8,6 +8,14 @@ const types = {
       PropTypes.bool,
     ]).isRequired,
   }).isRequired,
+  checkout: PropTypes.shape({
+    quantity: PropTypes.number.isRequired,
+    status: PropTypes.string.isRequired,
+    error: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
+  }).isRequired,
+  funcOrBool: PropTypes.oneOfType([PropTypes.bool, PropTypes.func]),
+  stringOrBool: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
+  numOrBool: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
   actions: PropTypes.objectOf(PropTypes.func),
   location: PropTypes.objectOf(PropTypes.string),
   app: PropTypes.shape({

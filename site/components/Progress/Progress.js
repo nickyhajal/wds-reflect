@@ -4,7 +4,7 @@ import types from '../../utils/types';
 import styles from './Progress.css';
 
 
-const Progress = ({ format, completed, minimum }) => {
+const Progress = ({ format, completed, minimum, status }) => {
   let fullWidth = 671;
   let cap = 13;
   if (format === 'short') {
@@ -19,6 +19,7 @@ const Progress = ({ format, completed, minimum }) => {
         <div styleName="progress-frame" />
         <div styleName="progress-fill" />
         <div styleName="progress-bar" style={{ width: `${w}px` }} />
+        {status ? (<div styleName="progress-status">{status}</div>) : ''}
       </div>
     </div>
   );
@@ -27,14 +28,14 @@ const Progress = ({ format, completed, minimum }) => {
 Progress.defaultProps = {
   format: 'long',
   minimum: 0,
+  status: false,
 };
 
 Progress.propTypes = {
-  auth: types.auth,
-  app: types.app,
   completed: PropTypes.number,
   minimum: PropTypes.number,
   format: PropTypes.string,
+  status: types.stringOrBool,
 };
 
 Progress.displayName = 'Progress';

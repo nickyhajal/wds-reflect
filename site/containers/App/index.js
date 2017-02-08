@@ -5,6 +5,7 @@ import CSSModules from 'react-css-modules';
 import autoBind from 'react-autobind';
 import 'react-select/dist/react-select.css';
 import $ from 'jquery';
+import _ from 'lodash';
 import { Link } from 'react-router';
 import Modals from '../../components/Modals/Modals';
 import actions from '../../actions';
@@ -12,6 +13,7 @@ import vars from '../../core/vars';
 import preloader from '../../utils/preloader';
 import types from '../../utils/types';
 import Header from './Header';
+import auth from '../../utils/auth';
 import styles from './styles.css';
 // import Auth from '~/containers/Auth';
 // import Dashboard from '~/containers/Dashboard';
@@ -35,6 +37,7 @@ export class App extends Component {
       });
     }
     this.props.act.syncAssets();
+    auth.getMe();
     this.props.act.startListeningToSettings();
   }
   componentWillReceiveProps(nextProps) {
@@ -51,6 +54,16 @@ export class App extends Component {
   }
   ticketClick() {
     this.props.act.openModal('joinUs');
+  }
+  pathHas(c) {
+    const checks = _.isArray(c) ? c : [c];
+    let found = false;
+    checks.forEach((v) => {
+      if (this.props.location.pathname.indexOf(v) > -1) {
+        found = true;
+      }
+    });
+    return found;
   }
   renderSiteMode() {
     return (
@@ -94,8 +107,8 @@ export class App extends Component {
     );
   }
   render() {
-    const path = this.props.location.pathname;
-    if (path.indexOf('/claim') > -1 || path.indexOf('/welcome') > -1) {
+    const focus = ['/claim', '/weclome', '/be-there'];
+    if (this.pathHas(focus)) {
       return this.renderFocusMode();
     }
     return this.renderSiteMode();

@@ -11,6 +11,25 @@ export function updateAuth(me) {
   };
 }
 
+export function updateCard(card, existing) {
+  return (dispatch) => {
+    dispatch({
+      type: C.AUTH_SET_CARD,
+      card,
+      existing,
+    });
+  };
+}
+
+export function updateUseExistingCard(existing) {
+  return (dispatch) => {
+    dispatch({
+      type: C.AUTH_SET_USE_EXISTING_CARD,
+      existing,
+    });
+  };
+}
+
 export function updateMe(me, param) {
   return (dispatch, getState) => {
     let setMe = me;
@@ -18,7 +37,6 @@ export function updateMe(me, param) {
       setMe = getState().auth.get('me');
       setMe[me] = param;
     }
-    console.log(setMe)
     dispatch({
       type: C.AUTH_SET_ME,
       me: setMe,

@@ -19,7 +19,7 @@
     
     We’re doing it again in 2017, and all that’s missing is YOU!
     
-    <Button modal="joinUs" fitToText>Join the Wait List!</Button>
+    <Button to="/be-there" fitToText>Join Us!</Button>
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
@@ -53,4 +53,4 @@
     </Grid>
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="buy-box" />

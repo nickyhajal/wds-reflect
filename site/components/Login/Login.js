@@ -5,6 +5,7 @@ import { Link, browserHistory } from 'react-router';
 import { bindActionCreators } from 'redux';
 import autoBind from 'react-autobind';
 import styles from './Login.css';
+import types from '../../utils/types';
 import actions from '../../actions';
 import auth from '../../utils/auth';
 import Button from '../Button/Button';
@@ -15,21 +16,26 @@ class Login extends React.Component {
     auth: PropTypes.object,
     action: PropTypes.object,
     goTo: PropTypes.func,
-    title: PropTypes.string,
+    title: types.stringOrBool,
     backLink: PropTypes.string,
     onSuccess: PropTypes.func,
-    onBack: PropTypes.func,
+    onError: PropTypes.func,
+    onBack: types.funcOrBool,
+    onForgot: types.funcOrBool,
   };
 
   static defaultProps = {
     title: 'Login to Your WDS Account',
+    onSuccess: () => {},
+    onError: () => {},
+    onForgot: false,
   };
 
   constructor() {
     super();
     autoBind(Object.getPrototypeOf(this));
     this.state = {
-      email: '',
+      username: '',
       pw: '',
     };
   }
@@ -39,7 +45,9 @@ class Login extends React.Component {
       e.stopPropagation();
       e.preventDefault();
     }
-    auth.login(this.state.email, this.state.pw);
+    auth.login(this.state.username, this.state.pw)
+    .then(this.props.onSuccess)
+    .catch(this.props.onError);
   }
 
   change(e) {
@@ -49,10 +57,12 @@ class Login extends React.Component {
     this.setState(state);
   }
 
-  forgotPw(e) {
-    e.stopPropagation();
-    e.preventDefault();
-    this.props.goTo('reset');
+  onForgot(e) {
+    if (this.props.onForgot) {
+      e.stopPropagation();
+      e.preventDefault();
+      this.props.onForgot(e);
+    }
   }
 
   back(e) {
@@ -61,9 +71,9 @@ class Login extends React.Component {
     this.props.goTo('');
   }
 
+
   render() {
     let btnStr = 'Login';
-    console.info(this.props.auth);
     if (this.props.auth.status === 'loading') {
       btnStr = 'Logging In...';
     } else if (this.props.auth.status === 'error') {
@@ -73,25 +83,25 @@ class Login extends React.Component {
     }
     return (
       <div className="modal-section">
-        <h2>{this.props.title}</h2>
+        {this.props.title ? (<h2>{this.props.title}</h2>) : ''}
         <p>
-          Use the email and password you used when you created your WDS account.
-        </p>
-        <p>
+          Use the email and password you used when you created your WDS account.&nbsp;
           <Link
+            className="forgotPwLink"
             styleName="link"
             to="/reset-password"
+            onClick={this.onForgot}
           >
             Forgot your password?
           </Link>
         </p>
-        <form onSubmit={this.login}>
+        <form onSubmit={this.login} className="loginForm">
           <div className="form-row">
             <div className="form-box">
               <label>E-Mail Address</label>
               <input
                 type="text"
-                name="email" onChange={this.change}
+                name="username" onChange={this.change}
                 placeholder="Your E-mail Address"
               />
             </div>
@@ -105,12 +115,13 @@ class Login extends React.Component {
           <div className="form-row">
             <div className="form-box">
               <Button styleName="button">{btnStr}</Button>
-              {(this.props.backLink !== undefined ?
-                <Link styleName="back" to={this.props.backLink} onClick={this.props.onBack} >◂ Back</Link> :
+              {(this.props.backLink !== undefined || this.props.onBack ?
+                <Link styleName="back" className="formBack" to={this.props.backLink} onClick={this.props.onBack} >◂ Back</Link> :
                 ''
               )}
             </div>
           </div>
+          <div className="clear" />
         </form>
       </div>
     );

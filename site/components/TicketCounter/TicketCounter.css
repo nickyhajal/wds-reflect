@@ -1,5 +1,27 @@
 @import "vars.css";
 
-.namesample {
-  font-size: 15px;
+.message {
+  margin-top: 50px;
+  color: $white;
+  display: inline-block;
+
+  .remaining {
+    span {
+      font-family: VitesseBold;
+      font-size: 70px;
+      float: left;
+      margin-right: 20px;
+      padding-bottom: 10px;
+      margin-left: 30px;
+    }
+    div {
+      font-family: Vitesse;
+      width: 171px;
+      font-size: 27px;
+      text-align: left;
+      float: left;
+      margin-top: 7px;
+    }
+  }
 }
+

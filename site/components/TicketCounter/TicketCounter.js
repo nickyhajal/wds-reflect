@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import _ from 'lodash';
 import autoBind from 'react-autobind';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -28,7 +29,29 @@ class TicketCounter extends React.Component {
     return '';
   }
   renderMessages() {
-    return '';
+    const messages = [];
+    if (this.isLive('numbers')) {
+      messages.push((
+        <div styleName="remaining" key="remaining">
+          <span>{(this.sale.max - this.sale.sales)}</span>
+          <div>Tickets Remaining</div>
+        </div>
+      ));
+    } else if (this.isLive('messages')) {
+      Object.keys(this.sale.messages).forEach((key) => {
+        const msg = this.sale.messages[key];
+        messages.push(
+          <div styleName="genericMsg" className={`msg-${key}`} key={key}>
+            {msg}
+          </div>
+        );
+      });
+    }
+    return (
+      <div styleName="message">
+        {_.shuffle(messages)[0]}
+      </div>
+    );
   }
   render() {
     if (this.props.app.settings !== undefined &&

@@ -1,0 +1,24 @@
+@import "vars.css";
+
+.ask .bigButton {
+    background: transparent;
+    padding: 30px;
+    border: 0;
+    font-family: KarlaBold;
+    font-weight: normal;
+    width: 300px;
+    margin-right: 16px;
+    height: 140px;
+    font-size: 18px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 12px;
+    cursor: pointer;
+    border: 2px solid $white;
+    color: $white;
+    transition: 0.2s all;
+}
+
+.bigButton:hover {
+  background: color($forest a(40%));
+}

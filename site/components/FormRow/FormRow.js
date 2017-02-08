@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import _ from 'lodash';
 import CSSModules from 'react-css-modules';
 import styles from './FormRow.css';
+import FormWrap from '../FormWrap/FormWrap';
 import Input from '../Input/Input';
 
 
@@ -10,7 +11,14 @@ const FormRow = ({ onChange, children, values }) => {
   const childArray = Array.isArray(children) ? children : [children];
   let c = 0;
   childArray.forEach((elm) => {
-    if (elm.type !== undefined && ((elm.type.displayName !== undefined && elm.type.displayName === 'Input') || elm.type === 'input' || elm.type === 'select')) {
+    if (
+      elm.type !== undefined && (
+        elm.type === Input ||
+        elm.type === FormWrap ||
+        elm.type === 'input' ||
+        elm.type === 'select'
+      )
+    ) {
       const props = _.clone(elm.props);
       props.onChange = onChange;
       props.values = _.clone(values);
