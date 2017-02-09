@@ -17,6 +17,10 @@
     border: 2px solid $white;
     color: $white;
     transition: 0.2s all;
+
+    @media(--tablet) {
+        width: 100%;
+    }
 }
 
 .bigButton:hover {

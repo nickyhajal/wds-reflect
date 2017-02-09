@@ -1,5 +1,14 @@
 @import "vars.css";
 
+.form {
+  @media(--tablet) {
+    width: 100%;
+
+    input {
+      width: 100%;
+    }
+  }
+}
 .button {
   margin-top: 6px;
 }

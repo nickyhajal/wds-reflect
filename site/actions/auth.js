@@ -65,12 +65,10 @@ export function setAuthStatus(status) {
 
 export function setAuthError(error, autohide = true) {
   return (dispatch) => {
-    setTimeout(() => {
-      dispatch({
-        type: C.AUTH_SET_ERROR,
-        error,
-      });
-    }, 1000);
+    dispatch({
+      type: C.AUTH_SET_ERROR,
+      error,
+    });
     if (autohide) {
       setTimeout(() => {
         dispatch({

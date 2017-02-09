@@ -80,7 +80,7 @@ class SignUp extends React.Component {
           <FormRow>
             <FormWrap>
               <label>Email Address</label>
-              <Input id="email" placeholder="Your E-mail Address" />
+              <Input type="email" id="email" placeholder="Your E-mail Address" />
             </FormWrap>
           </FormRow>
           </Form>

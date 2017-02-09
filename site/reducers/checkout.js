@@ -9,10 +9,13 @@ export default function checkout(state = Map, action) {
       return state.set('processStatus', action.processStatus);
     case C.CHECKOUT_SET_QUANTITY:
       return state.set('quantity', action.quantity);
+    case C.CHECKOUT_SET_CC:
+      return state.set('cc', action.cc);
     case C.CHECKOUT_SET_ERROR:
       return state.withMutations((ctx) => {
         ctx.set('error', action.error);
         ctx.set('status', 'start');
+        ctx.set('processStatus', false);
       });
     default:
       return state;

@@ -30,12 +30,39 @@
   :global(.modal-section) {
     position: relative;
 
+    @media(--tablet) {
+      width: 100%;
+      padding: 20px;
+
+      p {
+        width: 100%;
+      }
+    }
+
     &:global(.cartSection) {
       width: 650px;
       margin: 0 auto;
+      @media(--tablet) {
+        width: 100%;
+      }
 
       form {
         width: 342px;
+        @media(--tablet) {
+          width: 100%;
+          :global(.form-row) {
+            width: 376px;
+            margin: 0 auto;
+          }
+        }
+        @media(--phone) {
+          :global(.form-row) {
+            width: 280px;
+            margin: 0 auto;
+          }
+          :global(.form-box) {
+          }
+        }
 
         button {
           margin: 0 auto 20px;
@@ -66,18 +93,36 @@
 
     &:global(.loginForm), &:global(.resetForm) {
       width: 300px;
+      @media(--tablet) {
+        width: 100%;
+      }
     }
     &:global(.signupForm) {
       width: 420px;
+      @media(--tablet) {
+        width: 100%;
+      }
     }
     :global(.form-box) {
       width: 300px;
+      @media(--tablet) {
+        width: 100%;
+      }
 
       &:global(.form-cc-box) {
         width: 342px;
+        @media(--phone) {
+          width: 280px;
+        }
       }
       &:global(.form-exp-box), &:global(.form-zip-box), &:global(.form-cvv-box) {
         width: 166px;
+        @media(--phone) {
+          width: 129px;
+        }
+      }
+      &:global(.form-cvv-box), :global(.form-exp-box:last-child) {
+        margin-right: 0;
       }
     }
 

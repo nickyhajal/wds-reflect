@@ -467,12 +467,13 @@ class Welcome extends Component {
     const body = document.body;
     const html = document.documentElement;
     const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+    const $e = $('.fillScreen');
+    $e.css('min-height', '');
     const scroll = Math.max(body.scrollHeight, html.clientHeight);
     let bonus = 0;
     if (scroll > html.clientHeight) {
       bonus = 120;
     }
-    const $e = $('.fillScreen');
     if ($e.length) {
       $e.css('min-height', `${height - $e.offset().top + bonus}px`);
     }
@@ -533,7 +534,6 @@ class Welcome extends Component {
   renderHeader() {
     return (
       <div>
-        <Progress completed={this.completed()} />
         <ReactCSSTransitionGroup
           transitionName="welcomeHeader"
           transitionAppear
@@ -541,6 +541,7 @@ class Welcome extends Component {
           transitionEnterTimeout={500}
           transitionLeaveTimeout={300}
         >
+          <Progress completed={this.completed()} />
           <h2 styleName="section-head" key={`k-${this.state.section}`}>{sections[this.state.section]}</h2>
         </ReactCSSTransitionGroup>
       </div>

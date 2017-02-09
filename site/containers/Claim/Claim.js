@@ -61,12 +61,13 @@ export class App extends Component {
     const body = document.body;
     const html = document.documentElement;
     const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+    const $e = $('.fillScreen');
+    $e.css('min-height', '');
     const scroll = Math.max(body.scrollHeight, html.clientHeight);
     let bonus = 0;
     if (scroll > html.clientHeight) {
       bonus = 120;
     }
-    const $e = $('.fillScreen');
     if ($e.length) {
       $e.css('min-height', `${height - $e.offset().top + bonus}px`);
     }
@@ -150,35 +151,19 @@ export class App extends Component {
         }
       } else if (tickets.claimed.length) {
         if (tickets.claimed.length > 1) {
-          c.title = 'Nice work, you\'ve claimed your tickets!';
+          c.title = 'Nice work, you\'ve claimed all your tickets!';
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }} className="endClaim" background="spice">
-              ## Awesome, you&apos;re all set!{'\n'}{'\n'}
-              <p>IMPORTANT: Next week, we&apos;ll send you another email with info on how&nbsp;
-              to set up your profile. It&apos;s a quick and easy process that will help you connect&nbsp;
-              with your fellow attendees and allow us to serve you better as&nbsp;
-              we plan this year&apos;s WDS.&nbsp;</p>
-              <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.&nbsp;
-              If you know someone who should be with us this summer,&nbsp;
-              <Link to="/join-us">tell them to join the&nbsp;
-              waiting list</Link>—that way they&apos;ll get first notice of when the sale is ready.&nbsp;
-              (And they&apos;ll have you to thank.)</p>
+            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+              ## Impressive! Now let&apos;s setup your account.
+              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
             </Block>
           );
         } else {
           c.title = 'Woohoo, your ticket is claimed!';
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }} className="endClaim" background="spice">
-              ## Awesome, you&apos;re all set!{'\n'}{'\n'}
-              <p>IMPORTANT: Next week, we&apos;ll send you another email with info on how
-              to set up your profile. It&apos;s a quick and easy process that will help you connect
-              with your fellow attendees and allow us to serve you better as
-              we plan this year&apos;s WDS.&nbsp;</p>
-              <p>Also! The next round of WDS ticket sales begins on Wednesday, February 15.
-              If you know someone who should be with us this summer,&nbsp;
-              <Link to="/join-us">tell them to join the
-              waiting list</Link>—that way they&apos;ll get first notice of when the sale is ready.
-              (And they&apos;ll have you to thank.)</p>
+            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+              ## Great job! Now let&apos;s setup your account!
+              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
             </Block>
           );
         }

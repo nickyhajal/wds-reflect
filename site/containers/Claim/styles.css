@@ -47,12 +47,14 @@
 
  @media(--phone) {
   padding: 24px 16px;
+
+  h2 { width: 100%; }
  }
 
   h2 {
     color: $white;
     margin-bottom: 10px;
-    width: 500px;
+    width: 540px;
     margin: 0 auto 12px;
   }
 

@@ -30,6 +30,13 @@
   margin-bottom: 14px;
 }
 
+.productMeta {
+  @media(--phone) {
+    width: 264px;
+    margin: -29px auto 152px;
+  }
+}
+
 .processing {
   position: absolute;
   background: rgba(73, 86, 56, 0.78);
@@ -195,19 +202,19 @@
   width: 90px;
 }
 
-@media screen and (max-width: 1024px) {
+@media(--tablet) {
   .productRow {
-    background: #f7f7f2;
-    margin-top: -43px;
-    padding: 18px 28px 18px 16px;
+    margin-top: -20px;
     font-family: KarlaBold;
     margin-left: -20px;
+    padding: 30px 20px 20px;
+    margin-right: -20px;
   }
   .productName {
-    font-size: 16px;
+    padding-top: 10px;
   }
   .quantityBox label {
-    display: none;
+    margin-top:10px;
   }
   .priceBox {
         border: 0;
@@ -216,27 +223,25 @@
     margin-top: -15px;
   }
   .productRow :global(.Select) {
-    /*display: inline-block;*/
     float: right;
-    width: 55px;
+    width: 85px;
     margin-top: -4px;
   }
   .existingCardRow {
-    padding: 20px 16px;
+    padding: 20px 20px;
+    box-sizing: content-box;
+    margin-left: -20px;
+    margin-right: -20px;
     margin-bottom: 40px;
-    box-sizing: border-box;
     width: 100% !important;
   }
   .cardIntro {
-    float: none;
     clear:right;
   }
 
   .cost {
     font-family: VitesseBold;
-    color: #908f83;
-    font-size: 15pt;
-    margin-top:3px;
+    margin-top: 0px;
   }
 
   .checkoutForm :global(.form-box){
@@ -248,11 +253,17 @@
   }
 
 .feeCost {
-  font-size: 11px;
+  font-size: 14px;
   font-family: KarlaItalic;
+  margin-top: -3px;
 }
 .cardSwitcher {
   width: 100%;
+  padding: 12px 20px;
+  box-sizing: content-box;
+  margin-top: 0;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 .checkoutForm button {
@@ -263,6 +274,25 @@
   margin-left: auto;
   margin-right: auto;
 }
+}
 
-
+@media(--phone) {
+  .cardIntro {
+    float: none;
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+  .cardExp {
+    float:none;
+    margin: 0;
+  }
+  .checkoutForm button {
+    margin-top: -40px !important;
+  }
+  .productName {
+    padding-top: 0;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 100%;
+  }
 }

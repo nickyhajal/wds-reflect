@@ -22,7 +22,9 @@ export default {
     quantity: 1,
     status: 'start',
     processStatus: false,
+    processState: {},
     error: false,
+    cc: { number: '', zip: '', cvv: '' },
   }),
   search: Map({
     query: '',

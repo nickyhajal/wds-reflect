@@ -8,6 +8,7 @@ import { bindActionCreators } from 'redux';
 import actions from '../../actions';
 import styles from './Cart.css';
 import Button from '../../components/Button/Button';
+import is from '../../utils/is';
 import types from '../../utils/types';
 import auth from '../../utils/auth';
 import Progress from '../../components/Progress/Progress';
@@ -48,7 +49,7 @@ class Cart extends React.Component {
     }, 500);
   }
 
-  change(e, id) {
+  change(e, id, cc) {
     let t = {};
     if (id !== undefined && typeof id === 'string') {
       t = e;
@@ -58,10 +59,12 @@ class Cart extends React.Component {
     }
     const state = {};
     state[id] = t.value;
-    if (id === 'quantity') {
+    if (cc) {
+      this.props.act.setCheckoutCC(state);
+    } else if (id === 'quantity') {
       this.props.act.updateQuantity(t.value);
     } else {
-      this.setState(state);
+        this.setState(state);
     }
   }
 
@@ -243,6 +246,8 @@ class Cart extends React.Component {
   }
 
   renderNew(btnStr, cost) {
+    const width = is.phone() ? '129px' : '166px';
+    const cc = this.props.checkout.cc;
     return (
       <div styleName="newShell">
         {this.renderError()}
@@ -250,7 +255,7 @@ class Cart extends React.Component {
         <div className="form-row">
           <div className="form-box form-cc-box">
             <label>Card Number</label>
-            <input type="text" data-stripe="number" />
+            <input type="text" data-stripe="number" value={cc.number} onChange={e => this.change.call(this, e.target, 'number', true)} />
           </div>
         </div>
         <div className="form-row">
@@ -263,7 +268,7 @@ class Cart extends React.Component {
               clearable={false}
               searchable={false}
               value={this.state.month}
-              style={{ width: '166px' }}
+              style={{ width }}
             />
           </div>
           <div className="form-box form-exp-box">
@@ -274,7 +279,7 @@ class Cart extends React.Component {
               clearable={false}
               searchable={false}
               name="exp-year"
-              style={{ width: '166px' }}
+              style={{ width }}
               value={this.state.year}
             />
           </div>
@@ -282,11 +287,11 @@ class Cart extends React.Component {
         <div className="form-row">
           <div className="form-box ccZip form-zip-box">
             <label>Billing Zip Code</label>
-            <input type="text" data-stripe="zip" styleName="zip" />
+            <input type="text" data-stripe="zip" styleName="zip" value={cc.zip} onChange={e => this.change.call(this, e.target, 'zip', true)} />
           </div>
           <div className="form-box ccCvv form-cvv-box">
             <label>CVV</label>
-            <input type="text" styleName="cvv" data-stripe="cvc" />
+            <input type="text" styleName="cvv" data-stripe="cvc" value={cc.cvv} onChange={e => this.change.call(this, e.target, 'cvv', true)} />
           </div>
         </div>
       </div>
@@ -313,7 +318,6 @@ class Cart extends React.Component {
 
   renderProcessing() {
     if (this.props.checkout.status === 'process') {
-      const { processStatus } = this.props.checkout;
       let msg = 'Hang tight while we process your payment! ';
       const completed = this.processCompleted();
       msg = (
@@ -352,29 +356,36 @@ class Cart extends React.Component {
     } else if (this.props.checkout.status === 'success') {
       btnStr = 'Success!';
     }
+    let display = 'block';
+    if (this.props.hidden) {
+      display = 'none';
+    }
     return (
-      <div className="modal-section cartSection">
+      <div className="modal-section cartSection" style={{ display }} >
         <div styleName="productRow">
-          <div styleName="priceBox">
-            <div styleName="cost">${cost}</div>
-            <div styleName="feeCost">+${feeCost}.00 processing</div>
+          {is.phone() ? (<div styleName="productName">WDS 2017 Ticket</div>) : ''}
+          <div styleName="productMeta">
+            <div styleName="priceBox">
+              <div styleName="cost">${cost}</div>
+              <div styleName="feeCost">+${feeCost}.00 processing</div>
+            </div>
+            <div styleName="quantityBox">
+              <label>Quantity</label>
+              <Select
+                onChange={e => this.change.call(this, e, 'quantity')}
+                options={[
+                  { value: 1, label: '1' },
+                  { value: 2, label: '2' },
+                  { value: 3, label: '3' },
+                ]}
+                name="quantity"
+                clearable={false}
+                searchable={false}
+                value={q}
+              />
+            </div>
           </div>
-          <div styleName="quantityBox">
-            <label>Quantity</label>
-            <Select
-              onChange={e => this.change.call(this, e, 'quantity')}
-              options={[
-                { value: 1, label: '1' },
-                { value: 2, label: '2' },
-                { value: 3, label: '3' },
-              ]}
-              name="quantity"
-              clearable={false}
-              searchable={false}
-              value={q}
-            />
-          </div>
-          <div styleName="productName">WDS 2017 Ticket</div>
+          {is.phone() ? '' : (<div styleName="productName">WDS 2017 Ticket</div>)}
           <div className="clear" />
         </div>
         {this.renderCardButton()}

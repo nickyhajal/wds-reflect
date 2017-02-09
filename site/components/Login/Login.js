@@ -95,12 +95,12 @@ class Login extends React.Component {
             Forgot your password?
           </Link>
         </p>
-        <form onSubmit={this.login} className="loginForm">
+        <form onSubmit={this.login} className="loginForm" styleName="form">
           <div className="form-row">
             <div className="form-box">
               <label>E-Mail Address</label>
               <input
-                type="text"
+                type="email"
                 name="username" onChange={this.change}
                 placeholder="Your E-mail Address"
               />

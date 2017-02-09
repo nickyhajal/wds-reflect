@@ -45,9 +45,7 @@ export class Purchase extends Component {
           onSuccess={() => this.goTo('cart')}
           onBack={() => this.goTo('ask')}
         />), 'Step 1: Create Your Account', 'green'],
-      cart: [(<Cart
-        onSuccess={this.purchaseSuccess}
-      />), 'Let\'s Do This!', 'green'],
+      cart: [false, 'Let\'s Do This!', 'green'],
     };
   }
   componentDidMount() {
@@ -125,6 +123,12 @@ export class Purchase extends Component {
       this.setState({ page });
     }
   }
+  renderContent(content) {
+    if (content) {
+      return content;
+    }
+    return '';
+  }
   render() {
     const page = this.pageData[this.state.page];
     if (this.props.auth.checked) {
@@ -138,7 +142,7 @@ export class Purchase extends Component {
           transitionEnterTimeout={500}
           transitionLeaveTimeout={300}
         >
-          <Section color={page[2]} styleName="shell" className={`fillScreen ${this.animated}`}>
+          <Section key="purchsection" color={page[2]} styleName="shell" className={`fillScreen ${this.animated}`}>
             <Image
               src="pattern/dot-cover.png"
               width="100%"
@@ -151,7 +155,12 @@ export class Purchase extends Component {
             </Block>
             <Block>
               <h1>{page[1]}</h1>
-              {page[0]}
+              {this.renderContent(page[0])}
+              <Cart
+                hidden={page[0]}
+                key="cart-129"
+                onSuccess={this.purchaseSuccess}
+              />
               <div className="clear" />
             </Block>
           </Section>

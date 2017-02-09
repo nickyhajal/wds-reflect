@@ -1,4 +1,5 @@
 import C from '~/constants';
+import _ from 'lodash';
 import { firedb } from '../store/fire';
 
 
@@ -12,6 +13,16 @@ export function updateQuantity(quantity) {
   };
 }
 
+export function setCheckoutCC(newCCData) {
+  return (dispatch, getState) => {
+    const cc = _.assign({}, getState().checkout.get('cc'), newCCData);
+    dispatch({
+      type: C.CHECKOUT_SET_CC,
+      cc,
+    });
+  };
+}
+
 export function updateCheckoutProcessStatus(processStatus) {
   return (dispatch) => {
     dispatch({
@@ -21,10 +32,8 @@ export function updateCheckoutProcessStatus(processStatus) {
   };
 }
 
-export function updateCheckoutStatus(status, fireKey) {
+export function updateCheckoutStatus(status) {
   return (dispatch) => {
-    console.log("KEY", fireKey);
-    console.log(listeners);
     dispatch({
       type: C.CHECKOUT_SET_STATUS,
       status,
@@ -51,15 +60,23 @@ export function startListeningToPurchase(saleId) {
   return (dispatch) => {
     const path = `sales/sale_wave1_2017/${saleId}`;
     const id = `changed_${saleId}`;
-    if (listeners[id] === undefined) {
-      listeners[id] = firedb.child(path).on('child_changed', (rsp) => {
-        if (rsp.key === 'status') {
-          updateCheckoutProcessStatus(rsp.val())(dispatch);
+    const getValue = () => {
+      firedb.child(path).once('value').then((rsp) => {
+        const state = rsp.val();
+        if (state !== undefined && state) {
+          if (state.status === 'error') {
+            setCheckoutError(state.error)(dispatch);
+          } else {
+            updateCheckoutProcessStatus(state.status)(dispatch);
+          }
         }
       });
-      firedb.child(path).once('value').then((rsp) => {
-        updateCheckoutProcessStatus(rsp.val().status)(dispatch);
+    };
+    if (listeners[id] === undefined) {
+      listeners[id] = firedb.child(path).on('child_changed', () => {
+        getValue();
       });
+      getValue();
     }
   };
 }
