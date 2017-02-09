@@ -69,6 +69,10 @@
   font-size: 19px;
   color: #594C3C;
   border: 2px solid #708F57;
+
+  @media(--phone) {
+    width: 98%;
+  }
 }
 
 .cardSwitcher {

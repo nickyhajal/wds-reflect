@@ -85,7 +85,7 @@ const parts = [
           </FormRow>
           <FormRow autosize="true">
             <label>Your Email Address</label>
-            <Input id="email" placeholder="Your Email Address" required="You didn't enter your email!" />
+            <Input id="email" type="email" placeholder="Your Email Address" required="You didn't enter your email!" />
           </FormRow>
         </FormWrap>
       ),
@@ -638,6 +638,7 @@ class Welcome extends Component {
     if (!this.props.auth.me && !this.props.auth.error) {
       return <ClaimLoading />;
     } else if (this.props.auth.me) {
+      console.log(this.props.auth.me)
       if (this.started) {
         return this.renderWalkthrough();
       }
