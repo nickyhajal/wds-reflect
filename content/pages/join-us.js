@@ -46,7 +46,7 @@
       </Block>
       <Block type="image" src="photos/JoinUs/image-academies.jpg">
         ## Academies
-        These half-day workshops feature past favorite speakers and WDS community members that are experts in their fields. As a WDS ticket holder you get first access to the Academy of your choice at a huge discount.
+        These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields. As a WDS ticket holder you get first access to the Academy of your choice at a huge discount.
       </Block>
        <Block type="image" src="photos/JoinUs/image-hotel.jpg">
         ## Hotel Discounts
