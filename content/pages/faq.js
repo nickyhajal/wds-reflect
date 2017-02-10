@@ -24,7 +24,7 @@
 
     ### How can I get a ticket?
 
-    <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. The best way to be notified when tickets go on sale is to join the 2017 <Link to="http://worlddominationsummit.com/register">waiting list.</Link></p>
+    <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. The best way to be notified when tickets go on sale is to join the 2017 <Link to="/join-us">waiting list.</Link></p>
     Please note: Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.
 
     ### What is the refund/exchange policy on WDS tickets?
