@@ -43,7 +43,7 @@ constants.url = 'wds.nky';
 if (host === 'worlddominationsummit.com') {
   constants.stripe_pk = 'pk_live_v32iH6nfQOgPmKgQiNOrnZCi';
   constants.url = 'api.worlddominationsummit.com';
-} else if (host === 'stagin.wds.fm') {
+} else if (host === 'staging.wds.fm') {
   constants.url = 'staging.worlddominationsummit.com';
 }
 constants.apiUrl = `${constants.url}/api`;
