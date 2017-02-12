@@ -18,6 +18,7 @@ const routes = (
     <Route path="/claim/:id" component={Claim} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/be-there" component={TicketPurchase} />
+    <Route path="/id" component={Person} />
     <Route component={EnsureLoggedIn}>
       <Route path="/claim" component={Claim} />
       <Route path="/welcome" component={Welcome} />

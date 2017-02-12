@@ -3,3 +3,20 @@
 .namesample {
   font-size: 15px;
 }
+
+.shell {
+  position: relative;
+}
+.usernameStatus {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+:global .available.usernameInp {
+  background: #919F00;
+}
+:global .not-available.usernameInp {
+  background: #CF4D1A;
+}

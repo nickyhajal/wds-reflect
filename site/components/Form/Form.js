@@ -74,7 +74,10 @@ class Form extends Component {
       actions.push(this.props.onSubmit);
     }
     actions[0](this.state.form)
-    .then(this.finish);
+    .then(this.finish)
+    .catch((msg) => {
+      this.finish({ err: msg, showMsg: true });
+    });
   }
   submitToList() {
     return new Promise((resolve, reject) => {
@@ -103,15 +106,19 @@ class Form extends Component {
   }
   finish(rsp) {
     if (rsp !== undefined && rsp.err) {
-      this.setState({ status: 'error' });
+      if (rsp.showMsg) {
+        this.setState({ status: 'error', errorMsg: rsp.err });
+      } else {
+        this.setState({ status: 'error', });
+      }
       if (this.props.onError) {
         this.props.onError(rsp);
       }
       setTimeout(() => {
-        this.setState({ status: 'ready' });
+        this.setState({ status: 'ready', showErrorMsg: false });
       }, 4000);
     } else {
-      this.setState({ status: 'success' });
+      this.setState({ status: 'success', showErrorMsg: false });
       if (this.props.onSuccess) {
         this.props.onSuccess(rsp);
       }
@@ -143,7 +150,11 @@ class Form extends Component {
     } else if (this.state.status === 'success') {
       btnText = this.props.buttonSuccess;
     } else if (this.state.status === 'error') {
-      btnText = this.props.buttonError;
+      if (this.state.errorMsg !== undefined) {
+        btnText = this.state.errorMsg;
+      } else {
+        btnText = this.props.buttonError;
+      }
     }
     const children = [];
     let propsChildren = this.props.children;

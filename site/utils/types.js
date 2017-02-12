@@ -22,6 +22,7 @@ const types = {
     navOpen: PropTypes.bool,
     assets: PropTypes.shape({
       interests: PropTypes.arrayOf(PropTypes.object),
+      questions: PropTypes.arrayOf(PropTypes.object),
     }),
   }).isRequired,
 };

@@ -47,9 +47,9 @@ export function setLoginRedirect(loginRedirectUrl) {
 
 export function syncAssets() {
   return (dispatch) => {
-    api('get assets', { assets: 'interests' })
+    api('get assets', { assets: 'interests,questions' })
     .then((rsp) => {
-      const assets = _.pick(rsp.data, ['interests']);
+      const assets = _.pick(rsp.data, ['interests', 'questions']);
       dispatch({
         type: C.APP_SET_ASSETS,
         assets,

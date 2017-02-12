@@ -14,9 +14,12 @@ const auth = {
     }
     return me;
   },
-  setMe(raw) {
+  setMe(raw, origUsername = false) {
     const rsp = raw.data;
     if (rsp.me) {
+      if (origUsername && rsp.me.user_name !== undefined) {
+        rsp.me.origUsername = rsp.me.user_name;
+      }
       if (rsp.me.answers !== undefined) {
         rsp.me = this.processAnswers(rsp.me);
       }
@@ -28,7 +31,7 @@ const auth = {
   getMe() {
     return api('get assets', { assets: 'me' })
     .then((raw) => {
-      this.setMe(raw);
+      this.setMe(raw, 'origUsername');
     })
     .catch((error) => {
       console.error(error);

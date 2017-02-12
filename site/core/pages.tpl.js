@@ -1,6 +1,9 @@
 %imports%
+import Profile from '../containers/Profile';
 
-const pages = {};
+const pages = {
+  profile: Profile,
+};
 
 %pages%
 

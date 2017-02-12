@@ -67,8 +67,8 @@ class Username extends React.Component {
   }
   render() {
     const props = _.omit(this.props, ['className', 'styleName', 'styles']);
-    let code = props.values.calling_code !== undefined ? props.values.calling_code : '1';
-    if (code === '1' && props.values.country !== undefined) {
+    let code = props.values.calling_code !== undefined && props.values.calling_code ? props.values.calling_code : '1';
+    if (code === '1' && props.values.country !== undefined && props.values.country) {
       code += `-${props.values.country}`;
     } else if (code === '1') {
       code += '-US';

@@ -13,8 +13,10 @@ import actions from '../../actions';
 import is from '../../utils/is';
 
 const openVideo = (act, headerVideo) => {
-  act.setModalData('video', { id: headerVideo });
-  act.openModal('video');
+  if (headerVideo) {
+    act.setModalData('video', { id: headerVideo });
+    act.openModal('video');
+  }
 };
 const renderHeader = ({
   headerImage, headerVideo, headerClip, headerSize, headerPosition, act,

@@ -468,14 +468,15 @@ class Welcome extends Component {
     const html = document.documentElement;
     const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
     const $e = $('.fillScreen');
+    const $p = $('.partShell', '.fillScreen');
     $e.css('min-height', '');
     const scroll = Math.max(body.scrollHeight, html.clientHeight);
-    let bonus = 0;
+    let bonus = 200;
     if (scroll > html.clientHeight) {
-      bonus = 120;
+      bonus = 320;
     }
     if ($e.length) {
-      $e.css('min-height', `${height - $e.offset().top + bonus}px`);
+      $e.css('min-height', `${$p.offset().top + $p.height() + bonus}px`);
     }
   }
   next() {
@@ -518,11 +519,15 @@ class Welcome extends Component {
     let post = this.form.getValues();
     post.user_id = this.props.auth.me.user_id;
     return new Promise((resolve, reject) => {
-      api('patch user', post)
-      .then((rsp) => {
-        resolve(rsp);
-      })
-      .catch(reject);
+      if (this.props.auth.usernameStatus === 'not-available') {
+        reject('That URL is taken');
+      } else {
+        api('patch user', post)
+        .then((rsp) => {
+          resolve(rsp);
+        })
+        .catch(reject);
+      }
     });
   }
   pick() {
@@ -562,7 +567,7 @@ class Welcome extends Component {
         transitionEnterTimeout={500}
         transitionLeaveTimeout={300}
       >
-        <div styleName="part-shell" className={`${className} ${format}`} key={`k-${this.state.section}-${this.state.step}`}>
+        <div styleName="part-shell" className={`partShell ${className} ${format}`} key={`k-${this.state.section}-${this.state.step}`}>
           <div styleName="content-shell">
             <h3>{part.title}</h3>
             {part.content}
@@ -623,8 +628,8 @@ class Welcome extends Component {
           src="pattern/dot-cover.png"
           styleName="dots"
           width="100%"
-          height="90%"
-          css={{ position: 'absolute', top: '-100px', left: '-280px', zIndex: '-1' }}
+          height="620px"
+          css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}
         />
         <Block align="center" textAlign="center">
           <Image src="logo.png" width="123" height="26" fit="contain" margin="-104px auto 80px" />
@@ -638,7 +643,6 @@ class Welcome extends Component {
     if (!this.props.auth.me && !this.props.auth.error) {
       return <ClaimLoading />;
     } else if (this.props.auth.me) {
-      console.log(this.props.auth.me)
       if (this.started) {
         return this.renderWalkthrough();
       }

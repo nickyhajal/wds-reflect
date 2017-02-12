@@ -1,0 +1,122 @@
+@import 'vars';
+
+.shell {
+  
+}
+
+.profile {
+  margin-top: -220px;
+  background: transparent;
+
+  h2 {
+    background: $blue;
+    color: $white;
+    padding: 27px 20px 18px;
+    margin-bottom: 0;
+    font-size: 34px;
+    text-indent: 263px;
+    text-align: left;
+  }
+  :global .avatarShell {
+    width: 260px;
+    height: 286px;
+    background: $canvas;
+    padding: 8px;
+    margin-top: -145px;
+    margin-left: -70px;
+    box-sizing: content-box;
+
+    :global .avatar {
+      width: 260px;
+      height: 286px;
+    };
+  }
+  .map {
+    height: 190px;
+    width: 744px;
+    position: absolute;
+    left: 256px;
+    margin-top: -50px;
+    top: 50px;
+  }
+  .content {
+    .right {
+      padding-left: 20px;
+      text-align: left;
+      margin-left: 217px;
+      width: 700px;
+      padding-top: 8px;
+    }
+    h3 {
+      text-align: left;
+      font-size: 24px;
+      font-family: Vitesse;
+      font-weight: normal;
+      margin-bottom: 8px;
+      color: $blue;
+     }
+    .connect {
+      float: left;
+      width: 256px;
+      height: 100px;
+      margin-left: -50px;
+      padding: 4px 8px 4px 4px;
+
+      a {
+        display: block;
+        background: $gray;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 2px;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+  .qna {
+    padding: 20px;
+    background: $gray;
+    width: 47%;
+    display: block;
+    float: left;
+    clear: left;
+    color: $dark;
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    &:nth-of-type(2n) {
+      clear: none;
+      margin-right: 0;
+    }
+
+    h4 {
+      font-family: KarlaBold;
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 16px;
+      font-weight: normal;
+    }
+  }
+  .location {
+    text-align: left;
+    font-family: Vitesse;
+    font-size: 26px;
+    width: 430px;
+    margin-bottom: 16px;
+  }
+
+  .interests {
+    margin-top: 32px;
+    div {
+      display: inline-block;
+      background: $gray;
+      padding: 8px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      color: rgb(174, 172, 167);
+     }
+  }
+}

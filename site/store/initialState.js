@@ -16,6 +16,7 @@ export default {
     me: false,
     checked: false,
     status: 'ready',
+    usernameStatus: false,
     error: false,
   }),
   checkout: Map({

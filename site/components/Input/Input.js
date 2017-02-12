@@ -2,9 +2,8 @@ import React, { PropTypes } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Input.css';
 
-const Input = ({ value, id, type, placeholder, onChange, css, values, pretext, height, postChange }) => {
+const Input = ({ value, id, type, placeholder, onChange, css, values, pretext, height, postChange, className }) => {
   let vals = values !== undefined ? values : {};
-
   let valId = id;
   if (valId.indexOf('[') > -1) {
     valId = `flat__${valId.replace(/\]/g, '').split('[').join('__')}`;
@@ -29,6 +28,7 @@ const Input = ({ value, id, type, placeholder, onChange, css, values, pretext, h
           type={type}
           name={valId}
           placeholder={placeholder}
+          className={className}
           value={val}
           onChange={change}
         />)
@@ -46,6 +46,8 @@ Input.propTypes = {
   onChange: PropTypes.func,
   css: PropTypes.objectOf(PropTypes.string),
   type: PropTypes.string,
+  className: PropTypes.string,
+  postChange: PropTypes.func,
 };
 
 Input.defaultProps = {

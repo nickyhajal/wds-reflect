@@ -30,6 +30,42 @@ export function updateUseExistingCard(existing) {
   };
 }
 
+export function checkUsername(userName) {
+  return (dispatch, getState) => {
+
+    // If username was passed, continue
+    if (userName !== undefined && userName && userName.length) {
+      const me = getState().auth.get('me');
+
+      // If the username is the same the user's current username, no notices
+      if (me.origUsername !== undefined && me.origUsername === userName) {
+        dispatch({
+          type: C.AUTH_SET_USERNAME_STATUS,
+          usernameStatus: false,
+        });
+
+      // If it's different, check away
+      } else {
+        api('get user/check_name', { user_name: userName })
+        .then((rsp) => {
+          const usernameStatus = rsp.data.exists ? 'not-available' : 'available';
+          dispatch({
+            type: C.AUTH_SET_USERNAME_STATUS,
+            usernameStatus,
+          });
+        });
+      }
+
+    // No username passed, so clear any notices about the username
+    } else {
+      dispatch({
+        type: C.AUTH_SET_USERNAME_STATUS,
+        usernameStatus: false,
+      });
+    }
+  };
+}
+
 export function updateMe(me, param) {
   return (dispatch, getState) => {
     let setMe = me;

@@ -15,6 +15,7 @@ const constants = createConstants(
   'AUTH_SET_STATUS',
   'AUTH_LOGOUT',
   'AUTH_SET_USE_EXISTING_CARD',
+  'AUTH_SET_USERNAME_STATUS',
 
   // MAIN PANEL ACTIONS
   'MODAL_SET_OPEN',
@@ -37,8 +38,8 @@ const constants = createConstants(
 constants.fire_key = 'AIzaSyD77ljc6Wdoc3AKg_a1FnE58QDyCWhSgSA';
 constants.fire_url = 'worlddominationsummit';
 constants.stripe_pk = 'pk_test_8WKTIWKXB6T1eFT9sFqrymCM';
-// constants.url = 'wds.nky';
-constants.url = 'staging.worlddominationsummit.com';
+constants.url = 'wds.nky';
+// constants.url = 'staging.worlddominationsummit.com';
 // constants.stripe_pk = 'pk_live_v32iH6nfQOgPmKgQiNOrnZCi';
 // constants.url = 'api.worlddominationsummit.com';
 constants.apiUrl = `${constants.url}/api`;
