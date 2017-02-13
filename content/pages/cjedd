@@ -26,6 +26,7 @@
 </Section>
 <Section color="canvas">
   <Block>## WDS 2017 Speakers</Block>
+  Every year we're excited to invite several friends of WDS living extraordinary lives and building a better world by learning from their stories, experiences, and lessons. Here are the confirmed speakers for WDS 2017 with more being announced each month leading.  
   <Tabs style="dots">
     <Tab title="Shaun King">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Shaun.King.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
@@ -37,33 +38,29 @@
 <p>When it comes to the Black Lives Matter movement, they’re talking specifically about human dignity for African Americans. And for this movement, Shaun is amongst the most compelling voices: a humane and passionate advocate for justice and families, and an extremely visible fundraiser for victims of brutality and discrimination. His latest project is the <Link to="http://www.injusticeboycott.com/">Injustice Boycott.</Link></p>
       </Block>
     </Tab>
-    <Tab title="Valerie Groth">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation_valerie.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+    <Tab title="Vanessa Van Edwards">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Ryan Banks Academy - 2016
+        ## Vanessa Van Edwards - WDS Speaker 2017
 
-        School teachers in urban districts face special challenges in promoting their students’ long-term academic success. It is no surprise that so-called “failing” schools are disproportionately situated in urban centers with high rates of poverty and crime. Valerie Groth is a mission to change that for Chicago-area students. In 2014, she founded Ryan Banks Academy, a coeducational boarding school that seeks to impact the lives of students through a rigorous college and career preparatory education, a supportive boarding program, and a focus on personal development in a positive environment. The goal of Ryan Banks Academy is to teach students not only the value of education, but also encourage them to focus on cultivating their own unique strengths, interests, and passions so that they may lead a purpose-filled life. Curriculum focuses not only on academic pursuits, but also on developing their relationships, core values, and mindset.
+        Vanessa Van Edwards is a behavioral investigator and published author. She runs a human behavior research lab where she uncovers the hidden forces that drive our behavior called the <Link to="http://www.scienceofpeople.com/">Science of People.</Link>.
 
-<p>There are many steps in her journey to build the school, and the Scholarship for Real Life grant will be helping get her fundraising efforts of the ground, as well as help support her burgeoning volunteer program. She is currently looking for assistance with grant writing and donor outreach, as well as anyone with a background in curriculum development. If you are interested in contributing to Ryan Banks Academy, you can email <Link to="mailto:ryanbanksacademy@gmail.com">ryanbanksacademy@gmail.com</Link> or visit <Link to="http://www.ryanbanksacademy.org">ryanbanksacademy.org</Link></p>
+<p>Vanessa is fascinated by body language, leadership and charisma and writes about these topics for CNN, <i>Fast Company</i> and <i>Forbes</i>. She also writes a monthly column for <i>Entrepreneur Magazine</i> and the <i>Huffington Post</i>. Her innovative work has been featured on NPR, <i>Business Week</i> and <i>USA Today</i>. More importantly she's addicted to sour patch kids, airplane coffee and puppies. Vanessa's new book, <i><Link to="http://www.scienceofpeople.com/captivate/">Captivate</Link></i>, launches this April.</p>
       </Block>
     </Tab>
-    <Tab title="Ben & Amberlynn Slavin">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/photos/SnapType.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+    <Tab title="Rich Roll">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/rich.roll.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## SnapType - 2016
+        ## Rich Roll - WDS Speaker 2017
 
-        SnapType breaks down the barriers to education and helps students survive in a school system that wasn’t designed for them. The app enables students to complete any school worksheet on an iPad.
+        Rich Roll is one of the world's most popular world-class ultra-endurance triathletes, a widely regarded plant-based nutrition & wellness advocate, writer, public speaker, podcast host, husband and father of 4. In 2009 he was recognized as one of the “25 Fittest Men in the World” by /i>Men's Fitness Magazine</i>.
 
-An estimated 1 in 5 people have difficulty expressing themselves through writing. For students, that can lead to falling behind in class, emotional problems at home, low self-esteem, and a sense of hopelessness. When Amberlynn Slavin was doing her fieldwork as an occupational therapy graduate student, she worked with a child who had dysgraphia - a learning disability that makes handwriting incredibly messy.
+<p>After a struggle with alcoholism and 20 year respite from competitive sports since his days as a swimmer at Stanford University in the 1980’s, Rich adopted a plant-based diet, shed 50 pounds and launched a middle-aged assault on the Ultraman World Championships, one of the most daunting endurance races on in the world.</p>
 
-Together with her husband, Ben Slavin, they created an app to take a picture of a worksheet and then simply type the answers in on the screen. Feedback from the community has been extremely positive! The challenge they face now is that there are 4 times as many Android devices used around the world than there are Apple. To make SnapType work on Android, they have to re-write the app from the ground up in a completely different programming language.
-
-A WDS Foundation scholarship was granted to help fund the development of SnapType for Android. Soon, students around the world will be given the chance to have more independence, self confidence and the opportunity to keep up with their peers!
-
-<p>To learn more, or to contact Ben and Amberlynn, visit <Link to="http://www.snaptypeapp.com">SnapTypeApp.com</Link>.</p>
+<p>Rich has been featured on CNN and has contributed to publications such as <i>Outside</i>, <i>Los Angeles Times Sunday Magazine</i>, <i>VegNews</i>, <i>Huffington Post</i>, <i>Triathlete</i>, <i>3/GO</i> and <i>Men’s Fitness</i>. His inspirational memoir <i><Link to="http://www.richroll.com/shop/books/finding-ultra-signed/">Finding Ultra</Link></i> is a #1 bestseller on Amazon and he also hosts the popular, Rich Roll Podcast. Learn more about Rich's story at <Link to="http://www.richroll.com/">www.RichRoll.com.</Link></p>
       </Block>
     </Tab>
-        <Tab title="Ben & Amberlynn Slavin">
+        <Tab title="Benny Lewis">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/photos/SnapType.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## SnapType - 2016
