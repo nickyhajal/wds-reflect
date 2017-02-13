@@ -24,13 +24,13 @@
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>
   </Block>
 </Section>
-<Section color="sea">
+<Section color="canvas">
   <Block>## WDS 2017 Speakers</Block>
   <Tabs style="dots">
     <Tab title="Shaun King">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Shaun.King.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## WDS Speaker - 2017
+        ## Shaun King - WDS Speaker 2017
 
        <p>Shaun King is a journalist, a humanitarian, an activist, and the Senior Justice Writer for the <i>New York Daily News</i>. Today, there are crucial conversations rippling across North America—conversations happening on social media, on campuses, in the streets and around dinner tables. In greater numbers, people are talking about real empowerment and liberation for historically disadvantaged groups.</p>
 
@@ -98,7 +98,7 @@ Part of this training will be developed internationally, including a teaching tr
   </Tabs>
   <div class="clear" />
 </Section>
-<Section color="canvas" bound={false}>
+<Section color="sea" bound={false}>
   <Block margin="50px 0 50px 0">
     ## What's Included in My Ticket
     <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
