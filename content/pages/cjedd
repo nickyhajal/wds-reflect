@@ -19,7 +19,7 @@
     
     We’re doing it again in 2017, and all that’s missing is YOU!
       
-    All tickets cost $647 and are sold on a first-come, first-served basis.
+    <p>All tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
     
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>
   </Block>
@@ -43,7 +43,7 @@
       <Block cols="6" textAlign="left">
         ## Vanessa Van Edwards - WDS 2017 Speaker
 
-        Vanessa Van Edwards is a behavioral investigator and published author. She runs a human behavior research lab where she uncovers the hidden forces that drive our behavior called the <Link to="http://www.scienceofpeople.com/">Science of People.</Link>.
+        <p>Vanessa Van Edwards is a behavioral investigator and published author. She runs a human behavior research lab where she uncovers the hidden forces that drive our behavior called the <Link to="http://www.scienceofpeople.com/">Science of People.</Link>.</p>
 
 <p>Vanessa is fascinated by body language, leadership and charisma and writes about these topics for CNN, <i>Fast Company</i> and <i>Forbes</i>. She also writes a monthly column for <i>Entrepreneur Magazine</i> and the <i>Huffington Post</i>. Her innovative work has been featured on NPR, <i>Business Week</i> and <i>USA Today</i>. More importantly she's addicted to sour patch kids, airplane coffee and puppies. Vanessa's new book, <i><Link to="http://www.scienceofpeople.com/captivate/">Captivate</Link></i>, launches this April.</p>
       </Block>
@@ -65,7 +65,7 @@
       <Block cols="6" textAlign="left">
         ## Scott Harrison - WDS 2017 Speaker
 
-        <p>Scott Harrison spent almost 10 years as a nightclub promoter in New York City before leaving to volunteer on a hospital ship o the coast of Liberia, West Africa as a volunteer photojournalist. Returning home to New York City two years later in 2006, he founded the non-profit organization <Link to="https://www.charitywater.org/">charity: water</Link></p>. 
+        <p>Scott Harrison spent almost 10 years as a nightclub promoter in New York City before leaving to volunteer on a hospital ship o the coast of Liberia, West Africa as a volunteer photojournalist. Returning home to New York City two years later in 2006, he founded the non-profit organization <Link to="https://www.charitywater.org/">charity: water</Link>.</p> 
         
         <p>Turning his full attention to the global water crisis and the world’s 663 million people without clean water to drink, he created public installations and innovative online fundraising platforms to spread international awareness of the issue.</p>
         
