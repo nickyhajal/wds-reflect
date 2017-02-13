@@ -25,7 +25,7 @@
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
-  <Block margin="125px 0 50px 0">
+  <Block margin="50px 0 50px 0">
     ## What's Included in My Ticket
     <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
         <Block type="image" src="photos/JoinUs/image-speakers.png">
