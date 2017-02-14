@@ -47,6 +47,6 @@ if (host === 'worlddominationsummit.com') {
   constants.url = 'staging.worlddominationsummit.com';
 }
 constants.apiUrl = `${constants.url}/api`;
-constants.ticketPrice = 547;
+constants.ticketPrice = 647;
 
 module.exports = constants;
