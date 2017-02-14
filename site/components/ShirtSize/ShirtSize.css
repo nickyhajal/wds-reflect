@@ -1,0 +1,29 @@
+@import "vars.css";
+
+.row {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+
+  label {
+    text-align: left;
+  }
+
+  :global(.Select-value) {
+    text-align: left;
+  }
+
+}
+
+
+@media (--phone) {
+  .addrRow {
+    div {
+      width: 100% !important;
+      float: none !important;
+    }
+    :global(.Select-input) input {
+      width: auto !important;
+    }
+  }
+}
