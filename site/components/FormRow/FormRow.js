@@ -3,6 +3,7 @@ import _ from 'lodash';
 import CSSModules from 'react-css-modules';
 import styles from './FormRow.css';
 import FormWrap from '../FormWrap/FormWrap';
+import ShirtSize from '../ShirtSize/ShirtSize';
 import Input from '../Input/Input';
 
 
@@ -15,6 +16,7 @@ const FormRow = ({ onChange, children, values }) => {
       elm.type !== undefined && (
         elm.type === Input ||
         elm.type === FormWrap ||
+        elm.type === ShirtSize ||
         elm.type === 'input' ||
         elm.type === 'select'
       )

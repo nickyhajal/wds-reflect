@@ -5,6 +5,7 @@
   height: 50px;
   margin: -9px -40px;
   text-align: center;
+  padding-left: 160px;
 
   a {
     font-family: VitesseBook;
@@ -91,13 +92,14 @@
 
 :global(.logged-in) .rightNav {
   padding-right: 40px;
+  right: 0px;
 }
 .rightNav {
   position: relative;
   display: inline-block;
-  padding-right: 264px;
   top: -5px;
   float: right;
+  right: 265px;
 }
 .link {
 	color: $orange;

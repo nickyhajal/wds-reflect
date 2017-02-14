@@ -116,8 +116,11 @@ export class Profile extends Component {
       const theAs = [];
       JSON.parse(this.state.user.answers).forEach((v) => {
         const a = v;
-        a.wc = a.answer.split(' ').length;
-        theAs.push(a);
+        const block = [16, 17];
+        if (block.indexOf(+a.question_id) === -1) {
+          a.wc = a.answer.split(' ').length;
+          theAs.push(a);
+        }
       });
       _.sortBy(theAs, 'wc').forEach((a) => {
         assets.questions.forEach((q) => {

@@ -4,6 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './FormWrap.css';
 import Input from '../Input/Input';
 import Username from '../Username/Username';
+import ShirtSize from '../ShirtSize/ShirtSize';
 import Phone from '../Phone/Phone';
 import FormRow from '../FormRow/FormRow';
 
@@ -19,6 +20,7 @@ const FormWrap = (props) => {
         elm.type === Username ||
         elm.type === Phone ||
         elm.type === FormRow ||
+        elm.type === ShirtSize ||
         elm.type === 'input' ||
         elm.type === 'select'
       ) {

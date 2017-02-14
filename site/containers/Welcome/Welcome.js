@@ -17,6 +17,7 @@ import Image from '../../components/Image/Image';
 import Section from '../../components/Section/Section';
 import Tweet from '../../components/Tweet/Tweet';
 import actions from '../../actions';
+import ShirtSize from '../../components/ShirtSize/ShirtSize';
 import styles from './styles.css';
 import types from '../../utils/types';
 import Form from '../../components/Form/Form';
@@ -87,6 +88,23 @@ const parts = [
             <label>Your Email Address</label>
             <Input id="email" type="email" placeholder="Your Email Address" required="You didn't enter your email!" />
           </FormRow>
+        </FormWrap>
+      ),
+    },
+    {
+      title: 'What\'s your t-shirt size?',
+      content: (
+        <div>
+          <div>
+            <p>
+              Let&apos;s make sure you look good in your WDS tee!
+            </p>
+          </div>
+        </div>
+      ),
+      form: (
+        <FormWrap>
+          <ShirtSize />
         </FormWrap>
       ),
     },
@@ -533,7 +551,7 @@ class Welcome extends Component {
   pick() {
     return _.pick(this.props.auth.me, [
       'user_id', 'first_name', 'last_name', 'user_name', 'email', 'phone', 'address', 'address2', 'city',
-      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'calling_code',
+      'country', 'region', 'zip', 'instagram', 'facebook', 'site', 'calling_code', 'size',
     ]);
   }
   renderHeader() {

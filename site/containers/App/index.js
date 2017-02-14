@@ -78,7 +78,7 @@ export class App extends Component {
     let nav = false;
     const subNavs = {
       hub: [
-        'communities', 'your-schedule', 'events',
+        'communities', 'your-schedule', 'events', 'your-profile', // 'settings',
       ],
     };
     Object.keys(subNavs).forEach((parent) => {

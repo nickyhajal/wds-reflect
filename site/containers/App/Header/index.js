@@ -7,12 +7,16 @@ import styles from './Header.css';
 import Navlink from '../Navlink/Navlink';
 import is from '../../../utils/is';
 
-const renderSubNav = (subNav, scrollTo) => {
+const renderSubNav = (subNav, scrollTo, me) => {
   if (subNav && subNav !== 'False') {
     const links = [];
     subNav.forEach((nav) => {
+      let uri = nav;
+      if (uri === 'your-profile') {
+        uri = `~${me.user_name}`;
+      }
       links.push(<Navlink
-        to={`/${nav}`}
+        to={`/${uri}`}
         onClick={scrollTo}
         key={`navto-${nav}`}
       >
@@ -47,7 +51,7 @@ const desktopHeader = (ticketClick, scrollTo, auth, subNav) => (
       </nav>
       {auth.me ? '' : <TicketStub onClick={ticketClick} />}
     </div>
-    {renderSubNav(subNav, scrollTo)}
+    {renderSubNav(subNav, scrollTo, auth.me)}
   </header>
 );
 

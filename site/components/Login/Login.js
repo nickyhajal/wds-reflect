@@ -21,6 +21,7 @@ class Login extends React.Component {
     onSuccess: PropTypes.func,
     onError: PropTypes.func,
     onBack: types.funcOrBool,
+    redirect: PropTypes.bool,
     onForgot: types.funcOrBool,
   };
 
@@ -28,6 +29,7 @@ class Login extends React.Component {
     title: 'Login to Your WDS Account',
     onSuccess: () => {},
     onError: () => {},
+    redirect: false,
     onForgot: false,
   };
 
@@ -46,10 +48,16 @@ class Login extends React.Component {
       e.preventDefault();
     }
     auth.login(this.state.username, this.state.pw)
+    .then(this.success)
     .then(this.props.onSuccess)
     .catch(this.props.onError);
   }
 
+  success() {
+    if (this.props.redirect) {
+      browserHistory.replace('/hub');
+    }
+  }
   change(e) {
     const t = e.target;
     const state = {};
