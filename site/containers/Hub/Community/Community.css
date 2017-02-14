@@ -1,0 +1,51 @@
+@import 'vars';
+
+.shell {
+}
+
+.contentShell {
+  margin-top: -220px;
+  background: transparent;
+
+  h2 {
+    background: $blue;
+    color: $white;
+    padding: 26px 40px 19px;
+    margin-bottom: 0;
+    font-size: 34px;
+    text-align: left;
+  }
+  h3 {
+    font-size: 24px;
+    font-family: Vitesse;
+    line-height: 28px;
+    font-weight: normal;
+    margin-bottom: 32px;
+    width: 100%;
+    text-align: left;
+    color: $blue;
+    clear: both;
+   }
+  a.btn {
+    display: block;
+    background: $orange;
+    color: $white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 8px;
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
+    span {
+      display: block;
+      font-size: 15px;
+      font-family: KarlaItalic;
+      opacity: 0.8;
+    }
+  }
+}

@@ -4,6 +4,8 @@ import App from '../containers/App/';
 import People from '../containers/People/';
 import Person from '../containers/Person/';
 import Claim from '../containers/Claim/Claim';
+import Communities from '../containers/Hub/Communities/Communities';
+import Community from '../containers/Hub/Community/Community';
 import Welcome from '../containers/Welcome/Welcome';
 import Pageloader from '../containers/Pageloader/';
 import TicketPurchase from '../containers/TicketPurchase/TicketPurchase';
@@ -26,6 +28,8 @@ const routes = (
     <Route path="/id" component={Person} />
     <Route component={EnsureLoggedIn}>
       <Route path="/claim" component={Claim} />
+      <Route path="/communities" component={Communities} />
+      <Route path="/community/:id" component={Community} />
       <Route path="/welcome" component={Welcome} />
       <Route path="/hub" component={Hub} />
       <Route path="/your-schedule" component={YourSchedule} />

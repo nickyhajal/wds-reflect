@@ -78,7 +78,7 @@ export class App extends Component {
     let nav = false;
     const subNavs = {
       hub: [
-        'communites', 'updates', 'your-schedule', 'events',
+        'communities', 'your-schedule', 'events',
       ],
     };
     Object.keys(subNavs).forEach((parent) => {
@@ -86,6 +86,9 @@ export class App extends Component {
         nav = parent;
       }
     });
+    if (uri.indexOf('~') > -1 || uri.indexOf('community/') > -1) {
+      nav = 'hub';
+    }
     if (nav) {
       nav = [nav].concat(subNavs[nav]);
     }

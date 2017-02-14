@@ -1,0 +1,23 @@
+@import "vars.css";
+
+.shell {
+  width: 600px;
+  margin: 0 auto;
+
+  h4 {
+    color: #fff;
+    font-family: Vitesse;
+    font-weight: normal;
+    padding: 10px;
+  }
+}
+
+
+.inp {
+  background: $canvas;
+  padding: 16px;
+  color: $dark;
+  border: 0;
+  width: 100%;
+}
+

@@ -1,0 +1,27 @@
+@import 'vars';
+
+.shell {
+  
+}
+
+.contentShell {
+  margin-top: -220px;
+  background: transparent;
+
+  h2 {
+    background: $blue;
+    color: $white;
+    padding: 26px 40px 19px;
+    margin-bottom: 0;
+    font-size: 34px;
+    text-align: left;
+  }
+  h3 {
+    font-size: 24px;
+    font-family: Vitesse;
+    line-height: 28px;
+    font-weight: normal;
+    margin-bottom: 32px;
+    color: $blue;
+   }
+}

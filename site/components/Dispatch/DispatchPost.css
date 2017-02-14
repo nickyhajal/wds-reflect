@@ -1,0 +1,24 @@
+@import "vars.css";
+
+.inp {
+  background: $canvas;
+  padding: 16px;
+  color: $dark;
+  border: 0;
+  width: 100%;
+
+  &:global(.ready) {
+    height: 50px !important;
+  }
+}
+
+.btn {
+  background: $orange;
+  border: 0;
+  float: right;
+  color: $white;
+  font-family: Vitesse;
+  font-size: 17px;
+  padding: 10px 0px;
+  width: 140px;
+}

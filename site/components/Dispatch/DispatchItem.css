@@ -1,0 +1,125 @@
+@import "vars.css";
+
+.comments {
+    padding-bottom: 16px;
+    border-bottom: 1px solid $gray;
+    margin-bottom: 16px;
+}
+.label {
+  background: $canvas;
+  color: $dark;
+  padding: 4px 6px;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  color: rgb(171, 171, 157);
+  font-size: 14px;
+
+}
+.item {
+  position: relative;
+  clear: both;
+  text-align: left;
+  padding: 30px 0;
+  border-bottom: 1px solid $canvas;
+
+}
+.content {}
+.contentShell {
+  margin-left: 105px;
+}
+.posted {
+  font-family: KarlaItalic;
+  color: rgb(171, 171, 157);
+  margin-bottom: 8px;
+}
+.author {
+  color: $orange;
+  font-family: Vitesse;
+  text-decoration: none;
+}
+.avatar :global(.avatar) {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 25px;
+  margin-top: 4px;
+}
+.controls {
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: -8px;
+  text-align: left;
+
+  button {
+    font-family: Karla;
+    font-size: 14px;
+    text-decoration: underline;
+    border: 0;
+    background: transparent;
+    color: $orange;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    margin-right: 12px;
+  }
+}
+.likes {
+  text-decoration: none;
+
+  div, span {
+    display: inline-block;
+  }
+  div {
+    text-decoration: underline;
+  }
+  span {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(171, 171, 157);
+    font-family: VitesseBook;
+    padding-right: 14px;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 1px;
+      height: 8px;
+      background: rgb(171, 171, 157);
+      display: block;
+      top: 3px;
+      right: 7px;
+    }
+  }
+}
+
+.commentShell {
+  margin-top: 20px;
+  
+  .commentPostShell {
+    width: 492px;
+    float: right;
+
+    textarea {
+      width: 422px !important;
+    }
+    :global(.avatar) {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      margin-left: 20px;
+    }
+    button {
+      width: 422px !important;
+    }
+  }
+  :global(.avatar) {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 256px;
+  }
+}
