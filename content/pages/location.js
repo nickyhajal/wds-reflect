@@ -91,7 +91,7 @@
         ### Hotel Modera
         **0.3 Mi** from Base
       </Block>
-      <Block type="caption" src="images/photos/hilton.png" label="Coming Soon">
+      <Block type="caption" src="photos/hilton.png" label="Coming Soon">
         ### Hilton
         **0.5 Mi** from Base
       </Block>
