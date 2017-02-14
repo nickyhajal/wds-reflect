@@ -53,14 +53,14 @@ import is from '../utils/is';
   <div className="clear" />{'\n'}
   <SpeakerList title="Alumni Speakers" />{'\n'}
   <Grid margin="60px 0 -20px 0">
-    <Block type="image" src="photos/fear.jpg">
-      ## Main Stage{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
-      <Button to="/academies">Learn More</Button>
+    <Block type="image" src="photos/Portland-Oregon.png">
+      ## Portland{'\n'}
+      Our home base since year one. Learn more about our beloved city and confirm whether or not all the fun things you've heard is true (they probably are).{'\n'}
+      <Button to="/location">Learn More</Button>
     </Block>
-    <Block type="image" src="photos/letters.jpg">
-      ## Activities{'\n'}
-      Since 2011, WDS has brought together more than 10,000 remarkable people from all 50 states and more than 40 countries.{'\n'}
+    <Block type="image" src="photos/JoinUs/image-academies.jpg">
+      ## Academies{'\n'}
+      These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields.{'\n'}
       <Button to="/academies">Learn More</Button>
     </Block>
   </Grid>

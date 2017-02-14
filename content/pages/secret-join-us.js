@@ -21,7 +21,7 @@
       
     All tickets cost $647 and are sold on a first-come, first-served basis.
     
-    <Button modal="joinUs" fitToText>Join the Wait List!</Button>
+    <Button to="/be-there" fitToText>Join Us!</Button>
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
@@ -63,4 +63,4 @@
     </Grid>
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="buy-box" />

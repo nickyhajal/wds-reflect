@@ -138,7 +138,7 @@ const parts = [
           <div>
             <p>
               Please provide us with your best mailing address so we can send
-              you the ocassional surprise. :)
+              you the occasional surprise. :)
             </p>
           </div>
         </div>

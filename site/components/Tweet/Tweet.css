@@ -4,7 +4,7 @@
 
 position: relative;
   margin-bottom: 20px;
-  width: 380px;
+  width: 420px;
   margin-top: -20px;
 
   @media(--tablet) {
@@ -23,7 +23,7 @@ position: relative;
     width: 100%;
     margin-bottom: 60px;
     background: #62C0CA;
-    margin-top: -3px !important;
+    margin-top: -4px !important;
     position: relative;
   }
 
@@ -42,7 +42,7 @@ position: relative;
   margin-top: 20px;
   border: 2px solid #fff;
   height: 100px;
-  width: 380px;
+  width: 420px;
   @media(--phone) {
     width: 100%;
   }

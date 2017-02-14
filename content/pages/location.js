@@ -91,8 +91,8 @@
         ### Hotel Modera
         **0.3 Mi** from Base
       </Block>
-      <Block type="caption" src="photos/HiLo-Hotel-Exterior.jpg" label="Coming Soon">
-        ### Hi-Lo Hotel
+      <Block type="caption" src="photos/hilton.png" label="Coming Soon">
+        ### Hilton
         **0.5 Mi** from Base
       </Block>
       <Block type="caption" src="photos/Jupiter-Hotel-exterior.jpg" label="Coming Soon">

@@ -18,7 +18,7 @@ class Tweet extends React.Component {
     super();
     autoBind(Object.getPrototypeOf(this));
     this.state  ={
-      tweet: `Just setup my attendee profile for WDS! #WDS2016`,
+      tweet: `Just setup my attendee profile for WDS! #WDS2017`,
       status: 'ready',
     };
   }
@@ -31,42 +31,42 @@ class Tweet extends React.Component {
     this.inp = inp;
   }
   send() {
-    if (this.state.status !== 'sent' && this.state.status !== 'sending') {
-      this.setState({ status: 'sending' });
-      api('post user/tweet', { tweet: this.inp.value })
-      .then(() => {
-        this.setState({ status: 'sent' });
-      });
+    if (
+      this.props.auth.me !== undefined &&
+      this.props.auth.me.twitter !== undefined &&
+      this.props.auth.me.twitter.length) {
+      if (this.state.status !== 'sent' && this.state.status !== 'sending') {
+        this.setState({ status: 'sending' });
+        api('post user/tweet', { tweet: this.inp.value })
+        .then(() => {
+          this.setState({ status: 'sent' });
+        });
+      }
+    } else {
+      const url = `https://twitter.com/intent/tweet?text=${encodeURI(this.inp.value)}`;
+      window.open(url, 'tweetWindow', 'status = 1, height = 500, width = 680, resizable = 0');
     }
   }
   change(e) {
     this.setState({
       tweet: e.target.value,
-    })
+    });
   }
   render() {
-    if (
-      this.props.auth.me !== undefined &&
-      this.props.auth.me.twitter !== undefined &&
-      this.props.auth.me.twitter.length) {
-      if (this.props.auth.me.twitter.length) {
-        const count = 140 - this.state.tweet.length;
-        let btn = 'Send Tweet!';
-        if (this.state.status === 'sending') {
-          btn = 'Sending...';
-        } else if (this.state.status === 'sent') {
-          btn = 'Sent!';
-        }
-        return (
-          <div styleName="shell">
-            <div styleName="count">{count}</div>
-            <textarea styleName="tweet" ref={this.setInp} onChange={this.change} value={this.state.tweet} />
-            <Button onClick={this.send}>{btn}</Button>
-          </div>
-        );
-      }
+    const count = 140 - this.state.tweet.length;
+    let btn = 'Send Tweet!';
+    if (this.state.status === 'sending') {
+      btn = 'Sending...';
+    } else if (this.state.status === 'sent') {
+      btn = 'Sent!';
     }
-    return '';
+    return (
+      <div styleName="shell">
+        <div styleName="count">{count}</div>
+        <textarea styleName="tweet" ref={this.setInp} onChange={this.change} value={this.state.tweet} />
+        <Button onClick={this.send}>{btn}</Button>
+      </div>
+    );
   }
 }
 

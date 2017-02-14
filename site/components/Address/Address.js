@@ -30,12 +30,17 @@ class Address extends React.Component {
         const country = {
           value: c.alpha2, label: c.name,
         };
-        countries.push(country);
+        if (c.alpha2 !== 'US') {
+          countries.push(country);
+        }
         byId[c.alpha2] = country;
       });
+      const sortedCountries = [
+        { value: 'US', label: 'United States' },
+      ].concat(_.sortBy(countries, 'label'));
       this.countries = {
         byId,
-        list: countries,
+        list: sortedCountries,
       };
     }
     return this.countries;

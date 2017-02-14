@@ -15,7 +15,7 @@
     top: 0;
   }
   .progress-bar {
-    height: 37px;
+    height: 36px;
     right: 6px;
     top: 3px;
     &:before {

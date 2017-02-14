@@ -113,8 +113,8 @@ import is from '../utils/is';
         ### Hotel Modera{'\n'}
         **0.3 Mi** from Base{'\n'}
       </Block>
-      <Block type="caption" src="photos/HiLo-Hotel-Exterior.jpg" label="Coming Soon">
-        ### Hi-Lo Hotel{'\n'}
+      <Block type="caption" src="photos/hilton.png" label="Coming Soon">
+        ### Hilton{'\n'}
         **0.5 Mi** from Base{'\n'}
       </Block>
       <Block type="caption" src="photos/Jupiter-Hotel-exterior.jpg" label="Coming Soon">
