@@ -14,7 +14,6 @@ const Avatar = ({ user, width, css, clip }) => {
     shellCss.WebkitClipPath = theClip;
     avatarCss.clipPath = theClip;
     avatarCss.WebkitClipPath = theClip;
-    console.log(theClip);
   }
   avatarCss.backgroundImage = `url(${url})`;
   avatarCss.backgroundSize = 'cover';

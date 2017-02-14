@@ -205,6 +205,7 @@ const config = {
 if (!isDebug) {
   config.plugins.push(new webpack.optimize.DedupePlugin());
   config.plugins.push(new webpack.optimize.UglifyJsPlugin({
+    preserveComments: false,
     compress: {
       warnings: isVerbose,
     },

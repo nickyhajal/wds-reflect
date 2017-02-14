@@ -16,7 +16,6 @@ export default class Link extends React.Component {
     const { to, children, ...rest } = this.props;
     const toLocation = this.parseTo(to);
     const isInternal = this.isInternal(toLocation);
-    console.log(toLocation, isInternal, to);
     if (isInternal) {
       return (<ReactLink to={toLocation.pathname} {...rest}>{children}</ReactLink>);
     }

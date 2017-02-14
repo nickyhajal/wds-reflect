@@ -58,6 +58,10 @@ export class Profile extends Component {
     this.user = window.location.pathname.replace('/~', '');
     this.loadUser();
   }
+  componentDidMount() {
+    this.user = window.location.pathname.replace('/~', '');
+    this.loadUser();
+  }
   componentDidUpdate() {
     const qnas = $('.qnas > div');
     const hs = [];
@@ -139,22 +143,22 @@ export class Profile extends Component {
   renderConnect() {
     const { site, twitter, facebook, instagram } = this.state.user;
     const btns = [];
-    if (site !== undefined && site.length) {
+    if (site !== undefined && site && site.length) {
       btns.push(
         <Link key="btn-site" to={`http://${site}`}>{site}</Link>
       );
     }
-    if (twitter !== undefined && twitter.length) {
+    if (twitter !== undefined && twitter && twitter.length) {
       btns.push(
         <Link key="btn-twitter" to={`http://twitter.com/${twitter}`}>@{twitter}</Link>
       );
     }
-    if (facebook !== undefined && facebook.length) {
+    if (facebook !== undefined && facebook && facebook.length) {
       btns.push(
         <Link key="btn-fb" to={`http://facebook.com/${facebook}`}>fb/{facebook}</Link>
       );
     }
-    if (instagram !== undefined && instagram.length) {
+    if (instagram !== undefined && instagram && instagram.length) {
       btns.push(
         <Link key="btn-ig" to={`http://instagram.com/${instagram}`}>ig/{instagram}</Link>
       );

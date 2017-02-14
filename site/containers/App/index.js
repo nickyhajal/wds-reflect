@@ -73,14 +73,37 @@ export class App extends Component {
     });
     return found;
   }
+  subNav() {
+    const uri = window.location.pathname.substr(1);
+    let nav = false;
+    const subNavs = {
+      hub: [
+        'communites', 'updates', 'your-schedule', 'events',
+      ],
+    };
+    Object.keys(subNavs).forEach((parent) => {
+      if (uri === parent || subNavs[parent].indexOf(uri) > -1) {
+        nav = parent;
+      }
+    });
+    if (nav) {
+      nav = [nav].concat(subNavs[nav]);
+    }
+    return nav;
+  }
   renderSiteMode() {
+    const status = this.props.auth.me ? 'logged-in' : 'logged-out';
+    const subNav = this.subNav();
+    const className = `${status} ${subNav ? 'hasSubNav' : 'noSubNav'}`;
     return (
-      <div>
+      <div className={className}>
         <Header
           scrollTo={this.scrollTo}
           ticketClick={this.ticketClick}
           onMenuClick={this.menuClick}
           navOpen={this.props.app.navOpen}
+          auth={this.props.auth}
+          subNav={subNav}
         />
         <main>
           { this.props.children }
@@ -138,6 +161,7 @@ function mapStateToProps(state) {
 App.propTypes = {
   children: types.children,
   app: types.app,
+  auth: types.auth,
   location: types.location,
   act: types.actions,
 };

@@ -101,7 +101,7 @@ const parts = [
             </p>
             <p>
               Of course, we will only contact you if necessary and will never
-              share your number with any 3rd parties.
+              share your number with any third parties.
             </p>
           </div>
         </div>
@@ -332,7 +332,7 @@ const parts = [
         <div />
       ),
       customForm: (
-        <Answer question_id="15" label="Your Fave Book" />
+        <Answer question_id="15" label="Your Favorite Book" />
       ),
     },
     {

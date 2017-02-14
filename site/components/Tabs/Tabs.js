@@ -116,7 +116,6 @@ class Tabs extends React.Component {
     const headCss = {};
     headCss.clipPath = finalClip;
     headCss.WebkitClipPath = finalClip;
-    console.info(headCss);
     return (
       <div>
         {this.props.children.map(tab => (

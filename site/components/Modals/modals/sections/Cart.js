@@ -128,7 +128,6 @@ class Cart extends React.Component {
 				mnth.removeAttribute("name");
 			}
 			const form = document.getElementById('checkoutForm');
-			console.info(form);
 			window.Stripe.setPublishableKey("pk_live_v32iH6nfQOgPmKgQiNOrnZCi");
 			window.Stripe.card.createToken(form, (status, rsp) => {
 				if (rsp.error !== undefined && rsp.error) {

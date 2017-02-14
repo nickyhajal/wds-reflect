@@ -1,5 +1,28 @@
 @import "vars";
 
+.subNav {
+  background: $canvas;
+  height: 50px;
+  margin: -9px -40px;
+  text-align: center;
+
+  a {
+    font-family: VitesseBook;
+    color: $orange;
+    display: inline-block;
+    margin-right: 30px;
+    padding-top: 16px;
+    text-decoration: none;
+    font-family: 14px;
+
+    &:hover, &:global(.active) {
+      border-bottom: 2px solid $orange;
+    }
+    &:global(.active) {
+      font-family: Vitesse;
+    }
+  }
+}
 .hiddenNav {
 	display: block;
   left: -9999px;
@@ -66,6 +89,16 @@
   top: -5px;
 }
 
+:global(.logged-in) .rightNav {
+  padding-right: 40px;
+}
+.rightNav {
+  position: relative;
+  display: inline-block;
+  padding-right: 264px;
+  top: -5px;
+  float: right;
+}
 .link {
 	color: $orange;
 	display: block;

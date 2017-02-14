@@ -8,7 +8,6 @@ import Image from '../Image/Image';
 import colorize from '../../utils/colorize';
 
 const Tab = (props) => {
-  console.info(props.children);
   return (
   <div>
   {props.children}</div>

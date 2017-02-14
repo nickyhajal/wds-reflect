@@ -18,7 +18,7 @@ const Input = ({ value, id, type, placeholder, onChange, css, values, pretext, h
   let val = vals[valId] !== undefined ? vals[valId] : '';
   val = value !== undefined ? value : val;
   return (
-    <div styleName="box" style={css} styleName={(pretext.length ? 'pretext' : '')}>
+    <div style={css} styleName={(pretext.length ? 'pretext' : 'box')}>
       {(pretext.length ? <span>{pretext}</span> : '')}
       {
         (type === 'multi') ?

@@ -17,7 +17,6 @@ class InterestPicker extends React.Component {
   }
 
   processInterests() {
-    console.log("PROCESS");
     this.interests = {};
     if (
       this.props.app.assets !== undefined &&
