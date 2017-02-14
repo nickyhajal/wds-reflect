@@ -37,7 +37,9 @@ class Tabs extends React.Component {
       $('.tab-button', shell).each((i) => {
         tabWidths[i] += add;
       });
-      $('.dots-controls .image-unanchored', shell).css({ width: `${((tabWidths[0] * tabWidths.length) - tabWidths[0])}px` });
+      let lineW = (tabWidths.reduce((a, b) => a + b, 0));
+      lineW -= ((tabWidths[0] / 2) + (_.last(tabWidths) / 2));
+      $('.dots-controls .image-unanchored', shell).css({ width: `${lineW}px` });
       this.setState({ tabWidths });
     }
   }
