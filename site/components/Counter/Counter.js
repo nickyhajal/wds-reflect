@@ -15,6 +15,7 @@ const Counter = ({ format, to }) => {
   const diff = countTo.format('X') - now;
   if (format === 'calendar') {
     const value = Math.floor(diff / 86400);
+    const days = value === 1 ? 'Day!' : 'Days';
     return (
       <div className="countdown-calendar" styleName="cal-shell">
         <Image src="art/calendar.png" width="223px" height="227px" />
@@ -23,7 +24,7 @@ const Counter = ({ format, to }) => {
             {value}
           </div>
           <div styleName="label">
-            Days
+            {days}
           </div>
         </div>
       </div>
