@@ -170,6 +170,10 @@
   .content {
     padding: 0 20px 28px;
   }
+  h2 {
+    font-size: 23px !important;
+    line-height: 30px !important;
+  }
 }
 .block-image, .block-image-narrow {
   float: left;
