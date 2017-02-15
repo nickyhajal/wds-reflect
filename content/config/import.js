@@ -16,5 +16,6 @@ import SpeakerList from '../components/SpeakerList/SpeakerList';
 import Testimonials from '../components/Testimonials/Testimonials';
 import TicketCounter from '../../site/components/TicketCounter/TicketCounter';
 import Login from '../components/Login/Login';
+import JoinUsButton from '../components/JoinUsButton/JoinUsButton';
 import ResetPass from '../components/ResetPass/ResetPass';
 import is from '../utils/is';

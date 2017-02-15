@@ -17,12 +17,28 @@ class TicketCounter extends React.Component {
     autoBind(Object.getPrototypeOf(this));
   }
   isLive(item) {
+    console.log(this.sale.show);
     return this.sale.show[item] !== undefined && this.sale.show[item];
   }
   renderProgress() {
-    const pcnt = (this.sale.sales / this.sale.max) * 100;
+    const pcnt = (this.sale.sold / this.sale.max) * 100;
     return (
       <Progress completed={pcnt} minimum="17" format="short" />
+    );
+  }
+  renderCountUp() {
+    const nums = (''+this.sale.sold).split('');
+    const elms = nums.map((num, i) => (
+      <div key={`countupnum-${i}`}>{num}</div>
+    ));
+    return (
+      <div styleName="countup">
+        <div styleName="numbers">
+          {elms}
+        </div>
+        <h3>incredible people already attending WDS 2017</h3>
+        <h4>Will you be one of them?</h4>
+      </div>
     );
   }
   renderTimer() {
@@ -60,6 +76,7 @@ class TicketCounter extends React.Component {
       this.sale = this.props.app.settings[this.props.sale];
       return (
         <div>
+          {this.isLive('countup') ? this.renderCountUp() : ''}
           {this.isLive('progress') ? this.renderProgress() : ''}
           {this.isLive('timer') ? this.renderTimer() : ''}
           {this.isLive('messages') || this.isLive('numbers') ? this.renderMessages() : ''}

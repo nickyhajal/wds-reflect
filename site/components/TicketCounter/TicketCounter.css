@@ -25,3 +25,44 @@
   }
 }
 
+.countup {
+  text-align: center;
+
+  .numbers {
+    width: 346px;
+    margin: 0 auto;
+    div {
+      width: 107px;
+      padding: 25px 10px 15px;
+      font-size: 132px;
+      font-family: Vitesse;
+      color: $white;
+      background: $spice;
+      float: left;
+      margin-right: 8px;
+      border-bottom: 8px solid $white;
+      margin-bottom: 32px;
+      line-height: 104px;
+
+      &last-child {
+        margin-right: 8
+      }
+    }
+  }
+  h3 {
+    clear: both;
+    font-family: Vitesse;
+    color: $white;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  h4 {
+    font-family: KarlaItalic;
+    color: $white;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 24px;
+    opacity: 0.8;
+  }
+}
+

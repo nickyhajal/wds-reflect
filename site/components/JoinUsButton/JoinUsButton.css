@@ -1,0 +1,15 @@
+.button {
+  background: url(https://files.wds.fm/images/art/join-ticket-enlongated-2.png);
+  width: 468px;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto -76px;
+  display: block;
+  transition: 0.2s all;
+
+  &:hover {
+    transform: rotate(2deg) scale(1.15) translate(0, -12px);
+  }
+}

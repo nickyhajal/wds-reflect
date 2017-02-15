@@ -65,6 +65,7 @@ const Section = (props) => {
   if (props.margin) {
     shellCss.margin = props.margin;
   }
+  shellCss.overflow = props.overflow;
   if (props.padding) {
     shellCss.padding = props.padding;
   }
@@ -94,11 +95,13 @@ Section.propTypes = {
   mobile: PropTypes.objectOf(PropTypes.string),
   margin: PropTypes.string,
   padding: PropTypes.string,
+  overflow: PropTypes.string,
   css: PropTypes.objectOf(PropTypes.string),
   bound: PropTypes.bool,
 };
 Section.defaultProps = {
   color: 'white',
+  overflow: '',
   mobile: { all: {}, phone: {}, tablet: {} },
   bound: true,
 };
