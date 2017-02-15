@@ -1,6 +1,7 @@
 import { bindActionCreators } from 'redux';
 import moment from 'moment';
 import * as AuthActions from '../actions/auth';
+import { browserHistory } from 'react-router';
 import store from '../core/store';
 import api, { mock } from './api';
 
@@ -109,7 +110,7 @@ const auth = {
       username,
       password,
       hash,
-      domain: 'api.eventlayer.io',
+      domain: 'worlddominationsummit.com',
       path: 'reset',
     };
     Actions.setAuthStatus('loading');
@@ -124,8 +125,8 @@ const auth = {
         Actions.setAuthStatus('success');
         if (hash !== undefined) {
           setTimeout(() => {
-            location.pathname = '/';
-          }, 6000);
+            browserHistory.replace('/login');
+          }, 3000);
         }
       }
     });

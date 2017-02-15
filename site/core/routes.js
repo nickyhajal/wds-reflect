@@ -9,7 +9,7 @@ import Community from '../containers/Hub/Community/Community';
 import Welcome from '../containers/Welcome/Welcome';
 import Pageloader from '../containers/Pageloader/';
 import TicketPurchase from '../containers/TicketPurchase/TicketPurchase';
-
+import Reset from '../containers/Reset';
 import Hub from '../containers/Hub/Hub';
 import YourSchedule from '../containers/Hub/YourSchedule/YourSchedule';
 import Events from '../containers/Hub/Events/Events';
@@ -23,6 +23,7 @@ const routes = (
     <Route path="/people" component={People} />
     <Route path="/person/:id" component={Person} />
     <Route path="/claim/:id" component={Claim} />
+    <Route path="/reset/:id" component={Reset} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/be-there" component={TicketPurchase} />
     <Route path="/id" component={Person} />
