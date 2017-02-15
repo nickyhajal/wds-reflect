@@ -37,8 +37,8 @@
 }
 .mine {
   button:hover {
-    background-color: rgb(237, 47, 0);
-    border-color: rgb(237, 47, 0);
+    background-color: #B64025;
+    border-color: #B64025;
   }
 }
 
