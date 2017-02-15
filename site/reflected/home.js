@@ -32,6 +32,7 @@ import is from '../utils/is';
   <Image src="heading/weekend.png" width="819px" height="217px" align="center" mobile={{ all: { width: '580px', backgroundSize: '100% auto' }, phone: { width: '320px', height: '97px' } }}/>
   <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px" mobile={{ all:{ width: '550px' }, phone: {width: '100%'} }}>
     #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, acquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
+    <Button to="/join-us" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>Join Us!</Button>
   </Block>
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
@@ -91,6 +92,7 @@ import is from '../utils/is';
     - Entrance to the Opening & Closing Parties{'\n'}
     - A special community that will support you for life{'\n'}
   </Block>
+  <Button to="/join-us" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '40px' }} fitToText>Join Us!</Button>
 </Section>
 <Testimonials />
 <Section color="white" clip="tr:0,2%;" margin="-70px 0 0 0" mobile={{ all: {margin: '-120px 0 0 0' } }}>
