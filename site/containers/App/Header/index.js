@@ -79,6 +79,7 @@ const mobileHeader = (ticketClick, scrollTo, navOpen, onMenuClick, auth, subNav)
         <Link to="/local" onClick={scrollTo} activeClassName="active" styleName="link">WDS Local</Link>
       </nav>
     </div>
+    {renderSubNav(subNav, scrollTo, auth.me)}
   </header>
 );
 

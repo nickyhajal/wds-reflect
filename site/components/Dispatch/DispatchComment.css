@@ -3,6 +3,10 @@
 .item {
   width: 492px;
   float: right;
+
+  @media(--phone) {
+    width: 100%;
+  }
 }
 .content {font-size : 15px;}
 .contentShell {

@@ -6,6 +6,7 @@ import autoBind from 'react-autobind';
 import CSSModules from 'react-css-modules';
 import styles from './Address.css';
 import Input from '../Input/Input';
+import $ from 'jQuery';
 import FormRow from '../FormRow/FormRow';
 import FormWrap from '../FormWrap/FormWrap';
 
@@ -21,6 +22,12 @@ class Address extends React.Component {
     };
     autoBind(Object.getPrototypeOf(this));
     this.countries = false;
+  }
+  componentDidMount() {
+    this.turnOffAutoComplete();
+  }
+  componentDidUpdate() {
+    this.turnOffAutoComplete();
   }
   getCountries() {
     if (!this.countries) {
@@ -51,6 +58,11 @@ class Address extends React.Component {
   }
   changeSelect(name, e) {
     this.props.onChange({ target: _.defaults({ name }, e) });
+  }
+  turnOffAutoComplete() {
+    if (this.shell) {
+      $('select', $(this.shell)).attr('autocomplete', 'off');
+    }
   }
   renderRegionRow() {
     let label = false;
@@ -94,11 +106,14 @@ class Address extends React.Component {
     }
     return '';
   }
+  setShell(shell) {
+    this.shell = shell;
+  }
   render() {
     const pushProps = _.omit(this.props, ['className']);
     const countries = this.getCountries();
     return (
-      <FormWrap {...this.props} styleName="addrRow">
+      <FormWrap {...this.props} styleName="addrRow" ref={this.setShell}>
         <FormRow>
           <label>Country</label>
           <Select
