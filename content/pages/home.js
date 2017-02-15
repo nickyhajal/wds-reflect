@@ -67,7 +67,6 @@
     - Entrance to the Opening & Closing Parties
     - A special community that will support you for life
   </Block>
-  <Button to="/join-us" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '40px' }} fitToText>Join Us!</Button>
 </Section>
 <Testimonials />
 <Section color="white" clip="tr:0,2%;" margin="-70px 0 0 0" mobile={{ all: {margin: '-120px 0 0 0' } }}>
