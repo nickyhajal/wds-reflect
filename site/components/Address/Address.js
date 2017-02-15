@@ -6,7 +6,7 @@ import autoBind from 'react-autobind';
 import CSSModules from 'react-css-modules';
 import styles from './Address.css';
 import Input from '../Input/Input';
-import $ from 'jQuery';
+import $ from 'jquery';
 import FormRow from '../FormRow/FormRow';
 import FormWrap from '../FormWrap/FormWrap';
 
