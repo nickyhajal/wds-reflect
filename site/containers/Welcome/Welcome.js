@@ -484,17 +484,21 @@ class Welcome extends Component {
   fillScreen() {
     const body = document.body;
     const html = document.documentElement;
-    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
     const $e = $('.fillScreen');
-    const $p = $('.partShell', '.fillScreen');
     $e.css('min-height', '');
+    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+    const $p = $('.partShell', '.fillScreen');
     const scroll = Math.max(body.scrollHeight, html.clientHeight);
     let bonus = 200;
     if (scroll > html.clientHeight) {
       bonus = 320;
     }
     if ($e.length) {
-      $e.css('min-height', `${$p.offset().top + $p.height() + bonus}px`);
+      let useHeight = $p.offset().top + $p.height() + bonus;
+      if (useHeight < height) {
+        useHeight = height + bonus;
+      }
+      $e.css('min-height', `${height}px`);
     }
   }
   next() {

@@ -94,6 +94,8 @@ export class Purchase extends Component {
   fillScreen() {
     const body = document.body;
     const html = document.documentElement;
+    const $e = $('.fillScreen');
+    $e.css('min-height', '');
     const height = Math.max(
       body.scrollHeight,
       body.offsetHeight,
@@ -101,8 +103,6 @@ export class Purchase extends Component {
       html.scrollHeight,
       html.offsetHeight
     );
-    const $e = $('.fillScreen');
-    $e.css('min-height', '');
     const scroll = Math.max(body.scrollHeight, html.clientHeight);
     let bonus = 0;
     if (scroll > html.clientHeight) {

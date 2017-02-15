@@ -60,9 +60,9 @@ export class App extends Component {
   fillScreen() {
     const body = document.body;
     const html = document.documentElement;
-    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
     const $e = $('.fillScreen');
     $e.css('min-height', '');
+    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
     const scroll = Math.max(body.scrollHeight, html.clientHeight);
     let bonus = 0;
     if (scroll > html.clientHeight) {
