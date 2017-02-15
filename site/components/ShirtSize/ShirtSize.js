@@ -18,12 +18,12 @@ class ShirtSize extends React.Component {
   }
   render() {
     const sizes = [
-      { value: 'wxs', label: 'Woman\'s XS' },
-      { value: 'ws', label: 'Woman\'s S' },
-      { value: 'wm', label: 'Woman\'s M' },
-      { value: 'wl', label: 'Woman\'s L' },
-      { value: 'wxl', label: 'Woman\'s XL' },
-      { value: 'w2xl', label: 'Woman\'s 2XL' },
+      { value: 'wxs', label: 'Women\'s XS' },
+      { value: 'ws', label: 'Women\'s S' },
+      { value: 'wm', label: 'Women\'s M' },
+      { value: 'wl', label: 'Women\'s L' },
+      { value: 'wxl', label: 'Women\'s XL' },
+      { value: 'w2xl', label: 'Women\'s 2XL' },
       { value: 'ms', label: 'Men\'s S' },
       { value: 'mm', label: 'Men\'s M' },
       { value: 'ml', label: 'Men\'s L' },

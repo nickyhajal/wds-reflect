@@ -4,6 +4,15 @@
   width: 700px;
   margin-left: -165px;
 
+  @media(--phone) {
+    width: 100%;
+    margin-left: 0;
+  }
+  @media(--tablet) {
+    margin-top: -70px;
+    margin-bottom: 120px;
+  }
+
   button {
     border: 2px solid $white;
     padding: 10px;
