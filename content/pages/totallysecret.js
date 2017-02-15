@@ -21,12 +21,14 @@
       
     All tickets cost $647 and are sold on a first-come, first-served basis.
     
-    <Button to="/be-there" style={{ fontSize: '22px', padding: '20px 40px' }} fitToText>Join Us!</Button>
+    <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join Us!</Button>
   </Block>
 </Section>
 <Section color="canvas">
   <Block>## WDS 2017 Speakers and Special Guests</Block>
-  Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are the confirmed speakers so far for WDS 2017 with more being announced each month.  
+  <Block cols="6" className="bigger">
+    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are the confirmed speakers so far for WDS 2017 with more being announced each month.  
+  </Block>
   <Tabs style="dots">
     <Tab title="Shaun King">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Shaun.King.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
