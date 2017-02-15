@@ -44,10 +44,14 @@ export class Communities extends Component {
     return (
       <div>
         <h3>Your Communities</h3>
-        {mine}
+        <div>
+          {mine}
+        </div>
         <div className="clear" />
         <h3 style={{ marginTop: '40px' }}>Other Communities</h3>
-        {others}
+        <div>
+          {others}
+        </div>
       </div>
     );
   }
