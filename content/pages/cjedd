@@ -25,13 +25,13 @@
   </Block>
 </Section>
 <Section color="canvas">
-  <Block>## WDS 2017 Speakers</Block>
+  <Block>## WDS 2017 Speakers and Special Guests</Block>
   Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are the confirmed speakers so far for WDS 2017 with more being announced each month.  
   <Tabs style="dots">
     <Tab title="Shaun King">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Shaun.King.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Shaun King - WDS 2017 Speaker
+        ## Shaun King 
 
        <p>Shaun King is a journalist, a humanitarian, an activist, and the Senior Justice Writer for the <i>New York Daily News</i>. Today, there are crucial conversations rippling across North America—conversations happening on social media, on campuses, in the streets and around dinner tables. In greater numbers, people are talking about real empowerment and liberation for historically disadvantaged groups.</p>
 
@@ -41,7 +41,7 @@
     <Tab title="Vanessa Van Edwards">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Vanessa Van Edwards - WDS 2017 Speaker
+        ## Vanessa Van Edwards
 
         <p>Vanessa Van Edwards is a behavioral investigator and published author. She runs a human behavior research lab where she uncovers the hidden forces that drive our behavior called the <Link to="http://www.scienceofpeople.com/">Science of People.</Link>.</p>
 
@@ -51,34 +51,28 @@
     <Tab title="Rich Roll">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/rich.roll.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Rich Roll - WDS 2017 Speaker
+        ## Rich Roll 
 
-        <p>Rich Roll is one of the world's most popular world-class ultra-endurance triathletes, a widely regarded plant-based nutrition & wellness advocate, writer, public speaker, podcast host, husband and father of 4. In 2009 he was recognized as one of the “25 Fittest Men in the World” by <i>Men's Fitness Magazine</i>.</p>
+       <p>Rich Roll is one of the world's most popular world-class ultra-endurance triathletes, a widely regarded plant-based nutrition & wellness advocate, writer, public speaker, podcast host, husband and father of 4. In 2009 he was recognized as one of the “25 Fittest Men in the World” by <i>Men's Fitness Magazine</i> and has been featured on CNN and contributed to publications such as <i>Outside</i>, <i>Los Angeles Times Sunday Magazine</i>, <i>VegNews</i>, <i>Huffington Post</i>, <i>Triathlete</i>, <i>3/GO</i> and <i>Men’s Fitness</i></p>. 
 
-<p>After a struggle with alcoholism and 20 year respite from competitive sports since his days as a swimmer at Stanford University in the 1980’s, Rich adopted a plant-based diet, shed 50 pounds and launched a middle-aged assault on the Ultraman World Championships, one of the most daunting endurance races on in the world.</p>
-
-<p>Rich has been featured on CNN and has contributed to publications such as <i>Outside</i>, <i>Los Angeles Times Sunday Magazine</i>, <i>VegNews</i>, <i>Huffington Post</i>, <i>Triathlete</i>, <i>3/GO</i> and <i>Men’s Fitness</i>. His inspirational memoir <i><Link to="http://www.richroll.com/shop/books/finding-ultra-signed/">Finding Ultra</Link></i> is a #1 bestseller on Amazon and he also hosts the popular, Rich Roll Podcast. Learn more about Rich's story at <Link to="http://www.richroll.com/">www.RichRoll.com.</Link></p>
+<p>After a struggle with alcoholism and 20 year respite from competitive sports, Rich adopted a plant-based diet, shed 50 pounds and launched a middle-aged assault on the Ultraman World Championships, one of the most daunting endurance races on in the world. His inspirational memoir <i><Link to="http://www.richroll.com/shop/books/finding-ultra-signed/">Finding Ultra</Link></i> is a #1 bestseller on Amazon and he also hosts the popular, Rich Roll Podcast. Learn more about Rich's story at <Link to="http://www.richroll.com/">www.RichRoll.com.</Link></p>
       </Block>
     </Tab>
         <Tab title="Scott Harrison">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Scott.Harrison.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Scott Harrison - WDS 2017 Speaker
+        ## Scott Harrison
 
-        <p>Scott Harrison spent almost 10 years as a nightclub promoter in New York City before leaving to volunteer on a hospital ship o the coast of Liberia, West Africa as a volunteer photojournalist. Returning home to New York City two years later in 2006, he founded the non-profit organization <Link to="https://www.charitywater.org/">charity: water</Link>.</p> 
+        <p>Scott Harrison is a former nightclub promoter, volunteer photojournalist, and in 2006 founded the non-profit organization <Link to="https://www.charitywater.org/">charity: water</Link>. In ten years, with the help of more than one million donors worldwide, charity: water has raised over $225 million and funded over 21,000 water projects in 24 countries. When completed, those projects will provide over 6.4 million people with clean, safe drinking water.</p> 
         
-        <p>Turning his full attention to the global water crisis and the world’s 663 million people without clean water to drink, he created public installations and innovative online fundraising platforms to spread international awareness of the issue.</p>
-        
-        <p>In ten years, with the help of more than one million donors worldwide, charity: water has raised over $225 million and funded over 21,000 water projects in 24 countries. When completed, those projects will provide over 6.4 million people with clean, safe drinking water.</p> 
-        
-        <p>Scott was recently recognized in <i>Fortune Magazine’s</i> 40 under 40 list, the <i>Forbes Magazine Impact 30</i> list and was recently #10 in <i>Fast Company’s</i> 100 Most Creative People in Business issue. He is currently a World Economic Forum Young Global Leader.</p> 
+<p>Scott has been recognized in Fortune Magazine’s 40 under 40 list, the Forbes Magazine Impact 30 list and was recently #10 in Fast Company’s 100 Most Creative People in Business issue. Currently he serves as a World Economic Forum Young Global Leader.</p> 
         
       </Block>
     </Tab>
         <Tab title="Benny Lewis">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/benny.lewis.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Benny Lewis - WDS 2017 Speaker
+        ## Benny Lewis
 
         <p>Benny Lewis is the language hacker, <i>National Geographic</i> Traveler of the year, author, YouTuber and charming Irish lad behind the hugely successful <Link to="http://www.fluentin3months.com/">Fluent in 3 Months</Link> blog and international best selling book. For a decade and a half he has traveled the world, immersing himself in local cultures and learning local languages. He can speak 7 languages fluently, and can get by in many more, despite the fact that he only spoke English at the age of 21.</p> 
       
