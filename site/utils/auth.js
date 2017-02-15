@@ -1,7 +1,7 @@
 import { bindActionCreators } from 'redux';
 import moment from 'moment';
-import * as AuthActions from '../actions/auth';
 import { browserHistory } from 'react-router';
+import * as AuthActions from '../actions/auth';
 import store from '../core/store';
 import api, { mock } from './api';
 
