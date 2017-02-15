@@ -73,7 +73,7 @@
       <Block cols="6" textAlign="left">
         ## Mohammed Faris
 
-        <p>Mohammed Faris is a speaker, coach, and author and is the founder of the popular online resource blog ProductiveMuslim.com. Mohammed became obsessed with the question, “can Islam teach us productivity?” recognizing the need to help global urban Muslims deal with the challenges of modern life whilst remaining committed to their faith. </p> 
+        <p>Mohammed Faris is a speaker, coach, and author and is the founder of the popular online resource blog <Link to="http://ProductiveMuslim.com/">ProductiveMuslim.com</Link>. Mohammed became obsessed with the question, “can Islam teach us productivity?” recognizing the need to help global urban Muslims deal with the challenges of modern life whilst remaining committed to their faith. </p> 
 
         <p>Under this mission to serve the Ummah, the Productive Muslim global team dedicate themselves to deliver productivity resources and advanced training aligned with Islamic ethics and values. Mohammed has delivered talks and trainings at numerous events and seminars across the world including UK, Malaysia, Singapore, Nigeria, Egypt, Saudi Arabia and the US. In 2014, the Royal Islamic Strategic Studies Centre added him to the World’s 500 Most Influential Muslims list.</p>  
       </Block>
@@ -95,7 +95,7 @@
 
         <p>Emilie Wapnick is a multipotentialite who doesn’t like labels. If Emilie had to describe herself, she’d probably use some combination of artist, entrepreneur, writer, speaker, and coach. But all of this could change tomorrow and that’s why she doesn’t like labels.</p> 
 
-        <p>In September 2010, Emilie launched Puttylike as a way of bringing together the multipotentialite community in order to share the tools and resources she learned. Emilie wants multipotentialites to stop beating themselves up about being unable to find their “one true calling” or fit into a box and instead wants them to see that their diverse background and insatiable curiosity as a gift.</p>  
+        <p>In September 2010, Emilie launched <Link to="http://puttylike.com/">Puttylike</Link> as a way of bringing together the multipotentialite community in order to share the tools and resources she learned. Emilie wants multipotentialites to stop beating themselves up about being unable to find their “one true calling” or fit into a box and instead wants them to see that their diverse background and insatiable curiosity as a gift.</p>  
       </Block>
     </Tab>
   </Tabs>
