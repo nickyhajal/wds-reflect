@@ -142,7 +142,7 @@ export class App extends Component {
     );
   }
   render() {
-    const focus = ['/claim', '/weclome', '/be-there'];
+    const focus = ['/claim', '/welcome', '/be-there'];
     if (this.pathHas(focus)) {
       return this.renderFocusMode();
     }
