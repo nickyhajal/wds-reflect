@@ -57,8 +57,8 @@ export class App extends Component {
   }
   ticketClick() {
     if (window.location.pathname.indexOf('join-us') > -1) {
-      // browserHistory.replace('/be-there');
-      browserHistory.replace('/join-us');
+      browserHistory.replace('/be-there');
+      // browserHistory.replace('/join-us');
     } else {
       browserHistory.replace('/join-us');
       // this.props.act.openModal('joinUs');
