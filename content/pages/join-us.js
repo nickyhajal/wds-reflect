@@ -74,9 +74,9 @@
       <Block cols="6" textAlign="left">
         ## Mohammed Faris
 
-        <p>Mohammed Faris is an international author, speaker and coach who spearheaded the niche of "faith-based productivity". He started his journey in 2007 when he became obsessed with the question: "can faith boost productivity?".  Mohammed has since spent the last decade trying to answer this question - from his own Islamic faith tradition - his popular blog, <Link to="http://ProductiveMuslim.com">ProductiveMuslim.com</Link>, and his new book "The Productive Muslim: Where Faith Meets Productivity".</p> 
+        <p>Mohammed Faris** is an international author, speaker and leader of a community with more than one million people. He started his journey in 2007 when he became obsessed with the question: "Can faith boost productivity?" Mohammed has since spent the last decade trying to answer this question - from his own Islamic faith tradition - his popular blog,, <Link to="http://ProductiveMuslim.com">ProductiveMuslim.com</Link>, and his new book "The Productive Muslim: Where Faith Meets Productivity".</p> 
 
-        <p>Mohammed has delivered talks and trainings at numerous events and seminars across the world including UK, US, Malaysia, Nigeria, Tanzania, Singapore, Switzerland, Egypt, and Saudi Arabia as well as featured on international media and on the TEDx stage. In 2014, the Royal Islamic Strategic Studies Centre added him to the World’s 500 Most Influential Muslims list.</p>  
+        <p>Mohammed has delivered talks and trainings at numerous events and seminars across the world. He's also been featured in international media and on the TEDx stage. In 2014, the Royal Islamic Strategic Studies Centre added him to the World’s 500 Most Influential Muslims list</p>  
       </Block>
     </Tab>
         <Tab title="Benny Lewis">
