@@ -19,7 +19,7 @@
     
     We’re doing it again in 2017, and all that’s missing is YOU!
       
-    All tickets cost $647 and are sold on a first-come, first-served basis.
+    <p>All tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
     
     <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join Us!</Button>
   </Block>
