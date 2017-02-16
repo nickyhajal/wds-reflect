@@ -90,13 +90,13 @@
       </Block>
     </Tab>
      <Tab title="Emilie Wapnick">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/emilie.wapnick.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/emiliewapnick_wds.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Emilie Wapnick
 
-        <p>Emilie Wapnick is a multipotentialite who doesn’t like labels. If Emilie had to describe herself, she’d probably use some combination of artist, entrepreneur, writer, speaker, and coach. But all of this could change tomorrow and that’s why she doesn’t like labels.</p> 
+        <p>Emilie Wapnick is a writer, career coach, blogger, and community leader. She is the founder and creative director at <Link to="http://puttylike.com/">Puttylike.com</Link>, where she helps multipotentialites (people with many passions and creative pursuits) integrate all of their interests to create dynamic, fulfilling, and fruitful careers and lives.</p> 
 
-        <p>In September 2010, Emilie launched <Link to="http://puttylike.com/">Puttylike</Link> as a way of bringing together the multipotentialite community in order to share the tools and resources she learned. Emilie wants multipotentialites to stop beating themselves up about being unable to find their “one true calling” or fit into a box and instead wants them to see that their diverse background and insatiable curiosity as a gift.</p>  
+        <p>Emilie's <Link to="http://www.ted.com/talks/emilie_wapnick_why_some_of_us_don_t_have_one_true_calling">TED talk</Link> has been viewed over 3.5 million times, and has been translated into 36 languages. She's been featured in <i>Fast Company</i>, <i>Forbes</i>, <i>Financial Times</i>, <i>Huffington Post</i>, and <i>Lifehacker</i>. Her book, <i><Link to="http://howtobeeverything.com/">How to Be Everything</Link></i> comes out with HarperCollins in May.</p>  
       </Block>
     </Tab>
   </Tabs>
