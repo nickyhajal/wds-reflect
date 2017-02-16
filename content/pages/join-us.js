@@ -21,7 +21,7 @@
       
     <p>All tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
     
-    <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join Us!</Button>
+    <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Get Your Ticket!</Button>
   </Block>
 </Section>
 <Section color="canvas">
