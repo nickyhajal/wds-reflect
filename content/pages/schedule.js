@@ -48,4 +48,4 @@
     </Block>
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="buy-box" />
