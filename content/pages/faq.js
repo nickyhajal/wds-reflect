@@ -42,4 +42,4 @@
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="buy-box" />
