@@ -6,7 +6,7 @@ import Image from '../Image/Image';
 
 class Counter extends React.Component {
   static niceZero(num) {
-    if (parseInt(num, 10) < 10) {
+    if (num < 10) {
       return `0${num}`;
     }
     return num;
@@ -39,6 +39,7 @@ class Counter extends React.Component {
     const mval = Math.floor(((diff % 86400) % 3600) / 60);
     const sval = Math.floor(((diff % 86400) % 3600) % 60);
     const days = dval === 1 ? 'Day!' : 'Days';
+    const niceZero = Counter.niceZero;
     if (format === 'calendar') {
       return (
         <div className="countdown-calendar" styleName="cal-shell">
@@ -57,7 +58,7 @@ class Counter extends React.Component {
     if (format === 'text') {
       return (<span className="countdown-text" styleName="formatText">
         <span styleName="content">
-          {hval}:{mval}:{sval}
+          {niceZero(hval)}:{niceZero(mval)}:{niceZero(sval)}
         </span>
       </span>);
     }
