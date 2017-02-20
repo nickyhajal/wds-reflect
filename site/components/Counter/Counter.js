@@ -39,7 +39,6 @@ class Counter extends React.Component {
     const mval = Math.floor(((diff % 86400) % 3600) / 60);
     const sval = Math.floor(((diff % 86400) % 3600) % 60);
     const days = dval === 1 ? 'Day!' : 'Days';
-    const niceZero = Counter.nizeZero;
     if (format === 'calendar') {
       return (
         <div className="countdown-calendar" styleName="cal-shell">
@@ -58,7 +57,7 @@ class Counter extends React.Component {
     if (format === 'text') {
       return (<span className="countdown-text" styleName="formatText">
         <span styleName="content">
-          {niceZero(hval)}:{niceZero(mval)}:{niceZero(sval)}
+          {hval}:{mval}:{sval}
         </span>
       </span>);
     }
