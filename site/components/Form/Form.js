@@ -71,7 +71,7 @@ class Form extends Component {
       actions.push(this.submitToList);
     }
     if (this.props.onSubmit !== undefined && this.props.onSubmit) {
-      actions.push(this.props.onSubmit);
+      actions.push(() => this.props.onSubmit(this));
     }
     actions[0](this.state.form)
     .then(this.finish)
@@ -120,7 +120,7 @@ class Form extends Component {
     } else {
       this.setState({ status: 'success', showErrorMsg: false });
       if (this.props.onSuccess) {
-        this.props.onSuccess(rsp);
+        this.props.onSuccess(rsp, this);
       }
     }
   }

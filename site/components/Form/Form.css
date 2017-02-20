@@ -26,6 +26,11 @@
 }
 
 .form {
+  :global(.block-color-white) .inp {
+    label {
+      text-align: left;
+    }
+  }
   :global(.Select-control) {
     background-color: transparent;
     border-radius: 0;

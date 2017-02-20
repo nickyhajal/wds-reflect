@@ -34,3 +34,16 @@
   margin-bottom: -15px;
   font-family: KarlaBold;
 }
+
+:global(.block-color-white) {
+  .shell {
+    border-color: $dark;
+
+    div:first-of-type {
+      margin-bottom: 20px;
+    }
+    button {
+      width: 48%;
+    }
+  }
+}

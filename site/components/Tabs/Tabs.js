@@ -85,11 +85,15 @@ class Tabs extends React.Component {
       );
     }
     tabs.forEach((t, i) => {
-      const css = { background: colorize(t.props.color) };
+      const css = _.clone(this.props.tabCss);
+      css.background = colorize(t.props.color);
       const active = (this.state.active === i);
       const key = `tabButton-${i}`;
       if (this.state.tabWidths && this.state.tabWidths[i] !== undefined) {
         css.width = `${this.state.tabWidths[i]}px`;
+      }
+      if (active) {
+        css.background = `${colorize(this.props.color)}`;
       }
       if (this.props.style !== 'dots') {
         const angle = t.props.clip !== undefined ? t.props.clip : angles[i];
@@ -135,14 +139,17 @@ class Tabs extends React.Component {
   }
   renderStandard() {
     const tabs = this.props.children;
+    const css = this.props.css;
+    const background = colorize(this.props.color);
     const contentWidth = unitize(this.props.contentWidth);
+    css.width = unitize(this.props.width);
     return (
-      <div>
-        <div styleName="buttons" style={{ width: '996px' }} className="tab-controls">
+      <div style={css}>
+        <div styleName="buttons" className="tab-controls">
           {this.renderButtons(tabs)}
         </div>
         <div className="clear" />
-        <div styleName="content" style={{ width: contentWidth }}>
+        <div styleName="content" style={{ width: contentWidth, background }}>
           <Markdown>{tabs[this.state.active].props.children}</Markdown>
           <div className="clear" />
         </div>
@@ -166,11 +173,19 @@ Tabs.propTypes = {
   style: PropTypes.string,
   contentWidth: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  width: PropTypes.string,
+  color: PropTypes.string,
+  css: PropTypes.objectOf(PropTypes.string),
+  tabCss: PropTypes.objectOf(PropTypes.string),
 };
 
 Tabs.defaultProps = {
   style: '',
   contentWidth: '996px',
+  width: '996',
+  color: 'canvas',
+  css: {},
+  tabCss: {},
 };
 
 export default CSSModules(Tabs, styles);

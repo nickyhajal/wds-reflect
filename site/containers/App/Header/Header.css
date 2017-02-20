@@ -7,6 +7,14 @@
   text-align: center;
   padding-left: 160px;
 
+  &:global(.alert) {
+    background: $sea;
+    color: $white;
+    font-family: Vitesse;
+    font-size: 20px;
+    padding-top: 14px;
+  }
+
   a {
     font-family: VitesseBook;
     color: $orange;

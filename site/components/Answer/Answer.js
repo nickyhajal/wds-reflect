@@ -82,7 +82,7 @@ class Answer extends React.Component {
       <div styleName="shell">
         <label>{this.props.label}</label>
         <Input id={this.props.question_id} onChange={this.change} type={this.props.type} styleName="inp" ref={this.setInp} value={answer} />
-        <Button onClick={this.save}>{btn}</Button>
+        {this.props.showButton ? (<Button onClick={this.save}>{btn}</Button>) : ''}
       </div>
     );
   }
@@ -90,6 +90,7 @@ class Answer extends React.Component {
 
 Answer.defaultProps = {
   type: 'text',
+  showButton: true,
 };
 Answer.propTypes = {
   onChange: PropTypes.func,
@@ -99,6 +100,7 @@ Answer.propTypes = {
   onFinish: PropTypes.func,
   question_id: PropTypes.string,
   type: PropTypes.string,
+  showButton: PropTypes.bool,
 };
 
 function mapDispatchToProps(dispatch) {

@@ -2,6 +2,7 @@ import React from 'react';
 import CSSModules from 'react-css-modules';
 import { Link } from 'react-router';
 import _s from 'underscore.string';
+import Counter from '../../../components/Counter/Counter';
 import TicketStub from '../../../components/TicketStub/TicketStub';
 import styles from './Header.css';
 import Navlink from '../Navlink/Navlink';
@@ -31,6 +32,17 @@ const renderSubNav = (subNav, scrollTo, me) => {
   }
   return '';
 };
+const renderAlert = (subNav, scrollTo, me) => {
+  if ((!subNav || subNav === 'False') && !me) {
+    return (
+      <div styleName="subNav" className="alert">
+        <span>Sale ends in </span>
+        <Counter to="ticket-end" format="text" interval="1" />
+      </div>
+    );
+  }
+  return '';
+};
 const desktopHeader = (ticketClick, scrollTo, auth, subNav) => (
   <header styleName="header" className={subNav ? 'hasSubNav' : ''}>
     <div styleName="row">
@@ -52,6 +64,7 @@ const desktopHeader = (ticketClick, scrollTo, auth, subNav) => (
       {auth.me ? '' : <TicketStub onClick={ticketClick} />}
     </div>
     {renderSubNav(subNav, scrollTo, auth.me)}
+    {renderAlert(subNav, scrollTo, auth.me)}
   </header>
 );
 

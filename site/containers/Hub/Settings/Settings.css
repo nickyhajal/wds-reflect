@@ -1,0 +1,80 @@
+@import 'vars';
+
+.shell {
+  form {
+    width: 540px;
+    margin: 0 auto;
+    label {
+      text-align: left;
+    }
+
+    :global(.Select-control) {
+    background-color: transparent;
+    border-radius: 0;
+    cursor: default;
+    display: table;
+    border-spacing: 0;
+    border-collapse: separate;
+    height: 36px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border: 2px solid $dark;
+    padding: 7px;
+
+    :global(.Select-value) {
+      top: 8px !important;
+      left: 20px !important;
+
+      span {
+        color: $dark !important;
+      }
+    }
+    :global(.Select-value-label) {
+      color: $dark !important;
+    }
+  }
+  :global(.Select-arrow) {
+    border-top-color: $dark;
+    &:hover {
+      border-top-color: $dark;
+    }
+  }
+  }
+  .sublabel {
+    font-size: 14px;
+    font-family: KarlaItalic;
+    opacity: 0.8;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+}
+
+.contentShell {
+  margin-top: -220px;
+  background: transparent;
+
+  h2 {
+    background: $blue;
+    color: $white;
+    padding: 26px 40px 19px;
+    margin-bottom: 0;
+    font-size: 34px;
+    text-align: left;
+  }
+  h3 {
+    font-size: 24px;
+    font-family: Vitesse;
+    line-height: 28px;
+    font-weight: normal;
+    margin-bottom: 32px;
+    color: $blue;
+   }
+  h4 {
+    font-family: VitesseBold;
+    font-weight: normal;
+    margin-top: 16px;
+    color: $blue;
+  }
+}

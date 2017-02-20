@@ -35,14 +35,29 @@
     margin-top: 20px;
   }
 }
+
+:global(.block-color-white) .interests {
+  width: 600px;
+  margin: 0 auto 30px;
+
+  button {
+    color: $dark;
+    border-color: $dark;
+  }
+}
 .mine {
   button:hover {
     background-color: #B64025;
     border-color: #B64025;
+    color: $white;
   }
 }
 
 .all {
+  button:hover {
+      background-color: $green;
+      color: $white;
+    };
   margin-top: 40px;
   margin-bottom: 30px;
 }

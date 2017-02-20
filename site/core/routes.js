@@ -7,6 +7,7 @@ import Claim from '../containers/Claim/Claim';
 import Communities from '../containers/Hub/Communities/Communities';
 import Community from '../containers/Hub/Community/Community';
 import Welcome from '../containers/Welcome/Welcome';
+import Settings from '../containers/Hub/Settings/Settings';
 import Pageloader from '../containers/Pageloader/';
 import TicketPurchase from '../containers/TicketPurchase/TicketPurchase';
 import Reset from '../containers/Reset';
@@ -33,6 +34,7 @@ const routes = (
       <Route path="/community/:id" component={Community} />
       <Route path="/welcome" component={Welcome} />
       <Route path="/hub" component={Hub} />
+      <Route path="/settings" component={Settings} />
       <Route path="/your-schedule" component={YourSchedule} />
       <Route path="/events" component={Events} />
     </Route>

@@ -24,4 +24,24 @@ position: relative;
     border: 2px solid $white;
   }
 }
+:global(.block-color-white) {
+  .shell {
+    text-align: left;
+
+    label {
+      text-align: left;
+      font-size: 18px;
+      font-family: Vitesse;
+      color: $blue;
+      display: block;
+      margin-bottom: 10px;
+    }
+    textarea {
+      border: 2px solid $dark;
+      padding: 16px;
+      width: 360px;
+      height: 120px;
+    }
+  }
+}
 

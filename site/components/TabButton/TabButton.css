@@ -41,7 +41,6 @@
   }
 
   &:global(.active) {
-    background-color: $canvas !important;
     color: $dark;
     font-family: KarlaBold;
     &:before, &:after {display: none};

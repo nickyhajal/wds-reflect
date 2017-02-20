@@ -10,7 +10,7 @@
     background: white;
     padding: 17px 7px 16px;
     margin-bottom: -60px;
-    width: 71px;
+    width: 70px;
     color: $blue; 
   }
 
@@ -37,6 +37,11 @@
   padding: 14px 28px;
   font-family: Karla;
   width: 100%;
+}
+
+:global(.block-color-white) .inp {
+  border-color: $dark;
+  margin-bottom: 16px;
 }
 
 :global(.section-orange), :global(.block-color-orange) {

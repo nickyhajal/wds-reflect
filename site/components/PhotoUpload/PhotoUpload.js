@@ -54,7 +54,7 @@ class PhotoUpload extends React.Component {
       pic = `https://avatar.wds.fm/${this.props.auth.me.user_id}?width=250&${_.random(0, 100)}`;
     }
     return (
-      <div>
+      <div styleName="shell">
         {this.renderPic(pic)}
         <Dropzone accept="image/*" className={(pic ? 'hasPic' : 'noPic')} multiple={false} onDrop={this.uploadPhoto} styleName="dropzone">
           <div>Click or drag a photo here to upload.</div>
