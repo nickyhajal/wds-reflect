@@ -141,4 +141,4 @@
     </Grid>
   </Block>
 </Section>
-<Import id="buy-box" />
+<Import id="join-us" />

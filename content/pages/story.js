@@ -250,4 +250,4 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
         </Tab>
   </Tabs>
 </Section>
-<Import id="buy-box" />
+<Import id="join-us" />
