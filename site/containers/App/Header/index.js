@@ -33,7 +33,7 @@ const renderSubNav = (subNav, scrollTo, me) => {
   return '';
 };
 const renderAlert = (subNav, scrollTo, me) => {
-  if ((!subNav || subNav === 'False') && !me) {
+  if ((!subNav || subNav === 'False') && !me && 0) {
     return (
       <div styleName="subNav" className="alert">
         <span>Ticket sales to WDS 2017 end in </span>
