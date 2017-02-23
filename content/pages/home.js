@@ -129,5 +129,5 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     </Tab>
   </Tabs>
 </Section>
-<Import id="join-us" />
+<Import id="wait-list" />
 <Import id="tell-a-friend" />

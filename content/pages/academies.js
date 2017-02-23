@@ -42,4 +42,4 @@
     The list of WDS 2017 Academies will be made available spring 2017 so stay tuned!
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="wait-list" />
