@@ -212,7 +212,7 @@ export class App extends Component {
   }
   giveTicket(form) {
     return new Promise((resolve, reject) => {
-      api('post me/give-ticket', form)
+      api('post me/give-ticket', form.state.form)
       .then(rsp => resolve(rsp.data));
     });
   }
