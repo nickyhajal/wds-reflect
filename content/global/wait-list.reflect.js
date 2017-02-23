@@ -1,8 +1,7 @@
 
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## How Can I Get a Ticket for WDS 2017?</Block>
-  <p>Join the waiting list and you'll be the first to hear when the next round of tickets go on sale!</p>
+  <Block margin="50px 0">## I want to be notified when tickets go back on sale!</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
