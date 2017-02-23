@@ -132,4 +132,4 @@ Part of this training will be developed internationally, including a teaching tr
  </Block>
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="wait-list" />
