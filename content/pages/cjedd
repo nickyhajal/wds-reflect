@@ -114,7 +114,7 @@
       </Block>
       <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Standard Room & Shared Bathroom
-       Enjoy your own private sanctuary with a dash of community in a private room with shared bathroom facility. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. 
+       Enjoy your own private sanctuary with a dash of community in a private room with a shared bathroom. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. 
       </Block>
       <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Bunk Bed & Shared Bathroom
