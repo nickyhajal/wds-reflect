@@ -1,4 +1,3 @@
-
 <Script>
   import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
 
@@ -81,46 +80,46 @@
     </Block>
     <div className="clear" />
   </Block>
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-	      ## Head Meets Pillow Options
-	    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
-	    </Block>
-	    <Grid numCols="3" tabletCols="2" width="968">
-	      <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-	        ## Private Suite & Bathroom
-	       Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (maximum occupancy: 2 persons)
-	       <p><b>4-Night Package: $947</p></b>
-	      </Block>
-	      <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-	        ## Standard Room & Shared Bathroom
-	       Enjoy your own private sanctuary with a dash of community in a private room with a shared bathroom. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (maximum occupancy: 2 persons)
-	      <p><b>4-Night Package: $697</p></b>
-	      </Block>
-	      <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-	        ## Bunk Bed & Shared Bathroom
-	        Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. (maximum occupancy: 1 person per bunk)
-	        <p><b>4-Night Package: $297</p></b>      
-	        </Block>
-	   </Grid>
-	  </Block>
+  
+  <Block margin="125px 0 50px 0">
+    <Block cols="6">
+      ## Head Meets Pillow Options
+    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!                                                                                        
+    </Block>
+    <Grid numCols="3" tabletCols="2" width="968">
+      <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Private Suite & Bathroom
+       Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. 
+      </Block>
+      <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Standard Room & Shared Bathroom
+       Enjoy your own private sanctuary with a dash of community in a private room with a shared bathroom. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. 
+      </Block>
+      <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Bunk Bed & Shared Bathroom
+        Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. 
+      </Block>
+   </Grid>
+  </Block>
   
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
       ### Private Suites
-      <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
+      <Link to="http://www.mcmenamins.com/CrystalHotel">(private bathroom)</Link>
     </Block>
     <Block type="caption" src="wds-hotel/standard-room1.jpg" label="3 Left!">
      ### Standard Room
-     <Link to="https://goo.gl/yOaB4l">Book This Room</Link>
+      (shared bathroom)
     </Block>
     <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
       ### Bunks
-      Book This Bunk
+      <Link to="https://goo.gl/yOaB4l">(shared bathroom)</Link>
     </Block>
   </Grid>
   </Block>
   <div className="clear" />
+   </Block>
    
    <Section color="blue" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
   <div className="clear"></div>
