@@ -82,7 +82,7 @@
   </Block>
  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Sleeping Options
-    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part -- no matter what room you choose everyone will be from WDS and staying in the same building! 
+    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building! 
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
@@ -125,22 +125,21 @@
       You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Neighborhoods: Hawthorne
-        Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
+      <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Private Suite with En Suite Bathroom
+       Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. 
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Neighborhoods: NW & Pearl
-        Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.
+      <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Standard Room with a Shared Bathroom
+       Enjoy your own private sanctuary with a dash of community in a private room with shared bathroom facility. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. Private rooms feature full and queen bed options for a restful stay, includes a sink and vanity, and a shared bath one might expect to find in an European boarding house.
+
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Powell’s Books
-        No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at 1005 W Burnside.
+      <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Bunk Bed with a Shared Bathroom
+        Get the most bed for your buck in one of our hostel-style bunks in the bunk room.
+With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. 
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Waterfront
-        Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.
-      </Block>
+      
     </Grid>
   </Block>
 </Section>
