@@ -82,13 +82,7 @@
   </Block>
  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Sleeping Options
-    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building! 
-  </Block>
-  
-  <Block margin="125px 0 50px 0">
-    <Block cols="6">
-      ## The WDS Hotel™ 
-      Welcome to The Society Hotel, where we redefine and resurrect history in what was once a sailor’s hotel.  Come experience the intersection of the past, present and future Portland, tucked away in the historic neighborhood of Old Town Chinatown. Change your hotel perspective, where true originals are appreciated, and adventurous travelers meet.                                                                                       
+    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!                                                                                        
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -124,6 +118,33 @@
   </Block>
   <div className="clear" />
    </Block>
+   
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## The Complete Package
+    Package information/description goes here...                                                                                        
+    </Block>
+   
+     <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
+  <Image src="photos/audience.png"
+    width="426" height="263"
+    margin="0 0 -100px -50px"
+    mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
+    preload
+  />
+  <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
+    ## What's Included in My Package?
+
+    - **Tuesday** Small Group Activities and Attendee-Led Meetups
+    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups
+    - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
+    <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
+    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
+    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
+    - **Monday** Academies and Attendee-Led Meetups
+      <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>
+  </Block>
+  <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
+  <div className="clear" />
    
   <Block>## The Details!</Block>
   <Tabs>
