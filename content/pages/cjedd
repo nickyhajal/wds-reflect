@@ -124,8 +124,6 @@
   </Block>
   <div className="clear" />
    </Block>
-   </Section>
-  
    <Section color="blue" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
   <div className="clear"></div>
   <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-120px 0 -80px -50px" mobile={ { all: {position: 'relative', zIndex: '-1' }, phone: {width: '100%', margin: '-120px 0 -80px -20px'}} }/>
@@ -151,5 +149,6 @@
     - High fives.
      <i>*All packages are reserved through WDS and are paid upfront and non-refundable (so make sure you can commit to being there before purhcasing). Transfers can be made to another attendee up until June 10th and for a $50 fee per transfer. A credit card is required for registraion and check-in. WDS is responsible for the reservation process and programming aspects. The Society Hotel will provide all other services. Lodging before and after the WDS Hotel™ package is availble by contacting the Society Hotel directly. </i>
   </Block>
+</Section>
 </Section>
 <Import id="wait-list" />
