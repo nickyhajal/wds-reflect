@@ -101,6 +101,7 @@
   </Grid>
   </Block>
   <div className="clear" />
+   </Block>
   <Block margin="125px 0 50px 0">
     ## Food & Dining
     <Grid numCols="3" tabletCols="2" width="968">
