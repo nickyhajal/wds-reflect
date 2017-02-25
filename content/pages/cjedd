@@ -81,9 +81,7 @@
     </Block>
     <div className="clear" />
   </Block>
-  
-  <Block margin="125px 0 50px 0">
-	    <Block cols="6">
+  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
 	      ## Head Meets Pillow Options
 	    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
 	    </Block>
@@ -123,7 +121,6 @@
   </Grid>
   </Block>
   <div className="clear" />
-   </Block>
    
    <Section color="blue" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
   <div className="clear"></div>
