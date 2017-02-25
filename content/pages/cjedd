@@ -114,13 +114,11 @@
       </Block>
       <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Standard Room & Shared Bathroom
-       Enjoy your own private sanctuary with a dash of community in a private room with shared bathroom facility. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. Private rooms feature full and queen bed options for a restful stay, includes a sink and vanity, and a shared bath one might expect to find in an European boarding house.
-
+       Enjoy your own private sanctuary with a dash of community in a private room with shared bathroom facility. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. 
       </Block>
       <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Bunk Bed & Shared Bathroom
-        Get the most bed for your buck in one of our hostel-style bunks in the bunk room.
-With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. 
+        Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. 
       </Block>
       
     </Grid>
