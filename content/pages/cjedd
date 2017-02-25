@@ -32,7 +32,7 @@
 >
   <Image src="/heading/hoteltempheader.png" width="446px" height="156px" className="scriptHeader" preload/>
       <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="images/wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
+    <Image src="/images/wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Introducing the WDS Hotel™
     Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
@@ -45,7 +45,7 @@
 </Block>
    <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="sea">
     <Block>
-      ## Conveniently Located  
+      ## Conveniently Located
     </Block>
     <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
       <PDXLocationMap
@@ -63,79 +63,44 @@
         }
       />
     </Block>
-  </Block>
     <Block anchor="left" width="370px" textAlign="left">
       <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
-        ### 1037 SW Broadway,
-        ### Portland, OR 97205
+        ### 203 NW 3rd Ave,
+        ### Portland, OR 97209
       </Block>
-      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }}
+      <Block type="caption" src="photos/society-hotel.jpg" width="316" css={{ left: '50px', top: '11px' }}
         mobile={{
           all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
           phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
         }}
       >
-        ### PDX Airport
-        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">12.6 Mi from Base</Link>
+        ### WDS Hotel™
+        <Link to="https://goo.gl/maps/TTdw8Ae8xGu">0.8 Mi from Base</Link>
       </Block>
     </Block>
     <div className="clear" />
   </Block>
-   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Grid numCols="3" tabletCols="2">
-      <Block type="caption" src="photos/society-hotel.jpg" label="available">
-        ### Private Suites
-        private bathroom
-      </Block>
-      <Block type="caption" src="photos/Paramount-Hotel.jpg" label="3 left!">
-        ### Standard Room
-        shared bathroom
-      </Block>
-      <Block type="caption" src="photos/Hotel-Modera-Exterior.jpg" label="sold out!">
-        ### Bunks
-        shared bathroom
-      </Block>
-    </Grid>
-  </Block>
-  <div className="clear" />
  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Alternative Lodging Options
-    If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:
+    ## Head-to-Pillow Options
+    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part, no matter what room you choose - everyone will be from WDS and staying in the same building! 
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
-    <Block type="caption" src="photos/Crystal.Hotel.jpg">
-      ### Crystal Hotel
-      <Link to="http://www.mcmenamins.com/CrystalHotel">0.6 Mi from Base</Link>
+    <Block type="caption" src="images/wds-hotel/suite-room1.jpg" label="Still Available">
+      ### Private Suites
+      <Link to="http://www.mcmenamins.com/CrystalHotel">private bathroom</Link>
     </Block>
-    <Block type="caption" src="photos/Portland-Hostel.jpg">
-     ### Portland NW Hostel
-      <Link to="http://nwportlandhostel.com/">1.0 Mi from Base</Link>
+    <Block type="caption" src="images/wds-hotel/standard-room1.jpg" label="3 Left!">
+     ### Standard Room
+      <Link to="http://nwportlandhostel.com/">shared bathroom</Link>
     </Block>
-    <Block type="caption" src="photos/PDX-airbnb.jpg">
-      ### Airbnb listings
-      <Link to="https://goo.gl/yOaB4l">0.5 Mi from Base</Link>
+    <Block type="caption" src="images/wds-hotel/Bunk-room1.jpg" label="Sold Out!">
+      ### Bunks
+      <Link to="https://goo.gl/yOaB4l">shared bathroom</Link>
     </Block>
   </Grid>
   </Block>
   <div className="clear" />
-  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="orange">
-    <Block anchor="left" align="none" width="222" margin="0 40px 0 0">
-      <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="28px 0 48px 0" />
-      <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>
-    </Block>
-    <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
-      <Image src="icon/bike-green-circle.png" align="center" width="145" height="130" margin="28px 0 48px 0" />
-      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
-    </Block>
-    <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
-      ## Transportation
-      Portland has one the best public transit systems (TriMet) in the country - no need to rent a car during your whole time in the city. Of our many options Portland's fast-and-easy light rail service (MAX) goes directly from the airport to downtown for $2.50. 
-
-Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new bikehsare program Biketown.
-    </Block>
-    <div className="clear" />
-  </Block>
   <Block margin="125px 0 50px 0">
     ## Food & Dining
     <Grid numCols="3" tabletCols="2" width="968">
