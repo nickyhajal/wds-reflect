@@ -125,16 +125,27 @@
    <Section color="blue" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
   <div className="clear"></div>
   <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-120px 0 -80px -50px" mobile={ { all: {position: 'relative', zIndex: '-1' }, phone: {width: '100%', margin: '-120px 0 -80px -20px'}} }/>
-    <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
+    <Block
+    type="padded"
+    cols="6"
+    bleed={false}
+    background="canvas"
+    className="has-checklist"
+    css={{ padding: '60px 40px' }}
+    mobile={{ phone: {
+      padding: '60px 25px 60px 10px'
+    }}}
+    clip="top_lr_1.6"
+  >
     ## WDS Hotel™ Package Details*
 
-    <li><b className="highlight highlight-2">4-Night Package</b></li>
-    <li><b className="highlight highlight-2">All taxes and fees inlcuded</b></li>
-    <li><b className="highlight highlight-3">The WDS Experience</b></li>
-    - **Surprises. Lots of surprises.** Thursday, July 13th - Monday, July 17th
-    - **A pet goat.** 
-    - **High fives.**
-      <i>*All packages are reserved through WDS and are paid upfront and non-refundable (so make sure you can commit to being there before purhcasing). Transfers can be made to another attendee up until June 10th and for a $50 fee per transfer. A credit card is required for registraion and check-in. WDS is responsible for the reservation process and programming aspects. The Society Hotel will provide all other services. Lodging before and after the WDS Hotel™ package is availble by contacting the Society Hotel directly. </i>
+    - 4-Night Package: Thursday, July 13th - Monday, July 17th
+    - All taxes and fees inlcuded
+    - Exclusive programming and experiences
+    - Surprises. Lots of surprises.
+    - A pet goat.
+    - High fives.
+     <i>*All packages are reserved through WDS and are paid upfront and non-refundable (so make sure you can commit to being there before purhcasing). Transfers can be made to another attendee up until June 10th and for a $50 fee per transfer. A credit card is required for registraion and check-in. WDS is responsible for the reservation process and programming aspects. The Society Hotel will provide all other services. Lodging before and after the WDS Hotel™ package is availble by contacting the Society Hotel directly. </i>
   </Block>
 </Section>
    
