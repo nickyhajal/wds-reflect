@@ -103,39 +103,22 @@
   <div className="clear" />
    </Block>
   <Block margin="125px 0 50px 0">
-    ## Food & Dining
-    <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-narrow" src="photos/food-carts.jpg">
-        ## Food Carts
-        <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>View More</Button>
-      </Block>
-      <Block type="image-narrow" src="photos/restaurants.jpg">
-        ## Restaurants
-        <Button to="http://pdx.eater.com/maps/best-portland-restaurants-38" newWindow={true} fitToText>View More</Button>
-      </Block>
-      <Block type="image-narrow" src="photos/farmers-market.jpg">
-        ## Farmer&apos;s Markets
-        <Button to="http://www.portlandfarmersmarket.org/" newWindow={true} fitToText>View More</Button>
-      </Block>
-    </Grid>
-  </Block>
-  <Block margin="125px 0 50px 0">
     <Block cols="6">
-      ## The City
-      You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       
+      ## The WDS Hotel™ 
+      Welcome to The Society Hotel, where we redefine and resurrect history in what was once a sailor’s hotel.  Come experience the intersection of the past, present and future Portland, tucked away in the historic neighborhood of Old Town Chinatown. Change your hotel perspective, where true originals are appreciated, and adventurous travelers meet.                                                                                       
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Private Suite with En Suite Bathroom
+        ## Private Suite & Bathroom
        Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. 
       </Block>
       <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Standard Room with a Shared Bathroom
+        ## Standard Room & Shared Bathroom
        Enjoy your own private sanctuary with a dash of community in a private room with shared bathroom facility. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. Private rooms feature full and queen bed options for a restful stay, includes a sink and vanity, and a shared bath one might expect to find in an European boarding house.
 
       </Block>
       <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Bunk Bed with a Shared Bathroom
+        ## Bunk Bed & Shared Bathroom
         Get the most bed for your buck in one of our hostel-style bunks in the bunk room.
 With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. 
       </Block>
