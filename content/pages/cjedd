@@ -13,11 +13,11 @@
       ref={props.onMapLoad}
       defaultZoom={13}
       onMapLoad={handleMapLoad}
-      defaultCenter={{ lat: 45.516791, lng: -122.681333 }}  
+      defaultCenter={{ lat: 45.524679, lng: -122.673470 }}  
       onClick={props.onMapClick}
     >
       <Marker
-        position={{ lat: 45.516791, lng: -122.681333 }}
+        position={{ lat: 45.524679, lng: -122.673470 }}
       />
     </GoogleMap>
   ));
@@ -30,40 +30,19 @@
   color="white"
   preload
 >
-  <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Image src="/heading/hoteltempheader.png" width="446px" height="156px" className="scriptHeader" preload/>
       <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="photos/modera-lobby.png" width="100%" height="302" />
+    <Image src="images/wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Lodging
-    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel)*, all within walking distance or a quick ride on public transit to WDS events and activities. 
-
-<p><i>*Please note: The ability to reserve your room at one of our partner hotels will be available soon.</i></p>
+    ## Introducing the WDS Hotel™
+    Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
+    
+    <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2017.</p>
+    
+    <p>This hotel, known during non-WDS times as the Society Hotel, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
+    
+    <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
 </Block>
-  <Block cols="8" bleed={false} margin="0 0 80px">
-    <Grid numCols="3" tabletCols="2">
-      <Block type="caption" src="photos/society-hotel.jpg" label="Coming Soon">
-        ### The WDS Hotel
-        **0.8 Mi** from Base
-      </Block>
-      <Block type="caption" src="photos/Paramount-Hotel.jpg" label="Coming Soon">
-        ### Paramount Hotel
-        **0.1 Mi** from Base
-      </Block>
-      <Block type="caption" src="photos/Hotel-Modera-Exterior.jpg" label="Coming Soon">
-        ### Hotel Modera
-        **0.3 Mi** from Base
-      </Block>
-      <Block type="caption" src="photos/hilton.png" label="Coming Soon">
-        ### Hilton
-        **0.5 Mi** from Base
-      </Block>
-      <Block type="caption" src="photos/Jupiter-Hotel-exterior.jpg" label="Coming Soon">
-        ### Jupiter Hotel
-        **1.5 Mi** from Base
-      </Block>
-    </Grid>
-  </Block>
-  <div className="clear" />
    <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="sea">
     <Block>
       ## Conveniently Located  
@@ -102,6 +81,23 @@
     </Block>
     <div className="clear" />
   </Block>
+   <Block cols="8" bleed={false} margin="0 0 80px">
+    <Grid numCols="3" tabletCols="2">
+      <Block type="caption" src="photos/society-hotel.jpg" label="available">
+        ### Private Suites
+        private bathroom
+      </Block>
+      <Block type="caption" src="photos/Paramount-Hotel.jpg" label="3 left!">
+        ### Standard Room
+        shared bathroom
+      </Block>
+      <Block type="caption" src="photos/Hotel-Modera-Exterior.jpg" label="sold out!">
+        ### Bunks
+        shared bathroom
+      </Block>
+    </Grid>
+  </Block>
+  <div className="clear" />
  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Alternative Lodging Options
     If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:
