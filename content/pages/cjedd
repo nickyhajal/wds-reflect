@@ -32,7 +32,7 @@
 >
   <Image src="/heading/hoteltempheader.png" width="446px" height="156px" className="scriptHeader" preload/>
       <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="/images/wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
+    <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Introducing the WDS Hotel™
     Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
@@ -86,17 +86,17 @@
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
-    <Block type="caption" src="images/wds-hotel/suite-room1.jpg" label="Still Available">
+    <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
       ### Private Suites
-      <Link to="http://www.mcmenamins.com/CrystalHotel">private bathroom</Link>
+      <Link to="http://www.mcmenamins.com/CrystalHotel">(private bathroom)</Link>
     </Block>
-    <Block type="caption" src="images/wds-hotel/standard-room1.jpg" label="3 Left!">
+    <Block type="caption" src="wds-hotel/standard-room1.jpg" label="3 Left!">
      ### Standard Room
-      <Link to="http://nwportlandhostel.com/">shared bathroom</Link>
+      (shared bathroom)
     </Block>
-    <Block type="caption" src="images/wds-hotel/Bunk-room1.jpg" label="Sold Out!">
+    <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
       ### Bunks
-      <Link to="https://goo.gl/yOaB4l">shared bathroom</Link>
+      <Link to="https://goo.gl/yOaB4l">(shared bathroom)</Link>
     </Block>
   </Grid>
   </Block>
