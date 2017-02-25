@@ -31,46 +31,8 @@
   preload
 >
   <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
-  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
-    <Block>
-      ## Your Base in Portland
-    </Block>
-    <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
-      <PDXLocationMap
-        containerElement={
-          (is.phone() ?
-            <div style={{ height: '220px', width: '260px' }} /> :
-            <div style={{ height: '400px', width: '510px' }} />
-          )
-        }
-        mapElement={
-          (is.phone() ?
-            <div style={{ height: '220px', width: '260px' }} /> :
-            <div style={{ height: '400px', width: '510px' }} />
-          )
-        }
-      />
-    </Block>
       <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/modera-lobby.png" width="100%" height="302" />
-  </Block>
-    <Block anchor="left" width="370px" textAlign="left">
-      <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
-        ### 1037 SW Broadway,
-        ### Portland, OR 97205
-      </Block>
-      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }}
-        mobile={{
-          all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
-          phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
-        }}
-      >
-        ### PDX Airport
-        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">12.6 Mi from Base</Link>
-      </Block>
-    </Block>
-    <div className="clear" />
-  </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Lodging
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel)*, all within walking distance or a quick ride on public transit to WDS events and activities. 
@@ -102,7 +64,45 @@
     </Grid>
   </Block>
   <div className="clear" />
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="sea">
+    <Block>
+      ## Conveniently Located  
+    </Block>
+    <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
+      <PDXLocationMap
+        containerElement={
+          (is.phone() ?
+            <div style={{ height: '220px', width: '260px' }} /> :
+            <div style={{ height: '400px', width: '510px' }} />
+          )
+        }
+        mapElement={
+          (is.phone() ?
+            <div style={{ height: '220px', width: '260px' }} /> :
+            <div style={{ height: '400px', width: '510px' }} />
+          )
+        }
+      />
+    </Block>
+  </Block>
+    <Block anchor="left" width="370px" textAlign="left">
+      <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
+        ### 1037 SW Broadway,
+        ### Portland, OR 97205
+      </Block>
+      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }}
+        mobile={{
+          all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
+          phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
+        }}
+      >
+        ### PDX Airport
+        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">12.6 Mi from Base</Link>
+      </Block>
+    </Block>
+    <div className="clear" />
+  </Block>
+ <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Alternative Lodging Options
     If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:
   </Block>
