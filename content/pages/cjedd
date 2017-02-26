@@ -90,17 +90,17 @@
       <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Private Suite & Bathroom
        Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. 
-       **4-Night Package: $947**(maximum occupancy: 2 persons)
+       **4-Night Package: $947** (max occupancy: 2 persons)
       </Block>
       <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Standard Room & Shared Bathroom
        Enjoy your own private sanctuary with a dash of community in a private room with a shared bathroom. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses.
-      <p><b>4-Night Package: $697</b>(maximum occupancy: 2 persons)</p>
+      **4-Night Package: $697** (max occupancy: 2 persons)
       </Block>
       <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Bunk Bed & Shared Bathroom
-        Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. (maximum occupancy: 1 person per bunk)
-        <p><b>4-Night Package: $297</b></p>     
+        Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. 
+        **4-Night Package: $297** (1 bunk per person - trust us)   
         </Block>
    </Grid>
   </Block>
@@ -109,15 +109,15 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
       ### Private Suites
-      <Link to="http://www.mcmenamins.com/CrystalHotel">(private bathroom)</Link>
+      <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
     </Block>
     <Block type="caption" src="wds-hotel/standard-room1.jpg" label="3 Left!">
      ### Standard Room
-      (shared bathroom)
+     <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
     </Block>
     <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
       ### Bunks
-      <Link to="https://goo.gl/yOaB4l">(shared bathroom)</Link>
+     Sold Out!
     </Block>
   </Grid>
   </Block>
@@ -142,12 +142,12 @@
     ## WDS Hotel™ Package Details*
 
     - 4-Night Package: Thursday, July 13th - Monday, July 17th
-    - All taxes and fees inlcuded
-    - Exclusive programming and experiences
+    - All taxes and fees included
+    - Exclusive programming and activities
     - Surprises. Lots of surprises.
     - A pet goat.
     - High fives.
-     <i>*All packages are reserved through WDS and are paid upfront and non-refundable (so make sure you can commit to being there before purhcasing). Transfers can be made to another attendee up until June 10th and for a $50 fee per transfer. A credit card is required for registraion and check-in. WDS is responsible for the reservation process and programming aspects. The Society Hotel will provide all other services. Lodging before and after the WDS Hotel™ package is availble by contacting the Society Hotel directly. </i>
+     <i>*All packages are reserved through WDS and are paid upfront and non-refundable (so make sure you can commit to being there before purhcasing). Transfers can be made to another attendee up until June 10th and for a $50 fee per transfer. A credit card is required for registraion and check-in. WDS is responsible for the reservation process and programming aspects. The Society Hotel will provide all other services. Lodging before and after the WDS Hotel™ package is available by contacting the Society Hotel directly. </i>
   </Block>
 </Section>
    
