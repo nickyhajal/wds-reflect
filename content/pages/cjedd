@@ -84,9 +84,9 @@
    <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## The 4-Night Package
     A really fun and clear description about the hotel package goes here... Here's how to reserve your room:
-    ##### Step #1: Choose from 3 room/bed options (descriptions below)
-    From a large bunk room to private suites we've got options for travelers with both budget and sleep preferences in mind.
-   ##### Step #2: Review the package details and FAQs
+    ##### Step #1: Choose your room type (descriptions below)
+    We've got three options for travelers with both budget and sleep preferences in mind.
+   ##### Step #2: Review the package details
 <p>It's the little details that can make a huge difference in your experience.</p>
 ##### Step #3: Payment and guest information
 <p>Make your room selection, book, and prepare for lift-off.</p>
@@ -113,7 +113,7 @@
       <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Bunk Bed & Shared Bathroom  
         Get the most bed for your buck in one of our hostel-style bunks in the bunk room. Each bunk also comes with a private locker (BYOL). Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. (24 available bunks)  
-        **4-Night Package: $297** (1 bunk per person - trust us)   
+        **4-Night Package: $297** (1 bed per person)   
         </Block>
    </Grid>
   </Block>
