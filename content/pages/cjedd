@@ -81,25 +81,43 @@
     <div className="clear" />
   </Block>
   
-<Block margin="125px 0 50px 0">
-    <Block cols="6">
-      ## Head Meets Pillow Options
+   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+    ## The 4-Night Package
+    A really fun and clear description about the hotel package goes here... Here's how to reserve your room:
+    ##### Step #1: Choose from 3 room/bed options (room descriptions below)
+   <li>Bunk (shared bath + bonus hangout area)</li>
+   <li>Standard Room (shared bathroom)</li>
+   <li>Private Suite (private bathroom)</li>
+##### Step #2: Review the package details and FAQs
+<p>It's the little details that can make a huge difference.</p>
+##### Step #3: Payment and guest information
+<p>Make your room selection, book, and prepare for lift-off.</p>
+  </Block>
+  
+<Block margin="100px 0 50px 0">
+    <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+      ## Choose Your Adventure
     Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Private Suite & Bathroom
+       (12 available suites)
        Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. 
-       **4-Night Package: $947** (max occupancy: 2 persons)
+       <li>**4-Night Package: $947**</li>
+       <li>Max occupancy: 2 persons</li>
+
       </Block>
       <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Standard Room & Shared Bathroom
+       (25 available rooms)
        Enjoy your own private sanctuary with a dash of community in a private room with a shared bathroom. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses.
       **4-Night Package: $697** (max occupancy: 2 persons)
       </Block>
       <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Bunk Bed & Shared Bathroom
-        Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With our custom-built triple-tall bunks, you’ll get both community and privacy, all with some of the lowest rates in downtown Portland. 
+        (24 available bunks)
+        Get the most bed for your buck in one of our hostel-style bunks in the bunk room.  Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchen area.   
         **4-Night Package: $297** (1 bunk per person - trust us)   
         </Block>
    </Grid>
