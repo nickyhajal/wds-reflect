@@ -97,7 +97,7 @@
 <Block margin="100px 0 50px 0">
     <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
       ## Choose Your Adventure
-    Whether you like being near the action but need your own private retreat or the kind of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
+    Whether you like being near the action but need your own private retreat or you're the type of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
