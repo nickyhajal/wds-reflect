@@ -114,13 +114,6 @@
         ## Bunk Bed & Shared Bathroom  
         Get the most bed for your buck in one of our hostel-style bunks in the bunk room. Each bunk also comes with a private locker (BYOL). Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. (24 available bunks)  
         **4-Night Package: $297** (1 bunk per person - trust us)   
-      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
-        <p><b>All rooms/bed include:</b></p>
-         <li>Ultra-plush beds</li>
-         <li>Complimentary high speed Wi-Fi</li>
-         <li>Rooftop access</li>
-         <li>Amazing service</li>
-           </Block>
         </Block>
    </Grid>
   </Block>
@@ -128,15 +121,15 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
-      ### Private Suites
+      ### Private Suites ($947)
       <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
     </Block>
     <Block type="caption" src="wds-hotel/standard-room1.jpg" label="3 Left!">
-     ### Standard Room
+     ### Standard Room ($697)
      <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
     </Block>
     <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
-      ### Bunks
+      ### Bunks ($297)
      Sold Out!
     </Block>
   </Grid>
@@ -161,13 +154,15 @@
   >
     ## WDS Hotel™ Package Details*
 
-    - 4-Night Package: Thursday, July 13th - Monday, July 17th
-    - All taxes and fees included
+    - 4-Night Package: Thursday, July 13th (check-in 3pm) to Monday, July 17th (check-out 11am)
+    - All taxes and fees included in listed prices
+    - Complimentary high speed Wi-Fi
+    - Rooftop access
     - Exclusive programming and activities
     - Surprises. Lots of surprises.
     - A pet goat.
     - High fives.
-     <i>*All packages are reserved through WDS and are paid upfront and non-refundable (so make sure you can commit to being there before purhcasing). Transfers can be made to another attendee up until June 10th and for a $50 fee per transfer. A credit card is required for registraion and check-in. WDS is responsible for the reservation process and programming aspects. The Society Hotel will provide all other services. Lodging before and after the WDS Hotel™ package is available by contacting the Society Hotel directly.</i> Maybe this should be in a separate FAQ's page? 
+     <i>*All packages are reserved through WDS and are paid upfront and non-refundable (so make sure you can commit to being there before purhcasing). Transfers can be made to another attendee up until June 10th and for a $50 fee per transfer. A credit card is required for registraion and check-in. WDS is responsible for the reservation process and any changes associated with the 4-night package. The Society Hotel will provide all other services including reservations for days prior to and after the WDS Hotel™ package.</i> Maybe this should be in a separate FAQ's page? 
   </Block>
 </Section>
    
