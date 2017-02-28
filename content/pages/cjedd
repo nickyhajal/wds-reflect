@@ -83,7 +83,11 @@
   
    <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## We Booked An Entire Hotel!!!
-    We've reserved every single room and bed of the Society Hotel for the main events of WDS (Thursday, July 13th until Monday, July 17th). Because this is WDS not a typical hotel experience, rooms and bunks will be availble for purchase as a four-day package (even if you decide to arrive later and still want to stay at the WDS Hotel™). Want to add dates to your stay at the Soceity Hotel before or after the WDS package? No problem! Once you've reserved your WDS Hotel™ package you'll contact the Society Hotel directly to setup those additional dates.  
+    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, July 13th until Monday, July 17th</b>. Because this is more than just a typical hotel experience, rooms and bunks will only be available for purchase as a four-day package.</p> 
+    Want to add dates to your stay at the Soceity Hotel before or after the WDS package -- no problem! Once you've reserved your WDS Hotel™ package you'll contact the Society Hotel directly to setup those additional dates.  
+    Ready to start? Here's how to reserve your spot at the WDS Hotel™:
+    ##### Step #1: Choose your room type (descriptions below)
+    We've got three options for travelers with both budget and sleep preferences in mind.
    ##### Step #2: Review the package details
 <p>It's the little details that can make a huge difference in your experience.</p>
 ##### Step #3: Payment and guest information
@@ -166,6 +170,7 @@
    
   <Block>## PHOTO GALLERY GOES HERE???</Block>
 <Block>## RESERVE YOUR ROOM BUTTON GOES HERE???</Block>
+<Block>## Looking for different accomodations? See our complete list of hotel partners here...</Block>
 
 </Section>
 <Import id="wait-list" />
