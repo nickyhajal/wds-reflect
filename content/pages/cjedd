@@ -91,7 +91,7 @@
    ##### Step #2: Review the package details
 <p>It's the little details that can make a huge difference in your experience.</p>
 ##### Step #3: Payment and guest information
-<p>Make your room selection, book, and prepare for lift-off.</p>
+<p>Make your room selection, book, tell us who's coming, and then prepare for lift-off.</p>
   </Block>
   
    <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
@@ -145,6 +145,7 @@
     <Block
     type="padded"
     cols="6"
+    textAlign="left"
     bleed={false}
     background="canvas"
     className="has-checklist"
@@ -154,7 +155,7 @@
     }}}
     clip="top_lr_1.6"
   >
-    ## WDS Hotel™ Package Details*
+    ## WDS Hotel™ Package Details
 
     - 4-nights: Thursday, July 13th (check-in 3pm) to Monday, July 17th (check-out 11am)
     - All taxes and fees included in listed prices
@@ -163,8 +164,8 @@
     - Exclusive programming and activities
     - Surprises. Lots of surprises.
     - High fives.
-     *All packages are reserved through WDS and are paid upfront and non-refundable (so make sure you can commit to being there before purhcasing). Transfers can be made to another attendee up until June 10th and for a $50 fee per transfer. A credit card is required for registraion and check-in. 
-     WDS is responsible for the reservation process and any changes associated with the 4-night package. The Society Hotel will provide all other services including reservations for days prior to and after the WDS Hotel™ package. 
+     <p><b>The little details:</b> All packages are reserved through WDS and are paid upfront and are non-refundable (so make sure you can commit to being there before purchasing). Transfers can be made to another attendee for a $50 fee per transfer until June 10th. A credit card is required for registraion and check-in.</p> 
+     WDS is responsible for the reservation process and any changes associated with the 4-night package. The Society Hotel will provide all other hotel and guest services including reservations for additional days prior to and after the WDS Hotel™ package. 
   </Block>
 </Section>
    
