@@ -128,6 +128,8 @@
 ##### Step #3: Payment and guest information
 <p>Make your room selection, book, tell us who's coming, and then prepare for lift-off.</p>
   </Block>
+   
+ <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
     
 <Block margin="100px 0 50px 0">
     <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
@@ -153,8 +155,6 @@
    </Grid>
   </Block>
   
-  <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
-  
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
@@ -172,6 +172,15 @@
   </Grid>
   </Block>
   <div className="clear" />
+   </Block>
+   
+    <Block type="padded" background="sea">
+    <Block cols="5" textAlign="left">
+      ## WDS Hotel™ FAQs
+    You might have some questions. We've got some answers.
+     ##### Do you offer pet goats?
+    We've got three options for travelers who love goats.
+    </Block>
    </Block>
    
   <Block>## PHOTO GALLERY GOES HERE???</Block>
