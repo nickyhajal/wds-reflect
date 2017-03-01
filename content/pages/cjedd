@@ -83,12 +83,12 @@
   
    <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## We Booked An Entire Hotel!!!
-    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, July 13th until Monday, July 17th</b>. Because this is more than just a typical hotel experience, rooms and bunks will only be available for purchase as a four-day package.</p>   
+    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, July 13th until Monday, July 17th</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-day package.</b></p>
+    Here's what you need to know...
       </Block>
   
   <Section color="blue" css={{ padding: '90px 0 180px 0' }} mobile={{ phone: { padding: '20px 0 80px 0' } }}>
   <div className="clear"></div>
-  <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-120px 0 -80px -50px" mobile={ { all: {position: 'relative', zIndex: '-1' }, phone: {width: '100%', margin: '-120px 0 -80px -20px'}} }/>
     <Block
     type="padded"
     cols="6"
@@ -114,6 +114,8 @@
      <p><b>The little details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). Transfers can be made to another attendee for a $50 fee per transfer until June 10th. A credit card is required for registration and check-in.</p> 
      WDS is responsible for the reservation process and any changes associated with the 4-night package while the Society Hotel will provide all other hotel and guest services. Reservations for additional days prior to and after the WDS Hotel™ package dates must be made with the Society Hotel directly. 
   </Block>
+   <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
+  <div className="clear" />
 </Section>
   
    <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
