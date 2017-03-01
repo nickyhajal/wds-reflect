@@ -196,48 +196,48 @@
   <Tabs style="">
     <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
+      <Block cols="8" textAlign="left">
         ## Hotel Exterior  
       </Block>
     </Tab>
     <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
+      <Block cols="8" textAlign="left">
         ## Front Desk
       </Block>
     </Tab>
     <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
+      <Block cols="8" textAlign="left">
         ## In-House Barista Counter
       </Block>
     </Tab>
 <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
+      <Block cols="8" textAlign="left">
         ## Rooftop Patio
       </Block>
     </Tab>
 <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
+      <Block cols="8" textAlign="left">
         ## Bunk Bed Common Room
       </Block>
       <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
+      <Block cols="8" textAlign="left">
         ## Bunk Bed 
       </Block>
     </Tab>
     <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
+      <Block cols="8" textAlign="left">
         ## Private Room
       </Block>
     </Tab>
     <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
+      <Block cols="8" textAlign="left">
         ## Robe & Towels for the Shared Bathroom
       </Block>
     </Tab>
