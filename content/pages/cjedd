@@ -193,7 +193,7 @@
    
 <Section color="canvas">
   <Block>## The WDS Hotel™</Block>
-  <Tabs style="">
+  <Tabs style="dots">
     <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
