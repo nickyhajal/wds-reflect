@@ -45,7 +45,7 @@
 </Block>
    <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
     <Block>
-      ## Conveniently Located Eh
+      ## Conveniently Located
     </Block>
     <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
       <PDXLocationMap
