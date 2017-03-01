@@ -190,60 +190,51 @@
     The hotel is less than a mile (0.8) walk through downtown. Alternative ways to get there would be by bike, the light rail (MAX) system, or ride share.
     </Block>
    </Block>
-   
+ <div className="clear" />  
 <Section color="canvas">
   <Block>## The WDS Hotel™</Block>
   <Tabs style="dots">
-    <Tab title="">
+    <Tab title="Hotel Exterior ">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-        ## Hotel Exterior  
+      <Block cols="6" textAlign="left"> 
       </Block>
     </Tab>
-    <Tab title="">
+    <Tab title="Front Desk">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Front Desk
       </Block>
     </Tab>
-    <Tab title="">
+    <Tab title="In-House Barista Counter">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## In-House Barista Counter
       </Block>
     </Tab>
-<Tab title="">
+<Tab title="Rooftop Patio">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Rooftop Patio
       </Block>
     </Tab>
-<Tab title="">
+<Tab title="Bunk Bed Common Room">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Bunk Bed Common Room
       </Block>
      </Tab>
-      <Tab title="">
+      <Tab title="Bunk Bed">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-        ## Bunk Bed 
+      <Block cols="6" textAlign="left"> 
       </Block>
     </Tab>
-    <Tab title="">
+    <Tab title="Private Room">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Private Room
       </Block>
     </Tab>
-    <Tab title="">
+    <Tab title="Robe & Towels for the Shared Bathroom">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Robe & Towels for the Shared Bathroom
       </Block>
     </Tab>
   </Tabs>
-  <div class="clear" />
 </Section>
 <Block>## RESERVE YOUR ROOM BUTTON GOES HERE???</Block>
 <Block>## Looking for different accomodations? See our complete list of hotel partners here...</Block>
