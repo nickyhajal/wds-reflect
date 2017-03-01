@@ -175,11 +175,19 @@
    </Block>
    
     <Block type="padded" background="sea">
-    <Block cols="5" textAlign="left">
+    <Block cols="5" textAlign="left" css={{ color: 'white' }}>
       ## WDS Hotel™ FAQs
     You might have some questions. We've got some answers.
-     ##### Do you offer pet goats?
-    We've got three options for travelers who love goats.
+     ##### How do I book additional nights before or after the WDS package at the hotel?
+    Once you've reserved your WDS Hotel™ package please contact the Society Hotel directly to setup any additional dates.
+     ##### Can I book a partial stay or split days with a friend?
+    Once you've booked the room, it's your reservation and responsibility for that room. In other words, if you're friend charges 20 coffees to the room, you'd be responsible for paying it. 
+     ##### Can I book a private room with another person who isn’t attending WDS?
+    Ideally we'd love for everyone staying at the WDS Hotel™ to be part of WDS. That being said we would understand if you had a significant other or dependent staying with you. 
+    ##### What kinds of facilities are in the hotel?
+    There is an excellent coffee shop area that serves light fare for breakfast and lunch which you'll be able to charge to your room. Additionally as guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite. 
+    ##### How far is the hotel from the WDS Main Stage?
+    The hotel is less than a mile (0.8) walk through downtown. Alternative ways to get there would be by bike, the light rail (MAX) system, or ride share.
     </Block>
    </Block>
    
