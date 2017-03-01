@@ -159,42 +159,94 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
       ### Private Suites ($947)
-      (Private bathroom)
+      <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
     </Block>
     <Block type="caption" src="wds-hotel/standard-room1.jpg" label="3 Left!">
      ### Standard Room ($697)
-    (Shared bathroom)
+     <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
     </Block>
     <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
       ### Bunks ($297)
-     (Shared bathroom)
+     Sold Out!
     </Block>
   </Grid>
   </Block>
   <div className="clear" />
    </Block>
    
-   <Block>## RESERVE YOUR ROOM BUTTON GOES HERE???</Block>
-   
     <Block type="padded" background="sea">
     <Block cols="5" textAlign="left" css={{ color: 'white' }}>
       ## WDS Hotel™ FAQs
     You might have some questions. We've got some answers.
-     ##### What is the refund and transfer policy?
-   WDS Hotel™ packages are non-refundable. Transfers can be made to another attendee for a $50 fee per transfer until June 10th. Contact the WDS concierge team at concierge@wds.fm to request a transfer.
-   ##### How do I add additional nights before and/or after the WDS package dates?
-    Once you've reserved your WDS Hotel™ package please contact the Society Hotel directly to setup any additional dates by calling (503)445-0444.
+     ##### How do I book additional nights before or after the WDS package at the hotel?
+    Once you've reserved your WDS Hotel™ package please contact the Society Hotel directly to setup any additional dates.
      ##### Can I book a partial stay or split days with a friend?
-    Once you've booked the room it's your reservation and responsibility regarding who stays with you. But fair warning - if you're friend charges 20 coffees to the room, you'd be responsible for paying it. 
+    Once you've booked the room, it's your reservation and responsibility for that room. In other words, if you're friend charges 20 coffees to the room, you'd be responsible for paying it. 
      ##### Can I book a private room with another person who isn’t attending WDS?
-    Ideally we'd love for everyone staying at the WDS Hotel™ to be part of WDS. That being said we would understand if you had a significant other or dependent staying with you that isn't coming to WDS (but we hope they would).
+    Ideally we'd love for everyone staying at the WDS Hotel™ to be part of WDS. That being said we would understand if you had a significant other or dependent staying with you. 
     ##### What kinds of facilities are in the hotel?
-    There is an excellent cafe + lounge in the lobby area featuring fresh pastries, sandwhiches, and salads. For beverages the cafe features coffee, beer, and wine from some of Portland’s finest and handcrafted cocktails. Additionally, all guests have access to the amazing rooftop lounge. Please note there is not a fitness center onsite. 
+    There is an excellent coffee shop area that serves light fare for breakfast and lunch which you'll be able to charge to your room. Additionally as guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite. 
     ##### How far is the hotel from the WDS Main Stage?
     The hotel is less than a mile (0.8) walk through downtown. Alternative ways to get there would be by bike, the light rail (MAX) system, or ride share.
     </Block>
    </Block>
-  
+   
+  <Block>
+ <Section color="canvas">
+  <Block>## The WDS Hotel™</Block>
+  <Tabs style="">
+    <Tab title="">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+        ## Hotel Exterior  
+      </Block>
+    </Tab>
+    <Tab title="">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Front Desk
+      </Block>
+    </Tab>
+    <Tab title="">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## In-House Barista Counter
+      </Block>
+    </Tab>
+<Tab title="">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+        ## Rooftop Patio
+      </Block>
+    </Tab>
+<Tab title="">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+        ## Bunk Bed Common Room
+      </Block>
+      <Tab title="">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+        ## Bunk Bed 
+      </Block>
+    </Tab>
+    <Tab title="">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+        ## Private Room
+      </Block>
+    </Tab>
+    <Tab title="">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+        ## Robe & Towels for the Shared Bathroom
+      </Block>
+    </Tab>
+  </Tabs>
+  <div class="clear" />
+</Section>
+  </Block>
+<Block>## RESERVE YOUR ROOM BUTTON GOES HERE???</Block>
 <Block>## Looking for different accomodations? See our complete list of hotel partners here...</Block>
 
 </Section>
