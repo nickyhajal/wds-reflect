@@ -111,15 +111,24 @@
     - Exclusive programming and activities
     - Surprises. Lots of surprises.
     - High fives.
-     <p><b>The little details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). Transfers can be made to another attendee for a $50 fee per transfer until June 10th. A credit card is required for registration and check-in.</p> 
-     WDS is responsible for the reservation process and any changes associated with the 4-night package while the Society Hotel will provide all other hotel and guest services. Reservations for additional days prior to and after the WDS Hotel™ package dates must be made with the Society Hotel directly. 
+     <p><b>The little details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). A credit card is required for registration and check-in.</p> 
+     WDS is responsible for the reservation process and any changes associated with the 4-night package while the Society Hotel will provide all other hotel and guest services. 
   </Block>
    <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
 </Section>
-  
-   <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
-  
+
+ <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+    ## Let's Do This!
+    Here's how to reserve your spot at the WDS Hotel™:
+    ##### Step #1: Choose your room type (descriptions below)
+    We've got three options for travelers with both budget and sleep preferences in mind.
+   ##### Step #2: Review the details and FAQ sections
+<p>It's the little details that can make a huge difference in your experience.</p>
+##### Step #3: Payment and guest information
+<p>Make your room selection, book, tell us who's coming, and then prepare for lift-off.</p>
+  </Block>
+    
 <Block margin="100px 0 50px 0">
     <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
       ## Choose Your Adventure
@@ -143,6 +152,8 @@
         </Block>
    </Grid>
   </Block>
+  
+  <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
   
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
