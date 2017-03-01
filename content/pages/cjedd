@@ -43,7 +43,7 @@
     
     <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
 </Block>
-   <Block type="padded" width="100%" align="center" margin="20px 0 20px" background="sea">
+   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="sea">
     <Block>
       ## Conveniently Located
     </Block>
@@ -64,7 +64,7 @@
       />
     </Block>
     <Block anchor="left" width="370px" textAlign="left">
-      <Block width="340px" css={{ padding: '50px 20px 50px 20px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
+      <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
         ### 203 NW 3rd Ave,
         ### Portland, OR 97209
       </Block>
