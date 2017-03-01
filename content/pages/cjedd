@@ -223,6 +223,7 @@
       <Block cols="8" textAlign="left">
         ## Bunk Bed Common Room
       </Block>
+     </Tab>
       <Tab title="">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="8" textAlign="left">
