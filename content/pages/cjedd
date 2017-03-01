@@ -191,8 +191,7 @@
     </Block>
    </Block>
    
-  <Block>
- <Section color="canvas">
+<Section color="canvas">
   <Block>## The WDS Hotel™</Block>
   <Tabs style="">
     <Tab title="">
@@ -245,7 +244,6 @@
   </Tabs>
   <div class="clear" />
 </Section>
-  </Block>
 <Block>## RESERVE YOUR ROOM BUTTON GOES HERE???</Block>
 <Block>## Looking for different accomodations? See our complete list of hotel partners here...</Block>
 
