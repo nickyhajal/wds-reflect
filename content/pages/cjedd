@@ -39,7 +39,7 @@
     
     <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2017.</p>
     
-    <p>This hotel, known during non-WDS times as the Society Hotel, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
+    <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
     
     <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
 </Block>
@@ -83,7 +83,9 @@
   
    <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## We Booked An Entire Hotel!!!
-    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, July 13th until Monday, July 17th</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-day package.</b></p>
+    
+    ##### 4-night packages: Thursday, July 13th until Monday, July 17th
+    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, July 13th until Monday, July 17th</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
     Here's what you need to know...
       </Block>
   
@@ -111,8 +113,7 @@
     - Exclusive programming and activities
     - Surprises. Lots of surprises.
     - High fives.
-     <p><b>The little details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). A credit card is required for registration and check-in.</p> 
-     WDS is responsible for the reservation process and any changes associated with the 4-night package while the Society Hotel will provide all other hotel and guest services. 
+     <p><b>The little details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). A credit card is required for online reservation and at check-in. WDS is responsible for the reservation process and any changes associated with the 4-night package while the Society Hotel will provide all other hotel and guest services.</p> 
   </Block>
    <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
@@ -120,7 +121,7 @@
 
  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## Let's Do This!
-    Here's how to reserve your spot at the WDS Hotel™:
+    Here's how to reserve your spot at the WDS Hotel™
     ##### Step #1: Choose your room type (descriptions below)
     We've got three options for travelers with both budget and sleep preferences in mind.
    ##### Step #2: Review the details and FAQ sections
@@ -181,10 +182,13 @@
     <Block cols="5" textAlign="left" css={{ color: 'white' }}>
       ## WDS Hotel™ FAQs
     You might have some questions. We've got some answers.
-    ##### What is your refund/transfer policy for WDS Hotel™ packages?
-    <p>All WDS Hotel™ packages are <b>non-refundable</b>. Transfers can be made to another attendee for a $50 fee per transfer until June 10th by contacting the WDS concierge team (not the Society Hotel) at concierge@wds.fm.</p>  
+   ##### Can I book a WDS Hotel™ package through the Society Hotel? 
+   Because of our arrangement with the Society Hotel, WDS is handling all reservations for the WDS Hotel™ package and the Society Hotel is handling all other reservations.
+   ##### What is your refund/transfer policy for WDS Hotel™ packages?
+    <p>All WDS Hotel™ packages are <b>non-refundable</b>. Transfers can be made to another attendee for a $50 fee per transfer until June 10th by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
     ##### How do I book additional nights before or after the WDS package dates?
-    Once you've reserved your WDS Hotel™ package please contact the Society Hotel directly to setup any additional dates at 503-445-0444.
+    <p>Once you've reserved your WDS Hotel™ package please contact the Society Hotel directly (avoid their online reservation system) to setup any additional dates by calling their front desk at <b>503-445-0444</b>.</p> 
+    It would be up to you if you wanted to try and stay in the same room type as your WDS Hotel™ package but there are no guarantees based on the hotel's room availability.
     ##### When will my credit card be charged?
     Your card will be immediately charged when you book WDS Hotel™ package as they are paid upfront and in full. You will also need to provide a credit card upon check in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee, directly to your room. 
      ##### Can I book a partial stay or split days with a friend?
