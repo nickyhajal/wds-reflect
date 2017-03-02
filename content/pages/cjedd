@@ -197,8 +197,10 @@
     Ideally we'd love for everyone staying at the WDS Hotel™ to be part of WDS. That being said we would understand if you had a significant other or dependent staying with you. 
     ##### What kinds of facilities are in the hotel?
     There is an excellent coffee shop area that serves light fare for breakfast and lunch which you'll be able to charge to your room. Additionally as guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite. 
-    ##### How far is the hotel from the WDS Main Stage?
-    The hotel is less than a mile (0.8) walk through downtown. Alternative ways to get there would be by bike, the light rail (MAX) system, or ride share.
+    ##### How do I get to the hotel from the airport? 
+   <p>For $2.50, take the MAX red line train from the airport towards "City Center/Beaverton" and get off at the "Old Town/Chinatown" stop. Walk two blocks west on Davis St. and you'll see the hotel at the corner of Davis and 3rd Ave. <Link to="https://goo.gl/maps/93LythVvQEG2">(Google directions).</Link></p>
+   ##### How far is the hotel from the WDS Main Stage?
+    <p>The hotel is less than a mile (0.8) walk through downtown <Link to="https://goo.gl/maps/TTdw8Ae8xGu">(Google directions)</Link>. Alternative ways to easily get there would be by bike, the light rail (MAX) system, or ride share.</p>
     ##### Not finding the answer to your question?
     <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>.</p>
     </Block>
@@ -257,7 +259,7 @@
    ## Additional Accomodations for Staying in Portland
   <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/location/" newWindow={true} styling="white" fitToText>2017 Hotel Partners</Button> 
+<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="white" fitToText>2017 Hotel Partners</Button> 
  </Block>
   </Block>
 </Section>
