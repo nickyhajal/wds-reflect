@@ -191,8 +191,9 @@
     </Block>
    </Block>
  <div className="clear" />  
+</Section>
 
-<Section color="canvas">
+<Section color="white">
   <Block>## The WDS Hotel™</Block>
   <Tabs style="dots">
     <Tab title="Exterior ">
@@ -205,7 +206,7 @@
       <Block cols="6" textAlign="left">
       </Block>
     </Tab>
-    <Tab title="Barista Counter">
+    <Tab title="Cafe Counter">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
       </Block>
@@ -239,6 +240,4 @@
 </Section>
 <Block>## RESERVE YOUR ROOM BUTTON GOES HERE???</Block>
 <Block>## Looking for different accomodations? See our complete list of hotel partners here...</Block>
-
-</Section>
 <Import id="wait-list" />
