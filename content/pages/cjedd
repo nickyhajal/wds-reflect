@@ -159,20 +159,23 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
       ### Private Suites ($947)
-      <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
+      Private bathroom
     </Block>
     <Block type="caption" src="wds-hotel/standard-room1.jpg" label="3 Left!">
-     ### Standard Room ($697)
-     <Link to="http://www.mcmenamins.com/CrystalHotel">Book This Room</Link>
+    ### Standard Room ($697)
+    Shared bathroom
     </Block>
     <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
       ### Bunks ($297)
-     Sold Out!
+    Shared bathroom
     </Block>
   </Grid>
   </Block>
   <div className="clear" />
    </Block>
+   
+   <Block>## RESERVE YOUR ROOM BUTTON GOES HERE???</Block>
+
    
     <Block type="padded" background="sea">
     <Block cols="5" textAlign="left" css={{ color: 'white' }}>
@@ -180,6 +183,8 @@
     You might have some questions. We've got some answers.
      ##### How do I book additional nights before or after the WDS package at the hotel?
     Once you've reserved your WDS Hotel™ package please contact the Society Hotel directly to setup any additional dates.
+    **When will my credit card be charged?**
+    Your card will be immediately charged when you book WDS Hotel™ package as they are paid upfront and in full. You will also need to provide a credit card upon check in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee, directly to your room. 
      ##### Can I book a partial stay or split days with a friend?
     Once you've booked the room, it's your reservation and responsibility for that room. In other words, if you're friend charges 20 coffees to the room, you'd be responsible for paying it. 
      ##### Can I book a private room with another person who isn’t attending WDS?
@@ -194,7 +199,7 @@
 </Section>
 
 <Section color="white">
-  <Block>## The WDS Hotel™</Block>
+  <Block>## The WDS Hotel™ Gallery</Block>
   <Tabs style="dots">
     <Tab title="Exterior ">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
