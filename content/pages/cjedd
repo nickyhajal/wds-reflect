@@ -43,7 +43,7 @@
     
     <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
 </Block>
-   <Block type="padded" width="110%" align="center" margin="50px 0 20px" background="sea">
+   <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
     <Block>
       ## Conveniently Located
     </Block>
@@ -89,7 +89,7 @@
     Here's what you need to know...
       </Block>
   
-  <Section color="blue" css={{ padding: '90px 0 90px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
+  <Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
     <Block
     type="padded"
@@ -253,7 +253,7 @@
     </Tab>
   </Tabs>
 </Section>
-<Block>## Final RESERVE YOUR ROOM BUTTON GOES HERE???</Block>
+<Block>## Final RESERVE YOUR ROOM BUTTON GOES HERE</Block>
 <Section color="green">
   <Block cols="6" css={{ padding: '15px 0 20px' }}>
    ## Additional Accomodations for Staying in Portland
