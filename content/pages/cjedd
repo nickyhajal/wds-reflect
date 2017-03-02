@@ -43,7 +43,7 @@
     
     <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
 </Block>
-   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="sea">
+   <Block type="padded" width="110%" align="center" margin="50px 0 20px" background="sea">
     <Block>
       ## Conveniently Located
     </Block>
@@ -87,7 +87,7 @@
     Here's what you need to know...
       </Block>
   
-  <Section color="blue" css={{ padding: '90px 0 180px 0' }} mobile={{ phone: { padding: '20px 0 80px 0' } }}>
+  <Section color="blue" css={{ padding: '90px 0 90px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
     <Block
     type="padded"
@@ -178,12 +178,12 @@
 
    
     <Block type="padded" background="sea">
-    <Block cols="5" textAlign="left" css={{ color: 'white' }}>
+    <Block cols="5" textAlign="left" color: "white">
       ## WDS Hotel™ FAQs
     You might have some questions. We've got some answers.
      ##### How do I book additional nights before or after the WDS package at the hotel?
     Once you've reserved your WDS Hotel™ package please contact the Society Hotel directly to setup any additional dates.
-    **When will my credit card be charged?**
+    ##### When will my credit card be charged?
     Your card will be immediately charged when you book WDS Hotel™ package as they are paid upfront and in full. You will also need to provide a credit card upon check in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee, directly to your room. 
      ##### Can I book a partial stay or split days with a friend?
     Once you've booked the room, it's your reservation and responsibility for that room. In other words, if you're friend charges 20 coffees to the room, you'd be responsible for paying it. 
