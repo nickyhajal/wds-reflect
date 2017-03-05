@@ -155,7 +155,6 @@
    </Grid>
   </Block>
   
-   <Section color="white">
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Available">
@@ -178,7 +177,6 @@
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
 <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="orange" size="large" fittotext>Reserve Your Room</Button> 
  </Block>
-   </Section>
    
     <Block type="padded" background="sea">
     <Block cols="5" textAlign="left" css={{ color: 'white' }}>
