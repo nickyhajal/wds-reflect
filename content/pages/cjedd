@@ -174,7 +174,7 @@
   <div className="clear" />
    </Block>
    
-   <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="white">Reserve Your Room</Button>
+   <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="orange">Reserve Your Room</Button>
 
    
     <Block type="padded" background="sea">
@@ -259,7 +259,7 @@
    ## Additional Accomodations for Staying in Portland
   <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="white" fitToText>2017 Hotel Partners</Button> 
+<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange">2017 Hotel Partners</Button> 
  </Block>
   </Block>
 </Section>
