@@ -141,7 +141,6 @@
         ## Private Suite & Bathroom
        Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (12 available suites) 
        **4-Night Package: $947** (Max occupancy: 2 persons)
-       <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>Book This Room</Button>
       </Block>
       <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Standard Room & Shared Bathroom
@@ -156,18 +155,18 @@
    </Grid>
   </Block>
   
+   <Section color="white">
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
-    <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
+    <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Available">
       ### Private Suites ($947)
       Private bathroom
-      <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} fitToText>Book This Room</Button>
     </Block>
-    <Block type="caption" src="wds-hotel/standard-room1.jpg" label="3 Left!">
+    <Block type="caption" src="wds-hotel/standard-room1.jpg" label="Available">
     ### Standard Room ($697)
     Shared bathroom
     </Block>
-    <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
+    <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Available">
       ### Bunks ($297)
     Shared bathroom
     </Block>
@@ -176,7 +175,6 @@
   <div className="clear" />
    </Block>
    
-   <Section color="white">
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
 <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="orange" size="large" fittotext>Reserve Your Room</Button> 
  </Block>
