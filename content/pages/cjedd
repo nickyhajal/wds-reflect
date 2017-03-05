@@ -174,7 +174,7 @@
   <div className="clear" />
    </Block>
    
-   <Section color="white" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
+   <Section color="white">
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
 <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="orange" size="large" fittotext>Reserve Your Room</Button> 
  </Block>
