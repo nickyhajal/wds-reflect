@@ -161,6 +161,7 @@
     <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Still Available">
       ### Private Suites ($947)
       Private bathroom
+      <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} fitToText>Book This Room</Button>
     </Block>
     <Block type="caption" src="wds-hotel/standard-room1.jpg" label="3 Left!">
     ### Standard Room ($697)
