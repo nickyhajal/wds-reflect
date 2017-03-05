@@ -141,6 +141,7 @@
         ## Private Suite & Bathroom
        Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (12 available suites) 
        **4-Night Package: $947** (Max occupancy: 2 persons)
+       <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>Book This Room</Button>
       </Block>
       <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Standard Room & Shared Bathroom
