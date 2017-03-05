@@ -174,7 +174,7 @@
   <div className="clear" />
    </Block>
    
-   <Block>## MAIN RESERVE BUTTON GOES HERE</Block>
+   <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="white">Reserve Your Room</Button>
 
    
     <Block type="padded" background="sea">
@@ -253,7 +253,7 @@
     </Tab>
   </Tabs>
 </Section>
-<Block>## Final RESERVE YOUR ROOM BUTTON GOES HERE</Block>
+   <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="white">Reserve Your Room</Button>
 <Section color="green">
   <Block cols="6" css={{ padding: '15px 0 20px' }}>
    ## Additional Accomodations for Staying in Portland
