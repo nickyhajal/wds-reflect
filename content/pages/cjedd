@@ -179,7 +179,7 @@
  </Block>
    
     <Block type="padded" background="sea">
-    <Block cols="5" textAlign="left" css={{ color: 'white' }}>
+    <Block cols="5" textAlign="left" css={{ fontFamily: 'Vitesse', color: 'white' }}>
       ## WDS Hotel™ FAQs
     You might have some questions. We've got some answers.
    ##### Can I book a WDS Hotel™ package through the Society Hotel? 
