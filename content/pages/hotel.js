@@ -214,7 +214,7 @@
      </Block>
    <div className="clear" />
 </Section>
-<Section color="white">
+<Section color="canvas">
   <Block>## The WDS Hotel™ Gallery</Block>
   <Tabs style="dots">
     <Tab title="Exterior ">
