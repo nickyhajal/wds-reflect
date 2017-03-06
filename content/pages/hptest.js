@@ -36,6 +36,13 @@
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/T3BnDWTY9oq">(Google Directions)</Link></p> 
 <Button to="https://gc.synxis.com/rez.aspx?Chain=5173&Hotel=53439&group=WDS2017" newWindow={true}>Book Online</Button>    
 </Block>
+  <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
+      ## Hilton Portland & Executive Tower
+      The modern Hilton Portland & Executive Tower is conveniently located in the heart of downtown next to great restaurants and venues. The Hilton Portland comprises of two buildings: the landmark Hilton Portland and the upscale Executive Tower with spacious guest rooms and executive level amenities.     
+  <p><i>More information about booking online or via phone is coming soon.</i></p> 
+      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/UYkeGdPMfqJ2">(Google Directions)</Link></p> 
+<Button to="" newWindow={true}>Coming Soon!</Button>    
+</Block>
   </Grid>
   
 </Section>
