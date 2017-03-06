@@ -95,37 +95,50 @@ import is from '../utils/is';
     ## Lodging{'\n'}
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel)*, all within walking distance or a quick ride on public transit to WDS events and activities. {'\n'}
 
-<p><i>*Please note: The ability to reserve your room at one of our partner hotels will be available soon.</i></p>
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/modera-lobby.png" width="100%" height="302" />{'\n'}
   </Block>
-  <Block cols="8" bleed={false} margin="0 0 80px">
-    <Grid numCols="3" tabletCols="2">
-      <Block type="caption" src="photos/society-hotel.jpg" label="Coming Soon">
-        ### The WDS Hotel{'\n'}
-        **0.8 Mi** from Base{'\n'}
-      </Block>
-      <Block type="caption" src="photos/Paramount-Hotel.jpg" label="Coming Soon">
-        ### Paramount Hotel{'\n'}
-        **0.1 Mi** from Base{'\n'}
-      </Block>
-      <Block type="caption" src="photos/Hotel-Modera-Exterior.jpg" label="Coming Soon">
-        ### Hotel Modera{'\n'}
-        **0.3 Mi** from Base{'\n'}
-      </Block>
-      <Block type="caption" src="photos/hilton.png" label="Coming Soon">
-        ### Hilton{'\n'}
-        **0.5 Mi** from Base{'\n'}
-      </Block>
-      <Block type="caption" src="photos/Jupiter-Hotel-exterior.jpg" label="Coming Soon">
-        ### Jupiter Hotel{'\n'}
-        **1.5 Mi** from Base{'\n'}
-      </Block>
-    </Grid>
-  </Block>
-  <div className="clear" />{'\n'}
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+  
+ <Grid margin="60px 0 -20px 0">
+    <Block type="image" src="photos/society-hotel.jpg">
+      ## WDS Hotel™{'\n'}
+     The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. {'\n'}
+       <p><i>Registration is only available for 4-night packages and through WDS.</i></p> 
+       <p>0.8 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
+      <Button to="http://wds.fm/hotel" newWindow={true}>Learn More</Button>
+    </Block>
+    <Block type="image" src="photos/Paramount-Hotel.jpg">
+      ## Paramount Hotel {'\n'}
+      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
+      <p><i>Book online using the group code <b>"WDS17"</b> or call 503.223.9900. Be sure to tell them you're with WDS.</i></p>
+      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
+      <Button to="http://uspor.webhotel.microsdc.us/bp/search_rooms.jsp?groupCode=WDS17" newWindow={true}>Book Online</Button>
+    </Block>
+    <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
+      ## Hotel Modera{'\n'}
+      A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. {'\n'}
+      <p><i>Book online using the group code <b>"WDS2017"</b> or call 877.484.1084. Be sure to tell them you're with WDS.</i></p> 
+      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/T3BnDWTY9oq">(Google Directions)</Link></p> 
+<Button to="https://gc.synxis.com/rez.aspx?Chain=5173&Hotel=53439&group=WDS2017" newWindow={true}>Book Online</Button>    
+</Block>
+  <Block type="image" src="photos/hilton.png">
+      ## Hilton Portland{'\n'}
+      The modern Hilton Portland & Executive Tower is conveniently located in the heart of downtown next to great restaurants and venues. The Hilton Portland comprises of two buildings: the landmark Hilton Portland and the upscale Executive Tower with spacious guest rooms and executive level amenities.     {'\n'}
+  <p><i>More information about booking online or via phone is coming soon.</i></p> 
+      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/UYkeGdPMfqJ2">(Google Directions)</Link></p> 
+<Button to="http://www3.hilton.com/en/hotels/oregon/hilton-portland-and-executive-tower-PDXPHHH/index.html" newWindow={true}>Coming Soon!</Button>    
+</Block>
+ <Block type="image" src="photos/Jupiter-Hotel-exterior.jpg">
+      ## Jupiter Hotel{'\n'}
+      The Jupiter Hotel is a mid-century, renovated motor inn-turned-boutique hotel located just across the river from downtown in the heart of one of Portland's most vibrant neighborhoods. The Jupiter hotel offers modern guestrooms that surprise and connect guests to the vibrancy of Portland at affordable rates.  {'\n'}
+  <p><i>To reserve a room please email or call the Jupiter staff at <b>sales@jupiterhotel.com</b> or call <b>503.230.9200</b> and ask for the Sales Department. Don't forget to mention WDS.</i></p> 
+      <p>1.5 Mi from Base <Link to="https://goo.gl/maps/zqv2uKd4GKG2">(Google Directions)</Link></p> 
+<Button to="tel:503.230.9200" newWindow={true}>Call to Book</Button>    
+</Block>
+  </Grid>
+  
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Alternative Lodging Options{'\n'}
     If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:{'\n'}
   </Block>
@@ -205,10 +218,11 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Grid>
   </Block>
 </Section>
+
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets go on sale again in:</Block>
-  <Counter format="calendar" to="ticket-sale" />
+  <Block margin="50px 0">## "You're telling me there's still a chance..."</Block>
+  <Block margin="50px 0">Sign-up below to be notified when tickets go back on sale for WDS 2017.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
@@ -226,6 +240,7 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Form>
   </Block>
 </Section>
+
 
 
 

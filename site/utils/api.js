@@ -11,21 +11,16 @@ if (process.env.NODE_ENV === 'test') {
 
 const api = (url, data) => {
   const bits = url.split(' ');
-  console.log('0')
   const req = {
     method: bits[0],
     url: `${urler('api')}/${bits[1]}`,
     withCredentials: true,
   };
-  console.log('1')
   if (req.method === 'post') {
     req.data = data;
-  console.log('2')
   } else {
-  console.log('3')
     req.params = data;
   }
-  console.log(req);
   return axios(req);
 };
 

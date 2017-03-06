@@ -349,6 +349,16 @@
     color: $white;
   }
 };
+:global(.block-color-sea) {
+  h3 {
+    color: $white;
+    font-family: Vitesse;
+    margin-bottom: 10px;
+  }
+  a {
+    color: $white;
+  }
+}
 :global(.block-color-orange).block-padded,
 :global(.block-color-green).block-padded,
 :global(.block-color-blue).block-padded,

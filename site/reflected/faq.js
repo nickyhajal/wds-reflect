@@ -53,13 +53,13 @@ import is from '../utils/is';
     Please note: Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.{'\n'}
 
     ### What is the refund/exchange policy on WDS tickets?{'\n'}
-    All WDS tickets (360 and Connect) are non-refundable.{'\n'}
+    All WDS tickets are non-refundable.{'\n'}
     **For WDS 360:** Transfers and name changes are available for a $100 fee from February until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.{'\n'}
-     **For WDS Connect:** There are no transfers or name changes for WDS Connect tickets.{'\n'}
+    
 
     ### How can I transfer a 360 ticket?{'\n'}
 
-    (Starting in mid-February) Ticket holders can transfer their ticket by:{'\n'}
+    (Starting in mid-March) Ticket holders can transfer their ticket by:{'\n'}
     <p>- Logging into your WDS account and looking for the transfer link at the bottom of the page, or,</p>
     <p>- Contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link></p>
        
@@ -67,10 +67,11 @@ import is from '../utils/is';
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
   </Block>
 </Section>
+
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets go on sale again in:</Block>
-  <Counter format="calendar" to="ticket-sale" />
+  <Block margin="50px 0">## "You're telling me there's still a chance..."</Block>
+  <Block margin="50px 0">Sign-up below to be notified when tickets go back on sale for WDS 2017.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
@@ -88,6 +89,7 @@ import is from '../utils/is';
     </Form>
   </Block>
 </Section>
+
 
 
 

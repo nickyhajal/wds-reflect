@@ -69,7 +69,7 @@ export class App extends Component {
       bonus = 120;
     }
     if ($e.length) {
-      $e.css('min-height', `${height - $e.offset().top + bonus}px`);
+      $e.css('min-height', `${(height - $e.offset().top) + bonus}px`);
     }
   }
   showGiveTicket() {

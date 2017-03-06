@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "autosize": "^3.0.20",
-    "firebase": "^3.6.8"
+    "firebase": "^3.6.8",
+    "flow-bin": "^0.40.0",
+    "flow-lib": "^0.0.0-pre",
+    "forever": "^0.15.3",
+    "global": "^4.3.1"
   }
 }

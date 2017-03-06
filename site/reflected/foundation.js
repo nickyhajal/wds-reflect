@@ -157,10 +157,11 @@ Part of this training will be developed internationally, including a teaching tr
  </Block>
   </Block>
 </Section>
+
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets go on sale again in:</Block>
-  <Counter format="calendar" to="ticket-sale" />
+  <Block margin="50px 0">## "You're telling me there's still a chance..."</Block>
+  <Block margin="50px 0">Sign-up below to be notified when tickets go back on sale for WDS 2017.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
@@ -178,6 +179,7 @@ Part of this training will be developed internationally, including a teaching tr
     </Form>
   </Block>
 </Section>
+
 
 
 
