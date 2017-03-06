@@ -41,14 +41,14 @@
       The modern Hilton Portland & Executive Tower is conveniently located in the heart of downtown next to great restaurants and venues. The Hilton Portland comprises of two buildings: the landmark Hilton Portland and the upscale Executive Tower with spacious guest rooms and executive level amenities.     
   <p><i>More information about booking online or via phone is coming soon.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/UYkeGdPMfqJ2">(Google Directions)</Link></p> 
-<Button to="" newWindow={true}>Coming Soon!</Button>    
+<Button to="http://www3.hilton.com/en/hotels/oregon/hilton-portland-and-executive-tower-PDXPHHH/index.html" newWindow={true}>Coming Soon!</Button>    
 </Block>
  <Block type="image" src="photos/Jupiter-Hotel-exterior.jpg">
       ## Jupiter Hotel
       The Jupiter Hotel is a mid-century, renovated motor inn-turned-boutique hotel located just across the river from downtown in the heart of one of Portland's most vibrant neighborhoods. The Jupiter hotel offers modern guestrooms that surprise and connect guests to the vibrancy of Portland at affordable rates.  
   <p><i>To reserve a room please email or call the Jupiter staff at <b>sales@jupiterhotel.com</b> or call <b>503.230.9200</b> and ask for the Sales Department. Don't forget to mention WDS.</i></p> 
       <p>1.5 Mi from Base <Link to="https://goo.gl/maps/zqv2uKd4GKG2">(Google Directions)</Link></p> 
-<Button to="" newWindow={true}>Coming Soon!</Button>    
+<Button to="tel:503.230.9200" newWindow={true}>Call to Book</Button>    
 </Block>
   </Grid>
   
