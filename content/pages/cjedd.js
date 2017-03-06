@@ -43,7 +43,7 @@
     </Block>
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
       <p>
-        <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534">
+        <Button to="http://wdshotel2017.eventbrite.com/">
           <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
           <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
         </Button>
@@ -176,7 +176,7 @@
     <div className="clear" />
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
     <p>
-      <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534">
+      <Button to="http://wdshotel2017.eventbrite.com/">
         <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
         <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
       </Button>
@@ -192,7 +192,7 @@
         Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, July 13, checking out Monday, July 17). All rooms will be sold as 4-night packages.   
         ### What is your refund/transfer policy for WDS Hotel™ packages?
         <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee until June 10th by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
-        ##### How do I book additional nights before or after the WDS package dates?
+        ### How do I book additional nights before or after the WDS package dates?
         <p>Once you've reserved your WDS Hotel™ package, please contact the Society Hotel by phone (avoid their online reservation system) to set up any additional dates by calling their front desk at <b>503-445-0444</b>. You may be able to stay in the same room type as your WDS Hotel™ package, but that will depend on the hotel's room availability.</p>
         ### When will my credit card be charged?
         Your card will be immediately charged for the full amount when you book a WDS Hotel™ package. You'll also need to provide a credit card upon check in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee or cocktail, directly to your room.
@@ -261,7 +261,7 @@
 </Section>
 <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
   <p>
-    <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534">
+    <Button to="http://wdshotel2017.eventbrite.com/">
       <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
       <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
     </Button>
