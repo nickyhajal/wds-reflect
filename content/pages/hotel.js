@@ -159,11 +159,11 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="12 Left">
+      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="11 Left">
         ### Private Suites ($947)
         Private bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="23 Left">
+      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="22 Left">
       ### Standard Room ($697)
       Shared bathroom
       </Block>
