@@ -2,11 +2,14 @@
   color="sea"
   css={{ marginBottom: '-2px' }}
 >
+ 
   <Block width="768px" bleed={true} type="padded" background="white" textAlign="left" margin="60px 0 80px" clip="tr:0,1%;">
-    <Block width="100%" margin="40px 0 0 0" textAlign="center">## Page destroyed by our kitty overlords!</Block>
-    
+     <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/overlord-kitty.png" width="100%" />
-    
+  </Block>    
+
+    <Block width="100%" margin="40px 0 0 0" textAlign="center">## Page destroyed by our kitty overlords!</Block>
+        
     While we try and calm our furry masters with catnip and treats, here are some existing pages that may help you find what you're looking for:
     
     ### The WDS FAQ page
@@ -20,6 +23,10 @@
     ### WDS Schedule
     
     <p>Interested in learning more about what our week long event has to offer? Check out the <Link to="https://worlddominationsummit.com/schedule" target="blank">Schedule page</Link> to learn more about all of the events, activities, and meetups we have to offer!</p>
+      
+   ### Portland
+    
+   <p>Our home base since year one. Is it true what they say about Portland? Learn more about our beloved city and find helpful travel information on our <Link to="https://worlddominationsummit.com/location" target="blank">Location page</Link>.</p>
     
     ### WDS Local
     
