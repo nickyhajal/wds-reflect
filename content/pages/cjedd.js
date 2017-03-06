@@ -13,8 +13,9 @@
       ref={props.onMapLoad}
       defaultZoom={13}
       onMapLoad={handleMapLoad}
-      defaultCenter={{ lat: 45.524679, lng: -122.673470 }}  
+      defaultCenter={{ lat: 45.524679, lng: -122.673470 }}
       onClick={props.onMapClick}
+      options={{ scrollwheel: false, draggable: false }}
     >
       <Marker
         position={{ lat: 45.524679, lng: -122.673470 }}
@@ -41,7 +42,12 @@
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
     </Block>
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-      <p><a href="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534"><img src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Reserve+2.png" /></a></p>
+      <p>
+        <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534">
+          <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
+          <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
+        </Button>
+      </p>
     </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
       <Block>
@@ -169,7 +175,12 @@
     </Block>
     <div className="clear" />
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-    <p><a href="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534"><img src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Reserve+2.png" /></a></p>
+    <p>
+      <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534">
+        <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
+        <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
+      </Button>
+    </p>
   </Block>
 </Section>
 <Section color="sea">
@@ -249,8 +260,13 @@
   </Tabs>
 </Section>
 <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<p><a href="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534"><img src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Reserve+2.png" /></a></p>
- </Block>
+  <p>
+    <Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534">
+      <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
+      <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
+    </Button>
+  </p>
+</Block>
 <Section color="green">
   <Block cols="6" css={{ padding: '15px 0 20px' }}>
    ## Additional Accomodations for Staying in Portland
