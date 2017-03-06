@@ -16,8 +16,7 @@
   
   <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/Paramount-Hotel.jpg">
-      ## Paramount Hotel 
-      <br><Link to="https://goo.gl/maps/6D6mJGAY7dv">(0.1 Mi from Base)</Link>
+      ## Paramount Hotel <Link to="https://goo.gl/maps/6D6mJGAY7dv">(0.1 Mi from Base)</Link>
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. With Director Park as a front yard, the Paramount provides easy access to the very best the city has to offer.
        Book online using the code (WDS2017) or call to book (503-223-9900). Be sure to tell them you're with WDS. 
       <Button to="http://uspor.webhotel.microsdc.us/bp/search_rooms.jsp?groupCode=WDS17" newWindow={true}>Book Online</Button>
