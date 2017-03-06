@@ -55,7 +55,7 @@ import is from '../utils/is';
 >
   <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
-    <Block>
+    <Block width="100%">
       ## Your Base in Portland{'\n'}
     </Block>
     <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
@@ -211,7 +211,7 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
         ## Powell’s Books{'\n'}
         No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at 1005 W Burnside.{'\n'}
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Waterfront{'\n'}
         Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.{'\n'}
       </Block>
