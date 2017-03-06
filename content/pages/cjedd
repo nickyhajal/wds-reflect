@@ -43,6 +43,9 @@
     
     <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
 </Block>
+<Block anchor="center" align="center" width="300" margin="20px 0 0 0">
+<p><a href="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534"><img src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Reserve+2.png" /></a></p>
+ </Block>
    <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
     <Block>
       ## Conveniently Located
@@ -176,8 +179,6 @@
    
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
 <p><a href="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534"><img src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Reserve+2.png" /></a></p>
-
-<Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="orange" size="large" fittotext>Reserve Your Room</Button> 
  </Block>
    
     <Block type="padded" background="sea">
@@ -256,8 +257,8 @@
     </Tab>
   </Tabs>
 </Section>
- <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534" newWindow={true} styling="orange" fittotext>Reserve Your Room</Button> 
+<Block anchor="center" align="center" width="300" margin="20px 0 0 0">
+<p><a href="https://www.eventbrite.com/e/wds-hoteltm-2017-tickets-32518441534"><img src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Reserve+2.png" /></a></p>
  </Block>
 <Section color="green">
   <Block cols="6" css={{ padding: '15px 0 20px' }}>
