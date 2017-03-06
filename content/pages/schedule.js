@@ -104,12 +104,12 @@
     
   <SpeakerList title="Alumni Speakers" />
   <Grid margin="60px 0 -20px 0">
-    <Block type="image" src="photos/Portland-Oregon.png">
+    <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
       ## Portland
       Our home base since year one. Learn more about our beloved city and confirm whether or not all the fun things you've heard is true (they probably are).
       <Button to="/location">Learn More</Button>
     </Block>
-    <Block type="image" src="photos/JoinUs/image-academies.jpg">
+    <Block type="image" src="photos/JoinUs/image-academies.jpg" label="Coming Soon">
       ## Academies
       These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields.
       <Button to="/academies">Learn More</Button>
