@@ -167,7 +167,7 @@
       ### Standard Room ($697)
       Shared bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="19 Left">
+      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="17 Left">
         ### Bunks ($297)
       Shared bathroom
       </Block>
