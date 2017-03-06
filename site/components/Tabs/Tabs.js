@@ -73,12 +73,16 @@ class Tabs extends React.Component {
       'tl:0,6%;tr:0,17%;',
       'tl:0,12%;tr:0,10%;',
       'tl:0,6%;tr:0,12%;',
+      'tl:0,6%;tr:0,1%;',
+      'tl:0,8%;tr:0,2%;',
+      'tl:0,2%;tr:0,1%;',
       'tl:0,6%;tr:0,12%;',
+      'tl:0,2%;tr:0,9%;',
     ];
     if (this.props.style === 'dots') {
       out.push(
         <div key="dotscontrols" styleName="dots-controls" className="dots-controls">
-          <button key="btn-arrow-left" styleName="arrow-prev" onClick={() => { this.prev() }} />
+          <button key="btn-arrow-left" styleName="arrow-prev" onClick={() => { this.prev(); }} />
           <button key="btn-arrow-right" styleName="arrow-next" onClick={this.next} />
           <Image key="button-line" src="icon/stroke-white.png" styleName="dots-line" width="794" height="4" />
         </div>
@@ -86,14 +90,18 @@ class Tabs extends React.Component {
     }
     tabs.forEach((t, i) => {
       const css = _.clone(this.props.tabCss);
-      css.background = colorize(t.props.color);
+      if (this.props.style !== 'dots') {
+        css.background = colorize(t.props.color);
+      }
       const active = (this.state.active === i);
       const key = `tabButton-${i}`;
       if (this.state.tabWidths && this.state.tabWidths[i] !== undefined) {
         css.width = `${this.state.tabWidths[i]}px`;
       }
       if (active) {
-        css.background = `${colorize(this.props.color)}`;
+        if (this.props.style !== 'dots') {
+          css.background = `${colorize(this.props.color)}`;
+        }
       }
       if (this.props.style !== 'dots') {
         const angle = t.props.clip !== undefined ? t.props.clip : angles[i];

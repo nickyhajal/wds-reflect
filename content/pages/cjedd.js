@@ -192,7 +192,7 @@
         Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, July 13, checking out Monday, July 17). All rooms will be sold as 4-night packages.   
         ### What is your refund/transfer policy for WDS Hotel™ packages?
         <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee until June 10th by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
-        ##### How do I book additional nights before or after the WDS package dates?
+        ### How do I book additional nights before or after the WDS package dates?
         <p>Once you've reserved your WDS Hotel™ package, please contact the Society Hotel by phone (avoid their online reservation system) to set up any additional dates by calling their front desk at <b>503-445-0444</b>. You may be able to stay in the same room type as your WDS Hotel™ package, but that will depend on the hotel's room availability.</p>
         ### When will my credit card be charged?
         Your card will be immediately charged for the full amount when you book a WDS Hotel™ package. You'll also need to provide a credit card upon check in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee or cocktail, directly to your room.
@@ -214,7 +214,7 @@
      </Block>
    <div className="clear" />
 </Section>
-<Section color="white">
+<Section color="canvas">
   <Block>## The WDS Hotel™ Gallery</Block>
   <Tabs style="dots">
     <Tab title="Exterior ">
