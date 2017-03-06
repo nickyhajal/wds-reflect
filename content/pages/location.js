@@ -72,7 +72,6 @@
     ## Lodging
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel)*, all within walking distance or a quick ride on public transit to WDS events and activities. 
 
-<p><i>*Please note: The ability to reserve your room at one of our partner hotels will be available soon.</i></p>
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/modera-lobby.png" width="100%" height="302" />
@@ -84,7 +83,7 @@
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
        <p><i>Registration is only available for 4-night packages and through WDS only.</i></p> 
        <p>0.1 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
-      <Button to="" newWindow={true}>Learn More</Button>
+      <Button to="http://wds.fm/hotel" newWindow={true}>Learn More</Button>
     </Block>
     <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel 
