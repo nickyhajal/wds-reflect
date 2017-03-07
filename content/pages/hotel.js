@@ -163,11 +163,11 @@
         ### Private Suites ($947)
         Private bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="17 Left">
+      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="16 Left">
       ### Standard Room ($697)
       Shared bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="01 Left!">
+      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
         ### Bunks ($297)
       Shared bathroom
       </Block>
