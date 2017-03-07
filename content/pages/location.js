@@ -102,9 +102,9 @@
   <Block type="image" src="photos/hilton.png">
       ## Hilton Portland
       The modern Hilton Portland & Executive Tower is conveniently located in the heart of downtown next to great restaurants and venues. The Hilton Portland comprises of two buildings: the landmark Hilton Portland and the upscale Executive Tower with spacious guest rooms and executive level amenities.     
-  <p><i>More information about booking online or via phone is coming soon.</i></p> 
+  <p><i>Book online using the button below. No special code is required.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/UYkeGdPMfqJ2">(Google Directions)</Link></p> 
-<Button to="http://www3.hilton.com/en/hotels/oregon/hilton-portland-and-executive-tower-PDXPHHH/index.html" newWindow={true}>Coming Soon!</Button>    
+<Button to="https://aws.passkey.com/e/49095475" newWindow={true}>Book Online</Button>    
 </Block>
  <Block type="image" src="photos/Jupiter-Hotel-exterior.jpg">
       ## Jupiter Hotel
