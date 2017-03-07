@@ -159,7 +159,7 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="01 Left!">
+      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Sold Out!">
         ### Private Suites ($947)
         Private bathroom
       </Block>
