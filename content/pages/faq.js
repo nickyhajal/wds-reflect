@@ -34,8 +34,8 @@
 
     ### How can I transfer a 360 ticket?
 
-    (Starting in late-March) Ticket holders can transfer their ticket by:
-    <p>Logging into your WDS account and looking for the transfer link at the bottom of the page, or,
+     <p>(Starting in late-March) Ticket holders can transfer their ticket by:
+    Logging into your WDS account and looking for the transfer link at the bottom of the page, or,
        Contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link></p>
        
     ### Still have additional questions?
