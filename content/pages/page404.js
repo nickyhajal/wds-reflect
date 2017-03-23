@@ -39,4 +39,4 @@
 
   </Block>
 </Section>
-<Import id="wait-list" />
+<Import id="join-us" />
