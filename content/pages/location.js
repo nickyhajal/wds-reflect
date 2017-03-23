@@ -195,4 +195,4 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Grid>
   </Block>
 </Section>
-<Import id="wait-list" />
+<Import id="join-us" />
