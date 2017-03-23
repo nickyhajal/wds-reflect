@@ -29,12 +29,12 @@
 
     ### What is the refund/exchange policy on WDS tickets?
     All WDS tickets are non-refundable.
-    **For WDS 360:** Transfers and name changes are available for a $100 fee from February until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.
+    **For WDS 360:** Transfers and name changes are available for a $100 fee from the end of March until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.
     
 
     ### How can I transfer a 360 ticket?
 
-    (Starting in mid-March) Ticket holders can transfer their ticket by:
+    (Starting in late-March) Ticket holders can transfer their ticket by:
     <p>- Logging into your WDS account and looking for the transfer link at the bottom of the page, or,</p>
     <p>- Contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link></p>
        
