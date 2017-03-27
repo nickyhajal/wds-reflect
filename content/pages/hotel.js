@@ -41,7 +41,7 @@
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
       
-      ##### UPDATE - Only standard rooms (with shared bathrooms) are available. Bunks and private suites have sold out. 
+      ##### UPDATE (3/27) - Only 2 standard rooms (with shared bathrooms) are available. Bunks and private suites have sold out. 
     </Block>
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
       <p>
@@ -165,7 +165,7 @@
         ### Private Suites ($947)
         Private bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="03 Left">
+      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="02 Left">
       ### Standard Room ($697)
       Shared bathroom
       </Block>
