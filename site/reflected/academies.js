@@ -69,11 +69,10 @@ import Cart from '../../site/containers/Cart/Cart';
     The list of WDS 2017 Academies will be made available spring 2017 so stay tuned!{'\n'}
   </Block>
 </Section>
-
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## "You're telling me there's still a chance..."</Block>
-  <Block margin="50px 0">Sign-up below to be notified when tickets go back on sale for WDS 2017.</Block>
+  <Block margin="50px 0">## Tickets go on sale again in:</Block>
+  <Counter format="calendar" to="ticket-sale" />
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
@@ -91,7 +90,6 @@ import Cart from '../../site/containers/Cart/Cart';
     </Form>
   </Block>
 </Section>
-
 
 
 

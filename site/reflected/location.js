@@ -127,9 +127,9 @@ import Cart from '../../site/containers/Cart/Cart';
   <Block type="image" src="photos/hilton.png">
       ## Hilton Portland{'\n'}
       The modern Hilton Portland & Executive Tower is conveniently located in the heart of downtown next to great restaurants and venues. The Hilton Portland comprises of two buildings: the landmark Hilton Portland and the upscale Executive Tower with spacious guest rooms and executive level amenities.     {'\n'}
-  <p><i>More information about booking online or via phone is coming soon.</i></p> 
+  <p><i>Book online using the button below. No special code is required.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/UYkeGdPMfqJ2">(Google Directions)</Link></p> 
-<Button to="http://www3.hilton.com/en/hotels/oregon/hilton-portland-and-executive-tower-PDXPHHH/index.html" newWindow={true}>Coming Soon!</Button>    
+<Button to="https://aws.passkey.com/e/49095475" newWindow={true}>Book Online</Button>    
 </Block>
  <Block type="image" src="photos/Jupiter-Hotel-exterior.jpg">
       ## Jupiter Hotel{'\n'}
@@ -220,11 +220,10 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Grid>
   </Block>
 </Section>
-
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## "You're telling me there's still a chance..."</Block>
-  <Block margin="50px 0">Sign-up below to be notified when tickets go back on sale for WDS 2017.</Block>
+  <Block margin="50px 0">## Tickets go on sale again in:</Block>
+  <Counter format="calendar" to="ticket-sale" />
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2017 Waiting List"
@@ -242,7 +241,6 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Form>
   </Block>
 </Section>
-
 
 
 
