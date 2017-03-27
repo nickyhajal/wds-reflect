@@ -3,7 +3,6 @@ import Select from 'react-select';
 import _ from 'lodash';
 import autoBind from 'react-autobind';
 import CSSModules from 'react-css-modules';
-import { browserHistory } from 'react-router';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import actions from '../../actions';
@@ -20,7 +19,6 @@ class Cart extends React.Component {
   constructor() {
     super();
     autoBind(Object.getPrototypeOf(this));
-    this.gotCard = false;
     this.state = {
       email: '',
       year: '2017',
@@ -34,19 +32,8 @@ class Cart extends React.Component {
       pre_process: [60, 'Making it happen..'],
       stripe_charge: [70, 'Making it happen...'],
       charged: [80, 'Woohoo!'],
-      paid: [90, 'Woohoo!'],
       done: [100, 'Whoohoo! All done!'],
     };
-  }
-
-  componentDidMount() {
-    this.getCard(this.props);
-  }
-  componentWillReceiveProps(props) {
-    this.getCard(props);
-  }
-  componentDidUpdate() {
-    this.getCard(this.props);
   }
 
   finish() {
@@ -54,11 +41,8 @@ class Cart extends React.Component {
       const props = this.props;
       if (props.checkout.processStatus === 'done') {
         this.finished = true;
-        this.props.act.updateCheckoutStatus('success');
-        if (this.props.checkout.redirect && this.props.checkout.redirect.length) {
-          browserHistory.replace(`/${this.props.checkout.redirect}`);
-        }
         if (this.props.onSuccess) {
+          this.props.act.updateCheckoutStatus('success');
           this.props.onSuccess();
         }
       }
@@ -122,13 +106,6 @@ class Cart extends React.Component {
     ];
   }
 
-  getCard(props) {
-    if (props.auth.me !== undefined && props.auth.me && !this.gotCard) {
-      this.gotCard = true;
-      auth.getCard();
-    }
-  }
-
   purchase(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -164,11 +141,8 @@ class Cart extends React.Component {
   }
 
   startCharge() {
-    const checkout = this.props.checkout;
-    const pkg = _.assign({},
-      checkout.quantity,
-      { ...checkout.data },
-    );
+    const pkg = {};
+    pkg.quantity = this.props.checkout.quantity;
     if (this.props.auth.useExistingCard) {
       this.processCharge(this.props.auth.card.hash, pkg);
     } else {
@@ -195,15 +169,11 @@ class Cart extends React.Component {
   }
 
   processCharge(token, pkg) {
-    auth.charge({ card_id: token, code: this.props.checkout.code, purchase_data: pkg })
+    auth.charge({ card_id: token, code: 'wds2017', purchase_data: pkg })
     .then((raw) => {
       const rsp = raw.data;
       if (rsp.fire !== undefined && rsp.fire.length) {
-        let code = this.props.checkout.code;
-        if (code === 'wds2017') {
-          code = 'sale_wave2_2017';
-        }
-        this.props.act.startListeningToPurchase(rsp.fire, code);
+        this.props.act.startListeningToPurchase(rsp.fire);
       }
       // if (rsp.declined !== undefined && rsp.declined) {
       //   this.props.act.setCheckoutError(
@@ -376,39 +346,10 @@ class Cart extends React.Component {
     return '';
   }
 
-  renderQuantity() {
-    const options = [];
-    for (let i = 0; i < this.props.checkout.allowedQuantity; i += 1) {
-      options.push({
-        value: parseInt(this.props.checkout.allowedQuantity, 10),
-        label: `${this.props.checkout.allowedQuantity}`,
-      });
-    }
-    return (
-      options.length ? (
-        <div styleName="quantityBox">
-          <label>Quantity</label>
-          <Select
-            onChange={e => this.change.call(this, e, 'quantity')}
-            options={options}
-            name="quantity"
-            clearable={false}
-            searchable={false}
-            value={this.props.checkout.quantity}
-          />
-        </div>
-      ) : ''
-    );
-  }
-
   render() {
     const q = this.props.checkout.quantity;
-    const cost = (this.props.checkout.price * q) / 100;
-    const feeCost = this.props.checkout.fee * q;
-    const hasDescr = this.props.checkout.description.length;
-    const hasFee = feeCost > 0;
-    const titleStyles = hasDescr ? { marginTop: '-20px' } : {};
-    const priceStyles = hasFee ? {} : { top: '10px', position: 'relative' };
+    const cost = C.ticketPrice * q;
+    const feeCost = 10 * q;
     let btnStr = 'Complete Purchase';
     if (this.props.checkout.status === 'process') {
       btnStr = 'Processing...';
@@ -422,24 +363,36 @@ class Cart extends React.Component {
     return (
       <div className="modal-section cartSection" style={{ display }} >
         <div styleName="productRow">
-          {is.phone() ? (<div styleName="productName">{this.props.checkout.product}</div>) : ''}
-          { hasDescr && is.phone() ? <div styleName="productDescription">{this.props.checkout.description}</div> : '' }
+          {is.phone() ? (<div styleName="productName">WDS 2017 Ticket</div>) : ''}
           <div styleName="productMeta">
             <div styleName="priceBox">
-              <div styleName="cost" style={priceStyles}>${cost}</div>
-              {feeCost ? <div styleName="feeCost">+${feeCost}.00 processing</div> : '' }
+              <div styleName="cost">${cost}</div>
+              <div styleName="feeCost">+${feeCost}.00 processing</div>
             </div>
-            {this.renderQuantity}
+            <div styleName="quantityBox">
+              <label>Quantity</label>
+              <Select
+                onChange={e => this.change.call(this, e, 'quantity')}
+                options={[
+                  { value: 1, label: '1' },
+                  { value: 2, label: '2' },
+                  { value: 3, label: '3' },
+                ]}
+                name="quantity"
+                clearable={false}
+                searchable={false}
+                value={q}
+              />
+            </div>
           </div>
-          {is.phone() ? '' : (<div styleName="productName" style={titleStyles}>{this.props.checkout.product}</div>)}
-          {hasDescr && !is.phone() ? <div styleName="productDescription">{this.props.checkout.description}</div> : '' }
+          {is.phone() ? '' : (<div styleName="productName">WDS 2017 Ticket</div>)}
           <div className="clear" />
         </div>
         {this.renderCardButton()}
         <form id="checkoutForm" onSubmit={this.purchase} styleName="checkoutForm">
           {this.renderAppropriate(btnStr, cost, feeCost)}
           <div className="form-row">
-            <Button className="submit">Complete Purchase</Button>
+            <Button className="submit">{`Purchase ${(q > 1) ? 'Tickets' : 'Ticket'}`}</Button>
           </div>
         </form>
         { this.renderProcessing() }

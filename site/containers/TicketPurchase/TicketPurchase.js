@@ -17,7 +17,7 @@ import AskIfAttended from '../AskIfAttended/AskIfAttended';
 import SignUp from '../../components/SignUp/SignUp';
 import Login from '../../components/Login/Login';
 import ResetPass from '../../components/ResetPass/ResetPass';
-import Cart from '../Cart/Cart';
+import Cart from '../TicketCart/Cart';
 
 
 export class Purchase extends Component {

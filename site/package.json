@@ -33,6 +33,10 @@
       "new-cap": "off",
       "no-param-resign": "off"
     },
+    "globals": {
+      "document": true,
+      "window": true
+    },
     "env": {
       "mocha": true
     }

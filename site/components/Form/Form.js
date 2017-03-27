@@ -128,8 +128,10 @@ class Form extends Component {
     const elm = e.target;
     const form = this.state.form;
     const name = elm.name;
-    form[name] = elm.value;
-    this.setState({ form });
+    if (name && name.length) {
+      form[name] = elm.value;
+      this.setState({ form });
+    }
   }
   clear() {
     this.setState({ form: {} });

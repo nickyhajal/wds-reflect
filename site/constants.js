@@ -32,6 +32,7 @@ const constants = createConstants(
   'CHECKOUT_SET_QUANTITY',
   'CHECKOUT_SET_ERROR',
   'CHECKOUT_SET_PROCESS_STATUS',
+  'CHECKOUT_SET_PRODUCT',
   'CHECKOUT_SET_CC',
 
 );

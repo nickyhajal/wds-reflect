@@ -394,6 +394,11 @@ form input {
   /*border-color: #007eff;*/
   /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);*/
 }
+.block-color-white .Select-placeholder,
+.block-color-white .Select--single > .Select-control .Select-value {
+  border-color: #21170A;
+  color: #21170A;
+}
 .Select-placeholder,
 .Select--single > .Select-control .Select-value {
   bottom: 0;
@@ -689,6 +694,20 @@ form input {
   background-color: #fcfcfc;
 }
 
+.block-color-white .Select-control {
+  color: #21170A;
+  border-color: #21170A;
+
+  .Select-value span {
+    color: #21170A !important;
+  }
+  .Select-arrow {
+    border-top-color: #21170A;
+    &:hover {
+      border-top-color: #21170A;
+    }
+  }
+}
 .Select-control {
     background-color: transparent;
     border-radius: 0;

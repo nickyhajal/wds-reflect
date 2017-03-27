@@ -24,11 +24,32 @@ export function setCheckoutCC(newCCData) {
 }
 
 export function updateCheckoutProcessStatus(processStatus) {
+  if (processStatus === 'success') {
+    window.localStorage.removeItem('productAction');
+  }
   return (dispatch) => {
     dispatch({
       type: C.CHECKOUT_SET_PROCESS_STATUS,
       processStatus,
     });
+  };
+}
+
+export function setProduct({ code, price, allowedQuantity, data, redirect, fee, description, product }) {
+  return (dispatch) => {
+    const action = {
+      code,
+      redirect,
+      price,
+      description,
+      allowedQuantity,
+      data,
+      fee,
+      product,
+    };
+    window.localStorage.setItem('productAction', JSON.stringify(action));
+    action.type = C.CHECKOUT_SET_PRODUCT;
+    dispatch(action);
   };
 }
 
@@ -56,9 +77,9 @@ export function setCheckoutError(error) {
   };
 }
 
-export function startListeningToPurchase(saleId) {
+export function startListeningToPurchase(saleId, pathId) {
   return (dispatch) => {
-    const path = `sales/sale_wave1_2017/${saleId}`;
+    const path = `sales/${pathId}/${saleId}`;
     const id = `changed_${saleId}`;
     const getValue = () => {
       firedb.child(path).once('value').then((rsp) => {

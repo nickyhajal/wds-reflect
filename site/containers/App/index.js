@@ -25,6 +25,7 @@ export class App extends Component {
   constructor(props) {
     super(props);
     this.preloads = [];
+    this.loadedProduct = false;
     autoBind(Object.getPrototypeOf(this));
   }
   componentDidMount() {
@@ -50,6 +51,16 @@ export class App extends Component {
       }
       this.props.act.openMenu(false);
       $('html,body').animate({ scrollTop: 0 }, 0);
+    }
+    if (
+      !this.loadedProduct &&
+      this.props.auth !== undefined &&
+      this.props.auth.me &&
+      window.localStorage.getItem('productAction')
+    ) {
+      this.loadedProduct = true;
+      const action = JSON.parse(window.localStorage.getItem('productAction'));
+      this.props.act.setProduct(action);
     }
   }
   menuClick() {

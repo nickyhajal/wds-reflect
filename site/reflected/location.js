@@ -4,6 +4,7 @@ import Section from '../components/Section/Section';
 import Image from '../components/Image/Image';
 import Block from '../components/Block/Block';
 import Tabs from '../components/Tabs/Tabs';
+import Transfer from '../components/Transfer/Transfer';
 import Tab from '../components/Tab/Tab';
 import Button from '../components/Button/Button';
 import Counter from '../components/Counter/Counter';
@@ -19,6 +20,7 @@ import Login from '../components/Login/Login';
 import JoinUsButton from '../components/JoinUsButton/JoinUsButton';
 import ResetPass from '../components/ResetPass/ResetPass';
 import is from '../utils/is';
+import Cart from '../../site/containers/Cart/Cart';
 
   import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
 

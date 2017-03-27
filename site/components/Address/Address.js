@@ -90,6 +90,10 @@ class Address extends React.Component {
       });
     }
     if (label) {
+      let region = '';
+      if (this.props.values !== undefined && this.props.values.region !== undefined) {
+        region = this.props.values.region;
+      }
       return (
         <div>
           <label>{label}</label>
@@ -98,7 +102,7 @@ class Address extends React.Component {
             name="region"
             onChange={(e) => { this.changeSelect('region', e); }}
             clearable={false}
-            value={this.props.values.region}
+            value={region}
             options={regions}
           />
         </div>
@@ -112,12 +116,16 @@ class Address extends React.Component {
   render() {
     const pushProps = _.omit(this.props, ['className']);
     const countries = this.getCountries();
+    let country = 'US';
+    if (this.props.values !== undefined && this.props.values.country !== undefined) {
+      country = this.props.values.country;
+    }
     return (
       <FormWrap {...this.props} styleName="addrRow" ref={this.setShell}>
         <FormRow>
           <label>Country</label>
           <Select
-            value={this.props.values.country}
+            value={country}
             name="country"
             options={countries.list}
             clearable={false}

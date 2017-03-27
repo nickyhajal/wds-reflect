@@ -1,5 +1,6 @@
 import C from '~/constants';
 import { Map } from 'immutable';
+import _ from 'lodash';
 
 export default function checkout(state = Map, action) {
   switch (action.type) {
@@ -9,6 +10,21 @@ export default function checkout(state = Map, action) {
       return state.set('processStatus', action.processStatus);
     case C.CHECKOUT_SET_QUANTITY:
       return state.set('quantity', action.quantity);
+    case C.CHECKOUT_SET_PRODUCT:
+      const p = _.defaults({
+        allowedQuantity: 0,
+        fee: 0,
+      }, action);
+      return state.withMutations((ctx) => {
+        ctx.set('code', p.code);
+        ctx.set('product', p.product);
+        ctx.set('description', p.description);
+        ctx.set('data', p.data);
+        ctx.set('redirect', p.redirect);
+        ctx.set('price', p.price);
+        ctx.set('fee', p.fee);
+        ctx.set('allowedQuantity', p.allowedQuantity);
+      });
     case C.CHECKOUT_SET_CC:
       return state.set('cc', action.cc);
     case C.CHECKOUT_SET_ERROR:

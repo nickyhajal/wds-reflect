@@ -1,0 +1,33 @@
+@import "vars.css";
+
+.form {
+  @media(--tablet) {
+    width: 100%;
+
+    input {
+      width: 100%;
+    }
+  }
+}
+.button {
+  margin-top: 6px;
+}
+
+.shell {
+  h3 {
+    font-family: Vitesse;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+}
+
+:global(.form-row) {
+  margin-bottom: 56px;
+  min-height: 32px;
+}
+
+.link {
+	font-family: KarlaBold;
+	color: $green;
+}
+
