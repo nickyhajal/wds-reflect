@@ -27,9 +27,9 @@ class Counter extends React.Component {
     const now = moment().format('X');
     let countTo = moment();
     if (to === 'ticket-sale') {
-      countTo = moment('2017-02-15 23:00:00');
+      countTo = moment('2017-04-25 23:00:00');
     } else if (to === 'ticket-end') {
-      countTo = moment('2017-02-20 23:00:00');
+      countTo = moment('2017-05-01 23:00:00');
     } else if (to !== undefined) {
       countTo = moment(to);
     }

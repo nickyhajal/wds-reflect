@@ -40,6 +40,8 @@
       <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2017.</p>
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
+      
+      ##### UPDATE (3/27) - Only 2 standard rooms (with shared bathrooms) are available. Bunks and private suites have sold out. 
     </Block>
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
       <p>
@@ -159,15 +161,15 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Available">
+      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Sold Out!">
         ### Private Suites ($947)
         Private bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="Available">
+      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="02 Left">
       ### Standard Room ($697)
       Shared bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Available">
+      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
         ### Bunks ($297)
       Shared bathroom
       </Block>
@@ -276,4 +278,4 @@
  </Block>
   </Block>
 </Section>
-<Import id="wait-list" />
+<Import id="join-us" />
