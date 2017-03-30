@@ -11,6 +11,7 @@ import Settings from '../containers/Hub/Settings/Settings';
 import Pageloader from '../containers/Pageloader/';
 import TicketPurchase from '../containers/TicketPurchase/TicketPurchase';
 import Reset from '../containers/Reset';
+import SpeakerPage from '../containers/SpeakerPage/SpeakerPage';
 import Hub from '../containers/Hub/Hub';
 import YourSchedule from '../containers/Hub/YourSchedule/YourSchedule';
 import Events from '../containers/Hub/Events/Events';
@@ -25,6 +26,7 @@ const routes = (
     <Route path="/person/:id" component={Person} />
     <Route path="/claim/:id" component={Claim} />
     <Route path="/reset/:id" component={Reset} />
+    <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/be-there" component={TicketPurchase} />
     <Route path="/id" component={Person} />

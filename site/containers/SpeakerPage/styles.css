@@ -1,0 +1,35 @@
+@import 'vars';
+
+.shell {
+  h2 {
+    color: $forest;
+    padding: 27px 20px 18px;
+    margin-bottom: 0;
+    font-size: 66px;
+    text-align: center;
+    font-size: 46px;
+    width: 100%;
+    font-family: VitesseBold;
+  }
+
+  h3 {
+    color: $green;
+    font-size: 28px;
+    font-family: KarlaBold;
+    line-height: 18px;
+  }
+
+  h4 {
+    font-size: 22px;
+    color: $forest;
+    font-style: Vitesse;
+    line-height: 34px;
+    width: 716px;
+    margin: 50px auto 50px;
+  }
+
+  p {
+    text-align: left;
+    font-size: 14px;
+  }
+}

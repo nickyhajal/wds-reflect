@@ -129,7 +129,8 @@ import Cart from '../../site/containers/Cart/Cart';
 </Section>  
    
     
-  <SpeakerList title="Alumni Speakers" />{'\n'}
+  <SpeakerList title="2017 Speakers" year="2017" />{'\n'}
+  <SpeakerList title="Alumni Speakers" year="alumni" />{'\n'}
   <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
       ## Portland{'\n'}

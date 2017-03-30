@@ -26,10 +26,14 @@ class Video extends Component {
       w = window.screen.width - 40;
     }
     h = (9 / 16) * w;
+    let id = this.props.videoId;
+    if (this.props.url) {
+      id = this.props.url.split('?')[0].split('/').slice(-1);
+    }
     return (
       <iframe
         className="modal-remove"
-        src={`//player.vimeo.com/video/${this.props.videoId}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1`}
+        src={`//player.vimeo.com/video/${id}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1`}
         width={w}
         height={h}
         frameBorder="0"
@@ -73,10 +77,12 @@ class Video extends Component {
 
 Video.defaultProps = {
   playInModal: false,
+  placeholder: 'hero/green.jpg',
 };
 
 Video.propTypes = {
   videoId: PropTypes.string,
+  url: PropTypes.string,
   placeholder: PropTypes.string,
 };
 

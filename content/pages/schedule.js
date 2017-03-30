@@ -102,7 +102,8 @@
 </Section>  
    
     
-  <SpeakerList title="Alumni Speakers" />
+  <SpeakerList title="2017 Speakers" year="2017" />
+  <SpeakerList title="Alumni Speakers" year="alumni" />
   <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
       ## Portland

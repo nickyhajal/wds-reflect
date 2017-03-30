@@ -39,6 +39,8 @@
   }
 }
 .box {
+  background: transparent;
+  border: 0;
   padding: 100px 0px 50px;
   position: relative;
   @media(--phone) {
