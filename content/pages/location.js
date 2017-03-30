@@ -83,7 +83,7 @@
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
        <p><i>Registration is only available for 4-night packages and through WDS.</i></p> 
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
-      <Button to="http://wds.fm/hotel" newWindow={true}>Learn More</Button>
+      <Button to="" newWindow={true}>SOLD OUT!</Button>
     </Block>
     <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel 
