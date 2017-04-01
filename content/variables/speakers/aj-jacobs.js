@@ -9,6 +9,6 @@ quote: "I've been to Disneyworld, and that's supposed to be the happiest place o
 
 He has also outsourced his life, lived by the rules of George Washington, and read the *Encyclopedia Britannica* from A to Z. He is the Editor at Large at *Esquire* magazine and a regular contributor to NPR.
 
-His next project is to hold the <a href="http://globalfamilyreunion.com" target="_blank">Largest Family Reunion</a> in history. You are invited. Because the truth is, we are all cousins.
+His next project is to hold the [largest global family reunion](http://globalfamilyreunion.com) in history. You are invited. Because the truth is, we are all cousins.
 
-Learn more about A.J. on <a href="http://ajjacobs.com" target="_blank">his website</a>.
+Learn more about A.J. on [his website](http://ajjacobs.com).

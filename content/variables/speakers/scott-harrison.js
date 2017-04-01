@@ -1,5 +1,5 @@
 name: "Scott Harrison",
-year: "2012, 2017",
+year: "2017",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Scott.Harrison.WDS.2017.speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Scott.Harrison.WDS.speaker.thumbnail.jpg",
 video: "//player.vimeo.com/video/49843996?byline=0&amp;portrait=0&amp;color=adbf27",

@@ -35,12 +35,14 @@ import Cart from '../../site/containers/Cart/Cart';
 >
   <Image src="heading/foundation.png" width="470px" height="165px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## The WDS Foundation{'\n'}
-    The WDS Foundation seeks to put the right resources in the hands of amazing people who are acting on the three core values of WDS—community, adventure, and service.{'\n'}
+    ## WDS Foundation{'\n'}
+    WDS Foundation seeks to put the right resources in the hands of amazing people who are acting on the three core values of WDS—community, adventure, and service.{'\n'}
 
     <p>We do this by providing what we call <b>"Scholarships For Real Life."</b> The goal of these scholarships is to empower individuals to pursue their dreams and impact their community.</p>
 
-    Have a crazy project you want to bring to life? Want to take a trip around the earth and share what you learned with the world? Trying to build something that’s a bit out of your reach? Whatever it is, the WDS Foundation can help fund it. We look for inspiring projects that will improve your life and make the world a better place.{'\n'}
+    Have a crazy project you want to bring to life? Want to take a trip around the earth and share what you learned with the world? Trying to build something that’s a bit out of your reach? Whatever it is, the WDS Foundation can help fund your inspiring project that will improve your life and make the world a better place!{'\n'}
+      
+    Read more about funded projects from the past few years and how to apply for a Scholarship for Real Life below:{'\n'}
   </Block>
 </Section>
 <Section color="canvas">
@@ -49,7 +51,7 @@ import Cart from '../../site/containers/Cart/Cart';
     <Tab title="Emily Wray">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/Emily+Wray.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
       <Block cols="6" textAlign="left">
-        ## Voices of Petersburg - 2016{'\n'}
+        ## Voices of Petersburg - 2015{'\n'}
 
         We’ve all experienced moments when we struggling to put into words an experience or emotion. Voices of Petersburg is a three-day digital storytelling workshop for clients of Petersburg Mental Health Services in Petersburg, Alaska. Participants choose an experience they want to share and write a script for a digital story to give voice to their struggles and triumphs. The process of writing, choosing supportive media assets, and bringing the story to the screen provides a platform for healing unique to the mental health therapies.{'\n'}
 
@@ -59,7 +61,7 @@ import Cart from '../../site/containers/Cart/Cart';
     <Tab title="Valerie Groth">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation_valerie.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>{'\n'}
       <Block cols="6" textAlign="left">
-        ## Ryan Banks Academy - 2016{'\n'}
+        ## Ryan Banks Academy - 2015{'\n'}
 
         School teachers in urban districts face special challenges in promoting their students’ long-term academic success. It is no surprise that so-called “failing” schools are disproportionately situated in urban centers with high rates of poverty and crime. Valerie Groth is a mission to change that for Chicago-area students. In 2014, she founded Ryan Banks Academy, a coeducational boarding school that seeks to impact the lives of students through a rigorous college and career preparatory education, a supportive boarding program, and a focus on personal development in a positive environment. The goal of Ryan Banks Academy is to teach students not only the value of education, but also encourage them to focus on cultivating their own unique strengths, interests, and passions so that they may lead a purpose-filled life. Curriculum focuses not only on academic pursuits, but also on developing their relationships, core values, and mindset.{'\n'}
 
@@ -145,10 +147,14 @@ Part of this training will be developed internationally, including a teaching tr
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?{'\n'}
     ##### Eligibility{'\n'}
-   Currently the "Scholarships for Real Life" program is open only to those who have attended one of our past five WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2017.{'\n'}
-##### Coming soon{'\n'}
-<p>2016 Scholarships for Real Life have already been awarded. If you would like to be notified when applications open for 2017. Please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. </p>
-  </Block>
+   Currently the "Scholarships for Real Life" program is open only to alumni who have attended one of our past six WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2018.{'\n'}
+##### 2017 Applications - Now Avaialble!{'\n'}
+<p>Applications for 2017 Scholarships for Real Life are open now through <b>May 1!</b> If you have any questions about the application or the grant itself, please contact the WDS Foundation team at <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link>.</p>
+ <Button to="https://worlddominationsummit.wufoo.com/forms/wds-scholarships-for-real-life-2017/">
+      <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
+      <span style={{ fontSize: '20px' }}>Apply Today!</span>
+    </Button>  
+</Block>
 </Section>
 <Section color="green">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>

@@ -41,13 +41,13 @@
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
       
-      ##### UPDATE (3/29) - Only 1(!) standard room (with shared bathrooms) is available. Bunks and private suites have sold out. 
+      ##### UPDATE (3/30) - The WDS Hotel has completely sold out! See the button below for our other great hotel partners! 
     </Block>
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
       <p>
-        <Button to="http://wdshotel2017.eventbrite.com/">
+        <Button to="https://worlddominationsummit.com/location">
           <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
-          <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
+          <span style={{ fontSize: '20px' }}>WDS Partner Hotels</span>
         </Button>
       </p>
     </Block>
@@ -165,7 +165,7 @@
         ### Private Suites ($947)
         Private bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="01 Left">
+      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="Sold Out!">
       ### Standard Room ($697)
       Shared bathroom
       </Block>
@@ -178,9 +178,9 @@
     <div className="clear" />
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
     <p>
-      <Button to="http://wdshotel2017.eventbrite.com/">
+      <Button to="https://worlddominationsummit.com/location">
         <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
-        <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
+        <span style={{ fontSize: '20px' }}>WDS Partner Hotels</span>
       </Button>
     </p>
   </Block>
@@ -263,9 +263,9 @@
 </Section>
 <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
   <p>
-    <Button to="http://wdshotel2017.eventbrite.com/">
+    <Button to="https://worlddominationsummit.com/location">
       <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
-      <span style={{ fontSize: '20px' }}>Reserve Your Room</span>
+      <span style={{ fontSize: '20px' }}>WDS Partner Hotels</span>
     </Button>
   </p>
 </Block>
