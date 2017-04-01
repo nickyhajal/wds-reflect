@@ -123,7 +123,7 @@ Part of this training will be developed internationally, including a teaching tr
    Currently the "Scholarships for Real Life" program is open only to alumni who have attended one of our past six WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2018.
 ##### 2017 Applications - Now Avaialble!
 <p>Applications for 2017 Scholarships for Real Life are open now through <b>May 1!</b> If you have any questions about the application or the grant itself, please contact the WDS Foundation team at <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link>.</p>
- <Button to="https://worlddominationsummit.wufoo.com/forms/wds-scholarships-for-real-life-2017/">
+ <Button to="https://worlddominationsummit.com/foundation-apply">
       <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
       <span style={{ fontSize: '20px' }}>Apply Today!</span>
     </Button>  
@@ -134,7 +134,7 @@ Part of this training will be developed internationally, including a teaching tr
    ## Become A Mentor
   <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/foundation-apply" newWindow={true} styling="white" fitToText>Share your expertise!</Button> 
+   <Button to="https://worlddominationsummit.wufoo.com/forms/w12waw4d1nmlnum/" newWindow={true} styling="white" fitToText>Share your expertise!</Button> 
  </Block>
   </Block>
 </Section>
