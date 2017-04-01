@@ -11,11 +11,7 @@
     ## WDS Foundation
     WDS Foundation seeks to put the right resources in the hands of amazing people who are acting on the three core values of WDS—community, adventure, and service.
 
-    <p>We do this by providing what we call <b>"Scholarships For Real Life."</b></p> 
-    
-    <center><Image src="https://s3.amazonaws.com/el-files-wds/images/photos/WDS-Foundation-Scholarship.png" width="640px" height="212px" /></center> 
-
-    The goal of these scholarships is to empower individuals to pursue their dreams and impact their community.
+    <p>We do this by providing what we call <b>"Scholarships For Real Life."</b> The goal of these scholarships is to empower individuals to pursue their dreams and impact their community.</p>
 
     Have a crazy project you want to bring to life? Want to take a trip around the earth and share what you learned with the world? Trying to build something that’s a bit out of your reach? Whatever it is, the WDS Foundation can help fund your inspiring project that will improve your life and make the world a better place!
       
