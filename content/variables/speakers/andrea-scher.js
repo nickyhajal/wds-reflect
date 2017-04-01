@@ -11,5 +11,5 @@ Through her company Superhero Designs and award-winning blog Superhero Journal, 
 
 Andrea first introduced the Mondo Beyondo concept on her blog in 2004 and is widely recognized as a seasoned practitioner of the kind of practical and outrageous magic Mondo Beyondo espouses.
 
-Learn more about Andrea on <a href="http://www.superherolife.com/" target="_blank">her website</a>.
+Learn more about Andrea on [her website](http://www.superherolife.com/).
 
