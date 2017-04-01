@@ -7,7 +7,7 @@
   preload
 >
  <Image src="heading/foundation.png" width="470px" height="165px" className="scriptHeader" preload/>
-   <center><Image src="https://s3.amazonaws.com/el-files-wds/images/photos/WDS-Foundation-Scholarship.png" width="810px" height="212px" /></center>
+   <center><Image src="https://s3.amazonaws.com/el-files-wds/images/photos/WDS-Foundation-Scholarship.png" width="810px" height="250px" /></center>
   <Block cols="6">
     <iframe height="4300" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/zq9n4iq0s4da50/"><a href="https://worlddominationsummit.wufoo.com/forms/zq9n4iq0s4da50/">Fill out my Wufoo form!</a></iframe>
   </Block>
