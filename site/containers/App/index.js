@@ -92,6 +92,9 @@ export class App extends Component {
       hub: [
         'communities', 'your-schedule', 'events', 'your-profile', 'settings',
       ],
+      schedule: [
+        'schedule', 'speakers',
+      ],
     };
     Object.keys(subNavs).forEach((parent) => {
       if (uri === parent || subNavs[parent].indexOf(uri) > -1) {
@@ -100,6 +103,9 @@ export class App extends Component {
     });
     if (uri.indexOf('~') > -1 || uri.indexOf('community/') > -1) {
       nav = 'hub';
+    }
+    if (uri.indexOf('speaker/') > -1) {
+      nav = 'schedule';
     }
     if (nav) {
       nav = [nav].concat(subNavs[nav]);

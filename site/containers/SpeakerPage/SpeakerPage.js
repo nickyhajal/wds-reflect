@@ -88,7 +88,7 @@ export class SpeakerPage extends Component {
             <h3>{year} Speaker</h3>
             {quote !== undefined && quote.length ? (<h4>{`"${quote}"`}</h4>) : ''}
           </Block>
-          <Video placeholder={videoPlaceholder} url={video} cols="8" />
+          {video !== undefined && video.length ? (<Video placeholder={videoPlaceholder} url={video} cols="8" />) : ''}
           <Block cols="6" background="transparent" margin="50px 0 0">
             <Markdown>{content.replace('\n', '\n\n')}</Markdown>
           </Block>

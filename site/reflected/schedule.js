@@ -54,7 +54,7 @@ import Cart from '../../site/containers/Cart/Cart';
   </Block>
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />{'\n'}
   <div className="clear" />{'\n'}
-    
+</Section>
   <Section color="canvas">
   <Block>## WDS 2017 Speakers and Special Guests</Block>
   <Block cols="6" className="bigger">
@@ -128,9 +128,12 @@ import Cart from '../../site/containers/Cart/Cart';
   <div class="clear" />{'\n'}
 </Section>  
    
+<Section
+  color="white"
+>
     
-  <SpeakerList title="2017 Speakers" year="2017" />{'\n'}
-  <SpeakerList title="Alumni Speakers" year="alumni" />{'\n'}
+  <SpeakerList title="2017 Speakers" year="2017" />
+  <SpeakerList title="Alumni Speakers" year="alumni" />
   <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
       ## Portland{'\n'}

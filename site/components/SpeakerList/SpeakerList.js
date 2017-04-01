@@ -19,7 +19,6 @@ const settings = {
   centerPadding: "200px",
 };
 
-let slider;
 
 const passesFilter = (speaker, { year }) => {
   console.log(year);
@@ -61,26 +60,53 @@ const renderTitle = title => (
   ) : '')
 );
 
-const SpeakerList = ({ title, listSet, year }) => {
+const renderSlider = (listSet, year) => {
+  let slider;
   return (
-    <Block cols="8" bleed={false} styleName="speakerList" background="canvas">
-      {renderTitle(title)}
+    <div>
       <div styleName="controls" className="dots-controls">
         <button styleName="arrow-prev" onClick={() => { slider.slickPrev(); }} />
         <button styleName="arrow-next" onClick={() => { slider.slickNext(); }} />
       </div>
+      <Slider ref={c => slider = c } {...settings}>
+        {speakerBlocks({ listSet, year })}
+      </Slider>
+    </div>
+  );
+};
+
+const renderExpanded = (listSet, year) => {
+  return (
+    <div styleName="expanded">
+      {speakerBlocks({ listSet, year })}
+    </div>
+  );
+};
+
+const SpeakerList = ({ title, listSet, year, type }) => {
+  let content = '';
+  if (type === 'slider') {
+    content = renderSlider(listSet, year);
+  } else if (type === 'expanded') {
+    content = renderExpanded(listSet, year);
+  }
+  return (
+    <Block cols="8" bleed={false} styleName="speakerList" background="canvas">
+      {renderTitle(title)}
       <Block cols="6">
-        <Slider ref={c => slider = c } {...settings}>
-          {speakerBlocks({ listSet, year })}
-        </Slider>
+        {content}
       </Block>
     </Block>
   );
 };
 
+SpeakerList.defaultProps = {
+  type: 'slider',
+};
 SpeakerList.propTypes = {
   title: PropTypes.string,
   year: PropTypes.string,
+  type: PropTypes.string,
   listSet: PropTypes.string,
 };
 

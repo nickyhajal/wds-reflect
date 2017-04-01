@@ -27,7 +27,7 @@
   </Block>
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
-    
+</Section>
   <Section color="canvas">
   <Block>## WDS 2017 Speakers and Special Guests</Block>
   <Block cols="6" className="bigger">
@@ -101,6 +101,9 @@
   <div class="clear" />
 </Section>  
    
+<Section
+  color="white"
+>
     
   <SpeakerList title="2017 Speakers" year="2017" />
   <SpeakerList title="Alumni Speakers" year="alumni" />
