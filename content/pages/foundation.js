@@ -13,7 +13,7 @@
 
     <p>We do this by providing what we call <b>"Scholarships For Real Life."</b></p> 
     
-    <Image src="https://s3.amazonaws.com/el-files-wds/images/photos/WDS-Foundation-Scholarship.png" width="640px" height="212px" /> 
+    <center><Image src="https://s3.amazonaws.com/el-files-wds/images/photos/WDS-Foundation-Scholarship.png" width="640px" height="212px" /></center> 
 
     The goal of these scholarships is to empower individuals to pursue their dreams and impact their community.
 
