@@ -28,7 +28,7 @@
 
         We’ve all experienced moments when we struggling to put into words an experience or emotion. Voices of Petersburg is a three-day digital storytelling workshop for clients of Petersburg Mental Health Services in Petersburg, Alaska. Participants choose an experience they want to share and write a script for a digital story to give voice to their struggles and triumphs. The process of writing, choosing supportive media assets, and bringing the story to the screen provides a platform for healing unique to the mental health therapies.
 
-<p>With the help of the Foundation, Emily and her team will build a mobile curriculum that can travel outside of Petersburg and assist individuals in mental health facilities around the U.S. She is currently looking for assistance with social media, fundraising, and product development. you. If you are interested in contributing to her project, visit <Link to="http://voicesofpetersburgak.com">voicesofpetersburgak.com</Link> or email <Link to="mailto:emilywray@gmail.com">emilywray@gmail.com</Link>.</p>
+<p>With the help of the Foundation, Emily and her team will build a mobile curriculum that can travel outside of Petersburg and assist individuals in mental health facilities around the U.S. She is currently looking for assistance with social media, fundraising, and product development. you. If you are interested in contributing to her project, visit <Link to="http://emily-wray-vh7i.squarespace.com/">voicesofpetersburgak.com</Link>.</p>
       </Block>
     </Tab>
     <Tab title="Valerie Groth">
