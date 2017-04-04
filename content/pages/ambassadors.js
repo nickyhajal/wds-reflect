@@ -15,12 +15,14 @@
     <Image src="photos/2016-Ambassadors.jpg" width="100%" height="541" /> 
 
     **Please note WDS 2017 is taking place from Tuesday July 11th - Monday July 17th.** Though we don't expect Ambassadors to be available and serving for all 7 days, we do ask that you:
-  -> be available for an orientation the evening of Monday, July 10th
-  -> be available the entire weekend of WDS main events from Friday, July 14th to Sunday, July 16th
+  
+  **-> be available for an orientation the evening of Monday, July 10th**
+  **-> be available the entire weekend of WDS main events from Friday, July 14th to Sunday, July 16th**
 
 So, you want to apply to be a WDS 2017 Ambassador? Awesome! 
 
 Just fill out this brief form and tell us a little bit about yourself (please apply by May 10th).
+---
   </Block>
   <Block cols="6">
     <iframe height="2750" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/k1qb9rtw1jhaxfo/"><a href="https://worlddominationsummit.wufoo.com/forms/k1qb9rtw1jhaxfo/">Fill out my Wufoo form!</a></iframe>
