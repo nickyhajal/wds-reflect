@@ -13,6 +13,8 @@
     
     Rewards include new friends, fame, pizza, high fives, experiencing WDS for yourself, unforgettable memories, and your very own coveted Ambassador t-shirt! 
     <Image src="photos/2016-Ambassadors.jpg" width="100%" height="541" />
+       </Block>
+      <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       **Please note WDS 2017 is taking place from Tuesday July 11th - Monday July 17th.** Though we don't expect Ambassadors to be available and serving for all 7 days, we do ask that you:
         
         **-> be available for an orientation the evening of Monday, July 10th**
