@@ -15,8 +15,7 @@
     <Image src="photos/2016-Ambassadors.jpg" width="100%" height="541" />  
       **Please note WDS 2017 is taking place from Tuesday July 11th - Monday July 17th.** Though we don't expect Ambassadors to be available and serving for all 7 days, we do ask that you:
         
-        **-> be available for an orientation the evening of Monday, July 10th**  
-          **-> be available the entire weekend of WDS main events from Friday, July 14th to Sunday, July 16th**
+        **-> be available for an orientation the evening of Monday, July 10th**  **-> be available the entire weekend of WDS main events from Friday, July 14th to Sunday, July 16th**
 
 So, you want to apply to be a WDS 2017 Ambassador? Awesome! 
 
