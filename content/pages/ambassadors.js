@@ -9,7 +9,8 @@
  <Image src="heading/ambassadors.png" width="700px" height="165px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Be a part of the magic of WDS!
-    We're recruiting additional help to pull off one of the world's most amazing events -- and we need you! You’ll work directly with the WDS organizers in serving our attendees with the only goal being to help attendees have the best experience possible (while also having the best experience possible). Rewards include fame, pizza, high fives, unforgettable memories, and your very own coveted Ambassador t-shirt! 
+    We're recruiting additional help to pull off one of the world's most amazing events -- and we need you! You’ll work directly with the WDS organizers in serving our attendees with the only goal being to help attendees have the best experience possible (while also having the best experience possible). Rewards include fame, pizza, high fives, unforgettable memories, and your very own coveted Ambassador t-shirt!
+    <Image src="photos/2016-Ambassadors.jpg" width="100%" height="541" /> 
 
     Please note WDS 2017 is taking place from Tuesday July 11th - Monday July 17th. Though we don't expect Ambassadors to be available and serving for all 7 days, we do ask that you:
   - be available for an orientation the evening of Monday, July 10th
