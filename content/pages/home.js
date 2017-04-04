@@ -125,7 +125,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>
       Part of what makes WDS so great is our weekend of main stage events. Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community. 
-      Over the weekend, each speaker will share a short message that combines personal stories with practical ideas on our main stag, but most speakers stick around for the entire weekend and are available for informal conversation.  Sunday afternoon—before we all head to the afterparty—we've set aside a space for our speakers to sign books and meet readers. Print books will be available for sale throughout the weekend, and if you're digital-only, you can stop by to say hi to your favorite author!
+      Over the weekend, each speaker will share a short message that combines personal stories with practical ideas on our main stage, but most speakers stick around for the entire weekend and are available for informal conversation.  Sunday afternoon—before we all head to the afterparty—we've set aside a space for our speakers to sign books and meet readers. Print books will be available for sale throughout the weekend, and if you're digital-only, you can stop by to say hi to your favorite author!
     </Tab>
   </Tabs>
 </Section>
