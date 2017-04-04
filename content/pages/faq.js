@@ -35,9 +35,7 @@
     
     <p>You will need the name, email address, and mailing address of the new ticket holder. After entering that information and paying the transfer fee your ticket will be officially transferred to the new person</p>
 
-     <p>Ticket holders can transfer their ticket by:
-    Logging into your WDS account and looking for the transfer link at the bottom of the page, or,
-       contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link>.</p>
+     <p>Ticket holders can transfer their ticket by contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for their unique transfer link.</p>
        
     ### Still have additional questions?
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
