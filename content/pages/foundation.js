@@ -121,7 +121,7 @@ Part of this training will be developed internationally, including a teaching tr
     ## I'm in! How do I apply?
     ##### Eligibility
    Currently the "Scholarships for Real Life" program is open only to alumni who have attended one of our past six WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2018.
-##### 2017 Applications - Now Avaialble!
+##### 2017 Applications - Now Available!
 <p>Applications for 2017 Scholarships for Real Life are open now through <b>May 1!</b> If you have any questions about the application or the grant itself, please contact the WDS Foundation team at <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link>.</p>
  <Button to="https://worlddominationsummit.com/foundation-apply">
       <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
