@@ -16,7 +16,11 @@
   <Block margin="125px 0 50px 0">
     ## WDS Local Group Directory
     <Grid numCols="3" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
-    <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
+     <Block type="image-narrow" src="photos/wdslocal/Chicago.WDS.local.png">
+      ## Chicago, Illinois
+      <Button to="https://www.facebook.com/groups/wdslocalchicago/" newWindow={true} fitToText>Join Up</Button>
+    </Block>
+      <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California
       <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
     </Block>
@@ -39,10 +43,6 @@
     <Block type="image-narrow" src="photos/wdslocal/san.diego.WDS.local.jpg">
       ## San Diego, California
       <Button to="https://www.facebook.com/groups/362794770457200/" newWindow={true} fitToText>Join Up</Button>
-    </Block>
- <Block type="image-narrow" src="photos/wdslocal/san.francisco.WDS.local.png">
-      ## San Francisco, California
-      <Button to="https://www.facebook.com/groups/BayAreaWDSAlums/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/seattle.WDS.local.jpg">
       ## Seattle, Washington
