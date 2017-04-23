@@ -21,7 +21,7 @@
       
     <p>All tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
      
-      ** Set a reminder: tickets go back on sale Wednesday April 26th, 9am PST **
+     <p><b>**Set a reminder: tickets go back on sale Wednesday April 26th, 9am PST **</b></p> 
     
     <Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
   </Block>
