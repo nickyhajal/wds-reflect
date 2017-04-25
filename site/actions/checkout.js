@@ -79,11 +79,14 @@ export function setCheckoutError(error) {
 
 export function startListeningToPurchase(saleId, pathId) {
   return (dispatch) => {
+    console.log(saleId, pathId)
     const path = `sales/${pathId}/${saleId}`;
     const id = `changed_${saleId}`;
+    console.log(path, id)
     const getValue = () => {
       firedb.child(path).once('value').then((rsp) => {
         const state = rsp.val();
+        console.log(state);
         if (state !== undefined && state) {
           if (state.status === 'error') {
             setCheckoutError(state.error)(dispatch);
