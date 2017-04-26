@@ -200,7 +200,7 @@ class Cart extends React.Component {
     ) {
       return this.steps[status];
     }
-    return [20, 'Starting...'];
+    return [20, 'Processing...'];
   }
 
   renderExisting(btnStr, cost) {
