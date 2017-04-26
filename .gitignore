@@ -32,5 +32,7 @@ builtAssets
 #Test processor
 app/processors/tester.coffee
 
+.vscode
+
 # vim swap files
 *.swp

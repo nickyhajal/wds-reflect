@@ -173,7 +173,7 @@ class Cart extends React.Component {
     .then((raw) => {
       const rsp = raw.data;
       if (rsp.fire !== undefined && rsp.fire.length) {
-        this.props.act.startListeningToPurchase(rsp.fire);
+        this.props.act.startListeningToPurchase(rsp.fire, 'sale_wave2_2017');
       }
       // if (rsp.declined !== undefined && rsp.declined) {
       //   this.props.act.setCheckoutError(
@@ -200,7 +200,7 @@ class Cart extends React.Component {
     ) {
       return this.steps[status];
     }
-    return [20, 'Starting...'];
+    return [20, 'Processing...'];
   }
 
   renderExisting(btnStr, cost) {

@@ -23,8 +23,8 @@
      
      <p><b>**Set a reminder: tickets go back on sale Wednesday April 26th, 9am PST **</b></p> 
     
-    <Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
-  </Block>
+    <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Get Your Ticket!</Button>
+    </Block>
 </Section>
 <Section color="canvas">
   <Block>## WDS 2017 Speakers and Special Guests</Block>
@@ -143,4 +143,4 @@
     </Grid>
   </Block>
 </Section>
-<Import id="wait-list" />
+<Import id="join-us" />
