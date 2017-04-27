@@ -1,7 +1,7 @@
 <Section color="orange" overflow="hidden">
   <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?
+    This the final chance to get your ticket for WDS 2017! Are you ready to be part of an experience that will change your life forever?
   </Block>
   <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
