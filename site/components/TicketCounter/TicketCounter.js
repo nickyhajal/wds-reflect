@@ -19,7 +19,6 @@ class TicketCounter extends React.Component {
     autoBind(Object.getPrototypeOf(this));
   }
   isLive(item) {
-    console.log(this.sale.show);
     return this.sale.show[item] !== undefined && this.sale.show[item];
   }
   renderProgress() {
@@ -46,7 +45,7 @@ class TicketCounter extends React.Component {
   renderTimer() {
     setTimeout(() => {
       this.forceUpdate();
-    }, 1000); 
+    }, 1000);
     const { ends } = this.sale;
     const now = moment().format('X');
     const countTo = moment(ends);
