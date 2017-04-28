@@ -21,7 +21,7 @@
       
     <p>All tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
      
-     <p><b>**Set a reminder: tickets go back on sale Wednesday April 26th, 9am PST **</b></p> 
+     <p><b>**The final ticket sale for WDS 2017 is now live! Get your ticket(s) before they sell out.**</b></p> 
     
     <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Get Your Ticket!</Button>
     </Block>
