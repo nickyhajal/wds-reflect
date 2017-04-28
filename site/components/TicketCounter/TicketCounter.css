@@ -25,6 +25,46 @@
   }
 }
 
+.timer {
+  width: 560px;
+  margin: -40px auto 40px;
+  left: -80px;
+  position: relative;
+
+  .timerBlock {
+    float: left;
+    width: 140px;
+    font-size: 64px;
+    margin: 40px 0;
+    font-family: Vitesse;
+    color: white;
+
+    span {
+      display: block;
+      font-size: 22px;
+      text-align: center;
+      width: 100%;
+      font-family: KarlaItalic;
+    }
+  }
+
+  h3 {
+    clear: both;
+    font-family: Vitesse;
+    color: $white;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  h4 {
+    font-family: KarlaItalic;
+    color: $white;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 24px;
+    opacity: 0.8;
+  }
+}
+
 .countup {
   text-align: center;
 

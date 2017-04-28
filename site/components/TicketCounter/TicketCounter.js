@@ -4,6 +4,8 @@ import autoBind from 'react-autobind';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import CSSModules from 'react-css-modules';
+import moment from 'moment';
+import padLeft from 'pad-left';
 import styles from './TicketCounter.css';
 import types from '../../utils/types';
 import actions from '../../actions';
@@ -42,7 +44,39 @@ class TicketCounter extends React.Component {
     );
   }
   renderTimer() {
-    return '';
+    setTimeout(() => {
+      this.forceUpdate();
+    }, 1000); 
+    const { ends } = this.sale;
+    const now = moment().format('X');
+    const countTo = moment(ends);
+    const diff = countTo.format('X') - now;
+    const dval = padLeft(Math.floor(diff / 86400), 2, '0');
+    const hval = padLeft(Math.floor((diff % 86400) / 3600), 2, '0');
+    const mval = padLeft(Math.floor(((diff % 86400) % 3600) / 60), 2, '0');
+    const sval = padLeft(Math.floor(((diff % 86400) % 3600) % 60), 2, '0');
+    return (
+      <div styleName="timer">
+        <h3>Final Ticket Sales for WDS End in:</h3>
+        <div styleName="timerBlock">
+          {dval}
+          <span>Days</span>
+        </div>
+        <div styleName="timerBlock">
+          {hval}
+          <span>Hours</span>
+        </div>
+        <div styleName="timerBlock">
+          {mval}
+          <span>Mins</span>
+        </div>
+        <div styleName="timerBlock">
+          {sval}
+          <span>Secs</span>
+        </div>
+        <h4>Will you get yours?</h4>
+      </div>
+    );
   }
   renderMessages() {
     const messages = [];
