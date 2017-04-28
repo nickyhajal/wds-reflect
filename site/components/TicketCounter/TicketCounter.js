@@ -74,7 +74,7 @@ class TicketCounter extends React.Component {
           {sval}
           <span>Secs</span>
         </div>
-        <h4>Will you get yours?</h4>
+        <h4>Will you you be there?</h4>
       </div>
     );
   }
