@@ -114,7 +114,7 @@
       </Block>
       <Block type="image" src="photos/JoinUs/image-meetups.jpg">
         ## Meetups
-        Every year attendees help lead over 100+ meetups in and around Portland. Share your expertise. Coordinate an adventure. The best part is you can do both!
+        Every year attendees help lead over 100+ meetups in and around Portland. Share your expertise. Coordinate an adventure. Meet others that share your passions and interests. The best part is you can do all three!
       </Block>
       <Block type="image" src="photos/JoinUs/image-activities.png">
         ## Activities
