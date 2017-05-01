@@ -13,11 +13,12 @@
 
 <p>Since 2011, WDS has brought together more than 10,000 people from over forty countries together around the core values of <b>community, adventure, and service</b> to discuss this central question, <i>"how can we live a remarkable life in a conventional world</i>.</p>
 
+## WDS + Portland + You!
 Though We love that people travel great distances to be here, but we also know that Portland (and our surrounding communities) boast some incredibly talented world-changers. Our goal is to create opportunities to meet with other folks who are doing amazing things from around the country and the world, and give them the opportunity to meet you.
 
 We've seen the power of bringing together remarkable people together. This will be a time to think through social challenges in creative and unconventional ways. To brainstorm new ideas for solving complex issues you’re working on and to meet people that may become key allies and partners on projects you're working on. But we're also looking forward to what you will bring to our community. What experience, knowledge, and stories can you impart to help our community grow. That's what makes WDS an event unlike any other. It's a gathering of amazing individuals where we learn from each other and then take what we've learned (supported by this remarkable community) to make a postive imapact in our local communities, and ultimately, our world. 
   
-Will you join us? (details below) 
+#### Join Us? (details below) 
   </Block>
 </Section>
 <Section color="sea" bound={false}>
