@@ -53,12 +53,12 @@ We've seen the power of bringing together remarkable people together. This will 
  - You will be able to propose or attend as many attendee-led meetups as you like 
  - You will receive access to the WDS mobile-app to help maximize your WDS experience
  
-  ## Helpful Links
+  #### Helpful Links
  - To learn more about how WDS got started see our story page.
  - To watch videos from previous key note speakers and WDS years go here.
  - To read about how WDS has impacted our attendees, checkout their own personal reviews here.
      
-## I'm In! How do I Apply?
+#### I'm In! How do I Apply?
 Apply below to  join us in learning from unconventional thinkers, acquiring powerful new skills, and gaining an all-new community of friends and supporters. If you still have questions or want to know more email Tina at tinahartpdx@gmail.com. 
 </Block>
 </Section>
