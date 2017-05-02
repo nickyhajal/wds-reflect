@@ -123,7 +123,7 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
       ### Portland State
-      <Link to="https://housingportal.pdx.edu/StarRezPortal/Go/Conference/136">0.2 Mi from Base</Link>
+      <Link to="https://housingportal.pdx.edu/StarRezPortal/Go/Conference/136">0.6 Mi from Base</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### Portland NW Hostel
