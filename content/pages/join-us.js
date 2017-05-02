@@ -23,7 +23,8 @@
      
      <p><b>**The final ticket sale for WDS 2017 is now live! Get your ticket(s) before they sell out.**</b></p> 
     
-    <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Get Your Ticket!</Button>
+    <Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
+
     </Block>
 </Section>
 <Section color="canvas">
