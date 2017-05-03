@@ -26,13 +26,14 @@ We've seen the power of bringing together remarkable people together, and we wan
  - You will be able to propose or attend as many attendee-led meetups as you like 
  - You will receive access to the WDS mobile-app to help maximize your WDS experience
  
- 
+---
 #### Helpful Links
  - To learn more about how WDS got started see our [story page](https://worlddominationsummit.com/story).
  - To watch videos from previous keynote speakers and WDS years go to our [WDS Vimeo page](https://vimeo.com/album/4410553).
  - To read about how WDS has impacted our attendees, checkout their own [personal reviews here](https://chrisguillebeau.com/?s=wds+reviews).
-
-<p><b>Join Us? (apply below)</b></p> 
+---
+                                                                
+#### Join Us? (apply below)
    </Block>
    <Block cols="6">
     <iframe height="2050" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/zn8tpsb0rzdb6x/"><a href="https://worlddominationsummit.wufoo.com/forms/zn8tpsb0rzdb6x/">Fill out my Wufoo form!</a></iframe>
