@@ -26,7 +26,7 @@ We've seen the power of bringing together remarkable people together, and we wan
  - You will be able to propose or attend as many attendee-led meetups as you like 
  - You will receive access to the WDS mobile-app to help maximize your WDS experience
  
-<p><b>Helpful Links</b><p>
+<p><b>Helpful Links</b></p>
  - To learn more about how WDS got started see our story page.
  - To watch videos from previous key note speakers and WDS years go here.
  - To read about how WDS has impacted our attendees, checkout their own personal reviews here.
