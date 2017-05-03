@@ -35,7 +35,7 @@ We've seen the power of bringing together remarkable people together, and we wan
 <p><b>Join Us? (apply below)</b></p> 
    </Block>
    <Block cols="6">
-    <iframe height="2750" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/zn8tpsb0rzdb6x/"><a href="https://worlddominationsummit.wufoo.com/forms/zn8tpsb0rzdb6x/">Fill out my Wufoo form!</a></iframe>
+    <iframe height="2050" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/zn8tpsb0rzdb6x/"><a href="https://worlddominationsummit.wufoo.com/forms/zn8tpsb0rzdb6x/">Fill out my Wufoo form!</a></iframe>
   </Block>
 </Section>
 <Section color="sea" bound={false}>
