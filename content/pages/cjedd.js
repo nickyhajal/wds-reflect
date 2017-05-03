@@ -32,9 +32,9 @@ We've seen the power of bringing together remarkable people together, and we wan
  - To read about how WDS has impacted our attendees, checkout their own personal reviews here.
 
 <p><b>Join Us? (apply below)</b></p> 
+   </Block>
    <Block cols="6">
     <iframe height="2750" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/zn8tpsb0rzdb6x/"><a href="https://worlddominationsummit.wufoo.com/forms/zn8tpsb0rzdb6x/">Fill out my Wufoo form!</a></iframe>
-  </Block>
   </Block>
 </Section>
 <Section color="sea" bound={false}>
