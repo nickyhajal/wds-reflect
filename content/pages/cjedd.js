@@ -6,12 +6,13 @@
   color="white"
   preload
 >
-  <Image src="heading/league.of.local.leaders.header.png" width="100%" height="106px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+ <Image src="heading/league.of.local.leaders.header.png" width="100%" height="104px" />
     ## Greetings Extraordinary Leaders! 
     <p>We're thrilled to invite you to join us at the 7th annual <i>World Domination Summit</i> taking place July 14-16th in Portland. Best of all, we want you to attend as our honored guest (at no charge) as part of our <b>League of Local Leaders</b> program.</p>
 
 <p>Since 2011, WDS has brought together more than 10,000 people from over forty countries together around the core values of <b>community, adventure, and service</b> to discuss this central question, <i>"how can we live a remarkable life in a conventional world"</i>.</p>
+  <Image src="photos/local-leaders.jpg" width="100%" height="480" />
 
 #### WDS + Portland + You!
 We love that people travel great distances to be here, but we also know that Portland (and our surrounding communities) boast some incredibly talented world-changers. Our goal is to give you the opportunity to meet with other folks who are doing amazing things from around the country and the world, and give them the opportunity to meet you.
@@ -27,7 +28,7 @@ We've seen the power of bringing together remarkable people together, and we wan
  - You will receive access to the WDS mobile-app to help maximize your WDS experience
  
 ---
-#### Helpful Links
+<p><b>HELPFUL LINKS</b></p>
  - To learn more about how WDS got started see our [story page](https://worlddominationsummit.com/story).
  - To watch videos from previous keynote speakers and WDS years go to our [WDS Vimeo page](https://vimeo.com/album/4410553).
  - To read about how WDS has impacted our attendees, checkout their own [personal reviews here](https://chrisguillebeau.com/?s=wds+reviews).
@@ -35,8 +36,8 @@ We've seen the power of bringing together remarkable people together, and we wan
 </Section>
 <Section color="orange">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## Let's Do ThiS! Sign-up Today!
-  <font color="white">Ready to join some of the world's most remarkable people for a gathering unlike any other? Click on the button below and fill out our quick sign-up form.</font>
+   ## I'm In! Sign-up Today!
+  <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
    <Button to="https://worlddominationsummit.com/cjedd-apply" newWindow={true} styling="white" fitToText>I'm Coming to WDS 2017!</Button> 
   </Block>
@@ -64,4 +65,3 @@ We've seen the power of bringing together remarkable people together, and we wan
     </Grid>
   </Block>
 </Section>
-<Import id="join-us" />
