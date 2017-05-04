@@ -40,6 +40,7 @@ We've seen the power of bringing together remarkable people together, and we wan
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
    <Button to="https://worlddominationsummit.com/cjedd-apply" newWindow={true} styling="white" fitToText>I'm Coming to WDS 2017!</Button> 
   </Block>
+ </Block>                                                             
 </Section>                                                                
 <Section color="sea" bound={false}>
   <Block margin="50px 0 50px 0">
