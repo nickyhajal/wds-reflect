@@ -33,7 +33,7 @@
 
     ### How can I transfer a 360 ticket?
     
-    Transfers and name changes are available for a $100 fee until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.
+    <p>Transfers and name changes are available for a $100 fee until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting <b>June 11th, 2017</b>, no further transfers or name changes will be possible.</p>
     
     <p>You will need the name, email address, and mailing address of the new ticket holder. After entering that information and paying the transfer fee your ticket will be officially transferred to the new person</p>
 
