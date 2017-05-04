@@ -18,6 +18,7 @@
 We love that people travel great distances to be here, but we also know that Portland (and our surrounding communities) boast some incredibly talented world-changers. Our goal is to give you the opportunity to meet with other folks who are doing amazing things from around the country and the world, and give them the opportunity to meet you.
 
 We've seen the power of bringing together remarkable people together, and we want to give local leaders like you the chance to think through your challenges in an unconventional way, to brainstorm new ideas for solving issues you’re working on, and to meet new allies and partners that may be able to help you along your way. We're also looking forward to the great experience, knowledge, and stories you can bring to our community. That's what makes WDS an event unlike any other. It's a gathering of amazing individuals who learn from each other and then take what we've learned to make a postive imapact in our local communities, and ultimately, our world.  
+  </Block>
 </Section> 
 <Section color="orange">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
