@@ -18,7 +18,20 @@
 We love that people travel great distances to be here, but we also know that Portland (and our surrounding communities) boast some incredibly talented world-changers. Our goal is to give you the opportunity to meet with other folks who are doing amazing things from around the country and the world, and give them the opportunity to meet you.
 
 We've seen the power of bringing together remarkable people together, and we want to give local leaders like you the chance to think through your challenges in an unconventional way, to brainstorm new ideas for solving issues you’re working on, and to meet new allies and partners that may be able to help you along your way. We're also looking forward to the great experience, knowledge, and stories you can bring to our community. That's what makes WDS an event unlike any other. It's a gathering of amazing individuals who learn from each other and then take what we've learned to make a postive imapact in our local communities, and ultimately, our world.  
-
+</Section> 
+<Section color="orange">
+  <Block cols="6" css={{ padding: '25px 0 20px' }}>
+   ## I'm In! Sign-up Today!
+  <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form.</font>
+ <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
+   <Button to="https://worlddominationsummit.com/cjedd-apply" newWindow={true} styling="white" fitToText>I'm Coming to WDS 2017!</Button> 
+  </Block>
+ </Block>                                                             
+</Section>  
+<Section
+  color="white"
+>
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
 ## The Details
  - As our honored guest, WDS will waive the standard ticket price of $647 for you. 
  - You'll be given a ticket to attend the main events of the WDS weekend from Friday July 14th - Sunday July 16th
@@ -33,16 +46,7 @@ We've seen the power of bringing together remarkable people together, and we wan
  - To watch videos from previous keynote speakers and WDS years go to our [WDS Vimeo page](https://vimeo.com/album/4410553).
  - To read about how WDS has impacted our attendees, checkout their own [personal reviews here](https://chrisguillebeau.com/?s=wds+reviews).
  </Block>
-</Section>
-<Section color="orange">
-  <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## I'm In! Sign-up Today!
-  <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form.</font>
- <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/cjedd-apply" newWindow={true} styling="white" fitToText>I'm Coming to WDS 2017!</Button> 
-  </Block>
- </Block>                                                             
-</Section>                                                                
+</Section>                                                              
 <Section color="sea" bound={false}>
   <Block margin="50px 0 50px 0">
     ## A Gathering of the World's Most Remarkable People
