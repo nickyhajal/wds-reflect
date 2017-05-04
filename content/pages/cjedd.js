@@ -6,9 +6,9 @@
   color="white"
   preload
 >
-    <Image src="heading/league.of.local.leaders.header.png" width="660px" height="104px" className="scriptHeader" preload/>
+    <Image src="heading/league.of.leaders.header.png" width="1000px" height="244px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
- <Image src="heading/league.of.local.leaders.header.png" width="100%" height="104px" />
+ <Image src="league.of.leaders.header.png" width="100%" height="244px" />
     ## Greetings Extraordinary Leaders! 
     <p>We're thrilled to invite you to join us at the 7th annual <i>World Domination Summit</i> taking place July 14-16th in Portland. Best of all, we want you to attend as our honored guest (at no charge) as part of our <b>League of Local Leaders</b> program.</p>
 
