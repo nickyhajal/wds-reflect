@@ -6,6 +6,7 @@
   color="white"
   preload
 >
+    <Image src="league.of.local.leaders.header.png" width="660px" height="104px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
  <Image src="heading/league.of.local.leaders.header.png" width="100%" height="104px" />
     ## Greetings Extraordinary Leaders! 
