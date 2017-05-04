@@ -23,9 +23,9 @@ We've seen the power of bringing together remarkable people together, and we wan
 <Section color="orange">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
    ## I'm In! Sign-up Today!
-  <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form.</font>
+  <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form. Want to know more? Keep scrolling for more information.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/cjedd-apply" newWindow={true} styling="white" fitToText>I'm Coming to WDS 2017!</Button> 
+   <Button to="https://worlddominationsummit.com/cjedd-apply" newWindow={true} styling="white" fitToText>I'm Going to WDS 2017!</Button> 
   </Block>
  </Block>                                                             
 </Section>  
@@ -70,3 +70,12 @@ We've seen the power of bringing together remarkable people together, and we wan
     </Grid>
   </Block>
 </Section>
+  <Section color="orange">
+  <Block cols="6" css={{ padding: '25px 0 20px' }}>
+   ## I'm In! Sign-up Today!
+  <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form.</font>
+ <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
+   <Button to="https://worlddominationsummit.com/cjedd-apply" newWindow={true} styling="white" fitToText>I'm Going to WDS 2017!</Button> 
+  </Block>
+ </Block>                                                             
+</Section>                                                                
