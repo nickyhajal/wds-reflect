@@ -31,6 +31,7 @@ We've seen the power of bringing together remarkable people together, and we wan
  - To learn more about how WDS got started see our [story page](https://worlddominationsummit.com/story).
  - To watch videos from previous keynote speakers and WDS years go to our [WDS Vimeo page](https://vimeo.com/album/4410553).
  - To read about how WDS has impacted our attendees, checkout their own [personal reviews here](https://chrisguillebeau.com/?s=wds+reviews).
+ </Block>
 </Section>
 <Section color="orange">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
@@ -38,7 +39,6 @@ We've seen the power of bringing together remarkable people together, and we wan
   <font color="white">Ready to join some of the world's most remarkable people for a gathering unlike any other? Click on the button below and fill out our quick sign-up form.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
    <Button to="https://worlddominationsummit.com/cjedd-apply" newWindow={true} styling="white" fitToText>I'm Coming to WDS 2017!</Button> 
- </Block>
   </Block>
 </Section>                                                                
 <Section color="sea" bound={false}>
