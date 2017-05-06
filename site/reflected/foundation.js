@@ -55,7 +55,7 @@ import Cart from '../../site/containers/Cart/Cart';
 
         We’ve all experienced moments when we struggling to put into words an experience or emotion. Voices of Petersburg is a three-day digital storytelling workshop for clients of Petersburg Mental Health Services in Petersburg, Alaska. Participants choose an experience they want to share and write a script for a digital story to give voice to their struggles and triumphs. The process of writing, choosing supportive media assets, and bringing the story to the screen provides a platform for healing unique to the mental health therapies.{'\n'}
 
-<p>With the help of the Foundation, Emily and her team will build a mobile curriculum that can travel outside of Petersburg and assist individuals in mental health facilities around the U.S. She is currently looking for assistance with social media, fundraising, and product development. you. If you are interested in contributing to her project, visit <Link to="http://voicesofpetersburgak.com">voicesofpetersburgak.com</Link> or email <Link to="mailto:emilywray@gmail.com">emilywray@gmail.com</Link>.</p>
+<p>With the help of the Foundation, Emily and her team will build a mobile curriculum that can travel outside of Petersburg and assist individuals in mental health facilities around the U.S. She is currently looking for assistance with social media, fundraising, and product development. you. If you are interested in contributing to her project, visit <Link to="http://emily-wray-vh7i.squarespace.com/">voicesofpetersburgak.com</Link>.</p>
       </Block>
     </Tab>
     <Tab title="Valerie Groth">
@@ -147,13 +147,11 @@ Part of this training will be developed internationally, including a teaching tr
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?{'\n'}
     ##### Eligibility{'\n'}
-   Currently the "Scholarships for Real Life" program is open only to alumni who have attended one of our past six WDS events. If this is your first year attending the World Domination Summit, you will be eligible to apply in 2018.{'\n'}
-##### 2017 Applications - Now Avaialble!{'\n'}
-<p>Applications for 2017 Scholarships for Real Life are open now through <b>May 1!</b> If you have any questions about the application or the grant itself, please contact the WDS Foundation team at <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link>.</p>
- <Button to="https://worlddominationsummit.wufoo.com/forms/wds-scholarships-for-real-life-2017/">
-      <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
-      <span style={{ fontSize: '20px' }}>Apply Today!</span>
-    </Button>  
+The "Scholarships for Real Life" program is open to all alumni who have attended one of our past six WDS events AND those that have purchased a ticket for WDS 2017 even if this is your first time attending.{'\n'}
+
+##### 2017 Applications - Now Closed!{'\n'}
+Don't stop believin! The deadline to apply for 2017 grants has passed but keep your dreams alive. {'\n'}
+<p>If you would like to be notified when applications re-open for 2018, please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. </p>
 </Block>
 </Section>
 <Section color="green">
@@ -165,21 +163,27 @@ Part of this training will be developed internationally, including a teaching tr
  </Block>
   </Block>
 </Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="orange">
+  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+  <Block margin="50px 0">## Tickets are sold out!</Block>
+  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
+    <Form
+      list="WDS 2018 Waiting List"
+      successMessage="Great, we'll let you know when sales start for WDS 2018!"
+      buttonStart="Get Notified"
+      buttonProgress="Sending..."
+      buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter sale="sale_wave2_2017" type="countup" />{'\n'}
-  </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
-
 
 
 

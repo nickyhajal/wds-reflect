@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import CSSModules from 'react-css-modules';
+import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
 import _ from 'lodash';
 import cx from 'classnames';
 import styles from './Section.css';
@@ -12,6 +13,46 @@ import angler from '../../utils/angler';
 import actions from '../../actions';
 import is from '../../utils/is';
 
+const LocationMap = withGoogleMap(props => {
+  if (props.center.lat === undefined) return <div />;
+  return (
+    <GoogleMap
+      defaultZoom={17}
+      onMapLoad={props.onLoad}
+      options={{ scrollwheel: false, draggable: false, disableDefaultUI: true }}
+      defaultCenter={{ lat: +props.center.lat, lng: +props.center.lon }}
+    >
+      <Marker position={{ lat: props.center.lat, lng: props.center.lon }} />
+    </GoogleMap>
+  );
+});
+
+const renderMap = ({ lat, lon }, ref, mapClip) => {
+  const clip = angler(mapClip);
+  const css = {
+    clipPath: clip,
+    WebkitClipPath: clip,
+    marginTop: '-60px',
+  };
+  return (
+    <div style={css}>
+      <LocationMap
+        center={{ lat, lon }}
+        onLoad={map => (ref = map)}
+        containerElement={
+          is.phone()
+            ? <div style={{ height: '220px', width: '260px' }} />
+            : <div style={{ height: '300px', width: '100%' }} />
+        }
+        mapElement={
+          is.phone()
+            ? <div style={{ height: '220px', width: '260px' }} />
+            : <div style={{ height: '300px', width: '100%' }} />
+        }
+      />
+    </div>
+  );
+};
 const openVideo = (act, headerVideo) => {
   if (headerVideo) {
     act.setModalData('video', { id: headerVideo });
@@ -19,7 +60,14 @@ const openVideo = (act, headerVideo) => {
   }
 };
 const renderHeader = ({
-  headerImage, headerVideo, headerClip, headerSize, headerPosition, act,
+  headerImage,
+  headerVideo,
+  headerClip,
+  headerSize,
+  headerMapRef,
+  headerPosition,
+  act,
+  headerMap,
 }) => {
   let out = '';
   if (headerImage !== undefined) {
@@ -30,26 +78,36 @@ const renderHeader = ({
       }
     }
     height = is.phone() ? '220px' : height;
-    const position = (headerPosition === undefined) ? 'bottom' : headerPosition;
+    const position = headerPosition === undefined ? 'bottom' : headerPosition;
     out = (
       <div styleName="header">
-        {headerVideo !== undefined && headerVideo ? <button styleName="playbtn" onClick={() => openVideo(act, headerVideo)} /> : '' }
-        <Image
-          src={headerImage}
-          onClick={() => openVideo(act, headerVideo)}
-          clip={headerClip}
-          width="100%"
-          height={height}
-          position={position}
-          styleName="headerImage"
-        />
+        {headerVideo !== undefined && headerVideo
+          ? <button
+              styleName="playbtn"
+              onClick={() => openVideo(act, headerVideo)}
+            />
+          : ''}
+        {headerMap !== undefined && headerMap
+          ? renderMap(headerMap, headerMapRef, headerClip)
+          : ''}
+        {headerMap === undefined
+          ? <Image
+              src={headerImage}
+              onClick={() => openVideo(act, headerVideo)}
+              clip={headerClip}
+              width="100%"
+              height={height}
+              position={position}
+              styleName="headerImage"
+            />
+          : ''}
       </div>
     );
   }
   return out;
 };
 
-const Section = (props) => {
+const Section = props => {
   const p = colorize(props);
   let shellCss = {
     backgroundColor: p.color,
@@ -78,13 +136,17 @@ const Section = (props) => {
     shellCss.paddingLeft = '20px';
   }
   return (
-    <section className={cx(props.className, `section-${props.color}`)} styleName="shell" style={shellCss}>
+    <section
+      className={cx(props.className, `section-${props.color}`)}
+      styleName="shell"
+      style={shellCss}
+    >
       {renderHeader(p)}
-      {(props.bound ?
-        (<div className="contentainer" style={contentCss}>
-          {p.children}
-        </div>) : (p.children)
-      )}
+      {props.bound
+        ? <div className="contentainer" style={contentCss}>
+            {p.children}
+          </div>
+        : p.children}
     </section>
   );
 };

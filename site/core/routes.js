@@ -15,8 +15,8 @@ import SpeakerPage from '../containers/SpeakerPage/SpeakerPage';
 import Hub from '../containers/Hub/Hub';
 import YourSchedule from '../containers/Hub/YourSchedule/YourSchedule';
 import Events from '../containers/Hub/Events/Events';
-
 import EnsureLoggedIn from '../containers/EnsureLoggedIn/EnsureLoggedIn';
+import Event from '../containers/Event';
 
 const routes = (
   <Route path="/" component={App} >
@@ -28,6 +28,9 @@ const routes = (
     <Route path="/reset/:id" component={Reset} />
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
+    <Route path="/academy/:id" component={Event} />
+    <Route path="/meetup/:id" component={Event} />
+    <Route path="/activity/:id" component={Event} />
     <Route path="/be-there" component={TicketPurchase} />
     <Route path="/id" component={Person} />
     <Route component={EnsureLoggedIn}>

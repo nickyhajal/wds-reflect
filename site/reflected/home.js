@@ -152,25 +152,31 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>{'\n'}
       Part of what makes WDS so great is our weekend of main stage events. Our keynote speakers are bestselling authors, leading activists, and in-demand storytellers. Since our very first year in 2011, the lineup has been inclusive, multicultural, and representative of our whole community. {'\n'}
-      Over the weekend, each speaker will share a short message that combines personal stories with practical ideas on our main stag, but most speakers stick around for the entire weekend and are available for informal conversation.  Sunday afternoon—before we all head to the afterparty—we've set aside a space for our speakers to sign books and meet readers. Print books will be available for sale throughout the weekend, and if you're digital-only, you can stop by to say hi to your favorite author!{'\n'}
+      Over the weekend, each speaker will share a short message that combines personal stories with practical ideas on our main stage, but most speakers stick around for the entire weekend and are available for informal conversation.  Sunday afternoon—before we all head to the afterparty—we've set aside a space for our speakers to sign books and meet readers. Print books will be available for sale throughout the weekend, and if you're digital-only, you can stop by to say hi to your favorite author!{'\n'}
     </Tab>
   </Tabs>
 </Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="orange">
+  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+  <Block margin="50px 0">## Tickets are sold out!</Block>
+  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
+    <Form
+      list="WDS 2018 Waiting List"
+      successMessage="Great, we'll let you know when sales start for WDS 2018!"
+      buttonStart="Get Notified"
+      buttonProgress="Sending..."
+      buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter sale="sale_wave2_2017" type="countup" />{'\n'}
-  </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
-
 
 <Section color="green" clip="top_lr_2.6" margin="-22px 0 0">
   <Block margin="50px 0" width="420px">

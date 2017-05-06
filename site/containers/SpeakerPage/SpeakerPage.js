@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import $ from 'jquery';
 import { bindActionCreators } from 'redux';
 import Markdown from 'react-remarkable';
 import CSSModules from 'react-css-modules';

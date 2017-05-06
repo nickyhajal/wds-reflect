@@ -47,44 +47,48 @@ import Cart from '../../site/containers/Cart/Cart';
     WDS is a sponsor-free, non-commercial gathering. We do not accept advertising or sponsored products.{'\n'}
 
     ### Can I be a volunteer?{'\n'}
-    <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year, and you must be available during the entire weekend of the event. Applications will open after ticket sales end. When applications become available, Chris will make an announcement on his <Link to="http://chrisguillebeau.com/">blog</Link> and through <Link to="https://twitter.com/chrisguillebeau">Twitter.</Link></p>
+    <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year (or have extensive knowledge of the city) and you must be available during the entire weekend for WDS main-events. Special consideration is given to those that are available for the entire week of WDS. Applications are typically available 3-4 months prior to WDS. When applications become available, Chris will make an announcement on his <Link to="http://chrisguillebeau.com/">blog</Link> and through <Link to="https://twitter.com/chrisguillebeau">Twitter.</Link></p>
 
     ### How can I get a ticket?{'\n'}
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. The best way to be notified when tickets go on sale is to join the 2017 <Link to="/join-us">waiting list.</Link></p>
     Please note: Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.{'\n'}
 
-    ### What is the refund/exchange policy on WDS tickets?{'\n'}
-    All WDS tickets are non-refundable.    {'\n'}
+    ### What is the refund/cancellation policy for WDS tickets?{'\n'}
+    All WDS tickets are non-refundable. Tickets can be transferred to another person for a fee up until June 10th. {'\n'}
 
     ### How can I transfer a 360 ticket?{'\n'}
-    Transfers and name changes are available for a $100 fee from the end of March until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.{'\n'}
+    Transfers and name changes are available for a $100 fee until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting **June 11th, 2017**, no further transfers or name changes will be possible.{'\n'}
     
     <p>You will need the name, email address, and mailing address of the new ticket holder. After entering that information and paying the transfer fee your ticket will be officially transferred to the new person</p>
 
-     <p>Ticket holders can transfer their ticket by:
-    Logging into your WDS account and looking for the transfer link at the bottom of the page, or,
-       contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link>.</p>
+     <p>Ticket holders can transfer their ticket by contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for their unique transfer link.</p>
        
     ### Still have additional questions?
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
   </Block>
 </Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="orange">
+  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+  <Block margin="50px 0">## Tickets are sold out!</Block>
+  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
+    <Form
+      list="WDS 2018 Waiting List"
+      successMessage="Great, we'll let you know when sales start for WDS 2018!"
+      buttonStart="Get Notified"
+      buttonProgress="Sending..."
+      buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter sale="sale_wave2_2017" type="countup" />{'\n'}
-  </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
-
 
 
 

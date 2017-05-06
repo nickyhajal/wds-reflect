@@ -43,7 +43,11 @@ import Cart from '../../site/containers/Cart/Cart';
   <Block margin="125px 0 50px 0">
     ## WDS Local Group Directory{'\n'}
     <Grid numCols="3" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
-    <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
+     <Block type="image-narrow" src="photos/wdslocal/Chicago.WDS.local.png">
+      ## Chicago, Illinois{'\n'}
+      <Button to="https://www.facebook.com/groups/wdslocalchicago/" newWindow={true} fitToText>Join Up</Button>
+    </Block>
+      <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California{'\n'}
       <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
     </Block>
@@ -66,10 +70,6 @@ import Cart from '../../site/containers/Cart/Cart';
     <Block type="image-narrow" src="photos/wdslocal/san.diego.WDS.local.jpg">
       ## San Diego, California{'\n'}
       <Button to="https://www.facebook.com/groups/362794770457200/" newWindow={true} fitToText>Join Up</Button>
-    </Block>
- <Block type="image-narrow" src="photos/wdslocal/san.francisco.WDS.local.png">
-      ## San Francisco, California{'\n'}
-      <Button to="https://www.facebook.com/groups/BayAreaWDSAlums/" newWindow={true} fitToText>Join Up</Button>
     </Block>
     <Block type="image-narrow" src="photos/wdslocal/seattle.WDS.local.jpg">
       ## Seattle, Washington{'\n'}
@@ -116,21 +116,27 @@ import Cart from '../../site/containers/Cart/Cart';
  </Block>
  </Block>
 </Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="orange">
+  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+  <Block margin="50px 0">## Tickets are sold out!</Block>
+  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
+    <Form
+      list="WDS 2018 Waiting List"
+      successMessage="Great, we'll let you know when sales start for WDS 2018!"
+      buttonStart="Get Notified"
+      buttonProgress="Sending..."
+      buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter sale="sale_wave2_2017" type="countup" />{'\n'}
-  </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
-
 
 
 

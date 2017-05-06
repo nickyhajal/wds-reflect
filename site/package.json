@@ -31,6 +31,7 @@
       "import/no-named-as-default": "off",
       "react/jsx-filename-extension": "off",
       "new-cap": "off",
+      "camelcase": "off",
       "no-param-resign": "off"
     },
     "globals": {
@@ -48,6 +49,7 @@
     }
   },
   "dependencies": {
+    "apollo-client": "^1.2.0",
     "autosize": "^3.0.20",
     "axios": "^0.15.2",
     "axios-mock-adapter": "^1.7.1",
@@ -56,6 +58,7 @@
     "classnames": "^2.2.5",
     "country-data": "^0.0.31",
     "firebase": "^3.6.8",
+    "graphql-tag": "^2.0.0",
     "immutable": "^3.8.1",
     "jquery": "^3.1.1",
     "jquery.scrollto": "^2.1.2",
@@ -66,12 +69,13 @@
     "provinces": "^1.9.0",
     "react": "^15.3.2",
     "react-addons-css-transition-group": "^15.4.2",
+    "react-apollo": "^1.2.0",
     "react-autobind": "^1.0.6",
     "react-css-modules": "^3.7.10",
     "react-dom": "^15.3.2",
     "react-dropzone": "^3.9.2",
     "react-fastclick": "^2.1.2",
-    "react-google-maps": "beta",
+    "react-google-maps": "next",
     "react-markdown": "^2.4.4",
     "react-modal": "^1.6.5",
     "react-redux": "^5.0.2",
@@ -84,12 +88,9 @@
     "redux-mock-store": "^1.2.1",
     "redux-thunk": "^2.1.0",
     "remarkable": "^1.7.1",
-    "slick-carousel": "^1.6.0",
-    "socket.io": "^1.7.2",
-    "socket.io-client": "^1.7.2",
     "source-map-support": "^0.4.6",
     "stripe": "^4.12.0",
-    "superagent": "^3.4.1",
+    "styled-components": "next",
     "underscore.string": "^3.3.4",
     "webpack": "^1.13.3"
   },

@@ -146,9 +146,9 @@ import Cart from '../../site/containers/Cart/Cart';
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
-    <Block type="caption" src="photos/Crystal.Hotel.jpg">
-      ### Crystal Hotel{'\n'}
-      <Link to="http://www.mcmenamins.com/CrystalHotel">0.6 Mi from Base</Link>
+    <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
+      ### Portland State{'\n'}
+      <Link to="https://housingportal.pdx.edu/StarRezPortal/Go/Conference/136">0.6 Mi from Base</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### Portland NW Hostel{'\n'}
@@ -220,21 +220,27 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Grid>
   </Block>
 </Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="orange">
+  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+  <Block margin="50px 0">## Tickets are sold out!</Block>
+  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
+    <Form
+      list="WDS 2018 Waiting List"
+      successMessage="Great, we'll let you know when sales start for WDS 2018!"
+      buttonStart="Get Notified"
+      buttonProgress="Sending..."
+      buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter sale="sale_wave2_2017" type="countup" />{'\n'}
-  </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
-
 
 
 

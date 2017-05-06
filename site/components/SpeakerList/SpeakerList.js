@@ -21,7 +21,6 @@ const settings = {
 
 
 const passesFilter = (speaker, { year }) => {
-  console.log(year);
   if (year !== undefined) {
     if (
       (!year.length) ||
@@ -39,7 +38,6 @@ const speakerBlocks = (props) => {
   let c = 0;
   vars.speakers.forEach((v) => {
     const id = `speaker-${c}`;
-    console.log(passesFilter(v, props));
     if (passesFilter(v, props)) {
       out.push(
         <Link to={`/speaker/${s.slugify(v.name)}`} styleName="box">

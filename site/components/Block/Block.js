@@ -3,7 +3,6 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; // ES6
 import autoBind from 'react-autobind';
 import CSSModules from 'react-css-modules';
 import Markdown from 'react-remarkable';
-import $ from 'jquery';
 import cx from 'classnames';
 import _ from 'lodash';
 import _s from 'underscore.string';

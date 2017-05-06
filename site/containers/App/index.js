@@ -104,7 +104,7 @@ export class App extends Component {
     if (uri.indexOf('~') > -1 || uri.indexOf('community/') > -1) {
       nav = 'hub';
     }
-    if (uri.indexOf('speaker/') > -1) {
+    if (uri.indexOf('speaker/') > -1 || uri.includes('academy/')) {
       nav = 'schedule';
     }
     if (nav) {
