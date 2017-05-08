@@ -1,8 +1,8 @@
 import { gql } from 'react-apollo';
 
 export const Event = gql`
-  query Event($event_id: String!) {
-    event(event_id: $event_id){
+  query Event($slug: String!) {
+    event(slug: $slug){
       format
       type
       who

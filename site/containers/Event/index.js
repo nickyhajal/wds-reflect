@@ -5,6 +5,8 @@ import Markdown from 'react-remarkable';
 import { graphql } from 'react-apollo';
 import styled from 'styled-components';
 import moment from 'moment';
+import _ from 'lodash';
+import { browserHistory } from 'react-router';
 import Section from '../../components/Section/Section';
 import Avatar from '../../components/Avatar/Avatar';
 import Block from '../../components/Block/Block';
@@ -20,6 +22,7 @@ import Button from '../../components/Button/Button';
 import C from '../../constants';
 import Content from './Content';
 import Host from './Host';
+import User from '../../models/User';
 
 const Grid = styled.div`
   display: flex;
@@ -41,6 +44,20 @@ const Btn = styled(Button)`
 `;
 
 export class EventComponent extends Component {
+  purchase = () => {
+    this.props.act.setProduct({
+      code: 'xfer',
+      product: 'WDS Academy',
+      description: `Ticket for ${this.props.data.event.what}`,
+      data: _.defaults({ event: this.props.data.event }, {}),
+      price: this.props.auth.me.attending17 === '1' ? 2900 : 5900,
+      redirect: 'transferred',
+    });
+    browserHistory.replace('/cart');
+  }
+  claim = () => {
+
+  }
   render() {
     const { data } = this.props;
     const E = new Event(data.event !== undefined ? data.event : {});
@@ -48,13 +65,12 @@ export class EventComponent extends Component {
       type,
       start,
       end,
+      event_id,
       num_rsvps,
       num_free,
       max,
       bios,
       free_max,
-      lat,
-      lon,
       what,
       address,
       who,
@@ -62,11 +78,31 @@ export class EventComponent extends Component {
       descr,
       hosts,
     } = E;
+    let { lat, lon } = E;
+    lat = lat > 0 ? lat : '45.523062';
+    lon = lon > 0 ? lon : '-122.676482';
+    const Me = new User(this.props.auth);
     const headcss = {};
     const clip = angler('tr:0,18%');
     headcss.clipPath = clip;
     headcss.WebkitClipPath = clip;
     let map = {};
+    let count = num_rsvps + num_free;
+    count = count > 1 ? count : 2;
+    let buttonText = 'Attend this Academy';
+    let buttonClick = this.purchase;
+    let buttonSubMsg = '';
+    if (Me.isAttending(event_id)) {
+      buttonText = 'You\'ll be there!';
+      buttonClick = () => {};
+    } else if (Me.hasUnclaimedAcademy()) {
+      if (num_free < free_max) {
+        buttonText = 'Claim Free Academy';
+        buttonClick = this.claim;
+      } else {
+        buttonSubMsg = 'You have one free academy to claim, however this academy no longer has free spots available.';
+      }
+    }
     return (
       <div>
         <Section
@@ -109,8 +145,9 @@ export class EventComponent extends Component {
               </div>
             </Content>
             <Side>
-              <Btn primary>Attend this Academy</Btn>
-              <Btn>{num_rsvps + num_free} WDSers Attending</Btn>
+              <Btn onClick={buttonClick} primary>{buttonText}</Btn>
+              {buttonSubMsg.length ? <div className="btnSubMsg">{buttonSubMsg}</div> : ''}
+              <Btn>{count} WDSers Attending</Btn>
             </Side>
           </Grid>
         </Section>
@@ -141,7 +178,7 @@ export default graphql(EventQuery, {
   options: props => {
     return {
       variables: {
-        event_id: props.params.id,
+        slug: props.params.id,
       },
     };
   },
