@@ -23,17 +23,17 @@
       <Block type="image-overlay" anchor="right" src="photos/wds.podcast.jonathan.fields.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Episode 1: Jonathan Fields
        In this recent keynote, Jonathan looked back at all the interviews he’s done to find a common thread for living a good life. He calls them: The Five BEs     
-          <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="white" fitToText>Download Episode 1</Button> 
+          <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Download Episode 1</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/wds.podcast.tess.vigeland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Episode 2: Tess Vigeland
-        At WDS 2013 Tess shared her heartfelt, soul-bearing experience that led to her first book “Leap: Leaving A Job With No Plan B to Find the Career and Life You Really Want.”
-       <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="white" fitToText>Download Episode 2</Button>
+        At WDS 2013 Tess shared her heartfelt, soul-bearing experience about leaving a job with no plan b. 
+       <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Download Episode 2</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/wds.podcast.john.francis.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Episode #3: John Francis
-        John shares with us how he discovered his concern for the environment, why he decided to stop talking, and what he learned about the power of listening and observing in the process.
-        <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="white" fitToText>Download Episode 3</Button>     </Block>
+        John shares with us how he discovered his concern for the environment, why he decided to stop talking, and the power of listening and observing in the process.
+        <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Download Episode 3</Button>     </Block>
     </Grid>
   </Block>
 </Section>
