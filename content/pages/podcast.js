@@ -16,7 +16,8 @@
     <Block cols="6">
       ## Episodes
       So what does it mean to Build a Better World? Well, to answer that question, this new series will highlight some of the most popular main-stage WDS talks.    </Block>
-    <Grid numCols="3" tabletCols="2" width="968">
+     </Block>
+      <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Episode 1: Jonathan Fields
        #### The 5 BEs for Living A Good Life
