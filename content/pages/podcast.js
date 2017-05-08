@@ -13,11 +13,23 @@
     **_Building a Better World_** is a new podcast that revisits talks from the main stage of the annual World Domination Summit to highlight ways that we can work together—through community, adventure, and service—to help others, live remarkable lives, and build the world we want to live in.  
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
-  
+    </Section>
+    <Section color="blue">
+  <Block cols="6" css={{ padding: '25px 0 20px' }}>
+   ## Get Me the Next Episode!
+  <font color="white">Click on the button below and have the latest episode delivered.</font>
+ <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
+   <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="white" fitToText>Subscribe!</Button> 
+  </Block>
+ </Block>                                                             
+</Section>  
+  <Section
+  color="white"
+>
  <Block margin="125px 0 50px 0">
     <Block cols="6">
       ## Episodes
-      So what does it mean to Build a Better World? Well, to answer that question, this new series will highlight some of the most popular main-stage WDS talks.    
+      Keep checking back for new episodes from more of our favorite alumni speakers.   
      </Block>
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.podcast.jonathan.fields.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
