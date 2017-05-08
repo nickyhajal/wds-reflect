@@ -103,6 +103,10 @@ export class EventComponent extends Component {
         buttonSubMsg = 'You have one free academy to claim, however this academy no longer has free spots available.';
       }
     }
+    if (num_rsvps >= max) {
+      buttonText = 'This Academy is Full';
+      buttonClick = () => {};
+    }
     return (
       <div>
         <Section
@@ -118,7 +122,7 @@ export class EventComponent extends Component {
             <Content>
               <h2>{what}</h2>
               <div className="details">
-                <div>{`${moment(start).format('MMMM Do YYYY [from] h:mm a')} until ${moment(end).format('h:mm a')}`}</div>
+                <div>{E.dateStr()}</div>
                 <div className="sub">{place}</div>
                 <div className="sub">{address}</div>
               </div>
@@ -172,6 +176,7 @@ Event.propTypes = {
   app: types.app,
   location: types.location,
   act: types.actions,
+  auth: types.auth,
 };
 
 export default graphql(EventQuery, {

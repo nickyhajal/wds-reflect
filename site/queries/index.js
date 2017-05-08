@@ -32,10 +32,23 @@ export const Event = gql`
 
 // Just using this to prevent eslint until we have 2 queries
 export const Values = gql`
-  query Values {
-    values {
-      value
-      valueId
+  query Events($year: String!, $type: String!) {
+    event(year: $year, type: $type){
+      format
+      type
+      who
+      what
+      descr
+      address
+      slug
+      start
+      end
+      lat
+      lon
+      max
+      num_rsvps
+      free_max
+      num_free
     }
   }
 `;
