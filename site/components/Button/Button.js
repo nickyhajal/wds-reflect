@@ -4,15 +4,12 @@ import CSSModules from 'react-css-modules';
 import _ from 'lodash';
 import cx from 'classnames';
 import { bindActionCreators } from 'redux';
-import autoBind from 'react-autobind';
 import Link from '../Link/Link';
 import styles from './Button.css';
 import colorize from '../../utils/colorize';
 import actions from '../../actions';
 
-
 class Button extends React.Component {
-
   static propTypes = {
     component: PropTypes.oneOfType([
       PropTypes.string,
@@ -30,16 +27,12 @@ class Button extends React.Component {
     width: PropTypes.string,
     fitToText: PropTypes.bool,
     align: PropTypes.string,
+    target: PropTypes.string,
     modal: PropTypes.string,
     children: PropTypes.node,
   };
 
-  constructor() {
-    super();
-    autoBind(Object.getPrototypeOf(this));
-  }
-
-  click(e) {
+  click = e => {
     if (this.props.modal !== undefined) {
       if (this.props.beforeModal !== undefined) {
         this.props.beforeModal(this.props.act);
@@ -49,19 +42,23 @@ class Button extends React.Component {
     if (this.props.onClick !== undefined) {
       this.props.onClick(e);
     }
-  }
+  };
 
   render() {
     const {
-      component, className, to, href, children, fitToText,
+      component,
+      className,
+      to,
+      href,
+      children,
+      fitToText,
+      target,
     } = this.props;
-    let {
-      styling, style, width, align, onClick,
-    } = _.clone(this.props);
-    width = (width !== undefined) ? width : '';
-    styling = (styling !== undefined) ? styling : '';
-    style = (style !== undefined) ? style : {};
-    align = (align !== undefined) ? align : '';
+    let { styling, style, width, align, onClick } = _.clone(this.props);
+    width = width !== undefined ? width : '';
+    styling = styling !== undefined ? styling : '';
+    style = style !== undefined ? style : {};
+    align = align !== undefined ? align : '';
     if (styling === 'dark') {
       style.backgroundColor = colorize('dark');
     }
@@ -80,22 +77,20 @@ class Button extends React.Component {
       style.display = 'inline-block';
     }
     return React.createElement(
-      component || (to ? Link : (href ? 'a' : 'button')), // eslint-disable-line no-nested-ternary
+      component || (to ? Link : href ? 'a' : 'button'), // eslint-disable-line no-nested-ternary
       {
         ref: node => (this.root = node),
         styleName: 'button',
-        className: cx(
-          'button', className
-        ),
+        className: cx('button', className),
         to,
         href,
         style,
+        target,
         onClick: this.click,
       },
-      children
+      children,
     );
   }
-
 }
 
 function mapDispatchToProps(dispatch) {

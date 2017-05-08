@@ -31,9 +31,9 @@ export const Event = gql`
 `;
 
 // Just using this to prevent eslint until we have 2 queries
-export const Values = gql`
+export const Events = gql`
   query Events($year: String!, $type: String!) {
-    event(year: $year, type: $type){
+    events(year: $year, type: $type){
       format
       type
       who
@@ -49,6 +49,11 @@ export const Values = gql`
       num_rsvps
       free_max
       num_free
+      hosts {
+        first_name,
+        last_name,
+        user_id,
+      }
     }
   }
 `;

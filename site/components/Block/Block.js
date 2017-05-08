@@ -81,7 +81,7 @@ class Block extends Component {
     const props = this.props;
     const {
       type, height, imageClip, src, children, className, align, feed,
-      clip, label, title, anchor, margin, background, icon, color,
+      clip, label, title, anchor, margin, background, icon, color, padding
     } = props;
     const classes = [className];
     let css = _.defaults(colorize(props).css, {});
@@ -189,6 +189,9 @@ class Block extends Component {
       if (margin) {
         css.margin = margin;
       }
+      if (padding) {
+        css.padding = padding;
+      }
       if (align === 'center') {
         css.marginRight = 'auto';
         css.marginLeft = 'auto';
@@ -257,6 +260,7 @@ Block.propTypes = {
   src: PropTypes.string,
   textAlign: PropTypes.string,
   margin: PropTypes.string,
+  padding: PropTypes.string,
   background: PropTypes.string,
   anchor: PropTypes.string,
   mobile: PropTypes.objectOf([PropTypes.string, PropTypes.objectOf[PropTypes.string]]),

@@ -62,6 +62,22 @@ class Event {
     }
     return '⁛⁛⁛⁛⁛ ⁛⁛⁛⁛ ⁛⁛⁛⁛⁛ ⁛⁛:⁛⁛ ⁛⁛⁛⁛⁛⁛⁛';
   }
+
+  hostnames() {
+    const hs = this.hosts;
+    const length = hs.length;
+    return hs.map((h, i) => {
+      let pre = '';
+      if (i) {
+        if (i === length - 1) { 
+          pre = ' & ';
+        } else {
+          pre = ', ';
+        }
+      }
+      return `${pre}${h.first_name} ${h.last_name}`;
+    }).join('');
+  }
 }
 
 export default Event;
