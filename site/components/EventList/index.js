@@ -34,7 +34,7 @@ const Side = styled.div`
 
 const Btn = styled(Button)`
   background: ${({ primary }) => (primary !== undefined && primary ? C.color.orange : C.color.canvas)};
-  color: ${({ primary }) => (primary !== undefined && primary ? C.color.canvas : C.color.orange) };
+  color: ${({ primary }) => (primary !== undefined && primary ? C.color.canvas : C.color.orange)};
   width: 100%;
   padding: 19px 16px 16px;
   font-size: 20px;
@@ -42,19 +42,20 @@ const Btn = styled(Button)`
 `;
 
 export class EventComponent extends Component {
-  lastDay: ''
+  lastDay: '';
   eventRow(event, Me) {
     const start = moment(event.start);
     const day = start.format('MMMM Do');
     if (this.lastDay !== day) {
+      const style = this.lastDay === '' ? { marginTop: '0' } : {};
       this.lastDay = day;
       return (
         <div>
-          <EventHead>{day}</EventHead>
+          <EventHead style={style}>{day}</EventHead>
           <EventRow event={event} me={Me} />
         </div>
       );
-    } 
+    }
     this.lastDay = day;
     return <EventRow event={event} me={Me} />;
   }
@@ -66,8 +67,15 @@ export class EventComponent extends Component {
     return (
       <Block textAlign="left">
         {`## ${this.props.title}`}
-        <Block cols="8" bleed={false} textAlign="left" margin="20px 0" background="canvas" padding="40px">
-          { events.map((event) => this.eventRow(event, Me)) }
+        <Block
+          cols="8"
+          bleed={false}
+          textAlign="left"
+          margin="20px 0"
+          background="canvas"
+          padding="40px"
+        >
+          {events.map(event => this.eventRow(event, Me))}
         </Block>
       </Block>
     );

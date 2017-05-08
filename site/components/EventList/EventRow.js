@@ -8,17 +8,16 @@ const Row = styled.div`
   padding: 8px 0;
   font-size: 19px;
   display: flex;
-  margin-top: 24px;
-
-  &:first-of-type {
-    margin-top: 0;
-  }
+  margin-top: 12px;
+  align-items: flex-start;
 `;
 const Content = styled.div`
   flex: 1;
 `;
 const Name = styled.div`
   margin-bottom: 4px;
+  max-width: 680px;
+  line-height: 140%;
 `;
 const Hosts = styled.div`
   font-family: Karla;
