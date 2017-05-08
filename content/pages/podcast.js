@@ -8,30 +8,26 @@
 >
   <Image src="heading/podcast.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Building a Better World?
+    ## Building a Better World
     How can we live a remarkable life in a conventional world? **_Building a Better World_** revisits talks from the main stage of the annual World Domination Summit to highlight ways that we can work together—through community, adventure, and service—to help others, live remarkable lives, and build the world we want to live in.  
-  </Block>
-  
+  <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
+      </Block>
   <Block margin="125px 0 50px 0">
     <Block cols="6">
       ## Episodes
       So what does it mean to Build a Better World? Well, to answer that question, this new series will highlight some of the most popular main-stage WDS talks.    </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Jonathan Fields: The 5 BEs for Living A Good Life
-        Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
-      </Block>
+        ## Episode 1: Jonathan Fields
+       #### The 5 BEs for Living A Good Life
+       In this recent keynote, Jonathan looked back at all the interviews he’s done to find a common thread for living a good life. He calls them: The Five BEs      </Block>
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Neighborhoods: NW & Pearl
-        Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.
-      </Block>
+        ## Episode 2: Tess Vigeland
+Tess Vigeland is a veteran journalist, and a well-known voice to millions of American radio listeners. Her first book, titled “Leap: Leaving A Job With No Plan B to Find the Career and Life You Really Want,” was published in August 2015 and was a direct result of her heartfelt, soul-bearing experience from the main stage of the World Domination Summit in 2013.      </Block>
       <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Powell’s Books
-        No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at 1005 W Burnside.
+        ## Episode 3: John Francis
+        John shares with us how he discovered his concern for the environment, why he decided to stop talking, and what he learned about the power of listening and observing in the process.
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Waterfront
-        Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.
       </Block>
     </Grid>
   </Block>
