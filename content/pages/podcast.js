@@ -22,14 +22,16 @@
        #### The 5 BEs for Living A Good Life
        In this recent keynote, Jonathan looked back at all the interviews he’s done to find a common thread for living a good life. He calls them: The Five BEs      </Block>
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        </Block>
         ## Episode 2: Tess Vigeland
 Tess Vigeland is a veteran journalist, and a well-known voice to millions of American radio listeners. Her first book, titled “Leap: Leaving A Job With No Plan B to Find the Career and Life You Really Want,” was published in August 2015 and was a direct result of her heartfelt, soul-bearing experience from the main stage of the World Domination Summit in 2013.      </Block>
       <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+       </Block>
         ## Episode 3: John Francis
         John shares with us how he discovered his concern for the environment, why he decided to stop talking, and what he learned about the power of listening and observing in the process.
-      </Block>
       </Block>
     </Grid>
   </Block>
 </Section>
 <Import id="join-us" />
+  
