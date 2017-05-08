@@ -53,7 +53,7 @@ export class EventComponent extends Component {
       price: this.props.auth.me.attending17 === '1' ? 2900 : 5900,
       redirect: 'transferred',
     });
-    browserHistory.replace('/cart');
+    browserHistory.push('/cart');
   }
   claim = () => {
 
@@ -78,15 +78,19 @@ export class EventComponent extends Component {
       descr,
       hosts,
     } = E;
+
+    // LatLon for map with default set to PDX downtown
+    let map = {};
     let { lat, lon } = E;
     lat = lat > 0 ? lat : '45.523062';
     lon = lon > 0 ? lon : '-122.676482';
+
+
     const Me = new User(this.props.auth);
     const headcss = {};
-    const clip = angler('tr:0,18%');
-    headcss.clipPath = clip;
-    headcss.WebkitClipPath = clip;
-    let map = {};
+
+    // Variable states based on the user's relation
+    // to this event
     let count = num_rsvps + num_free;
     count = count > 1 ? count : 2;
     let buttonText = 'Attend this Academy';

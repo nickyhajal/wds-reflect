@@ -8,6 +8,11 @@ const Row = styled.div`
   padding: 8px 0;
   font-size: 19px;
   display: flex;
+  margin-top: 24px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
 `;
 const Content = styled.div`
   flex: 1;
