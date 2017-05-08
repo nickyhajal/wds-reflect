@@ -13,19 +13,7 @@
     **_Building a Better World_** is a new podcast that revisits talks from the main stage of the annual World Domination Summit to highlight ways that we can work together—through community, adventure, and service—to help others, live remarkable lives, and build the world we want to live in.  
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
-    </Section>
-    <Section color="sea">
-  <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## Get Me the Next Episode!
-  <font color="white">Click on the button below and have the latest episode delivered.</font>
- <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="white" fitToText>Subscribe!</Button> 
-  </Block>
- </Block>                                                             
-</Section>  
-  <Section
-  color="white"
->
+
  <Block margin="125px 0 50px 0">
     <Block cols="6">
       ## Episodes
@@ -49,10 +37,10 @@
     </Grid>
   </Block>
 </Section>
-    <Section color="sea">
+    <Section color="green">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## Get Me the Next Episode!
-  <font color="white">Click on the button below and have the latest episode delivered.</font>
+   ## Get Me the Latest Episode!
+  <font color="white">Click on the button below and have the next episode delivered to your inbox through the interwebs.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
    <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="white" fitToText>Subscribe!</Button> 
   </Block>
