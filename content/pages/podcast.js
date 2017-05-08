@@ -14,7 +14,7 @@
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
     </Section>
-    <Section color="blue">
+    <Section color="sea">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
    ## Get Me the Next Episode!
   <font color="white">Click on the button below and have the latest episode delivered.</font>
@@ -49,5 +49,14 @@
     </Grid>
   </Block>
 </Section>
+    <Section color="sea">
+  <Block cols="6" css={{ padding: '25px 0 20px' }}>
+   ## Get Me the Next Episode!
+  <font color="white">Click on the button below and have the latest episode delivered.</font>
+ <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
+   <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="white" fitToText>Subscribe!</Button> 
+  </Block>
+ </Block>                                                             
+</Section> 
 <Import id="join-us" />
   
