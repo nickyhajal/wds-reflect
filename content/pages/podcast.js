@@ -11,7 +11,7 @@
     ## Building a Better World
     How can we live a remarkable life in a conventional world? 
     **_Building a Better World_** is a new podcast that revisits talks from the main stage of the annual World Domination Summit to highlight ways that we can work together—through community, adventure, and service—to help others, live remarkable lives, and build the world we want to live in.  
-  <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
+  <Image src="photos/WDS.Podcast.jpg" width="100%" height="515" />
       </Block>
 
  <Block margin="125px 0 50px 0">
