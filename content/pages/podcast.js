@@ -36,6 +36,10 @@
         <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     </Block>
     </Grid>
   </Block>
+<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## More inspiration coming soon...
+    We'll continue to release more episodes so keep checking back or use the button below to subscribe to the podcast and get notified when the next one is available.  
+      </Block>
 </Section>
     <Section color="green">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
