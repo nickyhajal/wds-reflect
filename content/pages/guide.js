@@ -8,7 +8,7 @@
 >
   <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Ready? Set. Go! WDS 2017
+    ## Ready? Set. Go! The Attendee Guide to WDS 2017
     This July, you'll join over 1200+ invidividuals from over 30+ countries coming to Portland for our 7th gathering of the remarkable adventurers. This page is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2017 - **_you'll find it here!_**      
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
@@ -40,7 +40,7 @@
     <Section color="white">
 <Block margin="125px 0 50px 0">
     <Block cols="6">
-      ## You're Guide to WDS 2017
+      ## The Steps to WDS 2017
      </Block>
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -92,18 +92,5 @@
            <Button to="mailto:concierge@wds.fm" newWindow={true} styling="orange" fitToText>Email Concierge Team</Button> 
     </Block>
   </Block> 
-  <Grid margin="60px 0 20px 0">
-  ## Helpful Links
-    <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
-      ## Portland
-      Our home base since year one. Learn more about our beloved city and confirm whether or not all the fun things you've heard is true (they probably are).
-      <Button to="/location">Learn More</Button>
-    </Block>
-    <Block type="image" src="photos/JoinUs/image-academies.jpg" label="Coming Soon">
-      ## Academies
-      These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields.
-      <Button to="/academies">Learn More</Button>
-    </Block>
-  </Grid>
 </Section>
 <Import id="join-us" />
