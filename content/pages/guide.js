@@ -44,37 +44,37 @@
      </Block>
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 1: Understand the WDS Schedule of Events
+        ## Step 1: The WDS Schedule
         WDS is unique in that you create your own personalized schedule from the weeks events.      
           <Button to="https://madmimi.com/p/7db00a/" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 2: When to Arrive and Lodging Information
+        ## Step 2: Arrival and Lodging Info
         Love logistics and travel planning? Even if you don't this information will be helpful.
        <Button to="https://madmimi.com/p/4504d9/" newWindow={true} styling="blue" fitToText>Learn more</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 3: Register for Academies
+        ## Step 3: Academies
         Our super popular mini-events hosted by some of our favorite WDS community members are back for WDS 2017.
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
          <Block type="image-overlay" anchor="left" src="photos/wds.mobile.app.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 4: Download the Mobile App + Propose a Meetup
-        RSVP for activities. Check your personalized schedule. Message other attendees. The WDS app can do all of this and more. 
+        ## Step 4: Mobile App 
+        Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more...
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #5: RSVP for Meetups and Events
-        Using the online Hub or the mobile app, browse and RSVP for hundreds of WDS hosted activities and attendee-led meetups.
+        ## Step #5: Meetups and Activities
+        Propose to host a meetup or RSVP for hundreds of WDS hosted activities and attendee-led meetups.
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
         <Block type="image-overlay" anchor="left" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 6: Packing List + Tips for WDS
+        ## Step 6: Packing List 
         Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum? 
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>   
          <Block type="image-overlay" anchor="right" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #7: Check-in at WDS Registration
+        ## Step #7: Check-in Info
         WDS 2017 starts here. Learn what to do when you arrive to Portland.
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
