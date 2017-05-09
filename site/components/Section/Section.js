@@ -12,6 +12,7 @@ import colorize from '../../utils/colorize';
 import angler from '../../utils/angler';
 import actions from '../../actions';
 import is from '../../utils/is';
+import fillScreen from '../../utils/fillScreen';
 
 const LocationMap = withGoogleMap(props => {
   if (props.center.lat === undefined) return <div />;
@@ -135,9 +136,15 @@ const Section = props => {
     shellCss.paddingRight = '20px';
     shellCss.paddingLeft = '20px';
   }
+  const fullScreen = props.fillScreen ? 'fillScreen' : '';
+  if (fullScreen) {
+    setTimeout(() => {
+      fillScreen();
+    }, 100);
+  }
   return (
     <section
-      className={cx(props.className, `section-${props.color}`)}
+      className={cx(props.className, `section-${props.color}`, fullScreen)}
       styleName="shell"
       style={shellCss}
     >

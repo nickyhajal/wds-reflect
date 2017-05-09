@@ -3,6 +3,7 @@ import { gql } from 'react-apollo';
 export const Event = gql`
   query Event($slug: String!) {
     event(slug: $slug){
+      event_id
       format
       type
       who
@@ -57,4 +58,3 @@ export const Events = gql`
     }
   }
 `;
-

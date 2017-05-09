@@ -1,0 +1,167 @@
+@import 'vars';
+
+.shell {
+  h1 {
+    position: relative;
+    margin: 120px auto 60px;
+    font-size: 42px;
+    color: $white;
+    text-align: center;
+    font-family: VitesseBold;
+
+    @media(--tablet) {
+      width: 600px;
+
+      @media(--phone) {
+        font-size: 32px;
+        margin-top: 60px;
+        font-family: Vitesse;
+        width: 100%;
+      }
+    }
+  }
+  p {
+    font-size: 22px;
+    color: $white !important;
+    width: 500px;
+    margin: 0 auto 20px;
+    font-family: KarlaBold;
+  }
+  :global(.modal-section) {
+    position: relative;
+
+    @media(--tablet) {
+      width: 100%;
+      padding: 20px;
+
+      p {
+        width: 100%;
+      }
+    }
+
+    &:global(.cartSection) {
+      width: 650px;
+      margin: 0 auto;
+      @media(--tablet) {
+        width: 100%;
+      }
+
+      form {
+        width: 342px;
+        @media(--tablet) {
+          width: 100%;
+          :global(.form-row) {
+            width: 376px;
+            margin: 0 auto;
+          }
+        }
+        @media(--phone) {
+          :global(.form-row) {
+            width: 280px;
+            margin: 0 auto;
+          }
+          :global(.form-box) {
+          }
+        }
+
+        button {
+          margin: 0 auto 20px;
+        }
+      }
+    }
+    background: rgba(0, 0, 0, 0.05);
+    padding: 60px;
+  }
+
+  :global(.forgotPwLink) {
+    color: $white;
+    font-size: 18px;
+    font-family: Karla;
+    display: block;
+    margin-top: 10px;
+  }
+  :global(#checkoutForm) {
+    margin: 0 auto;
+
+    :global(.button) {
+      margin: 0 auto 20px;
+    }
+  }
+  form {
+    margin: 45px auto 0;
+
+    &:global(.loginForm), &:global(.resetForm) {
+      width: 300px;
+      @media(--tablet) {
+        width: 100%;
+      }
+    }
+    &:global(.signupForm) {
+      width: 420px;
+      @media(--tablet) {
+        width: 100%;
+      }
+    }
+    :global(.form-box) {
+      width: 300px;
+      @media(--tablet) {
+        width: 100%;
+      }
+
+      &:global(.form-cc-box) {
+        width: 342px;
+        @media(--phone) {
+          width: 280px;
+        }
+      }
+      &:global(.form-exp-box), &:global(.form-zip-box), &:global(.form-cvv-box) {
+        width: 166px;
+        @media(--phone) {
+          width: 129px;
+        }
+      }
+      &:global(.form-cvv-box), :global(.form-exp-box:last-child) {
+        margin-right: 0;
+      }
+    }
+
+    input {
+      background: transparent;
+      border: 2px solid $white;
+      padding: 14px 20px;
+      width: 100%;
+      color: $white;
+
+      &::placeholder {
+        color: $white;
+        opacity: 1;
+      }
+      &:placeholder {
+        color: $white;
+        opacity: 1;
+      }
+      &::-webkit-input-placeholder {
+        color: $white;
+        opacity: 1;
+      }
+    }
+    button {
+      background: $orange !important;
+    }
+  }
+
+  :global(.formBack) {
+    color: $white;
+    text-align: left;
+  }
+
+  :global(.signupSection .formBack) {
+    width: 420px;
+    margin: 0 auto;
+  }
+
+  label {
+    color: $white;
+    text-align: left;
+  }
+}

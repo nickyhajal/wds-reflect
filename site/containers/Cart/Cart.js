@@ -16,7 +16,6 @@ import Progress from '../../components/Progress/Progress';
 import C from '../../constants';
 
 class Cart extends React.Component {
-
   constructor() {
     super();
     autoBind(Object.getPrototypeOf(this));
@@ -55,7 +54,10 @@ class Cart extends React.Component {
       if (props.checkout.processStatus === 'done') {
         this.finished = true;
         this.props.act.updateCheckoutStatus('success');
-        if (this.props.checkout.redirect && this.props.checkout.redirect.length) {
+        if (
+          this.props.checkout.redirect &&
+          this.props.checkout.redirect.length
+        ) {
           browserHistory.replace(`/${this.props.checkout.redirect}`);
         }
         if (this.props.onSuccess) {
@@ -80,7 +82,7 @@ class Cart extends React.Component {
     } else if (id === 'quantity') {
       this.props.act.updateQuantity(t.value);
     } else {
-        this.setState(state);
+      this.setState(state);
     }
   }
 
@@ -142,33 +144,34 @@ class Cart extends React.Component {
           last_name: this.state.last_name,
           email: this.state.email,
         };
-        auth.createUser(pkg)
-        .then((raw) => {
-          const rsp = raw.data;
-          if (rsp.existing !== undefined) {
+        auth
+          .createUser(pkg)
+          .then(raw => {
+            const rsp = raw.data;
+            if (rsp.existing !== undefined) {
+              this.props.act.setCheckoutError(
+                <div>
+                  That email is already in our system.
+                  <a href="#">Click here to login</a>
+                </div>,
+              );
+            } else {
+              auth.getMe();
+              this.startCharge();
+            }
+          })
+          .catch(error => {
             this.props.act.setCheckoutError(
-              <div>
-                That email is already in our system.
-                <a href="#">Click here to login</a>
-              </div>
+              'Seems like there was a problem, can you try again?',
             );
-          } else {
-            auth.getMe();
-            this.startCharge();
-          }
-        }).catch((error) => {
-            this.props.act.setCheckoutError('Seems like there was a problem, can you try again?');
-        });
+          });
       }
     }
   }
 
   startCharge() {
     const checkout = this.props.checkout;
-    const pkg = _.assign({},
-      checkout.quantity,
-      { ...checkout.data },
-    );
+    const pkg = _.assign({}, checkout.quantity, { ...checkout.data });
     if (this.props.auth.useExistingCard) {
       this.processCharge(this.props.auth.card.hash, pkg);
     } else {
@@ -195,27 +198,32 @@ class Cart extends React.Component {
   }
 
   processCharge(token, pkg) {
-    auth.charge({ card_id: token, code: this.props.checkout.code, purchase_data: pkg })
-    .then((raw) => {
-      const rsp = raw.data;
-      if (rsp.fire !== undefined && rsp.fire.length) {
-        let code = this.props.checkout.code;
-        if (code === 'wds2017') {
-          code = 'sale_wave2_2017';
+    auth
+      .charge({
+        card_id: token,
+        code: this.props.checkout.code,
+        purchase_data: pkg,
+      })
+      .then(raw => {
+        const rsp = raw.data;
+        if (rsp.fire !== undefined && rsp.fire.length) {
+          let code = this.props.checkout.code;
+          if (code === 'wds2017') {
+            code = 'sale_wave2_2017';
+          }
+          this.props.act.startListeningToPurchase(rsp.fire, code);
         }
-        this.props.act.startListeningToPurchase(rsp.fire, code);
-      }
-      // if (rsp.declined !== undefined && rsp.declined) {
-      //   this.props.act.setCheckoutError(
-      //     'There was a problem with your card. Please check your details or try another one.'
-      //   );
-      // } else {
-      //   this.props.act.updateCheckoutStatus('success');
-      //   if (this.props.onSuccess) {
-      //     this.props.onSuccess();
-      //   }
-      // }
-    });
+        // if (rsp.declined !== undefined && rsp.declined) {
+        //   this.props.act.setCheckoutError(
+        //     'There was a problem with your card. Please check your details or try another one.'
+        //   );
+        // } else {
+        //   this.props.act.updateCheckoutStatus('success');
+        //   if (this.props.onSuccess) {
+        //     this.props.onSuccess();
+        //   }
+        // }
+      });
   }
 
   processCompleted() {
@@ -226,8 +234,7 @@ class Cart extends React.Component {
     if (status === 'done') {
       this.finish();
     }
-    if (this.steps[status] !== undefined
-    ) {
+    if (this.steps[status] !== undefined) {
       return this.steps[status];
     }
     return [20, 'Starting...'];
@@ -252,24 +259,24 @@ class Cart extends React.Component {
   renderUserInps() {
     if (!this.props.auth.me) {
       return (
-          <div>
-            <div className="form-row">
-              <div className="form-box">
-                <label>First Name</label>
-                <input type="text" name="first_name" onChange={this.change} />
-              </div>
-              <div className="form-box">
-                <label>Last Name</label>
-                <input type="text" name="last_name" onChange={this.change} />
-              </div>
+        <div>
+          <div className="form-row">
+            <div className="form-box">
+              <label>First Name</label>
+              <input type="text" name="first_name" onChange={this.change} />
             </div>
-            <div className="form-row">
-              <div className="form-box">
-                <label>E-Mail Address</label>
-                <input type="text" name="email" onChange={this.change} />
-               </div>
+            <div className="form-box">
+              <label>Last Name</label>
+              <input type="text" name="last_name" onChange={this.change} />
             </div>
           </div>
+          <div className="form-row">
+            <div className="form-box">
+              <label>E-Mail Address</label>
+              <input type="text" name="email" onChange={this.change} />
+            </div>
+          </div>
+        </div>
       );
     }
     return '';
@@ -281,11 +288,16 @@ class Cart extends React.Component {
     return (
       <div styleName="newShell">
         {this.renderError()}
-        { this.renderUserInps() }
+        {this.renderUserInps()}
         <div className="form-row">
           <div className="form-box form-cc-box">
             <label>Card Number</label>
-            <input type="text" data-stripe="number" value={cc.number} onChange={e => this.change.call(this, e.target, 'number', true)} />
+            <input
+              type="text"
+              data-stripe="number"
+              value={cc.number}
+              onChange={e => this.change.call(this, e.target, 'number', true)}
+            />
           </div>
         </div>
         <div className="form-row">
@@ -317,11 +329,23 @@ class Cart extends React.Component {
         <div className="form-row">
           <div className="form-box ccZip form-zip-box">
             <label>Billing Zip Code</label>
-            <input type="text" data-stripe="zip" styleName="zip" value={cc.zip} onChange={e => this.change.call(this, e.target, 'zip', true)} />
+            <input
+              type="text"
+              data-stripe="zip"
+              styleName="zip"
+              value={cc.zip}
+              onChange={e => this.change.call(this, e.target, 'zip', true)}
+            />
           </div>
           <div className="form-box ccCvv form-cvv-box">
             <label>CVV</label>
-            <input type="text" styleName="cvv" data-stripe="cvc" value={cc.cvv} onChange={e => this.change.call(this, e.target, 'cvv', true)} />
+            <input
+              type="text"
+              styleName="cvv"
+              data-stripe="cvc"
+              value={cc.cvv}
+              onChange={e => this.change.call(this, e.target, 'cvv', true)}
+            />
           </div>
         </div>
       </div>
@@ -341,7 +365,9 @@ class Cart extends React.Component {
       if (this.props.auth.useExistingCard) {
         str = 'Add New Card';
       }
-      return <a styleName="cardSwitcher" href="#" onClick={this.toggleCard}>{str}</a>;
+      return (
+        <a styleName="cardSwitcher" href="#" onClick={this.toggleCard}>{str}</a>
+      );
     }
     return '';
   }
@@ -353,7 +379,14 @@ class Cart extends React.Component {
       msg = (
         <div>
           <div>{msg}</div>
-          <div><Progress completed={completed[0]} status={completed[1]} format="short" width="325" /></div>
+          <div>
+            <Progress
+              completed={completed[0]}
+              status={completed[1]}
+              format="short"
+              width="325"
+            />
+          </div>
         </div>
       );
       return (
@@ -369,9 +402,7 @@ class Cart extends React.Component {
 
   renderError() {
     if (this.props.checkout.error) {
-      return (
-        <div styleName="error">{this.props.checkout.error}</div>
-      );
+      return <div styleName="error">{this.props.checkout.error}</div>;
     }
     return '';
   }
@@ -384,9 +415,8 @@ class Cart extends React.Component {
         label: `${this.props.checkout.allowedQuantity}`,
       });
     }
-    return (
-      options.length ? (
-        <div styleName="quantityBox">
+    return options.length
+      ? <div styleName="quantityBox">
           <label>Quantity</label>
           <Select
             onChange={e => this.change.call(this, e, 'quantity')}
@@ -397,13 +427,12 @@ class Cart extends React.Component {
             value={this.props.checkout.quantity}
           />
         </div>
-      ) : ''
-    );
+      : '';
   }
 
   render() {
     const q = this.props.checkout.quantity;
-    const cost = (this.props.checkout.price * q) / 100;
+    const cost = this.props.checkout.price * q / 100;
     const feeCost = this.props.checkout.fee * q;
     const hasDescr = this.props.checkout.description.length;
     const hasFee = feeCost > 0;
@@ -420,29 +449,49 @@ class Cart extends React.Component {
       display = 'none';
     }
     return (
-      <div className="modal-section cartSection" style={{ display }} >
+      <div className="cartSection" style={{ display }}>
         <div styleName="productRow">
-          {is.phone() ? (<div styleName="productName">{this.props.checkout.product}</div>) : ''}
-          { hasDescr && is.phone() ? <div styleName="productDescription">{this.props.checkout.description}</div> : '' }
+          {is.phone()
+            ? <div styleName="productName">{this.props.checkout.product}</div>
+            : ''}
+          {hasDescr && is.phone()
+            ? <div styleName="productDescription">
+                {this.props.checkout.description}
+              </div>
+            : ''}
           <div styleName="productMeta">
             <div styleName="priceBox">
               <div styleName="cost" style={priceStyles}>${cost}</div>
-              {feeCost ? <div styleName="feeCost">+${feeCost}.00 processing</div> : '' }
+              {feeCost
+                ? <div styleName="feeCost">+${feeCost}.00 processing</div>
+                : ''}
             </div>
             {this.renderQuantity}
           </div>
-          {is.phone() ? '' : (<div styleName="productName" style={titleStyles}>{this.props.checkout.product}</div>)}
-          {hasDescr && !is.phone() ? <div styleName="productDescription">{this.props.checkout.description}</div> : '' }
+          {is.phone()
+            ? ''
+            : <div styleName="productName" style={titleStyles}>
+                {this.props.checkout.product}
+              </div>}
+          {hasDescr && !is.phone()
+            ? <div styleName="productDescription">
+                {this.props.checkout.description}
+              </div>
+            : ''}
           <div className="clear" />
         </div>
         {this.renderCardButton()}
-        <form id="checkoutForm" onSubmit={this.purchase} styleName="checkoutForm">
+        <form
+          id="checkoutForm"
+          onSubmit={this.purchase}
+          styleName="checkoutForm"
+        >
           {this.renderAppropriate(btnStr, cost, feeCost)}
           <div className="form-row">
             <Button className="submit">Complete Purchase</Button>
           </div>
         </form>
-        { this.renderProcessing() }
+        {this.renderProcessing()}
       </div>
     );
   }
@@ -466,4 +515,6 @@ function mapDispatchToProps(dispatch) {
   return { act: bindActionCreators(actions, dispatch) };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(Cart, styles));
+export default connect(mapStateToProps, mapDispatchToProps)(
+  CSSModules(Cart, styles),
+);

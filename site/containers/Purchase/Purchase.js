@@ -17,7 +17,8 @@ import AskIfAttended from '../AskIfAttended/AskIfAttended';
 import SignUp from '../../components/SignUp/SignUp';
 import Login from '../../components/Login/Login';
 import ResetPass from '../../components/ResetPass/ResetPass';
-import Cart from '../TicketCart/Cart';
+import Cart from '../Cart/Cart';
+import fillScreen from '../../utils/fillScreen';
 
 export class Purchase extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ export class Purchase extends Component {
       page: 'ask',
     };
     this.gotCard = false;
+    this.processedHash = false;
     this.animated = '';
     this.pageData = {
       ask: [<AskIfAttended goTo={this.goTo} />, "Let's Get Started!", 'green'],
@@ -53,28 +55,29 @@ export class Purchase extends Component {
         'Step 1: Create Your Account',
         'green',
       ],
-      cart: [false, "Let's Do This!", 'green'],
+      cart: [false, "Let's Do This!", 'sea'],
     };
   }
   componentDidMount() {
-    this.fillScreen();
+    fillScreen();
     this.appropriateStart();
     this.getCard(this.props);
   }
   componentWillReceiveProps(props) {
-    if (window.location.hash !== undefined) {
+    if (window.location.hash !== undefined && !this.processedHash) {
+      this.processedHash = true;
       let hash = window.location.hash.replace('#', '');
       hash = hash.length ? hash : 'ask';
       if (hash !== this.state.hash) {
         this.goTo(hash);
       }
     }
-    this.fillScreen();
+    fillScreen();
     this.appropriateStart();
     this.getCard(props);
   }
   componentDidUpdate() {
-    this.fillScreen();
+    fillScreen();
     this.appropriateStart();
     this.getCard(this.props);
   }
@@ -92,33 +95,6 @@ export class Purchase extends Component {
     ) {
       this.setState({ page: 'cart' });
     }
-  }
-  purchaseSuccess() {
-    auth.getMe().then(() => {
-      this.goTo('claim');
-    });
-  }
-  fillScreen() {
-    const body = document.body;
-    const html = document.documentElement;
-    const $e = $('.fillScreen');
-    $e.css('min-height', '');
-    const height = Math.max(
-      body.scrollHeight,
-      body.offsetHeight,
-      html.clientHeight,
-      html.scrollHeight,
-      html.offsetHeight,
-    );
-    const scroll = Math.max(body.scrollHeight, html.clientHeight);
-    let bonus = 0;
-    if (scroll > html.clientHeight) {
-      bonus = 120;
-    }
-    if ($e.length) {
-      $e.css('min-height', `${height - $e.offset().top + bonus}px`);
-    }
-    $e.addClass('animated');
   }
   goTo(page) {
     if (page === 'claim') {
@@ -143,53 +119,52 @@ export class Purchase extends Component {
         this.animated = 'animated';
       }, 200);
       return (
-        <ReactCSSTransitionGroup
-          transitionName="tweet"
-          transitionAppear
-          transitionEnter
-          transitionAppearTimeout={500}
-          transitionEnterTimeout={500}
-          transitionLeaveTimeout={300}
+        <Section
+          key="purchsection"
+          color={page[2]}
+          styleName="shell"
+          className={`fillScreen ${this.animated}`}
         >
-          <Section
-            key="purchsection"
-            color={page[2]}
-            styleName="shell"
-            className={`fillScreen ${this.animated}`}
-          >
+          <Image
+            src="pattern/dot-cover.png"
+            width="100%"
+            height="90%"
+            css={{
+              position: 'absolute',
+              top: '40px',
+              left: '-280px',
+              zIndex: '-1',
+            }}
+            mobile={{ phone: { display: 'none' } }}
+          />
+          <Block align="center" textAlign="center">
             <Image
-              src="pattern/dot-cover.png"
-              width="100%"
-              height="90%"
-              css={{
-                position: 'absolute',
-                top: '40px',
-                left: '-280px',
-                zIndex: '-1',
-              }}
-              mobile={{ phone: { display: 'none' } }}
+              src="logo.png"
+              width="123"
+              height="26"
+              fit="contain"
+              margin="-104px auto 80px"
             />
-            <Block align="center" textAlign="center">
-              <Image
-                src="logo.png"
-                width="123"
-                height="26"
-                fit="contain"
-                margin="-104px auto 80px"
-              />
-            </Block>
-            <Block>
-              <h1>{page[1]}</h1>
-              {this.renderContent(page[0])}
-              <Cart
-                hidden={page[0]}
-                key="cart-129"
-                onSuccess={this.purchaseSuccess}
-              />
-              <div className="clear" />
-            </Block>
-          </Section>
-        </ReactCSSTransitionGroup>
+          </Block>
+          <Block>
+            <h1>{page[1]}</h1>
+            {this.renderContent(page[0])}
+            {page[0]
+              ? ''
+              : <Block
+                  width="768px"
+                  bleed={true}
+                  type="padded"
+                  background="green"
+                  textAlign="left"
+                  margin="60px 0 80px"
+                  clip="tr:0,1%;"
+                >
+                  <Cart hidden={page[0]} key="cart-129" />
+                </Block>}
+            <div className="clear" />
+          </Block>
+        </Section>
       );
     }
     return (

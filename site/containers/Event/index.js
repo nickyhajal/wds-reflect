@@ -36,7 +36,7 @@ const Side = styled.div`
 
 const Btn = styled(Button)`
   background: ${({ primary }) => (primary !== undefined && primary ? C.color.orange : C.color.canvas)};
-  color: ${({ primary }) => (primary !== undefined && primary ? C.color.canvas : C.color.orange) };
+  color: ${({ primary }) => (primary !== undefined && primary ? C.color.canvas : C.color.orange)};
   width: 100%;
   padding: 19px 16px 16px;
   font-size: 20px;
@@ -45,19 +45,18 @@ const Btn = styled(Button)`
 
 export class EventComponent extends Component {
   purchase = () => {
+    const purchData = { event_id: this.props.data.event.event_id };
     this.props.act.setProduct({
-      code: 'xfer',
+      code: 'academy',
       product: 'WDS Academy',
-      description: `Ticket for ${this.props.data.event.what}`,
-      data: _.defaults({ event: this.props.data.event }, {}),
+      description: `Ticket for ${_.truncate(this.props.data.event.what, 130)}`,
+      data: purchData,
       price: this.props.auth.me.attending17 === '1' ? 2900 : 5900,
-      redirect: 'transferred',
+      redirect: 'academy-purchased',
     });
-    browserHistory.push('/cart');
-  }
-  claim = () => {
-
-  }
+    browserHistory.push('/checkout');
+  };
+  claim = () => {};
   render() {
     const { data } = this.props;
     const E = new Event(data.event !== undefined ? data.event : {});
@@ -85,7 +84,6 @@ export class EventComponent extends Component {
     lat = lat > 0 ? lat : '45.523062';
     lon = lon > 0 ? lon : '-122.676482';
 
-
     const Me = new User(this.props.auth);
     const headcss = {};
 
@@ -97,14 +95,15 @@ export class EventComponent extends Component {
     let buttonClick = this.purchase;
     let buttonSubMsg = '';
     if (Me.isAttending(event_id)) {
-      buttonText = 'You\'ll be there!';
+      buttonText = "You'll be there!";
       buttonClick = () => {};
     } else if (Me.hasUnclaimedAcademy()) {
       if (num_free < free_max) {
         buttonText = 'Claim Free Academy';
         buttonClick = this.claim;
       } else {
-        buttonSubMsg = 'You have one free academy to claim, however this academy no longer has free spots available.';
+        buttonSubMsg =
+          'You have one free academy to claim, however this academy no longer has free spots available.';
       }
     }
     if (num_rsvps >= max) {
@@ -140,21 +139,25 @@ export class EventComponent extends Component {
               <div className="section">
                 <h3>{`Your Host${hosts.length > 1 ? 's' : ''}`}</h3>
                 {hosts.map(h => {
-                  return (<Host>
-                    <div className="name">
-                      <Avatar user={h.user_id} />
-                      <span>{`${h.first_name} ${h.last_name}`}</span>
-                    </div>
-                    <div className="about">
-                      <Markdown>{bios[h.user_id]}</Markdown>
-                    </div>
-                  </Host>
-                )})}
+                  return (
+                    <Host>
+                      <div className="name">
+                        <Avatar user={h.user_id} />
+                        <span>{`${h.first_name} ${h.last_name}`}</span>
+                      </div>
+                      <div className="about">
+                        <Markdown>{bios[h.user_id]}</Markdown>
+                      </div>
+                    </Host>
+                  );
+                })}
               </div>
             </Content>
             <Side>
               <Btn onClick={buttonClick} primary>{buttonText}</Btn>
-              {buttonSubMsg.length ? <div className="btnSubMsg">{buttonSubMsg}</div> : ''}
+              {buttonSubMsg.length
+                ? <div className="btnSubMsg">{buttonSubMsg}</div>
+                : ''}
               <Btn>{count} WDSers Attending</Btn>
             </Side>
           </Grid>

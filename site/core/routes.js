@@ -17,9 +17,10 @@ import YourSchedule from '../containers/Hub/YourSchedule/YourSchedule';
 import Events from '../containers/Hub/Events/Events';
 import EnsureLoggedIn from '../containers/EnsureLoggedIn/EnsureLoggedIn';
 import Event from '../containers/Event';
+import Purchase from '../containers/Purchase/Purchase';
 
 const routes = (
-  <Route path="/" component={App} >
+  <Route path="/" component={App}>
     <IndexRoute component={Pageloader} />
     <Route path="/main" component={Pageloader} />
     <Route path="/people" component={People} />
@@ -32,6 +33,7 @@ const routes = (
     <Route path="/meetup/:id" component={Event} />
     <Route path="/activity/:id" component={Event} />
     <Route path="/be-there" component={TicketPurchase} />
+    <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />
     <Route component={EnsureLoggedIn}>
       <Route path="/claim" component={Claim} />

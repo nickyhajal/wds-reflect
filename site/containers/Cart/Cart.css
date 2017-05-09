@@ -20,6 +20,8 @@
 
 .newShell {
   margin-top: 30px;
+  width: 347px;
+  margin: 60px auto;
 
   :global(.form-box) input {
     background: transparent;
@@ -175,7 +177,7 @@
   margin-top: -54px;
   margin-right: -57px;
   border-left: 2px solid #FFFFFF;
-  padding: 38px 20px 36px;
+  padding: 38px 20px 36px 11px;
 }
 
 .productRow :global(.Select) {

@@ -19,9 +19,7 @@ import styles from './styles.css';
 // import Dashboard from '~/containers/Dashboard';
 
 export class App extends Component {
-
-  static scrollTo() {
-  }
+  static scrollTo() {}
   constructor(props) {
     super(props);
     this.preloads = [];
@@ -33,7 +31,7 @@ export class App extends Component {
       this.forceUpdate();
     });
     if (vars.preloads !== undefined && vars.preloads.length) {
-      vars.preloads.forEach((v) => {
+      vars.preloads.forEach(v => {
         preloader(v);
       });
     }
@@ -43,10 +41,16 @@ export class App extends Component {
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.location !== this.props.location) {
-      if (nextProps.location.pathname.indexOf('welcome') > -1 && this.props.location.pathname.indexOf('claim') > -1) {
+      if (
+        nextProps.location.pathname.indexOf('welcome') > -1 &&
+        this.props.location.pathname.indexOf('claim') > -1
+      ) {
         $('body').addClass('start-transition transition-orange-to-blue');
       }
-      if (nextProps.location.pathname.indexOf('claim') > -1 && this.props.location.pathname.indexOf('be-there') > -1) {
+      if (
+        nextProps.location.pathname.indexOf('claim') > -1 &&
+        this.props.location.pathname.indexOf('be-there') > -1
+      ) {
         $('body').addClass('start-transition transition-green-to-orange');
       }
       this.props.act.openMenu(false);
@@ -78,7 +82,7 @@ export class App extends Component {
   pathHas(c) {
     const checks = _.isArray(c) ? c : [c];
     let found = false;
-    checks.forEach((v) => {
+    checks.forEach(v => {
       if (this.props.location.pathname.indexOf(v) > -1) {
         found = true;
       }
@@ -90,13 +94,15 @@ export class App extends Component {
     let nav = false;
     const subNavs = {
       hub: [
-        'communities', 'your-schedule', 'events', 'your-profile', 'settings',
+        'communities',
+        'your-schedule',
+        'events',
+        'your-profile',
+        'settings',
       ],
-      schedule: [
-        'schedule', 'speakers',
-      ],
+      schedule: ['schedule', 'speakers'],
     };
-    Object.keys(subNavs).forEach((parent) => {
+    Object.keys(subNavs).forEach(parent => {
       if (uri === parent || subNavs[parent].indexOf(uri) > -1) {
         nav = parent;
       }
@@ -127,9 +133,9 @@ export class App extends Component {
           subNav={subNav}
         />
         <main>
-          { this.props.children }
+          {this.props.children}
         </main>
-        <div styleName="footer">
+        <div styleName="footer" className="footer">
           <div styleName="links">
             <Link to="/faq">FAQ</Link>
             <Link to="/story">Our Story</Link>
@@ -145,7 +151,7 @@ export class App extends Component {
   renderFocusMode() {
     return (
       <main>
-        { this.props.children }
+        {this.props.children}
         <Modals />
       </main>
     );
@@ -153,7 +159,7 @@ export class App extends Component {
   renderSocialMode() {
     return (
       <main>
-        { this.props.children }
+        {this.props.children}
         <Modals />
       </main>
     );
@@ -171,7 +177,6 @@ function mapDispatchToProps(dispatch) {
   return { act: bindActionCreators(actions, dispatch) };
 }
 
-
 function mapStateToProps(state) {
   return {
     auth: state.auth.toJS(),
@@ -187,4 +192,6 @@ App.propTypes = {
   act: types.actions,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(App, styles));
+export default connect(mapStateToProps, mapDispatchToProps)(
+  CSSModules(App, styles),
+);
