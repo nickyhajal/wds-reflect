@@ -22,13 +22,13 @@
   <Block type="padded" cols="6" bleed={false} background="sea" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6"> 
     ## A Week of WDS: July 11th - 17th, 2017
 <font color="white">
-    - **Tuesday** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups
-    - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
+    <li><b>Tuesday</b> Small Group Activities and Attendee-Led Meetups</li>
+    <li><b>Wednesday</b> Academies, Small Group Activities and Attendee-Led Meetups</li>
+    <li><b>Thursday</b> Academies, Small Group Activities, and Attendee-Led Meetups</li>
     <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
     <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
-    - **Monday** Academies and Attendee-Led Meetups
+    <li><b>Monday</b> Academies and Attendee-Led Meetups</li>
       <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>
    </font>
   </Block>
