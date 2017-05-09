@@ -19,9 +19,9 @@
     mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
     preload
   />
-  <Block type="padded" cols="6" bleed={false} background="sea" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6"><span style="color:white">
+  <Block type="padded" cols="6" bleed={false} background="sea" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6"> 
     ## A Week of WDS: July 11th - 17th, 2017
-
+<font color="white">
     - **Tuesday** Small Group Activities and Attendee-Led Meetups
     - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
@@ -30,7 +30,7 @@
     <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
     - **Monday** Academies and Attendee-Led Meetups
       <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>
-   </span>
+   </font>
   </Block>
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
