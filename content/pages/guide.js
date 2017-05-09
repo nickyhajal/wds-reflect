@@ -33,10 +33,6 @@
   </Block>
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
-</Section>
-<Section
-  color="white"
->
 <Block margin="125px 0 50px 0">
     <Block cols="6">
       ## Steps to WDS 2017
