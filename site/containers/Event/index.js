@@ -77,10 +77,9 @@ export class EventComponent extends Component {
     if (this.state.claiming) {
       const me = _.assign({}, this.props.auth.me);
       const { event_id } = this.props.data.event;
-      console.log('claim');
       api('post event/claim-academy', { event_id }).then(() => {
         me.rsvps = [...me.rsvps, event_id];
-        console.log(me.rsvps);
+        me.academy = event_id;
         this.props.act.updateMe(me);
       });
     } else {
@@ -117,6 +116,7 @@ export class EventComponent extends Component {
     lat = lat > 0 ? lat : '45.523062';
     lon = lon > 0 ? lon : '-122.676482';
 
+    console.log(this.props.auth.me);
     const Me = new User(this.props.auth.me);
     const headcss = {};
 
