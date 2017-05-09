@@ -66,6 +66,10 @@
         </Block>
     </Grid>
   </Block>
+</Section>  
+<Section
+  color="white"
+>
   <Grid margin="60px 0 -20px 0">
   ## Helpful Links
     <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
