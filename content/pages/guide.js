@@ -43,7 +43,7 @@
       ## You're Guide to WDS 2017
      </Block>
       <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-speakers.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 1: Understand the WDS Schedule of Events
         WDS is unique in that you create your own personalized schedule from the weeks events.      
           <Button to="https://madmimi.com/p/7db00a/" newWindow={true} styling="orange" fitToText>Learn More</Button> 
@@ -63,7 +63,7 @@
         RSVP for activities. Check your personalized schedule. Message other attendees. The WDS app can do all of this and more. 
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
-        <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        <Block type="image-overlay" anchor="right" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #5: RSVP for Meetups and Events
         Using the online Hub or the mobile app, browse and RSVP for hundreds of WDS hosted activities and attendee-led meetups.
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
