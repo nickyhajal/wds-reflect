@@ -12,6 +12,10 @@
     This July, you'll join over 1200+ invidividuals from over 30+ countries coming to Portland for our 7th gathering of the remarkable adventurers. This page is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2017 - **_you'll find it here!_**      
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
+  </Section>        
+<Section
+  color="sea"
+>
   <Image src="photos/audience.png"
     width="426" height="263"
     margin="0 0 -100px -50px"
@@ -33,7 +37,7 @@
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
     </Section> 
-    <Section color="canvas">
+    <Section color="white">
 <Block margin="125px 0 50px 0">
     <Block cols="6">
       ## You're Guide to WDS 2017
@@ -59,17 +63,17 @@
         RSVP for activities. Check your personalized schedule. Message other attendees. The WDS app can do all of this and more. 
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
-        <Block type="image-overlay" anchor="right" src="photos/image-meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #5: RSVP for Meetups and Events
         Using the online Hub or the mobile app, browse and RSVP for hundreds of WDS hosted activities and attendee-led meetups.
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
-        <Block type="image-overlay" anchor="left" src="photos/wds.packing.list" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        <Block type="image-overlay" anchor="left" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 6: Packing List + Tips for WDS
         Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum? 
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>   
-         <Block type="image-overlay" anchor="right" src="photos/image-meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+         <Block type="image-overlay" anchor="right" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #7: Check-in at WDS Registration
         WDS 2017 starts here. Learn what to do when you arrive to Portland.
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
@@ -80,10 +84,6 @@
         </Block>
     </Grid>
   </Block> 
-  </Section>        
-<Section
-  color="white"
->
  <Block type="padded" background="sea">
     <Image src="icon/circle-map-green.png" width="101" height="78"  align="center" margin="0 0 40px 0" />
     <Block cols="5">
