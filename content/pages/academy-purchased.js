@@ -10,7 +10,7 @@
   >
     ## Academy Purchase Complete!
 
-    We're exciting you'll be joining us for a WDS Academy! You should receive an email shortly with all the details.
+    We're excited you'll be joining us for a WDS Academy! You should receive an email shortly with all the details.
 
     <Button to="/academies">Back to Academies</Button>
   </Block>
