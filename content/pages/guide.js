@@ -54,11 +54,12 @@
         John shares with us how he discovered his concern for the environment, why he decided to stop talking, and the power of listening and observing in the process.
         <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
-        <Block type="image-overlay" anchor="right" src="photos/wds.podcast.john.francis.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 4: Download the Mobile App + Submit a Meetup
-        John shares with us how he discovered his concern for the environment, why he decided to stop talking, and the power of listening and observing in the process.
-        <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
-        </Block>
+         <Block type="image-overlay" anchor="left" src="photos/wds.podcast.tess.vigeland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 4: Download the Mobile App + Propose a Meetup
+        At WDS 2013 Tess shared her heartfelt, soul-bearing experience about leaving a job with no plan b. 
+       <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
+        </Block>      
+        <Block type="image-overlay" anchor="right" src="photos/wds.podcast.john.francis.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #5: RSVP for Meetups and Events
         John shares with us how he discovered his concern for the environment, why he decided to stop talking, and the power of listening and observing in the process.
         <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
