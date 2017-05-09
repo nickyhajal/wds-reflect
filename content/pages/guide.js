@@ -49,8 +49,8 @@
           <Button to="https://madmimi.com/p/7db00a/" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 2: Arrival and Lodging Info
-        Love logistics and travel planning? Even if you don't this information will be helpful.
+        ## Step 2: Lodging Info
+        When should you arrive? Love logistics and travel planning? Even if you don't this information will be helpful.
        <Button to="https://madmimi.com/p/4504d9/" newWindow={true} styling="blue" fitToText>Learn more</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -64,23 +64,23 @@
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #5: Meetups and Activities
-        Propose to host a meetup or RSVP for hundreds of WDS hosted activities and attendee-led meetups.
+        ## Step #5: RSVP for Adventure
+        Propose to host a meetup or RSVP for hundreds of attendee-led meetups as well as some special WDS hosted activities.
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
         <Block type="image-overlay" anchor="left" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 6: Packing List 
-        Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum? 
+        Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum? We got you covered. 
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>   
          <Block type="image-overlay" anchor="right" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #7: Check-in Info
-        WDS 2017 starts here. Learn what to do when you arrive to Portland.
+        You're here - welcome to Portland! Learn what to do when you fist arrive to the city.  
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
           <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 8: Have an Amazing Experience
-        We can't to meet you. Let's do this!
+        Make new friends. Have new adventures. Learn something new. Go impact our world. Let's do this!
         </Block>
     </Grid>
   </Block> 
