@@ -28,11 +28,25 @@ import api from '../../utils/api';
 const Grid = styled.div`
   display: flex;
   margin-top: 40px;
+
+  @media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+    flex-direction: column;
+  }
+
 `;
 const Side = styled.div`
   min-height: 666px;
   width: 340px;
   padding: 16px;
+  @media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+    order: -1;
+    min-height: auto;
+    width: 100%;
+  }
 `;
 
 const Btn = styled(Button)`
@@ -116,7 +130,6 @@ export class EventComponent extends Component {
     lat = lat > 0 ? lat : '45.523062';
     lon = lon > 0 ? lon : '-122.676482';
 
-    console.log(this.props.auth.me);
     const Me = new User(this.props.auth.me);
     const headcss = {};
 
@@ -149,6 +162,7 @@ export class EventComponent extends Component {
       buttonText = 'This Academy is Full';
       buttonClick = () => {};
     }
+    console.log(is.phone());
     return (
       <div>
         <Section
