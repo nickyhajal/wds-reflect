@@ -30,5 +30,9 @@ There is no limit to how many Academies you can register for, but please note th
 If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**.
     </Block>
   <EventList year="17" type="academy" title="WDS 2017 Academies" />
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## More Academies Coming Soon! 
+We're knocking out the final details for a couple more exciting Academies so keep checking back for the most up-to-date schedule. 
+  </Block>
 </Section>
 <Import id="join-us" />
