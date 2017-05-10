@@ -31,7 +31,7 @@
 ### What is the refund/cancellation policy for WDS tickets?
     <p>All WDS tickets are <b>non-refundable.</b> Tickets can be transferred to another person for a fee up until June 10th.</p> 
 
-    ### How can I transfer a 360 ticket?
+    ### How can I transfer a WDS ticket?
     
     <p>Transfers and name changes are available for a $100 fee until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting <b>June 11th, 2017</b>, no further transfers or name changes will be possible.</p>
     
