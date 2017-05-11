@@ -23,7 +23,7 @@
 
 So, you want to apply to be a WDS 2017 Ambassador? Awesome! 
 
-Just fill out this brief form and tell us a little bit about yourself (please apply by May 10th).
+Just fill out this brief form and tell us a little bit about yourself (please apply by May 17th).
 ---
   </Block>
   <Block cols="6">
