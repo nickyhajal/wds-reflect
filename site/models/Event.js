@@ -2,6 +2,7 @@ import moment from 'moment';
 
 class Event {
   constructor({
+    event_id = '0',
     year = '2017',
     format = '',
     active = true,
@@ -16,7 +17,7 @@ class Event {
     num_free = 0,
     place = '',
     address = '',
-    bios = "{}",
+    bios = '{}',
     start = '',
     end = '',
     who = '⁛⁛⁛⁛⁛⁛⁛⁛⁛⁛⁛⁛⁛⁛ ⁛⁛⁛⁛⁛⁛⁛⁛ ⁛⁛⁛⁛ ⁛⁛⁛⁛⁛⁛⁛⁛',
@@ -27,8 +28,8 @@ class Event {
     ignored = false,
     outline = '',
     descr = '',
-
   }) {
+    this.event_id = event_id;
     this.who = who;
     this.what = what;
     this.type = type;
@@ -67,17 +68,19 @@ class Event {
   hostnames() {
     const hs = this.hosts;
     const length = hs.length;
-    return hs.map((h, i) => {
-      let pre = '';
-      if (i) {
-        if (i === length - 1) { 
-          pre = ' & ';
-        } else {
-          pre = ', ';
+    return hs
+      .map((h, i) => {
+        let pre = '';
+        if (i) {
+          if (i === length - 1) {
+            pre = ' & ';
+          } else {
+            pre = ', ';
+          }
         }
-      }
-      return `${pre}${h.first_name} ${h.last_name}`;
-    }).join('');
+        return `${pre}${h.first_name} ${h.last_name}`;
+      })
+      .join('');
   }
 }
 

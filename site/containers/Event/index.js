@@ -23,27 +23,57 @@ import C from '../../constants';
 import Content from './Content';
 import Host from './Host';
 import User from '../../models/User';
+import api from '../../utils/api';
 
 const Grid = styled.div`
   display: flex;
   margin-top: 40px;
+
+  @media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+    flex-direction: column;
+  }
+
 `;
 const Side = styled.div`
   min-height: 666px;
   width: 340px;
   padding: 16px;
+  @media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+    order: -1;
+    min-height: auto;
+    width: 100%;
+  }
 `;
 
 const Btn = styled(Button)`
   background: ${({ primary }) => (primary !== undefined && primary ? C.color.orange : C.color.canvas)};
-  color: ${({ primary }) => (primary !== undefined && primary ? C.color.canvas : C.color.orange)};
+  color: ${({ primary }) => (primary !== undefined && primary ? '#fff' : C.color.orange)};
   width: 100%;
   padding: 19px 16px 16px;
   font-size: 20px;
   margin-bottom: 16px
 `;
 
+const Sub = styled.div`
+  font-family: KarlaItalic;
+  color: #908a86;
+  font-size: 15px;
+  margin-top: -10px;
+  margin-bottom: 18px;
+`;
+
 export class EventComponent extends Component {
+  constructor() {
+    super();
+    this.state = {
+      claiming: false,
+    };
+    this.claimTimo = 0;
+  }
   purchase = () => {
     const purchData = { event_id: this.props.data.event.event_id };
     this.props.act.setProduct({
@@ -56,7 +86,23 @@ export class EventComponent extends Component {
     });
     browserHistory.push('/checkout');
   };
-  claim = () => {};
+  claim = () => {
+    clearTimeout(this.claimTimo);
+    if (this.state.claiming) {
+      const me = _.assign({}, this.props.auth.me);
+      const { event_id } = this.props.data.event;
+      api('post event/claim-academy', { event_id }).then(() => {
+        me.rsvps = [...me.rsvps, event_id];
+        me.academy = event_id;
+        this.props.act.updateMe(me);
+      });
+    } else {
+      this.setState({ claiming: true });
+      this.claimTimo = setTimeout(() => {
+        this.setState({ claiming: false });
+      }, 2000);
+    }
+  };
   render() {
     const { data } = this.props;
     const E = new Event(data.event !== undefined ? data.event : {});
@@ -84,7 +130,7 @@ export class EventComponent extends Component {
     lat = lat > 0 ? lat : '45.523062';
     lon = lon > 0 ? lon : '-122.676482';
 
-    const Me = new User(this.props.auth);
+    const Me = new User(this.props.auth.me);
     const headcss = {};
 
     // Variable states based on the user's relation
@@ -93,14 +139,20 @@ export class EventComponent extends Component {
     count = count > 1 ? count : 2;
     let buttonText = 'Attend this Academy';
     let buttonClick = this.purchase;
-    let buttonSubMsg = '';
+    let buttonSubMsg =
+      'Academies cost $29 for WDS Attendees but are available to those not attending WDS for $59. Academies are not transferable or refundable.';
     if (Me.isAttending(event_id)) {
       buttonText = "You'll be there!";
       buttonClick = () => {};
+      buttonSubMsg = '';
     } else if (Me.hasUnclaimedAcademy()) {
       if (num_free < free_max) {
-        buttonText = 'Claim Free Academy';
+        buttonText = this.state.claiming
+          ? 'Click Again to Confirm'
+          : 'Claim Free Academy';
         buttonClick = this.claim;
+        buttonSubMsg =
+          'WDS Attendees who pre-ordered their ticket can claim one free academy. Claiming is not reversable.';
       } else {
         buttonSubMsg =
           'You have one free academy to claim, however this academy no longer has free spots available.';
@@ -110,6 +162,7 @@ export class EventComponent extends Component {
       buttonText = 'This Academy is Full';
       buttonClick = () => {};
     }
+    console.log(is.phone());
     return (
       <div>
         <Section
@@ -155,9 +208,7 @@ export class EventComponent extends Component {
             </Content>
             <Side>
               <Btn onClick={buttonClick} primary>{buttonText}</Btn>
-              {buttonSubMsg.length
-                ? <div className="btnSubMsg">{buttonSubMsg}</div>
-                : ''}
+              {buttonSubMsg.length ? <Sub>{buttonSubMsg}</Sub> : ''}
               <Btn>{count} WDSers Attending</Btn>
             </Side>
           </Grid>

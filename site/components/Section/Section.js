@@ -42,12 +42,12 @@ const renderMap = ({ lat, lon }, ref, mapClip) => {
         onLoad={map => (ref = map)}
         containerElement={
           is.phone()
-            ? <div style={{ height: '220px', width: '260px' }} />
+            ? <div style={{ height: '220px', width: '100%' }} />
             : <div style={{ height: '300px', width: '100%' }} />
         }
         mapElement={
           is.phone()
-            ? <div style={{ height: '220px', width: '260px' }} />
+            ? <div style={{ height: '220px', width: '100%' }} />
             : <div style={{ height: '300px', width: '100%' }} />
         }
       />

@@ -328,7 +328,7 @@ class Cart extends React.Component {
         </div>
         <div className="form-row">
           <div className="form-box ccZip form-zip-box">
-            <label>Billing Zip Code</label>
+            <label>Zip Code</label>
             <input
               type="text"
               data-stripe="zip"

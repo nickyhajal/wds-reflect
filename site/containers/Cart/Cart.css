@@ -53,7 +53,7 @@
 .productMeta {
   @media(--phone) {
     width: 264px;
-    margin: -29px auto 152px;
+    margin: 30px auto 13px;
   }
 }
 
@@ -240,6 +240,10 @@
   .quantityBox label {
     margin-top:10px;
   }
+  .productDescription {
+    top: -6px;
+    margin-bottom: 15px;
+  }
   .priceBox {
         border: 0;
     padding: 5px 0px 5px;
@@ -265,12 +269,12 @@
 
   .cost {
     font-family: VitesseBold;
-    margin-top: 0px;
+    margin-top: -1px;
   }
 
   .checkoutForm :global(.form-box){
     width: 40%;
-    margin-right: 22px;
+    margin-right: 10px;
   }
   .checkoutForm input {
     width: 100%;
@@ -318,5 +322,14 @@
     padding-bottom: 40px;
     text-align: center;
     width: 100%;
+  }
+  .priceBox {
+        border: 0;
+    padding: 5px 0px 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -26px;
+    margin-bottom: 14px;
+    float: none;
   }
 }

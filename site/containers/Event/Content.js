@@ -4,6 +4,14 @@ export default styled.div`
   padding: 16px 96px 16px 16px;
   flex: 1;
 
+  @media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+    width: 100%;
+    flex: auto;
+    padding: 16px;
+  }
+
   h2 {
     font-family: Vitesse;
     font-size: 38px;

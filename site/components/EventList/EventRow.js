@@ -10,6 +10,17 @@ const Row = styled.div`
   display: flex;
   margin-top: 12px;
   align-items: flex-start;
+  @media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+    a.button {
+      padding: 10px 12px;
+      font-size: 14px;
+      order: -1;
+      margin-right: 20px;
+      width: 70px;
+    }
+  }
 `;
 const Content = styled.div`
   flex: 1;

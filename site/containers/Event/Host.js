@@ -3,11 +3,26 @@ import C from '../../constants';
 
 export default styled.div`
   display: flex;
+
+  @media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+    flex-direction: column;
+
+  }
+
   .name {
     width: 180px;
     text-align: center;
     font-family: Vitesse;
     color: ${C.color.orange};
+
+    @media 
+    (max-device-width: 800px) 
+    and (orientation: portrait) { 
+      width: 100%;
+      margin-bottom: 20px;
+    }
 
     .avatar {
       width: 80px;
