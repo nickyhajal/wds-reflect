@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export default styled.div`
   padding: 16px 96px 16px 16px;
   flex: 1;
-  @media 
 
+  @media 
   (max-device-width: 800px) 
   and (orientation: portrait) { 
     width: 100%;
