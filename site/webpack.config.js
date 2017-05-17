@@ -3,8 +3,11 @@ const webpack = require('webpack');
 const AssetsPlugin = require('assets-webpack-plugin');
 const pkg = require('./package.json');
 
-const isDebug = global.DEBUG === false ? false : !process.argv.includes('--release');
-const isVerbose = process.argv.includes('--verbose') || process.argv.includes('-v');
+const isDebug = global.DEBUG === false
+  ? false
+  : !process.argv.includes('--release');
+const isVerbose =
+  process.argv.includes('--verbose') || process.argv.includes('-v');
 const useHMR = !!global.HMR; // Hot Module Replacement (HMR)
 const babelConfig = Object.assign({}, pkg.babel, {
   babelrc: false,
@@ -14,14 +17,11 @@ const babelConfig = Object.assign({}, pkg.babel, {
 // Webpack configuration (main.js => public/dist/main.{hash}.js)
 // http://webpack.github.io/docs/configuration.html
 const config = {
-
   // The base directory for resolving the entry option
   context: __dirname,
 
   // The entry point for the bundle
-  entry: [
-    './main.js',
-  ],
+  entry: ['./main.js'],
 
   // Options affecting the output of the compilation
   output: {
@@ -111,7 +111,9 @@ const config = {
             sourceMap: isDebug,
             // CSS Modules https://github.com/css-modules/css-modules
             modules: true,
-            localIdentName: isDebug ? '[name]_[local]_[hash:base64:3]' : '[hash:base64:4]',
+            localIdentName: isDebug
+              ? '[name]_[local]_[hash:base64:3]'
+              : '[hash:base64:4]',
             // CSS Nano http://cssnano.co/options/
             minimize: !isDebug,
           })}`,
@@ -120,16 +122,12 @@ const config = {
       },
       {
         test: /\.json$/,
-        exclude: [
-          path.resolve(__dirname, './routes.json'),
-        ],
+        exclude: [path.resolve(__dirname, './routes.json')],
         loader: 'json-loader',
       },
       {
         test: /\.json$/,
-        include: [
-          path.resolve(__dirname, './routes.json'),
-        ],
+        include: [path.resolve(__dirname, './routes.json')],
         loaders: [
           `babel-loader?${JSON.stringify(babelConfig)}`,
           path.resolve(__dirname, './utils/routes-loader.js'),
@@ -200,25 +198,29 @@ const config = {
       require('autoprefixer')(),
     ];
   },
-
 };
 
 // Optimize the bundle in release (production) mode
 if (!isDebug) {
   config.plugins.push(new webpack.optimize.DedupePlugin());
-  config.plugins.push(new webpack.optimize.UglifyJsPlugin({
-    preserveComments: false,
-    compress: {
-      warnings: isVerbose,
-    },
-  }));
+  config.plugins.push(
+    new webpack.optimize.UglifyJsPlugin({
+      preserveComments: false,
+      compress: {
+        warnings: isVerbose,
+      },
+    }),
+  );
   config.plugins.push(new webpack.optimize.AggressiveMergingPlugin());
 }
 
 // Hot Module Replacement (HMR) + React Hot Reload
 if (isDebug && useHMR) {
   babelConfig.plugins.unshift('react-hot-loader/babel');
-  config.entry.unshift('react-hot-loader/patch', 'webpack-hot-middleware/client');
+  config.entry.unshift(
+    'react-hot-loader/patch',
+    'webpack-hot-middleware/client',
+  );
   config.plugins.push(new webpack.HotModuleReplacementPlugin());
   config.plugins.push(new webpack.NoErrorsPlugin());
 }

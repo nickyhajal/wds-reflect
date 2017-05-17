@@ -83,6 +83,7 @@ export class EventComponent extends Component {
       data: purchData,
       price: this.props.auth.me !== undefined &&
         this.props.auth.me.attending17 !== undefined &&
+        this.props.auth.me.attending17 &&
         this.props.auth.me.attending17.toString() === '1'
         ? 2900
         : 5900,
