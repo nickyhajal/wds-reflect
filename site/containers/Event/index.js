@@ -81,7 +81,10 @@ export class EventComponent extends Component {
       product: 'WDS Academy',
       description: `Ticket for ${_.truncate(this.props.data.event.what, 130)}`,
       data: purchData,
-      price: this.props.auth.me.attending17.toString() === '1' ? 2900 : 5900,
+      price: this.props.auth.me !== undefined &&
+        this.props.auth.me.attending17.toString() === '1'
+        ? 2900
+        : 5900,
       redirect: 'academy-purchased',
     });
     browserHistory.push('/checkout');
