@@ -17,7 +17,6 @@ import FormRow from '../FormRow/FormRow';
 import FormWrap from '../FormWrap/FormWrap';
 
 class Transfer extends React.Component {
-
   static propTypes = {
     title: types.stringOrBool,
     act: types.actions,
@@ -46,7 +45,7 @@ class Transfer extends React.Component {
       product: 'WDS Ticket Transfer',
       description: `Transfer to ${firstName} ${lastName}`,
       data: _.defaults(elm.state.form, { country: 'US' }),
-      price: 10000,
+      price: 20000,
       redirect: 'transferred',
     });
     browserHistory.replace('/cart');
@@ -68,34 +67,35 @@ class Transfer extends React.Component {
     }
     return (
       <div className="modal-section" styleName="shell">
-        {this.props.title ? (<h2>{this.props.title}</h2>) : ''}
+        {this.props.title ? <h2>{this.props.title}</h2> : ''}
         {this.props.children}
-        <Form onSubmit={this.doTransfer} className="loginForm" styleName="form" buttonStart="Continue">
-          <h3>New Attendee&apos;s Contact Info</h3>
+        <Form
+          onSubmit={this.doTransfer}
+          className="loginForm"
+          styleName="form"
+          buttonStart="Continue"
+        >
+          <h3>New Attendee's Contact Info</h3>
           <FormRow>
-            <FormWrap style={{ float: 'left', width: '48%', marginRight: '4%' }}>
-                <label>Their First Name</label>
-                <Input
-                  type="text"
-                  id="first_name" onChange={this.change}
-                />
+            <FormWrap
+              style={{ float: 'left', width: '48%', marginRight: '4%' }}
+            >
+              <label>Their First Name</label>
+              <Input type="text" id="first_name" onChange={this.change} />
             </FormWrap>
             <FormWrap style={{ float: 'left', width: '48%' }}>
               <label>Their Last Name</label>
-              <Input
-                type="text"
-                id="last_name" onChange={this.change}
-              />
+              <Input type="text" id="last_name" onChange={this.change} />
             </FormWrap>
           </FormRow>
           <FormRow>
             <FormWrap style={{ float: 'left', width: '48%' }}>
-            <label>Their E-Mail</label>
-            <Input type="text" id="email" onChange={this.change} />
+              <label>Their E-Mail</label>
+              <Input type="text" id="email" onChange={this.change} />
             </FormWrap>
           </FormRow>
           <div className="clear" />
-          <h3>New Attendee&apos;s Address</h3>
+          <h3>New Attendee's Address</h3>
           <Address />
         </Form>
       </div>
@@ -113,4 +113,6 @@ function mapDispatchToProps(dispatch) {
   return { act: bindActionCreators(actions, dispatch) };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(cssmodules(Transfer, styles));
+export default connect(mapStateToProps, mapDispatchToProps)(
+  cssmodules(Transfer, styles)
+);
