@@ -59,13 +59,7 @@ class Event {
 
   dateStr() {
     if (this.start.length && this.end.length) {
-      return `${moment(this.start)
-        .tz('America/Los_Angeles')
-        .format(
-          'MMMM Do YYYY [from] h:mm a'
-        )} until ${moment(this.end)
-        .tz('America/Los_Angeles')
-        .format('h:mm a')}`;
+      return `${moment(this.start).format('MMMM Do YYYY [from] h:mm a')} until ${moment(this.end).format('h:mm a')}`;
       // return `${moment(this.start).format('MMMM Do')} - Start time TBD`;
     }
     return '⁛⁛⁛⁛⁛ ⁛⁛⁛⁛ ⁛⁛⁛⁛⁛ ⁛⁛:⁛⁛ ⁛⁛⁛⁛⁛⁛⁛';
