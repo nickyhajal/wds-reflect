@@ -44,8 +44,8 @@ const Btn = styled(Button)`
 export class EventComponent extends Component {
   lastDay: '';
   eventRow(event, Me) {
-    const start = moment(event.start);
-    const day = start.format('MMMM Do');
+    const ev = new Event(event);
+    const day = ev.start.format('MMMM Do');
     if (this.lastDay !== day) {
       const style = this.lastDay === '' ? { marginTop: '0' } : {};
       this.lastDay = day;
@@ -93,7 +93,7 @@ function mapStateToProps(state) {
   };
 }
 
-Event.propTypes = {
+EventComponent.propTypes = {
   children: types.children,
   app: types.app,
   location: types.location,
