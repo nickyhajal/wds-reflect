@@ -50,9 +50,11 @@ class Event {
     this.address = address;
     this.bios = JSON.parse(bios);
     console.log(start);
-    this.start = moment(start).tz('America/Los_Angeles');
+    this.start = moment(start.toUTC())
+      .tz('America/Los_Angeles')
+      .add('7', 'hours');
     window.start = this.start;
-    this.end = moment(end).tz('America/Los_Angeles');
+    this.end = moment(end.toUTC()).tz('America/Los_Angeles').add('7', 'hours');
     this.for_type = for_type;
     this.ignored = ignored;
     this.outline = outline;
