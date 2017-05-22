@@ -49,7 +49,9 @@ class Event {
     this.place = place;
     this.address = address;
     this.bios = JSON.parse(bios);
+    console.log(start);
     this.start = moment(start).tz('America/Los_Angeles');
+    window.start = this.start;
     this.end = moment(end).tz('America/Los_Angeles');
     this.for_type = for_type;
     this.ignored = ignored;
@@ -59,7 +61,7 @@ class Event {
   }
 
   dateStr() {
-    if (this.start && this.end) {
+    if (this.start.isValid() && this.end) {
       return `${moment(this.start).format('MMMM Do YYYY [from] h:mma')} until ${moment(this.end).format('h:mma')}`;
       // return `${moment(this.start).format('MMMM Do')} - Start time TBD`;
     }
