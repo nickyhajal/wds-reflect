@@ -1,4 +1,5 @@
 import moment from 'moment';
+import 'moment-timezone';
 
 class Event {
   constructor({
@@ -48,8 +49,8 @@ class Event {
     this.place = place;
     this.address = address;
     this.bios = JSON.parse(bios);
-    this.start = start;
-    this.end = end;
+    this.start = moment(start).tz('America/Los_Angeles');
+    this.end = moment(end).tz('America/Los_Angeles');
     this.for_type = for_type;
     this.ignored = ignored;
     this.outline = outline;
@@ -58,8 +59,8 @@ class Event {
   }
 
   dateStr() {
-    if (this.start.length && this.end.length) {
-      return `${moment(this.start).format('MMMM Do YYYY [from] h:mm a')} until ${moment(this.end).format('h:mm a')}`;
+    if (this.start && this.end) {
+      return `${moment(this.start).format('MMMM Do YYYY [from] h:mma')} until ${moment(this.end).format('h:mma')}`;
       // return `${moment(this.start).format('MMMM Do')} - Start time TBD`;
     }
     return '⁛⁛⁛⁛⁛ ⁛⁛⁛⁛ ⁛⁛⁛⁛⁛ ⁛⁛:⁛⁛ ⁛⁛⁛⁛⁛⁛⁛';

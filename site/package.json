@@ -65,6 +65,7 @@
     "lodash": "^4.16.6",
     "markdown-react-js": "^0.3.0",
     "moment": "^2.15.2",
+    "moment-timezone": "^0.5.13",
     "pad-left": "^2.1.0",
     "provinces": "^1.9.0",
     "react": "^15.3.2",

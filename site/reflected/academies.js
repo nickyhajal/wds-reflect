@@ -36,37 +36,31 @@ import Cart from '../../site/containers/Cart/Cart';
 >
   <Image src="heading/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    At a WDS Academy, you might learn how to travel hack your way to the dream trip you&apos;ve always wanted to take, discover the science behind happiness, or begin building greater community. Academies are half-day workshops where you can learn something new that will help you to live your *own* remarkable life story. We bring in top experts from the WDS community to share their knowledge and teach practical skills. The line up always includes a variety of topics, from business to personal development to building tiny houses. It's a great way to lead into the main events of the WDS weekend and keep the conversations going after.{'\n'}
+    ## WDS Academies are back in 2017! {'\n'}
+At a WDS Academy, you might learn how to travel hack your way to a life-changing travel experience, master the art of telling compelling stories, or develop a winning branding strategy for your business. {'\n'}
+You'll have the opportunity to learn something new to help live your _own_ remarkable life story. It's a great way to lead into the main events of the WDS weekend and keep the conversations going afterward.{'\n'}
+  This short video shows more of what it's all about:{'\n'}
   </Block>
-  <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" />
-  <Block cols="6" css={{ padding: '50px 0 20px' }}>
-    Academies are the only WDS activity that are also open to the general public, so bring your friends! Tickets are sold a la carte, with special discounts and early access given to WDS ticket holders. {'\n'}
-   ## Awesome Past Academies{'\n'}
-   A snippet of some of our most popular Academies from previous years:{'\n'}
-  </Block>
-  <Grid numCols="2" textAlign="left" className="block-content-white">
-    <Block type="padded" background="sea" clip="tl:0,2%" css={{ color: 'white' }}  textAlign="left">
-    ## Pro-Blogger Academy{'\n'}
-    How to level up your blogging game with Darren Rowse and friends{'\n'}
+<Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
+  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## The Details {'\n'}
+Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.{'\n'}
+
+- **WDS Attendees:** $29 per Academy{'\n'}
+- **General Public:** $59 per Academy{'\n'}
+
+(Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection){'\n'}
+                                                                                                                                              
+Each Academy has a limited number of free "Insider Access" seats only available to early-bird alumni ticket holders (folks who purchased at WDS last August). Early-bird ticket holders can only claim **one** of these seats and they are available on a first-come, first-serve basis. If you have access to one of these seats, [log-in to your WDS account](http://worlddominationsummit.com/login) and when you register for your first Academy you'll see it as an option on each Academy page.{'\n'}
+
+There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. No physical ticket or confirmation will be required upon check-in, just a valid photo ID. Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.{'\n'}
+
+If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**.{'\n'}
     </Block>
-    <Block type="padded" background="orange" clip="tl:0,2%" css={{ color: 'white' }}>
-    ## Launchpad to the World{'\n'}
-    How to travel hack and use miles and points to achieve your travel dreams with Stephanie Zito{'\n'}
-    </Block>
-    <Block type="padded" background="green" clip="tl:0,2%" css={{ color: 'white' }}>
-    ## Rejection Academy{'\n'}
-    How to overcome fear of failure and turn rejection into opportunities with Jia Jiang{'\n'}
-    </Block>
-    <Block type="padded" background="blue" clip="tl:0,2%" css={{ color: 'white' }}>
-    ## The Science of Happiness{'\n'}
-    Proven strategies to live happier with Vanessa Van Edwards{'\n'}
-    </Block>
-  </Grid>
-</Section>
-<Section color="green">
-  <Block cols="6" css={{ padding: '20px 0 20px' }}>
-    ## Academies will return for WDS 2017 with more amazing topics and Academy leaders!{'\n'}
-    The list of WDS 2017 Academies will be made available spring 2017 so stay tuned!{'\n'}
+  <EventList year="17" type="academy" title="WDS 2017 Academies" />
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## More Academies Coming Soon! {'\n'}
+We're knocking out the final details for a couple more exciting Academies so keep checking back for the most up-to-date schedule. {'\n'}
   </Block>
 </Section>
 <Section color="orange">
