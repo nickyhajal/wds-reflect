@@ -23,7 +23,7 @@
       <Block type="image-overlay" anchor="right" src="photos/wds.podcast.jonathan.fields.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Episode 1: Jonathan Fields
        In this recent keynote, Jonathan looked back at all the interviews he’s done to find a common thread for living a good life. He calls them: The Five BEs     
-          <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Download Episode 1</Button> 
+          <Button to="https://itunes.apple.com/us/podcast/episode-1-jonathan-fields/id1234631797?i=1000385529394&mt=2" newWindow={true} styling="blue" fitToText>Download Episode 1</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/wds.podcast.tess.vigeland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Episode 2: Tess Vigeland
@@ -46,7 +46,7 @@
    ## Get Me the Latest Episode!
   <font color="white">Click on the button below and have the next episode delivered to your inbox through the interwebs.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="white" fitToText>Subscribe!</Button> 
+   <Button to="https://itunes.apple.com/us/podcast/building-a-better-world/id1234631797?mt=2" newWindow={true} styling="white" fitToText>Subscribe!</Button> 
   </Block>
  </Block>                                                             
 </Section> 
