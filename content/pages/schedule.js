@@ -19,7 +19,7 @@
     - **Tuesday** Small Group Activities and Attendee-Led Meetups
     - **Wednesday** Small Group Activities and Attendee-Led Meetups
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
-    <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
+    <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
     <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
     - **Monday** Academies and Attendee-Led Meetups
