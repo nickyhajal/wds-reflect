@@ -140,7 +140,7 @@ export class EventComponent extends Component {
 
     // Variable states based on the user's relation
     // to this event
-    let count = num_rsvps + num_free;
+    let count = num_rsvps;
     count = count > 1 ? count : 2;
     let buttonText = 'Attend this Academy';
     let buttonClick = this.purchase;
