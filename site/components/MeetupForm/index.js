@@ -187,9 +187,9 @@ export class MeetupForm extends Component {
     const optional = ['venue_note'];
     const params = this.params;
     const req = _.without(Object.keys(params), optional);
+    console.log(req);
     const missing = req.reduce((result, i) => {
       if (this.state[i] === undefined || this.state[i].toString().length < 1) {
-        console.log(i);
         result.push(this.params[i]);
       }
       return result;

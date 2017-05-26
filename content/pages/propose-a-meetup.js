@@ -21,10 +21,16 @@
 
     Here are the goals of meetups:
 
-    - Help each other in our pursuits to live remarkable lives
-    - Learn and discover
-    - Make new connections within the WDS community
-    - Do something fun and memorable together
+    <table className="time-table">
+      <tbody>
+        <tr>
+          <td>Help each other in our pursuits to live remarkable lives</td>
+        </tr>
+        <tr><td>Learn and discover</td></tr>
+        <tr><td>Make new connections within the WDS community</td></tr>
+        <tr><td>Do something fun and memorable together</td></tr>
+      </tbody>
+    </table>
 
     As an attendee, you have the opportunity to host meetups, attend meetups, or do both using our online system and mobile app.
 
@@ -64,6 +70,14 @@
     </div>
     Once your proposal is accepted, it will be listed in our official directory of WDS meetups and made available to all the attendees once the WDS App goes live.
     {' '}
+
+    ## Meetup Proposal Form
+    {' '}
+    Use the form below to tell us about your awesome event.
+    {' '}
+    **Please note that if your meetup is approved, we will use the information from this form to display your meetup in our system (unless otherwise noted).**
+    {' '}
+    Think about what will best communicate your meetup idea to other attendees, and why it will be attractive and interesting.
     <MeetupForm />
   </Block>
 </Section>;
