@@ -22,6 +22,7 @@ import ResetPass from '../components/ResetPass/ResetPass';
 import EventList from '../components/EventList';
 import is from '../utils/is';
 import Cart from '../../site/containers/Cart/Cart';
+import MeetupForm from '../../site/components/MeetupForm';
 
   
   const Page = (props) => (
@@ -59,8 +60,7 @@ If you have any questions or need any assistance, please contact our concierge t
     </Block>
   <EventList year="17" type="academy" title="WDS 2017 Academies" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## More Academies Coming Soon! {'\n'}
-We're knocking out the final details for a couple more exciting Academies so keep checking back for the most up-to-date schedule. {'\n'}
+We're knocking out the final details for these exciting Academies so keep checking back for the most up-to-date information. {'\n'}
   </Block>
 </Section>
 <Section color="orange">

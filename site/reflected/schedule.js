@@ -22,6 +22,7 @@ import ResetPass from '../components/ResetPass/ResetPass';
 import EventList from '../components/EventList';
 import is from '../utils/is';
 import Cart from '../../site/containers/Cart/Cart';
+import MeetupForm from '../../site/components/MeetupForm';
 
   
   const Page = (props) => (
@@ -45,9 +46,9 @@ import Cart from '../../site/containers/Cart/Cart';
     ## A Week of WDS: July 11th - 17th, 2017{'\n'}
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups{'\n'}
-    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups{'\n'}
+    - **Wednesday** Small Group Activities and Attendee-Led Meetups{'\n'}
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups{'\n'}
-    <li><b className="highlight highlight-2">Friday</b> Big Adventure, Academies, Opening Party</li>
+    <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
     <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
     - **Monday** Academies and Attendee-Led Meetups{'\n'}

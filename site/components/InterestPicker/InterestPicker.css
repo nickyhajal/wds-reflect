@@ -4,6 +4,15 @@
   width: 700px;
   margin-left: -165px;
 
+  &:global(.onWhite) {
+
+    button {
+      background: #eeefe9;
+      border: 0;
+      padding: 12px;
+    }
+  }
+
   @media(--phone) {
     width: 100%;
     margin-left: 0;
@@ -37,6 +46,14 @@
 }
 
 :global(.block-color-white) .interests {
+
+  &:global(.onWhite) {
+    width: 100%;
+
+    .all {
+      margin-top: 10px;
+    }
+  }
   width: 600px;
   margin: 0 auto 30px;
 

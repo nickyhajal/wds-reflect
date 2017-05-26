@@ -5,12 +5,11 @@ const Pageloader = () => {
   let page = 'home';
   const uri = window.location.pathname.substr(1);
 
-
   if (uri.length) {
     if (uri.indexOf('~') === 0) {
       page = 'profile';
     } else {
-      page = uri.replace('-', '__');
+      page = uri.replace(/-/g, '__');
       if (pages[page] === undefined) {
         page = 'page404';
       }
