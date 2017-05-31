@@ -39,16 +39,16 @@
 
     <table className="time-table">
       <tbody>
-        <tr><td>Tuesday, August 9th</td><td>Any time</td></tr>
-        <tr><td>Wednesday, August 10th</td><td>Any time</td></tr>
-        <tr><td>Thursday, August 11th</td><td>Any time</td></tr>
-        <tr><td>Friday, August 12th</td><td>Before 8am, 4:30pm-6pm</td></tr>
+        <tr><td>Tuesday, July 11th</td><td>Any time</td></tr>
+        <tr><td>Wednesday, July 12th</td><td>Any time</td></tr>
+        <tr><td>Thursday, July 13th</td><td>Any time</td></tr>
+        <tr><td>Friday, July 14th</td><td>Before 8am, 4:30pm-6pm</td></tr>
         <tr>
-          <td>Saturday, August 13th</td>
+          <td>Saturday, July 15th</td>
           <td>Before 8am, 1pm - 3pm, any time after 7pm</td>
         </tr>
-        <tr><td>Sunday, August 14th</td><td>Before 8am, 1pm - 3pm</td></tr>
-        <tr><td>Monday, August 15th</td><td>Any time</td></tr>
+        <tr><td>Sunday, July 16th</td><td>Before 8am, 1pm - 3pm</td></tr>
+        <tr><td>Monday, July 17th</td><td>Any time</td></tr>
       </tbody>
     </table>
 
