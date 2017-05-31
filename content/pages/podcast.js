@@ -28,12 +28,12 @@
         <Block type="image-overlay" anchor="left" src="photos/wds.podcast.tess.vigeland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Episode 2: Tess Vigeland
         At WDS 2013 Tess shared her heartfelt, soul-bearing experience about leaving a job with no plan b. 
-       <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
+       <Button to="https://www.youtube.com/watch?v=VcjzHMhBtf0" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/wds.podcast.john.francis.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Episode #3: John Francis
         John shares with us how he discovered his concern for the environment, why he decided to stop talking, and the power of listening and observing in the process.
-        <Button to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     </Block>
+        <Button to="https://www.youtube.com/watch?v=VcjzHMhBtf0" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     </Block>
     </Grid>
   </Block>
 <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
