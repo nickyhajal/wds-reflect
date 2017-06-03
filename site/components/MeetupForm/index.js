@@ -205,7 +205,7 @@ export class MeetupForm extends Component {
     const { missing } = this.state;
     if (missing.length) {
       errors.push(
-        `Looks like your meetup is missing ${join(missing, ', ', ' & ')}`
+        `Looks like your meetup is missing ${join(missing, ', ', ' & ')}`,
       );
     }
     if (errors.length) {
@@ -243,6 +243,7 @@ export class MeetupForm extends Component {
             <Select
               onChange={e => this.change.call(this, e, 'format')}
               options={[
+                { value: 'service', label: 'Service (Contribute Together)' },
                 { value: 'discover', label: 'Discover (Class/Workshop)' },
                 { value: 'network', label: 'Network (Hangout/Collaborate)' },
                 {
