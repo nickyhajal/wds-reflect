@@ -45,7 +45,7 @@
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 1: The WDS Schedule
-        WDS is unique in that you create your own personalized schedule from the weeks events. [>>Learn More](https://madmimi.com/p/7db00a/)     
+        WDS is unique in that you create your own personalized schedule from the weeks events. [>> Learn More](https://madmimi.com/p/7db00a/)     
           <Button to="https://madmimi.com/p/7db00a/" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -56,30 +56,35 @@
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Academies
         Our super popular mini-events hosted by some of our favorite WDS community members are back for WDS 2017.
-        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
+        <Button to="https://worlddominationsummit.com/academies" newWindow={true} styling="blue" fitToText>Register</Button>     
         </Block>
-         <Block type="image-overlay" anchor="left" src="photos/wds.mobile.app.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 4: Mobile App 
-        Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more...
+         <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 4: Host a Meetup 
+        Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by [proposing a meetup.](https://worlddominationsummit.com/propose-a-meetup)  
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
-        <Block type="image-overlay" anchor="right" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #5: RSVP for Adventure
-        Propose to host a meetup or RSVP for hundreds of attendee-led meetups as well as some special WDS hosted activities.
+       <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 5: Mobile App 
+        Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more (coming soon).
+       <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
+        </Block>      
+        <Block type="image-overlay" anchor="left" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        ## Step #6: RSVP for Activities
+        Browse and RSVP for special WDS hosted activities and over 100+ meetups using the Hub or App (coming soon).
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
-        <Block type="image-overlay" anchor="left" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 6: Packing List 
-        Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum? We got you covered. 
+        <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 7: Packing List 
+        Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum? (coming soon). 
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>   
-         <Block type="image-overlay" anchor="right" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #7: Check-in Info
-        You're here - welcome to Portland! Learn what to do when you fist arrive to the city.  
+         <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        ## Step #8: Check-in Info
+        You're here - welcome to Portland! Learn what to do when you arrive to Portland (coming soon).  
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
-          <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 8: Have an Amazing Experience
+          <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 9: Have an Amazing Experience
         Make new friends. Have new adventures. Learn something new. Go impact our world. Let's do this!
         </Block>
     </Grid>
