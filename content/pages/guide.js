@@ -45,12 +45,12 @@
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 1: The WDS Schedule
-        WDS is unique in that you create your own personalized schedule from the weeks events.      
+        WDS is unique in that you create your own personalized schedule from the weeks events. [>>Learn More](https://madmimi.com/p/7db00a/)     
           <Button to="https://madmimi.com/p/7db00a/" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Lodging Info
-        When should you arrive? Love logistics and travel planning? Even if you don't this information will be helpful.
+        When should you arrive? Love logistics and travel planning? Even if you don't [this information will be helpful.](https://madmimi.com/p/4504d9)
        <Button to="https://madmimi.com/p/4504d9/" newWindow={true} styling="blue" fitToText>Learn more</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
