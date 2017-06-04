@@ -1,6 +1,6 @@
 <Section
   headerClip="br:0%,-10%;"
-  headerImage="https://farm9.staticflickr.com/8736/28873959882_9941ade8df_k_d.jpg"
+  headerImage="https://farm9.staticflickr.com/8622/28311810263_3748576387_k_d.jpg"
   color="canvas"
 >
   <Block
