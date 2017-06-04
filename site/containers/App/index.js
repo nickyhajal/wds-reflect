@@ -94,6 +94,7 @@ export class App extends Component {
     let nav = false;
     const subNavs = {
       hub: [
+        'guide',
         'communities',
         'your-schedule',
         'events',
