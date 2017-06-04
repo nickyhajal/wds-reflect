@@ -55,12 +55,12 @@
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Academies
-        Alumni speakers and other special guests share their knowledge and experience in half-day workshops.[>> Register Today!](https://worlddominationsummit.com/academies)
+        Alumni speakers and other special guests share their knowledge and experience in half-day workshops. [>> Register Today!](https://worlddominationsummit.com/academies)
         <Button to="https://worlddominationsummit.com/academies" newWindow={true} styling="blue" fitToText>Register</Button>     
         </Block>
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 4: Host a Meetup 
-        Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
+        Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup (coming soon).
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
        <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
