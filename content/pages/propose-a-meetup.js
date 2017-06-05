@@ -65,7 +65,7 @@
     </div>
     <div style={{ padding: '0 32px' }}>
       <p>
-        2. Complete the form below with the details on what you have planned. We'll review your proposal and get back to you shortly. <i>For the best experience, please use a computer or tablet to fill out this form.</i>
+        2. Complete the form below with the details on what you have planned. We'll review your proposal and get back to you shortly.  
       </p>
     </div>
     Once your proposal is accepted, it will be listed in our official directory of WDS meetups and made available to all the attendees once the WDS App goes live.
@@ -73,7 +73,7 @@
 
     ## Meetup Proposal Form
     {' '}
-    Use the form below to tell us about your awesome event.
+    Use the form below to tell us about your awesome event. **For the best experience, please submit your information using a computer or tablet.**
     {' '}
     **Please note that if your meetup is approved, we will use the information from this form to display your meetup in our system (unless otherwise noted).**
     {' '}
