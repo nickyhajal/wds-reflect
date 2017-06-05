@@ -95,9 +95,9 @@
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
       ## Hotel Modera
       A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. 
-      <p><i>Book online using the group code <b>"WDS2017"</b> or call 877.484.1084. Be sure to tell them you're with WDS.</i></p> 
+      <p><i>Discounts for the Hotel Modera are now closed. Please consider the other options.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/T3BnDWTY9oq">(Google Directions)</Link></p> 
-<Button to="https://gc.synxis.com/rez.aspx?Chain=5173&Hotel=53439&group=WDS2017" newWindow={true}>Book Online</Button>    
+<Button to="https://gc.synxis.com/rez.aspx?Chain=5173&Hotel=53439&group=WDS2017" newWindow={true}>Closed</Button>    
 </Block>
   <Block type="image" src="photos/hilton.png">
       ## Hilton Portland
