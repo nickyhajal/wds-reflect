@@ -57,10 +57,10 @@
 
     <div style={{ padding: '0 32px' }}>
       <p>
-        1. Before you propose a meetup, use this information to help you organize a successful event: WDS Meetup Guidelines - Create the Best Meetup Ever!!!
+        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://s3.amazonaws.com/el-files-wds/docs/WDS+2017+Meetup+Guide.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
       </p>
       <p>
-        (Helpful hint: The chances of your meetup getting approved goes up astronomically if you read and use this document)
+        (Helpful hint: The chances of your meetup getting approved goes up <i><b>astronomically</b></i> if you read and use this document)
       </p>
     </div>
     <div style={{ padding: '0 32px' }}>
