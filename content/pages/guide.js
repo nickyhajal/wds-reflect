@@ -50,7 +50,7 @@
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Lodging Info
-        When should you arrive? Love logistics and travel planning? Even if you don't [this information will be helpful.](https://madmimi.com/p/9cae3a/
+        When should you arrive? Love logistics and travel planning? Even if you don't [this information will be helpful.](https://madmimi.com/p/9cae3a/)
        <Button to="https://madmimi.com/p/9cae3a/" newWindow={true} styling="blue" fitToText>Learn more</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
