@@ -18,6 +18,7 @@ import Events from '../containers/Hub/Events/Events';
 import EnsureLoggedIn from '../containers/EnsureLoggedIn/EnsureLoggedIn';
 import Event from '../containers/Event';
 import Purchase from '../containers/Purchase/Purchase';
+import HashLogin from '../containers/HashLogin';
 
 const routes = (
   <Route path="/" component={App}>
@@ -27,6 +28,9 @@ const routes = (
     <Route path="/person/:id" component={Person} />
     <Route path="/claim/:id" component={Claim} />
     <Route path="/reset/:id" component={Reset} />
+    <Route path="/propose-a-meetup/:id" component={HashLogin} />
+    <Route path="/academies/:id" component={HashLogin} />
+    <Route path="/transfer/:id" component={HashLogin} />
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
