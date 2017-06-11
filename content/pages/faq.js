@@ -29,7 +29,7 @@
 <p><b>Please Note: Tickets for WDS 2017 have sold out!</b> There's a chance that a ticket might exist in the wild. If you need help tracking one down, please contact our concierge team at and they'll do their best to assist you: <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> </p>
     
 ### What is the refund/cancellation policy for WDS tickets?
-    <p>All WDS tickets are <b>non-refundable.</b> Tickets can be transferred to another person for a fee up until June 10th.</p> 
+    <p>All WDS tickets are <b>non-refundable.</b> Tickets can be transferred to another person for a fee up until June 10th. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p> 
 
     ### How can I transfer a WDS ticket?
     

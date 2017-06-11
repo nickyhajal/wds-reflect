@@ -1,6 +1,6 @@
 <Section
   headerClip="br:0%,-10%;"
-  headerImage="https://farm9.staticflickr.com/8736/28873959882_9941ade8df_k_d.jpg"
+  headerImage="photos/propose-a-meetup.jpg"
   color="canvas"
 >
   <Block
@@ -57,15 +57,15 @@
 
     <div style={{ padding: '0 32px' }}>
       <p>
-        1. Before you propose a meetup, use this information to help you organize a successful event: WDS Meetup Guidelines - Create the Best Meetup Ever!!!
+        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://s3.amazonaws.com/el-files-wds/docs/WDS+2017+Meetup+Guide.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
       </p>
       <p>
-        (Helpful hint: The chances of your meetup getting approved goes up astronomically if you read and use this document)
+        (Helpful hint: The chances of your meetup getting approved goes up <i><b>astronomically</b></i> if you read and use this document)
       </p>
     </div>
     <div style={{ padding: '0 32px' }}>
       <p>
-        2. Complete the form below with the details on what you have planned. We'll review your proposal and get back to you shortly.
+        2. Complete the form below with the details on what you have planned. We'll review your proposal and get back to you shortly.  
       </p>
     </div>
     Once your proposal is accepted, it will be listed in our official directory of WDS meetups and made available to all the attendees once the WDS App goes live.
@@ -73,7 +73,7 @@
 
     ## Meetup Proposal Form
     {' '}
-    Use the form below to tell us about your awesome event.
+    Use the form below to tell us about your awesome event. **For the best experience, please submit your information using a computer or tablet.**
     {' '}
     **Please note that if your meetup is approved, we will use the information from this form to display your meetup in our system (unless otherwise noted).**
     {' '}

@@ -516,7 +516,7 @@ export class MeetupForm extends Component {
               Refer to the
               {' '}
               <a
-                href="https://api.worlddominationsummit.com/files/WDS%202016%20Attendee%20Meetup%20Guidelines.pdf"
+                href="https://s3.amazonaws.com/el-files-wds/docs/WDS+2017+Meetup+Guide.pdf"
                 target="_blank"
               >
                 WDS Meetup Guidelines
