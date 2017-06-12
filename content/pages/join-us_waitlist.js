@@ -1,5 +1,5 @@
 <Section
-  headerImage=""photos/WDS-Collage.jpg""
+  headerImage="photos/WDS-Collage.jpg"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
