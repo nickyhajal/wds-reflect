@@ -87,6 +87,16 @@
       <p>Although he mostly writes about language learning, his background is in electronic engineering and he applies this engineering mindset to his business, his language learning projects and his lifestyle. He is a passionate "imperfectionist" and loves learning new things that involve pushing his limits, and finding the right balance between insane random experimental wonder and strict scientific logic. Imagine Jack Sparrow meets Spock with an Irish accent!</p>
       </Block>
     </Tab>
+ <Tab title="Jolie Guillebeau">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Jolie.Guillebeau.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Jolie Guillebeau
+
+        **Jolie Guillebeau** is an artist, teacher, and perpetual learner. She recently completed an M.A. in Art Therapy Counseling and is beginning a new career understanding and serving people impacted with developmental trauma. 
+      
+         A founding team member of WDS, she serves as President of the WDS Foundation, Team Fixer, and our longstanding Voice of Reason. She also makes magical ice cream sundaes and can quote every lyric from Lin-Manuel Miranda's Hamilton.
+      </Block>
+    </Tab>
      <Tab title="Emilie Wapnick">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/emiliewapnick_wds.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
