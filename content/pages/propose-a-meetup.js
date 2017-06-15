@@ -42,7 +42,7 @@
         <tr><td>Tuesday, July 11th</td><td>Any time</td></tr>
         <tr><td>Wednesday, July 12th</td><td>Any time</td></tr>
         <tr><td>Thursday, July 13th</td><td>Any time</td></tr>
-        <tr><td>Friday, July 14th</td><td>Before 8am, 4:30pm-6pm</td></tr>
+        <tr><td>Friday, July 14th</td><td>Any time before 4pm </td></tr>
         <tr>
           <td>Saturday, July 15th</td>
           <td>Before 8am, 1pm - 3pm, any time after 7pm</td>
