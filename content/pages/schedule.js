@@ -97,14 +97,14 @@
          A founding team member of WDS, she serves as President of the WDS Foundation, Team Fixer, and our longstanding Voice of Reason. She also makes magical ice cream sundaes and can quote every lyric from Lin-Manuel Miranda's Hamilton.
       </Block>
     </Tab>
-     <Tab title="Emilie Wapnick">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/emiliewapnick_wds.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+     <Tab title="Firuzeh Mahmoudi">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Firuzeh.Mahmoudi.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Emilie Wapnick
+        ## Firuzeh Mahmoudi
 
-        <p>Emilie Wapnick is a writer, career coach, blogger, and community leader. She is the founder and creative director at <Link to="http://puttylike.com/">Puttylike.com</Link>, where she helps multipotentialites (people with many passions and creative pursuits) integrate all of their interests to create dynamic, fulfilling, and fruitful careers and lives.</p> 
+        **Firuzeh Mahmoudi** is the Director of United for Iran, a Bay Area NGO working to improve civil liberties in Iran. After witnessing the 2009 uprising in Iran, Mahmoudi organized a global rally in 110 cities. The day turned to be the largest day of global support for Iran in history. Shortly after, Mahmoudi started United for Iran. Seven years later, United for Iran works to improve the capacity of civil society and improve human rights conditions — all through the use of technology.
 
-        <p>Emilie's <Link to="http://www.ted.com/talks/emilie_wapnick_why_some_of_us_don_t_have_one_true_calling">TED talk</Link> has been viewed over 3.5 million times, and has been translated into 36 languages. She's been featured in <i>Fast Company</i>, <i>Forbes</i>, <i>Financial Times</i>, <i>Huffington Post</i>, and <i>Lifehacker</i>. Her book, <i><Link to="http://howtobeeverything.com/">How to Be Everything</Link></i> comes out with HarperCollins in May.</p>  
+        From 2005 to 2009, Mahmoudi was the international coordinator of a $13 million United Nations project aiming to demonstrate best environmental health practices in the global south. Previous to that, Mahmoudi served as the international co-coordinator of the environmental health coalition Health Care Without Harm, supporting communities in dozens of countries as they advocated for environmental justice and health. 
       </Block>
     </Tab>
   </Tabs>
