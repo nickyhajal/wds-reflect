@@ -34,7 +34,7 @@
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are the confirmed speakers so far for WDS 2017 with more being announced each month.  
   </Block>
   <Tabs style="dots">
-    <Tab title="Shaun King">
+    <Tab title="Shaun">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Shaun.King.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
         ## Shaun King 
@@ -42,7 +42,7 @@
 <p>When it comes to the Black Lives Matter movement, they’re talking specifically about human dignity for African Americans. And for this movement, Shaun is amongst the most compelling voices: a humane and passionate advocate for justice and families, and an extremely visible fundraiser for victims of brutality and discrimination. His latest project is the <Link to="http://www.injusticeboycott.com/">Injustice Boycott.</Link></p>
       </Block>
     </Tab>
-    <Tab title="Vanessa Van Edwards">
+    <Tab title="Vanessa">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Vanessa Van Edwards
@@ -50,7 +50,7 @@
 <p>Vanessa is fascinated by body language, leadership and charisma and writes about these topics for CNN, <i>Fast Company</i> and <i>Forbes</i>. She also writes a monthly column for <i>Entrepreneur Magazine</i> and the <i>Huffington Post</i>. Her innovative work has been featured on NPR, <i>Business Week</i> and <i>USA Today</i>. More importantly she's addicted to sour patch kids, airplane coffee and puppies. Vanessa's new book, <i><Link to="http://www.scienceofpeople.com/captivate/">Captivate</Link></i>, launches this April.</p>
       </Block>
     </Tab>
-    <Tab title="Rich Roll">
+    <Tab title="Rich">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/rich.roll.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Rich Roll 
@@ -58,7 +58,7 @@
        <p>After a struggle with alcoholism and 20 year respite from competitive sports, Rich adopted a plant-based diet, shed 50 pounds and launched a middle-aged assault on the Ultraman World Championships, one of the most daunting endurance races on in the world. His inspirational memoir <i><Link to="http://www.richroll.com/shop/books/finding-ultra-signed/">Finding Ultra</Link></i> is a #1 bestseller on Amazon and he also hosts the popular, Rich Roll Podcast. Learn more about Rich's story at <Link to="http://www.richroll.com/">www.RichRoll.com.</Link></p>
       </Block>
     </Tab>
-        <Tab title="Scott Harrison">
+        <Tab title="Scott">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Scott.Harrison.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Scott Harrison
@@ -69,7 +69,7 @@
         
       </Block>
     </Tab>
-         <Tab title="Mohammed Faris">
+         <Tab title="Mohammed">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/mohammed.faris.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Mohammed Faris
@@ -77,7 +77,7 @@
         <p>Mohammed has delivered talks and trainings at numerous events and seminars across the world. He's also been featured in international media and on the TEDx stage. In 2014, the Royal Islamic Strategic Studies Centre added him to the World’s 500 Most Influential Muslims list</p>  
       </Block>
     </Tab>
-        <Tab title="Benny Lewis">
+        <Tab title="Benny">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/benny.lewis.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Benny Lewis
@@ -87,7 +87,7 @@
       <p>Although he mostly writes about language learning, his background is in electronic engineering and he applies this engineering mindset to his business, his language learning projects and his lifestyle. He is a passionate "imperfectionist" and loves learning new things that involve pushing his limits, and finding the right balance between insane random experimental wonder and strict scientific logic. Imagine Jack Sparrow meets Spock with an Irish accent!</p>
       </Block>
     </Tab>
- <Tab title="Jolie Guillebeau">
+ <Tab title="Jolie">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Jolie.Guillebeau.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Jolie Guillebeau
@@ -97,7 +97,7 @@
          A founding team member of WDS, she serves as President of the WDS Foundation, Team Fixer, and our longstanding Voice of Reason. She also makes magical ice cream sundaes and can quote every lyric from Lin-Manuel Miranda's Hamilton.
       </Block>
     </Tab>
-     <Tab title="Firuzeh Mahmoudi">
+     <Tab title="Firuzeh">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Firuzeh.Mahmoudi.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Firuzeh Mahmoudi
@@ -105,6 +105,28 @@
         **Firuzeh Mahmoudi** is the Director of United for Iran, a Bay Area NGO working to improve civil liberties in Iran. After witnessing the 2009 uprising in Iran, Mahmoudi organized a global rally in 110 cities. The day turned to be the largest day of global support for Iran in history. Shortly after, Mahmoudi started United for Iran. Seven years later, United for Iran works to improve the capacity of civil society and improve human rights conditions — all through the use of technology.
 
         From 2005 to 2009, Mahmoudi was the international coordinator of a $13 million United Nations project aiming to demonstrate best environmental health practices in the global south. Previous to that, Mahmoudi served as the international co-coordinator of the environmental health coalition Health Care Without Harm, supporting communities in dozens of countries as they advocated for environmental justice and health. 
+      </Block>
+    </Tab>
+<Tab title="Agapi">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Agapi.Stassinopoulos.WDS.2017.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Agapi Stassinopoulos
+
+        **Agapi Stassinopoulos** is a best-selling author and speaker who inspires audiences around the world. In her previous book, _Unbinding the Heart: A Dose of Greek Wisdom, Generosity, and Unconditional Love_, she shares the wisdom from her life’s adventures and experiences. In her new book, _Wake Up to the Joy of You: 52 Meditations and Practices for a Calmer, Happier Life,_ she takes readers on a journey and inspires them to let go of what doesn’t work and instead create the lives they really want. 
+
+        She is currently conducting workshops for Thrive Global, a company founded by her sister, Arianna Huffington, to help change the way we work and live. Agapi has spoken and conducted meditations at many corporations including PepsiCo, Google, Nike and Starbucks. She divides her time between New York and Los Angeles and was born and raised in Athens, Greece. 
+ 
+        To learn more about Agapi and her work visit [wakeuptothejoyofyou.com](http://www.wakeuptothejoyofyou.com).
+      </Block>
+    </Tab>
+<Tab title="Charles">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Charles.Hunt.WDS.2017.speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Charles Hunt
+
+        **Charles Hunt** is a resilience expert, adjunct professor, speaker and trainer.  Adept at leveraging transparency to inspire and get results, this former college recruiting, talent management, diversity and supply chain leader left the corporate world to fulfill his vision of building unbreakable spirits and cultivating resiliency for those who like him, have [The Audacity](http://www.audacityfirm.com/) to succeed despite adversity. 
+
+        With a mantra of “you’re as resilient as you THINK you are”, he helps students, young professionals, business and thought leaders build resilience while harnessing our most important resource in resilience…our minds. Charles’ TEDx Talk ["What Trauma Taught Me About Resilience"](https://www.youtube.com/watch?v=3qELiw_1Ddg&feature=youtu.be) has attracted international acclaim. A lover of hip-hop, Charles is a firm believer that there’s a Jay-Z lyric for every situation and finds joy in weaving lines into everyday conversation! 
       </Block>
     </Tab>
   </Tabs>
