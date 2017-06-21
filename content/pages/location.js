@@ -97,14 +97,14 @@
       A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. 
       <p><i>Discounts for the Hotel Modera are now closed. Please consider the other options.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/T3BnDWTY9oq">(Google Directions)</Link></p> 
-<Button to="https://gc.synxis.com/rez.aspx?Chain=5173&Hotel=53439&group=WDS2017" newWindow={true}>Closed</Button>    
+<Button to="" newWindow={true}>Closed</Button>    
 </Block>
   <Block type="image" src="photos/hilton.png">
       ## Hilton Portland
       The modern Hilton Portland & Executive Tower is conveniently located in the heart of downtown next to great restaurants and venues. The Hilton Portland comprises of two buildings: the landmark Hilton Portland and the upscale Executive Tower with spacious guest rooms and executive level amenities.     
   <p><i>Book online using the button below. No special code is required.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/UYkeGdPMfqJ2">(Google Directions)</Link></p> 
-<Button to="https://aws.passkey.com/e/49095475" newWindow={true}>Book Online</Button>    
+<Button to="" newWindow={true}>Closed</Button>    
 </Block>
  <Block type="image" src="photos/Jupiter-Hotel-exterior.jpg">
       ## Jupiter Hotel
