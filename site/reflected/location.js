@@ -110,7 +110,7 @@ import MeetupForm from '../../site/components/MeetupForm';
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. {'\n'}
        <p><i>Registration is only available for 4-night packages and through WDS.</i></p> 
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
-      <Button to="https://worlddominationsummit.com/location" newWindow={true}>SOLD OUT!</Button>
+      <Button to="https://worlddominationsummit.com/hotel" newWindow={true}>SOLD OUT!</Button>
     </Block>
     <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel {'\n'}
@@ -122,9 +122,9 @@ import MeetupForm from '../../site/components/MeetupForm';
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
       ## Hotel Modera{'\n'}
       A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. {'\n'}
-      <p><i>Book online using the group code <b>"WDS2017"</b> or call 877.484.1084. Be sure to tell them you're with WDS.</i></p> 
+      <p><i>Discounts for the Hotel Modera are now closed. Please consider the other options.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/T3BnDWTY9oq">(Google Directions)</Link></p> 
-<Button to="https://gc.synxis.com/rez.aspx?Chain=5173&Hotel=53439&group=WDS2017" newWindow={true}>Book Online</Button>    
+<Button to="https://gc.synxis.com/rez.aspx?Chain=5173&Hotel=53439&group=WDS2017" newWindow={true}>Closed</Button>    
 </Block>
   <Block type="image" src="photos/hilton.png">
       ## Hilton Portland{'\n'}
