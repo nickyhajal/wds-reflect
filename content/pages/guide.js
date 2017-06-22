@@ -60,8 +60,8 @@
         </Block>
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 4: Host a Meetup 
-        Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup (coming soon).
-       <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
+        Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
+       <Button to="https://worlddominationsummit.com/propose-a-meetup" newWindow={true} styling="blue" fitToText>Propose a Meetup</Button>
         </Block>      
        <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 5: Mobile App 

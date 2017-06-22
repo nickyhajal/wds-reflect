@@ -1,5 +1,5 @@
 <Section
-  headerImage="hero/joinus.jpg"
+  headerImage="photos/WDS-collage-new.jpg"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
@@ -19,7 +19,7 @@
     
     We’re doing it again in 2017, and all that’s missing is YOU!
       
-    All tickets cost $647 and are sold on a first-come, first-served basis.
+    <p><b>**PLEASE NOTE: Tickets for 2017 have sold out! To be notified when tickets go back on sale for 2018 use the button below:**</b></p> 
     
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>
   </Block>

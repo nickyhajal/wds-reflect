@@ -121,6 +121,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
       WDS is now a week-long gathering bringing together some of the most remarkable people from around the world. This means we have all-new activities and mini-events to create even more incredible memories together.
       From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted a wonderfully immersive experience. 
       Join your fellow attendees at your choice of extracurricular activities around town—from film screenings and river cruises, to world record attempts and more!
+        We will be closing Main Street between Broadway and Park, Saturday and Sunday between 8:00am and 6:30pm. This event will benefit the World Domination Summit Foundation and is free and open to the public. Feel free to stop by during this time.
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>

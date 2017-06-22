@@ -20,8 +20,6 @@
     We’re doing it again in 2017, and all that’s missing is YOU!
       
     <p>All tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
-     
-     <p><b>**The final ticket sale for WDS 2017 is now live! Get your ticket(s) before they sell out.**</b></p> 
     
     <Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
 

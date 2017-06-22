@@ -26,7 +26,7 @@
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
-<p><b>Please Note: Tickets for WDS 2017 have sold out!</b> There's a chance that a ticket might exist in the wild. If you need help tracking one down, please contact our concierge team at and they'll do their best to assist you: <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> </p>
+<p><b>Please Note: Tickets for WDS 2017 have sold out!</b> Sign-up to be notified when tickets go on sale for <Link to="https://worlddominationsummit.com/join-us_waitlist">WDS 2018 here</Link>.</p>
     
 ### What is the refund/cancellation policy for WDS tickets?
     <p>All WDS tickets are <b>non-refundable.</b> Tickets can be transferred to another person for a fee up until June 10th. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p> 
@@ -35,9 +35,7 @@
     
     <p>Transfers and name changes are available for a $100 fee until May 10th (60 days prior to WDS) and a $200 fee from May 11th until June 10th (30 days prior to WDS). Starting <b>June 11th, 2017</b>, no further transfers or name changes will be possible.</p>
     
-    <p>You will need the name, email address, and mailing address of the new ticket holder. After entering that information and paying the transfer fee your ticket will be officially transferred to the new person.</p>
-
-     <p>Ticket holders can transfer their ticket by contacting our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for their unique transfer link.</p>
+    <p><b>Please Note: the ability to transfer a ticket has closed for WDS 2017 tickets</b></p>
        
     ### Still have additional questions?
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
