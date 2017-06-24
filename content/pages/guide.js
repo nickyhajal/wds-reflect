@@ -66,7 +66,7 @@
        <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 5: Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more (coming soon).
-       <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
+       <Button to="https://madmimi.com/p/922a5a/" newWindow={true} styling="blue" fitToText>Learn More</Button>
         </Block>      
         <Block type="image-overlay" anchor="left" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #6: RSVP for Activities
