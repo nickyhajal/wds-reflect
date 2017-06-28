@@ -32,7 +32,6 @@ const routes = (
     <Route path="/propose-a-meetup/:id" component={HashLogin} />
     <Route path="/academies/:id" component={HashLogin} />
     <Route path="/transfer/:id" component={HashLogin} />
-    <Route path="/events/:id" component={HashLogin} />
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
@@ -45,7 +44,10 @@ const routes = (
       <Route path="/meetup/:id" component={Event} />
       <Route path="/expedition/:id" component={Event} />
       <Route path="/activity/:id" component={Event} />
-      <Route path="/events/:type" component={EventListing} />
+      <Route path="/events/meetups" component={EventListing} />
+      <Route path="/events/academies" component={EventListing} />
+      <Route path="/events/expeditions" component={EventListing} />
+      <Route path="/events/activities" component={EventListing} />
       <Route path="/community/:id" component={Community} />
       <Route path="/welcome" component={Welcome} />
       <Route path="/hub" component={Hub} />
@@ -53,6 +55,7 @@ const routes = (
       <Route path="/your-schedule" component={YourSchedule} />
       <Route path="/events" component={Events} />
     </Route>
+    <Route path="/events/:id" component={HashLogin} />
     <Route path="*" component={Pageloader} />
   </Route>
 );

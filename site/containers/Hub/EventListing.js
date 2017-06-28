@@ -109,9 +109,10 @@ export class EventListing extends Component {
   render() {
     const headcss = {};
     const clip = angler('tr:0,18%');
+    const pathtype = window.location.pathname.replace('/events/');
     headcss.clipPath = clip;
     headcss.WebkitClipPath = clip;
-    const type = EventUtil.byPlural[this.props.params.type];
+    const type = EventUtil.byPlural[pathtype];
     const id = type.id;
     return (
       <div>
