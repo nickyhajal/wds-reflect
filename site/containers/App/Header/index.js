@@ -41,7 +41,7 @@ const renderAlert = (subNav, scrollTo, me) => {
   }
   return '';
 };
-const desktopHeader = (ticketClick, scrollTo, auth, subNav) => (
+const desktopHeader = (ticketClick, scrollTo, auth, subNav) =>
   <header styleName="header" className={subNav ? 'hasSubNav' : ''}>
     <div styleName="row">
       <Link styleName="logo" to="/" alt="WDS Home" />
@@ -118,8 +118,7 @@ const desktopHeader = (ticketClick, scrollTo, auth, subNav) => (
     </div>
     {renderSubNav(subNav, scrollTo, auth.me)}
     {renderAlert(subNav, scrollTo, auth.me)}
-  </header>
-);
+  </header>;
 
 const mobileHeader = (
   ticketClick,
@@ -208,7 +207,6 @@ const Header = ({
   auth,
   subNav,
 }) => {
-  console.log('imobile', is.mobile());
   return is.mobile()
     ? mobileHeader(ticketClick, scrollTo, navOpen, onMenuClick, auth, subNav)
     : desktopHeader(ticketClick, scrollTo, auth, subNav);

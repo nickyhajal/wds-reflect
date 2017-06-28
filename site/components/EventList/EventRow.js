@@ -27,8 +27,17 @@ const Content = styled.div`
 `;
 const Name = styled.div`
   margin-bottom: 4px;
-  max-width: 680px;
+  max-width: 550px;
   line-height: 140%;
+`;
+const Time = styled.div`
+  margin-right: 32px;
+  line-height: 140%;
+  background: #fff;
+  padding: 11px 11px 9px;
+  margin-right: 16px;
+  width: 120px;
+  text-align: center;
 `;
 const Hosts = styled.div`
   font-family: Karla;
@@ -39,11 +48,12 @@ const EventRow = ({ event, me }) => {
   const E = new Event(event);
   return (
     <Row>
+      <Time>{event.startStr}</Time>
       <Content>
         <Name>{event.what}</Name>
         <Hosts><b>Hosted by:</b> {E.hostnames()}</Hosts>
       </Content>
-      <Button to={`/academy/${event.slug}`}>More Details</Button>
+      <Button to={`/${event.type}/${event.slug}`}>More Details</Button>
     </Row>
   );
 };

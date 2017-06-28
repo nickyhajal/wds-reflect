@@ -14,11 +14,12 @@ import Reset from '../containers/Reset';
 import SpeakerPage from '../containers/SpeakerPage/SpeakerPage';
 import Hub from '../containers/Hub/Hub';
 import YourSchedule from '../containers/Hub/YourSchedule/YourSchedule';
-import Events from '../containers/Hub/Events/Events';
+import Events from '../containers/Hub/Events';
 import EnsureLoggedIn from '../containers/EnsureLoggedIn/EnsureLoggedIn';
 import Event from '../containers/Event';
 import Purchase from '../containers/Purchase/Purchase';
 import HashLogin from '../containers/HashLogin';
+import EventListing from '../containers/Hub/EventListing';
 
 const routes = (
   <Route path="/" component={App}>
@@ -34,14 +35,16 @@ const routes = (
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
-    <Route path="/meetup/:id" component={Event} />
-    <Route path="/activity/:id" component={Event} />
     <Route path="/be-there" component={TicketPurchase} />
     <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />
     <Route component={EnsureLoggedIn}>
       <Route path="/claim" component={Claim} />
       <Route path="/communities" component={Communities} />
+      <Route path="/meetup/:id" component={Event} />
+      <Route path="/expedition/:id" component={Event} />
+      <Route path="/activity/:id" component={Event} />
+      <Route path="/events/:type" component={EventListing} />
       <Route path="/community/:id" component={Community} />
       <Route path="/welcome" component={Welcome} />
       <Route path="/hub" component={Hub} />

@@ -16,6 +16,8 @@ class Event {
     num_rsvps = 0,
     free_max = 0,
     num_free = 0,
+    price = 0,
+    pay_link = '',
     place = '',
     address = '',
     bios = '{}',
@@ -43,6 +45,8 @@ class Event {
     this.venue_note = venue_note;
     this.note = note;
     this.max = max;
+    this.price = price;
+    this.pay_link = pay_link;
     this.num_rsvps = num_rsvps;
     this.free_max = free_max;
     this.num_free = num_free;
@@ -60,7 +64,9 @@ class Event {
 
   dateStr() {
     if (this.start.isValid() && this.end) {
-      return `${moment(this.start).format('MMMM Do YYYY [from] h:mma')} until ${moment(this.end).format('h:mma')}`;
+      return `${moment(this.start).format(
+        'MMMM Do YYYY [from] h:mma'
+      )} until ${moment(this.end).format('h:mma')}`;
       // return `${moment(this.start).format('MMMM Do')} - Start time TBD`;
     }
     return '⁛⁛⁛⁛⁛ ⁛⁛⁛⁛ ⁛⁛⁛⁛⁛ ⁛⁛:⁛⁛ ⁛⁛⁛⁛⁛⁛⁛';
@@ -82,6 +88,14 @@ class Event {
         return `${pre}${h.first_name} ${h.last_name}`;
       })
       .join('');
+  }
+
+  isPurchase() {
+    return this.type === 'academy' || this.price > 0;
+  }
+
+  isCancelable() {
+    return !this.isPurchase();
   }
 }
 

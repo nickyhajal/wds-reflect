@@ -13,7 +13,10 @@ export const Event = gql`
       slug
       bios
       start
+      endStr
       end
+      price
+      pay_link
       place
       lat
       lon
@@ -43,6 +46,10 @@ export const Events = gql`
       address
       slug
       start
+      price
+      pay_link
+      startStr
+      endStr
       end
       lat
       lon

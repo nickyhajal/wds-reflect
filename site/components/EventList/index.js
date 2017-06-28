@@ -33,8 +33,10 @@ const Side = styled.div`
 `;
 
 const Btn = styled(Button)`
-  background: ${({ primary }) => (primary !== undefined && primary ? C.color.orange : C.color.canvas)};
-  color: ${({ primary }) => (primary !== undefined && primary ? C.color.canvas : C.color.orange)};
+  background: ${({ primary }) =>
+    primary !== undefined && primary ? C.color.orange : C.color.canvas};
+  color: ${({ primary }) =>
+    primary !== undefined && primary ? C.color.canvas : C.color.orange};
   width: 100%;
   padding: 19px 16px 16px;
   font-size: 20px;

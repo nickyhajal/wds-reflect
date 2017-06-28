@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import moment from 'moment';
 import _ from 'lodash';
 import { browserHistory } from 'react-router';
+import s from 'underscore.string';
 import Section from '../../components/Section/Section';
 import Avatar from '../../components/Avatar/Avatar';
 import Block from '../../components/Block/Block';
@@ -24,6 +25,7 @@ import Content from './Content';
 import Host from './Host';
 import User from '../../models/User';
 import api from '../../utils/api';
+import EventUtil from '../../utils/EventUtil';
 
 const Grid = styled.div`
   display: flex;
@@ -50,8 +52,10 @@ const Side = styled.div`
 `;
 
 const Btn = styled(Button)`
-  background: ${({ primary }) => (primary !== undefined && primary ? C.color.orange : C.color.canvas)};
-  color: ${({ primary }) => (primary !== undefined && primary ? '#fff' : C.color.orange)};
+  background: ${({ primary }) =>
+    primary !== undefined && primary ? C.color.orange : C.color.canvas};
+  color: ${({ primary }) =>
+    primary !== undefined && primary ? '#fff' : C.color.orange};
   width: 100%;
   padding: 19px 16px 16px;
   font-size: 20px;
@@ -75,20 +79,29 @@ export class EventComponent extends Component {
     this.claimTimo = 0;
   }
   purchase = () => {
+    const { type } = this.props.data.event;
     const purchData = { event_id: this.props.data.event.event_id };
-    this.props.act.setProduct({
-      code: 'academy',
-      product: 'WDS Academy',
+    const params = {
       description: `Ticket for ${_.truncate(this.props.data.event.what, 130)}`,
       data: purchData,
-      price: this.props.auth.me !== undefined &&
+    };
+    if (type === 'academy') {
+      params.code = 'academy';
+      params.product = 'WDS Academy';
+      params.price = this.props.auth.me !== undefined &&
         this.props.auth.me.attending17 !== undefined &&
         !_.isNull(this.props.auth.me.attending17) &&
         this.props.auth.me.attending17.toString() === '1'
         ? 2900
-        : 5900,
-      redirect: 'academy-purchased',
-    });
+        : 5900;
+      params.redirect = 'academy-purchased';
+    } else {
+      params.code = 'event';
+      params.product = `WDS ${EventUtil.byId[type].single}`;
+      params.price = this.props.data.event.price;
+      params.redirect = 'event-purchased';
+    }
+    this.props.act.setProduct(params);
     browserHistory.push('/checkout');
   };
   claim = () => {
@@ -99,6 +112,9 @@ export class EventComponent extends Component {
       api('post event/claim-academy', { event_id }).then(() => {
         me.rsvps = [...me.rsvps, event_id];
         me.academy = event_id;
+        setTimeout(() => {
+          this.props.data.refetch();
+        }, 30);
         this.props.act.updateMe(me);
       });
     } else {
@@ -108,7 +124,38 @@ export class EventComponent extends Component {
       }, 2000);
     }
   };
+  rsvp = () => {
+    clearTimeout(this.claimTimo);
+    if (this.state.claiming) {
+      const me = _.assign({}, this.props.auth.me);
+      const { event_id } = this.props.data.event;
+      this.setState({ claiming: true });
+      api('post event/rsvp', { event_id }).then(rsp => {
+        switch (rsp.data.action) {
+          case 'cancel': {
+            me.rsvps = _.without(me.rsvps, event_id);
+            break;
+          }
+          default: {
+            me.rsvps = [...me.rsvps, event_id];
+            break;
+          }
+        }
+        setTimeout(() => {
+          this.props.data.refetch();
+        }, 30);
+        this.props.act.updateMe(me);
+        this.setState({ claiming: false });
+      });
+    } else {
+      this.setState({ claiming: true });
+      this.claimTimo = setTimeout(() => {
+        this.setState({ claiming: false });
+      }, 2000);
+    }
+  };
   render() {
+    const eventType = location.pathname.split('/')[1];
     const { data } = this.props;
     const E = new Event(data.event !== undefined ? data.event : {});
     const {
@@ -126,14 +173,20 @@ export class EventComponent extends Component {
       who,
       place,
       descr,
+      price,
       hosts,
     } = E;
 
     // LatLon for map with default set to PDX downtown
     let map = {};
     let { lat, lon } = E;
-    lat = lat > 0 ? lat : '45.523062';
-    lon = lon > 0 ? lon : '-122.676482';
+    let mapCenter = false;
+    if (lat.length > 0 && lon.length > 0) {
+      mapCenter = { lat, lon };
+    }
+    // console.log(lat, lon);
+    // lat = lat !== '' ? lat : '45.523062';
+    // lon = lon !== '' ? lon : '-122.676482';
 
     const Me = new User(this.props.auth.me);
     const headcss = {};
@@ -141,16 +194,37 @@ export class EventComponent extends Component {
     // Variable states based on the user's relation
     // to this event
     let count = num_rsvps;
-    count = count > 1 ? count : 2;
-    let buttonText = 'Attend this Academy';
+    // count = count > 1 ? count : 2;
+    const etype = EventUtil.byId[eventType];
+    let action = (data.event !== undefined && E.isPurchase()) ||
+      (E.price !== undefined && +E.price > 1)
+      ? 'Attend'
+      : 'RSVP to';
+    let buttonText = `${action} this ${etype.single}`;
     let buttonClick = this.purchase;
-    let buttonSubMsg =
-      'Academies cost $29 for WDS Attendees but are available to those not attending WDS for $59. Academies are not transferable or refundable.';
+    let buttonSubMsg = '';
+    switch (eventType) {
+      case 'academy': {
+        buttonSubMsg =
+          'Academies cost $29 for WDS Attendees but are available to those not attending WDS for $59. Academies are not transferable or refundable.';
+        break;
+      }
+      case 'meetup':
+      case 'activity':
+        buttonSubMsg = `${etype.plural} are free but please only RSVP if you're sure you'll attend.`;
+        break;
+      default:
+        buttonSubMsg = '';
+        break;
+    }
     if (Me.isAttending(event_id)) {
       buttonText = "You'll be there!";
       buttonClick = () => {};
+      if (E.isCancelable()) {
+        buttonClick = this.rsvp;
+      }
       buttonSubMsg = '';
-    } else if (Me.hasUnclaimedAcademy()) {
+    } else if (eventType === 'academy' && Me.hasUnclaimedAcademy()) {
       if (num_free < free_max) {
         buttonText = this.state.claiming
           ? 'Click Again to Confirm'
@@ -162,10 +236,15 @@ export class EventComponent extends Component {
         buttonSubMsg =
           'You have one free academy to claim, however this academy no longer has free spots available.';
       }
+    } else if (!E.isPurchase()) {
+      buttonClick = this.rsvp;
     }
-    if (num_rsvps >= max) {
-      buttonText = 'This Academy is Full';
+    if (max > 0 && num_rsvps >= max) {
+      buttonText = `This ${etype.single} is Full`;
       buttonClick = () => {};
+    }
+    if (this.state.claiming) {
+      buttonText = 'Click Again to Confirm';
     }
     return (
       <div>
@@ -174,7 +253,7 @@ export class EventComponent extends Component {
           headerClip="br:0%,-10%;"
           headerImage="hero/green.jpg"
           color="white"
-          headerMap={{ lat: +lat, lon: +lon }}
+          headerMap={mapCenter}
           headerMapRef={map}
           width="1200px"
         >
@@ -190,8 +269,10 @@ export class EventComponent extends Component {
                 <Markdown>{descr}</Markdown>
               </div>
               <div className="section">
-                <h3>{type ? "You'll Learn:" : 'An event for: '}</h3>
-                <Markdown>{who}</Markdown>
+                <h3>
+                  {type === 'academy' ? "You'll Learn:" : `${etype.noun} for: `}
+                </h3>
+                <Markdown>{s.capitalize(who)}</Markdown>
               </div>
               <div className="section">
                 <h3>{`Your Host${hosts.length > 1 ? 's' : ''}`}</h3>
@@ -202,19 +283,23 @@ export class EventComponent extends Component {
                         <Avatar user={h.user_id} />
                         <span>{`${h.first_name} ${h.last_name}`}</span>
                       </div>
-                      <div className="about">
-                        <Markdown>{bios[h.user_id]}</Markdown>
-                      </div>
+                      {type === 'academy'
+                        ? <div className="about">
+                            <Markdown>{bios[h.user_id]}</Markdown>
+                          </div>
+                        : ''}
                     </Host>
                   );
                 })}
               </div>
             </Content>
-            <Side>
-              <Btn onClick={buttonClick} primary>{buttonText}</Btn>
-              {buttonSubMsg.length ? <Sub>{buttonSubMsg}</Sub> : ''}
-              <Btn>{count} WDSers Attending</Btn>
-            </Side>
+            {this.props.auth.me !== undefined && this.props.auth.me
+              ? <Side>
+                  <Btn onClick={buttonClick} primary>{buttonText}</Btn>
+                  {buttonSubMsg.length ? <Sub>{buttonSubMsg}</Sub> : ''}
+                  <Btn>{count} WDSers Attending</Btn>
+                </Side>
+              : ''}
           </Grid>
         </Section>
       </div>

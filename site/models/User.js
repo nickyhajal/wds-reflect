@@ -7,14 +7,10 @@ class Event {
   }
 
   isAttending(event_id) {
-    console.log(this.rsvps);
-    console.log(event_id);
     return this.rsvps.includes(event_id);
   }
 
   hasUnclaimedAcademy() {
-    console.log(this.pre17);
-    console.log(this.academy);
     return parseInt(this.pre17, 10) > 0 && parseInt(this.academy, 10) === 0;
   }
 }

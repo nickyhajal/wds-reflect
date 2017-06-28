@@ -108,10 +108,19 @@ export class App extends Component {
         nav = parent;
       }
     });
-    if (uri.indexOf('~') > -1 || uri.indexOf('community/') > -1) {
+    if (
+      uri.includes('~') ||
+      uri.includes('events/') ||
+      uri.includes('community/') ||
+      uri.includes('activity/') ||
+      uri.includes('meetup/') ||
+      uri.includes('academy/') ||
+      uri.includes('expedition/')
+    ) {
       nav = 'hub';
     }
-    if (uri.indexOf('speaker/') > -1 || uri.includes('academy/')) {
+    if (uri.indexOf('speaker/') > -1) {
+      // || uri.includes('academy/')) {
       nav = 'schedule';
     }
     if (nav) {
@@ -194,5 +203,5 @@ App.propTypes = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(
-  CSSModules(App, styles),
+  CSSModules(App, styles)
 );

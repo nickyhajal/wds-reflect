@@ -23,7 +23,7 @@ const LocationMap = withGoogleMap(props => {
       options={{ scrollwheel: false, draggable: false, disableDefaultUI: true }}
       defaultCenter={{ lat: +props.center.lat, lng: +props.center.lon }}
     >
-      <Marker position={{ lat: props.center.lat, lng: props.center.lon }} />
+      <Marker position={{ lat: +props.center.lat, lng: +props.center.lon }} />
     </GoogleMap>
   );
 });
