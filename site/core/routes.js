@@ -32,6 +32,7 @@ const routes = (
     <Route path="/propose-a-meetup/:id" component={HashLogin} />
     <Route path="/academies/:id" component={HashLogin} />
     <Route path="/transfer/:id" component={HashLogin} />
+    <Route path="/events/:id" component={HashLogin} />
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
