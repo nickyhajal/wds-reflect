@@ -10,8 +10,9 @@
   >
     ## Woohoo WDS Event Purchase Complete!
 
-    We're excited you'll be joining us for a a special WDS event! You should
-    receive an email shortly with all the details.
+    We're excited you'll be joining us for a a special WDS event!
+
+    You'll receive an email shortly with all the details.
 
     <Button to="/events">Back to Events</Button>
   </Block>
