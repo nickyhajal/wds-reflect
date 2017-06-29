@@ -97,16 +97,16 @@ class Dispatch extends React.Component {
       }
       if (action === 'append') {
         const existing = this.state.items;
-        console.log(existing);
         items = existing.concat(items);
       }
-      console.log(items.length);
       posts = items.map(passedItem => {
         const item = passedItem;
         item.num_likes = item.num_likes.toString();
         item.num_comments = item.num_comments.toString();
         item.feed_id = item.feed_id.toString();
-        item.channel_id = item.channel_id.toString();
+        if (item.channel_id !== undefined && item.channel_id) {
+          item.channel_id = item.channel_id.toString();
+        }
         item.user_id = item.user_id.toString();
         return (
           <DispatchItem
