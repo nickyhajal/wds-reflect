@@ -16,9 +16,7 @@ import DispatchItem from './DispatchItem';
 import DispatchPost from './DispatchPost';
 import api from '../../utils/api';
 
-
 class Dispatch extends React.Component {
-
   constructor() {
     super();
     autoBind(Object.getPrototypeOf(this));
@@ -33,6 +31,7 @@ class Dispatch extends React.Component {
     };
     this.endEditTimo = 0;
     this.listener = false;
+    this.scrollLoadTimo = 0;
     this.editingComments = {};
     this.loadingViaScroll = false;
   }
@@ -58,13 +57,14 @@ class Dispatch extends React.Component {
     const sH = document.documentElement.scrollHeight;
     const cH = document.documentElement.clientHeight;
     const scrollHeight = sH - cH;
-    const scrollPercent = (window.scrollY / scrollHeight) * 100;
+    const scrollPercent = window.scrollY / scrollHeight * 100;
     if (scrollPercent > 80 && !this.loadingViaScroll) {
       this.loadingViaScroll = true;
       const before = _.last(this.state.items).feed_id;
-      this.fetch({ action: 'append', before })
-      .then(() => {
-        this.loadingViaScroll = false;
+      this.fetch({ action: 'append', before }).then(() => {
+        setTimeout(() => {
+          this.loadingViaScroll = false;
+        }, 1000);
       });
     }
   }
@@ -81,11 +81,12 @@ class Dispatch extends React.Component {
       since: this.state.since,
       before,
     };
-    return api('get feed', params)
-    .then((rsp) => { this.load(rsp.data.feed_contents, action); });
+    return api('get feed', params).then(rsp => {
+      this.load(rsp.data.feed_contents, action);
+    });
   }
   load(postsToLoad, action) {
-    this.setState({ posts: [], items: [] });
+    // this.setState({ posts: [], items: [] });
     if (postsToLoad[0] !== undefined) {
       let items = [];
       let posts = [];
@@ -96,17 +97,27 @@ class Dispatch extends React.Component {
       }
       if (action === 'append') {
         const existing = this.state.items;
+        console.log(existing);
         items = existing.concat(items);
       }
-      posts = items.map(item => (
-        <DispatchItem
-          key={`dispatchitem-${item.feed_id}`}
-          {...item}
-          auth={this.props.auth}
-          action={this.action}
-        />
-      ));
-      items = items.map((item) => {
+      console.log(items.length);
+      posts = items.map(passedItem => {
+        const item = passedItem;
+        item.num_likes = item.num_likes.toString();
+        item.num_comments = item.num_comments.toString();
+        item.feed_id = item.feed_id.toString();
+        item.channel_id = item.channel_id.toString();
+        item.user_id = item.user_id.toString();
+        return (
+          <DispatchItem
+            key={`dispatchitem-${item.feed_id}`}
+            {...item}
+            auth={this.props.auth}
+            action={this.action}
+          />
+        );
+      });
+      items = items.map(item => {
         const i = item;
         if (i.commentPost === undefined) {
           i.commentPost = '';
@@ -130,8 +141,7 @@ class Dispatch extends React.Component {
     }
   }
   like(feedId) {
-    api('post feed/like', { feed_id: feedId })
-    .then((rsp) => {
+    api('post feed/like', { feed_id: feedId }).then(rsp => {
       if (rsp.data.num_likes) {
         const likes = this.props.auth.me.feed_likes;
         likes.push(feedId);
@@ -143,7 +153,7 @@ class Dispatch extends React.Component {
   }
   updateItem(feedId, updates) {
     const newItems = [];
-    this.state.items.forEach((item) => {
+    this.state.items.forEach(item => {
       if (item.feed_id === feedId) {
         const newItem = _.assign({}, item, updates);
         newItems.push(newItem);
@@ -206,9 +216,16 @@ class Dispatch extends React.Component {
           status={this.state.postStatus}
           onSubmit={this.post}
         />
-        {this.state.posts.length ? this.state.posts : (
-          <Block background="orange" width="250px" clip="br:0,-10%" css={{ marginTop: '64px' }}><h4>Loading...</h4></Block>
-        )}
+        {this.state.posts.length
+          ? this.state.posts
+          : <Block
+              background="orange"
+              width="250px"
+              clip="br:0,-10%"
+              css={{ marginTop: '64px' }}
+            >
+              <h4>Loading...</h4>
+            </Block>}
       </div>
     );
   }
@@ -232,7 +249,6 @@ function mapDispatchToProps(dispatch) {
   return { act: bindActionCreators(actions, dispatch) };
 }
 
-
 function mapStateToProps(state) {
   return {
     auth: state.auth.toJS(),
@@ -248,4 +264,6 @@ Dispatch.propTypes = {
   }),
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(Dispatch, styles));
+export default connect(mapStateToProps, mapDispatchToProps)(
+  CSSModules(Dispatch, styles),
+);

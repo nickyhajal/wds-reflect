@@ -42,8 +42,7 @@ class DispatchItem extends React.Component {
     this.setState({ commentsOpen: state });
   }
   fetchComments() {
-    api('get feed/comments', { feed_id: this.props.feed_id })
-    .then((rsp) => {
+    api('get feed/comments', { feed_id: this.props.feed_id }).then(rsp => {
       if (rsp.data.comments !== undefined && rsp.data.comments.length) {
         this.setState({ comments: rsp.data.comments });
       }
@@ -57,8 +56,7 @@ class DispatchItem extends React.Component {
       comment: this.state.userComment,
     };
     this.setState({ commentStatus: 'posting' });
-    api('post feed/comment', params)
-    .then((rsp) => {
+    api('post feed/comment', params).then(rsp => {
       this.setState({ commentStatus: 'posted' });
       setTimeout(() => {
         this.setState({ commentStatus: 'editing' });
@@ -78,7 +76,7 @@ class DispatchItem extends React.Component {
       if (assets.interests !== undefined) {
         const ints = assets.interests;
         let interest = 'interest';
-        ints.forEach((int) => {
+        ints.forEach(int => {
           if (int.interest_id === this.props.channel_id) {
             interest = int.interest.toLowerCase();
           }
@@ -89,18 +87,17 @@ class DispatchItem extends React.Component {
     return '';
   }
   renderComments() {
-    const {
-      auth,
-      feed_id: feedId,
-    } = this.props;
+    const { auth, feed_id: feedId } = this.props;
     return (
       <div styleName="commentShell">
         <div styleName="comments">
-          {this.state.comments.map(c => <DispatchComment key={`cmnt-${c.feed_comment_id}`} {...c} />)}
+          {this.state.comments.map(c =>
+            <DispatchComment key={`cmnt-${c.feed_comment_id}`} {...c} />,
+          )}
           <div className="clear" />
         </div>
         <div styleName="commentPostShell">
-          <Avatar user={auth.me.user_id} />
+          <Avatar user={auth.me.user_id.toString()} />
           <DispatchPost
             onSubmit={this.submitComment}
             onChange={this.editComment}
@@ -139,9 +136,9 @@ class DispatchItem extends React.Component {
       likeActionStr = 'Liked!';
     }
     if (numLikes === 1) {
-      likeStr = (<span>1 Like</span>);
+      likeStr = <span>1 Like</span>;
     } else if (numLikes > 1) {
-      likeStr = (<span>{`${numLikes} Likes`}</span>);
+      likeStr = <span>{`${numLikes} Likes`}</span>;
     }
     if (numComments === 1) {
       commentStr = '1 Comment';
@@ -151,7 +148,7 @@ class DispatchItem extends React.Component {
     return (
       <div styleName="item">
         <div styleName="avatar">
-          <Avatar user={userId} />
+          <Avatar user={userId.toString()} />
         </div>
         <div styleName="contentShell">
           <Link to={`/~${userName}`} styleName="author">
@@ -167,7 +164,9 @@ class DispatchItem extends React.Component {
             <div styleName="label">/{this.getLabel()}</div>
             <button
               styleName="likes"
-              onClick={() => { action('like', feedId); }}
+              onClick={() => {
+                action('like', feedId);
+              }}
             >
               {likeStr}
               <div>{likeActionStr}</div>
