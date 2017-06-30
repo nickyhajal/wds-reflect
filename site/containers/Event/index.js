@@ -181,7 +181,11 @@ export class EventComponent extends Component {
     let map = {};
     let { lat, lon } = E;
     let mapCenter = false;
-    if (lat.length > 0 && lon.length > 0) {
+    if (
+      lat !== undefined &&
+      lat.length > 0 &&
+      (lon !== undefined && lon.length > 0)
+    ) {
       mapCenter = { lat, lon };
     }
     // console.log(lat, lon);
