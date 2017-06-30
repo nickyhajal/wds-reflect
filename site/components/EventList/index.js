@@ -47,7 +47,7 @@ export class EventComponent extends Component {
   lastDay: '';
   eventRow(event, Me) {
     const ev = new Event(event);
-    const day = ev.start.format('MMMM Do');
+    const day = ev.start.format('dddd[,] MMMM Do');
     if (this.lastDay !== day) {
       const style = this.lastDay === '' ? { marginTop: '0' } : {};
       this.lastDay = day;
