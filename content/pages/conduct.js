@@ -22,3 +22,7 @@ We expect participants to follow these rules throughout the full WDS experience,
 <p><b>Questions or concerns?</b> See any team member or write to <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link>.</p>
 
 <p><b>Original source and credit:</b> <Link to="http://2012.jsconf.us/#/about">JSConf 2012</Link> & <Link to="https://adainitiative.org/">The Ada Initiative</Link></p>
+  
+  </Block>
+</Section>
+<Import id="join-us" />
