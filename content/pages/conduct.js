@@ -5,9 +5,9 @@
   <Block width="768px" bleed={true} type="padded" background="gray" textAlign="left" margin="60px 0 80px" clip="tr:0,1%;">
     <Block width="100%" margin="40px 0 0 0" textAlign="center">## Code of Conduct</Block>
 
-    <Block width="100%" margin="40px 0 0 0" textAlign="center">### WDS is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof).</Block>
-    
     <Image src="https://s3.amazonaws.com/el-files-wds/images/photos/7537795550_09638d7745_z.jpg" width="640" height="427" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+      
+      <b>WDS is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof).</b>
 
 We do not tolerate harassment of event participants in any form. Sexual language and imagery is not appropriate for any event venue, including talks, workshops, parties, and online media. Attendees violating these rules may be sanctioned or expelled from WDS without a refund at the discretion of the organizers.
 
