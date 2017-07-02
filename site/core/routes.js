@@ -20,6 +20,7 @@ import Event from '../containers/Event';
 import Purchase from '../containers/Purchase/Purchase';
 import HashLogin from '../containers/HashLogin';
 import EventListing from '../containers/Hub/EventListing';
+import Schedule from '../containers/Hub/Schedule';
 
 const routes = (
   <Route path="/" component={App}>
@@ -38,6 +39,10 @@ const routes = (
     <Route path="/be-there" component={TicketPurchase} />
     <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />
+    <Route path="/events/meetups/:id" component={HashLogin} />
+    <Route path="/events/academies/:id" component={HashLogin} />
+    <Route path="/events/expeditions/:id" component={HashLogin} />
+    <Route path="/events/activities/:id" component={HashLogin} />
     <Route component={EnsureLoggedIn}>
       <Route path="/claim" component={Claim} />
       <Route path="/communities" component={Communities} />
@@ -52,8 +57,8 @@ const routes = (
       <Route path="/welcome" component={Welcome} />
       <Route path="/hub" component={Hub} />
       <Route path="/settings" component={Settings} />
-      <Route path="/your-schedule" component={YourSchedule} />
       <Route path="/events" component={Events} />
+      <Route path="/your-schedule" component={Schedule} />
     </Route>
     <Route path="/events/:id" component={HashLogin} />
     <Route path="*" component={Pageloader} />

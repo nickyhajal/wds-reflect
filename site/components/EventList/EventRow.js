@@ -8,8 +8,9 @@ const Row = styled.div`
   padding: 8px 0;
   font-size: 19px;
   display: flex;
-  margin-top: 12px;
+  margin-top: 0px;
   align-items: flex-start;
+  color: #4e4843;
   @media 
   (max-device-width: 800px) 
   and (orientation: portrait) { 
@@ -21,39 +22,62 @@ const Row = styled.div`
       width: 70px;
     }
   }
+  &.contained {
+    margin-left: -60px;
+    margin-right: -60px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  &.contained.row-even {
+    background: #f9f6f4;
+  }
+  &.contained.row-odd {
+    background: #fbf9f8;
+  }
 `;
 const Content = styled.div`
   flex: 1;
 `;
 const Name = styled.div`
-  margin-bottom: 4px;
+  margin-bottom: 0px;
   max-width: 550px;
   line-height: 140%;
+  margin-top: 2px;
 `;
 const Time = styled.div`
   margin-right: 32px;
   line-height: 140%;
-  background: #fff;
-  padding: 11px 11px 9px;
+  padding: 6px 0px 3px;
   margin-right: 16px;
   width: 120px;
-  text-align: center;
+  text-align: left;
+  color: #99a23a;
+  margin-top: 4px;
+  font-size: 16pt;
+  margin-bottom: 5px;
+  font-family: Vitesse;
 `;
 const Hosts = styled.div`
   font-family: Karla;
   font-size: 16px;
 `;
 
-const EventRow = ({ event, me }) => {
+const EventRow = ({ event, me, rowClass }) => {
   const E = new Event(event);
+  let hostname = E.hostnames();
+  const hasDetails = E.type !== 'program';
   return (
-    <Row>
+    <Row className={rowClass}>
       <Time>{event.startStr}</Time>
       <Content>
         <Name>{event.what}</Name>
-        <Hosts><b>Hosted by:</b> {E.hostnames()}</Hosts>
+        {E.type === 'program'
+          ? <Hosts>{hostname}</Hosts>
+          : <Hosts><b>Hosted by:</b> {hostname}</Hosts>}
       </Content>
-      <Button to={`/${event.type}/${event.slug}`}>More Details</Button>
+      {hasDetails
+        ? <Button to={`/${event.type}/${event.slug}`}>More Details</Button>
+        : ''}
     </Row>
   );
 };

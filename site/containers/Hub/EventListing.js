@@ -122,7 +122,10 @@ export class EventListing extends Component {
           headerPosition={type.headerPosition}
           color="canvas"
         >
-          <EventList year="17" type={id} title={`WDS ${type.plural}`} />
+          <Shell cols="8" background="transparent">
+            <h2 style={headcss}>{`WDS ${type.plural}`}</h2>
+            <EventList year="17" type={id} title={false} format="contained" />
+          </Shell>
         </Section>
       </div>
     );

@@ -20,7 +20,7 @@ import Button from '../../components/Button/Button';
 import C from '../../constants';
 import User from '../../models/User';
 import EventRow from './EventRow';
-import EventHead from './EventHead';
+// import EventHead from './EventHead';
 
 const Grid = styled.div`
   display: flex;
@@ -43,41 +43,68 @@ const Btn = styled(Button)`
   margin-bottom: 16px
 `;
 
+const EventHead = styled.h3`
+    font-size: 24px;
+    font-family: Vitesse;
+    line-height: 28px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    color: #0373A5;
+    margin-top: 64px;
+`;
+
 export class EventComponent extends Component {
   lastDay: '';
-  eventRow(event, Me) {
+  eventRow(event, Me, inx) {
     const ev = new Event(event);
     const day = ev.start.format('dddd[,] MMMM Do');
+    let rowClass = inx % 2 === 0 ? 'row-even' : 'row-odd';
+    if (this.props.format === 'contained') {
+      rowClass += ` ${this.props.format}`;
+    }
+
     if (this.lastDay !== day) {
       const style = this.lastDay === '' ? { marginTop: '0' } : {};
       this.lastDay = day;
       return (
         <div>
           <EventHead style={style}>{day}</EventHead>
-          <EventRow event={event} me={Me} />
+          <EventRow rowClass={rowClass} event={event} me={Me} />
         </div>
       );
     }
     this.lastDay = day;
-    return <EventRow event={event} me={Me} />;
+    return <EventRow rowClass={rowClass} event={event} me={Me} />;
   }
   render() {
     this.lastDay = '';
     const { data } = this.props;
-    const events = data.events !== undefined ? data.events : [];
-    const Me = new User(this.props.auth);
+    let events = data.events !== undefined ? data.events : [];
+    const Me = new User(this.props.auth.me);
+    const blockProps = {
+      cols: '8',
+      bleed: false,
+      textAlign: 'left',
+      margin: '20px 0',
+      background: 'canvas',
+      padding: '40px',
+    };
+    if (this.props.type === 'mine') {
+      events = events.filter(event => Me.isAttendingEvent(event));
+    }
+    if (this.props.format === 'contained') {
+      blockProps.margin = '0';
+      blockProps.padding = '60px';
+      blockProps.width = '100%';
+      blockProps.background = 'white';
+      blockProps.cols = false;
+    }
+    events = events.map((event, i) => this.eventRow(event, Me, i));
     return (
-      <Block textAlign="left">
-        {`## ${this.props.title}`}
-        <Block
-          cols="8"
-          bleed={false}
-          textAlign="left"
-          margin="20px 0"
-          background="canvas"
-          padding="40px"
-        >
-          {events.map(event => this.eventRow(event, Me))}
+      <Block textAlign="left" width="100%">
+        {this.props.title ? `## ${this.props.title}` : ''}
+        <Block {...blockProps}>
+          {events}
         </Block>
       </Block>
     );
@@ -108,7 +135,7 @@ export default graphql(EventsQuery, {
     return {
       variables: {
         year: props.year,
-        type: props.type,
+        type: props.type === 'mine' ? null : props.type,
       },
     };
   },

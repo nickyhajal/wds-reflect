@@ -65,7 +65,7 @@ class Event {
   dateStr() {
     if (this.start.isValid() && this.end) {
       return `${moment(this.start).format(
-        'MMMM Do YYYY [from] h:mma'
+        'MMMM Do YYYY [from] h:mma',
       )} until ${moment(this.end).format('h:mma')}`;
       // return `${moment(this.start).format('MMMM Do')} - Start time TBD`;
     }
@@ -75,6 +75,9 @@ class Event {
   hostnames() {
     const hs = this.hosts;
     const length = hs.length;
+    if (this.type === 'program') {
+      return 'WDS Main Program';
+    }
     return hs
       .map((h, i) => {
         let pre = '';

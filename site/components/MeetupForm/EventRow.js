@@ -37,13 +37,18 @@ const Hosts = styled.div`
 
 const EventRow = ({ event, me }) => {
   const E = new Event(event);
+  const hostname = E.hostnames();
+  const hasHost = hostname.length > 0;
+  const hasDetails = E.type !== 'program';
   return (
     <Row>
       <Content>
         <Name>{event.what}</Name>
-        <Hosts><b>Hosted by:</b> {E.hostnames()}</Hosts>
+        {hasHost ? <Hosts><b>Hosted by:</b> {hostname}</Hosts> : ''}
       </Content>
-      <Button to={`/academy/${event.slug}`}>More Details</Button>
+      {hasDetails
+        ? <Button to={`/academy/${event.slug}`}>More Details</Button>
+        : ''}
     </Row>
   );
 };

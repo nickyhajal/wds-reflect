@@ -9,6 +9,9 @@ class Event {
   isAttending(event_id) {
     return this.rsvps.includes(event_id);
   }
+  isAttendingEvent(event) {
+    return this.rsvps.includes(event.event_id) || event.type === 'program';
+  }
 
   hasUnclaimedAcademy() {
     return parseInt(this.pre17, 10) > 0 && parseInt(this.academy, 10) === 0;
