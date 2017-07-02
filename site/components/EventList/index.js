@@ -135,7 +135,7 @@ export default graphql(EventsQuery, {
     return {
       variables: {
         year: props.year,
-        type: props.type === 'mine' ? null : props.type,
+        type: props.type === 'mine' ? false : props.type,
       },
     };
   },

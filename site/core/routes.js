@@ -43,6 +43,7 @@ const routes = (
     <Route path="/events/academies/:id" component={HashLogin} />
     <Route path="/events/expeditions/:id" component={HashLogin} />
     <Route path="/events/activities/:id" component={HashLogin} />
+    <Route path="/your-schedule" component={HashLogin} />
     <Route component={EnsureLoggedIn}>
       <Route path="/claim" component={Claim} />
       <Route path="/communities" component={Communities} />
