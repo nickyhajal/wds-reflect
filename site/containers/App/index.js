@@ -53,7 +53,7 @@ export class App extends Component {
       ) {
         $('body').addClass('start-transition transition-green-to-orange');
       }
-      this.props.act.openMenu(false);
+      // this.props.act.openMenu(false);
       $('html,body').animate({ scrollTop: 0 }, 0);
     }
     if (
@@ -203,5 +203,5 @@ App.propTypes = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(
-  CSSModules(App, styles)
+  CSSModules(App, styles),
 );
