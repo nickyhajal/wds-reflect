@@ -31,20 +31,15 @@ const Grid = styled.div`
   display: flex;
   margin-top: 40px;
 
-  @media 
-  (max-device-width: 800px) 
-  and (orientation: portrait) { 
+  @media (max-device-width: 800px) and (orientation: portrait) {
     flex-direction: column;
   }
-
 `;
 const Side = styled.div`
   min-height: 666px;
   width: 340px;
   padding: 16px;
-  @media 
-  (max-device-width: 800px) 
-  and (orientation: portrait) { 
+  @media (max-device-width: 800px) and (orientation: portrait) {
     order: -1;
     min-height: auto;
     width: 100%;
@@ -88,12 +83,13 @@ export class EventComponent extends Component {
     if (type === 'academy') {
       params.code = 'academy';
       params.product = 'WDS Academy';
-      params.price = this.props.auth.me !== undefined &&
+      params.price =
+        this.props.auth.me !== undefined &&
         this.props.auth.me.attending17 !== undefined &&
         !_.isNull(this.props.auth.me.attending17) &&
         this.props.auth.me.attending17.toString() === '1'
-        ? 2900
-        : 5900;
+          ? 2900
+          : 5900;
       params.redirect = 'academy-purchased';
     } else {
       params.code = 'event';
@@ -201,10 +197,11 @@ export class EventComponent extends Component {
     let count = num_rsvps;
     // count = count > 1 ? count : 2;
     const etype = EventUtil.byId[eventType];
-    let action = (data.event !== undefined && E.isPurchase()) ||
+    let action =
+      (data.event !== undefined && E.isPurchase()) ||
       (E.price !== undefined && +E.price > 1)
-      ? 'Attend'
-      : 'RSVP to';
+        ? 'Attend'
+        : 'RSVP to';
     let buttonText = `${action} this ${etype.single}`;
     let buttonClick = this.purchase;
     let buttonSubMsg = '';
@@ -264,20 +261,32 @@ export class EventComponent extends Component {
         >
           <Grid>
             <Content>
-              <h2>{what}</h2>
+              <h2>
+                {what}
+              </h2>
               <div className="details">
-                <div>{E.dateStr()}</div>
-                <div className="sub">{place}</div>
-                <div className="sub">{address}</div>
+                <div>
+                  {E.dateStr()}
+                </div>
+                <div className="sub">
+                  {place}
+                </div>
+                <div className="sub">
+                  {address}
+                </div>
               </div>
               <div className="descr section">
-                <Markdown>{descr}</Markdown>
+                <Markdown>
+                  {descr}
+                </Markdown>
               </div>
               <div className="section">
                 <h3>
                   {type === 'academy' ? "You'll Learn:" : `${etype.noun} for: `}
                 </h3>
-                <Markdown>{s.capitalize(who)}</Markdown>
+                <Markdown>
+                  {s.capitalize(who)}
+                </Markdown>
               </div>
               <div className="section">
                 <h3>{`Your Host${hosts.length > 1 ? 's' : ''}`}</h3>
@@ -290,7 +299,9 @@ export class EventComponent extends Component {
                       </div>
                       {type === 'academy'
                         ? <div className="about">
-                            <Markdown>{bios[h.user_id]}</Markdown>
+                            <Markdown>
+                              {bios[h.user_id]}
+                            </Markdown>
                           </div>
                         : ''}
                     </Host>
@@ -298,11 +309,20 @@ export class EventComponent extends Component {
                 })}
               </div>
             </Content>
-            {this.props.auth.me !== undefined && this.props.auth.me
+            {(this.props.auth.me !== undefined && this.props.auth.me) ||
+            type === 'academy'
               ? <Side>
-                  <Btn onClick={buttonClick} primary>{buttonText}</Btn>
-                  {buttonSubMsg.length ? <Sub>{buttonSubMsg}</Sub> : ''}
-                  <Btn>{count} WDSers Attending</Btn>
+                  <Btn onClick={buttonClick} primary>
+                    {buttonText}
+                  </Btn>
+                  {buttonSubMsg.length
+                    ? <Sub>
+                        {buttonSubMsg}
+                      </Sub>
+                    : ''}
+                  <Btn>
+                    {count} WDSers Attending
+                  </Btn>
                 </Side>
               : ''}
           </Grid>
