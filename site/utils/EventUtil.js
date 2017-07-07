@@ -20,6 +20,13 @@ const types = {
     noun: 'An expedition',
     headerPosition: 'center top',
   },
+  registration: {
+    id: 'registration',
+    single: 'Registration',
+    plural: 'Registration',
+    noun: 'A registration session',
+    headerPosition: 'center top',
+  },
   activity: {
     id: 'activity',
     plural: 'Activities',
@@ -35,6 +42,7 @@ const map = {
     academies: types.academy,
     expeditions: types.expedition,
     activities: types.activity,
+    registration: types.registration,
   },
 };
 
