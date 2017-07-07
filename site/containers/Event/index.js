@@ -233,8 +233,8 @@ export class EventComponent extends Component {
       buttonSubMsg = '';
     } else if (eventType === 'registration') {
       buttonText = 'RSVP to this Session';
-    }
-    else if (eventType === 'academy' && Me.hasUnclaimedAcademy()) {
+      buttonClick = this.rsvp;
+    } else if (eventType === 'academy' && Me.hasUnclaimedAcademy()) {
       if (num_free < free_max) {
         buttonText = this.state.claiming
           ? 'Click Again to Confirm'
