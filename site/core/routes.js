@@ -43,6 +43,7 @@ const routes = (
     <Route path="/events/academies/:id" component={HashLogin} />
     <Route path="/events/expeditions/:id" component={HashLogin} />
     <Route path="/events/activities/:id" component={HashLogin} />
+    <Route path="/events/registration/:id" component={HashLogin} />
     <Route path="/your-schedule/:id" component={HashLogin} />
     <Route component={EnsureLoggedIn}>
       <Route path="/claim" component={Claim} />
@@ -54,6 +55,7 @@ const routes = (
       <Route path="/events/academies" component={EventListing} />
       <Route path="/events/expeditions" component={EventListing} />
       <Route path="/events/activities" component={EventListing} />
+      <Route path="/events/registration" component={EventListing} />
       <Route path="/community/:id" component={Community} />
       <Route path="/welcome" component={Welcome} />
       <Route path="/hub" component={Hub} />

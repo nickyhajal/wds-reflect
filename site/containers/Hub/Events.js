@@ -121,6 +121,16 @@ export class Hub extends Component {
             <h2 style={headcss}>WDS Events</h2>
             <Block width="100%" background="white">
               <EventButton
+                to="/events/registration"
+                style={{
+                  backgroundImage:
+                    'url(https://files.wds.fm/images/photos/tile_registration.jpg)',
+                }}
+              >
+                <h3>Registration</h3>
+                <h4>Let us know which registration session works for you</h4>
+              </EventButton>
+              <EventButton
                 to="/events/meetups"
                 style={{
                   backgroundImage:

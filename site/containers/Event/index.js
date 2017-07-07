@@ -211,6 +211,11 @@ export class EventComponent extends Component {
           'Academies cost $29 for WDS Attendees but are available to those not attending WDS for $59. Academies are not transferable or refundable.';
         break;
       }
+      case 'registration': {
+        buttonSubMsg =
+          "By RSVPing to a registration time, we'll be able to make the process smoother for everyone!";
+        break;
+      }
       case 'meetup':
       case 'activity':
         buttonSubMsg = `${etype.plural} are free but please only RSVP if you're sure you'll attend.`;
