@@ -11,9 +11,7 @@ const Row = styled.div`
   margin-top: 0px;
   align-items: flex-start;
   color: #4e4843;
-  @media 
-  (max-device-width: 800px) 
-  and (orientation: portrait) { 
+  @media (max-device-width: 800px) and (orientation: portrait) {
     a.button {
       padding: 10px 12px;
       font-size: 14px;
@@ -35,9 +33,7 @@ const Row = styled.div`
     background: #fbf9f8;
   }
 `;
-const Content = styled.div`
-  flex: 1;
-`;
+const Content = styled.div`flex: 1;`;
 const Name = styled.div`
   margin-bottom: 0px;
   max-width: 550px;
@@ -65,15 +61,23 @@ const Hosts = styled.div`
 const EventRow = ({ event, me, rowClass }) => {
   const E = new Event(event);
   let hostname = E.hostnames();
-  const hasDetails = E.type !== 'program';
+  const hasDetails = E.descr.length > 0;
   return (
     <Row className={rowClass}>
-      <Time>{event.startStr}</Time>
+      <Time>
+        {event.startStr}
+      </Time>
       <Content>
-        <Name>{event.what}</Name>
+        <Name>
+          {event.what}
+        </Name>
         {E.type === 'program'
-          ? <Hosts>{hostname}</Hosts>
-          : <Hosts><b>Hosted by:</b> {hostname}</Hosts>}
+          ? <Hosts>
+              {hostname}
+            </Hosts>
+          : <Hosts>
+              <b>Hosted by:</b> {hostname}
+            </Hosts>}
       </Content>
       {hasDetails
         ? <Button to={`/${event.type}/${event.slug}`}>More Details</Button>

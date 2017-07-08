@@ -170,8 +170,10 @@ export class EventComponent extends Component {
       place,
       descr,
       price,
-      hosts,
     } = E;
+    let { hosts } = E;
+    if (type === 'program')
+      hosts = [{ first_name: 'WDS', last_name: 'Team', user_id: '10124' }];
 
     // LatLon for map with default set to PDX downtown
     let map = {};
@@ -256,6 +258,10 @@ export class EventComponent extends Component {
     if (this.state.claiming) {
       buttonText = 'Click Again to Confirm';
     }
+    const hasSidebar =
+      ((this.props.auth.me !== undefined && this.props.auth.me) ||
+        type === 'academy') &&
+      type !== 'program';
     return (
       <div>
         <Section
@@ -265,7 +271,7 @@ export class EventComponent extends Component {
           color="white"
           headerMap={mapCenter}
           headerMapRef={map}
-          width="1200px"
+          width={hasSidebar ? '1096px' : '866px'}
         >
           <Grid>
             <Content>
@@ -317,8 +323,7 @@ export class EventComponent extends Component {
                 })}
               </div>
             </Content>
-            {(this.props.auth.me !== undefined && this.props.auth.me) ||
-            type === 'academy'
+            {hasSidebar
               ? <Side>
                   <Btn onClick={buttonClick} primary>
                     {buttonText}

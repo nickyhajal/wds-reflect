@@ -19,7 +19,7 @@ const renderSubNav = (subNav, scrollTo, me) => {
       links.push(
         <Navlink to={`/${uri}`} onClick={scrollTo} key={`navto-${nav}`}>
           {_s.titleize(nav).replace('-', ' ')}
-        </Navlink>,
+        </Navlink>
       );
     });
     return (
@@ -126,7 +126,7 @@ const mobileHeader = (
   navOpen,
   onMenuClick,
   auth,
-  subNav,
+  subNav
 ) => {
   return (
     <header styleName="header">
@@ -207,6 +207,7 @@ const Header = ({
   auth,
   subNav,
 }) => {
+  console.log(is.mobile());
   return is.mobile()
     ? mobileHeader(ticketClick, scrollTo, navOpen, onMenuClick, auth, subNav)
     : desktopHeader(ticketClick, scrollTo, auth, subNav);

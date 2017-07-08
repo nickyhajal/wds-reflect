@@ -34,6 +34,13 @@ const types = {
     noun: 'An activity',
     headerPosition: 'center center',
   },
+  program: {
+    id: 'program',
+    plural: 'Program Events',
+    single: 'Program Event',
+    noun: 'An Event',
+    headerPosition: 'center center',
+  },
 };
 const map = {
   byId: types,
@@ -43,6 +50,7 @@ const map = {
     expeditions: types.expedition,
     activities: types.activity,
     registration: types.registration,
+    program: types.program,
   },
 };
 

@@ -83,7 +83,7 @@ export class App extends Component {
     const checks = _.isArray(c) ? c : [c];
     let found = false;
     checks.forEach(v => {
-      if (this.props.location.pathname.indexOf(v) > -1) {
+      if (this.props.location.pathname.indexOf(v) === 0) {
         found = true;
       }
     });
@@ -113,6 +113,7 @@ export class App extends Component {
       uri.includes('events/') ||
       uri.includes('community/') ||
       uri.includes('activity/') ||
+      uri.includes('program/') ||
       uri.includes('meetup/') ||
       uri.includes('academy/') ||
       uri.includes('expedition/')
@@ -129,6 +130,7 @@ export class App extends Component {
     return nav;
   }
   renderSiteMode() {
+    console.log('SITE');
     const status = this.props.auth.me ? 'logged-in' : 'logged-out';
     const subNav = this.subNav();
     const className = `${status} ${subNav ? 'hasSubNav' : 'noSubNav'}`;
@@ -150,15 +152,14 @@ export class App extends Component {
             <Link to="/faq">FAQ</Link>
             <Link to="/story">Our Story</Link>
           </div>
-          <div styleName="sub">
-            © World Domination Summit 2011-2017
-          </div>
+          <div styleName="sub">© World Domination Summit 2011-2017</div>
         </div>
         <Modals />
       </div>
     );
   }
   renderFocusMode() {
+    console.log('FOCUS');
     return (
       <main>
         {this.props.children}
@@ -167,6 +168,7 @@ export class App extends Component {
     );
   }
   renderSocialMode() {
+    console.log('SOCIAL');
     return (
       <main>
         {this.props.children}
@@ -203,5 +205,5 @@ App.propTypes = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(
-  CSSModules(App, styles),
+  CSSModules(App, styles)
 );

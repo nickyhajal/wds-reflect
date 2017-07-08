@@ -51,6 +51,7 @@ const routes = (
       <Route path="/meetup/:id" component={Event} />
       <Route path="/expedition/:id" component={Event} />
       <Route path="/activity/:id" component={Event} />
+      <Route path="/program/:id" component={Event} />
       <Route path="/registration/:id" component={Event} />
       <Route path="/events/meetups" component={EventListing} />
       <Route path="/events/academies" component={EventListing} />
