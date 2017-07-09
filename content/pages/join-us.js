@@ -31,16 +31,6 @@
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are the confirmed speakers so far for WDS 2017 with more being announced each month.  
   </Block>
   <Tabs style="dots">
-    <Tab title="Shaun King">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Shaun.King.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-        ## Shaun King 
-
-       <p>Shaun King is a journalist, a humanitarian, an activist, and the Senior Justice Writer for the <i>New York Daily News</i>. Today, there are crucial conversations rippling across North America—conversations happening on social media, on campuses, in the streets and around dinner tables. In greater numbers, people are talking about real empowerment and liberation for historically disadvantaged groups.</p>
-
-<p>When it comes to the Black Lives Matter movement, they’re talking specifically about human dignity for African Americans. And for this movement, Shaun is amongst the most compelling voices: a humane and passionate advocate for justice and families, and an extremely visible fundraiser for victims of brutality and discrimination. His latest project is the <Link to="http://www.injusticeboycott.com/">Injustice Boycott.</Link></p>
-      </Block>
-    </Tab>
     <Tab title="Vanessa Van Edwards">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
@@ -49,6 +39,15 @@
         <p>Vanessa Van Edwards is a behavioral investigator and published author. She runs a human behavior research lab where she uncovers the hidden forces that drive our behavior called the <Link to="http://www.scienceofpeople.com/">Science of People.</Link>.</p>
 
 <p>Vanessa is fascinated by body language, leadership and charisma and writes about these topics for CNN, <i>Fast Company</i> and <i>Forbes</i>. She also writes a monthly column for <i>Entrepreneur Magazine</i> and the <i>Huffington Post</i>. Her innovative work has been featured on NPR, <i>Business Week</i> and <i>USA Today</i>. More importantly she's addicted to sour patch kids, airplane coffee and puppies. Vanessa's new book, <i><Link to="http://www.scienceofpeople.com/captivate/">Captivate</Link></i>, launches this April.</p>
+      </Block>
+    </Tab>
+ <Tab title="Harris">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Harris.Zafar.WDS2017.speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+        ## Harris Zafar 
+       <p>Harris Zafar is National Spokesperson for Ahmadiyya Muslim Community USA and the author of “Demystifying Islam: Tackling the Tough Questions.” Harris addresses issues facing Islam and the Muslim world, and has spoken across the United States and internationally.</p>
+<p>From Fox News and CNN to syndicated radio programs, he regularly appears on national and local news in print, TV and radio to provide insight on current issues from an Islamic perspective and to condemn intolerance and human rights abuses, especially when done in the name of religion.</p>
+<p>The son of Pakistani parents, Harris was born and raised in the United States. He currently lives in Portland, Oregon</p>
       </Block>
     </Tab>
     <Tab title="Rich Roll">
