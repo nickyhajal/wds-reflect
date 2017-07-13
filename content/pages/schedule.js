@@ -46,10 +46,9 @@
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Harris.Zafar.WDS2017.speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
         ## Harris Zafar 
-       <p>Harris Zafar is National Spokesperson for Ahmadiyya Muslim Community USA and the author of “Demystifying Islam: Tackling the Tough Questions.” Harris addresses issues facing Islam and the Muslim world, and has spoken across the United States and internationally.</p>
-<p>From Fox News and CNN to syndicated radio programs, he regularly appears on national and local news in print, TV and radio to provide insight on current issues from an Islamic perspective and to condemn intolerance and human rights abuses, especially when done in the name of religion.</p>
-<p>The son of Pakistani parents, Harris was born and raised in the United States. He currently lives in Portland, Oregon</p>
-      </Block>
+       <p><b>Harris Zafar</b> is National Spokesperson for Ahmadiyya Muslim Community USA – among the oldest Muslim organizations in America – and author of book “Demystifying Islam: Tackling the Tough Questions.” From Fox News and CNN to syndicated radio programs, Harris regularly appears on national and local news to address issues facing Islam and the Muslim world while elucidating the need for true pluralism and understanding. A staunch advocate for universal human rights, Harris was praised in a March 2012 motion raised on the floor of the House of Commons in Great Britain for his work defending religious freedom for all. Harris lectures on campuses like Harvard, Yale and Berkeley around the country to provide insight on current issues from an Islamic perspective and also address practical solutions for the world's problems.</p>
+      <p>Driven by a desire to break down misunderstandings and find common ground, Harris passionately works to promote conversation and tolerance between people of diverse backgrounds.  Focusing on the humanity of all people, Harris confronts difficult questions with a commitment to respectful dialogue and truth. If not on television or social media, you can find Harris wearing his "I'm a Muslim, Ask Me Anything" t-shirt every week in order to spark conversation.</p>
+         </Block>
     </Tab>
     <Tab title="Rich">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/rich.roll.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
