@@ -19,7 +19,7 @@
       
     <p>All tickets cost <b>$547</b> (early bird price) and are sold on a first-come, first-served basis.</p>
     
-    <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
+    <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join us at WDS 2018</Button>
 
     </Block>
 </Section>
