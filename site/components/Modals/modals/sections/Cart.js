@@ -284,7 +284,7 @@ class Cart extends React.Component {
 	}
 
 	render() {
-		const cost = 647 * this.props.checkout.quantity;
+		const cost = 547 * this.props.checkout.quantity;
 		const feeCost = 10 * this.props.checkout.quantity;
 		let btnStr = 'Complete Purchase';
 		if (this.props.checkout.status === 'process') {
@@ -314,7 +314,7 @@ class Cart extends React.Component {
 			      	value={this.props.checkout.quantity}
 			      />
 			    </div>
-		    	<div styleName="productName">WDS 2017 Ticket</div>
+		    	<div styleName="productName">WDS 2018 Pre-Order</div>
 	    	</div>
 	    	{this.renderCardButton()}
 				<form id="checkoutForm" onSubmit={ this.purchase.bind(this) } styleName="checkoutForm">
