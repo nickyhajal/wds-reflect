@@ -63,14 +63,6 @@ import MeetupForm from '../../site/components/MeetupForm';
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are the confirmed speakers so far for WDS 2017 with more being announced each month.  {'\n'}
   </Block>
   <Tabs style="dots">
-    <Tab title="Shaun">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Shaun.King.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
-      <Block cols="6" textAlign="left">
-        ## Shaun King {'\n'}
-       <p>Shaun King is a journalist, a humanitarian, an activist, and the Senior Justice Writer for the <i>New York Daily News</i>. Today, there are crucial conversations rippling across North America—conversations happening on social media, on campuses, in the streets and around dinner tables. In greater numbers, people are talking about real empowerment and liberation for historically disadvantaged groups.</p>
-<p>When it comes to the Black Lives Matter movement, they’re talking specifically about human dignity for African Americans. And for this movement, Shaun is amongst the most compelling voices: a humane and passionate advocate for justice and families, and an extremely visible fundraiser for victims of brutality and discrimination. His latest project is the <Link to="http://www.injusticeboycott.com/">Injustice Boycott.</Link></p>
-      </Block>
-    </Tab>
     <Tab title="Vanessa">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>{'\n'}
       <Block cols="6" textAlign="left">
@@ -78,6 +70,14 @@ import MeetupForm from '../../site/components/MeetupForm';
         <p>Vanessa Van Edwards is a behavioral investigator and published author. She runs a human behavior research lab where she uncovers the hidden forces that drive our behavior called the <Link to="http://www.scienceofpeople.com/">Science of People.</Link>.</p>
 <p>Vanessa is fascinated by body language, leadership and charisma and writes about these topics for CNN, <i>Fast Company</i> and <i>Forbes</i>. She also writes a monthly column for <i>Entrepreneur Magazine</i> and the <i>Huffington Post</i>. Her innovative work has been featured on NPR, <i>Business Week</i> and <i>USA Today</i>. More importantly she's addicted to sour patch kids, airplane coffee and puppies. Vanessa's new book, <i><Link to="http://www.scienceofpeople.com/captivate/">Captivate</Link></i>, launches this April.</p>
       </Block>
+    </Tab>
+ <Tab title="Harris">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Harris.Zafar.WDS2017.speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
+      <Block cols="6" textAlign="left">
+        ## Harris Zafar {'\n'}
+       <p><b>Harris Zafar</b> is National Spokesperson for Ahmadiyya Muslim Community USA – among the oldest Muslim organizations in America – and author of book “Demystifying Islam: Tackling the Tough Questions.” From Fox News and CNN to syndicated radio programs, Harris regularly appears on national and local news to address issues facing Islam and the Muslim world while elucidating the need for true pluralism and understanding. A staunch advocate for universal human rights, Harris was praised in a March 2012 motion raised on the floor of the House of Commons in Great Britain for his work defending religious freedom for all. Harris lectures on campuses like Harvard, Yale and Berkeley around the country to provide insight on current issues from an Islamic perspective and also address practical solutions for the world's problems.</p>
+      <p>Driven by a desire to break down misunderstandings and find common ground, Harris passionately works to promote conversation and tolerance between people of diverse backgrounds.  Focusing on the humanity of all people, Harris confronts difficult questions with a commitment to respectful dialogue and truth. If not on television or social media, you can find Harris wearing his "I'm a Muslim, Ask Me Anything" t-shirt every week in order to spark conversation.</p>
+         </Block>
     </Tab>
     <Tab title="Rich">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/rich.roll.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
@@ -157,7 +157,7 @@ import MeetupForm from '../../site/components/MeetupForm';
 
         With a mantra of “you’re as resilient as you THINK you are”, he helps students, young professionals, business and thought leaders build resilience while harnessing our most important resource in resilience…our minds. Charles’ TEDx Talk ["What Trauma Taught Me About Resilience"](https://www.youtube.com/watch?v=3qELiw_1Ddg&feature=youtu.be) has attracted international acclaim. A lover of hip-hop, Charles is a firm believer that there’s a Jay-Z lyric for every situation and finds joy in weaving lines into everyday conversation! {'\n'}
       </Block>
-    </Tab>
+    </Tab>                                                                  
   </Tabs>
   <div class="clear" />{'\n'}
 </Section>  
