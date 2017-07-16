@@ -37,7 +37,7 @@
         ## Meetups
         Every year attendees help lead over 100+ meetups in and around Portland. Share your expertise. Coordinate an adventure. Meet others that share your passions and interests. The best part is you can do all three!
       </Block>
-      <Block type="image" src="photos/JoinUs/image-activities.png">
+      <Block type="image" src="photos/JoinUs/image-activities.jpg">
         ## Activities
         From fun social gatherings to focused discussions, starting off the day with yoga to ending the night in Karaoke, choose from a variety of special WDS hosted adventures and activities throughout the week.
       </Block>
@@ -49,7 +49,7 @@
         ## Academies
         These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields. As a WDS ticket holder you get first access to the Academy of your choice at a huge discount.
       </Block>
-       <Block type="image" src="photos/JoinUs/image-hotel.jpg">
+       <Block type="image" src="photos/society-hotel.jpg">
         ## Hotel Discounts
         Each year we partner with iconic Portland properties to offer our attendees special discounted prices when booking your stay in Portland.  
       </Block>
