@@ -21,11 +21,8 @@ import Input from '../../components/Input/Input';
 import ClaimLoading from '../../reflected/components/ClaimLoading';
 import ClaimError from '../../reflected/components/ClaimError';
 
-
 export class App extends Component {
-
-  static scrollTo() {
-  }
+  static scrollTo() {}
   constructor(props) {
     super(props);
     this.tickets = { claimed: [], unclaimed: [], countStr: '', count: 0 };
@@ -62,14 +59,20 @@ export class App extends Component {
     const html = document.documentElement;
     const $e = $('.fillScreen');
     $e.css('min-height', '');
-    const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+    const height = Math.max(
+      body.scrollHeight,
+      body.offsetHeight,
+      html.clientHeight,
+      html.scrollHeight,
+      html.offsetHeight
+    );
     const scroll = Math.max(body.scrollHeight, html.clientHeight);
     let bonus = 0;
     if (scroll > html.clientHeight) {
       bonus = 120;
     }
     if ($e.length) {
-      $e.css('min-height', `${(height - $e.offset().top) + bonus}px`);
+      $e.css('min-height', `${height - $e.offset().top + bonus}px`);
     }
   }
   showGiveTicket() {
@@ -84,7 +87,6 @@ export class App extends Component {
     const total = tickets.claimed.length + tickets.unclaimed.length;
     if (tickets.claimed.length || tickets.unclaimed.length) {
       if (tickets.unclaimed.length) {
-
         // Claiming additional tickets
         if (this.meClaimed()) {
           let justClaimedMe = '';
@@ -100,48 +102,62 @@ export class App extends Component {
           }
           c.action = (
             <div styleName="action" style={{ marginTop: '-40px' }}>
-              <h2>{h2}</h2>
+              <h2>
+                {h2}
+              </h2>
               {this.renderTicketSetup()}
             </div>
           );
         } else if (!this.state.wantsTicket) {
-          let h2 = 'Let\'s assign your ticket!';
+          let h2 = "Let's assign your ticket!";
           if (tickets.unclaimed.length > 1) {
             c.title = 'Who should get these tickets?';
-            h2 = 'Let\'s assign your tickets!';
+            h2 = "Let's assign your tickets!";
           } else {
             c.title = 'Who should get this ticket?';
           }
           c.action = (
             <div styleName="action" style={{ marginTop: '-40px' }}>
-              <h2>{h2}</h2>
+              <h2>
+                {h2}
+              </h2>
               {this.renderTicketSetup()}
             </div>
           );
 
-        // Claim your ticket
+          // Claim your ticket
         } else {
           // If you only have one ticket
           if (tickets.unclaimed.length === 1) {
-            const meClaimMsg = this.state.status === 'ready' ? 'Yep! That ticket\'s for me!' : 'Claiming your ticket...';
+            const meClaimMsg =
+              this.state.status === 'ready'
+                ? "Yep! That ticket's for me!"
+                : 'Claiming your ticket...';
             c.action = (
               <Block styleName="action" background="spice">
                 <h2>Will you be at WDS?</h2>
-                <Button onClick={this.claimForMe}>{meClaimMsg}</Button>
+                <Button onClick={this.claimForMe}>
+                  {meClaimMsg}
+                </Button>
                 <Button onClick={this.showGiveTicket}>
                   Nope, I want to give this ticket to someone else.
                 </Button>
               </Block>
             );
-          // If you have more than one ticket
+            // If you have more than one ticket
           } else {
-            const meClaimMsg = this.state.status === 'ready' ? 'Yep! Claim one for me!' : 'Claiming your ticket...';
+            const meClaimMsg =
+              this.state.status === 'ready'
+                ? 'Yep! Claim one for me!'
+                : 'Claiming your ticket...';
             const all = total === 2 ? 'both' : 'all';
             c.action = (
               <Block styleName="action" background="spice">
                 <h2>Will you be joining us there?</h2>
                 <p>Is one of your tickets for you?</p>
-                <Button onClick={this.claimForMe}>{meClaimMsg}</Button>
+                <Button onClick={this.claimForMe}>
+                  {meClaimMsg}
+                </Button>
                 <Button onClick={this.showGiveTicket}>
                   {`Nope, they're ${all} for other people.`}
                 </Button>
@@ -151,25 +167,50 @@ export class App extends Component {
         }
       } else if (tickets.claimed.length) {
         if (tickets.claimed.length > 1) {
-          c.title = 'Nice work, you\'ve claimed all your tickets!';
+          c.title = "Nice work, you've claimed all your tickets!";
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-              ## Impressive! Now let&apos;s setup your account.
-              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+            <Block
+              styleName="action"
+              css={{ textAlign: 'center' }}
+              background="spice"
+            >
+              ## Woohoo! See you in 2018!
             </Block>
           );
         } else {
           c.title = 'Woohoo, your ticket is claimed!';
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-              ## Great job! Now let&apos;s setup your account!
-              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+            <Block
+              styleName="action"
+              css={{ textAlign: 'center' }}
+              background="spice"
+            >
+              ## Aw yeah! See you in 2018!
             </Block>
           );
         }
       }
+      // } else if (tickets.claimed.length) {
+      //   if (tickets.claimed.length > 1) {
+      //     c.title = 'Nice work, you\'ve claimed all your tickets!';
+      //     c.action = (
+      //       <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+      //         ## Impressive! Now let&apos;s setup your account.
+      //         <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+      //       </Block>
+      //     );
+      //   } else {
+      //     c.title = 'Woohoo, your ticket is claimed!';
+      //     c.action = (
+      //       <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+      //         ## Great job! Now let&apos;s setup your account!
+      //         <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+      //       </Block>
+      //     );
+      //   }
+      // }
     } else {
-      c.title = 'Hmm, looks like you don\'t have a ticket to WDS';
+      c.title = "Hmm, looks like you don't have a ticket to WDS";
     }
     return c;
   }
@@ -177,7 +218,7 @@ export class App extends Component {
     const tickets = this.props.auth.me.tickets;
     this.tickets = { claimed: [], unclaimed: [], countStr: '', count: 0 };
     if (tickets !== undefined && _.isArray(tickets) && tickets.length) {
-      tickets.forEach((ticket) => {
+      tickets.forEach(ticket => {
         if (ticket.status === 'unclaimed') {
           this.tickets.unclaimed.push(ticket);
         } else {
@@ -195,15 +236,18 @@ export class App extends Component {
   claimForMe(e) {
     e.preventDefault();
     this.setState({ status: 'claiming-me' });
-    api('post me/claim-ticket', {})
-    .then((rsp) => {
-      this.setState({ justClaimedMe: true, status: 'claimed-me', claimCount: (this.state.claimCount + 1) });
+    api('post me/claim-ticket', {}).then(rsp => {
+      this.setState({
+        justClaimedMe: true,
+        status: 'claimed-me',
+        claimCount: this.state.claimCount + 1,
+      });
       this.props.act.updateMe('tickets', rsp.data.tickets);
     });
   }
   meClaimed() {
     let claimed = false;
-    this.tickets.claimed.forEach((v) => {
+    this.tickets.claimed.forEach(v => {
       if (v.user_id === this.props.auth.me.user_id) {
         claimed = true;
       }
@@ -212,12 +256,17 @@ export class App extends Component {
   }
   giveTicket(form) {
     return new Promise((resolve, reject) => {
-      api('post me/give-ticket', form.state.form)
-      .then(rsp => resolve(rsp.data));
+      api('post me/give-ticket', form.state.form).then(rsp =>
+        resolve(rsp.data)
+      );
     });
   }
   ticketedSuccess(rsp) {
-    this.setState({ justClaimedMe: false, status: 'assigned-ticket', claimCount: (this.state.claimCount + 1) });
+    this.setState({
+      justClaimedMe: false,
+      status: 'assigned-ticket',
+      claimCount: this.state.claimCount + 1,
+    });
     setTimeout(() => {
       this.form.clear();
       setTimeout(() => {
@@ -251,7 +300,9 @@ export class App extends Component {
   }
   renderTicketSetup() {
     const progress = _.shuffle([
-      'Dominating the World...', 'Crunching Numbers...', 'Beaming Electrons...',
+      'Dominating the World...',
+      'Crunching Numbers...',
+      'Beaming Electrons...',
     ])[0];
     const ts = this.tickets;
     const on = ts.claimed.length + 1;
@@ -266,7 +317,14 @@ export class App extends Component {
       >
         <h3>{`Ticket ${on} of ${total}`}</h3>
         {this.renderError()}
-        <Form ref={this.setForm} onSubmit={this.giveTicket} onSuccess={this.ticketedSuccess} onError={this.ticketedError} buttonStart="Give Ticket" buttonProgress={progress}>
+        <Form
+          ref={this.setForm}
+          onSubmit={this.giveTicket}
+          onSuccess={this.ticketedSuccess}
+          onError={this.ticketedError}
+          buttonStart="Give Ticket"
+          buttonProgress={progress}
+        >
           <FormRow>
             <Input id="first_name" placeholder="Attendee&apos;s First Name" />
           </FormRow>
@@ -283,21 +341,37 @@ export class App extends Component {
   renderClaim() {
     this.prepareTickets();
     const content = this.claimTree();
-    const title = content.title !== undefined ? content.title : `Woohoo! You have ${this.tickets.countStr} to WDS 2017!`;
+    const title =
+      content.title !== undefined
+        ? content.title
+        : `Woohoo! You have ${this.tickets.countStr} to WDS 2017!`;
     return (
       <Section color="orange" styleName="shell" className="fillScreen">
         <Image
           src="pattern/dot-cover.png"
           width="100%"
           height="90%"
-          css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}
+          css={{
+            position: 'absolute',
+            top: '40px',
+            left: '-280px',
+            zIndex: '-1',
+          }}
           mobile={{ phone: { display: 'none' } }}
         />
         <Block align="center" textAlign="center">
-          <Image src="logo.png" width="123" height="26" fit="contain" margin="-104px auto 80px" />
+          <Image
+            src="logo.png"
+            width="123"
+            height="26"
+            fit="contain"
+            margin="-104px auto 80px"
+          />
         </Block>
         <Block>
-          <h1>{title}</h1>
+          <h1>
+            {title}
+          </h1>
         </Block>
         <Block>
           {content.action}
@@ -319,7 +393,6 @@ function mapDispatchToProps(dispatch) {
   return { act: bindActionCreators(actions, dispatch) };
 }
 
-
 function mapStateToProps(state) {
   return {
     auth: state.auth.toJS(),
@@ -335,4 +408,6 @@ App.propTypes = {
   }),
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(App, styles));
+export default connect(mapStateToProps, mapDispatchToProps)(
+  CSSModules(App, styles)
+);
