@@ -153,14 +153,16 @@ export class App extends Component {
             const all = total === 2 ? 'both' : 'all';
             c.action = (
               <Block styleName="action" background="spice">
-                <h2>Will you be joining us there?</h2>
-                <p>Is one of your tickets for you?</p>
-                <Button onClick={this.claimForMe}>
+                <h2>We're so glad you'll be back next year!</h2>
+                <p>You should receive an email with more details shortly.</p>
+                {/* <h2>Will you be joining us there?</h2> */}
+                {/* <p>Is one of your tickets for you?</p> */}
+                {/* <Button onClick={this.claimForMe}>
                   {meClaimMsg}
                 </Button>
                 <Button onClick={this.showGiveTicket}>
                   {`Nope, they're ${all} for other people.`}
-                </Button>
+                </Button> */}
               </Block>
             );
           }
