@@ -8,18 +8,16 @@
 >
   <Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
   <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2018:</h2>
     ## June 26 - July 2, 2018 in Portland, Oregon 
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
-
-    Since 2011, WDS has brought together more than 10,000 people from more than forty countries aroun the core values of Community, Adventure, and Service. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue a big dream. 
 
    For 2018 we are returning to the beautiful and intimate Newmark Theater, bringing back Expeditions, and as always, we'll have a few suprises for our time together.
     
    All that’s missing is YOU!
       
-    <p>All tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
+    <p>All tickets cost <b>$547</b> (early bird price) and are sold on a first-come, first-served basis.</p>
     
     <Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
 
