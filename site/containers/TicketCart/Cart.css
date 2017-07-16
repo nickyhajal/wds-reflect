@@ -176,6 +176,9 @@
 .cardName {
     font-family: KarlaBold;
     color: $white;
+    clear: both;
+    text-align: left;
+    margin-top: 24px;
 }
 
 .cardIntro {
