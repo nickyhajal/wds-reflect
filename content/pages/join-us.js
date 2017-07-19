@@ -19,10 +19,10 @@
       
     <p>All tickets cost <b>$547</b> (early bird price) and are sold on a first-come, first-served basis.</p>
     
-    <Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join us at WDS 2018</Button>
-
+    ## SOLD OUT: Early Bird tickets are no longer available
     </Block>
 </Section>
+<Import id="join-us" />
 <Section color="sea" bound={false}>
   <Block margin="50px 0 50px 0">
     ## What's Included in My Ticket
@@ -62,4 +62,3 @@
     </Grid>
   </Block>
 </Section>
-<Import id="buy-box" />
