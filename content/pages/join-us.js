@@ -20,6 +20,9 @@
     <p>All tickets cost <b>$547</b> (early bird price) and are sold on a first-come, first-served basis.</p>
     
     ## SOLD OUT: Early Bird tickets are no longer available
+    If you'd still like to join us for WDS 2018, please join the wait list using the button below to be notified when tickets go on sale next. 
+
+<Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
     </Block>
 </Section>
 <Section color="sea" bound={false}>
