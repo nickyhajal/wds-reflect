@@ -70,7 +70,9 @@
   </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Lodging
-    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel)*, all within walking distance or a quick ride on public transit to WDS events and activities. 
+    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. 
+    
+    Here is an example of five amazing Portland properties (including the all new WDS Hotel)* we secured rooms with for WDS 2017, all within walking distance or a quick ride on public transit to WDS events and activities. 
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
@@ -83,35 +85,32 @@
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
        <p><i>Registration is only available for 4-night packages and through WDS.</i></p> 
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
-      <Button to="https://worlddominationsummit.com/hotel" newWindow={true}>SOLD OUT!</Button>
+  
     </Block>
     <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
       <p><i>Book online using the group code <b>"WDS17"</b> or call 503.223.9900. Be sure to tell them you're with WDS.</i></p>
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
-      <Button to="http://uspor.webhotel.microsdc.us/bp/search_rooms.jsp?groupCode=WDS17" newWindow={true}>Book Online</Button>
+
     </Block>
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
       ## Hotel Modera
       A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. 
       <p><i>Discounts for the Hotel Modera are now closed. Please consider the other options.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/T3BnDWTY9oq">(Google Directions)</Link></p> 
-<Button to="" newWindow={true}>Closed</Button>    
 </Block>
   <Block type="image" src="photos/hilton.png">
       ## Hilton Portland
       The modern Hilton Portland & Executive Tower is conveniently located in the heart of downtown next to great restaurants and venues. The Hilton Portland comprises of two buildings: the landmark Hilton Portland and the upscale Executive Tower with spacious guest rooms and executive level amenities.     
   <p><i>Book online using the button below. No special code is required.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/UYkeGdPMfqJ2">(Google Directions)</Link></p> 
-<Button to="" newWindow={true}>Closed</Button>    
 </Block>
  <Block type="image" src="photos/Jupiter-Hotel-exterior.jpg">
       ## Jupiter Hotel
       The Jupiter Hotel is a mid-century, renovated motor inn-turned-boutique hotel located just across the river from downtown in the heart of one of Portland's most vibrant neighborhoods. The Jupiter hotel offers modern guestrooms that surprise and connect guests to the vibrancy of Portland at affordable rates.  
   <p><i>To reserve a room please email or call the Jupiter staff at <b>sales@jupiterhotel.com</b> or call <b>503.230.9200</b> and ask for the Sales Department. Don't forget to mention WDS.</i></p> 
       <p>1.5 Mi from Base <Link to="https://goo.gl/maps/zqv2uKd4GKG2">(Google Directions)</Link></p> 
-<Button to="tel:503.230.9200" newWindow={true}>Call to Book</Button>    
 </Block>
   </Grid>
   
@@ -123,11 +122,11 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
       ### Portland State
-      <Link to="https://housingportal.pdx.edu/StarRezPortal/Go/Conference/136">0.6 Mi from Base</Link>
+      <Link to="https://goo.gl/maps/RNiHaty8MHL2">0.6 Mi from Base</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### Portland NW Hostel
-      <Link to="http://nwportlandhostel.com/">1.0 Mi from Base</Link>
+      <Link to="https://goo.gl/maps/3Y1QFLkeBDK2">1.0 Mi from Base</Link>
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb listings
