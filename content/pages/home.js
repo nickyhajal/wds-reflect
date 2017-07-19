@@ -12,8 +12,8 @@
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
-    ## July 11 - 17, 2017 in Portland, Oregon
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2018:</h2>
+    ## June 26 - July 2, 2017 in Portland, Oregon
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
@@ -21,7 +21,7 @@
 
     With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.
     
-    We’re doing it again in 2017, and all that’s missing is YOU!
+    We’re doing it again in 2018, and all that’s missing is YOU!
   </Block>
 </Section>
 <Section color="green" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
