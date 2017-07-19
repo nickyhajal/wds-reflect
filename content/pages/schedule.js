@@ -14,7 +14,7 @@
     preload
   />
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
-    ## A Week of WDS: July 11th - 17th, 2017
+    ## A Week of WDS: June 26th - July 2nd, 2018
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups
     - **Wednesday** Small Group Activities and Attendee-Led Meetups
@@ -29,9 +29,9 @@
   <div className="clear" />
 </Section>
   <Section color="canvas">
-  <Block>## WDS 2017 Speakers and Special Guests</Block>
+  <Block>## Speakers and Special Guests from WDS 2017</Block>
   <Block cols="6" className="bigger">
-    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are the confirmed speakers so far for WDS 2017 with more being announced each month.  
+    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are some of our most recent speakers from WDS 2017.  
   </Block>
   <Tabs style="dots">
     <Tab title="Vanessa">
