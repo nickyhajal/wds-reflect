@@ -22,7 +22,6 @@
     ## SOLD OUT: Early Bird tickets are no longer available
     </Block>
 </Section>
-<Import id="join-us" />
 <Section color="sea" bound={false}>
   <Block margin="50px 0 50px 0">
     ## What's Included in My Ticket
@@ -62,3 +61,4 @@
     </Grid>
   </Block>
 </Section>
+<Import id="join-us" />
