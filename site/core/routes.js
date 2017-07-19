@@ -36,7 +36,8 @@ const routes = (
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
-    <Route path="/be-there" component={TicketPurchase} />
+    {/* <Route path="/be-there" component={TicketPurchase} /> */}
+     <Route path="/fox-family" component={TicketPurchase} /> 
     <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />
     <Route path="/events/meetups/:id" component={HashLogin} />
