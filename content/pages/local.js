@@ -32,6 +32,10 @@
       ## New York City,   New York
       <Button to="https://www.facebook.com/groups/NYCWDS/" newWindow={true} fitToText>Join Up</Button>
     </Block>
+<Block type="image-narrow" src="photos/wdslocal/NorthBay.WDS.local.png">
+      ## North Bay, California
+      <Button to="https://www.facebook.com/groups/124075594879283/" newWindow={true} fitToText>Join Up</Button>
+    </Block>
  <Block type="image-narrow" src="photos/wdslocal/philadelphia.WDS.local.png">
       ## Philadelphia, Pennsylvania
       <Button to="https://www.facebook.com/groups/WDSLocalPhiladelphia/" newWindow={true} fitToText>Join Up</Button>
