@@ -36,6 +36,10 @@
       ## North Bay, California
       <Button to="https://www.facebook.com/groups/124075594879283/" newWindow={true} fitToText>Join Up</Button>
     </Block>
+ <Block type="image-narrow" src="photos/wdslocal/ohio.WDS.local.png">
+      ## Ohio
+      <Button to="https://www.facebook.com/groups/wdslocalohio/" newWindow={true} fitToText>Join Up</Button>
+    </Block>
  <Block type="image-narrow" src="photos/wdslocal/philadelphia.WDS.local.png">
       ## Philadelphia, Pennsylvania
       <Button to="https://www.facebook.com/groups/WDSLocalPhiladelphia/" newWindow={true} fitToText>Join Up</Button>
