@@ -15,7 +15,7 @@
     className="bigger"
   >
       <Block type="padded" background="green">
-    <Block cols="5">
+  
       ## Join us for our Refugee Restart Kits Collection Day!
       ###September 16th, 2017
       
@@ -38,25 +38,6 @@ We have always been an affirming and inclusive community. However, we do _not_ h
 
 With the unprecedented rhetoric against immigrants, Muslims, minorities, and other historically disadvantaged groups unfolding in our world, WDS is taking a more active stand for social justice.
 
-<Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-overlay" anchor="right" src="photos/Team+Everybody.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Team Everybody
-        We’ve formed “Team Everybody”, a task force to make sure that, well, everybody’s perspective is heard as we plan WDS.
-      </Block>
-      <Block type="image-overlay" anchor="left" src="photos/Charles+Hunt.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Speaker Diversity
-        Our main-stage speaker lineup has always been diverse and inclusive, but we're making sure to invite activists who’ve taken real risks to advance equality and civil rights
-      </Block>
-      <Block type="image-overlay" anchor="right" src="photos/Local+Leaders.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Powell’s Books
-        We’re meeting with local activists and community leaders in Portland and inviting more of them to be part of WDS.
-      </Block>
-      <Block type="image-overlay" anchor="left" src="photos/Welcome+Kit.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Refugee Care Collective
-        <p>We partnered with the Portland non-profit, **<Link to="http://refugeecarecollective.org/">Refugee Care Collective</Link>**, to help our community learn how we can be more welcoming to our new neighbors coming from places of great hardship.</p>
-      </Block>
-    </Grid>
-
 <Image src="photos/Supper+Club.jpg" width="640" height="427" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
           
           **Remember:** we’re in this together! Thank you for joining with us to make the world a better and more welcoming place.
@@ -71,7 +52,6 @@ To learn more about refugees in the U.S. and refugee services, visit the Refugee
   <p>**If you're not an Oregon resident, <Link to="https://static1.squarespace.com/static/580e4274e58c624696efadc6/t/595a92019de4bbb650b10ec0/1499107841341/Public+Affiliate+Directory+7-3-17.pdf">check these listings</Link> and <Link to="https://static1.squarespace.com/static/580e4274e58c624696efadc6/t/583c76e7440243877aff59ef/1480357955543/PRM-RPP+Affilaite+Sites+2016+-+LG">this map</Link> for refugee resettlement service organizations in your State**</p> 
 
 </Block>
-  
   </Block>
 </Section>
 <Import id="join-us" />      
