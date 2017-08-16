@@ -13,15 +13,21 @@
     mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
     preload
   />
+<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## A Week of Celebrating Community, Adventure, and Service
+    As we've done since year one, the main events (keynotes and celebrations) take place during the weekend of the WDS week.
+
+Additionally, every attendee will have the ability to add events and activities throughout the entire week to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a WDS 360 ticket gives you access to it all.
+  </Block>
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
     ## A Week of WDS: June 26th - July 2nd, 2018
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday** Small Group Activities and Attendee-Led Meetups
+    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
-    <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Opening Party</li>
-    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
-    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
+    <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Attendee-Led Meetups, and the Opening Party</li>
+    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
+    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li>
     - **Monday** Academies and Attendee-Led Meetups
       <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>
   </Block>
