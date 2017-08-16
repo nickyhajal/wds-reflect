@@ -17,10 +17,10 @@
     
    All that’s missing is YOU!
       
-    <p>All tickets cost <b>$547</b> (early bird price) and are sold on a first-come, first-served basis.</p>
+    <p>All tickets cost <b>$697</b> and are sold on a first-come, first-served basis.</p>
     
-    ## SOLD OUT: Early Bird tickets are no longer available
-    Join the wait list using the button below to be the first to know when tickets for WDS 2018 go on sale next. 
+    ## Save the Date: the next ticket sale for WDS 2018 is Wednesday, October 25th 
+    Join the wait list using the button below to be the first to get notified when tickets for WDS 2018 go on sale. 
 
 <Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
     </Block>
