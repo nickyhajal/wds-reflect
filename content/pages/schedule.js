@@ -7,18 +7,18 @@
   preload
 >
   <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
-  <Image src="photos/audience.png"
+<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## How the Schedule Works
+    As we've done since year one, the main events (keynotes and celebrations) take place during the weekend of WDS.
+
+Additionally, every attendee will have the ability to add events and activities throughout the entire week to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a WDS 360 ticket gives you access to it all.
+  </Block>
+ <Image src="photos/audience.png"
     width="426" height="263"
     margin="0 0 -100px -50px"
     mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
     preload
   />
-<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## A Week of Celebrating Community, Adventure, and Service
-    As we've done since year one, the main events (keynotes and celebrations) take place during the weekend of the WDS week.
-
-Additionally, every attendee will have the ability to add events and activities throughout the entire week to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a WDS 360 ticket gives you access to it all.
-  </Block>
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
     ## A Week of WDS: June 26th - July 2nd, 2018
 
