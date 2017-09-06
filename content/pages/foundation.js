@@ -19,7 +19,7 @@
   </Block>
 </Section>
 <Section color="canvas">
-  <Block>## Featured Project</Block>
+  <Block>## Featured Projects</Block>
   <Tabs style="dots">
     <Tab title="Jolyn">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Jolyn.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
