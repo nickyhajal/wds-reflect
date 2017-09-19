@@ -2,8 +2,8 @@ name: "Mohammed Faris",
 year: "2017",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/mohammed.faris.WDS.2017.speaker.png",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/mohammed.faris.WDS.2017.speaker.thumbnail.png",
-video: "https://vimeo.com/229735837/",
-quote: "It's not about the dollars and the followers. It's about long-lasting impact that truly brings benefit to yourself and those around you and society at large".
+video: "https://vimeo.com/229735837",
+quote: "It's not about the dollars and the followers. It's about long-lasting impact that truly brings benefit to yourself and those around you and society at large.",
 ---
 **Mohammed Faris** is an international author, speaker and leader of a community with more than one million people. He started his journey in 2007 when he became obsessed with the question: "Can faith boost productivity?" Mohammed has since spent the last decade trying to answer this question - from his own Islamic faith tradition - his popular blog, [ProductiveMuslim.com](http://ProductiveMuslim.com), and his new book "The Productive Muslim: Where Faith Meets Productivity"
 
