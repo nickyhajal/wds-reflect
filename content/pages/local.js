@@ -20,6 +20,10 @@
       ## Chicago, Illinois
       <Button to="https://www.facebook.com/groups/wdslocalchicago/" newWindow={true} fitToText>Join Up</Button>
     </Block>
+<Block type="image-narrow" src="photos/wdslocal/Dubai.WDS.local.png">
+      ## Dubai, UAE
+      <Button to="" newWindow={true} fitToText>Join Up</Button>
+    </Block>
       <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California
       <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
