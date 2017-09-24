@@ -28,6 +28,10 @@
       ## Minneapolis/St.Paul, Minnesota
       <Button to="https://www.facebook.com/groups/WDSLocalMSP/" newWindow={true} fitToText>Join Up</Button>
     </Block>
+<Block type="image-narrow" src="photos/wdslocal/Montreal.WDS.local.png">
+      ## Montreal, Canada
+      <Button to="https://www.facebook.com/groups/362773834180748//" newWindow={true} fitToText>Join Up</Button>
+    </Block>
     <Block type="image-narrow" src="photos/wdslocal/new.york.city.WDS.local.png">
       ## New York City,   New York
       <Button to="https://www.facebook.com/groups/NYCWDS/" newWindow={true} fitToText>Join Up</Button>
