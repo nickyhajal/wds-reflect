@@ -58,9 +58,14 @@ import MeetupForm from '../../site/components/MeetupForm';
   preload
 >
   <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## Your Base in Portland, OR{'\n'}
+    Our beloved city is one of the most electic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers.  For 2018 we'll be based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. {'\n'}
+  </Block>
+    
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
     <Block width="100%">
-      ## Your Base in Portland{'\n'}
+      ## WDS 2018 Homebase{'\n'}
     </Block>
     <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
       <PDXLocationMap
@@ -80,6 +85,7 @@ import MeetupForm from '../../site/components/MeetupForm';
     </Block>
     <Block anchor="left" width="370px" textAlign="left">
       <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
+        ### Newmark Theatre{'\n'}
         ### 1037 SW Broadway,{'\n'}
         ### Portland, OR 97205{'\n'}
       </Block>
@@ -97,7 +103,9 @@ import MeetupForm from '../../site/components/MeetupForm';
   </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Lodging{'\n'}
-    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. This year we&apos;ve secured rooms at these five amazing Portland properties (including the all new WDS Hotel)*, all within walking distance or a quick ride on public transit to WDS events and activities. {'\n'}
+    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. {'\n'}
+    
+    Here is an example of five amazing Portland properties (including the all new WDS Hotel)* we secured rooms with for WDS 2017, all within walking distance or a quick ride on public transit to WDS events and activities. {'\n'}
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
@@ -108,37 +116,29 @@ import MeetupForm from '../../site/components/MeetupForm';
     <Block type="image" src="photos/society-hotel.jpg">
       ## WDS Hotel™{'\n'}
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. {'\n'}
-       <p><i>Registration is only available for 4-night packages and through WDS.</i></p> 
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
-      <Button to="https://worlddominationsummit.com/hotel" newWindow={true}>SOLD OUT!</Button>
+  
     </Block>
     <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel {'\n'}
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
-      <p><i>Book online using the group code <b>"WDS17"</b> or call 503.223.9900. Be sure to tell them you're with WDS.</i></p>
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/6D6mJGAY7dv">(Google Directions)</Link></p> 
-      <Button to="http://uspor.webhotel.microsdc.us/bp/search_rooms.jsp?groupCode=WDS17" newWindow={true}>Book Online</Button>
+
     </Block>
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
       ## Hotel Modera{'\n'}
       A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. {'\n'}
-      <p><i>Discounts for the Hotel Modera are now closed. Please consider the other options.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/T3BnDWTY9oq">(Google Directions)</Link></p> 
-<Button to="" newWindow={true}>Closed</Button>    
 </Block>
   <Block type="image" src="photos/hilton.png">
       ## Hilton Portland{'\n'}
       The modern Hilton Portland & Executive Tower is conveniently located in the heart of downtown next to great restaurants and venues. The Hilton Portland comprises of two buildings: the landmark Hilton Portland and the upscale Executive Tower with spacious guest rooms and executive level amenities.     {'\n'}
-  <p><i>Book online using the button below. No special code is required.</i></p> 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/UYkeGdPMfqJ2">(Google Directions)</Link></p> 
-<Button to="" newWindow={true}>Closed</Button>    
 </Block>
  <Block type="image" src="photos/Jupiter-Hotel-exterior.jpg">
       ## Jupiter Hotel{'\n'}
       The Jupiter Hotel is a mid-century, renovated motor inn-turned-boutique hotel located just across the river from downtown in the heart of one of Portland's most vibrant neighborhoods. The Jupiter hotel offers modern guestrooms that surprise and connect guests to the vibrancy of Portland at affordable rates.  {'\n'}
-  <p><i>To reserve a room please email or call the Jupiter staff at <b>sales@jupiterhotel.com</b> or call <b>503.230.9200</b> and ask for the Sales Department. Don't forget to mention WDS.</i></p> 
       <p>1.5 Mi from Base <Link to="https://goo.gl/maps/zqv2uKd4GKG2">(Google Directions)</Link></p> 
-<Button to="tel:503.230.9200" newWindow={true}>Call to Book</Button>    
 </Block>
   </Grid>
   
@@ -150,11 +150,11 @@ import MeetupForm from '../../site/components/MeetupForm';
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
       ### Portland State{'\n'}
-      <Link to="https://housingportal.pdx.edu/StarRezPortal/Go/Conference/136">0.6 Mi from Base</Link>
+      <Link to="https://goo.gl/maps/RNiHaty8MHL2">0.6 Mi from Base</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### Portland NW Hostel{'\n'}
-      <Link to="http://nwportlandhostel.com/">1.0 Mi from Base</Link>
+      <Link to="https://goo.gl/maps/3Y1QFLkeBDK2">1.0 Mi from Base</Link>
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb listings{'\n'}
@@ -224,8 +224,8 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
 </Section>
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets are sold out!</Block>
-  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block margin="50px 0">## Join us at WDS 2018; June 26 - July 2</Block>
+  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2018 Waiting List"
@@ -243,6 +243,7 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Form>
   </Block>
 </Section>
+
 
 
 

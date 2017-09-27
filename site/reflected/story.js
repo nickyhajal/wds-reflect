@@ -44,7 +44,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     
     With a full week of events and an unforgettable keynote speaker-filled weekend, you'll learn from unconventional thinkers, aquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
   
-    This July, we’re inviting all our friends (you!) to Portland for the seventh WDS. As always, some things this year will be new, but our core principles of Community, Adventure, and Service will continue to guide our shared pursuit of changing the world.{'\n'}
+    In June of 2018, we’re inviting all our friends (you!) to Portland for the eighth WDS. As always, some things next year will be new, but our core principles of Community, Adventure, and Service will continue to guide our shared pursuit of changing the world.{'\n'}
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
@@ -281,8 +281,8 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
 </Section>
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets are sold out!</Block>
-  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block margin="50px 0">## Join us at WDS 2018; June 26 - July 2</Block>
+  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2018 Waiting List"
@@ -300,6 +300,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
     </Form>
   </Block>
 </Section>
+
 
 
 

@@ -28,7 +28,7 @@ import MeetupForm from '../../site/components/MeetupForm';
   const Page = (props) => (
     <div>
       <Section
-  headerVideo="184868405"
+  headerVideo="229733331"
   headerImage="hero/balls.jpg"
   headerClip="lr_header"
   color="canvas"
@@ -41,8 +41,8 @@ import MeetupForm from '../../site/components/MeetupForm';
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
-    ## July 11 - 17, 2017 in Portland, Oregon{'\n'}
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2018:</h2>
+    ## June 26 - July 2, 2018 in Portland, Oregon{'\n'}
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
@@ -50,7 +50,7 @@ import MeetupForm from '../../site/components/MeetupForm';
 
     With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.{'\n'}
     
-    We’re doing it again in 2017, and all that’s missing is YOU!{'\n'}
+    We’re doing it again in 2018, and all that’s missing is YOU!{'\n'}
   </Block>
 </Section>
 <Section color="green" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
@@ -161,8 +161,8 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
 </Section>
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets are sold out!</Block>
-  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block margin="50px 0">## Join us at WDS 2018; June 26 - July 2</Block>
+  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2018 Waiting List"
@@ -180,6 +180,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     </Form>
   </Block>
 </Section>
+
 
 <Section color="green" clip="top_lr_2.6" margin="-22px 0 0">
   <Block margin="50px 0" width="420px">

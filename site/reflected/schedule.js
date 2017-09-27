@@ -36,21 +36,25 @@ import MeetupForm from '../../site/components/MeetupForm';
   preload
 >
   <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
-  <Image src="photos/audience.png"
+<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## How the WDS Schedule Works{'\n'}
+    As we've done since year one, the main events (keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a WDS 360 ticket gives you access to it all.{'\n'}
+  </Block>
+ <Image src="photos/audience.png"
     width="426" height="263"
     margin="0 0 -100px -50px"
     mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
     preload
   />
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
-    ## A Week of WDS: July 11th - 17th, 2017{'\n'}
+    ## A Week of WDS: June 26th - July 2nd, 2018{'\n'}
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups{'\n'}
-    - **Wednesday** Small Group Activities and Attendee-Led Meetups{'\n'}
+    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups{'\n'}
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups{'\n'}
-    <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Opening Party</li>
-    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Evening Activities</li>
-    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Closing Party</li>
+    <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Attendee-Led Meetups, and the Opening Party</li>
+    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
+    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li>
     - **Monday** Academies and Attendee-Led Meetups{'\n'}
       <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>
   </Block>
@@ -58,9 +62,9 @@ import MeetupForm from '../../site/components/MeetupForm';
   <div className="clear" />{'\n'}
 </Section>
   <Section color="canvas">
-  <Block>## WDS 2017 Speakers and Special Guests</Block>
+  <Block>## Speakers and Special Guests from WDS 2017</Block>
   <Block cols="6" className="bigger">
-    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are the confirmed speakers so far for WDS 2017 with more being announced each month.  {'\n'}
+    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are some of our most recent speakers from WDS 2017.  {'\n'}
   </Block>
   <Tabs style="dots">
     <Tab title="Vanessa">
@@ -190,8 +194,8 @@ import MeetupForm from '../../site/components/MeetupForm';
 </Section>
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets are sold out!</Block>
-  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block margin="50px 0">## Join us at WDS 2018; June 26 - July 2</Block>
+  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2018 Waiting List"
@@ -209,6 +213,7 @@ import MeetupForm from '../../site/components/MeetupForm';
     </Form>
   </Block>
 </Section>
+
 
 
 

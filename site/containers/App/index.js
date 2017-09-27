@@ -130,7 +130,6 @@ export class App extends Component {
     return nav;
   }
   renderSiteMode() {
-    console.log('SITE');
     const status = this.props.auth.me ? 'logged-in' : 'logged-out';
     const subNav = this.subNav();
     const className = `${status} ${subNav ? 'hasSubNav' : 'noSubNav'}`;
@@ -159,7 +158,6 @@ export class App extends Component {
     );
   }
   renderFocusMode() {
-    console.log('FOCUS');
     return (
       <main>
         {this.props.children}

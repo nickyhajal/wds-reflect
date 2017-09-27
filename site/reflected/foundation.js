@@ -48,30 +48,57 @@ import MeetupForm from '../../site/components/MeetupForm';
   </Block>
 </Section>
 <Section color="canvas">
-  <Block>## Featured Project</Block>
+  <Block>## Featured Projects</Block>
   <Tabs style="dots">
-    <Tab title="Emily Wray">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/Emily+Wray.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
+    <Tab title="Jolyn">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Jolyn.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
       <Block cols="6" textAlign="left">
-        ## Voices of Petersburg - 2015{'\n'}
+        ## Jolyn GC Gallery - 2017{'\n'}
 
-        We’ve all experienced moments when we struggling to put into words an experience or emotion. Voices of Petersburg is a three-day digital storytelling workshop for clients of Petersburg Mental Health Services in Petersburg, Alaska. Participants choose an experience they want to share and write a script for a digital story to give voice to their struggles and triumphs. The process of writing, choosing supportive media assets, and bringing the story to the screen provides a platform for healing unique to the mental health therapies.{'\n'}
-
-<p>With the help of the Foundation, Emily and her team will build a mobile curriculum that can travel outside of Petersburg and assist individuals in mental health facilities around the U.S. She is currently looking for assistance with social media, fundraising, and product development. you. If you are interested in contributing to her project, visit <Link to="http://emily-wray-vh7i.squarespace.com/">voicesofpetersburgak.com</Link>.</p>
+        Calling all emerging artists, art learners, art lovers, and art leaders!  Have you been thinking of ways to make the art world more inclusive and accessible?  Well, 2017 Voyager Jolyn Gardner has set out to create a digital marketplace that showcases and brings to center, the amazing and underrepresented work of emerging artists of the African Diaspora, a group often marginalized and ignored by the traditional art world.{'\n'}
+        
+        With the help of the Foundation, Jolyn will leverage current technology to create a virtual gallery going experience featuring emerging artists in curated exhibitions and art web series' accessible via smart device along with an art web series. {'\n'}
+        
       </Block>
     </Tab>
-    <Tab title="Valerie Groth">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation_valerie.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>{'\n'}
+     <Tab title="Chelsea">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Chelsea.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
       <Block cols="6" textAlign="left">
-        ## Ryan Banks Academy - 2015{'\n'}
+        ## Global Gastros - 2017{'\n'}
 
-        School teachers in urban districts face special challenges in promoting their students’ long-term academic success. It is no surprise that so-called “failing” schools are disproportionately situated in urban centers with high rates of poverty and crime. Valerie Groth is a mission to change that for Chicago-area students. In 2014, she founded Ryan Banks Academy, a coeducational boarding school that seeks to impact the lives of students through a rigorous college and career preparatory education, a supportive boarding program, and a focus on personal development in a positive environment. The goal of Ryan Banks Academy is to teach students not only the value of education, but also encourage them to focus on cultivating their own unique strengths, interests, and passions so that they may lead a purpose-filled life. Curriculum focuses not only on academic pursuits, but also on developing their relationships, core values, and mindset.{'\n'}
-
-<p>There are many steps in her journey to build the school, and the Scholarship for Real Life grant will be helping get her fundraising efforts of the ground, as well as help support her burgeoning volunteer program. She is currently looking for assistance with grant writing and donor outreach, as well as anyone with a background in curriculum development. If you are interested in contributing to Ryan Banks Academy, you can email <Link to="mailto:ryanbanksacademy@gmail.com">ryanbanksacademy@gmail.com</Link> or visit <Link to="http://www.ryanbanksacademy.org">ryanbanksacademy.org</Link></p>
+        How much do you know about where your food comes from? And not the ‘Portlandia’-style meeting your chickens, but the history and deeper understanding of where quinoa comes from and why it is a superfood? Travel writer and trained anthropologist, Chelsea Rae Schmidt’s vision is to preserve diversity in our world’s food systems through the study and promotion of traditional recipes, indigenous ingredients, and unique culinary traditions. Her project, called Global Gastros, focuses on working with communities in the Nordic region (focused on Sweden and Copenhagen), the Southwest United States (focusing on Native American culinary traditions and recipes), and in the Amazon (spending time in Colombia, Peru, and Brazil) to help bring awareness to the issue of food culture preservation. {'\n'}
+        
+        Through Scholarship funds, Chelsea will lead workshops in the communities, lead supper clubs and start work toward developing a cookbook to continue to pass on this knowledge of food and culture and plans to share all her research and all the collected recipes in an online, open-source database {'\n'}
       </Block>
     </Tab>
-    <Tab title="Ben & Amberlynn Slavin">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/photos/SnapType.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
+        <Tab title="Andrew & Michelle">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Andrew-and-Michelle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
+      <Block cols="6" textAlign="left">
+        ## Self Care 101 for Educators - 2017{'\n'}
+
+      We can all agree that self-care is extremely important, right? And I think we can all agree that educators, with taxing, demanding jobs, have an even greater need for support to ensure they are taken care of. That is what inspired Andrew Nance and Michelle Holdt to create Self Care 101 for Educators.{'\n'}
+      
+      Andrew and Michelle are both very passionate about bringing mindfulness and arts integration to teachers and illustrating how the two connect to creating a life worth living. Through a workshop for public school teachers in underserved communities across the United States, the project will give educators the tools to bring these practices to both their own lives and those of their students.{'\n'}
+      
+      The Scholarship for Real Life grant will help jump start the project first year (for the 2017-2018 school year) and will create a model for continued implementation over the next three to five years - with the end goal being to create a National Model and eventually train other educators to bring this work to more schools and districts. {'\n'}
+        
+      </Block>
+    </Tab>
+      <Tab title="Lindsay & Leah">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Lindsay-and-Leah.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
+      <Block cols="6" textAlign="left">
+        ## Upside Down Sound - 2017{'\n'}
+      
+      Have you ever wanted to learn something new? Think about how difficult that is. Now imagine you have down syndrome and the extra layer of challenge that presents… Lindsay Stodden’s sister, Leah, has down syndrome, and has been her inspiration for creating Upside Down Sound, a piano-based app for individuals with down syndrome, to encourage cognitive stimulation, physical activity, and decrease social isolation among this population.{'\n'}
+      
+      Charged with the knowledge that there is a growing number of adults with Down syndrome (DS) who, because of their genetic makeup, are highly at-risk for developing Alzheimer’s Disease (AD), likely to experience physical health conditions, and at-risk to develop mental illnesses such as depression due to social isolation.{'\n'}
+      
+      Seeing the benefits that have come from Leah learning and playing piano her whole life, the two wanted to extend those benefits to others with down syndrome. Using basic piano lessons as curriculum, UDS will encourage cognitive stimulation, and the app makes learning accessible and fun, as there are no passwords to memorize or barriers to entry, and celebrations at each level of completion. The Scholarship for Real Life will allow UDS to become a reality and Lindsay and Leah are excited for the app to not only support others with down syndrome but other populations for which cognitive stimulation will improve their quality and length of life. {'\n'}
+
+      </Block>
+    </Tab>
+    <Tab title="Ben & Amberlynn">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Ben-and-Amberlynn-Slavin.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
       <Block cols="6" textAlign="left">
         ## SnapType - 2016{'\n'}
 
@@ -86,8 +113,8 @@ A WDS Foundation scholarship was granted to help fund the development of SnapTyp
 <p>To learn more, or to contact Ben and Amberlynn, visit <Link to="http://www.snaptypeapp.com">SnapTypeApp.com</Link>.</p>
       </Block>
     </Tab>
-<Tab title="Marla & Kasha Slavner">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/photos/Global+Sunrise+Project.png" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
+<Tab title="Marla & Kasha">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Global+Sunrise+Project.png" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
       <Block cols="6" textAlign="left">
         ## The Global Sunrise Project - 2016{'\n'}
 
@@ -100,8 +127,8 @@ With the generous help of the WDS Scholarship for Real Life grant, Marla and Kas
 <p>They are currently looking for website designers, developers, influencer mentors/advisors & community builders to contribute their talents and expertise. If you have an interest in contributing to their project please visit <Link to="http://theglobalsunriseproject.com">The Global Sunrise Project</Link> & email <Link to="mailto:theglobalsunriseproject@gmail.com">theglobalsunriseproject@gmail.com</Link>.</p>
       </Block>
     </Tab>
-<Tab title="Kathleen and Joe Sindorf">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/photos/Kathleen+and+Joe+Sindorf.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
+<Tab title="Kathleen & Joe">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Kathleen-and-Joe+Sindorf.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
       <Block cols="6" textAlign="left">
         ## Global Video Academy - 2016{'\n'}
 
@@ -116,6 +143,26 @@ The Sindorfs have taught people in five countries how to use their smartphones t
 Part of this training will be developed internationally, including a teaching trip with a group of university students who will be creating digital media stories among Syrian and Iraqi refugees in Amman, Jordan. They will use social media and their new video skills to communicate their experiences back home to their communities.{'\n'}
 
 <p>You can follow the Sindorfs’ adventures as they develop this project. Just go to <Link to="http://www.globalvideoacademy.com">GlobalVideoAcademy.com</Link>.</p>
+      </Block>
+    </Tab>
+    <Tab title="Emily">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Emily-Wray.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>{'\n'}
+      <Block cols="6" textAlign="left">
+        ## Voices of Petersburg - 2015{'\n'}
+
+        We’ve all experienced moments when we struggling to put into words an experience or emotion. Voices of Petersburg is a three-day digital storytelling workshop for clients of Petersburg Mental Health Services in Petersburg, Alaska. Participants choose an experience they want to share and write a script for a digital story to give voice to their struggles and triumphs. The process of writing, choosing supportive media assets, and bringing the story to the screen provides a platform for healing unique to the mental health therapies.{'\n'}
+
+<p>With the help of the Foundation, Emily and her team will build a mobile curriculum that can travel outside of Petersburg and assist individuals in mental health facilities around the U.S. She is currently looking for assistance with social media, fundraising, and product development. you. If you are interested in contributing to her project, visit <Link to="http://emily-wray-vh7i.squarespace.com/">voicesofpetersburgak.com</Link>.</p>
+      </Block>
+    </Tab>
+    <Tab title="Valerie">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Valerie.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>{'\n'}
+      <Block cols="6" textAlign="left">
+        ## Ryan Banks Academy - 2015{'\n'}
+
+        School teachers in urban districts face special challenges in promoting their students’ long-term academic success. It is no surprise that so-called “failing” schools are disproportionately situated in urban centers with high rates of poverty and crime. Valerie Groth is a mission to change that for Chicago-area students. In 2014, she founded Ryan Banks Academy, a coeducational boarding school that seeks to impact the lives of students through a rigorous college and career preparatory education, a supportive boarding program, and a focus on personal development in a positive environment. The goal of Ryan Banks Academy is to teach students not only the value of education, but also encourage them to focus on cultivating their own unique strengths, interests, and passions so that they may lead a purpose-filled life. Curriculum focuses not only on academic pursuits, but also on developing their relationships, core values, and mindset.{'\n'}
+
+<p>There are many steps in her journey to build the school, and the Scholarship for Real Life grant will be helping get her fundraising efforts of the ground, as well as help support her burgeoning volunteer program. She is currently looking for assistance with grant writing and donor outreach, as well as anyone with a background in curriculum development. If you are interested in contributing to Ryan Banks Academy, you can email <Link to="mailto:ryanbanksacademy@gmail.com">ryanbanksacademy@gmail.com</Link> or visit <Link to="http://www.ryanbanksacademy.org">ryanbanksacademy.org</Link></p>
       </Block>
     </Tab>
   </Tabs>
@@ -167,8 +214,8 @@ Don't stop believin! The deadline to apply for 2017 grants has passed but keep y
 </Section>
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets are sold out!</Block>
-  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block margin="50px 0">## Join us at WDS 2018; June 26 - July 2</Block>
+  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2018 Waiting List"
@@ -186,6 +233,7 @@ Don't stop believin! The deadline to apply for 2017 grants has passed but keep y
     </Form>
   </Block>
 </Section>
+
 
 
 

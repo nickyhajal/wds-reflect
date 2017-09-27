@@ -49,6 +49,10 @@ import MeetupForm from '../../site/components/MeetupForm';
       ## Chicago, Illinois{'\n'}
       <Button to="https://www.facebook.com/groups/wdslocalchicago/" newWindow={true} fitToText>Join Up</Button>
     </Block>
+<Block type="image-narrow" src="photos/wdslocal/Dubai.WDS.local.png">
+      ## Dubai, UAE{'\n'}
+      <Button to="" newWindow={true} fitToText>Join Up</Button>
+    </Block>
       <Block type="image-narrow" src="photos/wdslocal/los.angeles.WDS.local.png">
       ## Los Angeles, California{'\n'}
       <Button to="https://www.facebook.com/groups/WDSLocalLosAngeles/" newWindow={true} fitToText>Join Up</Button>
@@ -57,9 +61,21 @@ import MeetupForm from '../../site/components/MeetupForm';
       ## Minneapolis/St.Paul, Minnesota{'\n'}
       <Button to="https://www.facebook.com/groups/WDSLocalMSP/" newWindow={true} fitToText>Join Up</Button>
     </Block>
+<Block type="image-narrow" src="photos/wdslocal/Montreal.WDS.local.png">
+      ## Montreal, Canada{'\n'}
+      <Button to="https://www.facebook.com/groups/362773834180748//" newWindow={true} fitToText>Join Up</Button>
+    </Block>
     <Block type="image-narrow" src="photos/wdslocal/new.york.city.WDS.local.png">
       ## New York City,   New York{'\n'}
       <Button to="https://www.facebook.com/groups/NYCWDS/" newWindow={true} fitToText>Join Up</Button>
+    </Block>
+<Block type="image-narrow" src="photos/wdslocal/NorthBay.WDS.local.png">
+      ## North Bay, California{'\n'}
+      <Button to="https://www.facebook.com/groups/124075594879283/" newWindow={true} fitToText>Join Up</Button>
+    </Block>
+ <Block type="image-narrow" src="photos/wdslocal/ohio.WDS.local.png">
+      ## Ohio{'\n'}
+      <Button to="https://www.facebook.com/groups/wdslocalohio/" newWindow={true} fitToText>Join Up</Button>
     </Block>
  <Block type="image-narrow" src="photos/wdslocal/philadelphia.WDS.local.png">
       ## Philadelphia, Pennsylvania{'\n'}
@@ -120,8 +136,8 @@ import MeetupForm from '../../site/components/MeetupForm';
 </Section>
 <Section color="orange">
   <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Tickets are sold out!</Block>
-  <Block margin="50px 0">### Join us at WDS 2018</Block>
+  <Block margin="50px 0">## Join us at WDS 2018; June 26 - July 2</Block>
+  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
     <Form
       list="WDS 2018 Waiting List"
@@ -139,6 +155,7 @@ import MeetupForm from '../../site/components/MeetupForm';
     </Form>
   </Block>
 </Section>
+
 
 
 
