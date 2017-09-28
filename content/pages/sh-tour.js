@@ -8,21 +8,21 @@
 >
   <Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
   <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2018:</h2>
-    ## June 26 - July 2, 2018 in Portland, Oregon 
+    <h2 style={{ marginBottom: '4px' }}>Thanks for your interest in taking over the world! WDS tickets go very quickly, and the event has been completely sold out seven years in a row.</h2>
+    ## WDS 2018 | June 26 - July 2, 2018 in Portland, Oregon 
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-   For 2018 we are returning to the beautiful and intimate Newmark Theater, bringing back Expeditions, and as always, we'll have a few suprises for our time together.
+   Tickets are normally only sold in three rounds at specific times, but since you’ve come to Chris’s <em>SIDE HUSTLE</em> tour, you get a special “fast pass.” All WDS tickets include full access to main-stage talks and events throughout the weekend, hundreds of meetups (along with the ability to host your own), and two incredible parties.
     
-   All that’s missing is YOU!
-      
-    <p>All tickets cost <b>$697</b> and are sold on a first-come, first-served basis.</p>
-    
-    ## Save the Date: the next ticket sale for WDS 2018 is Wednesday, October 25th 
-    Join the wait list using the button below to be the first to get notified when tickets for WDS 2018 go on sale. 
+    For 2018 we are returning to the beautiful and intimate Newmark Theater, bringing back Expeditions, and as always, we'll have a few surprises for our time together.
 
-<Button to="/side-hustlers-only" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join us at WDS 2018</Button>
+All tickets cost <b>$697</b> and are sold on a first-come, first-served basis. Once we reach capacity, no further tickets will be sold.
+
+WDS is the adventure of a lifetime—just ask anyone who’s been before. Every year we create new ways to honor our founding principles while also making each experience better than the last. All that’s missing is YOU!
+ 
+
+<Button to="/side-hustlers-only" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Get Your Tickets Today!</Button>
 
     </Block>
 </Section>
