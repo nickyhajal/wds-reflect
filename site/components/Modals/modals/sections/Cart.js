@@ -284,7 +284,7 @@ class Cart extends React.Component {
 	}
 
 	render() {
-		const cost = 547 * this.props.checkout.quantity;
+		const cost = 697 * this.props.checkout.quantity;
 		const feeCost = 10 * this.props.checkout.quantity;
 		let btnStr = 'Complete Purchase';
 		if (this.props.checkout.status === 'process') {
