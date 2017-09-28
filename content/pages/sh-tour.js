@@ -8,16 +8,19 @@
 >
   <Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
   <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
-    <h2 style={{ marginBottom: '4px' }}>WDS 2018 | June 26 - July 2, 2018 in Portland, Oregon</h2>
-    ## Thanks for your interest in taking over the world! WDS tickets go very quickly, and the event has been completely sold out seven years in a row. 
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2018:</h2><p></p>
+    ## June 26 - July 2, 2018 in Portland, Oregon
+
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-   Tickets are normally only sold in three rounds at specific times, but since you’ve come to Chris’s <em>SIDE HUSTLE</em> tour, you get a special “fast pass.” All WDS tickets include full access to main-stage talks and events throughout the weekend, hundreds of meetups (along with the ability to host your own), and two incredible parties.<p></p>
-    
-    For 2018 we are returning to the beautiful and intimate Newmark Theater, bringing back Expeditions, and as always, we'll have a few surprises for our time together.
+    <p>Thanks for your interest in taking over the world! WDS tickets go very quickly, and the event has been completely sold out seven years in a row. </p>
 
-All tickets cost <b>$697</b> and are sold on a first-come, first-served basis. Once we reach capacity, no further tickets will be sold.<p></p>
+   <p>Tickets are normally only sold in three rounds at specific times, but since you’ve come to Chris’s <em>SIDE HUSTLE</em> tour, you get a special “fast pass.” All WDS tickets include full access to main-stage talks and events throughout the weekend, hundreds of meetups (along with the ability to host your own), and two incredible parties.</p>
+    
+    <p>For 2018 we are returning to the beautiful and intimate Newmark Theater, bringing back Expeditions, and as always, we'll have a few surprises for our time together.</p>
+
+<p>All tickets cost <b>$697</b> and are sold on a first-come, first-served basis. Once we reach capacity, no further tickets will be sold.</p>
 
 WDS is the adventure of a lifetime—just ask anyone who’s been before. Every year we create new ways to honor our founding principles while also making each experience better than the last. All that’s missing is YOU!
  
