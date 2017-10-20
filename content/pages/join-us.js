@@ -57,7 +57,7 @@
         ## Celebrations
         There's nothing better than celebrating community. Kick-off WDS and meet new friends at the welcome party and dance the night away with them at the closing celebration.
       </Block>
-      <Block type="image" src="photos/JoinUs/image-communities.jpg">
+      <Block type="image" src="photos/WDS-Community-2016.png">
         ## Community
         Once you attend WDS you'll become an alum and part of a global network of over 10,000 adventurers who will continue to support you and your journey. 
       </Block>
