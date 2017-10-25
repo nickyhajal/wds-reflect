@@ -98,7 +98,7 @@ export class Purchase extends Component {
   }
   goTo(page) {
     if (page === 'claim') {
-      browserHistory.replace('/claim');
+      browserHistory.replace('/assign');
     } else {
       if (page !== 'ask') {
         window.location.hash = page;
