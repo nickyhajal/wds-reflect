@@ -8,4 +8,4 @@
     <iframe height="497" allowTransparency="true" frameborder="0" scrolling="no" style={{width:'100%', border:'none'}}  src="https://worlddominationsummit.wufoo.com/embed/mfc5ns40aeiur6/" />
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="buy-box" />
