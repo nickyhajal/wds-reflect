@@ -4,7 +4,7 @@ import 'moment-timezone';
 class Event {
   constructor({
     event_id = '0',
-    year = '2017',
+    year = '2018',
     format = '',
     active = true,
     slug = '',

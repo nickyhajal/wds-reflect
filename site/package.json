@@ -58,6 +58,7 @@
     "classnames": "^2.2.5",
     "country-data": "^0.0.31",
     "firebase": "^3.6.8",
+    "form-serialize": "^0.7.2",
     "graphql-tag": "^2.0.0",
     "immutable": "^3.8.1",
     "jquery": "^3.1.1",

@@ -140,7 +140,7 @@ class Cart extends React.Component {
 	}
 
 	processCharge(token, pkg) {
-		auth.charge({card_id: token, code: 'wds2017', purchase_data: pkg})
+		auth.charge({card_id: token, code: 'wds2018', purchase_data: pkg})
 		.then((raw) => {
 			const rsp = raw.data;
 			if (rsp.declined !== undefined && rsp.declined) {

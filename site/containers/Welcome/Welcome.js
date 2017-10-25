@@ -102,6 +102,13 @@ const parts = [
           </div>
         </div>
       ),
+      validate: function() {
+        const { size } = this.form.state.form;
+        if (size === undefined || !size || !size.length) {
+          return 'Select a size!';
+        }
+        return 'valid';
+      },
       form: (
         <FormWrap>
           <ShirtSize />
@@ -217,6 +224,13 @@ const parts = [
           </div>
         </div>
       ),
+      validate: function() {
+        const { user_name } = this.form.state.form;
+        if (user_name === undefined || !user_name || !user_name.length) {
+          return 'Enter a Username!';
+        }
+        return 'valid';
+      },
       form: (
         <FormWrap>
           <label>Your Profile URL</label>
@@ -262,7 +276,7 @@ const parts = [
       ),
     },
     {
-      title: 'What\'s your goal for WDS2017?',
+      title: 'What\'s your goal for WDS2018?',
       content: (
         <div>
           <p>
@@ -540,7 +554,15 @@ class Welcome extends Component {
   save() {
     let post = this.form.getValues();
     post.user_id = this.props.auth.me.user_id;
+    const current = parts[this.state.section][this.state.step];
     return new Promise((resolve, reject) => {
+      if (current.validate !== undefined) {
+        console.log(current.validate.toString());
+        const validMsg = current.validate.call(this);
+        if (validMsg !== 'valid') {
+          reject(validMsg);
+        }
+      }
       if (this.props.auth.usernameStatus === 'not-available') {
         reject('That URL is taken');
       } else {

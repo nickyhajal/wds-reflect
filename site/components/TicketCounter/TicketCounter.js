@@ -103,10 +103,11 @@ class TicketCounter extends React.Component {
     );
   }
   render() {
+    const saleId = this.props.sale ? this.props.sale : this.props.app.settings.activeSale;
     if (this.props.app.settings !== undefined &&
-        this.props.app.settings[this.props.sale] !== undefined
+        this.props.app.settings[saleId] !== undefined
     ) {
-      this.sale = this.props.app.settings[this.props.sale];
+      this.sale = this.props.app.settings[saleId];
       return (
         <div>
           {this.isLive('countup') ? this.renderCountUp() : ''}
@@ -120,6 +121,9 @@ class TicketCounter extends React.Component {
   }
 }
 
+TicketCounter.defaultProps = {
+  sale: false,
+};
 TicketCounter.propTypes = {
   app: types.app,
   sale: PropTypes.string,

@@ -22,9 +22,8 @@ class HashLoginComponent extends Component {
     }
   }
   redirect() {
-    browserHistory.replace(
-      this.props.location.pathname.replace(`/${this.props.routeParams.id}`, '')
-    );
+    const path = this.props.location.pathname.includes('login') ? '/hub' : this.props.location.pathname.replace(`/${this.props.routeParams.id}`, '')
+    browserHistory.replace(path);
   }
   render() {
     return <div />;

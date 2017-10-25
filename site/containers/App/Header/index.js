@@ -34,7 +34,7 @@ const renderAlert = (subNav, scrollTo, me) => {
   if ((!subNav || subNav === 'False') && !me && 0) {
     return (
       <div styleName="subNav" className="alert">
-        <span>Ticket sales to WDS 2017 end in </span>
+        <span>Ticket sales to WDS 2018 end in </span>
         <Counter to="ticket-end" format="text" interval="1" />
       </div>
     );

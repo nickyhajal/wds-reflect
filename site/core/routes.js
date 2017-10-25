@@ -21,6 +21,8 @@ import Purchase from '../containers/Purchase/Purchase';
 import HashLogin from '../containers/HashLogin';
 import EventListing from '../containers/Hub/EventListing';
 import Schedule from '../containers/Hub/Schedule';
+import EnsureAttendingAndHasProfile from '../containers/EnsureAttendingAndHasProfile/EnsureAttendingAndHasProfile';
+import Transfer from '../components/Transfer/Transfer';
 
 const routes = (
   <Route path="/" component={App}>
@@ -28,16 +30,17 @@ const routes = (
     <Route path="/main" component={Pageloader} />
     <Route path="/people" component={People} />
     <Route path="/person/:id" component={Person} />
-    <Route path="/claim/:id" component={Claim} />
+    <Route path="/assign/:id" component={Claim} />
     <Route path="/reset/:id" component={Reset} />
     <Route path="/propose-a-meetup/:id" component={HashLogin} />
     <Route path="/academies/:id" component={HashLogin} />
     <Route path="/transfer/:id" component={HashLogin} />
+    <Route path="/login/:id" component={HashLogin} />
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
-    {/* <Route path="/be-there" component={TicketPurchase} /> */}
-     <Route path="/side-hustlers-only" component={TicketPurchase} /> 
+    <Route path="/be-there" component={TicketPurchase} />
+    <Route path="/side-hustlers-only" component={TicketPurchase} /> 
     <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />
     <Route path="/events/meetups/:id" component={HashLogin} />
@@ -47,24 +50,26 @@ const routes = (
     <Route path="/events/registration/:id" component={HashLogin} />
     <Route path="/your-schedule/:id" component={HashLogin} />
     <Route component={EnsureLoggedIn}>
-      <Route path="/claim" component={Claim} />
-      <Route path="/communities" component={Communities} />
-      <Route path="/meetup/:id" component={Event} />
-      <Route path="/expedition/:id" component={Event} />
-      <Route path="/activity/:id" component={Event} />
-      <Route path="/program/:id" component={Event} />
+      <Route path="/assign" component={Claim} />
       <Route path="/registration/:id" component={Event} />
-      <Route path="/events/meetups" component={EventListing} />
-      <Route path="/events/academies" component={EventListing} />
-      <Route path="/events/expeditions" component={EventListing} />
-      <Route path="/events/activities" component={EventListing} />
-      <Route path="/events/registration" component={EventListing} />
-      <Route path="/community/:id" component={Community} />
       <Route path="/welcome" component={Welcome} />
-      <Route path="/hub" component={Hub} />
-      <Route path="/settings" component={Settings} />
-      <Route path="/events" component={Events} />
-      <Route path="/your-schedule" component={Schedule} />
+      <Route component={EnsureAttendingAndHasProfile}>
+        <Route path="/communities" component={Communities} />
+        <Route path="/meetup/:id" component={Event} />
+        <Route path="/expedition/:id" component={Event} />
+        <Route path="/activity/:id" component={Event} />
+        <Route path="/program/:id" component={Event} />
+        <Route path="/hub" component={Hub} />
+        <Route path="/settings" component={Settings} />
+        <Route path="/events" component={Events} />
+        <Route path="/your-schedule" component={Schedule} />
+        <Route path="/events/meetups" component={EventListing} />
+        <Route path="/events/academies" component={EventListing} />
+        <Route path="/events/expeditions" component={EventListing} />
+        <Route path="/events/activities" component={EventListing} />
+        <Route path="/community/:id" component={Community} />
+        <Route path="/events/registration" component={EventListing} />
+      </Route>
     </Route>
     <Route path="/events/:id" component={HashLogin} />
     <Route path="*" component={Pageloader} />
