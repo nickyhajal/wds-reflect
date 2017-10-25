@@ -402,7 +402,7 @@ class Cart extends React.Component {
     return (
       <div className="modal-section cartSection" style={{ display }}>
         <div styleName="productRow">
-          {is.phone() ? <div styleName="productName">WDS 2018 Pre-Order</div> : ''}
+          {is.phone() ? <div styleName="productName">WDS 2018 Ticket</div> : ''}
           <div styleName="productMeta">
             <div styleName="priceBox">
               <div styleName="cost">
@@ -428,7 +428,7 @@ class Cart extends React.Component {
               />
             </div>
           </div>
-          {is.phone() ? '' : <div styleName="productName">WDS 2018 Pre-Order</div>}
+          {is.phone() ? '' : <div styleName="productName">WDS 2018 Ticket</div>}
           <div className="clear" />
         </div>
         {this.renderCardButton()}

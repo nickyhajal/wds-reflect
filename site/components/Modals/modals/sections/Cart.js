@@ -314,7 +314,7 @@ class Cart extends React.Component {
 			      	value={this.props.checkout.quantity}
 			      />
 			    </div>
-		    	<div styleName="productName">WDS 2018 Pre-Order</div>
+		    	<div styleName="productName">WDS 2018 Ticket</div>
 	    	</div>
 	    	{this.renderCardButton()}
 				<form id="checkoutForm" onSubmit={ this.purchase.bind(this) } styleName="checkoutForm">
