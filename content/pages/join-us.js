@@ -17,7 +17,7 @@
     
    All that’s missing is YOU!
       
-    <p>All tickets cost <b>$697</b> and are sold on a first-come, first-served basis.</p>
+    <p>All tickets cost <b>$697</b> and are sold on a first-come, first-served basis. <i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
     
     ## Save the Date: the next ticket sale for WDS 2018 is Wednesday, October 25th 
     Join the wait list using the button below to be the first to get notified when tickets for WDS 2018 go on sale. 
