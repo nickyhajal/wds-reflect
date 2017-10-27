@@ -418,7 +418,7 @@ const parts = [
           <Tweet />
           <h2>More announcements and information is heading your way so keep checking your inbox. See you soon!</h2>
           <div style={{ marginBottom: '20px' }} />
-          <Button to="/schedule" styleName="hubButton">Get me out of here!</Button>
+          <Button to="/schedule" styleName="hubButton">Take Me to the WDS Schedule Page!</Button>
           <div style={{ marginBottom: '60px' }} />
         </div>
       ),
