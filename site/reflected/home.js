@@ -159,29 +159,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     </Tab>
   </Tabs>
 </Section>
-<Section color="orange">
-  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Join us at WDS 2018; June 26 - July 2</Block>
-  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
-  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
-    <Form
-      list="WDS 2018 Waiting List"
-      successMessage="Great, we'll let you know when sales start for WDS 2018!"
-      buttonStart="Get Notified"
-      buttonProgress="Sending..."
-      buttonSuccess="Success!"
-    >
-      <FormRow>
-        <Input id="full_name" placeholder="Your Full Name" />
-      </FormRow>
-      <FormRow>
-        <Input id="email" placeholder="Your Email Address" />
-      </FormRow>
-    </Form>
-  </Block>
-</Section>
-
-
+<Import id="buy-box" />
 <Section color="green" clip="top_lr_2.6" margin="-22px 0 0">
   <Block margin="50px 0" width="420px">
     ## Tell a Friend{'\n'}
@@ -190,10 +168,6 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   </Block>
   <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" mobile={{phone: {margin: '30px 0 -60px 30px'}}} />
 </Section>
-
-
-
-
     </div>
   );
 
