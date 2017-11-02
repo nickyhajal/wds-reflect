@@ -416,9 +416,9 @@ const parts = [
       content: (
         <div>
           <Tweet />
-          <h2>Ready to meet your partners in World Domination?</h2>
+          <h2>More announcements and event information will be heading your way so keep checking your inbox. See you soon!</h2>
           <div style={{ marginBottom: '20px' }} />
-          <Button to="/hub" styleName="hubButton">Go to the Attendee Hub</Button>
+          <Button to="/schedule" styleName="hubButton">Take Me to the WDS Schedule Page</Button>
           <div style={{ marginBottom: '60px' }} />
         </div>
       ),
