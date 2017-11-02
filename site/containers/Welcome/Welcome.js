@@ -537,6 +537,7 @@ class Welcome extends Component {
     });
     $('body').scrollTo(0, 200);
     const step = `${useSection},${usePart}`;
+    this.props.act.updateMe('intro', step);
     api('patch user', { intro: step, user_id: this.props.auth.me.user_id });
   }
   start() {

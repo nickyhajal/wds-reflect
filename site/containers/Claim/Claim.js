@@ -193,20 +193,29 @@ export class App extends Component {
       //   }
       // }
       } else if (tickets.claimed.length) {
-        if (tickets.claimed.length > 1) {
-          c.title = 'Nice work, you\'ve claimed all your tickets!';
-          c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-              ## Impressive! Now let&apos;s setup your account.
-              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
-            </Block>
-          );
+        if (this.meClaimed()) {
+          if (tickets.claimed.length > 1) {
+            c.title = 'Nice work, you\'ve claimed all your tickets!';
+            c.action = (
+              <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+                ## Impressive! Now let&apos;s setup your account.
+                <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+              </Block>
+            );
+          } else {
+            c.title = 'Woohoo, your ticket is claimed!';
+            c.action = (
+              <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+                ## Great job! Now let&apos;s setup your account!
+                <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+              </Block>
+            );
+          }
         } else {
-          c.title = 'Woohoo, your ticket is claimed!';
+          c.title = 'Great, you\'re all done!';
           c.action = (
             <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-              ## Great job! Now let&apos;s setup your account!
-              <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+              ## Thanks for sharing WDS with the people you care about!
             </Block>
           );
         }
