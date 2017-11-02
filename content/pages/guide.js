@@ -45,17 +45,17 @@
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 1: The WDS Schedule
-        WDS is unique in that you create your own personalized schedule from the weeks events. [>> Learn More](https://madmimi.com/p/22006a/)     
+        WDS is unique in that you create your own personalized schedule from the weeks events.     
           <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Lodging Info
-        When should you arrive? Love logistics and travel planning? Even if you don't [this information will be helpful.](https://madmimi.com/p/9cae3a/)
+        When should you arrive? Love logistics and travel planning? Even if you don't this information will be helpful.
        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Academies
-        Alumni speakers and other special guests share their knowledge and experience in half-day workshops. [>> Register Today!](https://worlddominationsummit.com/academies)
+        Alumni speakers and other special guests share their knowledge and experience in half-day workshops.
         <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
         </Block>
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
