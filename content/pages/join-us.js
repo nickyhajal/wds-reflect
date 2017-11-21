@@ -66,4 +66,4 @@ WDS is the adventure of a lifetime—just ask anyone who’s been before. Every 
   </Grid>
 </Block>
 </Section>
-<Import id="buy-box" />
+<Import id="join-us" />
