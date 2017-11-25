@@ -14,16 +14,16 @@ preload
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-  <p>Thanks for your interest in taking over the world! WDS tickets go very quickly, and the event has been completely sold out seven years in a row. </p>
+For 2018 we are returning to the beautiful and intimate Newmark Theater, bringing back Expeditions, and as always, we'll have a few suprises for our time together.
 
-  <p>For 2018 we are returning to the beautiful and intimate Newmark Theater, bringing back Expeditions, and as always, we'll have a few surprises for our time together.</p>
+All that’s missing is YOU!
+  
+<p>All tickets cost <b>$697</b> and are sold on a first-come, first-served basis. <i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
 
-<p>All tickets cost <b>$697</b> and are sold on a first-come, first-served basis. Once we reach capacity, no further tickets will be sold.</p>
+## Save the Date: the next ticket sale for WDS 2018 is Wednesday, October 25th 
+Join the wait list using the button below to be the first to get notified when tickets for WDS 2018 go on sale. 
 
-WDS is the adventure of a lifetime—just ask anyone who’s been before. Every year we create new ways to honor our founding principles while also making each experience better than the last. All that’s missing is YOU!
-
-
-<Button to="/be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Get Your Tickets Today!</Button>
+<Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
 
   </Block>
 </Section>
