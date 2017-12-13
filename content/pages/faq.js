@@ -26,7 +26,7 @@
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
-<p><b>Please Note: Tickets for WDS 2018 will go on sale soon!</b> Sign-up to be notified when tickets go on sale for <Link to="https://worlddominationsummit.com/join-us_waitlist">WDS 2018 here</Link>.</p>
+<p><b>Please Note: Tickets for WDS 2018 will go on sale next February (2018).</b> Sign-up to be notified when tickets go on sale for <Link to="https://worlddominationsummit.com/join-us">WDS 2018 here</Link>.</p>
 
 ### I bought a ticket, what do I do next? 
 
@@ -39,7 +39,7 @@
     
     <p>Transfers and name changes are available for a $100 fee until April 15th (10 weeks prior to WDS) and a $200 fee from April 16th until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
     
-    <p><b>Please Note: the ability to transfer a ticket for WDS 2018 will reopen on October 25th, 2017</b></p>
+    <p>To transfer your ticket please email our concierge team at concierge@wds.fm for your unique transfer link.</p>
        
     ### Still have additional questions?
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
