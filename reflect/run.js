@@ -60,6 +60,7 @@ const urlFromPath = (path, full) => {
 
 const loadGlobals = () =>
   new Promise((resolve, reject) => {
+  console.log('Global');
     const dir = `${base}global`;
     read(
       dir,
@@ -75,6 +76,7 @@ const loadGlobals = () =>
 
 const loadConfig = () =>
   new Promise((resolve, rej) => {
+  console.log('Config');
     const path = `${base}config/`;
     const importPath = `${path}import.js`;
     if (fs.existsSync(importPath)) {
@@ -87,12 +89,14 @@ const loadConfig = () =>
 
 const loadContent = () =>
   new Promise((resolve, reject) => {
+  console.log('Content');
     const contentDir = `${base}pages`;
     read(
       contentDir,
       (file, data) =>
         new Promise((resolve, reject) => {
           const bits = file.split('.');
+          console.log(file);
           const url = urlFromPath(contentDir, file).replace('/', '$');
           content.push({
             url,
@@ -123,6 +127,7 @@ var setDeepValue = function(obj, path, value) {
 const loadVariables = () =>
   new Promise((resolve, reject) => {
     const dir = `${base}variables`;
+    console.log('Varsiables')
     read(
       dir,
       (file, data) =>
@@ -133,7 +138,7 @@ const loadVariables = () =>
           const lines = data.split('\n');
           lines.forEach((v, i) => {
             if (v.length) {
-              if (on === 'json' && v === '---') {
+              if (on === 'json' && v.trim() === '---') {
                 on = 'content';
               } else {
                 if (on === 'json') {
@@ -148,6 +153,7 @@ const loadVariables = () =>
           json = json.indexOf('[') === 0 || json.indexOf('{') === 0
             ? JSON.stringify(JSON.parse(json))
             : `{${json}}`;
+          console.log(json);
           const obj = eval(`(${json})`);
           if (content.length) {
             obj.autocontent = content;
@@ -180,6 +186,7 @@ const saveVariables = () =>
 
 const processContent = () =>
   new Promise((resolve, reject) => {
+    console.log('Process');
     content.forEach((page, inx) => {
       let pre = '';
       let main = '';
@@ -207,6 +214,7 @@ const processContent = () =>
 
 const processGlobalComponents = () =>
   new Promise((resolve, reject) => {
+    console.log('Process Global');
     Object.keys(globals).forEach(inx => {
       let pre = '';
       let main = '';
@@ -240,6 +248,7 @@ const processGlobalComponents = () =>
   });
 
 const doImports = str => {
+    console.log('Imports');
   let out = '';
   const lines = str.split('\n');
   let block = 0;
@@ -260,6 +269,7 @@ const doImports = str => {
 };
 
 const addJsxBreaks = (str, file) => {
+    console.log('Add breaks');
   let out = '';
   const lines = str.split('\n');
   let block = 0;
