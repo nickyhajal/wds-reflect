@@ -45,7 +45,7 @@ class Transfer extends React.Component {
       product: 'WDS Ticket Transfer',
       description: `Transfer to ${firstName} ${lastName}`,
       data: _.defaults(elm.state.form, { country: 'US' }),
-      price: 20000,
+      price: 10000,
       redirect: 'transferred',
     });
     browserHistory.replace('/cart');
