@@ -35,13 +35,12 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-      ## Introducing the WDS Hotel™
+      ## Welcome to the WDS Hotel™
       Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
-      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2017.</p>
+      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2018.</p>
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
-      <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of your closest friends.</p>
+      <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
       
-      ##### UPDATE (3/30) - The WDS Hotel has completely sold out! See the button below for our other great hotel partners! 
     </Block>
     <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
       <p>
@@ -91,7 +90,7 @@
   </Block>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## We're Taking Over an Entire Hotel!
-    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, July 13th until Monday, July 17th</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
+    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 28th until Monday, July 2nd</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package. Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (concierge@wds.fm) to see if any openings become available and they'll do their best to assist you.</b></p>
     Here's what you need to know...
   </Block>
 </Section>
@@ -112,13 +111,14 @@
   >
     ## WDS Hotel™ Package Details
 
-    - 4-nights: Thursday, July 13th (check-in 3pm) to Monday, July 17th (check-out 11am)
+    - 4-nights: Thursday, June 28th (check-in 3pm) to Monday, July 2nd (check-out 11am)
     - All hotel taxes included in listed prices
     - Complimentary high speed Wi-Fi
     - Rooftop access
-    - Text-a-concierge service
+    - Text-a-concierge service through the hotel
     - Exclusive programming and activities
-    - High fives.
+    - Exclusive SWAG just for WDS Hotel™ guests
+    - High fives
      <p><b>Important details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). A credit card is required for online reservation and at check-in. WDS is responsible for the reservation process and any changes associated with the 4-night package. The Society Hotel will provide all other hotel and guest services.</p> 
   </Block>
   <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-50px -60px 40px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
@@ -161,15 +161,15 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Sold Out!">
+      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="12 left">
         ### Private Suites ($947)
         Private bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="Sold Out!">
+      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="25 left">
       ### Standard Room ($697)
       Shared bathroom
       </Block>
-      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
+      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="24 left!">
         ### Bunks ($297)
       Shared bathroom
       </Block>
