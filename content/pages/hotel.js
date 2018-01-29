@@ -90,7 +90,9 @@
   </Block>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## We're Taking Over an Entire Hotel!
-    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 28th until Monday, July 2nd</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package. Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (concierge@wds.fm) to see if any openings become available and they'll do their best to assist you.</b></p>
+    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 28th until Monday, July 2nd</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
+
+<p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (concierge@wds.fm) to see if any openings become available and they'll do their best to assist you.</p>
     Here's what you need to know...
   </Block>
 </Section>
