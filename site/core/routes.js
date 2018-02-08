@@ -48,6 +48,7 @@ const routes = (
     <Route path="/events/expeditions/:id" component={HashLogin} />
     <Route path="/events/activities/:id" component={HashLogin} />
     <Route path="/events/registration/:id" component={HashLogin} />
+    <Route path="/hotel/:id" component={HashLogin} />
     <Route path="/your-schedule/:id" component={HashLogin} />
     <Route component={EnsureLoggedIn}>
       <Route path="/assign" component={Claim} />

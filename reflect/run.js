@@ -127,7 +127,6 @@ var setDeepValue = function(obj, path, value) {
 const loadVariables = () =>
   new Promise((resolve, reject) => {
     const dir = `${base}variables`;
-    console.log('Varsiables')
     read(
       dir,
       (file, data) =>
@@ -153,7 +152,6 @@ const loadVariables = () =>
           json = json.indexOf('[') === 0 || json.indexOf('{') === 0
             ? JSON.stringify(JSON.parse(json))
             : `{${json}}`;
-          console.log(json);
           const obj = eval(`(${json})`);
           if (content.length) {
             obj.autocontent = content;

@@ -164,14 +164,23 @@
       <Block type="caption" src="wds-hotel/suite-room1.jpg" label="Sold Out!">
         ### Private Suites ($947)
         Private bathroom
+      <PurchaseButton 
+      price="29700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="/you-got-a-bunk" code="hotel-bunk"
+      style={{width: '100%', position: 'relative', top: '80px'}}>Book Your Room!</PurchaseButton>
       </Block>
       <Block type="caption" src="wds-hotel/standard-room1.jpg" label="Sold Out!">
       ### Standard Room ($697)
       Shared bathroom
+      <PurchaseButton 
+      price="69700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="/you-got-a-room" code="hotel-room"
+      style={{width: '100%', position: 'relative', top: '80px'}}>Book Your Room!</PurchaseButton>
       </Block>
       <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="Sold Out!">
         ### Bunks ($297)
       Shared bathroom
+      <PurchaseButton 
+      price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="/you-got-a-suite" code="hotel-suite"
+      style={{width: '100%', position: 'relative', top: '80px'}}>Book Your Room!</PurchaseButton>
       </Block>
     </Grid>
     </Block>

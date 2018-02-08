@@ -23,6 +23,7 @@ import EventList from '../components/EventList';
 import is from '../utils/is';
 import Cart from '../../site/containers/Cart/Cart';
 import MeetupForm from '../../site/components/MeetupForm';
+import PurchaseButton from '../../site/containers/PurchaseButton';
 
   
   const Page = (props) => (
