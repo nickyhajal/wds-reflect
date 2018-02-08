@@ -37,9 +37,11 @@
 
     ### How can I transfer a WDS ticket?
     
-    <p>Transfers and name changes are available for a $100 fee until April 15th (10 weeks prior to WDS) and a $200 fee from April 16th until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
+    <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until April 15th (10 weeks prior to WDS) and a $200 fee from April 16th until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
     
     <p>To transfer your ticket please email our concierge team at concierge@wds.fm for your unique transfer link.</p>
+
+ <p><i>*All WDS tickets are assigned to a specific person using a unique name and email -- this is required for attendance. This process takes place when a ticket is initially purchased (or by a specific date for early-bird ticket purchasers). Transferring a ticket and assigning a ticket are two different processes. Only assigned tickets can be transferred.</i></p>
        
     ### Still have additional questions?
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
