@@ -5,6 +5,7 @@ import cx from 'classnames';
 import Block from '../Block/Block';
 import $ from 'jquery';
 import is from '../../utils/is';
+import BlockWithLiveLabel from '../../containers/BlockWithLiveLabel';
 
 const processChildren = (props) => {
   const out = [];
@@ -40,7 +41,7 @@ const processChildren = (props) => {
         elmProps.css.marginRight = '0';
       }
     }
-    out.push(React.createElement(Block, elmProps));
+    out.push(React.createElement(elm.type.displayName.includes('LiveLabel') ? BlockWithLiveLabel : Block, elmProps));
   });
   return out;
 };

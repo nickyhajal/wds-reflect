@@ -163,27 +163,27 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="caption" src="wds-hotel/suite-room1.jpg" label="12 left">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite">
         ### Private Suites ($947)
         Private bathroom
-      <PurchaseButton 
-      price="29700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="/you-got-a-bunk" code="hotel-bunk"
-      style={{width: '100%', position: 'relative', top: '80px'}}>Book Your Room!</PurchaseButton>
-      </Block>
-      <Block type="caption" src="wds-hotel/standard-room1.jpg" label="25 left">
-      ### Standard Room ($747)
-      Shared bathroom
-      <PurchaseButton 
-      price="69700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="/you-got-a-room" code="hotel-room"
-      style={{width: '100%', position: 'relative', top: '80px'}}>Book Your Room!</PurchaseButton>
-      </Block>
-      <Block type="caption" src="wds-hotel/Bunk-room1.jpg" label="24 left!">
+        <PurchaseButton 
+        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="you-got-a-suite" code="hotelsuite"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room">
+        ### Standard Room ($747)
+        Shared bathroom
+        <PurchaseButton 
+        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="you-got-a-room" code="hotelroom"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk">
         ### Bunks ($347)
-      Shared bathroom
-      <PurchaseButton 
-      price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="/you-got-a-suite" code="hotel-suite"
-      style={{width: '100%', position: 'relative', top: '80px'}}>Book Your Room!</PurchaseButton>
-      </Block>
+        Shared bathroom
+        <PurchaseButton 
+        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="you-got-a-bunk" code="hotelbunk"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
+      </BlockWithLiveLabel>
     </Grid>
     </Block>
     <div className="clear" />

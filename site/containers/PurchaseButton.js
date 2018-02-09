@@ -1,5 +1,6 @@
 import React, {PropTypes } from 'react';
 import { connect } from 'react-redux';
+import { get } from 'lodash';
 import { bindActionCreators } from 'redux';
 import { browserHistory } from 'react-router';
 import Button from '../components/Button/Button';
@@ -21,8 +22,24 @@ class PurchaseButton extends React.Component {
   }
 
   render() {
+    let max = 0;
+    let count = 0;
+    let left = 0;
+    let sellsOut = false;
+    let onClick = this.purchase;
+    let text = this.props.children;
+    if (this.props.path) {
+      sellsOut = true;
+      max = get(this.props.app.settings, `${this.props.path}_max`);
+      count = get(this.props.app.settings, `${this.props.path}_sales`);
+      left = max - count;
+    }
+    if (sellsOut && left === 0) {
+      text = 'Sold Out'
+      onClick = () => {}
+    }
     return (
-      <Button onClick={this.purchase} style={this.props.style}>{this.props.children}</Button>
+      <Button onClick={onClick} style={this.props.style}>{text}</Button>
     );
   }
 }
