@@ -196,9 +196,21 @@
     </p>
   </Block>
 </Section>
-<Section color="sea">
-    <Block type="padded" background="sea">
-      <Block cols="5" textAlign="left" css={{ color: 'white' }}>
+<Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
+  <div className="clear"></div>
+    <Block
+    type="padded"
+    cols="6"
+    textAlign="left"
+    bleed={false}
+    background="canvas"
+    className="has-checklist"
+    css={{ padding: '60px 40px' }}
+    mobile={{ phone: {
+      padding: '60px 25px 60px 10px'
+    }}}
+    clip="top_lr_1.6"
+  >
         ## WDS Hotel™ FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### Can I book a WDS Hotel™ package through the Society Hotel? 
@@ -223,8 +235,7 @@
         <p>The hotel is less than a mile (0.8) walk through downtown <Link to="https://goo.gl/maps/TTdw8Ae8xGu">(Google directions)</Link>. You can also make the trip by bike, light rail (MAX) system, or ride share.</p>
         ### Not finding the answer to your question?
         <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
-      </Block>
-     </Block>
+ </Block>
    <div className="clear" />
 </Section>
 <Section color="canvas">
