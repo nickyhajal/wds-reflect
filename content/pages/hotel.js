@@ -42,14 +42,6 @@
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
       
     </Block>
-    <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-      <p>
-        <Button to="https://worlddominationsummit.com/location">
-          <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
-          <span style={{ fontSize: '20px' }}>WDS Partner Hotels</span>
-        </Button>
-      </p>
-    </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
       <Block>
         ## Conveniently Located
@@ -187,14 +179,6 @@
     </Grid>
     </Block>
     <div className="clear" />
-    <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-    <p>
-      <Button to="https://worlddominationsummit.com/location">
-        <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
-        <span style={{ fontSize: '20px' }}>WDS Partner Hotels</span>
-      </Button>
-    </p>
-  </Block>
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
