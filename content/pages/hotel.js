@@ -222,6 +222,57 @@
  </Block>
    <div className="clear" />
 </Section>
+<Section color="white">
+  <Block margin="100px 0 50px 0">
+      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
+        ## Choose Your Adventure
+      Whether you like being near the action but need your own private retreat or you're the type of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
+      </Block>
+      <Grid numCols="3" tabletCols="2" width="968">
+        <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Private Suite & Bathroom
+         Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (12 available suites) 
+         **4-Night Package: $947** (Max occupancy: 2 persons)
+        </Block>
+        <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Standard Room & Shared Bathroom
+          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and a shared bathroom Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (25 available rooms)
+        **4-Night Package: $747** (max occupancy: 2 persons)
+        </Block>
+        <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Bunk Bed & Shared Bathroom
+          <p>Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With the custom-built triple-tall bunks, you’ll get both community and privacy. Each bunk has a storage locker, charging station, reading light, and privacy curtain. Full-size luxury mattresses and quiet hours ensure you’ll get solid night’s sleep. Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. <i>Please Note: Upper bunks require climbing a ladder.</i> (24 available bunks) </p>  
+          **4-Night Package: $347** (1 bed per person)
+          </Block>
+     </Grid>
+    </Block>
+    <Block cols="8" bleed={false} margin="0 0 80px">
+    <Grid numCols="3" tabletCols="2" width="968">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite">
+        ### Private Suites ($947)
+        Private bathroom
+        <PurchaseButton 
+        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="you-got-a-suite" code="hotelsuite"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room">
+        ### Standard Room ($747)
+        Shared bathroom
+        <PurchaseButton 
+        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="you-got-a-room" code="hotelroom"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk">
+        ### Bunks ($347)
+        Shared bathroom
+        <PurchaseButton 
+        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="you-got-a-bunk" code="hotelbunk"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
+      </BlockWithLiveLabel>
+    </Grid>
+    </Block>
+    <div className="clear" />
+</Section>
 <Section color="canvas">
   <Block>## The WDS Hotel™ Gallery</Block>
   <Tabs style="dots">
@@ -267,20 +318,12 @@
     </Tab>
   </Tabs>
 </Section>
-<Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-  <p>
-    <Button to="https://worlddominationsummit.com/location">
-      <span style={{ fontSize: '32px', paddingRight: '10px', position:'relative', top:'4px' }}>→</span>
-      <span style={{ fontSize: '20px' }}>WDS Partner Hotels</span>
-    </Button>
-  </p>
-</Block>
 <Section color="green">
   <Block cols="6" css={{ padding: '15px 0 20px' }}>
    ## Additional Accomodations for Staying in Portland
   <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2017 Hotel Partners</Button>
+<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2018 Hotel Partners</Button>
  </Block>
   </Block>
 </Section>
