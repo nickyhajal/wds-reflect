@@ -198,25 +198,27 @@
         ## WDS Hotel™ FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### Can I book a WDS Hotel™ package through the Society Hotel? 
-        Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, July 13, checking out Monday, July 17). All rooms will be sold as 4-night packages.   
+        Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, June 28th, checking out Monday, July 2nd). All rooms will be sold as 4-night packages.   
         ### What is your refund/transfer policy for WDS Hotel™ packages?
-        <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee until June 10th by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
+        <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee until June 27th by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
         ### How do I book additional nights before or after the WDS package dates?
         <p>Once you've reserved your WDS Hotel™ package, please contact the Society Hotel by phone (avoid their online reservation system) to set up any additional dates by calling their front desk at <b>503-445-0444</b>. You may be able to stay in the same room type as your WDS Hotel™ package, but that will depend on the hotel's room availability.</p>
         ### When will my credit card be charged?
-        Your card will be immediately charged for the full amount when you book a WDS Hotel™ package. You'll also need to provide a credit card upon check in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee or cocktail, directly to your room.
+        Your card will be immediately charged for the full amount when you book a WDS Hotel™ package. You'll also need to provide a credit card upon check-in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee or cocktail, directly to your room.
         ### Can I book a room with another WDS attendee?
         <p>Yes! Similar to any hotel reservation, one person is responsible for the reservation itself and only that person will be able to make any changes. <i>Bunks require individual reservations.</i></p>
         ### Can I book a partial stay or split days with a friend?
-        Once you've booked a package, you get the room or bunk for the entire 4 nights regardless of how many days you plan to use. Like any hotel reservation, you are ultimately responsible for any other guests that you let stay in your room. For example, if your friend charges 20 craft microbrews to the room, you'd be responsible for paying the bill.
+        Once you've booked a package, you get the room or bunk for the entire 4 nights regardless of how many days you plan to use. Like any hotel reservation, you are ultimately responsible for any other guests that you let stay in your room. For example, if your friend charges 20 craft microbrews and one bag of Skittles to the room, you'd be responsible for paying the bill.
         ### Can I book a private room with another person who isn’t attending WDS?
         <p>We'd love for everyone staying at the WDS Hotel™ to be part of WDS. However, we understand if you’ve booked a private room and you have a significant other or dependent staying with you who is not attending WDS. <i>For the bunk section of the hotel, all guests need to be registered WDS attendees.</i></p>
         ### What kinds of facilities are in the hotel?
-        There is an excellent cafe that serves light fare for breakfast and lunch, which you'll be able to charge to your room. Additionally, as a registered guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite.    
+        <p>There is an excellent cafe that serves light fare for breakfast and lunch, which you'll be able to charge to your room/bunk. Additionally, as a registered guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite.</p>    
         ### How do I get to the hotel from the airport? 
         <p>For just $2.50, you can take the MAX red line train from the airport towards "City Center/Beaverton" and get off at the "Old Town/Chinatown" stop. Walk two blocks west on Davis St. and you'll see the hotel at the corner of Davis and 3rd Ave. <Link to="https://goo.gl/maps/93LythVvQEG2">(Google directions).</Link> Taxis and ride share options are also available.</p>
         ### How far is the hotel from the WDS Main Stage?
         <p>The hotel is less than a mile (0.8) walk through downtown <Link to="https://goo.gl/maps/TTdw8Ae8xGu">(Google directions)</Link>. You can also make the trip by bike, light rail (MAX) system, or ride share.</p>
+        ### It looks like you're sold out but I'd really like to stay at the WDS Hotel™. What are my options?
+        <p>Reach out to our concierge team at <b>concierge@wds.fm</b> to see if there are any cancellations and openings. <i>Do not contact the Society Hotel regarding WDS packages.</i></p>
         ### Not finding the answer to your question?
         <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
  </Block>
@@ -228,23 +230,6 @@
         ## Choose Your Adventure
       Whether you like being near the action but need your own private retreat or you're the type of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
       </Block>
-      <Grid numCols="3" tabletCols="2" width="968">
-        <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Private Suite & Bathroom
-         Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (12 available suites) 
-         **4-Night Package: $947** (Max occupancy: 2 persons)
-        </Block>
-        <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Standard Room & Shared Bathroom
-          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and a shared bathroom Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (25 available rooms)
-        **4-Night Package: $747** (max occupancy: 2 persons)
-        </Block>
-        <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Bunk Bed & Shared Bathroom
-          <p>Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With the custom-built triple-tall bunks, you’ll get both community and privacy. Each bunk has a storage locker, charging station, reading light, and privacy curtain. Full-size luxury mattresses and quiet hours ensure you’ll get solid night’s sleep. Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. <i>Please Note: Upper bunks require climbing a ladder.</i> (24 available bunks) </p>  
-          **4-Night Package: $347** (1 bed per person)
-          </Block>
-     </Grid>
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
