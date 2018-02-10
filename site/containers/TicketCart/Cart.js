@@ -20,7 +20,7 @@ class Cart extends React.Component {
     autoBind(Object.getPrototypeOf(this));
     this.state = {
       email: '',
-      year: '2017',
+      year: '2018',
       month: '7',
     };
     this.steps = {
@@ -92,8 +92,6 @@ class Cart extends React.Component {
 
   years() {
     return [
-      { value: '2016', label: '2016' },
-      { value: '2017', label: '2017' },
       { value: '2018', label: '2018' },
       { value: '2019', label: '2019' },
       { value: '2020', label: '2020' },

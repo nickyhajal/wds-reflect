@@ -25,6 +25,7 @@ import Cart from '../../site/containers/Cart/Cart';
 import MeetupForm from '../../site/components/MeetupForm';
 import PurchaseButton from '../../site/containers/PurchaseButton';
 import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
+import BookingDetails from '../../site/components/BookingDetails';
 
   
   const Page = (props) => (

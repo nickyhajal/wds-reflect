@@ -732,6 +732,27 @@ form input {
     }
   }
 }
+.blackBorder {
+  .Select-placeholder, .Select-control .Select-value {
+    padding-left: 0 !important;
+  }
+ .Select-control {
+    border: 0;
+    color: #21170A;
+    height: 50px;
+    background: #fff;
+    border: 2px solid black;
+  }
+  .Select-option {
+      background: #f5f7ea;
+      &.is-selected {
+        background: #f5f7ea;
+      }
+      &.is-focused {
+        background-color: #ebf5ff;
+      }
+    }
+}
 .block-color-white .onWhite {
   .Select-placeholder, .Select-control .Select-value {
     padding-left: 0 !important;

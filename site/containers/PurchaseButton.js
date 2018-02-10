@@ -35,8 +35,8 @@ class PurchaseButton extends React.Component {
       left = max - count;
     }
     if (sellsOut && left === 0) {
-      text = 'Sold Out'
-      onClick = () => {}
+      text = 'Sold Out';
+      onClick = () => {};
     }
     return (
       <Button onClick={onClick} style={this.props.style}>{text}</Button>
@@ -63,6 +63,9 @@ PurchaseButton.propTypes = {
   redirect: PropTypes.string,
   purchData: PropTypes.string,
   description: PropTypes.string,
+  app: types.app,
+  path: PropTypes.string,
+  style: types.style,
   act: types.actions,
 };
 

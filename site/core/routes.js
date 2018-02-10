@@ -23,6 +23,7 @@ import EventListing from '../containers/Hub/EventListing';
 import Schedule from '../containers/Hub/Schedule';
 import EnsureAttendingAndHasProfile from '../containers/EnsureAttendingAndHasProfile/EnsureAttendingAndHasProfile';
 import Transfer from '../components/Transfer/Transfer';
+import CompleteBooking from '../containers/CompleteBooking';
 
 const routes = (
   <Route path="/" component={App}>
@@ -54,6 +55,7 @@ const routes = (
       <Route path="/assign" component={Claim} />
       <Route path="/registration/:id" component={Event} />
       <Route path="/welcome" component={Welcome} />
+      <Route path="/complete-booking" component={CompleteBooking} />
       <Route component={EnsureAttendingAndHasProfile}>
         <Route path="/communities" component={Communities} />
         <Route path="/meetup/:id" component={Event} />

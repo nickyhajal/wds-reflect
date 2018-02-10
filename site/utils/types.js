@@ -17,6 +17,7 @@ const types = {
   stringOrBool: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
   numOrBool: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
   actions: PropTypes.objectOf(PropTypes.func),
+  style: PropTypes.objectOf(PropTypes.string),
   location: PropTypes.objectOf(PropTypes.string),
   app: PropTypes.shape({
     navOpen: PropTypes.bool,
