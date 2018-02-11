@@ -195,7 +195,7 @@
     }}}
     clip="top_lr_1.6"
   >
-        ## <a id="WDS_Hotel_FAQS">WDS Hotel™ FAQs</a>
+        <p>## <a id="WDS_Hotel_FAQS">WDS Hotel™ FAQs</a></p>
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### Can I book a WDS Hotel™ package through the Society Hotel? 
         Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, June 28th, checking out Monday, July 2nd). All rooms will be sold as 4-night packages.   
