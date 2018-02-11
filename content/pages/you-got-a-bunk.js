@@ -9,5 +9,5 @@
    <p>If you haven't, please contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p>
     <p>That's it for now. Keep checking your inbox for more information about WDS and the WDS Hotel™ as we get closer to the event.</p> 
   </Block>
-<Block width="100%" margin="40px 0 0 0" textAlign="center">[Take me back to WDS Hotel™ page.](https://worlddominationsummit.com/hotel)</Block>
+<Block width="100%" margin="40px 0 0 0" textAlign="center">## [Take me back to WDS Hotel™ page.](https://worlddominationsummit.com/hotel)</Block>
 </Section>
