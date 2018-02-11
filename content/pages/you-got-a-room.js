@@ -13,4 +13,5 @@
 
  <p>That's it for now. Keep checking your inbox for more information about WDS and the WDS Hotel™ as we get closer to the event.</p> 
   </Block>
+<Block width="100%" margin="40px 0 0 0" textAlign="center">## [Take me back to WDS Hotel™ page](https://worlddominationsummit.com/hotel)</Block>
 </Section>
