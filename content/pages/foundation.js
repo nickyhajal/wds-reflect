@@ -167,11 +167,10 @@ Part of this training will be developed internationally, including a teaching tr
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?
     ##### Eligibility
-The "Scholarships for Real Life" program is open to all alumni who have attended one of our past six WDS events AND those that have purchased a ticket for WDS 2017 even if this is your first time attending.
+The "Scholarships for Real Life" program is open to all alumni who have attended one of our past seven WDS events AND those that have purchased a ticket for WDS 2018 even if this is your first time attending.
 
-##### 2017 Applications - Now Closed!
-Don't stop believin! The deadline to apply for 2017 grants has passed but keep your dreams alive. 
-<p>If you would like to be notified when applications re-open for 2018, please email <Link to="mailto:foundation@wds.fm">foundation@wds.fm</Link> with your contact information and you'll be notified when applications become available. </p>
+##### 2018 Applications - Coming Soon!
+<p>If you would like to be notified when applications re-open for 2018, please <Link to="http://madmimi.com/signups/150899f15087481aa41434436a6e3729/join">sign-up here with your email</Link> and you'll be notified when applications become available.</p>
 </Block>
 </Section>
 <Section color="green">

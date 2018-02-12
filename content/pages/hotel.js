@@ -74,7 +74,7 @@
           }}
         >
           ### WDS Hotel™
-          <Link to="https://goo.gl/maps/TTdw8Ae8xGu">0.8 Mi from Base</Link>
+          <Link to="https://goo.gl/maps/v6kK2y4xsN82">0.8 Mi from Base</Link>
         </Block>
       </Block>
     </Block>
@@ -143,7 +143,7 @@
         </Block>
         <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Standard Room & Shared Bathroom
-          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and a shared bathroom Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (25 available rooms)
+          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and a shared bathroom. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (25 available rooms)
         **4-Night Package: $747** (max occupancy: 2 persons)
         </Block>
         <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -216,7 +216,7 @@
         ### How do I get to the hotel from the airport? 
         <p>For just $2.50, you can take the MAX red line train from the airport towards "City Center/Beaverton" and get off at the "Old Town/Chinatown" stop. Walk two blocks west on Davis St. and you'll see the hotel at the corner of Davis and 3rd Ave. <Link to="https://goo.gl/maps/93LythVvQEG2">(Google directions).</Link> Taxis and ride share options are also available.</p>
         ### How far is the hotel from the WDS Main Stage?
-        <p>The hotel is less than a mile (0.8) walk through downtown <Link to="https://goo.gl/maps/TTdw8Ae8xGu">(Google directions)</Link>. You can also make the trip by bike, light rail (MAX) system, or ride share.</p>
+        <p>The hotel is less than a mile (0.8) walk through downtown <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google directions)</Link>. You can also make the trip by bike, light rail (MAX) system, or ride share.</p>
         ### It looks like you're sold out but I'd really like to stay at the WDS Hotel™. What are my options?
         <p>Reach out to our concierge team at <b>concierge@wds.fm</b> to see if there are any cancellations and openings. <i>Do not contact the Society Hotel regarding WDS packages.</i></p>
         ### Not finding the answer to your question?
@@ -227,8 +227,8 @@
 <Section color="white">
   <Block margin="100px 0 50px 0">
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
-        ## Choose Your Adventure
-      Whether you like being near the action but need your own private retreat or you're the type of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
+        ## Reserve Your WDS Hotel™ Package 
+      Once we run out of rooms/packages that's it! We literally cannot add any extra rooms so make sure to book your package asap. 
       </Block>
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
