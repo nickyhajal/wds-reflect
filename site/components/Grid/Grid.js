@@ -17,7 +17,7 @@ const processChildren = (props) => {
     const gutter = parseInt(props.gutter, 10);
     const powerProps = _.pick(props, ['textAlign']);
     const passed = _.cloneDeep(_.defaults(props.block, { className: '' }));
-    const elmProps = Object.assign({ css: {}, anchor: 'left' }, passed, elm.props, powerProps);
+    const elmProps = Object.assign({ css: {}, anchor: 'left' }, passed, Object.assign({}, elm.props), powerProps);
     elmProps.key = `grid-${i}`;
     elmProps.className = cx('grid-block', props.className);
     elmProps.align = '';
@@ -40,6 +40,9 @@ const processChildren = (props) => {
       } else if (place === (numCols - 1)) {
         elmProps.css.marginRight = '0';
       }
+    }
+    if (elm.props.mobile && is.mobile()) {
+      elmProps.css = Object.assign({}, elmProps.css, elm.props.mobile);
     }
     out.push(React.createElement(elm.type.displayName.includes('LiveLabel') ? BlockWithLiveLabel : Block, elmProps));
   });

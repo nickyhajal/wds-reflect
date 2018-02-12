@@ -155,21 +155,21 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
         ### Private Suites ($947)
         Private bathroom
         <PurchaseButton 
         price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
         style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
       </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
         ### Standard Room ($747)
         Shared bathroom
         <PurchaseButton 
         price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
         style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
       </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
         ### Bunks ($347)
         Shared bathroom
         <PurchaseButton 
@@ -233,21 +233,21 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
         ### Private Suites ($947)
         Private bathroom
         <PurchaseButton 
         price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
         style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
       </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
         ### Standard Room ($747)
         Shared bathroom
         <PurchaseButton 
         price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
         style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
       </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
         ### Bunks ($347)
         Shared bathroom
         <PurchaseButton 

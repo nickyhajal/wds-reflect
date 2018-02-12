@@ -5,11 +5,12 @@ import Select from 'react-select';
 import styled from 'styled-components';
 import Button from './Button/Button';
 import apollo from '../utils/apollo';
+import is from '../utils/is';
 
 const label = { display: 'block', marginBottom: 3 };
 const Textarea = styled.textarea`
   border: 2px solid black;
-  width: 320px;
+  width: ${is.mobile() ? '100%' : '320px'};
   margin-bottom: 20px;
   height: 100px;
 `;
@@ -122,7 +123,7 @@ class BookingDetails extends React.Component {
           <Sub>We can&apos;t make any guarantees but we&apos;ll try our best to make your stay great!</Sub>
           <Textarea type="text" onChange={this.change} value={this.state.extra.requests} name="requests" />
         </div>
-        <Button style={{ marginTop: '20px', width: '320px' }} onClick={this.submit}>{this.state.buttonText}</Button>
+        <Button style={{ marginTop: '20px', width: is.mobile() ? '100%' : '320px' }} onClick={this.submit}>{this.state.buttonText}</Button>
       </div>
     );
   }
