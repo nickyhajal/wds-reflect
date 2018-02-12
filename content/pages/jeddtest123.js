@@ -69,7 +69,7 @@
         }}
       >
         ### PDX Airport
-        <Link to="https://goo.gl/maps/teMTfSt4MzQ2">12.6 Mi from Base</Link>
+        <Link to="https://goo.gl/maps/R3R83DZ6sqy">12.6 Mi from Base</Link>
       </Block>
     </Block>
     <div className="clear" />
@@ -78,7 +78,7 @@
     ## Lodging
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. 
     
-    Here is an example of five amazing Portland properties (including the all new WDS Hotel)* we secured rooms with for WDS 2018, all within walking distance or a quick ride on public transit to WDS events and activities. 
+    Here is an example of four amazing Portland properties (including our very own WDS Hotel™) we secured rooms with for WDS 2018, all within walking distance or a quick ride on public transit to WDS events and activities. 
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
@@ -89,7 +89,7 @@
     <Block type="image" src="photos/society-hotel.jpg">
       ## WDS Hotel™
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
-       <p>0.8 Mi from Base <Link to="https://goo.gl/maps/jRR6cQ1qQdL2">(Google Directions)</Link></p>
+       <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
         <Button to="https://worlddominationsummit.com/hotel" newWindow={true} fitToText>Book Now</Button> 
     </Block>
 
@@ -109,7 +109,7 @@
 
   <Block type="image" src="photos/Hotel-Rose-Portland.jpg">
       ## Hotel Rose
-      Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walkig distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! 
+      Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
  <Button to="https://gc.synxis.com/rez.aspx?shell=PineappleChain2&template=PineappleChain&Hotel=40205&Chain=17448&arrive=06/26/2018&depart=07/03/2018&adult=1&child=0&group=WDS2018" newWindow={true} fitToText>Book Now</Button>
 </Block>
@@ -124,7 +124,7 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
       ### Portland State (0.6 Mi)
-      <Link to="https://www.pdx.edu/conference-housing/">Book Now</Link>
+      <Link to="">Coming Soon</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel (1.0 Mi) 
@@ -148,7 +148,7 @@
     </Block>
     <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
       ## Transportation
-      Portland has one the best public transit systems (TriMet) in the country - no need to rent a car during your whole time in the city. Of our many options Portland's fast-and-easy light rail service (MAX) goes directly from the airport to downtown for $2.50. 
+      Portland has one the best public transit systems (TriMet) in the country - no need to rent a car during your whole time in the city. For easy access to and from the airport to downtown, try Portland’s fast-and-easy light rail service (MAX) for just $2.50. 
 
 Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new bikehsare program Biketown.
     </Block>
