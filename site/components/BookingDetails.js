@@ -114,7 +114,7 @@ class BookingDetails extends React.Component {
         /></div>)
         }
         { isRoom && <div>
-          <label htmlFor="roommates" style={label} >List any roommates below:</label>
+          <label htmlFor="roommates" style={label} >If you have a roommate please list them below:</label>
           <Sub>If this changes in the future, please email concierge@wds.fm</Sub>
           <Textarea type="text" onChange={this.change} value={this.state.extra.roommates} name="roommates" />
         </div>
