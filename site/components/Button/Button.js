@@ -27,7 +27,6 @@ class Button extends React.Component {
     width: PropTypes.string,
     fitToText: PropTypes.bool,
     align: PropTypes.string,
-    newWindow: PropTypes.boolean,
     target: PropTypes.string,
     modal: PropTypes.string,
     children: PropTypes.node,
@@ -53,10 +52,9 @@ class Button extends React.Component {
       href,
       children,
       fitToText,
-      newWindow,
+      target,
     } = this.props;
-    let { target } = this.props;
-    let { styling, style, width, align, onClick, newWindow } = _.clone(this.props);
+    let { styling, style, width, align, onClick } = _.clone(this.props);
     width = width !== undefined ? width : '';
     styling = styling !== undefined ? styling : '';
     style = style !== undefined ? style : {};
@@ -77,9 +75,6 @@ class Button extends React.Component {
     }
     if (fitToText !== undefined && fitToText) {
       style.display = 'inline-block';
-    }
-    if (newWindow) {
-      target = '_blank';
     }
     return React.createElement(
       component || (to ? Link : href ? 'a' : 'button'), // eslint-disable-line no-nested-ternary
