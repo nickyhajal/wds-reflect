@@ -23,7 +23,7 @@ const BTN_READY = 'Save & Continue';
 class BookingDetails extends React.Component {
   state = {
     extra: {
-      bunk: 'lower',
+      bunk: 'no-preference',
       roommates: '',
       requests: '',
     },
@@ -94,9 +94,10 @@ class BookingDetails extends React.Component {
       isRoom = ['room', 'suite'].includes(booking.type);
     }
     const options = [
-	    { value: 'low', label: 'Lower Bunk' },
-	    { value: 'middle', label: 'Middle Bunk' },
+		  { value: 'no-preference', label: 'No Preference' },
 		  { value: 'top', label: 'Top Bunk' },
+	    { value: 'middle', label: 'Middle Bunk' },
+	    { value: 'low', label: 'Lower Bunk' },
     ];
     return (
       <div>
