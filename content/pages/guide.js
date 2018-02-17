@@ -44,14 +44,14 @@
      </Block>
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 1: The WDS Schedule
-        WDS is unique in that you create your own personalized schedule from the weeks events.     
-          <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button> 
+        ## Step 1: How WDS Works
+        WDS is an unconventional event. How does the week work? What are the events that make up WDS? This should help.       
+          <Button to="https://madmimi.com/p/192d8b/" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Lodging Info
-        When should you arrive? Love logistics and travel planning? Even if you don't this information will be helpful.
-       <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
+        Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
+       <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Academies
