@@ -51,7 +51,7 @@
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Lodging Info
         Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
-       <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
+       <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="blue" fitToText>Book Now</Button>
         </Block>      
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Academies
