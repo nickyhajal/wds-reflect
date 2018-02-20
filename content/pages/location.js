@@ -110,7 +110,7 @@
   <Block type="image" src="photos/Hotel-Rose-Portland.jpg">
       ## Hotel Rose
       Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! 
-      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
+      <p>0.5 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
  <Button to="https://gc.synxis.com/rez.aspx?shell=PineappleChain2&template=PineappleChain&Hotel=40205&Chain=17448&arrive=06/26/2018&depart=07/03/2018&adult=1&child=0&group=WDS2018" newWindow={true} fitToText>Book Now</Button>
 </Block>
 
