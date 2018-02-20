@@ -150,6 +150,7 @@ class Tabs extends React.Component {
     const css = this.props.css;
     const background = colorize(this.props.color);
     const contentWidth = unitize(this.props.contentWidth);
+    const contentShift = this.props.contentShift;
     css.width = unitize(this.props.width);
     return (
       <div style={css}>
@@ -157,7 +158,7 @@ class Tabs extends React.Component {
           {this.renderButtons(tabs)}
         </div>
         <div className="clear" />
-        <div styleName="content" style={{ width: contentWidth, background }}>
+        <div styleName="content" style={{ width: contentWidth, background, marginLeft: contentShift }}>
           <Markdown>{tabs[this.state.active].props.children}</Markdown>
           <div className="clear" />
         </div>
@@ -180,6 +181,7 @@ class Tabs extends React.Component {
 Tabs.propTypes = {
   style: PropTypes.string,
   contentWidth: PropTypes.string,
+  contentShift: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   width: PropTypes.string,
   color: PropTypes.string,
@@ -191,6 +193,7 @@ Tabs.defaultProps = {
   style: '',
   contentWidth: '996px',
   width: '996',
+  contentShift: '0px',
   color: 'canvas',
   css: {},
   tabCss: {},

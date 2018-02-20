@@ -51,7 +51,8 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
-  <Tabs style="dots" contentWidth="1280">
+  <div style={{ width: '996px', margin: '0 auto' }}>
+  <Tabs style="dots" contentWidth="1280" contentShift="-138px">
     <Tab title="2016">
       <Image src="art/legacy-2016.jpg" mobile={{ all: { width:'768px', height: '313px', margin: '0 0 0 -70px' }, phone: { width: '100%', margin: '0', height: '160px', backgroundSize: 'cover' }}} width="1180" height="514" margin="0 0 0 0px" preload/>{'\n'}
       <div>
@@ -281,6 +282,7 @@ Fast forward to 2017, and we’re still exploring that question every summer wit
       </Grid>
         </Tab>
   </Tabs>
+  </div>
 </Section>
 <Section color="orange" overflow="hidden">
   <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
