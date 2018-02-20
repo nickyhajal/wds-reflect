@@ -37,7 +37,7 @@
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are some of our most recent speakers from WDS 2017.
 
-_Please note: Speakers for WDS 2018 will be announced soon and in rounds leading up to the event._
+_Speakers for 2018 will be announced soon and in rounds leading up to WDS._
   </Block>
   <Tabs style="dots">
     <Tab title="Vanessa">
