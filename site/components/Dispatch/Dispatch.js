@@ -200,6 +200,10 @@ class Dispatch extends React.Component {
       this.shell = shell;
     }
   }
+  close = () => {
+    window.localStorage.setItem('dispatchWelcome', '1');
+    this.forceUpdate();
+  }
   render() {
     const headcss = {};
     const clip = angler('tr:0,18%');
@@ -207,7 +211,7 @@ class Dispatch extends React.Component {
     headcss.WebkitClipPath = clip;
     return (
       <div styleName="shell" ref={this.setShell}>
-        <DispatchWelcome />
+        {!window.localStorage.getItem('dispatchWelcome') && <DispatchWelcome close={this.close} />}
         <DispatchPost
           key="postarea"
           onChange={this.change}
