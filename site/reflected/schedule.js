@@ -189,9 +189,10 @@ import BookingDetails from '../../site/components/BookingDetails';
   </Grid>
   <Block type="padded" background="sea">
     <Image src="icon/outline-bed.png" width="101" height="78"  align="center" margin="0 0 40px 0" />{'\n'}
-    <Block cols="5">
-      ## Highly Sensitive Person Lounge{'\n'}
-      Big events with lots of people can sometimes be overwhelming. We get that because we feel that way too! Since the very first WDS we've provided a dedicated quiet space with hammocks and masseuses for attendees to break away, relax, and recharge.{'\n'}
+        <Block cols="5">
+      ## How Can We Help? {'\n'}
+      Have questions about WDS? Trying to find the best donut in Portland? Looking for a high-five? Let our concierge team know how we can help make your WDS experience great.{'\n'}
+           <Button to="mailto:concierge@wds.fm" newWindow={true} styling="orange" fitToText>Email Concierge Team</Button> 
     </Block>
   </Block>
 </Section>
