@@ -15,6 +15,7 @@ import Block from '../Block/Block';
 import DispatchItem from './DispatchItem';
 import DispatchPost from './DispatchPost';
 import api from '../../utils/api';
+import DispatchWelcome from '../DispatchWelcome';
 
 class Dispatch extends React.Component {
   constructor() {
@@ -206,6 +207,7 @@ class Dispatch extends React.Component {
     headcss.WebkitClipPath = clip;
     return (
       <div styleName="shell" ref={this.setShell}>
+        <DispatchWelcome />
         <DispatchPost
           key="postarea"
           onChange={this.change}
