@@ -45,7 +45,7 @@ const DispatchWelcome = ({ close }) => {
     <Shell>
       <Close onClick={close}>x</Close>
       <Title>Welcome to the WDS Hub & Dispatch!</Title>
-      <Msg>Say hello to your fellow attendees below and browse our guides to the right to prepare for your adventure!</Msg>
+      <Msg>Say hello to your fellow attendees below and browse our guides to the left to prepare for your adventure!</Msg>
     </Shell>
   );
 };
