@@ -87,6 +87,7 @@
   text-decoration: none;
   background-image: url(https://files.wds.fm/images/logo.png);
   background-size: auto 100%;
+  background-repeat: no-repeat;
   width: 123px;
   height: 26px;
   display: block;

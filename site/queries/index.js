@@ -1,5 +1,17 @@
 import { gql } from 'react-apollo';
 
+export const Page = gql`
+  query Page($slug: String) {
+    page(slug: $slug){
+      page_id
+      content
+      title
+      slug
+      status
+    }
+  }
+`;
+
 export const Event = gql`
   query Event($slug: String!) {
     event(slug: $slug){

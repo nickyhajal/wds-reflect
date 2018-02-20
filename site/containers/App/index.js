@@ -167,7 +167,6 @@ export class App extends Component {
     );
   }
   renderSocialMode() {
-    console.log('SOCIAL');
     return (
       <main>
         {this.props.children}

@@ -31,12 +31,15 @@ export class Hub extends Component {
     return (
       <div styleName="shell">
         <Section headerSize="thin" headerClip="br:0%,-10%;" headerImage="hero/green.jpg" color="canvas">
-          <Block cols="8" background="transparent" styleName="contentShell">
-            <h2 style={headcss} >The Dispatch</h2>
-            <Block width="100%" background="white" type="padded">
-              <Dispatch {...this.state.dispatch} />
-            </Block>
-          </Block>
+          <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <div style={{ width: '280px', background: 'blue', marginRight: '20px' }} />
+              <Block cols="6" background="transparent" styleName="contentShell">
+                <h2 style={headcss} >The Dispatch</h2>
+                <Block width="100%" background="white" type="padded">
+                    <Dispatch {...this.state.dispatch} />
+                </Block>
+              </Block>
+            </div>
         </Section>
       </div>
     );

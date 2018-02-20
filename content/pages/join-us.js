@@ -20,14 +20,13 @@ All that’s missing is YOU!
   
 <p>All tickets cost <b>$697</b> and are sold on a first-come, first-served basis. <i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
 
-## Save the Date: the next ticket sale for WDS will take place February 20th.
-Join the wait list using the button below to be the first to get notified when tickets for WDS 2018 go on sale. 
+## Tickets are on sale now!
 
-<Button modal="joinUs" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '20px' }} fitToText>Join the Waitlist!</Button>
+<Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Ticket!</Button>
 
   </Block>
 </Section>
-<Section color="sea" bound={false}>
+<Section color="canvas" bound={false}>
 <Block margin="50px 0 50px 0">
   ## What's Included in My Ticket
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
