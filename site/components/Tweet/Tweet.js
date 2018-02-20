@@ -53,7 +53,7 @@ class Tweet extends React.Component {
     });
   }
   render() {
-    const count = 140 - this.state.tweet.length;
+    const count = 270 - this.state.tweet.length;
     let btn = 'Send Tweet!';
     if (this.state.status === 'sending') {
       btn = 'Sending...';

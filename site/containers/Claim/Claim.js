@@ -254,6 +254,7 @@ export class App extends Component {
         claimCount: this.state.claimCount + 1,
       });
       this.props.act.updateMe('tickets', rsp.data.tickets);
+      this.props.act.updateMe('attending18', '1');
     });
   }
   meClaimed() {
