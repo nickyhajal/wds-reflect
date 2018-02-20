@@ -26,7 +26,7 @@
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
-<p><b>Please Note: Tickets for WDS 2018 will go on sale next February (2018).</b> Sign-up to be notified when tickets go on sale for <Link to="https://worlddominationsummit.com/join-us">WDS 2018 here</Link>.</p>
+<p><b>Tickets for WDS 2018 are available NOW!</b> Go to the following link to get your <Link to="https://worlddominationsummit.com/join-us">WDS 2018 tickets.</Link>.</p>
 
 ### I bought a ticket, what do I do next? 
 
