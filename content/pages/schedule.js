@@ -126,7 +126,7 @@ _Speakers for 2018 will be announced soon and in rounds leading up to WDS._
       </Block>
     </Tab>
 <Tab title="Charles">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Charles.Hunt.WDS.2017.speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Charles-Hunt.WDS.Speaker.2017.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Charles Hunt
 
