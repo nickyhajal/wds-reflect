@@ -32,6 +32,7 @@
   
   Please fill out the application by clicking on the link below and we’ll get back to you within about 3 weeks with next steps. Questions? Email Tina at concierge@wds.fm for help!
   
-    ## [--> 2018 WDS Ambassador Application](https://worlddominationsummit.wufoo.com/forms/k1qb9rtw1jhaxfo/)
+ <iframe height="4600" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/k1qb9rtw1jhaxfo/"><a href="https://worlddominationsummit.wufoo.com/forms/k1qb9rtw1jhaxfo/">Fill out my Wufoo form!</a></iframe>
+
    </Block>
 </Section>
