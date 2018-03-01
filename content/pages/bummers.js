@@ -10,4 +10,5 @@
    <p>Have a question? Our concierge team operates year-round so don't hesitate to reach out to them at <Link to="mailto:concierge@wds.fm">concierge@wds.fm.</Link></p>
     <p>We hope to see you at a future WDS!</p> 
   </Block>
-<Block width="100%" margin="40px 0 0 0" textAlign="center">## [Take me back to WDS site](https://worlddominationsummit.com/)</Block>
+  <Block width="100%" margin="40px 0 0 0" textAlign="center">## [Take me back to WDS site](https://worlddominationsummit.com/)</Block>
+</Section>
