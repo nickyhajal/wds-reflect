@@ -17,7 +17,7 @@
       <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
  ## How to Apply
 
-### Applications to be a 2018 Ambassador are now open! 
+### Applications to be a 2018 Ambassador are now open! (until March 31st) 
   
  We are searching for 75 amazing people ready to support our attendees throughout WDS. To be an Ambassador, we ask that you:
 + Commit to helping our attendees have the best experience possible! 
@@ -28,7 +28,7 @@
 + Are ready to work hard and play hard to help make WDS 2018 our best event yet!
 
   
-  _Special consideration will be given to those that are available for the entire WDS week from Monday, June 25th until Monday, July 2nd._
+  <p><i>Special consideration will be given to those that are available for the entire WDS week from Monday, June 25th until Monday, July 2nd.</i></p>
   
   Please fill out the application by clicking on the link below and we’ll get back to you within about 3 weeks with next steps. Questions? Email Tina at concierge@wds.fm for help!
   
