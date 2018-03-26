@@ -1,27 +1,3 @@
-<Script>
-  import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
-
-  let mapComponent = false;
-  function handleMapLoad(map) {
-    mapComponent = map;
-    if (map) {
-    }
-  }
-
-  const PDXLocationMap = withGoogleMap(props => (
-    <GoogleMap
-      ref={props.onMapLoad}
-      defaultZoom={13}
-      onMapLoad={handleMapLoad}
-      defaultCenter={{ lat: 45.516791, lng: -122.681333 }}  
-      onClick={props.onMapClick}
-    >
-      <Marker
-        position={{ lat: 45.516791, lng: -122.681333 }}
-      />
-    </GoogleMap>
-  ));
-</Script>
 <Section
   headerImage="hero/location.jpg"
   headerClip="rl_header"
@@ -30,170 +6,251 @@
   color="white"
   preload
 >
-  <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Image src="heading/hoteltempheader.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Block cols="8" bleed={false} margin="0 0 80px">
+    <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Your Base in Portland
-    ((nicky test)) Our beloved city is one of the most electic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers.  For 2018 we'll be based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. 
-  </Block>
-    
-  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
-    <Block width="100%">
-      ## WDS 2018 Homebase
+      ## Welcome to the WDS Hotel™
+      Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
+      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2018.</p>
+      <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
+      <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
+      
     </Block>
-    <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
-      <PDXLocationMap
-        containerElement={
-          (is.phone() ?
-            <div style={{ height: '220px', width: '260px' }} /> :
-            <div style={{ height: '400px', width: '510px' }} />
-          )
-        }
-        mapElement={
-          (is.phone() ?
-            <div style={{ height: '220px', width: '260px' }} /> :
-            <div style={{ height: '400px', width: '510px' }} />
-          )
-        }
-      />
-    </Block>
-    <Block anchor="left" width="370px" textAlign="left">
-      <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
-        ### Newmark Theatre
-        ### 1037 SW Broadway,
-        ### Portland, OR 97205
+    <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
+      <Block>
+        ## Conveniently Located
       </Block>
-      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }}
-        mobile={{
-          all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
-          phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
-        }}
-      >
-        ### PDX Airport
-        <Link to="https://goo.gl/maps/R3R83DZ6sqy">12.6 Mi from Base</Link>
+      <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
+        <PDXLocationMap
+          containerElement={
+            (is.phone() ?
+              <div style={{ height: '220px', width: '260px' }} /> :
+              <div style={{ height: '400px', width: '510px' }} />
+            )
+          }
+          mapElement={
+            (is.phone() ?
+              <div style={{ height: '220px', width: '260px' }} /> :
+              <div style={{ height: '400px', width: '510px' }} />
+            )
+          }
+        />
+      </Block>
+      <Block anchor="left" width="370px" textAlign="left">
+        <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
+          ### 203 NW 3rd Ave,
+          ### Portland, OR 97209
+        </Block>
+        <Block type="caption" src="photos/society-hotel.jpg" width="316" css={{ left: '50px', top: '11px' }}
+          mobile={{
+            all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
+            phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
+          }}
+        >
+          ### WDS Hotel™
+          <Link to="https://goo.gl/maps/v6kK2y4xsN82">0.8 Mi from Base</Link>
+        </Block>
       </Block>
     </Block>
     <div className="clear" />
   </Block>
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Lodging
-    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. 
-    
-    Here are four amazing Portland properties (including our very own WDS Hotel™) we secured rooms with for WDS 2018, all within walking distance or a quick ride on public transit to WDS events and activities. 
+  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+    ## We're Taking Over an Entire Hotel!
+    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 28th until Monday, July 2nd</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
 
-</Block>
-  <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="photos/modera-lobby.png" width="100%" height="302" />
+<p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (concierge@wds.fm) to see if any openings become available and they'll do their best to assist you.</p>
+    Here's what you need to know...
   </Block>
-  
- <Grid margin="60px 0 -20px 0">
-    <Block type="image" src="photos/society-hotel.jpg">
-      ## WDS Hotel™
-     The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
-       <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
-        <Button to="https://worlddominationsummit.com/hotel" newWindow={true} fitToText>Book Now</Button> 
-    </Block>
+</Section>
+<Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
+  <div className="clear"></div>
+    <Block
+    type="padded"
+    cols="6"
+    textAlign="left"
+    bleed={false}
+    background="canvas"
+    className="has-checklist"
+    css={{ padding: '60px 40px' }}
+    mobile={{ phone: {
+      padding: '60px 25px 60px 10px'
+    }}}
+    clip="top_lr_1.6"
+  >
+    ## WDS Hotel™ Package Details
 
-    <Block type="image" src="photos/Paramount-Hotel.jpg">
-      ## Paramount Hotel 
-      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
-      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-     <Button to="http://uspor.webhotel.microsdc.us/bp/search_rooms.jsp?groupCode=WDS18" newWindow={true} fitToText>Book Now</Button>
- </Block>
-
-    <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
-      ## Hotel Modera
-      A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. 
-      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/mAa6guqWiJt">(Google Directions)</Link></p> 
-       <Button to="https://gc.synxis.com/rez.aspx?Hotel=53439&Chain=6052&group=WDS2018" newWindow={true} fitToText>Book Now</Button>
-</Block>
-
-  <Block type="image" src="photos/Hotel-Rose-Portland.jpg">
-      ## Hotel Rose
-      Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! 
-      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
- <Button to="https://gc.synxis.com/rez.aspx?shell=PineappleChain2&template=PineappleChain&Hotel=40205&Chain=17448&arrive=06/26/2018&depart=07/03/2018&adult=1&child=0&group=WDS2018" newWindow={true} fitToText>Book Now</Button>
-</Block>
-
-  </Grid>
-  
-    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Alternative Lodging Options
-    If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:
+    - 4-nights: Thursday, June 28th (check-in 3pm) to Monday, July 2nd (check-out 11am)
+    - All hotel taxes included in listed prices
+    - Complimentary high speed Wi-Fi
+    - Rooftop access
+    - Text-a-concierge service through the hotel
+    - Exclusive programming and activities
+    - Exclusive SWAG just for WDS Hotel™ guests
+    - High fives
+     <p><b>Important details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). A credit card is required for online reservation and at check-in. WDS is responsible for the reservation process and any changes associated with the 4-night package. The Society Hotel will provide all other hotel and guest services.</p> 
   </Block>
-  <Block cols="8" bleed={false} margin="0 0 80px">
-  <Grid numCols="3" tabletCols="2" width="968">
-    <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
-      ### Portland State (0.6 Mi)
-      <Link to="">Coming Soon</Link>
-    </Block>
-    <Block type="caption" src="photos/Portland-Hostel.jpg">
-     ### NW Hostel (1.0 Mi) 
-      <Link to="http://nwportlandhostel.com/">Book Now</Link>
-    </Block>
-    <Block type="caption" src="photos/PDX-airbnb.jpg">
-      ### Airbnb near WDS
-      <Link to="https://goo.gl/31txZZ">Book Now</Link>
-    </Block>
-  </Grid>
-  </Block>
+  <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-50px -60px 40px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
-  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="orange">
-    <Block anchor="left" align="none" width="222" margin="0 40px 0 0">
-      <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="28px 0 48px 0" />
-      <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>
+</Section>
+<Section color="white">
+  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+      ## Let's Do This!
+      Here's how to reserve your spot at the WDS Hotel™
+      ##### Step #1: Choose your room type (descriptions below)
+      We've got three options for travelers with both budget and sleep preferences in mind.
+     ##### Step #2: Review the details and FAQ sections
+  <p>It's the little details that can make a huge difference in your experience.</p>
+  ##### Step #3: Payment and guest information
+  <p>Make your room selection, book, tell us who's coming, and then prepare for lift-off.</p>
+  </Block>
+  <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
+  <Block margin="100px 0 50px 0">
+      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
+        ## Choose Your Adventure
+      Whether you like being near the action but need your own private retreat or you're the type of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
+      </Block>
+      <Grid numCols="3" tabletCols="2" width="968">
+        <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Private Suite & Bathroom
+         Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (12 available suites) 
+         **4-Night Package: $947** (Max occupancy: 2 persons)
+        </Block>
+        <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Standard Room & Shared Bathroom
+          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and shared (private) bathrooms on the floor. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (25 available rooms)
+        **4-Night Package: $747** (max occupancy: 2 persons)
+        </Block>
+        <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Bunk Bed & Shared Bathroom
+          <p>Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With the custom-built triple-tall bunks, you’ll get both community and privacy. Each bunk has a storage locker, charging station, reading light, and privacy curtain. Full-size luxury mattresses and quiet hours ensure you’ll get solid night’s sleep. Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. <i>Please Note: Upper bunks require climbing a ladder.</i> (24 available bunks) </p>  
+          **4-Night Package: $347** (1 bed per person)
+          </Block>
+     </Grid>
     </Block>
-    <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
-      <Image src="icon/bike-green-circle.png" align="center" width="145" height="130" margin="28px 0 48px 0" />
-      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
-    </Block>
-    <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
-      ## Transportation
-      Portland has one the best public transit systems (TriMet) in the country - no need to rent a car during your whole time in the city. For easy access to and from the airport to downtown, try Portland’s fast-and-easy light rail service (MAX) for just $2.50. 
-
-Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new bikehsare program Biketown.
+    <Block cols="8" bleed={false} margin="0 0 80px">
+    <Grid numCols="3" tabletCols="2" width="968">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
+        ### Private Suites ($947)
+        Private bathroom
+        <PurchaseButton 
+        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
+        ### Standard Room ($747)
+        Shared bathroom
+        <PurchaseButton 
+        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
+        ### Bunks ($347)
+        Shared bathroom
+        <PurchaseButton 
+        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
+      </BlockWithLiveLabel>
+    </Grid>
     </Block>
     <div className="clear" />
-  </Block>
-  <Block margin="125px 0 50px 0">
-    ## Food & Dining
-    <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-narrow" src="photos/food-carts.jpg">
-        ## Food Carts
-        <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>View More</Button>
+</Section>
+<Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
+  <div className="clear"></div>
+    <Block
+    type="padded"
+    cols="6"
+    textAlign="left"
+    bleed={false}
+    background="canvas"
+    className="has-checklist"
+    css={{ padding: '60px 40px' }}
+    mobile={{ phone: {
+      padding: '60px 25px 60px 10px'
+    }}}
+    clip="top_lr_1.6"
+  >
+        ## WDS Hotel™ FAQs
+        <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
+        ### Can I book a WDS Hotel™ package through the Society Hotel? 
+        Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, June 28th, checking out Monday, July 2nd). All rooms will be sold as 4-night packages.   
+        ### What is your refund/transfer policy for WDS Hotel™ packages?
+        <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee until June 27th by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
+        ### How do I book additional nights before or after the WDS package dates?
+        <p>Once you've reserved your WDS Hotel™ package, please contact the Society Hotel by phone (avoid their online reservation system) to set up any additional dates by calling their front desk at <b>503-445-0444</b>. You may be able to stay in the same room type as your WDS Hotel™ package, but that will depend on the hotel's room availability.</p>
+        ### When will my credit card be charged?
+        Your card will be immediately charged for the full amount when you book a WDS Hotel™ package. You'll also need to provide a credit card upon check-in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee or cocktail, directly to your room.
+        ### Can I book a room with another WDS attendee?
+        <p>Yes! Similar to any hotel reservation, one person is responsible for the reservation itself and only that person will be able to make any changes. <i>Bunks require individual reservations.</i></p>
+        ### Can I book a partial stay or split days with a friend?
+        Once you've booked a package, you get the room or bunk for the entire 4 nights regardless of how many days you plan to use. Like any hotel reservation, you are ultimately responsible for any other guests that you let stay in your room. For example, if your friend charges 20 craft microbrews and one bag of Skittles to the room, you'd be responsible for paying the bill.
+        ### Can I book a private room with another person who isn’t attending WDS?
+        <p>We'd love for everyone staying at the WDS Hotel™ to be part of WDS. However, we understand if you’ve booked a private room and you have a significant other or dependent staying with you who is not attending WDS. <i>For the bunk section of the hotel, all guests need to be registered WDS attendees.</i></p>
+        ### What kinds of facilities are in the hotel?
+        <p>There is an excellent cafe that serves light fare for breakfast and lunch, which you'll be able to charge to your room/bunk. Additionally, as a registered guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite.</p>    
+        ### How do I get to the hotel from the airport? 
+        <p>For just $2.50, you can take the MAX red line train from the airport towards "City Center/Beaverton" and get off at the "Old Town/Chinatown" stop. Walk two blocks west on Davis St. and you'll see the hotel at the corner of Davis and 3rd Ave. <Link to="https://goo.gl/maps/93LythVvQEG2">(Google directions).</Link> Taxis and ride share options are also available.</p>
+        ### How far is the hotel from the WDS Main Stage?
+        <p>The hotel is less than a mile (0.8) walk through downtown <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google directions)</Link>. You can also make the trip by bike, light rail (MAX) system, or ride share.</p>
+        ### It looks like you're sold out but I'd really like to stay at the WDS Hotel™. What are my options?
+        <p>Reach out to our concierge team at <b>concierge@wds.fm</b> to see if there are any cancellations and openings. <i>Do not contact the Society Hotel regarding WDS packages.</i></p>
+        ### Not finding the answer to your question?
+        <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
+ </Block>
+   <div className="clear" />
+</Section>
+<Section color="canvas">
+  <Block>## The WDS Hotel™ Gallery</Block>
+  <Tabs style="dots">
+    <Tab title="Exterior ">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left"> 
       </Block>
-      <Block type="image-narrow" src="photos/restaurants.jpg">
-        ## Restaurants
-        <Button to="http://pdx.eater.com/maps/best-portland-restaurants-38" newWindow={true} fitToText>View More</Button>
+    </Tab>
+    <Tab title="Front Desk">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
       </Block>
-      <Block type="image-narrow" src="photos/farmers-market.jpg">
-        ## Farmer&apos;s Markets
-        <Button to="http://www.portlandfarmersmarket.org/" newWindow={true} fitToText>View More</Button>
+    </Tab>
+    <Tab title="Cafe Counter">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
       </Block>
-    </Grid>
-  </Block>
-  <Block margin="125px 0 50px 0">
-    <Block cols="6">
-      ## The City
-      You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       
-    </Block>
-    <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Neighborhoods: Hawthorne
-        Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
+    </Tab>
+<Tab title="Rooftop Patio">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Neighborhoods: NW & Pearl
-        Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.
+    </Tab>
+<Tab title="Bunk Room">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Powell’s Books
-        No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at 1005 W Burnside.
+     </Tab>
+      <Tab title="Bunk Bed">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left"> 
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Waterfront
-        Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.
+    </Tab>
+    <Tab title="Private Room">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
       </Block>
-    </Grid>
+    </Tab>
+    <Tab title="Amenities">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+    </Tab>
+  </Tabs>
+</Section>
+<Section color="green">
+  <Block cols="6" css={{ padding: '15px 0 20px' }}>
+   ## Additional Accomodations for Staying in Portland
+  <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
+ <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
+<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2018 Hotel Partners</Button>
+ </Block>
   </Block>
 </Section>
 <Import id="join-us" />
