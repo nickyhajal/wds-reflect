@@ -169,8 +169,13 @@ Part of this training will be developed internationally, including a teaching tr
     ##### Eligibility
 The "Scholarships for Real Life" program is open to all alumni who have attended one of our past seven WDS events AND those that have [officially registered for WDS 2018](https://worlddominationsummit.com/join-us) even if this is your first time attending.
 
-##### 2018 Applications - Coming Soon!
-<p>If you would like to be notified when applications re-open for 2018, please <Link to="http://madmimi.com/signups/150899f15087481aa41434436a6e3729/join">sign-up here with your email</Link> and you'll be notified when applications become available.</p>
+##### 2018 Applications - Now Available!
+<p>Click on the "apply now" button below and make sure to read and follow all instructions carefully.</p>
+
+<p><b>Deadline:</b> Completed applications are due on <b>Sunday, April 1st at 9:00pm.</b> Late submissions will not be considered.</p>
+
+<Button to="foundation-apply" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Apply Now</Button>
+
 </Block>
 </Section>
 <Section color="green">
