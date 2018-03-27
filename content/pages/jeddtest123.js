@@ -1,3 +1,28 @@
+<Script>
+  import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
+
+  let mapComponent = false;
+  function handleMapLoad(map) {
+    mapComponent = map;
+    if (map) {
+    }
+  }
+
+  const PDXLocationMap = withGoogleMap(props => (
+    <GoogleMap
+      ref={props.onMapLoad}
+      defaultZoom={13}
+      onMapLoad={handleMapLoad}
+      defaultCenter={{ lat: 45.524679, lng: -122.673470 }}
+      onClick={props.onMapClick}
+      options={{ scrollwheel: false, draggable: false }}
+    >
+      <Marker
+        position={{ lat: 45.524679, lng: -122.673470 }}
+      />
+    </GoogleMap>
+  ));
+</Script>
 <Section
   headerImage="hero/location.jpg"
   headerClip="rl_header"
@@ -198,6 +223,40 @@
         <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
  </Block>
    <div className="clear" />
+</Section>
+<Section color="white">
+  <Block margin="100px 0 50px 0">
+      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
+        ## Reserve Your WDS Hotel™ Package 
+      Once we run out of rooms/packages that's it! We literally cannot add any extra rooms so make sure to book your package asap. 
+      </Block>
+    </Block>
+    <Block cols="8" bleed={false} margin="0 0 80px">
+    <Grid numCols="3" tabletCols="2" width="968">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
+        ### Private Suites ($947)
+        Private bathroom
+        <PurchaseButton 
+        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
+        ### Standard Room ($747)
+        Shared bathroom
+        <PurchaseButton 
+        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
+        ### Bunks ($347)
+        Shared bathroom
+        <PurchaseButton 
+        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
+      </BlockWithLiveLabel>
+    </Grid>
+    </Block>
+    <div className="clear" />
 </Section>
 <Section color="canvas">
   <Block>## The WDS Hotel™ Gallery</Block>
