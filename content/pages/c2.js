@@ -18,18 +18,25 @@ For 2018 we are returning to the beautiful and intimate Newmark Theater, bringin
 
 All that’s missing is YOU!
   
-<p>All-access WDS 360 tickets cost <b>$697</b> and are sold on a first-come, first-served basis. <i></p>
-<p>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
+<p>All-access WDS 360 tickets cost <b>$697</b> and are sold on a first-come, first-served basis.</p>
+<p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
 
-## WDS 360 Tickets are on sale now!
+## WDS 360 tickets are on sale now!
+       
+A 360 ticket holder gets access to it all -- the WDS main-events and the Connect experience. 
 
 <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your 360 Ticket!</Button>
 
+## Want a taste of the experience?
+       
+Looking to meet other attendees and not take part in the entire adventure? Consider getting a WDS Connect Ticket. 
+       
+       <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
 <Block margin="50px 0 50px 0">
-  ## What's Included in My 360 Ticket
+  ## What's Included in My WDS 360 Ticket
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
       <Block type="image" src="photos/JoinUs/image-speakers.png">
       ## Main Stage Speakers
