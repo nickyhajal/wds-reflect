@@ -21,7 +21,7 @@
       Join us for WDS CONNECT, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Where WDS 360 is the whole pizza, Connect is a giant slice of the experience.  
       
     </Block>
-      <Block>
+  <Block margin="125px 0 50px 0">
     <Block cols="6">
       ## Here’s some things we are cooking up for CONNECT                                                                                   
     </Block>
