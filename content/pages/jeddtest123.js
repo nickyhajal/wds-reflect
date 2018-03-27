@@ -10,8 +10,8 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" /></Block>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-     <h2 style={{ marginBottom: '4px' }}>WDS Connect: Be a Part of a Remarkable Community</h2><p></p>
-    ## June 26 - July 2, 2018 in Portland, Oregon
+     <p style="text-align: center;"><h2 style={{ marginBottom: '4px' }}>WDS Connect: Be a Part of a Remarkable Community</h2></p>
+   <p style="text-align: center;"><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
       Back in 2011, we invited 500 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
       
       Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people.
@@ -21,7 +21,6 @@
       Join us for WDS CONNECT, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Where WDS 360 is the whole pizza, Connect is a giant slice of the experience.  
       
     </Block>
-    <Block margin="125px 0 50px 0">
     <Block cols="6">
       ## Here’s some things we are cooking up for CONNECT                                                                                   
     </Block>
@@ -51,7 +50,6 @@
         Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Share your wisdom and expertise. Create an opportunity for people with similar passions to meet. Organize something fun to create memories.
       </Block>
     </Grid>
-  </Block>
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
