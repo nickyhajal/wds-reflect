@@ -1,184 +1,57 @@
-<Script>
-  import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
-
-  let mapComponent = false;
-  function handleMapLoad(map) {
-    mapComponent = map;
-    if (map) {
-    }
-  }
-
-  const PDXLocationMap = withGoogleMap(props => (
-    <GoogleMap
-      ref={props.onMapLoad}
-      defaultZoom={13}
-      onMapLoad={handleMapLoad}
-      defaultCenter={{ lat: 45.524679, lng: -122.673470 }}
-      onClick={props.onMapClick}
-      options={{ scrollwheel: false, draggable: false }}
-    >
-      <Marker
-        position={{ lat: 45.524679, lng: -122.673470 }}
-      />
-    </GoogleMap>
-  ));
-</Script>
 <Section
-  headerImage="hero/location.jpg"
+  headerImage="hero/schedule.jpg"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/hoteltempheader.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Image src="heading/connect.png" width="446px" height="156px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-      ## Welcome to the WDS Hotel™
-      Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
-      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2018.</p>
-      <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
-      <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
+     <h2 style={{ marginBottom: '4px' }}>WDS Connect: Be a Part of a Remarkable Community</h2><p></p>
+    ## June 26 - July 2, 2018 in Portland, Oregon
+      Back in 2011, we invited 500 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
+      
+      Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people.
+
+      Are you one of them?
+
+      Join us for WDS CONNECT, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Where WDS 360 is the whole pizza, Connect is a giant slice of the experience.  
       
     </Block>
-    <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
-      <Block>
-        ## Conveniently Located
-      </Block>
-      <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
-        <PDXLocationMap
-          containerElement={
-            (is.phone() ?
-              <div style={{ height: '220px', width: '260px' }} /> :
-              <div style={{ height: '400px', width: '510px' }} />
-            )
-          }
-          mapElement={
-            (is.phone() ?
-              <div style={{ height: '220px', width: '260px' }} /> :
-              <div style={{ height: '400px', width: '510px' }} />
-            )
-          }
-        />
-      </Block>
-      <Block anchor="left" width="370px" textAlign="left">
-        <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
-          ### 203 NW 3rd Ave,
-          ### Portland, OR 97209
-        </Block>
-        <Block type="caption" src="photos/society-hotel.jpg" width="316" css={{ left: '50px', top: '11px' }}
-          mobile={{
-            all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
-            phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
-          }}
-        >
-          ### WDS Hotel™
-          <Link to="https://goo.gl/maps/v6kK2y4xsN82">0.8 Mi from Base</Link>
-        </Block>
-      </Block>
+    <Block margin="125px 0 50px 0">
+    <Block cols="6">
+      ## Here’s some things we are cooking up for CONNECT                                                                                   
     </Block>
-    <div className="clear" />
-  </Block>
-  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
-    ## We're Taking Over an Entire Hotel!
-    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 28th until Monday, July 2nd</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
-
-<p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (concierge@wds.fm) to see if any openings become available and they'll do their best to assist you.</p>
-    Here's what you need to know...
-  </Block>
-</Section>
-<Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
-  <div className="clear"></div>
-    <Block
-    type="padded"
-    cols="6"
-    textAlign="left"
-    bleed={false}
-    background="canvas"
-    className="has-checklist"
-    css={{ padding: '60px 40px' }}
-    mobile={{ phone: {
-      padding: '60px 25px 60px 10px'
-    }}}
-    clip="top_lr_1.6"
-  >
-    ## WDS Hotel™ Package Details
-
-    - 4-nights: Thursday, June 28th (check-in 3pm) to Monday, July 2nd (check-out 11am)
-    - All hotel taxes included in listed prices
-    - Complimentary high speed Wi-Fi
-    - Rooftop access
-    - Text-a-concierge service through the hotel
-    - Exclusive programming and activities
-    - Exclusive SWAG just for WDS Hotel™ guests
-    - High fives
-     <p><b>Important details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). A credit card is required for online reservation and at check-in. WDS is responsible for the reservation process and any changes associated with the 4-night package. The Society Hotel will provide all other hotel and guest services.</p> 
-  </Block>
-  <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-50px -60px 40px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
-  <div className="clear" />
-</Section>
-<Section color="white">
-  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
-      ## Let's Do This!
-      Here's how to reserve your spot at the WDS Hotel™
-      ##### Step #1: Choose your room type (descriptions below)
-      We've got three options for travelers with both budget and sleep preferences in mind.
-     ##### Step #2: Review the details and FAQ sections
-  <p>It's the little details that can make a huge difference in your experience.</p>
-  ##### Step #3: Payment and guest information
-  <p>Make your room selection, book, tell us who's coming, and then prepare for lift-off.</p>
-  </Block>
-  <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
-  <Block margin="100px 0 50px 0">
-      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
-        ## Choose Your Adventure
-      Whether you like being near the action but need your own private retreat or you're the type of person who loves bunk beds, the WDS Hotel™ has 3 great room options. And the best part—no matter what room you choose everyone will be from WDS and staying in the same building!
-      </Block>
-      <Grid numCols="3" tabletCols="2" width="968">
-        <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Private Suite & Bathroom
-         Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (12 available suites) 
-         **4-Night Package: $947** (Max occupancy: 2 persons)
-        </Block>
-        <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Standard Room & Shared Bathroom
-          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and shared (private) bathrooms on the floor. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (25 available rooms)
-        **4-Night Package: $747** (max occupancy: 2 persons)
-        </Block>
-        <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Bunk Bed & Shared Bathroom
-          <p>Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With the custom-built triple-tall bunks, you’ll get both community and privacy. Each bunk has a storage locker, charging station, reading light, and privacy curtain. Full-size luxury mattresses and quiet hours ensure you’ll get solid night’s sleep. Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. <i>Please Note: Upper bunks require climbing a ladder.</i> (24 available bunks) </p>  
-          **4-Night Package: $347** (1 bed per person)
-          </Block>
-     </Grid>
-    </Block>
-    <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
-        ### Private Suites ($947)
-        Private bathroom
-        <PurchaseButton 
-        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
-      </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
-        ### Standard Room ($747)
-        Shared bathroom
-        <PurchaseButton 
-        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
-      </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
-        ### Bunks ($347)
-        Shared bathroom
-        <PurchaseButton 
-        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
-      </BlockWithLiveLabel>
+      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Assembly
+        Kick off your morning with a little inspiration to take you through the day. Also find out what’s happening for the day, ask questions of WDS core team members, and meet new friends.
+      </Block>
+      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Spark Sessions
+        Explore a market of personal skills.  Learn how to captivate strangers. Next level your networking.
+      </Block>
+      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Gathers
+        Unstructured time to offer best travel tips, play games, and more.
+      </Block>
+      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Service Project
+        Help welcome refugees with projects in conjunction with the Refugee Care Collective 
+      </Block>
+      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Tours
+        bike, coffee, beer, hikes, makers- PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city.
+      </Block>
+       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Attendee-led Meetups
+        Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Share your wisdom and expertise. Create an opportunity for people with similar passions to meet. Organize something fun to create memories.
+      </Block>
     </Grid>
-    </Block>
-    <div className="clear" />
+  </Block>
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
@@ -195,7 +68,7 @@
     }}}
     clip="top_lr_1.6"
   >
-        ## WDS Hotel™ FAQs
+        ## Connect™ FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### Can I book a WDS Hotel™ package through the Society Hotel? 
         Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, June 28th, checking out Monday, July 2nd). All rooms will be sold as 4-night packages.   
@@ -223,85 +96,6 @@
         <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
  </Block>
    <div className="clear" />
-</Section>
-<Section color="white">
-  <Block margin="100px 0 50px 0">
-      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
-        ## Reserve Your WDS Hotel™ Package 
-      Once we run out of rooms/packages that's it! We literally cannot add any extra rooms so make sure to book your package asap. 
-      </Block>
-    </Block>
-    <Block cols="8" bleed={false} margin="0 0 80px">
-    <Grid numCols="3" tabletCols="2" width="968">
-      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
-        ### Private Suites ($947)
-        Private bathroom
-        <PurchaseButton 
-        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
-      </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
-        ### Standard Room ($747)
-        Shared bathroom
-        <PurchaseButton 
-        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
-      </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
-        ### Bunks ($347)
-        Shared bathroom
-        <PurchaseButton 
-        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
-      </BlockWithLiveLabel>
-    </Grid>
-    </Block>
-    <div className="clear" />
-</Section>
-<Section color="canvas">
-  <Block>## The WDS Hotel™ Gallery</Block>
-  <Tabs style="dots">
-    <Tab title="Exterior ">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left"> 
-      </Block>
-    </Tab>
-    <Tab title="Front Desk">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-    <Tab title="Cafe Counter">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-<Tab title="Rooftop Patio">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-<Tab title="Bunk Room">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-     </Tab>
-      <Tab title="Bunk Bed">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left"> 
-      </Block>
-    </Tab>
-    <Tab title="Private Room">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-    <Tab title="Amenities">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-  </Tabs>
 </Section>
 <Section color="green">
   <Block cols="6" css={{ padding: '15px 0 20px' }}>
