@@ -20,6 +20,7 @@
 
       Join us for WDS CONNECT, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Where WDS 360 is the whole pizza, Connect is a giant slice of the experience.  
       
+       <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
     </Block>
   <Block margin="125px 0 50px 0">
     <Block cols="6">
@@ -51,6 +52,7 @@
         Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Share your wisdom and expertise. Create an opportunity for people with similar passions to meet. Organize something fun to create memories.
       </Block>
     </Grid>
+ <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
        </Block>
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
@@ -99,10 +101,10 @@
 </Section>
 <Section color="green">
   <Block cols="6" css={{ padding: '15px 0 20px' }}>
-   ## Additional Accomodations for Staying in Portland
-  <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
+   ## Want the Entire WDS Experience? Get a 360 Ticket!
+  <font color="white">A WDS 360 ticket gets you access to it all -- the main events + Connect.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2018 Hotel Partners</Button>
+<Button to="be-there" newWindow={true} styling="orange" fittotext>WDS 360 Ticket</Button>
  </Block>
   </Block>
 </Section>
