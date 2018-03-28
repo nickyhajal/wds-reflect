@@ -10,8 +10,8 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" /></Block>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-     <p style="text-align: center;"><h2 style={{ marginBottom: '4px' }}>WDS Connect: Be a Part of a Remarkable Community</h2></p>
-   <p style="text-align: center;"><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
+     <p style={{textAlign: center}}><h2 style={{ marginBottom: '4px' }}>WDS Connect: Be a Part of a Remarkable Community</h2></p>
+   <p style={{textAlign: center}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
       Back in 2011, we invited 500 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
       
       Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people.
