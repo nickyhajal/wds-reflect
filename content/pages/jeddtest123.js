@@ -8,11 +8,11 @@
 >
   <Image src="heading/connect.png" width="446px" height="156px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" /></Block>
+    <Image src="images/photos/Connect/WDS-Connect-Header.jpg" width="100%" height="302" /></Block>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-     <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>WDS Connect: Be a Part of a Remarkable Community</h2></p>
+     <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>WDS Connect: Join a Remarkable Community</h2></p>
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
-      Back in 2011, we invited 500 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
+      Back in 2011, we invited 500 adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
       
       Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people.
 
@@ -27,19 +27,19 @@
       ## Here’s some things we are cooking up for CONNECT                                                                                   
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Assembly
+      <Block type="image-overlay" anchor="right" icon="outline-beers" src="images/photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Assemblies
         Kick off your morning with a little inspiration to take you through the day. Also find out what’s happening for the day, ask questions of WDS core team members, and meet new friends.
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="outline-bike" src="images/photos/Connect/SparkSessions.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Spark Sessions
         Explore a market of personal skills.  Learn how to captivate strangers. Next level your networking.
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Gathers
         Unstructured time to offer best travel tips, play games, and more.
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Service Project
         Help welcome refugees with projects in conjunction with the Refugee Care Collective 
       </Block>
@@ -47,7 +47,7 @@
         ## Tours
         bike, coffee, beer, hikes, makers- PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city.
       </Block>
-       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Attendee-led Meetups
         Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Share your wisdom and expertise. Create an opportunity for people with similar passions to meet. Organize something fun to create memories.
       </Block>
