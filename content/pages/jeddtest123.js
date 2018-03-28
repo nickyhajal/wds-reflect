@@ -29,7 +29,7 @@
       ## Here’s some things we are cooking up for CONNECT                                                                                   
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Assemblies
         Kick off your morning with a little inspiration to take you through the day. Also find out what’s happening for the day, ask questions of WDS core team members, and meet new friends.
       </Block>
@@ -37,7 +37,7 @@
         ## Spark Sessions
         Explore a market of personal skills.  Learn how to captivate strangers. Next level your networking.
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Gathers
         Unstructured time to offer best travel tips, play games, and more.
       </Block>
@@ -45,11 +45,11 @@
         ## Service Project
         Help welcome refugees with projects in conjunction with the Refugee Care Collective 
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Tours
         bike, coffee, beer, hikes, makers- PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city.
       </Block>
-       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Attendee-led Meetups
         Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Share your wisdom and expertise. Create an opportunity for people with similar passions to meet. Organize something fun to create memories.
       </Block>
