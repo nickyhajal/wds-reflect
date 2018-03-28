@@ -33,21 +33,21 @@
         ## Assemblies
         Kick off your morning with a little inspiration to take you through the day. Also find out what’s happening for the day, ask questions of WDS core team members, and meet new friends.
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/SparkSessions.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/spark-sessions.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Spark Sessions
-        Explore a market of personal skills.  Learn how to captivate strangers. Next level your networking.
+        Explore a market of personal skills. Learn how to captivate strangers. Level-up your networking game. These themed discussions are led by experts in their field and designed for interaction.
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Gathers
-        Unstructured time to offer best travel tips, play games, and more.
+        Unstructured time to offer best travel tips, play games, and more. Think of it as a super-hero gathering with the main focus of meeting someone new and doig something fun. 
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Service Project
-        Help welcome refugees with projects in conjunction with the Refugee Care Collective 
+        Part of the core of WDS. Help welcome refugees with projects in conjunction with the Refugee Care Collective. 
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Tours
-        bike, coffee, beer, hikes, makers- PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city.
+        Bikes, coffee, beer, hikes, makers- PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city.
       </Block>
        <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Attendee-led Meetups
@@ -85,7 +85,7 @@
         ### Can I Updgrade my Connect ticket to a 360 ticket?
         <p>Yes! As long as we still have 360 tickets available you can upgrade your ticket by paying the difference. Contact our concierge team at <b>concierge@wds.fm</b> and they’ll walk you through the process.</p>
         ### Not finding the answer to your question?
-        <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
+        Contact our year-round concierge team at *concierge@wds.fm.* They’ll get back to you at lightning speed!
  </Block>
    <div className="clear" />
 </Section>
