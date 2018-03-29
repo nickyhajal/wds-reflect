@@ -79,13 +79,13 @@
         ### When does WDS Connect take place?
         WDS Connect takes place starting from Tuesday, June 26 until Monday, July 2. Using the mobile-app you'll be able to create your own personalized schedule of events and activities that you want to participate in (except for 360 designated events).
         ### What is your refund/transfer policy for WDS Connect Tickets?
-        <p>All WDS tickets are <b>non-refundable</b> and Connect tickets are <b>non-transferrable.</b></p>  
+        <p>All Connect tickets are <b>non-refundable</b> and <b>non-transferrable.</b></p>  
         ### Can I buy more than one Connect ticket?
-        Yes! You can purchase up to 3 Connect tickets per transaction but you will need to tell us who will be attending at the time of purchase. 
+        Yes - well sort of. You can only purchase 1 Connect ticket per transaction. If you'd like to purchase an additional Connect ticket you'll need to go through the purchase process again and assign the ticket to the new person.
         ### Can I Updgrade my Connect ticket to a 360 ticket?
         <p>Yes! As long as we still have 360 tickets available you can upgrade your ticket by paying the difference. Contact our concierge team at <b>concierge@wds.fm</b> and they’ll walk you through the process.</p>
         ### Not finding the answer to your question?
-        Contact our year-round concierge team at *concierge@wds.fm.* They’ll get back to you at lightning speed!
+        Contact our year-round concierge team at **concierge@wds.fm.** They’ll get back to you at lightning speed!
  </Block>
    <div className="clear" />
 </Section>
