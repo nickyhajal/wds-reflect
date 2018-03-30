@@ -33,35 +33,42 @@
   <div className="clear" />
 </Section>
   <Section color="canvas">
-  <Block>## Speakers and Special Guests from WDS 2017</Block>
+  <Block>## Speakers and Special Guests for WDS 2018</Block>
   <Block cols="6" className="bigger">
-    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are some of our most recent speakers from WDS 2017.
+    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. Here are some of our speakers that will be a part of WDS 2018.
 
-_Speakers for 2018 will be announced soon and in rounds leading up to WDS._
+_Additional speakers for 2018 will be announced soon and in rounds leading up to WDS._
   </Block>
   <Tabs style="dots">
-    <Tab title="Vanessa">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+    <Tab title="Cathy">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Vanessa Van Edwards
-        <p>Vanessa Van Edwards is a behavioral investigator and published author. She runs a human behavior research lab where she uncovers the hidden forces that drive our behavior called the <Link to="http://www.scienceofpeople.com/">Science of People.</Link>.</p>
-<p>Vanessa is fascinated by body language, leadership and charisma and writes about these topics for CNN, <i>Fast Company</i> and <i>Forbes</i>. She also writes a monthly column for <i>Entrepreneur Magazine</i> and the <i>Huffington Post</i>. Her innovative work has been featured on NPR, <i>Business Week</i> and <i>USA Today</i>. More importantly she's addicted to sour patch kids, airplane coffee and puppies. Vanessa's new book, <i><Link to="http://www.scienceofpeople.com/captivate/">Captivate</Link></i>, launches this April.</p>
+        ## Cathy Heller
+        **Cathy Heller** is the host of the top rated podcast [Don't Keep Your Day Job](https://www.dontkeepyourdayjob.com/about/). Inspiring thousands each week, she has a way of speaking right to the heart with refreshing sincerity and tremendous insight. 
+
+Since starting her podcast Huffington post wrote a full page story on Cathy's success and her show has been mentioned in the *NY Times* and *Inc* magazines “top 9 podcasts”. Cathy has interviewed creative entrepreneurs like Actress Jenna Fisher, Marketing expert Seth Godin, designer Jonathan Adler, make up artist Bobbi Brown, founder of Jimmy Choo, novelist Emily Giffin and Gretchen Rubbin to name a few.
+
+When she's not podcasting, she's writing music for film/tv. She lives in Los Angeles with her husband and three daughters. She loves spicy tuna rolls and Larry David. 
       </Block>
     </Tab>
- <Tab title="Harris">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Harris.Zafar.WDS2017.speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+ <Tab title="Geraldine">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Geraldine.DeRuiter.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Harris Zafar 
-       <p><b>Harris Zafar</b> is National Spokesperson for Ahmadiyya Muslim Community USA – among the oldest Muslim organizations in America – and author of book “Demystifying Islam: Tackling the Tough Questions.” From Fox News and CNN to syndicated radio programs, Harris regularly appears on national and local news to address issues facing Islam and the Muslim world while elucidating the need for true pluralism and understanding. A staunch advocate for universal human rights, Harris was praised in a March 2012 motion raised on the floor of the House of Commons in Great Britain for his work defending religious freedom for all. Harris lectures on campuses like Harvard, Yale and Berkeley around the country to provide insight on current issues from an Islamic perspective and also address practical solutions for the world's problems.</p>
-      <p>Driven by a desire to break down misunderstandings and find common ground, Harris passionately works to promote conversation and tolerance between people of diverse backgrounds.  Focusing on the humanity of all people, Harris confronts difficult questions with a commitment to respectful dialogue and truth. If not on television or social media, you can find Harris wearing his "I'm a Muslim, Ask Me Anything" t-shirt every week in order to spark conversation.</p>
+        ## Geraldine DeRuiter
+      **Geraldine DeRuiter** is a Seattle-based blogger, author, and humorist. She is the voice behind the award-winning [Everywhereist blog](http://www.everywhereist.com/), which *TIME* magazine described as "consistently clever" (Geraldine brings this up all the time, even when it's not relevant to the conversation). 
+
+Her work has appeared in *Refinery 29, The New Yorker's Daily Shouts*, and *The Washington Post*, and one time *The New York Times* described her writing as "dark and hilarious". Her travel memoir, **_All Over The Place: Adventures in Travel, True Love, and Petty Theft_** was published by Public Affairs in 2017. She is currently working on her second book about the nefarious world of social media. You can find her on Twitter: [@everywhereist](https://twitter.com/everywhereist)
          </Block>
     </Tab>
-    <Tab title="Rich">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/rich.roll.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+    <Tab title="Paula">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Rich Roll 
-       <p>Rich Roll is one of the world's most popular world-class ultra-endurance triathletes, a widely regarded plant-based nutrition & wellness advocate, writer, public speaker, podcast host, husband and father of 4. In 2009 he was recognized as one of the “25 Fittest Men in the World” by <i>Men's Fitness Magazine</i> and has been featured on CNN and contributed to publications such as <i>Outside</i>, <i>Los Angeles Times Sunday Magazine</i>, <i>VegNews</i>, <i>Huffington Post</i>, <i>Triathlete</i>, <i>3/GO</i> and <i>Men’s Fitness</i>.</p>
-       <p>After a struggle with alcoholism and 20 year respite from competitive sports, Rich adopted a plant-based diet, shed 50 pounds and launched a middle-aged assault on the Ultraman World Championships, one of the most daunting endurance races on in the world. His inspirational memoir <i><Link to="http://www.richroll.com/shop/books/finding-ultra-signed/">Finding Ultra</Link></i> is a #1 bestseller on Amazon and he also hosts the popular, Rich Roll Podcast. Learn more about Rich's story at <Link to="http://www.richroll.com/">www.RichRoll.com.</Link></p>
+        ## Paula Pant
+       **Paula Pant** quit her 9-to-5 job, traveled to 35 countries, runs a business from her laptop and built a mini- real estate empire, which provides enough passive income to support her creative lifestyle. She's financially independent and spends her time traveling, writing, podcasting, creating videos, and raising funds for worldwide charity projects.
+
+Today, Paula spends her time traveling, writing, podcasting, creating videos and raising funds for worldwide charities. She’s traveled to more than 35 countries. She’s been featured in hundreds of publications, including *Lifehacker, Mashable, Forbes, Fortune, US News, NPR,* and *Oprah.com*. 
+
+She’s is the host of the award-winning **_Afford Anything_** podcast, which has been downloaded nearly 3 million times. You can find her instigating rebellion on her website and blog, [affordanything.com](https://affordanything.com). 
       </Block>
     </Tab>
         <Tab title="Scott">
