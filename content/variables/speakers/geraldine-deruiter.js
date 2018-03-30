@@ -1,6 +1,6 @@
 name: "Geraldine DeRuiter",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Geraldine.DeRuiter.WDS.2018.Speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/geraldine.deruiter.WDS.2018.Speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Geraldine.DeRuiter.WDS.2018.Speaker.Thumbnail.png",
 video: "",
 quote: "",
