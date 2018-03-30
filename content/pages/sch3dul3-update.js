@@ -9,9 +9,7 @@
   <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
 <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## How the WDS Schedule Works
-    As we've done since year one, the main events (big adventure, main-stage keynotes, and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. 
-    
-    Regardless, a [WDS 360 ticket](https://worlddominationsummit.com/join-us) gives you access to it all. 
+    As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS 360 ticket](https://worlddominationsummit.com/join-us) gives you access to it all; the main events and Connect plus special discounts, bonuses, and surprises.  
       
       *Looking to participate in most of the activities but not main-stage sessions? Get a [Connect ticket](https://worlddominationsummit.com/connect).*
   </Block>
