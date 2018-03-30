@@ -150,7 +150,7 @@ She’s is the host of the award-winning **_Afford Anything_** podcast, which ha
   color="white"
 >
     
-  <SpeakerList title="2017 Speakers" year="2017" />
+  <SpeakerList title="2018 Speakers" year="2018" />
   <SpeakerList title="Alumni Speakers" year="alumni" />
   <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
