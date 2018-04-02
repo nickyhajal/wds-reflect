@@ -35,13 +35,14 @@ export function updateCheckoutProcessStatus(processStatus) {
   };
 }
 
-export function setProduct({ code, price, allowedQuantity, data, redirect, fee, description, product }) {
+export function setProduct({ code, price, allowedQuantity, data, redirect, fee, description, product, onSuccess }) {
   return (dispatch) => {
     const action = {
       code,
       redirect,
       price,
       description,
+      onSuccess,
       allowedQuantity,
       data,
       fee,

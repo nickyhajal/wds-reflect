@@ -49,11 +49,28 @@ class Cart extends React.Component {
   }
 
   finish() {
+    const props = this.props;
+    if (props.checkout.processStatus === 'done') {
+      if (this.props.checkout.onSuccess) {
+        this.props.checkout.onSuccess()
+        .then(() => {
+          this.complete();
+        });
+      } else {
+        this.complete();
+      }
+    }
+  }
+
+  complete() {
     setTimeout(() => {
       const props = this.props;
       if (props.checkout.processStatus === 'done') {
         this.finished = true;
         this.props.act.updateCheckoutStatus('success');
+        if (this.props.checkout.onSuccess) {
+          this.props.checkout.onSuccess();
+        }
         if (
           this.props.checkout.redirect &&
           this.props.checkout.redirect.length
@@ -65,6 +82,7 @@ class Cart extends React.Component {
         }
       }
     }, 500);
+
   }
 
   change(e, id, cc) {

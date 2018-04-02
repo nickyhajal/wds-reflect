@@ -1,5 +1,6 @@
 import React from 'react';
 import PurchaseButton from '../containers/PurchaseButton';
+import auth from '../utils/auth';
 
 const ConnectPurchaseButton = ({children, style}) => (
   <PurchaseButton
@@ -10,6 +11,7 @@ const ConnectPurchaseButton = ({children, style}) => (
     redirect="welcome"
     description=""
     to="be-there"
+    onSuccess={auth.getMe}
     style={style}
     fitToText
   >

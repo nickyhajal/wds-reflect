@@ -14,10 +14,12 @@ export default function checkout(state = Map, action) {
       const p = _.defaults(action, {
         allowedQuantity: 0,
         fee: 0,
+        onSuccess: false,
       });
       return state.withMutations((ctx) => {
         ctx.set('code', p.code);
         ctx.set('product', p.product);
+        ctx.set('onSuccess', p.onSuccess);
         ctx.set('description', p.description);
         ctx.set('data', p.data);
         ctx.set('redirect', p.redirect);
