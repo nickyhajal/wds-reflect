@@ -26,6 +26,7 @@ import MeetupForm from '../../site/components/MeetupForm';
 import PurchaseButton from '../../site/containers/PurchaseButton';
 import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
+import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 
   
   const Page = (props) => (
@@ -54,7 +55,7 @@ There is no limit to how many Academies you can register for, but please note th
 
 If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**.{'\n'}
 
-## Please check back next spring for the full list of 2018 WDS Academies. {'\n'}
+## The 2018 WDS Academies schedule is coming soon. {'\n'}
     </Block>
 </Section>
 <Section color="orange" overflow="hidden">

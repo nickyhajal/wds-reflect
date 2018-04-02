@@ -26,3 +26,4 @@ import MeetupForm from '../../site/components/MeetupForm';
 import PurchaseButton from '../../site/containers/PurchaseButton';
 import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
+import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';

@@ -431,7 +431,7 @@ class Cart extends React.Component {
   render() {
     const q = this.props.checkout.quantity;
     const cost = this.props.checkout.price * q / 100;
-    const feeCost = this.props.checkout.fee * q;
+    const feeCost = this.props.checkout.fee * q / 100;
     const hasDescr = this.props.checkout.description.length;
     const hasFee = feeCost > 0;
     const titleStyles = hasDescr ? { marginTop: '-20px' } : {};

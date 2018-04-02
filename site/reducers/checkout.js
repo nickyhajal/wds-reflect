@@ -11,10 +11,10 @@ export default function checkout(state = Map, action) {
     case C.CHECKOUT_SET_QUANTITY:
       return state.set('quantity', action.quantity);
     case C.CHECKOUT_SET_PRODUCT:
-      const p = _.defaults({
+      const p = _.defaults(action, {
         allowedQuantity: 0,
         fee: 0,
-      }, action);
+      });
       return state.withMutations((ctx) => {
         ctx.set('code', p.code);
         ctx.set('product', p.product);

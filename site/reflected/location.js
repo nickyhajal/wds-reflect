@@ -26,6 +26,7 @@ import MeetupForm from '../../site/components/MeetupForm';
 import PurchaseButton from '../../site/containers/PurchaseButton';
 import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
+import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 
   import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
 
@@ -127,7 +128,7 @@ import BookingDetails from '../../site/components/BookingDetails';
       ## Paramount Hotel {'\n'}
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-     <Button to="http://uspor.webhotel.microsdc.us/bp/search_rooms.jsp?groupCode=WDS18" newWindow={true} fitToText>Book Now</Button>
+     <Button to="https://reservations.travelclick.com/104209?groupID=2133448" newWindow={true} fitToText>Book Now</Button>
  </Block>
 
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
@@ -154,7 +155,7 @@ import BookingDetails from '../../site/components/BookingDetails';
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
       ### Portland State (0.6 Mi){'\n'}
-      <Link to="">Coming Soon</Link>
+      <Link to="https://housingportal.pdx.edu/StarRezPortal/Go/Conference/204">Book Now</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel (1.0 Mi) {'\n'}

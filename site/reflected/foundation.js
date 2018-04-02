@@ -26,6 +26,7 @@ import MeetupForm from '../../site/components/MeetupForm';
 import PurchaseButton from '../../site/containers/PurchaseButton';
 import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
+import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 
   
   const Page = (props) => (
@@ -199,10 +200,12 @@ Part of this training will be developed internationally, including a teaching tr
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?{'\n'}
     ##### Eligibility{'\n'}
-The "Scholarships for Real Life" program is open to all alumni who have attended one of our past seven WDS events AND those that have purchased a ticket for WDS 2018 even if this is your first time attending.{'\n'}
+The "Scholarships for Real Life" program is open to all alumni who have attended one of our past seven WDS events OR those that have [officially registered for WDS 2018](https://worlddominationsummit.com/join-us) even if this is your first time attending.{'\n'}
 
-##### 2018 Applications - Coming Soon!{'\n'}
-<p>If you would like to be notified when applications re-open for 2018, please <Link to="http://madmimi.com/signups/150899f15087481aa41434436a6e3729/join">sign-up here with your email</Link> and you'll be notified when applications become available.</p>
+##### 2018 Applications - Now Closed!{'\n'}
+
+Don't stop believin! The deadline to apply for 2018 grants has passed but keep your dreams alive. {'\n'}
+
 </Block>
 </Section>
 <Section color="green">

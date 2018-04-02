@@ -26,6 +26,7 @@ import MeetupForm from '../../site/components/MeetupForm';
 import PurchaseButton from '../../site/containers/PurchaseButton';
 import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
+import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 
   
   const Page = (props) => (
@@ -158,7 +159,7 @@ _Speakers for 2018 will be announced soon and in rounds leading up to WDS._{'\n'
       </Block>
     </Tab>
 <Tab title="Charles">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Charles.Hunt.WDS.2017.speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Charles-Hunt.WDS.Speaker.2017.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
       <Block cols="6" textAlign="left">
         ## Charles Hunt{'\n'}
 

@@ -54,7 +54,7 @@ const Btn = styled(Button)`
   width: 100%;
   padding: 19px 16px 16px;
   font-size: 20px;
-  margin-bottom: 16px
+  margin-bottom: 16px;
 `;
 
 const Sub = styled.div`
