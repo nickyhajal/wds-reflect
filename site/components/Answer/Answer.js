@@ -31,7 +31,7 @@ class Answer extends React.Component {
   }
   loadAnswer(props) {
     if (props.auth.me) {
-      const answers = props.auth.me.answers;
+      const answers = props.auth.me.answers || [];
       answers.forEach((v, i) => {
         if (+v.question_id === +props.question_id) {
           this.setState({ question: v });

@@ -105,21 +105,32 @@ class Form extends Component {
     console.log(err, rsp);
   }
   finish(rsp) {
+    console.log('1')
     if (rsp !== undefined && rsp.err) {
+      console.log(rsp);
+    console.log('2')
       if (rsp.showMsg) {
+    console.log('3')
         this.setState({ status: 'error', errorMsg: rsp.err });
       } else {
-        this.setState({ status: 'error', });
+    console.log('4')
+        this.setState({ status: 'error' });
       }
+    console.log('5')
       if (this.props.onError) {
+    console.log('6')
         this.props.onError(rsp);
       }
+    console.log('7')
       setTimeout(() => {
+    console.log('8')
         this.setState({ status: 'ready', showErrorMsg: false });
       }, 4000);
     } else {
+    console.log('9')
       this.setState({ status: 'success', showErrorMsg: false });
       if (this.props.onSuccess) {
+    console.log('10')
         this.props.onSuccess(rsp, this);
       }
     }
