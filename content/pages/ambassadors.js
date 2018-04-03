@@ -17,7 +17,7 @@
       <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
  ## How to Apply
 
-### Applications to be a 2018 Ambassador are now open! (until March 31st) 
+### Applications to be a 2018 Ambassador are now open! (until April 15) 
   
  We are searching for 75 amazing people ready to support our attendees throughout WDS. To be an Ambassador, we ask that you:
 + Commit to helping our attendees have the best experience possible! 
