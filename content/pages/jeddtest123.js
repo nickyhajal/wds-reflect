@@ -14,9 +14,9 @@
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
       Back in 2011, we invited 500 adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
       
-      Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people.
+      Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, and most importantly, build lasting and impactful relationships -- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people.
 
-      Are you one of them?
+      All that's missing is *you*!
 
       Join us for WDS CONNECT, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or heard about the event but not quite ready for the whole shebang, WDS 360 is the whole pizza whereas Connect is a giant slice of the experience.  
       
