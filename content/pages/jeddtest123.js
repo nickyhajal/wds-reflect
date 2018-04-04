@@ -26,7 +26,7 @@
     </Block>
   <Block margin="125px 0 50px 0">
     <Block cols="6">
-      ## Here’s some things we are cooking up for Connect                                                                                   
+      ## Here are some things we're cooking up for Connect                                                                                   
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -38,7 +38,7 @@
         Explore a market of personal skills. Learn how to captivate strangers. Level-up your networking game. These themed discussions are led by experts in their field and designed for interaction.
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Gathers
+        ## Gatherings
         Unstructured time to offer best travel tips, play games, and more. Think of it as a super-hero gathering with the main focus of meeting someone new and doig something fun. 
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -59,7 +59,7 @@
 <Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
     <Block bleed={false} textAlign="left" margin="0px 0 80px">  
 ## 360 or Connect? 
-    Choose which WDS ticket type is best for you using the information below:
+    Choose which WDS ticket type is best for you:
 </Block>
 <ComparisonTable />
   </Section>
@@ -85,8 +85,7 @@
         WDS 360 is an all-access pass that includes the Connect experience and main-events (the big adventure, 360 opening party, and all main stage sessions). Connect is a huge part of the WDS but is not the full experience.   
         ### When does WDS Connect take place?
         WDS Connect takes place starting from Tuesday, June 26 until Monday, July 2. Using the mobile-app you'll be able to create your own personalized schedule of events and activities that you want to participate in (except for 360 designated events).
-        ### What is your refund/transfer policy for WDS Connect Tickets?
-        <p>All Connect tickets are <b>non-refundable</b> and <b>non-transferrable.</b></p>  
+       
         ### Can I buy more than one Connect ticket?
         Yes - well sort of. You can only purchase 1 Connect ticket per transaction. If you'd like to purchase an additional Connect ticket you'll need to go through the purchase process again and assign the ticket to the new person.
         ### Can I Updgrade my Connect ticket to a 360 ticket?
