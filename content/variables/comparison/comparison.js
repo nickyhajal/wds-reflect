@@ -32,10 +32,6 @@
     "for": "360"
   },
   {
-    "text": "Access to the 360 Kickoff Party on Friday night",
-    "for": "360"
-  },
-  {
     "text": "Access to all Main Stage sessions on Saturday and Sunday",
     "for": "360"
   },
