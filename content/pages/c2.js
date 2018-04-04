@@ -36,6 +36,7 @@ Looking to meet other attendees and not take part in the entire adventure? Consi
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
+<ComparisonTable/>
 <Block margin="50px 0 50px 0">
   ## What's Included in My WDS 360 Ticket
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>

@@ -558,7 +558,6 @@ class Welcome extends Component {
     const current = parts[this.state.section][this.state.step];
     return new Promise((resolve, reject) => {
       if (current.validate !== undefined) {
-        console.log(current.validate.toString());
         const validMsg = current.validate.call(this);
         if (validMsg !== 'valid') {
           reject(validMsg);

@@ -27,6 +27,7 @@ import PurchaseButton from '../../site/containers/PurchaseButton';
 import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
 import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
+import ComparisonTable from '../../site/components/ComparisonTable';
 
   import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
 

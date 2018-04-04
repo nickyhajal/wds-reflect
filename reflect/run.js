@@ -96,7 +96,6 @@ const loadContent = () =>
       (file, data) =>
         new Promise((resolve, reject) => {
           const bits = file.split('.');
-          console.log(file);
           const url = urlFromPath(contentDir, file).replace('/', '$');
           content.push({
             url,
@@ -110,6 +109,7 @@ const loadContent = () =>
   });
 
 var setDeepValue = function(obj, path, value) {
+    // console.log(obj, ': ', path, ': ', value)
   if (path.indexOf('.') === -1) {
     value.path = path;
     obj.push(value);
@@ -246,7 +246,6 @@ const processGlobalComponents = () =>
   });
 
 const doImports = str => {
-    console.log('Imports');
   let out = '';
   const lines = str.split('\n');
   let block = 0;
@@ -267,7 +266,6 @@ const doImports = str => {
 };
 
 const addJsxBreaks = (str, file) => {
-    console.log('Add breaks');
   let out = '';
   const lines = str.split('\n');
   let block = 0;
