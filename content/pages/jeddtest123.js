@@ -18,7 +18,7 @@
 
       All that's missing is *you*!
 
-      Join us for WDS CONNECT, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or heard about the event but not quite ready for the whole shebang, WDS 360 is the whole pizza whereas Connect is a giant slice of the experience.  
+      Join us for WDS Connect, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or heard about the event but not quite ready for the whole shebang, WDS 360 is the whole pizza whereas Connect is a giant slice of the experience.  
       
       <p style={{textAlign: 'center'}}>Connect tickets cost <b>$179</b> and are non-refundable and non-transferrable.</p>
       
@@ -26,7 +26,7 @@
     </Block>
   <Block margin="125px 0 50px 0">
     <Block cols="6">
-      ## Here’s some things we are cooking up for CONNECT                                                                                   
+      ## Here’s some things we are cooking up for Connect                                                                                   
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -56,6 +56,10 @@
     </Grid>
  <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
        </Block>
+<Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
+  ## Which WDS Experience is Best For You? 
+<ComparisonTable />
+  </Section>
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
