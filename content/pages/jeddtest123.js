@@ -57,8 +57,9 @@
  <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
        </Block>
 <Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
-    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">  
-## 360 or Connect? Choose Which WDS Ticket Type is Best For You.
+    <Block bleed={false} textAlign="left" margin="0px 0 80px">  
+## 360 or Connect? 
+    Choose which WDS ticket type is best for you using the information below:
 </Block>
 <ComparisonTable />
   </Section>
