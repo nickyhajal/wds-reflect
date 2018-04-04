@@ -82,14 +82,14 @@
         ## Connect™ FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### What is the difference between 360 and Connect tickets? 
-        WDS 360 is an all-access pass that includes the Connect experience and main-events (the big adventure, 360 opening party, and all main stage sessions). Connect is a huge part of the WDS but is not the full experience.   
+        WDS 360 is an all-access pass that includes the Connect experience and all main-stage events (a big adventure on Friday morning, 360 opening kickoff, and all theatre sessions on Saturday and Sunday). Connect is a big part of WDS but is not the full experience.   
         ### When does WDS Connect take place?
         WDS Connect takes place starting from Tuesday, June 26 until Monday, July 2. Using the mobile-app you'll be able to create your own personalized schedule of events and activities that you want to participate in (except for 360 designated events).
        
         ### Can I buy more than one Connect ticket?
-        Yes - well sort of. You can only purchase 1 Connect ticket per transaction. If you'd like to purchase an additional Connect ticket you'll need to go through the purchase process again and assign the ticket to the new person.
-        ### Can I Updgrade my Connect ticket to a 360 ticket?
-        <p>Yes! As long as we still have 360 tickets available you can upgrade your ticket by paying the difference. Contact our concierge team at <b>concierge@wds.fm</b> and they’ll walk you through the process.</p>
+        Yes. However, you can only purchase one Connect ticket per transaction. If you'd like to purchase an additional Connect ticket you'll need to go through the purchase process again and assign the ticket to the new person.
+        ### Can I Upgrade my Connect ticket to a 360 ticket?
+        <p>Yes! As long as we still have 360 tickets available, you can upgrade your ticket by paying the difference. Contact our concierge team at <b>concierge@wds.fm</b> and they’ll walk you through the process.</p>
         ### Not finding the answer to your question?
         Contact our year-round concierge team at **concierge@wds.fm.** They’ll get back to you at lightning speed!
  </Block>
