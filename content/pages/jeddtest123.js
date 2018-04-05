@@ -12,10 +12,10 @@
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
      <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>WDS Connect: Join a Remarkable Community</h2></p>
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
-      Back in 2011, we invited 500 adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
+      Way back in 2011, author **Chris Guillebeau** was on the road promoting his new book, the *Art of Non-Conformity*, and at each stop he kept meeting more and more amazing, creative, non-conforming individuals. Longing to connect and gather as a community we invited 500 adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
       
-      Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, do fun adventerous things together (even if it makes us stretch) and most importantly, build lasting and impactful relationships -- to connect with one another. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people.
-
+Fast forward to 2018, and we’re still exploring that question every summer with an in-person gathering that has now included more than 10,000 people from all 50 states and more than 40 countries since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”.
+     
       All that's missing is *you*!
 
       Join us for WDS Connect, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or heard about the event but not quite ready for the whole shebang, WDS 360 is the whole pizza whereas Connect is a giant slice of the experience.  
@@ -31,7 +31,7 @@
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Assemblies
-        Kick off your morning with a little inspiration to take you through the day. Also find out what’s happening for the day, ask questions of WDS core team members, and meet new friends.
+      We start each day together as a community. Even if you might come alone, you’ll find you’re in good company and hopefully make a new friend. Complete with daily inspiration, agenda and introvert-friendly ice breakers.
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/spark-sessions.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Spark Sessions
@@ -43,7 +43,7 @@
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Service Project
-        Part of the core of WDS. Help welcome refugees with projects in conjunction with the Refugee Care Collective. 
+        Wanting to make a positive impact on our world is part of the core of WDS. Help welcome refugees with projects in conjunction with the Refugee Care Collective. 
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Tours
@@ -57,9 +57,9 @@
  <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
        </Block>
 <Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
-    <Block bleed={false} textAlign="left" margin="0px 0 80px">  
-## 360 or Connect? 
-    Choose which WDS ticket type is best for you:
+     <Block bleed={false} textAlign="left" margin="0px 0 80px">  
+    ## Choose Your Adventure: 360 or Connect
+    Using the chart below, decide which WDS ticket type best suits you:
 </Block>
 <ComparisonTable />
   </Section>
