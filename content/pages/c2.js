@@ -37,8 +37,8 @@ Looking to meet other attendees and not take part in the entire adventure? Consi
 </Section>
 <Section color="canvas" bound={false}>
    <Block bleed={false} textAlign="left" margin="0px 0 80px">  
-## 360 or Connect? 
-    Choose which WDS ticket type is best for you using the information below:
+## Choose Your Adventure: 360 or Connect
+    Using the chart below, decide which WDS ticket type best suits you:
 </Block>
 <ComparisonTable/>
 <Block margin="50px 0 50px 0">
