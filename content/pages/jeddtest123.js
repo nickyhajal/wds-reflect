@@ -20,7 +20,9 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
 
       Join us for WDS Connect, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or heard about the event but not quite ready for the whole shebang, WDS 360 is the whole pizza whereas Connect is a giant slice of the experience.  
       
-      <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>Connect tickets cost <b>$179</b> and are non-refundable and non-transferrable.</h4></p>
+      <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>Connect tickets cost $179.</h4></p>
+        
+       <p style={{textAlign: 'center'}}><i>(Connect tickets are non-refundable and non-transferrable.)</i></p>
       
        <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
     </Block>
