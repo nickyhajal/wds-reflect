@@ -145,7 +145,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
      </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>{'\n'}
-      Attendee-led meetups have been a staple of WDS since our first year. In 2017, they're back and better than ever!{'\n'}
+      Attendee-led meetups have been a staple of WDS since our first year. In 2018, they're back and better than ever!{'\n'}
       Each day, there will be time set aside for attendees to host these informal meetups, and on any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.{'\n'}
       Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    {'\n'}
       And if you have your own audience, you can host a meetup too. (Our dedicated attendee web app will tell you where each meetup is being held.){'\n'}

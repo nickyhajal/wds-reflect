@@ -20,23 +20,20 @@ All that’s missing is YOU!
   
 <p>All-access WDS 360 tickets cost <b>$697</b> and are sold on a first-come, first-served basis.</p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
-<div style={{display:'flex'}}><div style={{flex: '1'}}>
-## WDS 360 tickets are on sale now!
+<h2 style={{marginTop: '90px' }}>WDS 360 tickets are on sale now!</h2>
        
 A 360 ticket holder gets access to it all -- the WDS main-events and the Connect experience. 
 
 <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your 360 Ticket!</Button>
-</div><div style={{flex: '1'}}>
-## Want a taste of the experience?
+<h2 style={{marginTop: '60px' }}>Want a taste of the experience?</h2>
        
 Looking to meet other attendees and not take part in the entire adventure? Consider getting a WDS Connect Ticket. 
 
-<ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }}>Get Your Connect Ticket</ConnectPurchaseButton>
-     </div>  
+<ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
-   <Block bleed={false} textAlign="left" margin="0px 0 80px">  
+   <Block bleed={false} textAlign="center" margin="0px 0 80px">  
 ## Choose Your Adventure: 360 or Connect
     Using the chart below, decide which WDS ticket type best suits you:
 </Block>
