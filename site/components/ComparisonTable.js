@@ -10,6 +10,10 @@ const Table = styled.table`
   margin: 40px auto;
   position: relative;
   left: -4px;
+  @media (max-width: 700px) {
+    width: 100%;
+    margin-top: 20px;
+  }
 `;
 const HeadCol = styled.th`
   border-left: 2px solid #007af5;
@@ -24,6 +28,9 @@ const HeadCol = styled.th`
   }
   &:last-of-type {
   border-right: 2px solid #007af5;
+  }
+  @media (max-width: 700px) {
+    border-width: 0 !important;
   }
 `;
 const TextCol = styled.td`
@@ -61,7 +68,11 @@ const ComparisonTable = (props) => (
     className="has-checklist"
     css={{ padding: '60px 40px' }}
     mobile={{ phone: {
-      padding: '60px 25px 60px 10px',
+      backgroundColor: 'transparent',
+      padding: '0',
+      marginTop: '-40px',
+      marginLeft: '5px',
+      // padding: '60px 25px 60px 10px',
     }}}
     clip="top_lr_1.6"
   >
