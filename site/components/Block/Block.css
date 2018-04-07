@@ -205,12 +205,14 @@
   .image {
     width: 475px;
   }
+  h2 {
+    padding-top:60px;
+  }
   .content {
     background: white;
     width: 448px;
     text-align: left;
     position: relative;
-    top: 60px;
     min-height: 330px;
 
     p {
@@ -392,11 +394,13 @@
   .image {
     width: 405px !important;
   }
+  h2 {
+    padding-top: 60px;
+  }
   .content {
     width: 348px;
     text-align: left;
     position: relative;
-    top: 60px;
     min-height: 330px;
   }
   .icon {
