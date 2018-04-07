@@ -24,7 +24,7 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
         
        <p style={{textAlign: 'center'}}><i>(Connect tickets are non-refundable and non-transferrable.)</i></p>
       
-       <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
+       <ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
     </Block>
   <Block margin="125px 0 50px 0">
     <Block cols="6">
@@ -56,11 +56,11 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
         Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Share your wisdom and expertise. Create an opportunity for people with similar passions to meet. Organize something fun to create memories.
       </Block>
     </Grid>
- <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
+<ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
        </Block>
 <Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
-     <Block bleed={false} textAlign="left" margin="0px 0 80px">  
-    ## Choose Your Adventure: 360 or Connect
+    <Block bleed={false} textAlign="center" margin="0px 0 80px">  
+## Choose Your Adventure: 360 or Connect
     Using the chart below, decide which WDS ticket type best suits you:
 </Block>
 <ComparisonTable />
@@ -102,7 +102,7 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
    ## Want the Entire WDS Experience? Get a 360 Ticket!
   <font color="white">A WDS 360 ticket gets you access to it all -- the main events + Connect.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="be-there" newWindow={true} styling="orange" fittotext>WDS 360 Ticket</Button>
+<Button to="be-there" newWindow={true} styling="orange" fittotext>Get Your WDS 360 Ticket</Button>
  </Block>
   </Block>
 </Section>
