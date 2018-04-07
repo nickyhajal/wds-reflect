@@ -39,6 +39,9 @@ const TextCol = styled.td`
   padding: 18px 18px 18px 0;
   border-bottom: 2px solid #007af5;
   font-size: 15px;
+  @media (max-width: 700px) {
+    text-align: right;
+  }
 `;
 const CheckRow = styled.td`
   width: 180px;
