@@ -113,7 +113,7 @@ class Block extends Component {
 
     // OVERLAYED IMAGE BLOCK
     } else if (type === 'image-overlay') {
-      const divCss = {};
+      const divCss = { position: 'relative', zIndex: '10' };
       if (clip) {
         const finalClip = angler(clip);
         css.clipPath = finalClip;
