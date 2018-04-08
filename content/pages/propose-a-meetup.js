@@ -39,16 +39,16 @@
 
     <table className="time-table">
       <tbody>
-        <tr><td>Tuesday, July 11th</td><td>Any time</td></tr>
-        <tr><td>Wednesday, July 12th</td><td>Any time</td></tr>
-        <tr><td>Thursday, July 13th</td><td>Any time</td></tr>
-        <tr><td>Friday, July 14th</td><td>Any time before 4pm </td></tr>
+        <tr><td>Tuesday, June 26th</td><td>Any time</td></tr>
+        <tr><td>Wednesday, June 27th</td><td>Any time</td></tr>
+        <tr><td>Thursday, June 28th</td><td>Any time</td></tr>
+        <tr><td>Friday, June 29th</td><td>Any time before 4pm </td></tr>
         <tr>
-          <td>Saturday, July 15th</td>
+          <td>Saturday, June 30th</td>
           <td>Before 8am, 1pm - 3pm, any time after 7pm</td>
         </tr>
-        <tr><td>Sunday, July 16th</td><td>Before 8am, 1pm - 3pm</td></tr>
-        <tr><td>Monday, July 17th</td><td>Any time</td></tr>
+        <tr><td>Sunday, July 1st</td><td>Before 8am, 1pm - 3pm</td></tr>
+        <tr><td>Monday, July 2nd</td><td>Any time</td></tr>
       </tbody>
     </table>
 
@@ -57,7 +57,7 @@
 
     <div style={{ padding: '0 32px' }}>
       <p>
-        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://s3.amazonaws.com/el-files-wds/docs/WDS+2017+Meetup+Guide.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
+        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://s3.amazonaws.com/el-files-wds/docs/WDS+Meetup+Guide+2018.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
       </p>
       <p>
         (Helpful hint: The chances of your meetup getting approved goes up <i><b>astronomically</b></i> if you read and use this document)
