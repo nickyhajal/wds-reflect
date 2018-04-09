@@ -42,7 +42,7 @@
         <tr><td>Tuesday, June 26th</td><td>Any time</td></tr>
         <tr><td>Wednesday, June 27th</td><td>Any time</td></tr>
         <tr><td>Thursday, June 28th</td><td>Any time</td></tr>
-        <tr><td>Friday, June 29th</td><td>Any time before 4pm </td></tr>
+        <tr><td>Friday, June 29th</td><td>Before 9am and between 12pm - 4pm </td></tr>
         <tr>
           <td>Saturday, June 30th</td>
           <td>Before 8am, 1pm - 3pm, any time after 7pm</td>
