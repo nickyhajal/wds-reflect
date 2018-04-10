@@ -12,10 +12,18 @@
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
      <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>Introducing "WDS Connect": Join a Remarkable Community</h2></p>
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
-      Way back in 2011, author __Chris Guillebeau__ was on the road promoting his new book, the *Art of Non-Conformity*, and at each stop he kept meeting more and more amazing, creative, non-conforming individuals. Longing to connect and gather as a community we invited 500 adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
+    _How do we live a remarkable life in a conventional world?_
+
+For 8 years and counting, this question has guided our pursuit of Community, Adventure, and Service at an annual event that takes place each summer in Portland, Oregon. 
+
+It all started when author and traveler **Chris Guillebeau** was on a book tour to all 50 states. At each stop, he met more and more interesting people. Many of them felt isolated and unsupported in their goals and dreams. 
+
+Hoping to connect these people with one another, we invited 440 of them to our first “World Domination Summit” (WDS) in 2011. 
       
-Fast forward to 2018, and we’re still exploring that question every summer with an in-person gathering that has now included more than 10,000 people from all 50 states and more than 40 countries since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers microgrants to individuals who positively impact their community. We call them “Scholarships for Real Life.”
-     
+Fast forward to 2018, and we’re still exploring the question every summer with an in-person gathering that has now included more than 10,000 people from more than 40 countries. The stakes and stories have grown each year with activities like hundreds of meetups and dozens of half-day workshops, Guinness World Records, Bollywood dancing, and more. 
+
+Profits from WDS go to a foundation that offers microgrants to individuals who positively impact their community. We call them “Scholarships for Real Life.”
+    
       __All that's missing is *you*!__
 
       Join us for WDS Connect, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or are completely new to the experience, WDS Connect is the perfect pathway to our shared adventure. 
