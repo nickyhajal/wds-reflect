@@ -251,6 +251,7 @@ form input {
       display: block;
       font-weight: bold;
       font-style: normal;
+      font-family: KarlaBold;
       float: left;
       @media(--phone) {
         display: block;
