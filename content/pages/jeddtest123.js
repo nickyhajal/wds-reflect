@@ -16,9 +16,7 @@
 
 For 8 years and counting, this question has guided our pursuit of Community, Adventure, and Service at an annual event that takes place each summer in Portland, Oregon. 
 
-It all started when author and traveler **Chris Guillebeau** was on a book tour to all 50 states. At each stop, he met more and more interesting people. Many of them felt isolated and unsupported in their goals and dreams. 
-
-Hoping to connect these people with one another, we invited 440 of them to our first “World Domination Summit” (WDS) in 2011. 
+It all started when author and traveler **Chris Guillebeau** was on a book tour to all 50 states. At each stop, he met more and more interesting people. Many of them felt isolated and unsupported in their goals and dreams. Hoping to connect these people with one another, we invited 440 of them to our first “World Domination Summit” (WDS) in 2011. 
       
 Fast forward to 2018, and we’re still exploring the question every summer with an in-person gathering that has now included more than 10,000 people from more than 40 countries. The stakes and stories have grown each year with activities like hundreds of meetups and dozens of half-day workshops, Guinness World Records, Bollywood dancing, and more. 
 
