@@ -10,15 +10,15 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/Connect/WDS-Connect-Header.jpg" width="100%" height="302" /></Block>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-     <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>WDS Connect: Join a Remarkable Community</h2></p>
+     <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>Introducing "WDS Connect": Join a Remarkable Community</h2></p>
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
-      Way back in 2011, author **Chris Guillebeau** was on the road promoting his new book, the *Art of Non-Conformity*, and at each stop he kept meeting more and more amazing, creative, non-conforming individuals. Longing to connect and gather as a community we invited 500 adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
+      Way back in 2011, author __Chris Guillebeau__ was on the road promoting his new book, the *Art of Non-Conformity*, and at each stop he kept meeting more and more amazing, creative, non-conforming individuals. Longing to connect and gather as a community we invited 500 adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: _How do we live a remarkable life in a conventional world?_
       
-Fast forward to 2018, and we’re still exploring that question every summer with an in-person gathering that has now included more than 10,000 people from all 50 states and more than 40 countries since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”.
+Fast forward to 2018, and we’re still exploring that question every summer with an in-person gathering that has now included more than 10,000 people from all 50 states and more than 40 countries since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guiness World Records, and the creation of a foundation that offers microgrants to individuals who positively impact their community. We call them “Scholarships for Real Life.”
      
-      All that's missing is *you*!
+      __All that's missing is *you*!__
 
-      Join us for WDS Connect, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or heard about the event but not quite ready for the whole shebang, WDS 360 is the whole pizza whereas Connect is a giant slice of the experience.  
+      Join us for WDS Connect, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or are completely new to the experience, WDS Connect is the perfect pathway to our shared adventure. 
       
       <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>Connect tickets cost $179.</h4></p>
         
@@ -28,7 +28,7 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
     </Block>
   <Block margin="125px 0 50px 0">
     <Block cols="6">
-      ## Here are some things we're cooking up for Connect                                                                                   
+      ## Here are some things we're cooking up for Connect.                                                                                
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -37,10 +37,11 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/spark-sessions.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Spark Sessions
-        Find and engage with fellow WDS’ers with some wild and extraordinary ways to connect that are also introvert friendly:
-*Yes Mingler- improv based networking.
-*Ask/Offer Market-  what happens when you ask a community to tell you what passions, skills, resources, and connections they have and what they need? Matchmaking interests!
-*Science of People Speed Networking with Meaning hosted by the Science of People team.
+        Find and engage with fellow WDS’ers with some wild and extraordinary ways to connect that are also introvert friendly. For example:
+*Speed Networking with Meaning, hosted by the Science of People team
+*The Ask/Offer Market—what happens when you ask a community to tell you what passions, skills, resources, and connections they have and what they need? Matchmaking interests!
+*The "Yes Mingler"—improv-based networking
+
 
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -53,14 +54,14 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Service Project
-        Wanting to make a positive impact on our world is core value of WDS. In conjunction with the Refugee Care Collective, we'll be creating kits filled with homewares and other essential supplies as a small gesture to welcome refugees to the states. 
+        Making a positive impact on our world is a core value of WDS. Working in conjunction with local agencies, we'll be creating kits filled with homewares and other essential supplies as a small gesture to welcome refugees who are relocating to the greater Portland area. 
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Tours
-        Bikes, coffee, beer, hikes, makers- PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city.
+        Bikes, coffee, beer, hikes, makers—PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city. Among other highlights, this year's tours include:
 *City Art Tour
 *Goat Yoga
-*Tour De Food Carts
+*Food Cart Exploration
 *And more! 
 
       </Block>
@@ -94,19 +95,19 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
     }}}
     clip="top_lr_1.6"
   >
-        ## Connect™ FAQs
+        ## WDS Connect™ FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
-        ### What is the difference between 360 and Connect tickets? 
-        WDS 360 is an all-access pass that includes the Connect experience and all main-stage events (a big adventure on Friday morning, 360 opening kickoff, and all theatre sessions on Saturday and Sunday). Connect is a big part of WDS but is not the full experience.   
+        ### What's the difference between 360 and Connect tickets? 
+        WDS 360 is an all-access pass that includes the Connect experience and all main-stage events (a special adventure on Friday morning, 360 opening kickoff, and all theatre sessions on Saturday and Sunday). Connect is an important part of WDS, but is not the full experience.   
         ### When does WDS Connect take place?
-        WDS Connect takes place starting from Tuesday, June 26 until Monday, July 2. Using the mobile-app you'll be able to create your own personalized schedule of events and activities that you want to participate in (except for 360 designated events).
+        WDS Connect takes place starting from *Tuesday, June 26 until Monday, July 2*. Using the mobile app, you'll be able to create your own personalized schedule of events and activities that you want to participate in (except for 360 designated events).
        
         ### Can I buy more than one Connect ticket?
-        Yes. However, you can only purchase one Connect ticket per transaction. If you'd like to purchase an additional Connect ticket you'll need to go through the purchase process again and assign the ticket to the new person.
+        Yes! However, you can only purchase one Connect ticket per transaction. If you'd like to purchase an additional Connect ticket you'll need to go through the purchase process again and assign the ticket to the new person. If you encounter any difficulty, make sure you're logged out. 
         ### Can I Upgrade my Connect ticket to a 360 ticket?
         <p>Yes! As long as we still have 360 tickets available, you can upgrade your ticket by paying the difference. Contact our concierge team at <b>concierge@wds.fm</b> and they’ll walk you through the process.</p>
         ### Not finding the answer to your question?
-        Contact our year-round concierge team at **concierge@wds.fm.** They’ll get back to you at lightning speed!
+        Again, contact our year-round concierge team at **concierge@wds.fm.** They’ll get back to you at lightning speed!
  </Block>
    <div className="clear" />
 </Section>
