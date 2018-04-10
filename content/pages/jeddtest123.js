@@ -33,23 +33,36 @@ Fast forward to 2018, and we’re still exploring that question every summer wit
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Assemblies
-      We start each day together as a community. Even if you might come alone, you’ll find you’re in good company and hopefully make a new friend. Complete with daily inspiration, agenda and introvert-friendly ice breakers.
+      The best part of starting each day of WDS is together in community.  Get some inspiration with your coffee, learn what’s going on for the day, chat with the core team members and meet other attendees. 
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/spark-sessions.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Spark Sessions
-        Explore a market of personal skills. Learn how to captivate strangers. Level-up your networking game. These themed discussions are led by experts in their field and designed for interaction.
+        Find and engage with fellow WDS’ers with some wild and extraordinary ways to connect that are also introvert friendly:
+*Yes Mingler- improv based networking.
+*Ask/Offer Market-  what happens when you ask a community to tell you what passions, skills, resources, and connections they have and what they need? Matchmaking interests!
+*Science of People Speed Networking with Meaning hosted by the Science of People team.
+
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Gatherings
-        Unstructured time to offer best travel tips, play games, and more. Think of it as a super-hero gathering with the main focus of meeting someone new and doig something fun. 
+        Unstructured and themed time to meet new people while exploring and sharing tips and ideas of remarkable living. 
+*Vision boarding session
+*Hot Travel Tips
+*And more
+
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Service Project
-        Wanting to make a positive impact on our world is part of the core of WDS. Help welcome refugees with projects in conjunction with the Refugee Care Collective. 
+        Wanting to make a positive impact on our world is core value of WDS. In conjunction with the Refugee Care Collective, we'll be creating kits filled with homewares and other essential supplies as a small gesture to welcome refugees to the states. 
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Tours
         Bikes, coffee, beer, hikes, makers- PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city.
+*City Art Tour
+*Goat Yoga
+*Tour De Food Carts
+*And more! 
+
       </Block>
        <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Attendee-led Meetups
