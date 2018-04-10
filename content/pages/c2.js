@@ -27,7 +27,7 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
 <Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your 360 Ticket!</Button>
 <h2 style={{marginTop: '60px' }}>Want a taste of the experience?</h2>
        
-Looking to meet other attendees and not take part in the entire adventure? Consider getting a WDS Connect Ticket. 
+Looking to meet other attendees and connect but not able to attend the full-experience? Consider getting a WDS Connect Ticket. 
 
 <ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
   </Block>
