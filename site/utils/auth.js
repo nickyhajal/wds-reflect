@@ -24,14 +24,12 @@ const auth = {
       if (rsp.me.answers !== undefined) {
         rsp.me = auth.processAnswers(rsp.me);
       }
-      console.log(rsp.me)
       Actions.updateAuth(rsp.me);
     } else {
       Actions.updateAuth(false);
     }
   },
   getMe() {
-    console.log('GET MEEE')
     return api('get assets', { assets: 'me' })
     .then((raw) => {
       auth.setMe(raw, 'origUsername');

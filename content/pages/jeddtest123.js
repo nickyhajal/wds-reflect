@@ -1,12 +1,12 @@
 <Section
-  headerImage="hero/schedule.jpg"
+  headerImage="hero/squiggle.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/connect.png" width="646px" height="156px" className="scriptHeader" preload/>
+  <Image src="heading/wds-connect.png" width="615px" height="202px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/Connect/WDS-Connect-Header.jpg" width="100%" height="302" /></Block>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
@@ -68,13 +68,13 @@
     </Grid>
 <ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
        </Block>
+  </Section>
 <Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
     <Block bleed={false} textAlign="center" margin="0px 0 80px">  
 ## Choose Your Adventure: 360 or Connect
     Using the chart below, decide which WDS ticket type best suits you:
 </Block>
 <ComparisonTable />
-  </Section>
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
