@@ -8,7 +8,8 @@ const ConnectPurchaseButton = ({children, style}) => (
     product="WDS 2018 Connect"
     price="17900"
     fee="1000"
-    redirect="welcome"
+    allowedQuantity={3}
+    redirect="assign"
     description=""
     to="be-there"
     onSuccess={auth.getMe}

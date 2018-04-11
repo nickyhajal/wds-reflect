@@ -15,6 +15,8 @@ class PurchaseButton extends React.Component {
       price: this.props.price,
       fee: this.props.fee,
       redirect: this.props.redirect,
+      allowedQuantity: this.props.allowedQuantity,
+      onSuccess: this.props.onSuccess,
       purchData: this.props.purchData,
       description: this.props.description,
     };
@@ -35,6 +37,7 @@ class PurchaseButton extends React.Component {
       count = get(this.props.app.settings, `${this.props.path}_sales`);
       left = max - count;
     }
+    console.log(this.props)
     if (sellsOut && left === 0) {
       text = 'Sold Out';
       onClick = () => {};
@@ -63,6 +66,8 @@ PurchaseButton.propTypes = {
   price: PropTypes.string,
   fee: PropTypes.string,
   redirect: PropTypes.string,
+  allowedQuantity: PropTypes.string,
+  onSuccess: PropTypes.function,
   purchData: PropTypes.string,
   description: PropTypes.string,
   app: types.app,

@@ -187,7 +187,7 @@ class Cart extends React.Component {
 
   startCharge() {
     const checkout = this.props.checkout;
-    const pkg = _.assign({}, checkout.quantity, { ...checkout.data });
+    const pkg = _.assign({}, { quantity: checkout.quantity }, { ...checkout.data });
     if (this.props.auth.useExistingCard) {
       this.processCharge(this.props.auth.card.hash, pkg);
     } else {
@@ -427,8 +427,8 @@ class Cart extends React.Component {
     const options = [];
     for (let i = 0; i < this.props.checkout.allowedQuantity; i += 1) {
       options.push({
-        value: parseInt(this.props.checkout.allowedQuantity, 10),
-        label: `${this.props.checkout.allowedQuantity}`,
+        value: i + 1,
+        label: `${i + 1}`,
       });
     }
     return options.length
@@ -440,7 +440,7 @@ class Cart extends React.Component {
             name="quantity"
             clearable={false}
             searchable={false}
-            value={this.props.checkout.quantity}
+            value={this.props.checkout.quantity || 1}
           />
         </div>
       : '';
@@ -482,7 +482,7 @@ class Cart extends React.Component {
                 ? <div styleName="feeCost">+${feeCost}.00 processing</div>
                 : ''}
             </div>
-            {this.renderQuantity}
+            {this.renderQuantity()}
           </div>
           {is.phone()
             ? ''

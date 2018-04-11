@@ -227,7 +227,7 @@ export class App extends Component {
   }
   prepareTickets() {
     const tickets = this.props.auth.me.tickets;
-    this.tickets = { claimed: [], unclaimed: [], countStr: '', count: 0 };
+    this.tickets = { claimed: [], unclaimed: [], countStr: '', count: 0, connectCount: 0 };
     if (tickets !== undefined && _.isArray(tickets) && tickets.length) {
       tickets.forEach(ticket => {
         if (ticket.status === 'unclaimed') {
@@ -235,12 +235,26 @@ export class App extends Component {
         } else {
           this.tickets.claimed.push(ticket);
         }
-        this.tickets.count += 1;
+        if (ticket.type === '360') {
+          this.tickets.count += 1;
+        } else {
+          this.tickets.connectCount += 1;
+        }
       });
       if (this.tickets.count > 0 && this.tickets.count < 2) {
         this.tickets.countStr = 'a ticket';
       } else if (this.tickets.count > 1) {
         this.tickets.countStr = `${this.tickets.count} tickets`;
+      }
+      if (this.tickets.connectCount > 0) {
+        if (this.tickets.count) {
+          this.tickets.countStr += ' and ';
+        }
+        if (this.tickets.connectCount === 1) {
+          this.tickets.countStr += ' a connect ticket';
+        } else {
+          this.tickets.countStr += `${this.tickets.connectCount} connect tickets`;
+        }
       }
     }
   }

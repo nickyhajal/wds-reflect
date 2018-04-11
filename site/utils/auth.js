@@ -22,17 +22,19 @@ const auth = {
         rsp.me.origUsername = rsp.me.user_name;
       }
       if (rsp.me.answers !== undefined) {
-        rsp.me = this.processAnswers(rsp.me);
+        rsp.me = auth.processAnswers(rsp.me);
       }
+      console.log(rsp.me)
       Actions.updateAuth(rsp.me);
     } else {
       Actions.updateAuth(false);
     }
   },
   getMe() {
+    console.log('GET MEEE')
     return api('get assets', { assets: 'me' })
     .then((raw) => {
-      this.setMe(raw, 'origUsername');
+      auth.setMe(raw, 'origUsername');
     })
     .catch((error) => {
       console.error(error);
@@ -58,7 +60,7 @@ const auth = {
       return api('post user/login', params)
       .then((raw) => {
         const rsp = raw.data;
-        this.setMe(raw);
+        auth.setMe(raw);
         if (rsp.loggedin && rsp.me) {
           Actions.setAuthStatus('success');
           resolve();
@@ -79,7 +81,7 @@ const auth = {
     Actions.updateAuth(userPkg);
     return api('post user', pkg)
     .then((raw) => {
-      this.setMe(raw);
+      auth.setMe(raw);
     });
   },
   getCard() {
