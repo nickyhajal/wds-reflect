@@ -51,14 +51,10 @@ class Cart extends React.Component {
   finish() {
     const props = this.props;
     if (props.checkout.processStatus === 'done') {
-      if (this.props.checkout.onSuccess) {
-        this.props.checkout.onSuccess()
-        .then(() => {
-          this.complete();
-        });
-      } else {
+      auth.getMe()
+      .then(() => {
         this.complete();
-      }
+      });
     }
   }
 
@@ -68,9 +64,6 @@ class Cart extends React.Component {
       if (props.checkout.processStatus === 'done') {
         this.finished = true;
         this.props.act.updateCheckoutStatus('success');
-        if (this.props.checkout.onSuccess) {
-          this.props.checkout.onSuccess();
-        }
         if (
           this.props.checkout.redirect &&
           this.props.checkout.redirect.length

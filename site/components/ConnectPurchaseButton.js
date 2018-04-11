@@ -12,7 +12,6 @@ const ConnectPurchaseButton = ({children, style}) => (
     redirect="assign"
     description=""
     to="be-there"
-    onSuccess={auth.getMe}
     style={style}
     fitToText
   >

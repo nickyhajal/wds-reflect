@@ -19,7 +19,6 @@ export default function checkout(state = Map, action) {
       return state.withMutations((ctx) => {
         ctx.set('code', p.code);
         ctx.set('product', p.product);
-        ctx.set('onSuccess', p.onSuccess);
         ctx.set('description', p.description);
         ctx.set('data', p.data);
         ctx.set('redirect', p.redirect);
