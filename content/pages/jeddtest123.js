@@ -12,25 +12,15 @@
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
      <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>Introducing "WDS Connect": Join a Remarkable Community</h2></p>
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
-    **_How do we live a remarkable life in a conventional world?_**
-
-For 8 years and counting, this question has guided our pursuit of Community, Adventure, and Service at an annual event that takes place each summer in Portland, Oregon. 
-
-It all started when author and traveler **Chris Guillebeau** was on a book tour to all 50 states. At each stop, he met more and more interesting people. Many of them felt isolated and unsupported in their goals and dreams. Hoping to connect these people with one another, we invited 440 of them to our first “World Domination Summit” (WDS) in 2011. 
       
-Fast forward to 2018, and we’re still exploring the question every summer with an in-person gathering that has now included more than 10,000 people from more than 40 countries. The stakes and stories have grown each year with activities like hundreds of meetups and dozens of half-day workshops, Guinness World Records, Bollywood dancing, and more. 
-
-Profits from WDS go to a foundation that offers microgrants to individuals who positively impact their community. We call them “Scholarships for Real Life.”
-    
-      __All that's missing is *you*!__
-
-      Join us for WDS Connect, a collection of events during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. Whether you've been to WDS before or are completely new to the experience, WDS Connect is the perfect pathway to our shared adventure. 
-      
-      <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>Connect tickets cost $179.</h4></p>
+      Back in 2011, we invited 4400 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: *How do we live a remarkable life in a conventional world?* 
         
-       <p style={{textAlign: 'center'}}><i>(Connect tickets are non-refundable and non-transferrable.)</i></p>
+        Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people. 
       
-       <ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
+      Are you one of them?
+        
+<ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
+
     </Block>
   <Block margin="125px 0 50px 0">
     <Block cols="6">
@@ -43,19 +33,19 @@ Profits from WDS go to a foundation that offers microgrants to individuals who p
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/spark-sessions.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Spark Sessions
-        Find and engage with fellow WDS’ers with some wild and extraordinary ways to connect that are also introvert friendly. For example:
-*Speed Networking with Meaning, hosted by the Science of People team
-*The Ask/Offer Market—what happens when you ask a community to tell you what passions, skills, resources, and connections they have and what they need? Matchmaking interests!
-*The "Yes Mingler"—improv-based networking
+        Find and engage with fellow WDSers in some wild and extraordinary ways. For example:
+- Speed Networking with Meaning, hosted by the Science of People team
+- The Ask/Offer Market—what happens when you ask a community to tell you what passions, skills, resources, and connections they have and what they need? Matchmaking interests!
+- The "Yes Mingler"—improv-based networking
 
 
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Gatherings
         Unstructured and themed time to meet new people while exploring and sharing tips and ideas of remarkable living. 
-*Vision boarding session
-*Hot Travel Tips
-*And more
+- Vision boarding session
+- Hot Travel Tips
+- And more
 
       </Block>
       <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
@@ -65,10 +55,10 @@ Profits from WDS go to a foundation that offers microgrants to individuals who p
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Tours
         Bikes, coffee, beer, hikes, makers—PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city. Among other highlights, this year's tours include:
-*City Art Tour
-*Goat Yoga
-*Food Cart Exploration
-*And more! 
+- City Art Tour
+- Goat Yoga
+- Food Cart Exploration
+- And more! 
 
       </Block>
        <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
