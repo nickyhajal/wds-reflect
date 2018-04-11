@@ -12,7 +12,7 @@
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
      <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>Introducing "WDS Connect": Join a Remarkable Community</h2></p>
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
-    _How do we live a remarkable life in a conventional world?_
+    **_How do we live a remarkable life in a conventional world?_**
 
 For 8 years and counting, this question has guided our pursuit of Community, Adventure, and Service at an annual event that takes place each summer in Portland, Oregon. 
 
