@@ -24,6 +24,7 @@ import Schedule from '../containers/Hub/Schedule';
 import EnsureAttendingAndHasProfile from '../containers/EnsureAttendingAndHasProfile/EnsureAttendingAndHasProfile';
 import Transfer from '../components/Transfer/Transfer';
 import CompleteBooking from '../containers/CompleteBooking';
+import Logout from '../containers/Logout';
 
 const routes = (
   <Route path="/" component={App}>
@@ -37,6 +38,7 @@ const routes = (
     <Route path="/academies/:id" component={HashLogin} />
     <Route path="/transfer/:id" component={HashLogin} />
     <Route path="/login/:id" component={HashLogin} />
+    <Route path="/logout" component={Logout} />
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />

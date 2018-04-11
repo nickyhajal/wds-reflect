@@ -100,6 +100,7 @@ export class App extends Component {
         // 'events',
         'your-profile',
         'settings',
+        'logout',
       ],
       schedule: ['schedule', 'speakers'],
     };

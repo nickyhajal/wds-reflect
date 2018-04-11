@@ -72,6 +72,16 @@ const auth = {
       });
     }));
   },
+  logout(redirect = 'login') {
+    return (new Promise((resolve) => {
+      return api('post user/logout')
+      .then(() => {
+        Actions.logout();
+        browserHistory.replace(`/${redirect}`);
+        resolve();
+      });
+    }));
+  },
   createUser(userPkg) {
     const pkg = userPkg;
     pkg.login = true;

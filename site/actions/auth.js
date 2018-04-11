@@ -90,6 +90,14 @@ export function mergeMe(me) {
   };
 }
 
+export function logout() {
+  return (dispatch) => {
+    dispatch({
+      type: C.AUTH_LOGOUT,
+    });
+  };
+}
+
 export function setAuthStatus(status) {
   return (dispatch) => {
     dispatch({
