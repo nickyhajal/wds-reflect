@@ -38,11 +38,11 @@
        
     ### Can I nominate myself or someone I represent to be a speaker?
 
-    We're sure that you or your client would be great! But we do not accept nominations for speakers. Everyone who attends WDS is a big part of everything. Current year speakers are nominated by alumni speakers from previous years.
+   <p>We're sure that you or your client would be great! But we do not accept nominations for speakers. Everyone who attends WDS is a big part of everything. Current year speakers are nominated by alumni speakers from previous years.</p>
 
     ### Can I sponsor WDS or donate something for your attendees?
 
-    WDS is a sponsor-free, non-commercial gathering. We do not accept advertising or sponsored products.
+    <p>WDS is a sponsor-free, non-commercial gathering. We do not accept advertising or sponsored products.</p>
 
     ### Can I be a volunteer?
     <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year (or have extensive knowledge of the city) and you must be available during the entire weekend for WDS main-events. Special consideration is given to those that are available for the entire week of WDS. Applications are typically available 3-4 months prior to WDS. When applications become available, Chris will make an announcement on his <Link to="http://chrisguillebeau.com/">blog</Link> and through <Link to="https://twitter.com/chrisguillebeau">Twitter.</Link></p> 
