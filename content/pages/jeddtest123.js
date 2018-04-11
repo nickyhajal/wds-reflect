@@ -72,7 +72,8 @@
 <Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
     <Block bleed={false} textAlign="center" margin="0px 0 80px">  
 ## Choose Your Adventure: 360 or Connect
-    While WDS 360 is the all-access pass, Connect is a social, interactive part of the WDS experience. Using the chart below, decide which WDS ticket type best suits you:
+    WDS 360 is the all-access pass, Connect is a social, interactive part of the WDS experience. 
+Using the chart below, decide which WDS ticket type best suits you:
 </Block>
 <ComparisonTable />
 </Section>
