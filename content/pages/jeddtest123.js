@@ -13,11 +13,13 @@
      <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>Introducing "WDS Connect": Join a Remarkable Community</h2></p>
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
       
-      Back in 2011, we invited 4400 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: *How do we live a remarkable life in a conventional world?* 
+      Back in 2011, we invited 440 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: *How do we live a remarkable life in a conventional world?* 
         
         Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people. 
       
       Are you one of them?
+        
+       Join us for **WDS Connect** -- a collection of activities during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. While WDS 360 is the all-access pass, Connect is a social, interactive part of the WDS experience.
         
 <ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
 
@@ -72,8 +74,8 @@
 <Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
     <Block bleed={false} textAlign="center" margin="0px 0 80px">  
 ## Choose Your Adventure: 360 or Connect
-    WDS 360 is the all-access pass, Connect is a social, interactive part of the WDS experience. 
-Using the chart below, decide which WDS ticket type best suits you:
+    WDS 360 is the all-access pass. Connect is a social, interactive part of the WDS experience. 
+Using the chart below, decide which WDS ticket best suits you:
 </Block>
 <ComparisonTable />
 </Section>
