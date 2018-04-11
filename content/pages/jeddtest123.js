@@ -75,7 +75,6 @@
     <Block bleed={false} textAlign="center" margin="0px 0 80px">  
 ## Choose Your Adventure: 360 or Connect
     WDS 360 is the all-access pass. Connect is a social, interactive part of the WDS experience. 
-Using the chart below, decide which WDS ticket best suits you:
 </Block>
 <ComparisonTable />
 </Section>
