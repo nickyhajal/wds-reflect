@@ -101,11 +101,11 @@
         WDS Connect takes place starting from *Tuesday, June 26 until Monday, July 2*. Using the mobile app, you'll be able to create your own personalized schedule of events and activities that you want to participate in (except for 360 designated events).
        
         ### Can I buy more than one Connect ticket?
-        Yes! However, you can only purchase one Connect ticket per transaction. If you'd like to purchase an additional Connect ticket you'll need to go through the purchase process again and assign the ticket to the new person. If you encounter any difficulty, make sure you're logged out. 
+        Yes! You can purchase up to three tickets per transaction. Please note you will need to assign each ticket by submitting a unique name and email for each ticket at the time of purchase.  
         ### Can I Upgrade my Connect ticket to a 360 ticket?
         <p>Yes! As long as we still have 360 tickets available, you can upgrade your ticket by paying the difference. Contact our concierge team at <b>concierge@wds.fm</b> and they’ll walk you through the process.</p>
         ### Not finding the answer to your question?
-        Again, contact our year-round concierge team at **concierge@wds.fm.** They’ll get back to you at lightning speed!
+        Contact our concierge team at **concierge@wds.fm.** They’ll get back to you at lightning speed!
  </Block>
    <div className="clear" />
 </Section>
