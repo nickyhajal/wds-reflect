@@ -27,11 +27,11 @@
       ## Here are some things we're cooking up for Connect.                                                                                
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/Connect/Assembly.jpg" imageClip="tr:0,+10%;">
         ## Assemblies
       The best part of starting each day of WDS is together in community.  Get some inspiration with your coffee, learn what’s going on for the day, chat with the core team members and meet other attendees. 
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/spark-sessions.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/spark-sessions.jpg" imageClip="tr:0,+10%;" >
         ## Spark Sessions
         Find and engage with fellow WDSers in some wild and extraordinary ways. For example:
 - Speed Networking with Meaning, hosted by the Science of People team
@@ -40,7 +40,7 @@
 
 
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;">
         ## Gatherings
         Unstructured and themed time to meet new people while exploring and sharing tips and ideas of remarkable living. 
 - Vision boarding session
@@ -48,11 +48,11 @@
 - And more
 
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" >
         ## Service Project
         Making a positive impact on our world is a core value of WDS. Working in conjunction with local agencies, we'll be creating kits filled with homewares and other essential supplies as a small gesture to welcome refugees who are relocating to the greater Portland area. 
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" >
         ## Tours
         Bikes, coffee, beer, hikes, makers—PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city. Among other highlights, this year's tours include:
 - City Art Tour
@@ -61,7 +61,7 @@
 - And more! 
 
       </Block>
-       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+       <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" >
         ## Attendee-led Meetups
         Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Share your wisdom and expertise. Create an opportunity for people with similar passions to meet. Organize something fun to create memories.
       </Block>
