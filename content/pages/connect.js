@@ -15,7 +15,7 @@
       
       Back in 2011, we invited 440 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: *How do we live a remarkable life in a conventional world?* 
         
-        Seven years later, WDS is an annual gathering that brings over 1000+ attendees from over 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people. 
+        Seven years later, WDS is an annual gathering that brings 1000+ attendees from 30+ countries to learn, get inspired, think outside of the box, break out of what’s holding them back, and most importantly- connect. Armed with an incredible community of over 10,000 alumni, our quest continues to find more remarkable people. 
       
       Are you one of them?
         
@@ -44,13 +44,13 @@
       </Block>
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/Connect/Gathers.jpg" imageClip="tr:0,+10%;">
         ## Gatherings
-        Unstructured and themed time to meet new people while exploring and sharing tips and ideas of remarkable living. 
+        Unstructured but themed time to meet new people while exploring and sharing tips and ideas of remarkable living. 
 - Vision boarding session
 - Hot Travel Tips
 - And more
 
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" >
+      <Block type="image-overlay" anchor="left" icon="outline-eye" src="photos/Connect/ServiceProject.jpg" imageClip="tr:0,+10%;" >
         ## Service Project
         Making a positive impact on our world is a core value of WDS. Working in conjunction with local agencies, we'll be creating kits filled with homewares and other essential supplies as a small gesture to welcome refugees who are relocating to the greater Portland area. 
       </Block>
@@ -65,7 +65,10 @@
       </Block>
        <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/Connect/Meetups.jpg" imageClip="tr:0,+10%;" >
         ## Attendee-led Meetups
-        Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Share your wisdom and expertise. Create an opportunity for people with similar passions to meet. Organize something fun to create memories.
+        Each year WDS attendees lead over 100 different kinds of meet ups throughout the city of Portland. Attend or organize your own meetups using the WDS mobile app: 
+- Share your wisdom and expertise. 
+- Create an opportunity for people with similar passions to meet. 
+- Organize something fun to create memories.
       </Block>
     </Grid>
 <ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
@@ -74,7 +77,7 @@
 <Section color="canvas" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
     <Block bleed={false} textAlign="center" margin="0px 0 80px">  
 ## Choose Your Adventure: 360 or Connect
-    WDS 360 is the all-access pass. Connect is a social, interactive part of the WDS experience. 
+    **WDS 360** is the all-access pass. **Connect** is a social, interactive part of the WDS experience. 
 </Block>
 <ComparisonTable />
 </Section>
