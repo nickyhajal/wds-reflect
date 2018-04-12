@@ -57,7 +57,7 @@
         ## Service Project
         Making a positive impact on our world is a core value of WDS. Working in conjunction with local agencies, we'll be creating kits filled with homewares and other essential supplies as a small gesture to welcome refugees who are relocating to the greater Portland area. 
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" >
+      <Block type="image-overlay" anchor="right" icon="outline-camera" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" >
         ## Tours
         Bikes, coffee, beer, hikes, makers—PDX has it all and we can’t wait to have some of our WDS Ambassadors show you what they love about WDS and their city. Among other highlights, this year's tours include:
 - City Art Tour
