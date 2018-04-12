@@ -74,77 +74,29 @@ Today, Paula spends her time traveling, writing, podcasting, creating videos and
 She’s is the host of the award-winning **_Afford Anything_** podcast, which has been downloaded nearly 3 million times. You can find her instigating rebellion on her website and blog, [affordanything.com](https://affordanything.com). 
       </Block>
     </Tab>
-        <Tab title="Scott">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Scott.Harrison.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+        <Tab title="Adam">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Scott Harrison
+        ## Adam Valen Levinson
 
-        <p>Scott Harrison is a former nightclub promoter, volunteer photojournalist, and in 2006 founded the non-profit organization <Link to="https://www.charitywater.org/">charity: water</Link>. In ten years, with the help of more than one million donors worldwide, charity: water has raised over $225 million and funded over 21,000 water projects in 24 countries. When completed, those projects will provide over 6.4 million people with clean, safe drinking water.</p> 
+        **Adam Valen Levinson** is an affiliate of the Middle East Institute, and a Fellow at the Center for Cultural Sociology at Yale University, where he studies senses of humor as a key to cross cultural understanding.  
+
+He has written, filmed, and photographed for _Al Jazeera, The Paris Review, Haaretz, Neue Zürcher Zeitung,_ and _VICE_, and did college stints at the Meccas of real fake news: _The Colbert Report_ and _The Onion_.  All of his stories are true.
+
+He usually lives in America. Learn more about Adam and his stories at [adamvalenlevinson.com](https://www.adamvalenlevinson.com/). 
         
-<p>Scott has been recognized in Fortune Magazine’s 40 under 40 list, the Forbes Magazine Impact 30 list and was recently #10 in Fast Company’s 100 Most Creative People in Business issue. Currently he serves as a World Economic Forum Young Global Leader. Five years ago, Scott received a standing ovation at WDS 2012, and more than half the community volunteered to give up their birthdays for clean water. He's returning this year with a new challenge.</p> 
-        
       </Block>
     </Tab>
-         <Tab title="Mohammed">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/mohammed.faris.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+         <Tab title="Ryan">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Ryan.Holiday.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Mohammed Faris
-        <p>Mohammed Faris** is an international author, speaker and leader of a community with more than one million people. He started his journey in 2007 when he became obsessed with the question: "Can faith boost productivity?" Mohammed has since spent the last decade trying to answer this question - from his own Islamic faith tradition - his popular blog,, <Link to="http://ProductiveMuslim.com">ProductiveMuslim.com</Link>, and his new book "The Productive Muslim: Where Faith Meets Productivity".</p> 
-        <p>Mohammed has delivered talks and trainings at numerous events and seminars across the world. He's also been featured in international media and on the TEDx stage. In 2014, the Royal Islamic Strategic Studies Centre added him to the World’s 500 Most Influential Muslims list</p>  
+        ## Ryan Holiday
+                                                                                                                                              
+        **Ryan Holiday** is a writer and media strategist. When he was 19 years old, he dropped out of college to apprentice under Robert Greene, author of The 48 Laws of Power and went on to become the director of marketing for American Apparel. He has written for the New York Observer, Thought Catalog, Entrepreneur, 99U, Fast Company, The Huffington Post, Medium, Boing Boing, Forbes, Columbia Journalism Review and multiple other outlets.
+
+Ryan is the author of six books, including The Obstacle Is the Way, Ego Is the Enemy, The Daily Stoic and Perennial Seller. Now days Ryan can be found on a ranch outside Austin, Texas where he continues to write and work in between raising cattle, donkeys and goats. You can learn more about Ryan from his blog, [RyanHoliday.net}(https://ryanholiday.net/).
       </Block>
-    </Tab>
-        <Tab title="Benny">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/benny.lewis.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Benny Lewis
-
-        <p>Benny Lewis is the language hacker, <i>National Geographic</i> Traveler of the year, author, YouTuber and charming Irish lad behind the hugely successful <Link to="http://www.fluentin3months.com/">Fluent in 3 Months</Link> blog and international best selling book. For a decade and a half he has traveled the world, immersing himself in local cultures and learning local languages. He can speak 7 languages fluently, and can get by in many more, despite the fact that he only spoke English at the age of 21.</p> 
-      
-      <p>Although he mostly writes about language learning, his background is in electronic engineering and he applies this engineering mindset to his business, his language learning projects and his lifestyle. He is a passionate "imperfectionist" and loves learning new things that involve pushing his limits, and finding the right balance between insane random experimental wonder and strict scientific logic. Imagine Jack Sparrow meets Spock with an Irish accent!</p>
-      </Block>
-    </Tab>
- <Tab title="Jolie">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Jolie.Guillebeau.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Jolie Guillebeau
-
-        **Jolie Guillebeau** is an artist, teacher, and perpetual learner. She recently completed an M.A. in Art Therapy Counseling and is beginning a new career understanding and serving people impacted with developmental trauma. 
-      
-         A founding team member of WDS, she serves as President of the WDS Foundation, Team Fixer, and our longstanding Voice of Reason. She also makes magical ice cream sundaes and can quote every lyric from Lin-Manuel Miranda's Hamilton.
-      </Block>
-    </Tab>
-     <Tab title="Firuzeh">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Firuzeh.Mahmoudi.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Firuzeh Mahmoudi
-
-        **Firuzeh Mahmoudi** is the Director of United for Iran, a Bay Area NGO working to improve civil liberties in Iran. After witnessing the 2009 uprising in Iran, Mahmoudi organized a global rally in 110 cities. The day turned to be the largest day of global support for Iran in history. Shortly after, Mahmoudi started United for Iran. Seven years later, United for Iran works to improve the capacity of civil society and improve human rights conditions — all through the use of technology.
-
-        From 2005 to 2009, Mahmoudi was the international coordinator of a $13 million United Nations project aiming to demonstrate best environmental health practices in the global south. Previous to that, Mahmoudi served as the international co-coordinator of the environmental health coalition Health Care Without Harm, supporting communities in dozens of countries as they advocated for environmental justice and health. 
-      </Block>
-    </Tab>
-<Tab title="Agapi">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Agapi.Stassinopoulos.WDS.2017.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Agapi Stassinopoulos
-
-        **Agapi Stassinopoulos** is a best-selling author and speaker who inspires audiences around the world. In her previous book, _Unbinding the Heart: A Dose of Greek Wisdom, Generosity, and Unconditional Love_, she shares the wisdom from her life’s adventures and experiences. In her new book, _Wake Up to the Joy of You: 52 Meditations and Practices for a Calmer, Happier Life,_ she takes readers on a journey and inspires them to let go of what doesn’t work and instead create the lives they really want. 
-
-        She is currently conducting workshops for Thrive Global, a company founded by her sister, Arianna Huffington, to help change the way we work and live. Agapi has spoken and conducted meditations at many corporations including PepsiCo, Google, Nike and Starbucks. She divides her time between New York and Los Angeles and was born and raised in Athens, Greece. 
- 
-        To learn more about Agapi and her work visit [wakeuptothejoyofyou.com](http://www.wakeuptothejoyofyou.com).
-      </Block>
-    </Tab>
-<Tab title="Charles">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Charles-Hunt.WDS.Speaker.2017.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Charles Hunt
-
-        **Charles Hunt** is a resilience expert, adjunct professor, speaker and trainer.  Adept at leveraging transparency to inspire and get results, this former college recruiting, talent management, diversity and supply chain leader left the corporate world to fulfill his vision of building unbreakable spirits and cultivating resiliency for those who like him, have [The Audacity](http://www.audacityfirm.com/) to succeed despite adversity. 
-
-        With a mantra of “you’re as resilient as you THINK you are”, he helps students, young professionals, business and thought leaders build resilience while harnessing our most important resource in resilience…our minds. Charles’ TEDx Talk ["What Trauma Taught Me About Resilience"](https://www.youtube.com/watch?v=3qELiw_1Ddg&feature=youtu.be) has attracted international acclaim. A lover of hip-hop, Charles is a firm believer that there’s a Jay-Z lyric for every situation and finds joy in weaving lines into everyday conversation! 
-      </Block>
-    </Tab>                                                                  
+    </Tab>                                                                
   </Tabs>
   <div class="clear" />
 </Section>  
