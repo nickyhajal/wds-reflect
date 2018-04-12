@@ -29,7 +29,7 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
        
 Looking to meet other attendees and connect but not able to attend the full-experience? Consider getting a WDS Connect Ticket. 
 
-<Button to="connect" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</Button>
+<Button to="connect" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
