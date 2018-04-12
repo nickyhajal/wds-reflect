@@ -20,10 +20,9 @@
       Are you one of them?
         
        Join us for **WDS Connect** -- a collection of activities during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. While WDS 360 is the all-access pass, Connect is a social, interactive part of the WDS experience.
-     </Block>
-      <Block cols="6" bleed={false} textAlign="center" margin="80px 0 80px">
-      <p>Connect tickets cost <b>$179</b> and are <i>non-refundable and non-transferrable.</i></p>
-<p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
+   
+      <p style={{textAlign: 'center'}}>Connect tickets cost <b>$179</b> and are <i>non-refundable and non-transferrable.</i></p>
+<p style={{textAlign: 'center'}}><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
       
 <ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
 
