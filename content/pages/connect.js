@@ -9,8 +9,8 @@
   <Image src="heading/wds-connect.png" width="615px" height="202px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/Connect/WDS-Connect-Header-2.jpg" width="100%" height="302" /></Block>
-    <Block cols="6" bleed={false} textAlign="center" margin="80px 0 80px">
-     <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>Introducing "WDS Connect": Join a Remarkable Community</h2></p>
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+     <p style={{textAlign: 'center'}}><h2 style={{ marginBottom: '4px' }}>WDS Connect: Join a Remarkable Community</h2></p>
    <p style={{textAlign: 'center'}}><h4 style={{ marginBottom: '4px' }}>June 26 - July 2, 2018 in Portland, Oregon</h4></p>
       
       Back in 2011, we invited 440 remarkable adventurers to Portland, Oregon for a two-day event we called the World Domination Summit. Our common curiosity brought us together to explore one central question: *How do we live a remarkable life in a conventional world?* 
@@ -20,7 +20,8 @@
       Are you one of them?
         
        Join us for **WDS Connect** -- a collection of activities during WDS week that allows you to sample the spirit of WDS and meet other amazing adventurers. While WDS 360 is the all-access pass, Connect is a social, interactive part of the WDS experience.
-   
+     </Block>
+      <Block cols="6" bleed={false} textAlign="center" margin="80px 0 80px">
       <p>Connect tickets cost <b>$179</b> and are <i>non-refundable and non-transferrable.</i></p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
       
