@@ -11,7 +11,7 @@
     ## How the WDS Schedule Works
     As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS 360 ticket](https://worlddominationsummit.com/join-us) gives you access to it all; the main events and Connect plus special discounts, bonuses, and surprises.  
       
-      *Looking to participate in most of the activities but not main-stage sessions? Get a [Connect ticket](https://worlddominationsummit.com/connect).*
+      *Looking to participate in most of the activities but not main-stage sessions? Join us for [WDS Connect](https://worlddominationsummit.com/connect).*
   </Block>
  <Image src="photos/audience.png"
     width="426" height="263"
@@ -62,6 +62,16 @@ Her work has appeared in *Refinery 29, The New Yorker's Daily Shouts*, and *The 
 Ryan is the author of six books, including _The Obstacle Is the Way, Ego Is the Enemy, The Daily Stoic_ and _Perennial Seller_. Now days Ryan can be found on a ranch outside Austin, Texas where he continues to write and work in between raising cattle, donkeys and goats. You can learn more about Ryan from his blog, [RyanHoliday.net](https://ryanholiday.net/).
       </Block>
     </Tab> 
+<Tab title="Mirna">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna.Valerio.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Mirna Valerio
+                                                                                                                                              
+        **Mirna Valerio** is a runner. In 2017 a WSJ reporter contacted Mirna inquiring about her blog, [FATGIRLRUNNING](http://fatgirlrunning-fatrunner.blogspot.com), subsequently writing a piece in the newspaper about being fat and fit. Mirna has been featured in _Runner’s World_ and NBC along with other publications such as _Women's Running Magazine_, _People_, _Buzzfeed_, _Upworthy_, and the _Huffington Post_ and continues to feel grateful to share her story and inspire others to be active with whatever body they have. 
+
+In addition to being an avid trail runner and writer, Mirna is also a Spanish teacher, choral director, diversity practitioner, cross country running coach, who believes that many of life's lessons can be learned by simply engaging oneself in the pursuit of wisdom gained through simply moving your body in nature.
+      </Block>
+    </Tab> 
     <Tab title="Adam">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
@@ -74,6 +84,16 @@ He has written, filmed, and photographed for _Al Jazeera, The Paris Review, Haar
 He usually lives in America. Learn more about Adam and his stories at [adamvalenlevinson.com](https://www.adamvalenlevinson.com/). 
       </Block>
     </Tab>  
+<Tab title="Kellee">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee.Edwards.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Kellee Edwards
+
+       **Kellee Edwards** had big dreams but never imagined that she would become a Pilot, Scuba Diver, world traveler and the ultimate adrenaline junkie. She began her travels as a child, taking road trips with her parents. This definitely ignited her passion and curiosity for the next step, traveling internationally. 
+
+Exploring over 40 countries thus far, including parts of North and West Africa, Asia, South and Central America, Europe and the UAE, her love for travel has allowed Kellee to also take her enthusiasm for outdoor adventure globally. She is the Host of Mysterious Islands and the co-host of The Trip 2018 on Travel Channel. In addition to Travel Channel she is also the travel expert for FOX 5 San Diego's "Live for Travel" segment, writer and editor for _Pilot Getaways_ magazine and advocate for Women in Adventure Travel. 
+      </Block>
+    </Tab> 
     <Tab title="Paula">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
