@@ -43,18 +43,7 @@
 
   </Block>
   <Tabs style="dots">
-    <Tab title="Cathy">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Cathy Heller
-        **Cathy Heller** is the host of the top rated podcast [Don't Keep Your Day Job](https://www.dontkeepyourdayjob.com/about/). Inspiring thousands each week, she has a way of speaking right to the heart with refreshing sincerity and tremendous insight. 
-
-Since starting her podcast Huffington post wrote a full page story on Cathy's success and her show has been mentioned in the *NY Times* and *Inc* magazines “top 9 podcasts”. Cathy has interviewed creative entrepreneurs like Actress Jenna Fisher, Marketing expert Seth Godin, designer Jonathan Adler, make up artist Bobbi Brown, founder of Jimmy Choo, novelist Emily Giffin and Gretchen Rubbin to name a few.
-
-When she's not podcasting, she's writing music for film/tv. She lives in Los Angeles with her husband and three daughters. She loves spicy tuna rolls and Larry David. 
-      </Block>
-    </Tab>
- <Tab title="Geraldine">
+    <Tab title="Geraldine">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Geraldine.DeRuiter.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
         ## Geraldine DeRuiter
@@ -63,6 +52,28 @@ When she's not podcasting, she's writing music for film/tv. She lives in Los Ang
 Her work has appeared in *Refinery 29, The New Yorker's Daily Shouts*, and *The Washington Post*, and one time *The New York Times* described her writing as "dark and hilarious". Her travel memoir, **_All Over The Place: Adventures in Travel, True Love, and Petty Theft_** was published by Public Affairs in 2017. She is currently working on her second book about the nefarious world of social media. You can find her on Twitter: [@everywhereist](https://twitter.com/everywhereist)
          </Block>
     </Tab>
+    <Tab title="Ryan">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Ryan.Holiday.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Ryan Holiday
+                                                                                                                                              
+        **Ryan Holiday** is a writer and media strategist. When he was 19 years old, he dropped out of college to apprentice under Robert Greene, author of The _48 Laws of Power_ and went on to become the director of marketing for American Apparel. He has written for the New York Observer, Thought Catalog, Entrepreneur, 99U, Fast Company, The Huffington Post, Medium, Boing Boing, Forbes, Columbia Journalism Review and multiple other outlets.
+
+Ryan is the author of six books, including _The Obstacle Is the Way, Ego Is the Enemy, The Daily Stoic_ and _Perennial Seller_. Now days Ryan can be found on a ranch outside Austin, Texas where he continues to write and work in between raising cattle, donkeys and goats. You can learn more about Ryan from his blog, [RyanHoliday.net](https://ryanholiday.net/).
+      </Block>
+    </Tab> 
+    <Tab title="Adam">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Adam Valen Levinson
+
+        **Adam Valen Levinson** is an affiliate of the Middle East Institute, and a Fellow at the Center for Cultural Sociology at Yale University, where he studies senses of humor as a key to cross cultural understanding.  
+
+He has written, filmed, and photographed for _Al Jazeera, The Paris Review, Haaretz, Neue Zürcher Zeitung,_ and _VICE_, and did college stints at the Meccas of real fake news: _The Colbert Report_ and _The Onion_.  All of his stories are true.
+
+He usually lives in America. Learn more about Adam and his stories at [adamvalenlevinson.com](https://www.adamvalenlevinson.com/). 
+      </Block>
+    </Tab>  
     <Tab title="Paula">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
@@ -74,29 +85,17 @@ Today, Paula spends her time traveling, writing, podcasting, creating videos and
 She’s is the host of the award-winning **_Afford Anything_** podcast, which has been downloaded nearly 3 million times. You can find her instigating rebellion on her website and blog, [affordanything.com](https://affordanything.com). 
       </Block>
     </Tab>
-        <Tab title="Adam">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+<Tab title="Cathy">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Adam Valen Levinson
+        ## Cathy Heller
+        **Cathy Heller** is the host of the top rated podcast [Don't Keep Your Day Job](https://www.dontkeepyourdayjob.com/about/). Inspiring thousands each week, she has a way of speaking right to the heart with refreshing sincerity and tremendous insight. 
 
-        **Adam Valen Levinson** is an affiliate of the Middle East Institute, and a Fellow at the Center for Cultural Sociology at Yale University, where he studies senses of humor as a key to cross cultural understanding.  
+Since starting her podcast Huffington post wrote a full page story on Cathy's success and her show has been mentioned in the *NY Times* and *Inc* magazines “top 9 podcasts”. Cathy has interviewed creative entrepreneurs like Actress Jenna Fisher, Marketing expert Seth Godin, designer Jonathan Adler, make up artist Bobbi Brown, founder of Jimmy Choo, novelist Emily Giffin and Gretchen Rubbin to name a few.
 
-He has written, filmed, and photographed for _Al Jazeera, The Paris Review, Haaretz, Neue Zürcher Zeitung,_ and _VICE_, and did college stints at the Meccas of real fake news: _The Colbert Report_ and _The Onion_.  All of his stories are true.
-
-He usually lives in America. Learn more about Adam and his stories at [adamvalenlevinson.com](https://www.adamvalenlevinson.com/). 
-        
+When she's not podcasting, she's writing music for film/tv. She lives in Los Angeles with her husband and three daughters. She loves spicy tuna rolls and Larry David. 
       </Block>
     </Tab>
-         <Tab title="Ryan">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Ryan.Holiday.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Ryan Holiday
-                                                                                                                                              
-        **Ryan Holiday** is a writer and media strategist. When he was 19 years old, he dropped out of college to apprentice under Robert Greene, author of The 48 Laws of Power and went on to become the director of marketing for American Apparel. He has written for the New York Observer, Thought Catalog, Entrepreneur, 99U, Fast Company, The Huffington Post, Medium, Boing Boing, Forbes, Columbia Journalism Review and multiple other outlets.
-
-Ryan is the author of six books, including The Obstacle Is the Way, Ego Is the Enemy, The Daily Stoic and Perennial Seller. Now days Ryan can be found on a ranch outside Austin, Texas where he continues to write and work in between raising cattle, donkeys and goats. You can learn more about Ryan from his blog, [RyanHoliday.net](https://ryanholiday.net/).
-      </Block>
-    </Tab>                                                                
   </Tabs>
   <div class="clear" />
 </Section>  
