@@ -84,16 +84,6 @@ He has written, filmed, and photographed for _Al Jazeera, The Paris Review, Haar
 He usually lives in America. Learn more about Adam and his stories at [adamvalenlevinson.com](https://www.adamvalenlevinson.com/). 
       </Block>
     </Tab>  
-<Tab title="Kellee">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee.Edwards.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Kellee Edwards
-
-       **Kellee Edwards** had big dreams but never imagined that she would become a Pilot, Scuba Diver, world traveler and the ultimate adrenaline junkie. She began her travels as a child, taking road trips with her parents. This definitely ignited her passion and curiosity for the next step, traveling internationally. 
-
-Exploring over 40 countries thus far, including parts of North and West Africa, Asia, South and Central America, Europe and the UAE, her love for travel has allowed Kellee to also take her enthusiasm for outdoor adventure globally. She is the Host of Mysterious Islands and the co-host of The Trip 2018 on Travel Channel. In addition to Travel Channel she is also the travel expert for FOX 5 San Diego's "Live for Travel" segment, writer and editor for _Pilot Getaways_ magazine and advocate for Women in Adventure Travel. 
-      </Block>
-    </Tab> 
     <Tab title="Paula">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
@@ -103,17 +93,6 @@ Exploring over 40 countries thus far, including parts of North and West Africa, 
 Today, Paula spends her time traveling, writing, podcasting, creating videos and raising funds for worldwide charities. She’s traveled to more than 35 countries. She’s been featured in hundreds of publications, including *Lifehacker, Mashable, Forbes, Fortune, US News, NPR,* and *Oprah.com*. 
 
 She’s is the host of the award-winning **_Afford Anything_** podcast, which has been downloaded nearly 3 million times. You can find her instigating rebellion on her website and blog, [affordanything.com](https://affordanything.com). 
-      </Block>
-    </Tab>
-<Tab title="Cathy">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Cathy Heller
-        **Cathy Heller** is the host of the top rated podcast [Don't Keep Your Day Job](https://www.dontkeepyourdayjob.com/about/). Inspiring thousands each week, she has a way of speaking right to the heart with refreshing sincerity and tremendous insight. 
-
-Since starting her podcast Huffington post wrote a full page story on Cathy's success and her show has been mentioned in the *NY Times* and *Inc* magazines “top 9 podcasts”. Cathy has interviewed creative entrepreneurs like Actress Jenna Fisher, Marketing expert Seth Godin, designer Jonathan Adler, make up artist Bobbi Brown, founder of Jimmy Choo, novelist Emily Giffin and Gretchen Rubbin to name a few.
-
-When she's not podcasting, she's writing music for film/tv. She lives in Los Angeles with her husband and three daughters. She loves spicy tuna rolls and Larry David. 
       </Block>
     </Tab>
   </Tabs>
