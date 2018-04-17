@@ -62,28 +62,6 @@ Her work has appeared in *Refinery 29, The New Yorker's Daily Shouts*, and *The 
 Ryan is the author of six books, including _The Obstacle Is the Way, Ego Is the Enemy, The Daily Stoic_ and _Perennial Seller_. Now days Ryan can be found on a ranch outside Austin, Texas where he continues to write and work in between raising cattle, donkeys and goats. You can learn more about Ryan from his blog, [RyanHoliday.net](https://ryanholiday.net/).
       </Block>
     </Tab> 
-<Tab title="Mirna">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna.Valerio.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Mirna Valerio
-                                                                                                                                              
-        **Mirna Valerio** is a runner. In 2017 a WSJ reporter contacted Mirna inquiring about her blog, [FATGIRLRUNNING](http://fatgirlrunning-fatrunner.blogspot.com), subsequently writing a piece in the newspaper about being fat and fit. Mirna has been featured in _Runner’s World_ and NBC along with other publications such as _Women's Running Magazine_, _People_, _Buzzfeed_, _Upworthy_, and the _Huffington Post_ and continues to feel grateful to share her story and inspire others to be active with whatever body they have. 
-
-In addition to being an avid trail runner and writer, Mirna is also a Spanish teacher, choral director, diversity practitioner, cross country running coach, who believes that many of life's lessons can be learned by simply engaging oneself in the pursuit of wisdom gained through simply moving your body in nature.
-      </Block>
-    </Tab> 
-    <Tab title="Adam">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Adam Valen Levinson
-
-        **Adam Valen Levinson** is an affiliate of the Middle East Institute, and a Fellow at the Center for Cultural Sociology at Yale University, where he studies senses of humor as a key to cross cultural understanding.  
-
-He has written, filmed, and photographed for _Al Jazeera, The Paris Review, Haaretz, Neue Zürcher Zeitung,_ and _VICE_, and did college stints at the Meccas of real fake news: _The Colbert Report_ and _The Onion_.  All of his stories are true.
-
-He usually lives in America. Learn more about Adam and his stories at [adamvalenlevinson.com](https://www.adamvalenlevinson.com/). 
-      </Block>
-    </Tab>  
     <Tab title="Paula">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
