@@ -6,6 +6,7 @@
   preload
 >
   <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
+  <SpeakerList title="2018 Speakers" year="2018" type="expanded" />  
   <SpeakerList title="2017 Speakers" year="2017" type="expanded" />
   <SpeakerList title="2016 Speakers" year="2016" type="expanded" />
   <SpeakerList title="2015 Speakers" year="2015" type="expanded" />
