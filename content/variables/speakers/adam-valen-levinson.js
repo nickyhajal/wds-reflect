@@ -1,5 +1,5 @@
 name: "Adam Valen Levinson",
-year: "2018",
+year: "",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.Speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valenn.Levinson.WDS.speaker.thumbnail.png",
 video: "",
