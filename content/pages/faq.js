@@ -30,7 +30,7 @@
 
     ### How can I transfer a WDS 360 ticket?
     
-    <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until April 15th (10 weeks prior to WDS) and a $200 fee from April 16th until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
+    <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
     
     <p>To transfer your 360 ticket please email our concierge team at concierge@wds.fm for your unique transfer link.</p>
 
