@@ -260,7 +260,7 @@ export class MeetupForm extends Component {
           </div>
         </FormSection>
         <FormSection>
-          <Label>Briefly describe what you're planning:</Label>
+          <Label>Your Meetup Description:</Label>
           <Sub>
             Let attendees know what to expect and why they should sign-up.
           </Sub>
