@@ -1,10 +1,12 @@
 name: "Mirna Valerio",
-year: "",
+year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna.Valerio.WDS.2018.Speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna.WDS.speaker.thumbnail.png",
 video: "",
 quote: "",
 ---
-**Mirna Valerio** is a runner. In 2017 a WSJ reporter contacted Mirna inquiring about her blog, [FATGIRLRUNNING](http://fatgirlrunning-fatrunner.blogspot.com), subsequently writing a piece in the newspaper about being fat and fit. Mirna has been featured in _Runner’s World_ and NBC along with other publications such as _Women's Running Magazine_, _People_, _Buzzfeed_, _Upworthy_, and the _Huffington Post_ and continues to feel grateful to share her story and inspire others to be active with whatever body they have. 
+**Mirna Valerio** is a native of Brooklyn, NY, a former educator, cross-country coach, ultrarunner, obstacle course enthusiast, and author of the recently published memoir, *A Beautiful Work in Progress*.
 
-In addition to being an avid trail runner and writer, Mirna is also a Spanish teacher, choral director, diversity practitioner, cross country running coach, who believes that many of life's lessons can be learned by simply engaging oneself in the pursuit of wisdom gained through simply moving your body in nature. 
+Although she began running in high school, she recommitted to the sport after a health scare in 2008. It was then that her love for running and all its attendant benefits were reignited. She soon started her blog Fatgirlrunning, about her experiences as a larger woman in a world of thinner athletes. 
+
+Mirna's athletic story was featured in the *WSJ, Runner’s World*, on the *NBC Nightly News*, *CNN*, on the *CW Network*, and in the viral REI-produced documentary short, The Mirnavator. Her writing has been featured in *Women’s Running Magazine*, *Self Magazine Online*, *Outside Online*, and *Runner's World Magazine*. Most recently, she was chosen as a *2018 National Geographic Adventurer of the Year*.  
