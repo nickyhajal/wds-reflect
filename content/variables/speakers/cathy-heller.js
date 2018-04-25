@@ -1,5 +1,5 @@
 name: "Cathy Heller",
-year: "",
+year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.WDS.2018.Speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.WDS.2018.Speaker.Thumbnail.png",
 video: "",
