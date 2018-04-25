@@ -62,19 +62,7 @@ Her work has appeared in *Refinery 29, The New Yorker's Daily Shouts*, and *The 
 Ryan is the author of six books, including _The Obstacle Is the Way, Ego Is the Enemy, The Daily Stoic_ and _Perennial Seller_. Now days Ryan can be found on a ranch outside Austin, Texas where he continues to write and work in between raising cattle, donkeys and goats. You can learn more about Ryan from his blog, [RyanHoliday.net](https://ryanholiday.net/).
       </Block>
     </Tab>
-                                                                                                                                              <Tab title="Mirna">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna.Valerio.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Mirna Valerio
-                                                                                                                                              
-        **Mirna Valerio** is a native of Brooklyn, NY, a former educator, cross-country coach, ultrarunner, obstacle course enthusiast, and author of the recently published memoir, *A Beautiful Work in Progress*.
-
-Although she began running in high school, she recommitted to the sport after a health scare in 2008. It was then that her love for running and all its attendant benefits were reignited. She soon started her blog Fatgirlrunning, about her experiences as a larger woman in a world of thinner athletes. 
-
-Mirna's athletic story was featured in the *WSJ, Runner’s World*, on the *NBC Nightly News*, *CNN*, on the *CW Network*, and in the viral REI-produced documentary short, The Mirnavator. Her writing has been featured in *Women’s Running Magazine*, *Self Magazine Online*, *Outside Online*, and *Runner's World Magazine*. Most recently, she was chosen as a *2018 National Geographic Adventurer of the Year*.
-      </Block>
-    </Tab> 
-    <Tab title="Adam">
+ <Tab title="Adam">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Adam Valen Levinson
@@ -86,6 +74,30 @@ He has written, filmed, and photographed for _Al Jazeera, The Paris Review, Haar
 He usually lives in America. Learn more about Adam and his stories at [adamvalenlevinson.com](https://www.adamvalenlevinson.com/). 
       </Block>
     </Tab>  
+ <Tab title="Cathy">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Cathy Heller
+                                                                                                                                              
+        **Cathy Heller** is the host of the top rated podcast [Don't Keep Your Day Job](https://www.dontkeepyourdayjob.com/about/). Inspiring thousands each week, she has a way of speaking right to the heart with refreshing sincerity and tremendous insight. 
+
+Since starting her podcast Huffington post wrote a full page story on Cathy's success and her show has been mentioned in the *NY Times* and *Inc* magazines “top 9 podcasts”. Cathy has interviewed creative entrepreneurs like Actress Jenna Fisher, Marketing expert Seth Godin, designer Jonathan Adler, make up artist Bobbi Brown, founder of Jimmy Choo, novelist Emily Giffin and Gretchen Rubbin to name a few.
+
+When she's not podcasting, she's writing music for film/tv. She lives in Los Angeles with her husband and three daughters. She loves spicy tuna rolls and Larry David. 
+      </Block>
+    </Tab>
+   <Tab title="Mirna">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna.Valerio.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Mirna Valerio
+                                                                                                                                              
+        **Mirna Valerio** is a native of Brooklyn, NY, a former educator, cross-country coach, ultrarunner, obstacle course enthusiast, and author of the recently published memoir, *A Beautiful Work in Progress*.
+
+Although she began running in high school, she recommitted to the sport after a health scare in 2008. It was then that her love for running and all its attendant benefits were reignited. She soon started her blog Fatgirlrunning, about her experiences as a larger woman in a world of thinner athletes. 
+
+Mirna's athletic story was featured in the *WSJ, Runner’s World*, on the *NBC Nightly News*, *CNN*, on the *CW Network*, and in the viral REI-produced documentary short, The Mirnavator. Her writing has been featured in *Women’s Running Magazine*, *Self Magazine Online*, *Outside Online*, and *Runner's World Magazine*. Most recently, she was chosen as a *2018 National Geographic Adventurer of the Year*.
+      </Block>
+    </Tab> 
     <Tab title="Paula">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
@@ -96,18 +108,6 @@ He usually lives in America. Learn more about Adam and his stories at [adamvalen
 Today, Paula spends her time traveling, writing, podcasting, creating videos and raising funds for worldwide charities. She’s traveled to more than 35 countries. She’s been featured in hundreds of publications, including *Lifehacker, Mashable, Forbes, Fortune, US News, NPR,* and *Oprah.com*. 
 
 She’s is the host of the award-winning **_Afford Anything_** podcast, which has been downloaded nearly 3 million times. You can find her instigating rebellion on her website and blog, [affordanything.com](https://affordanything.com). 
-      </Block>
-    </Tab>
-<Tab title="Cathy">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Cathy Heller
-                                                                                                                                              
-        **Cathy Heller** is the host of the top rated podcast [Don't Keep Your Day Job](https://www.dontkeepyourdayjob.com/about/). Inspiring thousands each week, she has a way of speaking right to the heart with refreshing sincerity and tremendous insight. 
-
-Since starting her podcast Huffington post wrote a full page story on Cathy's success and her show has been mentioned in the *NY Times* and *Inc* magazines “top 9 podcasts”. Cathy has interviewed creative entrepreneurs like Actress Jenna Fisher, Marketing expert Seth Godin, designer Jonathan Adler, make up artist Bobbi Brown, founder of Jimmy Choo, novelist Emily Giffin and Gretchen Rubbin to name a few.
-
-When she's not podcasting, she's writing music for film/tv. She lives in Los Angeles with her husband and three daughters. She loves spicy tuna rolls and Larry David. 
       </Block>
     </Tab>
   </Tabs>
