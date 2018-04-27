@@ -23,7 +23,7 @@
     ## A Week of WDS: June 26th - July 2nd, 2018
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups
+    - **Wednesday** Small Group Activities and Attendee-Led Meetups
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
     <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Attendee-Led Meetups, and the Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
