@@ -7,7 +7,7 @@ class Event {
   }
 
   isAttending(event_id) {
-    return this.rsvps.includes(event_id);
+    return this.rsvps.map(v => +v).includes(+event_id);
   }
   isAttendingEvent(event) {
     return this.rsvps.includes(event.event_id) || event.type === 'program';
