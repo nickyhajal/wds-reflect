@@ -111,8 +111,8 @@ export class EventComponent extends Component {
         setTimeout(() => {
           this.props.data.refetch();
         }, 30);
-        console.log('claimed: ', me);
         this.props.act.updateMe(me);
+        this.setState({ claiming: false });
       });
     } else {
       this.setState({ claiming: true });
@@ -227,7 +227,6 @@ export class EventComponent extends Component {
         buttonSubMsg = '';
         break;
     }
-        console.log('reneder: ', this.props.auth.me);
     if (Me.isAttending(event_id)) {
       buttonText = "You'll be there!";
       buttonClick = () => {};
