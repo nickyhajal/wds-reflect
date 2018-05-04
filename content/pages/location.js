@@ -90,7 +90,7 @@
       ## WDS Hotel™
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
-        <Button to="https://worlddominationsummit.com/hotel" newWindow={true} fitToText>Book Now</Button> 
+        <Button to="https://worlddominationsummit.com/hotel" newWindow={true} fitToText>Only 4 Rooms Left!</Button> 
     </Block>
 
     <Block type="image" src="photos/Paramount-Hotel.jpg">
@@ -111,7 +111,7 @@
       ## Hotel Rose
       Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! 
       <p>0.5 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
- <Button to="https://gc.synxis.com/rez.aspx?shell=PineappleChain2&template=PineappleChain&Hotel=40205&Chain=17448&arrive=06/26/2018&depart=07/03/2018&adult=1&child=0&group=WDS2018" newWindow={true} fitToText>Book Now</Button>
+ <Button to="" newWindow={true} fitToText>Sold Out!</Button>
 </Block>
 
   </Grid>
