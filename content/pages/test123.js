@@ -30,7 +30,7 @@ There is no limit to how many Academies you can register for, but please note th
 If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. 
 
 ## The 2018 WDS Academies Schedule 
-<EventList year="18” type="academy" title="WDS 2018 Academies" />
+<EventList year="18" type="academy" title="WDS 2018 Academies" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
 We're knocking out the final details for these exciting Academies so keep checking back for the most up-to-date information. 
     </Block>
