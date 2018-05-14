@@ -45,9 +45,9 @@
         <tr><td>Friday, June 29th</td><td>Before 9am and between 12pm - 4pm </td></tr>
         <tr>
           <td>Saturday, June 30th</td>
-          <td>Before 8am, 1pm - 3pm, any time after 7pm</td>
+          <td>Before 8am, 1pm - 4pm, any time after 7pm</td>
         </tr>
-        <tr><td>Sunday, July 1st</td><td>Before 8am, 1pm - 3pm</td></tr>
+        <tr><td>Sunday, July 1st</td><td>Before 8am, 1pm - 4pm</td></tr>
         <tr><td>Monday, July 2nd</td><td>Any time</td></tr>
       </tbody>
     </table>
