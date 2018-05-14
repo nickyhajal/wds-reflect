@@ -34,5 +34,5 @@ If you have any questions or need any assistance, please contact our concierge t
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
 We're knocking out the final details for these exciting Academies so keep checking back for the most up-to-date information. 
     </Block>
-</Section>
+</Block></Section>
 <Import id="join-us" />
