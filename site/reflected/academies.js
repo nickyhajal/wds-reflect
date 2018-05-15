@@ -49,12 +49,19 @@ You'll have the opportunity to learn something new to help live your _own_ remar
   </Block>
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## The Details {'\n'}
+        ## The Details {'\n'}
 Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.{'\n'}
+
+- **WDS 360 Attendees:** $29 per Academy{'\n'}
+- **Connect Attendees and General Public:** $59 per Academy{'\n'}
+
+(Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection){'\n'}
+                                                                                                                                              
+Each Academy has a limited number of free "Insider Access" seats only available to early-bird alumni ticket holders (folks who purchased at WDS last July). Early-bird ticket holders can only claim **one** of these seats and they are available on a first-come, first-serve basis. If you have access to one of these seats, [log-in to your WDS account](http://worlddominationsummit.com/login) and when you register for your first Academy you'll see it as an option on each Academy page.{'\n'}
 
 There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. No physical ticket or confirmation will be required upon check-in, just a valid photo ID. Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.{'\n'}
 
-If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**.{'\n'}
+If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. {'\n'}
 
 ## The 2018 WDS Academies schedule is coming soon. {'\n'}
     </Block>

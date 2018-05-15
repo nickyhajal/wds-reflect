@@ -85,9 +85,9 @@ export class EventComponent extends Component {
       params.product = 'WDS Academy';
       params.price =
         this.props.auth.me !== undefined &&
-        this.props.auth.me.attending17 !== undefined &&
-        !_.isNull(this.props.auth.me.attending17) &&
-        this.props.auth.me.attending17.toString() === '1'
+        this.props.auth.me.attending18 !== undefined &&
+        !_.isNull(this.props.auth.me.attending18) &&
+        this.props.auth.me.attending18.toString() === '1'
           ? 2900
           : 5900;
       params.redirect = 'academy-purchased';
@@ -187,6 +187,12 @@ export class EventComponent extends Component {
       (lon !== undefined && lon && lon.length > 0)
     ) {
       mapCenter = { lat, lon };
+    }
+    else {
+      mapCenter = {
+        lat: '45.523062',
+        lon: '-122.676482',
+      };
     }
     // console.log(lat, lon);
     // lat = lat !== '' ? lat : '45.523062';

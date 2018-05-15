@@ -60,11 +60,11 @@ import ComparisonTable from '../../site/components/ComparisonTable';
 <p>Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2018 emails, please contact our concierge team at concierge@wds.fm and they will be able to assist you.</p>
 
 ### What is the refund/cancellation policy for WDS tickets?
-    <p>All WDS tickets are <b>non-refundable.</b> Only WDS 360 tickets can be transferred to another person for a fee up until May 15th. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p> 
+    <p>All WDS tickets are <b>non-refundable and cannot be moved to a future year.</b> Only WDS 360 tickets can be transferred to another person for a fee up until May 15th. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p> 
 
     ### How can I transfer a WDS 360 ticket?
     
-    <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until April 15th (10 weeks prior to WDS) and a $200 fee from April 16th until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
+    <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
     
     <p>To transfer your 360 ticket please email our concierge team at concierge@wds.fm for your unique transfer link.</p>
 
