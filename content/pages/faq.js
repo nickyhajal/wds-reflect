@@ -19,7 +19,7 @@
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
-<p><b>Tickets for WDS 2018 are available NOW!</b> Go to the following links to get your <Link to="https://worlddominationsummit.com/join-us">WDS 360 ticket</Link> or <Link to="https://worlddominationsummit.com/connect">Connect ticket.</Link>.</p>
+<p><b>Tickets for WDS 2018 are available NOW!</b> Go to the following links to get your <Link to="https://worlddominationsummit.com/join-us">WDS 360 ticket</Link> or <Link to="https://worlddominationsummit.com/connect">Connect ticket.</Link></p>
 
 ### I bought a ticket, what do I do next? 
 
@@ -30,11 +30,7 @@
 
     ### How can I transfer a WDS 360 ticket?
     
-    <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
-    
-    <p>To transfer your 360 ticket please email our concierge team at concierge@wds.fm for your unique transfer link.</p>
-
- <p><i>*All WDS tickets are assigned to a specific person using a unique name and email -- this is required for attendance. This process takes place when a ticket is initially purchased (or by a specific date for early-bird ticket purchasers). Transferring a ticket and assigning a ticket are two different processes. Only assigned tickets can be transferred.</i></p>
+    <p>The deadline to transfer a ticket to another person passed (May 16, 2018). No additional name changes or transfers are permitted.</p>
        
     ### Can I nominate myself or someone I represent to be a speaker?
 
