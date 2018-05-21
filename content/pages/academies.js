@@ -31,7 +31,7 @@ If you have any questions or need any assistance, please contact our concierge t
 
 <EventList year={18} type="academy" title="WDS 2018 Academies" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-We're knocking out the final details for these exciting Academies so keep checking back for the most up-to-date information. 
+We're knocking out the final venue details for these exciting Academies so keep checking back for the most up-to-date information. 
     </Block>
 </Block></Section>
 <Import id="join-us" />
