@@ -120,7 +120,7 @@ export class Hub extends Component {
           <Shell cols="8" background="transparent">
             <h2 style={headcss}>WDS Events</h2>
             <Block width="100%" background="white">
-              <EventButton
+              {/* <EventButton
                 to="/events/registration"
                 style={{
                   backgroundImage:
@@ -129,7 +129,7 @@ export class Hub extends Component {
               >
                 <h3>Registration</h3>
                 <h4>Let us know which registration session works for you</h4>
-              </EventButton>
+              </EventButton> */}
               <EventButton
                 to="/events/meetups"
                 style={{
@@ -147,10 +147,10 @@ export class Hub extends Component {
                     'url(https://files.wds.fm/images/photos/tile_activities.jpg)',
                 }}
               >
-                <h3>Activities</h3>
+                <h3>Connect</h3>
                 <h4>Special activities to share with your fellow attendees</h4>
               </EventButton>
-              <EventButton
+              {/* <EventButton
                 to="/events/expeditions"
                 style={{
                   backgroundImage:
@@ -159,7 +159,7 @@ export class Hub extends Component {
               >
                 <h3>Expeditions</h3>
                 <h4>Unique adventures crafter just for WDS</h4>
-              </EventButton>
+              </EventButton> */}
               <EventButton
                 to="/events/academies"
                 style={{
