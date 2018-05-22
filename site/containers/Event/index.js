@@ -179,7 +179,11 @@ export class EventComponent extends Component {
     // LatLon for map with default set to PDX downtown
     let map = {};
     let { lat, lon } = E;
-    let mapCenter = false;
+      let = mapCenter = {
+        lat: '45.523062',
+        lon: '-122.676482',
+      };
+      console.log(lat, lon)
     if (
       lat !== undefined &&
       lat &&
@@ -188,12 +192,7 @@ export class EventComponent extends Component {
     ) {
       mapCenter = { lat, lon };
     }
-    else {
-      mapCenter = {
-        lat: '45.523062',
-        lon: '-122.676482',
-      };
-    }
+    console.log(mapCenter);
     // console.log(lat, lon);
     // lat = lat !== '' ? lat : '45.523062';
     // lon = lon !== '' ? lon : '-122.676482';
