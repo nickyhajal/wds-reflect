@@ -40,7 +40,7 @@ const Btn = styled(Button)`
   width: 100%;
   padding: 19px 16px 16px;
   font-size: 20px;
-  margin-bottom: 16px
+  margin-bottom: 16px;
 `;
 
 const EventHead = styled.h3`
@@ -77,6 +77,7 @@ export class EventComponent extends Component {
     return <EventRow rowClass={rowClass} event={event} me={Me} />;
   }
   render() {
+  console.log(this.props.year);
     this.lastDay = '';
     const { data } = this.props;
     let events = data.events !== undefined ? data.events : [];
@@ -132,6 +133,7 @@ EventComponent.propTypes = {
 
 export default graphql(EventsQuery, {
   options: props => {
+    console.log(props.year);
     return {
       variables: {
         year: props.year,
