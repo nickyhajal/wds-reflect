@@ -225,7 +225,7 @@ export class EventComponent extends Component {
       case 'meetup':
       case 'activity':
         buttonSubMsg = (E.price !== undefined && +E.price > 1)
-        ? `This ${etype.single} costs $${E.price/100} to participate in. Click above to purchase.`
+        ? `This a paid ${etype.single} that costs $${E.price/100} to participate in. Click above to purchase.`
         : `This ${etype.single} is free but please only RSVP if you're sure you'll attend.`;
         break;
       default:
