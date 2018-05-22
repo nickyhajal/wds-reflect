@@ -128,7 +128,7 @@ export class EventListing extends Component {
               style={{ padding: '60px', margin: '0' }}
             >
               <EventList
-                year="17"
+                year="18"
                 format="contained"
                 type="mine"
                 title={false}
