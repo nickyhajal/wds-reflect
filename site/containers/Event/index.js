@@ -183,7 +183,6 @@ export class EventComponent extends Component {
         lat: '45.523062',
         lon: '-122.676482',
       };
-      console.log(lat, lon)
     if (
       lat !== undefined &&
       lat &&
@@ -192,7 +191,6 @@ export class EventComponent extends Component {
     ) {
       mapCenter = { lat, lon };
     }
-    console.log(mapCenter);
     // console.log(lat, lon);
     // lat = lat !== '' ? lat : '45.523062';
     // lon = lon !== '' ? lon : '-122.676482';
