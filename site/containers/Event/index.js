@@ -226,7 +226,7 @@ export class EventComponent extends Component {
       }
       case 'meetup':
       case 'activity':
-        buttonSubMsg = `${etype.plural} are free but please only RSVP if you're sure you'll attend.`;
+        buttonSubMsg = `This ${etype.singgle} is free but please only RSVP if you're sure you'll attend.`;
         break;
       default:
         buttonSubMsg = '';
