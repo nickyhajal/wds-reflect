@@ -171,13 +171,14 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   </Block>
   <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your 360 Ticket!</Button>
   <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
     <TicketCounter type="countup" />{'\n'}
   </Block>
   <JoinUsButton />
   <div className="clear" />
 </Section>
+
 
 <Section color="green" clip="top_lr_2.6" margin="-22px 0 0">
   <Block margin="50px 0" width="420px">

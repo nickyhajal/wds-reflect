@@ -17,6 +17,7 @@ import fillScreen from '../../utils/fillScreen';
 const LocationMap = withGoogleMap(props => {
   if (props.center.lat === undefined) return <div />;
   console.log('center: ', props.center);
+  console.log('real_center: ', { lat: +props.center.lat, lng: +props.center.lon });
   return (
     <GoogleMap
       defaultZoom={17}

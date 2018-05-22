@@ -122,28 +122,28 @@ import ComparisonTable from '../../site/components/ComparisonTable';
       ## WDS Hotel™{'\n'}
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. {'\n'}
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
-        <Button to="https://worlddominationsummit.com/hotel" newWindow={true} fitToText>Book Now</Button> 
+        <Button to="" newWindow={true} fitToText>Sold Out!</Button> 
     </Block>
 
     <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel {'\n'}
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-     <Button to="https://reservations.travelclick.com/104209?groupID=2133448" newWindow={true} fitToText>Book Now</Button>
+     <Button to="https://reservations.travelclick.com/104209?groupID=2133448" newWindow={true} fitToText>Last Call!</Button>
  </Block>
 
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
       ## Hotel Modera{'\n'}
       A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. {'\n'}
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/mAa6guqWiJt">(Google Directions)</Link></p> 
-       <Button to="https://gc.synxis.com/rez.aspx?Hotel=53439&Chain=6052&group=WDS2018" newWindow={true} fitToText>Book Now</Button>
+       <Button to="" newWindow={true} fitToText>Sold Out!</Button>
 </Block>
 
   <Block type="image" src="photos/Hotel-Rose-Portland.jpg">
       ## Hotel Rose{'\n'}
       Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! {'\n'}
       <p>0.5 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
- <Button to="https://gc.synxis.com/rez.aspx?shell=PineappleChain2&template=PineappleChain&Hotel=40205&Chain=17448&arrive=06/26/2018&depart=07/03/2018&adult=1&child=0&group=WDS2018" newWindow={true} fitToText>Book Now</Button>
+ <Button to="" newWindow={true} fitToText>Sold Out!</Button>
 </Block>
 
   </Grid>
@@ -235,13 +235,14 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
   </Block>
   <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your 360 Ticket!</Button>
   <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
     <TicketCounter type="countup" />{'\n'}
   </Block>
   <JoinUsButton />
   <div className="clear" />
 </Section>
+
 
 
 

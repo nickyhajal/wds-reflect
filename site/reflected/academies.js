@@ -42,7 +42,7 @@ import ComparisonTable from '../../site/components/ComparisonTable';
 >
   <Image src="heading/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## WDS Academies will return for 2018! {'\n'}
+    ## WDS Academies are back for 2018! {'\n'}
 At a WDS Academy, you might learn how to travel hack your way to a life-changing travel experience, master the art of telling compelling stories, or develop a winning branding strategy for your business. {'\n'}
 You'll have the opportunity to learn something new to help live your _own_ remarkable life story. It's a great way to lead into the main events of the WDS weekend and keep the conversations going afterward.{'\n'}
   This short video shows more of what it's all about:{'\n'}
@@ -63,9 +63,11 @@ There is no limit to how many Academies you can register for, but please note th
 
 If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. {'\n'}
 
-## The 2018 WDS Academies schedule is coming soon. {'\n'}
+<EventList year={18} type="academy" title="WDS 2018 Academies" />{'\n'}
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+We're knocking out the final venue details for these exciting Academies so keep checking back for the most up-to-date information. {'\n'}
     </Block>
-</Section>
+</Block></Section>
 <Section color="orange" overflow="hidden">
   <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
@@ -73,13 +75,14 @@ If you have any questions or need any assistance, please contact our concierge t
   </Block>
   <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your 360 Ticket!</Button>
   <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
     <TicketCounter type="countup" />{'\n'}
   </Block>
   <JoinUsButton />
   <div className="clear" />
 </Section>
+
 
 
 
