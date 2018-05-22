@@ -16,6 +16,7 @@ import fillScreen from '../../utils/fillScreen';
 
 const LocationMap = withGoogleMap(props => {
   if (props.center.lat === undefined) return <div />;
+  console.log(props.center);
   return (
     <GoogleMap
       defaultZoom={17}
@@ -35,6 +36,7 @@ const renderMap = ({ lat, lon }, ref, mapClip) => {
     WebkitClipPath: clip,
     marginTop: '-60px',
   };
+  console.log(lat, lon)
   return (
     <div style={css}>
       <LocationMap
