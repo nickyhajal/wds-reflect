@@ -179,7 +179,7 @@ export class EventComponent extends Component {
     // LatLon for map with default set to PDX downtown
     let map = {};
     let { lat, lon } = E;
-      let = mapCenter = {
+      let mapCenter = {
         lat: '45.523062',
         lon: '-122.676482',
       };
