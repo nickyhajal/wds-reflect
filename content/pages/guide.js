@@ -70,8 +70,8 @@
         </Block>      
         <Block type="image-overlay" anchor="left" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #6: RSVP for Activities
-        Create your own personalized schedule by RSVPing for Meetups, Activities, Expeditions, and Academies through the mobile app. 
-        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
+        Create your own personalized schedule by RSVPing for Meetups, Activities, and Academies through the mobile app or online. 
+        <Button to="https://worlddominationsummit.com/events" newWindow={true} styling="blue" fitToText>RSVP for Events</Button>     
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 7: Packing List 
