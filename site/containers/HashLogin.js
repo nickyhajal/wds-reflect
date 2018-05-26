@@ -15,14 +15,14 @@ class HashLoginComponent extends Component {
     if (this.props.auth.me) {
       this.redirect();
     }
-    if (!this.props.auth.me && this.props.routeParams.id !== undefined) {
-      auth.loginWithHash(this.props.routeParams.id).then(() => {
+    if (!this.props.auth.me && this.props.routeParams.loginhash !== undefined) {
+      auth.loginWithHash(this.props.routeParams.loginhash).then(() => {
         this.redirect();
       });
     }
   }
   redirect() {
-    const path = this.props.location.pathname.includes('login') ? '/hub' : this.props.location.pathname.replace(`/${this.props.routeParams.id}`, '')
+    const path = this.props.location.pathname.includes('login') ? '/hub' : this.props.location.pathname.replace(`/${this.props.routeParams.loginhash}`, '')
     browserHistory.replace(path);
   }
   render() {

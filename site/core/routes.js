@@ -34,10 +34,10 @@ const routes = (
     <Route path="/person/:id" component={Person} />
     <Route path="/assign/:id" component={Claim} />
     <Route path="/reset/:id" component={Reset} />
-    <Route path="/propose-a-meetup/:id" component={HashLogin} />
-    <Route path="/academies/:id" component={HashLogin} />
-    <Route path="/transfer/:id" component={HashLogin} />
-    <Route path="/login/:id" component={HashLogin} />
+    <Route path="/propose-a-meetup/:loginhash" component={HashLogin} />
+    <Route path="/academies/:loginhash" component={HashLogin} />
+    <Route path="/transfer/:loginhash" component={HashLogin} />
+    <Route path="/login/:loginhash" component={HashLogin} />
     <Route path="/logout" component={Logout} />
     <Route path="/speaker/:id" component={SpeakerPage} />
     <Route path="/welcome/:id" component={Welcome} />
@@ -46,14 +46,15 @@ const routes = (
     <Route path="/side-hustlers-only" component={TicketPurchase} /> 
     <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />
-    <Route path="/events/meetups/:id" component={HashLogin} />
-    <Route path="/events/academies/:id" component={HashLogin} />
-    <Route path="/events/expeditions/:id" component={HashLogin} />
-    <Route path="/events/activities/:id" component={HashLogin} />
-    <Route path="/events/registration/:id" component={HashLogin} />
-    <Route path="/hotel/:id" component={HashLogin} />
-    <Route path="/your-schedule/:id" component={HashLogin} />
+    <Route path="/events/meetups/:loginhash" component={HashLogin} />
+    <Route path="/events/academies/:loginhash" component={HashLogin} />
+    <Route path="/events/expeditions/:loginhash" component={HashLogin} />
+    <Route path="/events/activities/:loginhash" component={HashLogin} />
+    <Route path="/events/registration/:loginhash" component={HashLogin} />
+    <Route path="/hotel/:loginhash" component={HashLogin} />
+    <Route path="/your-schedule/:loginhash" component={HashLogin} />
     <Route path="/activity/:id" component={Event} />
+    <Route path="/activity/:id/:loginhash" component={HashLogin} />
     <Route component={EnsureLoggedIn}>
       <Route path="/assign" component={Claim} />
       <Route path="/registration/:id" component={Event} />
@@ -76,7 +77,7 @@ const routes = (
         <Route path="/events/registration" component={EventListing} />
       </Route>
     </Route>
-    <Route path="/events/:id" component={HashLogin} />
+    <Route path="/events/:loginhash" component={HashLogin} />
     <Route path="*" component={Pageloader} />
   </Route>
 );
