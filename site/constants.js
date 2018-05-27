@@ -44,7 +44,6 @@ if (host === 'worlddominationsummit.com') {
 } else {
   constants.protocol = 'http';
 }
-  constants.url = 'api.worlddominationsummit.com';
 constants.apiUrl = `${constants.url}/api`;
 constants.graphUrl = `${constants.protocol}://${constants.url}/api/graphql`;
 constants.ticketPrice = 697;

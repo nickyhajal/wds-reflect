@@ -8,6 +8,8 @@ class Event {
     format = '',
     active = true,
     slug = '',
+    photo = false,
+    photo_dims = false,
     lat = '',
     lon = '',
     venue_note = '',
@@ -50,6 +52,8 @@ class Event {
     this.num_rsvps = num_rsvps;
     this.free_max = free_max;
     this.num_free = num_free;
+    this.photo = photo;
+    this.photo_dims = photo_dims;
     this.place = place;
     this.address = address;
     this.bios = JSON.parse(bios);

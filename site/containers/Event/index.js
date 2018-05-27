@@ -35,6 +35,9 @@ const Grid = styled.div`
     flex-direction: column;
   }
 `;
+const Photo = styled.img`
+  width: 110%;
+`;
 const Side = styled.div`
   min-height: 666px;
   width: 340px;
@@ -169,6 +172,8 @@ export class EventComponent extends Component {
       address,
       who,
       place,
+      photo,
+      photo_dims,
       descr,
       price,
     } = E;
@@ -295,6 +300,7 @@ export class EventComponent extends Component {
                   {address}
                 </div>
               </div>
+              {photo && <Photo src={photo} /> }
               <div className="descr section">
                 <Markdown>
                   {descr}
