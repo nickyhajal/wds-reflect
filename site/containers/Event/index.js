@@ -37,6 +37,7 @@ const Grid = styled.div`
 `;
 const Photo = styled.img`
   width: 110%;
+  margin-bottom: 60px;
 `;
 const Side = styled.div`
   min-height: 666px;
