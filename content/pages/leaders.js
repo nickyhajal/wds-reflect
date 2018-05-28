@@ -25,7 +25,7 @@ We've seen the power of bringing together remarkable people together, and we wan
    ## I'm In! Sign-up Today!
   <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form. Want to know more? Keep scrolling for more information.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/leaders-signup" newWindow={true} styling="white" fitToText>I'm Going to WDS 2018!</Button> 
+   <Button to="https://bit.ly/2GWssfu" newWindow={true} styling="white" fitToText>I'm Going to WDS 2018!</Button> 
   </Block>
  </Block>                                                             
 </Section>  
@@ -75,7 +75,7 @@ We've seen the power of bringing together remarkable people together, and we wan
    ## I'm In! Sign-up Today!
   <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/leaders-signup" newWindow={true} styling="white" fitToText>I'm Going to WDS 2018!</Button> 
+   <Button to="https://bit.ly/2GWssfu" newWindow={true} styling="white" fitToText>I'm Going to WDS 2018!</Button> 
   </Block>
  </Block>                                                             
 </Section>                                                                
