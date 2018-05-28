@@ -9,7 +9,7 @@
     <Image src="heading/league.of.leaders.header.png" width="1000px" height="244px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Greetings Extraordinary Leaders! 
-    <p>We're thrilled to invite you to join us at the 7th annual <i>World Domination Summit</i> taking place July 14-16th in Portland. Best of all, we want you to attend as our honored guest (at no charge) as part of our <b>League of Leaders</b> program.</p>
+    <p>We're thrilled to invite you to join us at the 8th annual <i>World Domination Summit</i> taking place June 26th - July 2nd in Portland. Best of all, we want you to attend as our honored guest (at no charge) as part of our <b>League of Leaders</b> program.</p>
 
 <p>Since 2011, WDS has brought together more than 10,000 people from over forty countries together around the core values of <b>community, adventure, and service</b> to discuss this central question, <i>"how can we live a remarkable life in a conventional world"</i>.</p>
   <Image src="photos/local-leaders.jpg" width="100%" height="480" />
@@ -25,7 +25,7 @@ We've seen the power of bringing together remarkable people together, and we wan
    ## I'm In! Sign-up Today!
   <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form. Want to know more? Keep scrolling for more information.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/leaders-signup" newWindow={true} styling="white" fitToText>I'm Going to WDS 2017!</Button> 
+   <Button to="https://worlddominationsummit.com/leaders-signup" newWindow={true} styling="white" fitToText>I'm Going to WDS 2018!</Button> 
   </Block>
  </Block>                                                             
 </Section>  
@@ -34,8 +34,8 @@ We've seen the power of bringing together remarkable people together, and we wan
 >
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
 ## The Details
- - As our honored guest, WDS will waive the standard ticket price of $647 for you. 
- - You'll be given a ticket to attend the main events of the WDS weekend from Friday July 14th - Sunday July 16th
+ - As our honored guest, WDS will waive the standard ticket price of $707 for you. 
+ - You'll be given a ticket to attend the main events of the WDS weekend from Friday June 29th - Sunday July 1st
  - These tickets are non-transferrable and cannot be sold to another person
  - You will have access to register for WDS Academies at a hugely discounted rate of $29 per Academy ($59 each for the general public)
  - You will be able to propose or attend as many attendee-led meetups as you like 
@@ -75,7 +75,7 @@ We've seen the power of bringing together remarkable people together, and we wan
    ## I'm In! Sign-up Today!
   <font color="white">Ready to join some of the world's most remarkable people in the world? Click on the button below and fill out our quick sign-up form.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/leaders-signup" newWindow={true} styling="white" fitToText>I'm Going to WDS 2017!</Button> 
+   <Button to="https://worlddominationsummit.com/leaders-signup" newWindow={true} styling="white" fitToText>I'm Going to WDS 2018!</Button> 
   </Block>
  </Block>                                                             
 </Section>                                                                
