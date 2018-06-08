@@ -1,11 +1,12 @@
 <Section
+  headerClip="br:0%,-10%;"
+  headerImage="photos/kitty-WDS.jpg"
   color="sea"
   css={{ marginBottom: '-2px' }}
 >
  
   <Block width="768px" bleed={true} type="padded" background="white" textAlign="left" margin="60px 0 80px" clip="tr:0,1%;">
      <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="photos/overlord-kitty.png" width="100%" />
   </Block>    
 
     <Block width="100%" margin="40px 0 0 0" textAlign="center">## Page destroyed by our kitty overlords!</Block>
