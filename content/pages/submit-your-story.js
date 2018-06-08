@@ -30,7 +30,7 @@
 </ul>
 
 Do you have (or know of another attendee that has) an awesome story that you think the WDS Community should hear about? Tell us using the form below:
- <iframe height="2000" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Fill out my Wufoo form!</a></iframe>
+ <iframe height="1800" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Fill out my Wufoo form!</a></iframe>
 
   </Block>
 </Section>;
