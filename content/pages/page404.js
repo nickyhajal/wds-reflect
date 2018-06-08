@@ -35,7 +35,7 @@
     
     ### WDS Foundation
     
-    <p>Interested in being considered for our Scholarships for Real Life? Check out the <Link to="https://worlddominationsummit.com/foundation" target="blank">Foundation page</Link> for more information regarding our selection criteria and how you can be chosen for 2017!</p>
+    <p>Interested in being considered for our Scholarships for Real Life? Check out the <Link to="https://worlddominationsummit.com/foundation" target="blank">Foundation page</Link> for application information and our selection criteria.</p>
     
 
   </Block>
