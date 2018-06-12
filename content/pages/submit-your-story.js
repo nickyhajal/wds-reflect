@@ -10,13 +10,18 @@
     margin="80px 0 80px"
     background="white"
     type="padded"
+    mobile={{
+      all: {
+        padding: '40px 40px',
+      },
+    }}
     padding="80px 120px"
     className="bigger"
   >
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
       Submit Your Story
     </h2>
-    <p>The best part of WDS is you!</p> 
+    <p>The best part of WDS is you!</p>
      <p>  Over the past 8 years 10,000+ amazing adventurers have taken part in WDS. As we reflect over the many memories and connections we've made together, we want to know <b>how has WDS impacted your life?</b></p>
     {' '}
 
@@ -35,4 +40,4 @@ Do you have (or know of another attendee that has) an awesome story that you thi
  <iframe height="1800" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Fill out my Wufoo form!</a></iframe>
 
   </Block>
-</Section>;
+</Section>

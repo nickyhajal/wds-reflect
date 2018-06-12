@@ -65,7 +65,7 @@ import ComparisonTable from '../../site/components/ComparisonTable';
   <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Your Base in Portland{'\n'}
-    Our beloved city is one of the most electic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers.  For 2018 we'll be based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. {'\n'}
+    Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers.  For 2018 we'll be based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. {'\n'}
   </Block>
     
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
@@ -182,7 +182,7 @@ import ComparisonTable from '../../site/components/ComparisonTable';
       ## Transportation{'\n'}
       Portland has one the best public transit systems (TriMet) in the country - no need to rent a car during your whole time in the city. For easy access to and from the airport to downtown, try Portland’s fast-and-easy light rail service (MAX) for just $2.50. {'\n'}
 
-Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new bikehsare program Biketown.{'\n'}
+Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new bikeshare program Biketown.{'\n'}
     </Block>
     <div className="clear" />{'\n'}
   </Block>
