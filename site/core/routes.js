@@ -43,7 +43,7 @@ const routes = (
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
     <Route path="/be-there" component={TicketPurchase} />
-    <Route path="/side-hustlers-only" component={TicketPurchase} /> 
+    <Route path="/side-hustlers-only" component={TicketPurchase} />
     <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />
     <Route path="/events/meetups/:loginhash" component={HashLogin} />
@@ -53,6 +53,7 @@ const routes = (
     <Route path="/events/registration/:loginhash" component={HashLogin} />
     <Route path="/hotel/:loginhash" component={HashLogin} />
     <Route path="/your-schedule/:loginhash" component={HashLogin} />
+    <Route path="/hub/:loginhash" component={HashLogin} />
     <Route path="/activity/:id" component={Event} />
     <Route path="/activity/:id/:loginhash" component={HashLogin} />
     <Route component={EnsureLoggedIn}>
