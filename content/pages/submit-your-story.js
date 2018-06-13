@@ -39,7 +39,7 @@
 
 <p>--</p>
 
- <iframe height="3100" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none', paddingBottom: '20px'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Fill out my Wufoo form!</a></iframe>
+ <iframe height="2500" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none', paddingBottom: '20px'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Fill out my Wufoo form!</a></iframe>
 <div style={{height: '100px', width: '10px'}} />
   </Block>
 </Section>
