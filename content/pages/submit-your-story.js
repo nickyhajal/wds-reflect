@@ -31,7 +31,7 @@
   <li>A moment that altered the trajectory of your life.</li>
   <li>A quick lesson or life principle you think would help others.</li>
   <li>A time in which you needed to trust.</li>
-  <li>A way in which you were inspired or influenced by someone else or something that happened.</li>
+  <li>A way in which you were inspired or influenced by someone else, or something that happened.</li>
   <li>A story that is vulnerable and relfective.</li>
   <li>A request that you think the WDS community can help you with.</li>
   <li>A person you'd like to publicly thank.</li>
