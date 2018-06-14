@@ -23,7 +23,7 @@
     </h2>
     <p>The best part of WDS is you!</p>
      <p>Over the past 8 years 10,000+ amazing adventurers have taken part in WDS, bringing their unique experiences and perspectives to share. We want to know: <b>What is YOUR remarkable story?</b></p>
-  <p>Do you have (or know of another attendee that has) an awesome story that you think the WDS Community should hear about? Would you be able to share it on the main stage in less than 3 minutes? Tell us using the form below:</p>
+  <p>Do you have (or know of another attendee that has) an awesome story that you think the WDS Community should hear about? Would you be able to share it on the main stage in less than 2 minutes? Tell us using the form below:</p>
     {' '}
 
     ### Here's some ideas of stories we're looking for:
