@@ -9,7 +9,7 @@
   <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Ready? Set. Go! The Attendee Guide to WDS 2018
-    Next summer, you'll join over 1200+ invidividuals from over 30+ countries coming to Portland for our 8th gathering of the remarkable adventurers. This page is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2018 - **_you'll find it here!_**      
+    This summer, you'll join over 1200+ invidividuals from over 30+ countries coming to Portland for our 8th gathering of the remarkable adventurers. This page is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2018 - **_you'll find it here!_**      
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
   </Section>        
@@ -65,7 +65,7 @@
         </Block>      
        <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 5: Mobile App 
-        Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more (coming soon).
+        Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
        <Button to="https://madmimi.com/p/d8ad3c/" newWindow={true} styling="blue" fitToText>Download Now</Button>
         </Block>      
         <Block type="image-overlay" anchor="left" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
@@ -75,8 +75,8 @@
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 7: Packing List 
-        Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum? (coming soon). 
-       <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>
+        Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum and the core team? 
+       <Button to="https://madmimi.com/p/d55e5c/" newWindow={true} styling="blue" fitToText>Learn More</Button>
         </Block>   
          <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #8: Check-in Info
