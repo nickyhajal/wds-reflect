@@ -22,17 +22,17 @@
       Submit Your Story
     </h2>
     <p>The best part of WDS is you!</p>
-     <p>Over the past 8 years 10,000+ amazing adventurers have taken part in WDS bringing their unique experiences and perspectives to share. We want to know <b>what is YOUR remarkable story?</b></p>
+     <p>Over the past 8 years 10,000+ amazing adventurers have taken part in WDS, bringing their unique experiences and perspectives to share. We want to know: <b>What is YOUR remarkable story?</b></p>
   <p>Do you have (or know of another attendee that has) an awesome story that you think the WDS Community should hear about? Would you be able to share it on the main stage in less than 3 minutes? Tell us using the form below:</p>
     {' '}
 
     ### Here's some ideas of stories we're looking for:
 <ul>
+  <li>A time in which you needed to trust.</li>
   <li>A moment that altered the trajectory of your life.</li>
   <li>A quick lesson or life principle you think would help others.</li>
-  <li>A time in which you needed to trust.</li>
   <li>A way in which you were inspired or influenced by someone else, or something that happened.</li>
-  <li>A story that is vulnerable and relfective.</li>
+  <li>A story that is vulnerable and reflective.</li>
   <li>A request that you think the WDS community can help you with.</li>
   <li>A person you'd like to publicly thank.</li>
 </ul>
