@@ -73,6 +73,13 @@
 - Create an opportunity for people with similar passions to meet. 
 - Organize something fun to create memories.
       </Block>
+   <Block type="image-overlay" anchor="right" icon="outline-camera" src="photos/Connect/WDS-Closing-Party.jpg" imageClip="tr:0,+10%;" >
+        ## Epic Closing Party
+        Join your fellow WDS attendees for an unforgettable celebration of community. Prepare yourself to be transported to a whimsical world and dance the night away with new and old friends. A major highlight of each WDS that you won't want to miss.
+- Pure, unadulterated fun and joy. 
+- Magic. 
+- Food, drink, and dancing.
+      </Block>
     </Grid>
 <ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
        </Block>
