@@ -10,7 +10,7 @@ class Event {
     return this.rsvps.map(v => +v).includes(+event_id);
   }
   isAttendingEvent(event) {
-    return this.rsvps.includes(event.event_id) || event.type === 'program';
+    return this.rsvps.map((v) => +v).includes(+event.event_id) || event.type === 'program';
   }
 
   hasUnclaimedAcademy() {
