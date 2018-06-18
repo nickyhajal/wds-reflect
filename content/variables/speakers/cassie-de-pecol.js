@@ -5,4 +5,6 @@ photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/cassie.thumbnail.p
 video: "",
 quote: "",
 ---
-**Cassie De Pecol** is a traveler, activist, entreprenuer, philanthropist, and speaker best known for being the fastest person and first documented woman to travel to every sovereign nation in the world. She officially set Guinness World Records in two categories: "Fastest time to visit all sovereign countries" and "Fastest time to visit all sovereign countries - Female". When Cassie isn't traveling she enjoys competing in the Ironman and Ironman 70.3 triathlon races and is currently working on her next Guinness World Record attempt.
+**Cassie De Pecol** is the CEO of Expedition 196 LLC and the founder of Her International Inc., a nonprofit organization dedicated to funding female-driven projects that address the United Nations Sustainability Development Goals.  
+
+Cassie holds two Guinness World Records, is recognized in the National Women’s History Museum, and has been invited to travel into space with Virgin Galactic. She is a keynote speaker, brand ambassador, Ironman athlete, author, and content creator who has helped to put sustainable travel on the map.
