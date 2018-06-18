@@ -124,7 +124,7 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
       ### Portland State (0.6 Mi)
-      <Link to="https://housingportal.pdx.edu/StarRezPortal/Go/Conference/204">Book Now</Link>
+      <Link to="">Sold Out</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel (1.0 Mi) 
