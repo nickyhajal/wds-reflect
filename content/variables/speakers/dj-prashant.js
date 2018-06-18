@@ -1,7 +1,7 @@
 name: "DJ Prashant",
 year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/DJ.Prashant.WDS.2018.Speaker.jpg",
-photo: "dj.prashant.thumbnail.png",
+photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/dj.prashant.thumbnail.png",
 video: "",
 quote: "",
 ---
