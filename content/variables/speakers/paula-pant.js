@@ -5,8 +5,8 @@ photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.WDS.201
 video: "",
 quote: "",
 ---
-**Paula Pant** quit her 9-to-5 job, traveled to 35 countries, runs a business from her laptop and built a mini- real estate empire, which provides enough passive income to support her creative lifestyle. She's financially independent and spends her time traveling, writing, podcasting, creating videos, and raising funds for worldwide charity projects.
+**Paula Pant** quit her 9-to-5 job, traveled to 35 countries, runs a business from her laptop, and built a mini-real estate empire which provides enough passive income to support her creative lifestyle. She's financially independent and spends her time traveling, writing, podcasting, creating videos, and raising funds for worldwide charity projects.
 
-Today, Paula spends her time traveling, writing, podcasting, creating videos and raising funds for worldwide charities. She’s traveled to more than 35 countries. She’s been featured in hundreds of publications, including *Lifehacker, Mashable, Forbes, Fortune, US News, NPR,* and *Oprah.com*. 
+Today, Paula spends her time traveling, writing, podcasting, creating videos, and raising funds for worldwide charities. She’s traveled to more than 35 countries. She’s been featured in hundreds of publications, including *Lifehacker, Mashable, Forbes, Fortune, US News, NPR,* and *Oprah.com*. 
 
 She’s is the host of the award-winning **_Afford Anything_** podcast, which has been downloaded nearly 3 million times. You can find her instigating rebellion on her website and blog, [affordanything.com](https://affordanything.com). 
