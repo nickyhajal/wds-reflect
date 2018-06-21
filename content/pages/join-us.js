@@ -20,14 +20,12 @@ All that’s missing is YOU!
   
 <p>All-access WDS 360 tickets cost <b>$697</b> and are sold on a first-come, first-served basis.</p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
-<h2 style={{marginTop: '90px' }}>WDS 360 tickets are on sale now!</h2>
        
 A 360 ticket holder gets access to it all -- the WDS main-events and the Connect experience. 
-
-<Button to="be-there" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your 360 Ticket</Button>
-<h2 style={{marginTop: '60px' }}>Want a taste of the experience?</h2>
        
-Looking to meet other attendees and connect but not able to attend the full-experience? Consider getting a WDS Connect Ticket. 
+<h2 style={{marginTop: '30px' }}>Sorry! WDS 360 tickets are now gone.</h2>
+       
+Still looking to particpate in WDS and meet other attendees? Consider getting a WDS Connect Ticket. 
 
 <Button to="connect" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
   </Block>
