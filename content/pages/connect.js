@@ -125,13 +125,4 @@
  </Block>
    <div className="clear" />
 </Section>
-<Section color="green">
-  <Block cols="6" css={{ padding: '15px 0 20px' }}>
-   ## Want the Entire WDS Experience? Get a 360 Ticket!
-  <font color="white">A WDS 360 ticket gets you access to it all -- the main events + Connect.</font>
- <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="be-there" newWindow={true} styling="orange" fittotext>Get Your WDS 360 Ticket</Button>
- </Block>
-  </Block>
-</Section>
 <Import id="join-us" />
