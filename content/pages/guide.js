@@ -81,7 +81,7 @@
          <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #8: Check-in Info
         You're here - welcome to Portland! Learn what to do when you arrive to Portland (coming soon).  
-        <Button to="" newWindow={true} styling="blue" fitToText>Coming Soon</Button>     
+        <Button to="https://madmimi.com/p/cce26c/" newWindow={true} styling="blue" fitToText>Learn More</Button>     
         </Block>
           <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 9: Have an Amazing Experience

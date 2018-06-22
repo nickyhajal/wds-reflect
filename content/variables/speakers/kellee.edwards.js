@@ -1,5 +1,5 @@
 name: "Kellee Edwards",
-year: "",
+year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee.Edwards.WDS.2018.Speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee.Edwards.WDS.speaker.thumbnail.png",
 video: "",

@@ -110,6 +110,43 @@ Today, Paula spends her time traveling, writing, podcasting, creating videos and
 She’s is the host of the award-winning **_Afford Anything_** podcast, which has been downloaded nearly 3 million times. You can find her instigating rebellion on her website and blog, [affordanything.com](https://affordanything.com). 
       </Block>
     </Tab>
+ <Tab title="Prashant">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/DJ.Prashant.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## DJ Prashant
+
+**DJ Prashant** is one-of-a-kind Bollywood entertainer: a singer, choreographer, MC & DJ with one simple agenda—to make people dance non-stop to an irresistible blend of world’s greatest dance beats. Prashant’s effervescent personality & charisma instantly strikes a chord with audiences of all ages & backgrounds. Through his energetic performances, Prashant has moved masses across both coasts of America, Costa Rica, Panama & India.
+
+      </Block>
+    </Tab>  
+   <Tab title="Kellee">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee.Edwards.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Kellee Edwards
+
+       **Kellee Edwards** had big dreams but never imagined that she would become a Pilot, Scuba Diver, world traveler and the ultimate adrenaline junkie. She began her travels as a child, taking road trips with her parents. This definitely ignited her passion and curiosity for the next step, traveling internationally. 
+
+Exploring over 40 countries thus far, including parts of North and West Africa, Asia, South and Central America, Europe and the UAE, her love for travel has allowed Kellee to also take her enthusiasm for outdoor adventure globally. She is the Host of Mysterious Islands and the co-host of The Trip 2018 on Travel Channel. In addition to Travel Channel she is also the travel expert for FOX 5 San Diego's "Live for Travel" segment, writer and editor for _Pilot Getaways_ magazine and advocate for Women in Adventure Travel. 
+      </Block>
+    </Tab>
+    <Tab title="Cassie">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/cassie.de.pecol.WDS.2018.Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Cassie De Pecol
+
+**Cassie De Pecol** is the CEO of Expedition 196 LLC and the founder of Her International Inc., a nonprofit organization dedicated to funding female-driven projects that address the United Nations Sustainability Development Goals. Cassie holds two Guinness World Records, is recognized in the National Women’s History Museum, and has been invited to travel into space with Virgin Galactic. She is a keynote speaker, brand ambassador, Ironman athlete, author, and content creator who has helped to put sustainable travel on the map.
+
+      </Block>
+    </Tab> 
+        <Tab title="Lindsey">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/lindsey.murphey.WDS.2018.Speaker.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Lindsey Murphy
+
+**Lindsey Murphy** stars in and produces _Crazy Aunt Lindsey and The Fab Lab_, an amazing and fresh online web science series for children. Crazy Aunt Lindsey is bringing a fresh, exciting, and needed face to the world of STEM education. She looks at the world in a different way and always has something interesting in her cupboard, on her mind, up her sleeve — Imagination! Creation! Exploration!
+
+      </Block>
+    </Tab>    
   </Tabs>
   <div class="clear" />
 </Section>  
