@@ -23,12 +23,9 @@ All that’s missing is YOU!
        
 A 360 ticket holder gets access to it all -- the WDS main-events and the Connect experience. 
        
-<h2 style={{marginTop: '30px' }}>Sorry! WDS 360 tickets are now gone.</h2>
-       
-Still looking to particpate in WDS and meet other attendees? Consider getting a WDS Connect Ticket. 
-
-<Button to="connect" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px' }} fitToText>Get Your Connect Ticket</Button>
-  </Block>
+<h2 style={{marginTop: '30px' }}>Sorry we missed you! WDS 360 and Connect tickets are now gone.</h2>
+       See you in 2019? Here's a look at the fun we've got planned for this year. 
+         </Block>
 </Section>
 <Section color="canvas" bound={false}>
    <Block bleed={false} textAlign="center" margin="0px 0 80px">  
