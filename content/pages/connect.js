@@ -24,8 +24,7 @@
       <p style={{textAlign: 'center'}}>Connect tickets cost <b>$179</b> and are <i>non-refundable and non-transferrable.</i></p>
 <p style={{textAlign: 'center'}}><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
       
-<ConnectPurchaseButton style={{ fontSize: '22px', padding: '18px 100px', marginTop: '10px', marginBottom: '30px', marginLeft: 'auto', marginRight: 'auto' }}>Get Your Connect Ticket</ConnectPurchaseButton>
-
+ ## Sorry we missed you! WDS Connect tickets are no longer available. See you in 2019? 
     </Block>
   <Block margin="125px 0 50px 0">
     <Block cols="6">
