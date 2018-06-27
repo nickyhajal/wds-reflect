@@ -21,7 +21,7 @@
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
       Submit Your Story - Thanks and sorry we missed you!
     </h2>
-     <p>Submissions for WDS 2018 Attendee-stories has closed but that doesn't mean you should stop sharing your story with others at WDS.</b></p>
+     <p><b>Submissions for WDS 2018 Attendee-stories has closed</b> but that doesn't mean you should stop sharing your story with others at WDS.</p>
     {' '}
 
   </Block>
