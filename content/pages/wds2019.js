@@ -52,13 +52,6 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
   </PurchaseButton>
          </Block>
 </Section>
-<Section color="canvas" bound={false}>
-   <Block bleed={false} textAlign="center" margin="0px 0 80px">  
-## Choose Your Adventure: 360 or Connect
-     WDS 360 is the all-access pass. Connect is a social, interactive part of the WDS experience. 
-</Block>
-<ComparisonTable/>
-       </Section>
        <Section color="sea" bound={false}>
 <Block margin="50px 0 50px 0">
   ## What's Included in My WDS 360 Ticket
