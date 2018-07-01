@@ -20,7 +20,6 @@ preload
 For 2019, we are returning to the beautiful and intimate Newmark Theater, bringing back the WDS Connect experience, and as always, we'll have a few suprises for our time together. All that’s missing is YOU!
   
 <p>All-access 2019 360 tickets for Alumni cost <b>$597</b>, and for a limited time, you can get tickets for both 2019 <i>and</i> 2020 for <b>$997</b>! These are sold on a first-come, first-served basis, and ticket purchases at these rates are limited to three discounted tickets for next year’s event (login required). This special offer is only available to WDS 2018 attendees, and expires at <b>midnight PDT on Monday, July 2.</b></p>
-</p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
        
 A 360 ticket holder gets access to it all -- the WDS main-events and the Connect experience. 
@@ -75,4 +74,4 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
   </Grid>
 </Block>
 </Section>
-<Import id="join-us" />
+
