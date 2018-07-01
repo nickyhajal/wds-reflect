@@ -24,6 +24,34 @@ For 2019, we are returning to the beautiful and intimate Newmark Theater, bringi
        
 A 360 ticket holder gets access to it all -- the WDS main-events and the Connect experience. Get your tickets before they sell out! 
        
+       <PurchaseButton
+    code="wdsDouble"
+    product="WDS 2019 & 2020"
+    price="99700"
+    fee="1000"
+    allowedQuantity={3}
+    redirect="assign"
+    description=""
+    to="be-there"
+    style={style}
+    fitToText
+  >
+    WDS 2019 & 2020
+  </PurchaseButton>
+       <PurchaseButton
+    code="wds2019"
+    product="WDS 2019"
+    price="59700"
+    fee="1000"
+    allowedQuantity={3}
+    redirect="assign"
+    description=""
+    to="be-there"
+    style={style}
+    fitToText
+  >
+    WDS 2019 & 2020
+  </PurchaseButton>
          </Block>
 </Section>
 <Section color="canvas" bound={false}>
