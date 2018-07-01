@@ -33,7 +33,6 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
     redirect="assign"
     description=""
     to="be-there"
-    style={style}
     fitToText
   >
     WDS 2019 & 2020
@@ -47,10 +46,9 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
     redirect="assign"
     description=""
     to="be-there"
-    style={style}
     fitToText
   >
-    WDS 2019 & 2020
+    WDS 2019
   </PurchaseButton>
          </Block>
 </Section>
