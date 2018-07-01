@@ -33,14 +33,16 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
     redirect="assign"
     description=""
     to="be-there"
+       style={{marginBottom: '12px', width:'100%'}}
     fitToText
   >
-    WDS 2019 & 2020
+    Get Your Ticket to WDS 2019 & 2020
   </PurchaseButton>
        <PurchaseButton
     code="wds2019"
     product="WDS 2019"
     price="59700"
+              style={{marginBottom: '12px', width:'100%'}}
     fee="1000"
     allowedQuantity={3}
     redirect="assign"
@@ -48,7 +50,7 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
     to="be-there"
     fitToText
   >
-    WDS 2019
+    Get Your Ticket to WDS 2019
   </PurchaseButton>
          </Block>
 </Section>
