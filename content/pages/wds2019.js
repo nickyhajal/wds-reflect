@@ -9,8 +9,8 @@ preload
 <Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
   <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019 & 2020</h2><p></p>
-    ## World Domination Summit 2019: June 27 - July 1, 2019
-    ## World Domination Summit 2020: June 25 - 29, 2020
+    ## WDS 2019: June 27 - July 1, 2019
+    ## WDS 2020: June 25 - 29, 2020
 
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
