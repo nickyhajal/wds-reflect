@@ -30,7 +30,9 @@
     padding: 16px 0;
   }
 }
-.content {}
+.content {
+  white-space: pre-line;
+}
 .contentShell {
   margin-left: 105px;
   @media(--phone) {
@@ -112,7 +114,7 @@
 
 .commentShell {
   margin-top: 20px;
-  
+
   .commentPostShell {
     width: 492px;
     float: right;
