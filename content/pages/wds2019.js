@@ -8,10 +8,8 @@ preload
 >
 <Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
-  <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019 & 2020</h2><p></p>
+  <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019</h2><p></p>
     ## WDS 2019: June 27 - July 1, 2019
-    ## WDS 2020: June 25 - 29, 2020
-
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
@@ -19,28 +17,17 @@ preload
 
 For 2019, we are returning to the beautiful and intimate Newmark Theater, bringing back the WDS Connect experience, and as always, we'll have a few suprises for our time together. All that’s missing is YOU!
   
-<p>All-access 2019 360 tickets for Alumni cost <b>$597</b>, and for a limited time, you can get tickets for both 2019 <i>and</i> 2020 for <b>$997</b>! These are sold on a first-come, first-served basis, and ticket purchases at these rates are limited to three discounted tickets for next year’s event (login required). This special offer is only available to WDS 2018 attendees, and expires at <b>midnight PDT on Monday, July 2.</b></p>
+<p>All-access 2019 360 tickets for Alumni cost <b>$597</b>! These are sold on a first-come, first-served basis, and ticket purchases at these rates are limited to three discounted tickets for next year’s event (login required). This special offer is only available to WDS 2018 attendees, and expires at <b>midnight PDT on Monday, July 2.</b></p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
        
 A 360 ticket holder gets access to it all -- the WDS main-events and the Connect experience. Get your tickets before they sell out! 
        
-       <PurchaseButton
-    code="wdsDouble"
-    product="WDS 2019 & 2020"
-    price="99700"
-    fee="1000"
-    allowedQuantity={3}
-    redirect="assign"
-    description=""
-    to="be-there"
-    fitToText
-  >
-    WDS 2019 & 2020
-  </PurchaseButton>
+
        <PurchaseButton
     code="wds2019"
     product="WDS 2019"
     price="59700"
+              style={{marginBottom: '12px', width:'100%'}}
     fee="1000"
     allowedQuantity={3}
     redirect="assign"
@@ -48,7 +35,7 @@ A 360 ticket holder gets access to it all -- the WDS main-events and the Connect
     to="be-there"
     fitToText
   >
-    WDS 2019
+    Get Your Ticket to WDS 2019
   </PurchaseButton>
          </Block>
 </Section>
