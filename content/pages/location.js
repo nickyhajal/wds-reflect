@@ -33,12 +33,12 @@
   <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Your Base in Portland
-    Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers.  For 2018 we'll be based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. 
+    Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. WDS is based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. 
   </Block>
     
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
     <Block width="100%">
-      ## WDS 2018 Homebase
+      ## Welcome to Portland
     </Block>
     <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
       <PDXLocationMap
@@ -90,28 +90,24 @@
       ## WDS Hotel™
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
-        <Button to="" newWindow={true} fitToText>Sold Out!</Button> 
     </Block>
 
     <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-     <Button to="https://reservations.travelclick.com/104209?groupID=2133448" newWindow={true} fitToText>Last Call!</Button>
  </Block>
 
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
       ## Hotel Modera
       A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. 
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/mAa6guqWiJt">(Google Directions)</Link></p> 
-       <Button to="" newWindow={true} fitToText>Sold Out!</Button>
 </Block>
 
   <Block type="image" src="photos/Hotel-Rose-Portland.jpg">
       ## Hotel Rose
       Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! 
       <p>0.5 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
- <Button to="" newWindow={true} fitToText>Sold Out!</Button>
 </Block>
 
   </Grid>
@@ -124,15 +120,12 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
       ### Portland State (0.6 Mi)
-      <Link to="">Sold Out</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel (1.0 Mi) 
-      <Link to="http://nwportlandhostel.com/">Book Now</Link>
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb near WDS
-      <Link to="https://goo.gl/31txZZ">Book Now</Link>
     </Block>
   </Grid>
   </Block>
