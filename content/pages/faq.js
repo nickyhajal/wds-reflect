@@ -11,28 +11,30 @@
     The weekend consists of three primary activities: main-stage events with keynote speakers that are attended by the entire group, workshops that focus on specific topics, and lots of meetups, parties, and informal engagement. Despite the large number of people who attend, WDS is introvert-friendly, and everyone who participates is a big part of the event.
     <p>WDS was founded by <Link to="http://chrisguillebeau.com" target="blank">Chris Guillebeau</Link>, explorer of the world and <i>New York Times</i> bestselling author of <i>The $100 Startup</i>.</p>
 
-    ### What's the difference between WDS 360 and Connect tickets?
+   ### When is the next WDS? 
+      
+   WDS 2019 will take place from June 25th until July 1st, 2019. The main events takes place over the WDS weekend, June 28th to June 30th.  
+      
+   ### What's the difference between WDS 360 and Connect tickets?
 
-    <p>WDS 360 is the all-access pass. Connect is a social, interactive part of the WDS experience.</p>
+    <p>WDS 360 is the all-access pass which includes the main events (opening and closing parties, and main stage sessions) plus all Connect events and activities. Connect is a social, interactive part of the WDS experience.</p>
       
     ### How can I get a WDS ticket?
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
-<p><b>Tickets for WDS 2018 are available NOW!</b> Go to the following links to get your <Link to="https://worlddominationsummit.com/join-us">WDS 360 ticket</Link> or <Link to="https://worlddominationsummit.com/connect">Connect ticket.</Link></p>
+<p><b>Tickets for WDS 2019 will be available later this year!</b> Join the waitlist to be the first to know when they go live <Link to="http://madmimi.com/signups/aea67a30548f4ac1a00b9e5b1f15efa3/join">WDS 2019 wait list</Link></p>
 
-### I bought a ticket, what do I do next? 
+### I've purchased a WDS ticket, what do I do next? 
 
-<p>Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2018 emails, please contact our concierge team at concierge@wds.fm and they will be able to assist you.</p>
+<p>Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2019 emails, please contact our concierge team at concierge@wds.fm and they will be able to assist you.</p>
 
 ### What is the refund/cancellation policy for WDS tickets?
-    <p>All WDS tickets are <b>non-refundable and cannot be moved to a future year.</b> Only WDS 360 tickets can be transferred to another person for a fee up until May 15th. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p> 
+    <p>All WDS tickets are <b>non-refundable and cannot be moved to a future year.</b> Only WDS 360 tickets can be transferred to another person for a fee up until May 17th. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p> 
 
     ### How can I transfer a WDS 360 ticket?
-    
-    <p><b>The deadline to transfer a ticket to another person passed (May 16, 2018). No additional name changes or transfers are permitted.</b> The following information is for reference purposes only.</p>
 
-<p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 15th (6 weeks prior to WDS). Starting <b>May 16th, 2018</b>, no further transfers or name changes will be possible.</p>
+<p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 17th (6 weeks prior to WDS). Starting <b>May 18th, 2019</b>, no further transfers or name changes will be possible.</p>
     
     <p>To transfer your 360 ticket please email our concierge team at concierge@wds.fm for your unique transfer link.</p>
 
@@ -47,7 +49,7 @@
     <p>WDS is a sponsor-free, non-commercial gathering. We do not accept advertising or sponsored products.</p>
 
     ### Can I be a volunteer?
-    <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must live in Portland at least most of the year (or have extensive knowledge of the city) and you must be available during the entire weekend for WDS main-events. Special consideration is given to those that are available for the entire week of WDS. Applications are typically available 3-4 months prior to WDS. When applications become available, Chris will make an announcement on his <Link to="http://chrisguillebeau.com/">blog</Link> and through <Link to="https://twitter.com/chrisguillebeau">Twitter.</Link></p> 
+    <p>Every year we recruit a number of volunteer "ambassadors" to serve our attendees during WDS. To apply for this role, you must be a champion in helping attendees have an amazing experience, have extensive knowledge of Portland, and be available during the entire weekend for WDS main-events. Special consideration is given to those that are available for the entire week of WDS. Applications are typically available 3-4 months prior to WDS. Email our team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> to get notified when applications become available.</p> 
    
    ### Still have additional questions?
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
