@@ -8,23 +8,23 @@ preload
 >
 <Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
-  <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2018</h2><p></p>
-    ## June 26 - July 2, 2018 in Portland, Oregon
+  <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019</h2><p></p>
+    ## June 25 - July 1, 2018 in Portland, Oregon
 
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-For 2018 we are returning to the beautiful and intimate Newmark Theater, bringing back the WDS Connect experience, and as always, we'll have a few suprises for our time together.
+Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue a big dream. 
 
-All that’s missing is YOU!
+With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.
   
-<p>All-access WDS 360 tickets cost <b>$697</b> and are sold on a first-come, first-served basis.</p>
-<p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
-       
-A 360 ticket holder gets access to it all -- the WDS main-events and the Connect experience. 
-       
-<h2 style={{marginTop: '30px' }}>Sorry we missed you! WDS 360 and Connect tickets are now gone.</h2>
-       See you in 2019? Here's a look at the fun we've got planned for this year. 
+For 2019 we'll return to the beautiful and intimate Newmark Theater, host a week full of fun and engaging activities, and as always, have a few suprises for our time together.  
+
+Whether you decide to join us for the week of social and interactive acitivies that make up "WDS Connect" or plan to partake in the entire experience, "WDS 360" (main stage + connect) -- all that’s missing is YOU! 
+  
+ <p><b>To be notified when 360 and Connect tickets go back on sale for 2019 use the button below:**</b></p> 
+    
+    <Button modal="joinUs" fitToText>Join the Wait List!</Button>            
          </Block>
 </Section>
 <Section color="canvas" bound={false}>
