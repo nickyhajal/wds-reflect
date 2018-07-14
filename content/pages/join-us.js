@@ -14,15 +14,11 @@ preload
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-Since 2011, WDS has brought together more than 10,000 people from more than forty countries. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue a big dream. 
+Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams. 
 
-With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.
+<p>Whether you decide to join us for the social acitivies that make up "WDS Connect" week or want the entire experience, "WDS 360" (main stage + connect) -- all that’s missing is <i>YOU</i>!</p>  
   
-For 2019 we'll return to the beautiful and intimate Newmark Theater, host a week full of fun and engaging activities, and as always, have a few suprises for our time together.  
-
-Whether you decide to join us for the week of social and interactive acitivies that make up "WDS Connect" or plan to partake in the entire experience, "WDS 360" (main stage + connect) -- all that’s missing is YOU! 
-  
- <p><b>To be notified when 360 and Connect tickets go back on sale for 2019 use the button below:**</b></p> 
+ <p><b>To be notified when 360 and Connect tickets go on sale use the button below:**</b></p> 
     
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>            
          </Block>
