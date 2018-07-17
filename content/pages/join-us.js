@@ -9,14 +9,14 @@ preload
 <Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
   <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019</h2><p></p>
-    ## June 25 - July 1, 2018 in Portland, Oregon
+    ## June 25 - July 1, 2019 in Portland, Oregon
 
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
 Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams. 
 
-<p>Whether you decide to join us for the social acitivies that make up "WDS Connect" week or want the entire experience, "WDS 360" (main stage + connect) -- all that’s missing is <i>YOU</i>!</p>  
+<p>Whether you decide to join us for the social acitivies that make up <b>WDS Connect</b> or want the entire experience, <b>WDS 360</b> (main stage + connect) -- <i>all that’s missing is YOU!</i></p>  
   
  <p><b>To be notified when 360 and Connect tickets go on sale use the button below:**</b></p> 
     
@@ -26,7 +26,7 @@ Since 2011, WDS has brought together more than 10,000 people from more than fort
 <Section color="canvas" bound={false}>
    <Block bleed={false} textAlign="center" margin="0px 0 80px">  
 ## Choose Your Adventure: 360 or Connect
-     WDS 360 is the all-access pass. Connect is a social, interactive part of the WDS experience. 
+     WDS 360 is the all-access pass. Connect is a social, interactive part of the WDS experience. Choose the adventure type that best fits your needs.
 </Block>
 <ComparisonTable/>
        </Section>
