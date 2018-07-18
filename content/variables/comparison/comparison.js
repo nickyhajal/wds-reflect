@@ -8,7 +8,7 @@
     "for": "all"
   },
   {
-    "text": "Hotel Partner Discounts",
+    "text": "Hotel partner discounts",
     "for": "all"
   },
   {
@@ -24,7 +24,7 @@
     "for": "all"
   },
   {
-    "text": "Exclusive 2018 swag and shirt",
+    "text": "Exclusive 2019 swag and shirt",
     "for": "360"
   },
   {
