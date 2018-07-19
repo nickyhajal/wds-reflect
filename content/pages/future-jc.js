@@ -75,7 +75,7 @@ I look forward to celebrating with you in 2019, 2020, and beyond.
 
 To _Community, Adventure,_ and _Service_,
 
-<Image src="future/cg.png" width="100%" height="52" />
+<Image src="future/cg.png" width="15%" height="52" />
 
 Chris Guillebeau
  </Block>
