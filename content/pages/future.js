@@ -26,7 +26,7 @@ We've broken world records, learned to Bollywood dance, faced our fears, found t
     
     {' '}
     
-    <Image src="future/WDS-Pins.jpg" width="100%" height="541" />
+    <Image src="future/WDS-Pins.jpg" width="100%" height="541" /><br/>
 
    At this year's event, we announced that we'll produce **two more years of our epic annual gathering.** Next year is WDS 2019, and then WDS 2020 will be our 10-year grand finale.
 
@@ -63,7 +63,7 @@ Rather than just say "It's over," we wanted people to be able to prepare for the
 
 <Image src="future/WDS-2015-Waffles-1.jpg" width="100%" height="541" />
   
-<Image src="future/WDS-2018-opening-party.jpg" width="100%" height="541" />
+<Image src="future/WDS-2018-opening-party.jpg" width="100%" height="541" /><br/>
   
 **Is WDS being sold?**
 
@@ -77,7 +77,7 @@ We're not sure! Two years is a long time. :) There's no secret plan and we want 
   
 If WDS has meant something to you in the past, please plan to return at least one of the years. As a previous attendee, you know that everyone at the event is a big part of everything. We need you!
  
- <Image src="future/2015-Closing-Party-1.jpg" width="100%" height="541" />
+ <Image src="future/2015-Closing-Party-1.jpg" width="100%" height="541" /><br/>
   
 WDS was never just about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come.
 
