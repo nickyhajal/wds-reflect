@@ -34,7 +34,7 @@ Naturally, not everyone was in attendance at this year's event—so I wanted to 
 
 First up, if you missed the announcement or just want to see it again, watch this short video:
   </Block>
-<Video placeholder="photos/WDS-2018-main.jpg" videoId="184868405" cols="8" /> 
+<Video placeholder="photos/WDS-2018-main.jpg" videoId="282373496" cols="8" /> 
    <Block
     cols="8"
     bleed={false}
