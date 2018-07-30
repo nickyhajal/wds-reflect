@@ -20,7 +20,7 @@ Dear WDS Community,
 
 I'm humbled and filled with gratitude when I reflect on all of things we've created and shared together since our first gathering in 2011.
 
-Over the years our community has grown to **over 10,000 adventurers representing all 50 states and over 40+ countries**.
+Over the years, our community has grown to **over 10,000 adventurers representing all 50 states and over 40+ countries**.
 
 We've broken world records, learned to Bollywood dance, faced our fears, found true connection, challenged conventionality, and supported each other's dreams.
     
@@ -32,7 +32,7 @@ We've broken world records, learned to Bollywood dance, faced our fears, found t
 
 Naturally, not everyone was in attendance at this year's event—so I wanted to explain a bit more about this decision to our entire community.
 
-First up, if you missed the announcement or just want to see it again, watch this short video:
+First up, if you missed the announcement or just want to see it again, watch this 7-minute video (below). It also includes some special highlights from this year:
   </Block>
 <Video placeholder="photos/WDS-2018-main.jpg" videoId="282373496" cols="8" /> 
    <Block
@@ -75,7 +75,7 @@ We're not sure! Two years is a long time. :) There's no secret plan and we want 
 
 **How can I get involved with the final two years?**  
   
-If WDS has meant something to you in the past, please plan to return at least one of the years. As a previous attendee, you know that everyone at the event is a big part of everything. We need you!
+If WDS has meant something to you in the past, *please plan to return at least one of the years*. As a previous attendee, you know that everyone at the event is a big part of everything. We need you!
  
  <Image src="future/2015-Closing-Party-1.jpg" width="100%" height="541" /><br/>
   
