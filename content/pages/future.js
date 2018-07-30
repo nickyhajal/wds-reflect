@@ -65,9 +65,8 @@ Rather than just say "It's over," we wanted people to be able to prepare for the
   
 <Image src="future/WDS-2018-opening-party.jpg" width="100%" height="541" />
   
-**Is WDS being sold?**
-  
-  Nope. It's not being sold and it's not for sale. For our final two years, we'll continue to operate on the same model we've had from the beginning: all profits go to the WDS Foundation, a 501(c)(3). The Foundation will then continue to operate until all its distributions have been made.
+ <p><b>Is WDS being sold?</b></p>
+Nope. It's not being sold and it's not for sale. For our final two years, we'll continue to operate on the same model we've had from the beginning: all profits go to the WDS Foundation, a 501(c)(3). The Foundation will then continue to operate until all its distributions have been made.
 
 **What happens next?**  
   
