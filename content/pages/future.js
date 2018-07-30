@@ -47,7 +47,9 @@ First up, if you missed the announcement or just want to see it again, watch thi
   >
 Second, here are some answers to questions we've been asked recently:
 
-**Why is WDS ending?**  Nothing lasts forever. When we started WDS, there wasn't anything like it. Almost every other conference or event was overrun with sponsor logos. Speakers pitched their products from the stage. Swag bags contained junk items that most attendees immediately discarded.
+**Why is WDS ending?**  <p></p>
+
+Nothing lasts forever. When we started WDS, there wasn't anything like it. Almost every other conference or event was overrun with sponsor logos. Speakers pitched their products from the stage. Swag bags contained junk items that most attendees immediately discarded.
 
 We wanted to make something different, and we succeeded. Now, there are numerous conferences and events that contain elements of the WDS "DNA" in different forms.
 
@@ -61,6 +63,8 @@ Rather than just say "It's over," we wanted people to be able to prepare for the
   
 <Image src="future/WDS-2018-opening-party.jpg" width="100%" height="541" />
 
+  <p></p>
+  
 **Is WDS being sold?**  Nope. It's not being sold and it's not for sale. For our final two years, we'll continue to operate on the same model we've had from the beginning: all profits go to the WDS Foundation, a 501(c)(3). The Foundation will then continue to operate until all its distributions have been made.
 
 **What happens next?**  We're not sure! Two years is a long time. :) There's no secret plan and we want to focus on putting together a fantastic experience for 2019 and 2020.
@@ -71,7 +75,7 @@ Rather than just say "It's over," we wanted people to be able to prepare for the
   
   <p></p>
 
-WDS was never just about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come.
+WDS was never just about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come. <p></p>
 
 I look forward to celebrating with you in 2019, 2020, and beyond.
 
