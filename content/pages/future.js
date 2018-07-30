@@ -68,8 +68,10 @@ Rather than just say "It's over," we wanted people to be able to prepare for the
 **How can I get involved with the final two years?**  If WDS has meant something to you in the past, please plan to return at least one of the years. As a previous attendee, you know that everyone at the event is a big part of everything. We need you!
  
  <Image src="future/2015-Closing-Party-1.jpg" width="100%" height="541" />
+  
+  <p></p>
 
-WDS was never about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come.
+WDS was never just about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come.
 
 I look forward to celebrating with you in 2019, 2020, and beyond.
 
