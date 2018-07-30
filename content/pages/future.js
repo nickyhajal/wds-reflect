@@ -20,7 +20,7 @@ Dear WDS Community,
 
 I'm humbled and filled with gratitude when I reflect on all of things we've created and shared together since our first gathering in 2011.
 
-Over the years our community has grown to over 10,000 adventurers representing all 50 states and over 40+ countries.
+Over the years our community has grown to <strong>over 10,000 adventurers representing all 50 states and over 40+ countries</strong>.
 
 We've broken world records, learned to Bollywood dance, faced our fears, found true connection, challenged conventionality, and supported each other's dreams.
     
