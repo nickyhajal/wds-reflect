@@ -64,16 +64,14 @@ Rather than just say "It's over," we wanted people to be able to prepare for the
 <Image src="future/WDS-2015-Waffles-1.jpg" width="100%" height="541" />
   
 <Image src="future/WDS-2018-opening-party.jpg" width="100%" height="541" />
-
-  <p></p>
   
-**Is WDS being sold?**  
+**Is WDS being sold?**
   
- Nope. It's not being sold and it's not for sale. For our final two years, we'll continue to operate on the same model we've had from the beginning: all profits go to the WDS Foundation, a 501(c)(3). The Foundation will then continue to operate until all its distributions have been made.
+  Nope. It's not being sold and it's not for sale. For our final two years, we'll continue to operate on the same model we've had from the beginning: all profits go to the WDS Foundation, a 501(c)(3). The Foundation will then continue to operate until all its distributions have been made.
 
 **What happens next?**  
   
- We're not sure! Two years is a long time. :) There's no secret plan and we want to focus on putting together a fantastic experience for 2019 and 2020.
+  We're not sure! Two years is a long time. :) There's no secret plan and we want to focus on putting together a fantastic experience for 2019 and 2020.
 
 **How can I get involved with the final two years?**  
   
