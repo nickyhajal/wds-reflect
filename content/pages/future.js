@@ -79,9 +79,7 @@ Rather than just say "It's over," we wanted people to be able to prepare for the
  
  <Image src="future/2015-Closing-Party-1.jpg" width="100%" height="541" />
   
-  <p></p>
-
-WDS was never just about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come. <p></p>
+WDS was never just about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come.
 
 I look forward to celebrating with you in 2019, 2020, and beyond.
 
