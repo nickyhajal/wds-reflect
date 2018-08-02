@@ -12,8 +12,8 @@
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2018:</h2>
-    ## June 26 - July 2, 2018 in Portland, Oregon
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019:</h2>
+    ## June 25 - July 1, 2019 in Portland, Oregon
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
@@ -21,7 +21,7 @@
 
     With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.
     
-    We’re doing it again in 2018, and all that’s missing is YOU!
+    We’re doing it again in 2019, and all that’s missing is YOU!
   </Block>
 </Section>
 <Section color="green" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
@@ -111,7 +111,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
      </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>
-      Attendee-led meetups have been a staple of WDS since our first year. In 2018, they're back and better than ever!
+      Attendee-led meetups have been a staple of WDS since our first year. In 2019, they're back and better than ever!
       Each day, there will be time set aside for attendees to host these informal meetups, and on any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.
       Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    
       And if you have your own audience, you can host a meetup too. (Our dedicated attendee web app will tell you where each meetup is being held.)
