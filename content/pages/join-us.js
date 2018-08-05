@@ -16,7 +16,7 @@ preload
 
 Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams. 
 
-<p>Whether you decide to join us for the social acitivies that make up <b>WDS Connect</b> or want the entire experience, <b>WDS 360</b> (main stage + connect) -- <i>all that’s missing is YOU!</i></p>  
+<p>Whether you decide to join us for the social activities that make up <b>WDS Connect</b> or want the entire experience, <b>WDS 360</b> (main stage + connect) -- <i>all that’s missing is YOU!</i></p>  
   
  <p><b>To be notified when 360 and Connect tickets go on sale use the button below:**</b></p> 
     
