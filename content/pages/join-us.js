@@ -14,22 +14,13 @@ preload
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams. 
-
-<p>Whether you decide to join us for the social activities that make up <b>WDS Connect</b> or want the entire experience, <b>WDS 360</b> (main stage + connect) -- <i>all that’s missing is YOU!</i></p>  
+<p>Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams. <i>All that’s missing is YOU!</i></p>  
   
- <p><b>To be notified when 360 and Connect tickets go on sale use the button below:**</b></p> 
+ <p><b>To be notified when WDS 360 tickets go on sale use the button below:**</b></p> 
     
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>            
          </Block>
 </Section>
-<Section color="canvas" bound={false}>
-   <Block bleed={false} textAlign="center" margin="0px 0 80px">  
-## Choose Your Adventure: 360 or Connect
-     WDS 360 is the all-access pass. Connect is a social, interactive part of the WDS experience. Choose the adventure type that best fits your needs.
-</Block>
-<ComparisonTable/>
-       </Section>
        <Section color="sea" bound={false}>
 <Block margin="50px 0 50px 0">
   ## What's Included in My WDS 360 Ticket
