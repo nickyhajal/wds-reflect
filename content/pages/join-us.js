@@ -14,9 +14,14 @@ preload
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-<p>Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams. <i>All that’s missing is YOU!</i></p>  
+<p>Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams.</p>  
   
- <p><b>To be notified when WDS 360 tickets go on sale use the button below:**</b></p> 
+ <p><i>All that’s missing is YOU!</i></p>  
+
+<p>All-access WDS 360 tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
+<p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
+  
+ <p><b>To be notified when WDS 360 tickets go on sale next use the button below:</b></p> 
     
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>            
          </Block>
