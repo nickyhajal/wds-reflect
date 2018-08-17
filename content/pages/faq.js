@@ -15,10 +15,6 @@
       
    WDS 2019 will take place from June 25th until July 1st, 2019. The main events takes place over the WDS weekend, June 28th to June 30th.  
       
-   ### What's the difference between WDS 360 and Connect tickets?
-
-    <p>WDS 360 is the all-access pass which includes the main events (opening and closing parties, and main stage sessions) plus all Connect events and activities. Connect is a social, interactive part of the WDS experience.</p>
-      
     ### How can I get a WDS ticket?
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
@@ -27,22 +23,22 @@
 
 ### I've purchased a WDS ticket, what do I do next? 
 
-<p>Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2019 emails, please contact our concierge team at concierge@wds.fm and they will be able to assist you.</p>
+<p>Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2019 emails, please contact our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they will be able to assist you.</p>
 
 ### What is the refund/cancellation policy for WDS tickets?
-    <p>All WDS tickets are <b>non-refundable and cannot be moved to a future year.</b> Only WDS 360 tickets can be transferred to another person for a fee up until May 17th. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p> 
+    <p>All WDS tickets are <b>non-refundable and cannot be moved to a future year.</b></p> 
 
-    ### How can I transfer a WDS 360 ticket?
+    ### Can I transfer a WDS 360 ticket?
 
-<p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 17th (6 weeks prior to WDS). Starting <b>May 18th, 2019</b>, no further transfers or name changes will be possible.</p>
+<p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 17th (6 weeks prior to WDS). Starting <b>May 18th, 2019</b>, no further transfers or name changes will be possible. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p>
     
-    <p>To transfer your 360 ticket please email our concierge team at concierge@wds.fm for your unique transfer link.</p>
+    <p>To transfer your 360 ticket please email our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for your unique transfer link.</p>
 
  <p><i>*All WDS tickets are assigned to a specific person using a unique name and email -- this is required for attendance. This process takes place when a ticket is initially purchased (or by a specific date for early-bird ticket purchasers). Transferring a ticket and assigning a ticket are two different processes. Only assigned tickets can be transferred.</i></p>
        
     ### Can I nominate myself or someone I represent to be a speaker?
 
-   <p>We're sure that you or your client would be great! But we do not accept nominations for speakers. Everyone who attends WDS is a big part of everything. Current year speakers are nominated by alumni speakers from previous years.</p>
+   <p>We're sure that you or your client would be great but we do not accept nominations for speakers. Everyone who attends WDS is a big part of everything. Current year speakers are nominated by alumni speakers from previous years.</p>
 
     ### Can I sponsor WDS or donate something for your attendees?
 
