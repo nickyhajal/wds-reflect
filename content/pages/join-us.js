@@ -18,7 +18,7 @@ preload
   
  <p><i>All that’s missing is YOU!</i></p>  
 
-<p>All-access WDS 360 tickets cost <b>$647</b> and are sold on a first-come, first-served basis.</p>
+<p>The first round of all-access WDS 360 tickets are <b>$647</b> per ticket (<b><s>$697</s></b> regular price) and are sold on a first-come, first-served basis.</p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
   
  <p><b>To be notified when WDS 360 tickets go on sale next use the button below:</b></p> 
