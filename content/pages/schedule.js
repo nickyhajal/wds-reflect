@@ -9,10 +9,8 @@
   <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
 <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## How the WDS Schedule Works
-    As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS 360 ticket](https://worlddominationsummit.com/join-us) gives you access to it all; the main events and Connect plus special discounts, bonuses, and surprises.  
-      
-      *Looking to participate in most of the activities but not main-stage sessions? Join us for [WDS Connect](https://worlddominationsummit.com/connect).*
-  </Block>
+    As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS 360 ticket](https://worlddominationsummit.com/join-us) gives you access to it all; the main events plus special discounts, bonuses, and surprises.  
+        </Block>
  <Image src="photos/audience.png"
     width="426" height="263"
     margin="0 0 -100px -50px"
@@ -20,10 +18,10 @@
     preload
   />
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
-    ## A Week of WDS: June 26th - July 2nd, 2018
+    ## A Week of WDS: June 25th - July 1st, 2019
 
     - **Tuesday** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday** Small Group Activities and Attendee-Led Meetups
+    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups
     - **Thursday** Academies, Small Group Activities, and Attendee-Led Meetups
     <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Attendee-Led Meetups, and the Opening Party</li>
     <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
@@ -39,7 +37,7 @@
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
     
-    Meet our WDS 2018 speakers _(additional speakers to be announced soon)_:
+    Check out our speakers from this past WDS 2018:
 
   </Block>
   <Tabs style="dots">
