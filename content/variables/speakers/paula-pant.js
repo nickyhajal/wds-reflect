@@ -2,7 +2,7 @@ name: "Paula Pant",
 year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Paula-Pant-WDS-2018-Main-Stage-Speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.WDS.2018.Thumbnail.Speaker.png",
-video: "https://vimeo.com/285749014",
+video: "https://vimeo.com/285749014/e41c37cbe1",
 quote: "If you are a creator, your job is to create. Your job is not to tell other people how to recieve your creations. Your job is simply to make something amazing, release it into the world, and then get out of the way.",
 ---
 **Paula Pant** quit her 9-to-5 job, traveled to 35 countries, runs a business from her laptop, and built a mini-real estate empire which provides enough passive income to support her creative lifestyle. She's financially independent and spends her time traveling, writing, podcasting, creating videos, and raising funds for worldwide charity projects.
