@@ -33,7 +33,7 @@
   <div className="clear" />
 </Section>
   <Section color="canvas">
-  <Block>## Speakers and Special Guests for WDS 2018</Block>
+  <Block>## Speakers and Special Guests From WDS 2018</Block>
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
     
