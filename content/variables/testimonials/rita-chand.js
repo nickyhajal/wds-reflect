@@ -1,4 +1,4 @@
 name: "Rita Chand",
 content: "The first time I attended WDS, I did so because a friend called me and said, \"Rita, you have to go to this thing.\" So I bought a ticket. Best. Thing. Ever. People are always talking about \"finding their tribe\" and I never fully understood what that meant until I attended my first event in 2012. These are definitely my people. My friends. My cheerleaders. My wind. WDS has changed my life, by not only bringing so many amazing, world do-gooders into my world, but also by making it so that no matter what I do, or say or declare, my fellow WDSers have my back. It's the only place I can go and feel like a superhero 24/7. It's uncommon to have a world that believes in you as much as WDS folks believe in each other. We help make each other's dreams come true. I am grateful to have found them.",
 link: "",
-photo: "https://goo.gl/fFQoim"
+photo: "https://pbs.twimg.com/profile_images/1029586408539742208/uDb-oTeI_400x400.jpg"
