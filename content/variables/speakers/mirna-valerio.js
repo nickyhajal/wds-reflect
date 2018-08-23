@@ -1,6 +1,6 @@
 name: "Mirna Valerio",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna-Valerio-WDS-2018-Main-Stage.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna-Valerio-WDS-2018-Main-Stage-Speakers.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna.WDS.speaker.thumbnail.png",
 video: "",
 quote: "",
