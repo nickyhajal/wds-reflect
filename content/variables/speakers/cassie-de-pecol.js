@@ -2,7 +2,7 @@ name: "Cassie De Pecol",
 year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Cassie-De-Pecol-WDS-2018-Main-Stage-Speakers.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/cassie.thumbnail.png",
-video: "https://vimeo.com/286289258/3d9d2e3468",
+video: "https://vimeo.com/286289258",
 quote: "Step outside yourself and away from the ordinary and experience something that is completely new, out of your comfort zone, and a little bit scary. Then follow your mission through that, use that to create a mission for yourself, and then leave a positive legacy behind.",
 ---
 At the WDS 2015 main stage, Cassie launched Expedition 196 - her quest to be the first documented woman to travel to every country in the world.
