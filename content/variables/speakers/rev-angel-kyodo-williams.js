@@ -9,4 +9,4 @@ quote: "As people who want to commit themselves to ‘world domination,’ it is
 
 Her 27 Days of Change online program and 3rd Way Leadership supports changemakers worldwide. Her work has been widely covered, including in *The New York Times*, *Boston Globe*, *Ms.*, and *Essence*.  Her newest book collaboration, *Radical Dharma: Talking Race, Love, and Liberation* was released on Juneteenth—a day that symbolizes and holds forth the promise of Black Liberation—of this year. Rev. angel notes, "Love and Justice are not two. Without inner change, there can be no outer change. Without collective change, no change matters."
 
-Learn more about Rev. angel on <a href="http://angelkyodowilliams.com" target="_blank">her website</a>.
+Learn more about Rev. angel on her website [angelkyodowilliams.com](http://angelkyodowilliams.com).
