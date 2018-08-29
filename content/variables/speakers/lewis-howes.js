@@ -1,6 +1,6 @@
 name: "Lewis Howes",
 year: "2015",
-headerPhotos: "https://farm1.staticflickr.com/521/19609380396_eb80ca01b5_k_d.jpg",
+headerPhotos: "https://farm4.staticflickr.com/3723/19446579278_93e7cb380d_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Lewis+Howes.jpg",
 video: "//player.vimeo.com/video/134968997?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "“What is holding you back? What is keeping you from greatness?",
