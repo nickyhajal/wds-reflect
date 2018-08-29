@@ -9,4 +9,4 @@ quote: "We have a very short amount of time on the Earth and it is our responsib
 
 Zach lives in Buffalo, NY and Austin, TX, and spends most of his spare time in his underwear, thinking about how he can change the world.
 
-Learn more about Zach and his new book on [If at Birth You Don't Succeed](http://ifatbirthyoudontsucceed.com).
+Learn more about Zach and his new book *[If at Birth You Don't Succeed](http://ifatbirthyoudontsucceed.com)*.
