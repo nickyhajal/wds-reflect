@@ -15,7 +15,7 @@
 
     Have a crazy project you want to bring to life? Want to take a trip around the earth and share what you learned with the world? Trying to build something that’s a bit out of your reach? Whatever it is, the WDS Foundation can help fund your inspiring project that will improve your life and make the world a better place!
       
-  <Video placeholder="foundation/2018-Voyagers.jpg" videoId="289363603" width="640" height="360"/>
+  <Video placeholder="foundation/2018-Voyagers.jpg" videoId="289363603" width="710" height="430"/>
       
     Learn more about our 2018 scholarship voyagers and their inspiring projects below:
   </Block>
