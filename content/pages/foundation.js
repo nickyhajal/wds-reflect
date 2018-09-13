@@ -15,9 +15,10 @@
 
     Have a crazy project you want to bring to life? Want to take a trip around the earth and share what you learned with the world? Trying to build something that’s a bit out of your reach? Whatever it is, the WDS Foundation can help fund your inspiring project that will improve your life and make the world a better place!
       
+    Watch the announcement of this year's scholarship voyagers and learn more about their inspiring projects below:
+      
   <Video placeholder="foundation/2018-Voyagers.jpg" videoId="289363603" width="710" height="430"/>
       
-    Learn more about our 2018 scholarship voyagers and their inspiring projects below:
   </Block>
 </Section>
 <Section color="canvas">
@@ -102,11 +103,11 @@ Through her work, Yolanda creates a community where women of color’s experienc
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?
     ##### Eligibility
-The "Scholarships for Real Life" program is open to all alumni who have attended one of our past seven WDS events OR those that have [officially registered for WDS 2018](https://worlddominationsummit.com/join-us) even if this is your first time attending.
+The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.
 
-##### 2018 Applications - Now Closed!
+##### 2019 Applications - Coming Soon!
 
-Don't stop believin! The deadline to apply for 2018 grants has passed but keep your dreams alive. 
+Stay tuned! The ability to apply for 2019 Scholarships will be announced early next year. 
 
 </Block>
 </Section>
