@@ -1,8 +1,8 @@
 name: "Adam Valen Levinson",
 year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.speaker.jpg",
-photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valenn.Levinson.WDS.speaker.thumbnail.png",
-video: "https://vimeo.com/286586993/9483a5934c",
+photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.speaker.thumbnail.png",
+video: "https://vimeo.com/286586993/",
 quote: "There are a lot of reasons to be afraid but these are not reasons to live in fear.",
 ---
 At WDS 2018, Adam talked about choosing fear. When you have real freedom, you have to make choices and that's hard. Adam didn't know how to deal with the freedom he was given and had no idea how to make decisions but he really wanted to "do something."
