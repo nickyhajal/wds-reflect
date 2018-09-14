@@ -20,14 +20,15 @@
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
     ## A Week of WDS: June 25th - July 1st, 2019
 
-    - **Tuesday** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday** Academies, Small Group Activities and Attendee-Led Meetups
-    <li><b className="highlight highlight-2">Thursday</b> Academies, Small Group Activities, and Attendee-Led Meetups, and the Opening Party</li>
-    <li><b className="highlight highlight-2">Friday</b> Activities, Academies, Attendee-Led Meetups, and the Big Adventure</li>
-    <li><b className="highlight highlight-2">Saturday</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
-    <li><b className="highlight highlight-3">Sunday</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li>
-    - **Monday** Academies and Attendee-Led Meetups
-      <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday evening, and leaving no earlier than Monday morning.</i>
+    - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups
+    - **Wednesday (6/26)** Academies, Small Group Activities and Attendee-Led Meetups
+    <li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and the Opening Party</li>
+    <li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the Big Adventure</li>
+    <li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
+    <li><b className="highlight highlight-3">Sunday (6/30)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li>
+    - **Monday (7/01)** Academies and Attendee-Led Meetups
+      
+      <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</i>
   </Block>
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
