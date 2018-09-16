@@ -8,8 +8,8 @@
 >
   <Image src="heading/guide.png" width="421" height="151" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Ready? Set. Go! The Attendee Guide to WDS 2018
-    This summer, you'll join over 1200+ invidividuals from over 30+ countries coming to Portland for our 9th gathering of the remarkable adventurers. This page is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2018 - **_you'll find it here!_**      
+    ## Ready? Set. Go! The Attendee Guide to WDS 2019
+    This summer, you'll join over 1200+ invidividuals from over 30+ countries coming to Portland for our 9th gathering of the remarkable adventurers. This page is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2019 - **_you'll find it here!_**      
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
   </Section>        
