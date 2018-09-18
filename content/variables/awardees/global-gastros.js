@@ -1,4 +1,4 @@
-name: "Global Gastros",
+name: "Global Gastros - Chelsea Rae Schmidt",
 year: "2017",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/foundation/Chelsea.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/foundation/Chelsea.thumbnail.png",
