@@ -1,4 +1,4 @@
-name: "GC Gallery",
+name: "GC Gallery - Jolyn Gardner",
 year: "2017",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/foundation/Jolyn.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/foundation/Jolyn-thumbnail.png",
