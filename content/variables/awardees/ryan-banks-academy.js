@@ -1,6 +1,6 @@
 name: "Ryan Banks Academy - Valerie Groth",
 year: "2015",
-headerPhotos: "Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Valerie.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/foundation/Valerie.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/foundation/Valerie.thumbnail.png",
 video: "",
 quote: "",
