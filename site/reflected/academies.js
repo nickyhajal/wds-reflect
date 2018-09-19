@@ -42,43 +42,38 @@ import ComparisonTable from '../../site/components/ComparisonTable';
 >
   <Image src="heading/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## WDS Academies are back for 2018! {'\n'}
+    ## WDS Academies{'\n'}
 At a WDS Academy, you might learn how to travel hack your way to a life-changing travel experience, master the art of telling compelling stories, or develop a winning branding strategy for your business. {'\n'}
 You'll have the opportunity to learn something new to help live your _own_ remarkable life story. It's a great way to lead into the main events of the WDS weekend and keep the conversations going afterward.{'\n'}
   This short video shows more of what it's all about:{'\n'}
   </Block>
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-        ## The Details {'\n'}
-Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.{'\n'}
+        ##  Sorry we missed you for 2018! {'\n'}
+  
+  _Academies for this year have finished but will return for 2019. Please check back in the spring of 2019 for an all-new scheudle._ {'\n'}
 
-- **WDS 360 Attendees:** $29 per Academy{'\n'}
-- **Connect Attendees and General Public:** $59 per Academy{'\n'}
-
-(Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection){'\n'}
-                                                                                                                                              
-There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. No physical ticket or confirmation will be required upon check-in, just a valid photo ID. Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.{'\n'}
-
-If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. {'\n'}
-
-<EventList year={18} type="academy" title="WDS 2018 Academies" />{'\n'}
-    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-We're knocking out the final venue details for these exciting Academies so keep checking back for the most up-to-date information. {'\n'}
-    </Block>
 </Block></Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="orange">
+  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+  <Block margin="50px 0">## Join us at WDS 2019; June 26 - July 1</Block>
+  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
+    <Form
+      list="WDS 2019 Waiting List"
+      successMessage="Great, we'll let you know when sales start for WDS 2019!"
+      buttonStart="Get Notified"
+      buttonProgress="Sending..."
+      buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your 360 Ticket!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter type="countup" />{'\n'}
-  </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
 
 

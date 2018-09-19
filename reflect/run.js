@@ -152,9 +152,16 @@ const loadVariables = () =>
           json = json.indexOf('[') === 0 || json.indexOf('{') === 0
             ? JSON.stringify(JSON.parse(json))
             : `{${json}}`;
-          const obj = eval(`(${json})`);
-          if (content.length) {
-            obj.autocontent = content;
+          let obj = '';
+          try {
+            obj = eval(`(${json})`);
+            if (content.length) {
+              obj.autocontent = content;
+            }
+          }
+          catch (e) {
+            console.log(json);
+            console.error(e);
           }
           const f = file
             .replace('../content/variables/', '')

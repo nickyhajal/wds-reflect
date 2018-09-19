@@ -5,6 +5,7 @@
   "main": "run.js",
   "scripts": {
     "start": "node run",
+    "dev": "gulp",
     "test": "test"
   },
   "author": "Nicky Hajal",

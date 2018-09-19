@@ -65,12 +65,12 @@ import ComparisonTable from '../../site/components/ComparisonTable';
   <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Your Base in Portland{'\n'}
-    Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers.  For 2018 we'll be based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. {'\n'}
+    Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. WDS is based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. {'\n'}
   </Block>
     
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
     <Block width="100%">
-      ## WDS 2018 Homebase{'\n'}
+      ## Welcome to Portland{'\n'}
     </Block>
     <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
       <PDXLocationMap
@@ -122,28 +122,24 @@ import ComparisonTable from '../../site/components/ComparisonTable';
       ## WDS Hotel™{'\n'}
      The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. {'\n'}
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
-        <Button to="" newWindow={true} fitToText>Sold Out!</Button> 
     </Block>
 
     <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel {'\n'}
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-     <Button to="https://reservations.travelclick.com/104209?groupID=2133448" newWindow={true} fitToText>Last Call!</Button>
  </Block>
 
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
       ## Hotel Modera{'\n'}
       A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. {'\n'}
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/mAa6guqWiJt">(Google Directions)</Link></p> 
-       <Button to="" newWindow={true} fitToText>Sold Out!</Button>
 </Block>
 
   <Block type="image" src="photos/Hotel-Rose-Portland.jpg">
       ## Hotel Rose{'\n'}
       Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! {'\n'}
       <p>0.5 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
- <Button to="" newWindow={true} fitToText>Sold Out!</Button>
 </Block>
 
   </Grid>
@@ -156,15 +152,12 @@ import ComparisonTable from '../../site/components/ComparisonTable';
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
       ### Portland State (0.6 Mi){'\n'}
-      <Link to="https://housingportal.pdx.edu/StarRezPortal/Go/Conference/204">Book Now</Link>
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel (1.0 Mi) {'\n'}
-      <Link to="http://nwportlandhostel.com/">Book Now</Link>
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb near WDS{'\n'}
-      <Link to="https://goo.gl/31txZZ">Book Now</Link>
     </Block>
   </Grid>
   </Block>
@@ -228,19 +221,26 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Grid>
   </Block>
 </Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="orange">
+  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+  <Block margin="50px 0">## Join us at WDS 2019; June 26 - July 1</Block>
+  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
+    <Form
+      list="WDS 2019 Waiting List"
+      successMessage="Great, we'll let you know when sales start for WDS 2019!"
+      buttonStart="Get Notified"
+      buttonProgress="Sending..."
+      buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your 360 Ticket!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter type="countup" />{'\n'}
-  </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
 
 

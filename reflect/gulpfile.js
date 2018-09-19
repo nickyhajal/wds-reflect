@@ -1,11 +1,11 @@
 const gulp = require('gulp');
 const plumber = require('gulp-plumber');
 const exec = require('child_process').exec;
-
+ 
 let started = false;
-
+ 
 gulp.task('start', (cb) => {
-  
+   
 });
 gulp.task('sync', (cb) => {
   exec('node run sync', (err, stdout, stderr) => {
