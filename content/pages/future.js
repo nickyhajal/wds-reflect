@@ -76,6 +76,8 @@ We're not sure! Two years is a long time. :) There's no secret plan and we want 
 **How can I get involved with the final two years?**  
   
 If WDS has meant something to you in the past, *please plan to return at least one of the years*. As a previous attendee, you know that everyone at the event is a big part of everything. We need you!
+  
+And if you've stumbled on WDS but have yet to attend... now's the time! Join us to help create two amazing, final years.  
  
  <Image src="future/2015-Closing-Party-1.jpg" width="100%" height="541" /><br/>
   
