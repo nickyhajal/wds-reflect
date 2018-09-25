@@ -40,7 +40,7 @@ const speakerBlocks = (props) => {
     const id = `speaker-${c}`;
     if (passesFilter(v, props)) {
       out.push(
-        <Link to={`/speaker/${s.slugify(v.name)}`} styleName="box">
+        <Link to="#" styleName="box">
           <Image src="avatar-cutout.png" width="105" height="105" styleName="cutout" />
           <Image src={v.photo} width="105" height="105" styleName="avatar" />
           <div styleName="name">{v.name}</div>
