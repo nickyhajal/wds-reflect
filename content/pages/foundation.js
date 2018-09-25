@@ -73,6 +73,8 @@ Through her work, Yolanda creates a community where women of color’s experienc
       </Block>
     </Tab>
   </Tabs>
+  <h2 style={{marginBottom: '-60px', position: 'relative', zIndex: '1', textAlign: 'center'}}>All Previous Awardees</h2>
+  <PersonScroller personType="awardees" />
   <div class="clear" />
 </Section>
 <Section color="white">

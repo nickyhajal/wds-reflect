@@ -36,7 +36,7 @@ const passesFilter = (speaker, { year }) => {
 const speakerBlocks = (props) => {
   const out = [];
   let c = 0;
-  vars.speakers.forEach((v) => {
+  vars[props.personType].forEach((v) => {
     const id = `speaker-${c}`;
     if (passesFilter(v, props)) {
       out.push(
@@ -58,7 +58,7 @@ const renderTitle = title => (
   ) : '')
 );
 
-const renderSlider = (listSet, year) => {
+const renderSlider = (listSet, year, personType) => {
   let slider;
   return (
     <div>
@@ -67,26 +67,26 @@ const renderSlider = (listSet, year) => {
         <button styleName="arrow-next" onClick={() => { slider.slickNext(); }} />
       </div>
       <Slider ref={c => slider = c } {...settings}>
-        {speakerBlocks({ listSet, year })}
+        {speakerBlocks({ listSet, year, personType })}
       </Slider>
     </div>
   );
 };
 
-const renderExpanded = (listSet, year) => {
+const renderExpanded = (listSet, year, personType) => {
   return (
     <div styleName="expanded">
-      {speakerBlocks({ listSet, year })}
+      {speakerBlocks({ listSet, year, personType })}
     </div>
   );
 };
 
-const SpeakerList = ({ title, listSet, year, type }) => {
+const PersonScroller = ({ title, listSet, year, type, personType }) => {
   let content = '';
   if (type === 'slider') {
-    content = renderSlider(listSet, year);
+    content = renderSlider(listSet, year, personType);
   } else if (type === 'expanded') {
-    content = renderExpanded(listSet, year);
+    content = renderExpanded(listSet, year, personType);
   }
   return (
     <Block cols="8" bleed={false} styleName="speakerList" background="canvas">
@@ -98,14 +98,14 @@ const SpeakerList = ({ title, listSet, year, type }) => {
   );
 };
 
-SpeakerList.defaultProps = {
+PersonScroller.defaultProps = {
   type: 'slider',
 };
-SpeakerList.propTypes = {
+PersonScroller.propTypes = {
   title: PropTypes.string,
   year: PropTypes.string,
   type: PropTypes.string,
   listSet: PropTypes.string,
 };
 
-export default CSSModules(SpeakerList, styles);
+export default CSSModules(PersonScroller, styles);

@@ -14,6 +14,7 @@ import Input from '../components/Input/Input';
 import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
 import SpeakerList from '../components/SpeakerList/SpeakerList';
+import PersonScroller from '../components/PersonScroller/PersonScroller';
 import Testimonials from '../components/Testimonials/Testimonials';
 import TicketCounter from '../../site/components/TicketCounter/TicketCounter';
 import Login from '../components/Login/Login';
@@ -107,6 +108,8 @@ Through her work, Yolanda creates a community where women of color’s experienc
       </Block>
     </Tab>
   </Tabs>
+  <h2 style={{marginBottom: '-60px', position: 'relative', zIndex: '1', textAlign: 'center'}}>All Previous Awardees</h2>
+  <PersonScroller personType="awardees" />
   <div class="clear" />
 </Section>
 <Section color="white">

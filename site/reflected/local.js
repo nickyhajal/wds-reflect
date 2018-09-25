@@ -14,6 +14,7 @@ import Input from '../components/Input/Input';
 import Grid from '../components/Grid/Grid';
 import Video from '../components/Video/Video';
 import SpeakerList from '../components/SpeakerList/SpeakerList';
+import PersonScroller from '../components/PersonScroller/PersonScroller';
 import Testimonials from '../components/Testimonials/Testimonials';
 import TicketCounter from '../../site/components/TicketCounter/TicketCounter';
 import Login from '../components/Login/Login';
