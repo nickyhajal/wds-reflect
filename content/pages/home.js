@@ -12,6 +12,7 @@
     type="padded"
     padding="80px 120px"
     className="bigger"
+    mobile={{tablet: {padding: '50px 40px'}, phone: {padding: '30px 20px'}}}
   >
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
       The Future of WDS
@@ -44,6 +45,7 @@ First up, if you missed the announcement or just want to see it again, watch thi
     type="padded"
     padding="80px 120px"
     className="bigger"
+    mobile={{tablet: {padding: '50px 40px'}, phone: {padding: '30px 20px'}}}
   >
 Second, here are some answers to questions we've been asked recently:
 
