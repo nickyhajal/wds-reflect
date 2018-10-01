@@ -1,6 +1,6 @@
 name: "Vanessa Van Edwards",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.WDS.2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.WDS.2017.speaker.png,https://farm5.staticflickr.com/4291/35970771555_6c09bd332a_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.WDS.speaker.thumbnail.jpg",
 video: "https://vimeo.com/229493630",
 quote: "Behind every business, every pretty dress, everyone is wearing a pair of Spanx to hold in the wobbly stuff, my friends! Just because you can't see it, doesn't mean it's not there.",
