@@ -1,6 +1,6 @@
 name: "Scott Harrison",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Scott.Harrison.WDS.2017.speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Scott.Harrison.WDS.2017.speaker.jpg,https://farm5.staticflickr.com/4316/35929182926_f36068178d_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Scott.Harrison.WDS.speaker.thumbnail.jpg",
 video: "https://vimeo.com/230032497",
 quote: "If your work is in the service of others, if you are working to end inequality, injustice, the suffering of others, it will never end. And that’s okay! Do not be afraid of work that has no end.",
