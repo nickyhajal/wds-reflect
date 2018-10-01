@@ -1,6 +1,6 @@
 name: "Firuzeh Mahmoudi",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Firuzeh.Mahmoudi.WDS.2017.speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Firuzeh.Mahmoudi.WDS.2017.speaker.jpg,https://farm5.staticflickr.com/4325/35838355211_25f369588a_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Firuzeh.Mahmoudi.thumbnail.png",
 video: "https://vimeo.com/229394466",
 quote: "I have been called an anti-revolutionary fugitive by the Isalmic Republic, which I think is a pretty bad-ass title, so I put it on my business card.",
