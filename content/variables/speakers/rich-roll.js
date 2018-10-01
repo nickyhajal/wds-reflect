@@ -1,6 +1,6 @@
 name: "Rich Roll",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Rich.Roll.WDS.2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Rich.Roll.WDS.2017.speaker.png,https://farm5.staticflickr.com/4316/35994085756_27e3a1734a_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Rich.Roll.WDS.speaker.thumbnail.jpg",
 video: "https://vimeo.com/230075337",
 quote: "The teachable moment ocurs when things don't go your way and you're forced to make a decision, and that decision reveals character.",
