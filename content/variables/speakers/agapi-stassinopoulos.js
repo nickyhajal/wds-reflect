@@ -1,6 +1,6 @@
 name: "Agapi Stassinopoulos",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Agapi.Stassinopoulos.WDS.2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Agapi.Stassinopoulos.WDS.2017.speaker.png", https://s3.amazonaws.com/el-files-wds/images/speakers/Agapi.Video.WDS.2017.png,
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Agapi.Stassinopoulos.WDS.speaker.thumbnail.png",
 video: "https://vimeo.com/229780096",
 quote: "We are not supposed to fit in! We are supposed to stand out.",
