@@ -1,6 +1,6 @@
 name: "Paula Pant",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Paula-Pant-WDS-2018-Main-Stage-Speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Paula-Pant-WDS-2018-Main-Stage-Speaker.jpg,https://farm2.staticflickr.com/1790/43176646321_09fbc3f6d4_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Paula.Pant.WDS.2018.Thumbnail.Speaker.png",
 video: "https://vimeo.com/285749014",
 quote: "If you are a creator, your job is to create. Your job is not to tell other people how to recieve your creations. Your job is simply to make something amazing, release it into the world, and then get out of the way.",
