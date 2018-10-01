@@ -1,6 +1,6 @@
 name: "Mohammed Faris",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/mohammed.faris.WDS.2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/mohammed.faris.WDS.2017.speaker.png,https://farm5.staticflickr.com/4316/35929242286_4c5762e62a_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/mohammed.faris.WDS.2017.speaker.thumbnail.png",
 video: "https://vimeo.com/229735837",
 quote: "It's not about the dollars and the followers. It's about long-lasting impact that truly brings benefit to yourself and those around you and society at large.",
