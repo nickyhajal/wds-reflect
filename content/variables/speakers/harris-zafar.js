@@ -1,6 +1,6 @@
 name: "Harris Zafar",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Harris.Zafar.WDS2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Harris.Zafar.WDS2017.speaker.png,https://farm5.staticflickr.com/4330/35195651644_7dbadfa37f_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Harris.Zafar.WDS2017.speaker.thumbnail.png",
 video: "https://vimeo.com/229795371",
 quote: "We need to reestablish and reconnect with the basic humanity of people, and getting to a point within ourselves where we can then do good for those people.",
