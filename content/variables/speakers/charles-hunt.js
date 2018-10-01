@@ -1,6 +1,6 @@
 name: "Charles Hunt",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Charles.Hunt.WDS.2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Charles.Hunt.WDS.2017.speaker.png,https://farm5.staticflickr.com/4305/35646237510_1be42cc0bc_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Charles.Hunt.WDS.speaker.thumbnail.png",
 video: "https://vimeo.com/229861221",
 quote: "We all have the capacity and the ability and the power to make instrumental changes in our lives. And the only time we relinquish that power is when we simply stop believing that we have it.",
