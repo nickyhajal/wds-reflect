@@ -1,6 +1,6 @@
 name: "Jolie Guillebeau",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Jolie.Guillebeau.WDS.2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Jolie.Guillebeau.WDS.2017.speaker.png,https://farm5.staticflickr.com/4302/35864194742_fe9b3b1bb7_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Jolie.Guillebeau.thumbnail.png",
 video: "//player.vimeo.com/video/229787785?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "Use your heart. Find that empathy and feel what it feels like for those who are suffering and struggling.",
