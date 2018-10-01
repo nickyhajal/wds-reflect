@@ -12,4 +12,4 @@ Most recently he’s spoken to hundreds of thousands of people at conferences, c
 
 In addition, Jon is also a big proponent of social media with blogs that have been read by 4 million people and more than 250,000 twitter followers. In 2010 he used his influence with his tribe to build two kindergartens in Vietnam. Jon lives with his wife Jenny and two daughters in Franklin, TN. 
 
-You can read his blog at <a href="http://acuff.me" target="_blank">Acuff.me</a> or follow him on Twitter <a href="https://twitter.com/JonAcuff" target="_blank">@JonAcuff</a>.
+You can read his blog at [Acuff.me](http://acuff.me) or follow him on Twitter [@JonAcuff](https://twitter.com/JonAcuff).
