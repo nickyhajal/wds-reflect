@@ -1,6 +1,6 @@
 name: "Ryan Holiday",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Ryan.Holiday.WDS-2018.Speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Ryan.Holiday.WDS-2018.Speaker.jpg,https://farm2.staticflickr.com/1787/42587456324_455c38accd_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Ryan.Holiday.WDS.speaker.thumbnail.png",
 video: "https://vimeo.com/288296913",
 quote: "If we live today as if it is the most important day of our life, then we'll make the right decisions. We will value the quiet moments, we will have the power to say no to things that don't matter.",
