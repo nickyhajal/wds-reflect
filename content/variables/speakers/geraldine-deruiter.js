@@ -2,7 +2,7 @@ name: "Geraldine DeRuiter",
 year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Geraldine-DeRuiter-WDS-2018-Main-Stage-Speaker.jpg,https://farm2.staticflickr.com/1808/43255027552_40dfb9c0e5_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Geraldine.DeRuiter.WDS.2018.Speaker.Thumbnail.png",
-video: "https://vimeo.com/289491005/bb0405c297",
+video: "https://vimeo.com/289491005",
 quote: "Hey, the world is burning. We should note it.",
 ---
 At WDS 2018, Geraldine reminded us that online harassment is a real and a very serious thing. The more we acknowledge it, the more we can combat it.
