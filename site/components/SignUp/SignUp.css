@@ -2,6 +2,7 @@
 
 .button {
   margin-top: 6px;
+  background: $orange !important;
 }
 
 .link {

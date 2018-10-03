@@ -34,6 +34,7 @@
   display: flex;
   width: 140%;
   margin: 0 -20%;
+  margin-bottom: 38px;
 }
 .planSelectBox :global(.selected) {
     background: #fff !important;
@@ -222,7 +223,7 @@
     color: $white;
 }
 
-.checkoutForm .form-row button {
+.checkoutForm :global(.form-row) button {
   background: #DB7F1C;
   border: 0;
   font-size: 16px;
@@ -232,8 +233,8 @@
   font-weight: normal;
   font-size: 17px;
   position: relative;
-  top: 20px;
   margin-bottom:20px;
+  top: 20px;
 }
 
 .zip {

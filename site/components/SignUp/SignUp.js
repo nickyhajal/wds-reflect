@@ -13,6 +13,7 @@ import Input from '../Input/Input';
 import FormWrap from '../FormWrap/FormWrap';
 import FormRow from '../FormRow/FormRow';
 import Button from '../Button/Button';
+import C from '../../constants';
 
 class SignUp extends React.Component {
 
@@ -66,6 +67,7 @@ class SignUp extends React.Component {
           buttonProgress="Creating..."
           buttonSuccess="Success!"
           className="signupForm"
+          buttonStyle={{backgroundColor: C.color.orange}}
         >
           <FormRow>
             <FormWrap style={{ float: 'left', width: '48%', marginRight: '4%', marginBottom: '0' }}>
