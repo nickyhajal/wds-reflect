@@ -32,8 +32,9 @@ class Cart extends React.Component {
       create_transaction: [50, 'Making it happen.'],
       pre_process: [60, 'Making it happen..'],
       stripe_charge: [70, 'Making it happen...'],
-      charged: [80, 'Woohoo!'],
-      done: [100, 'Whoohoo! All done!'],
+      charged: [80, 'Doing Magic...'],
+      paid: [90, 'Magic complete!'],
+      done: [100, 'OMG! All done!'],
     };
   }
 
