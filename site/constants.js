@@ -46,7 +46,10 @@ if (host === 'worlddominationsummit.com') {
 }
 constants.apiUrl = `${constants.url}/api`;
 constants.graphUrl = `${constants.protocol}://${constants.url}/api/graphql`;
-constants.ticketPrice = 697;
+constants.ticketPrice = 647;
+constants.planStartPrice = 89;
+constants.planInstallments = 3;
+constants.planInstallmentPrice = 186;
 constants.color = {
   orange: '#CF7F1A',
   spice: 'rgba(174, 96, 0, 0.25)',

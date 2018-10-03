@@ -30,6 +30,40 @@
   margin-bottom: 14px;
 }
 
+.planSelectBox {
+  display: flex;
+  width: 140%;
+  margin: 0 -20%;
+}
+.planSelectBox :global(.selected) {
+    background: #fff !important;
+    color: $orange;
+
+}
+.planSelectBox button {
+    display: table-cell;
+    background: transparent;
+    padding: 40px 20px !important;
+    cursor: pointer;
+    flex: 1;
+    color: #fff;
+    font-size: 20px;
+    font-family: Vitesse;
+    border: 2px solid #fff;
+    vertical-align: middle;
+}
+
+.planSelectBox button div {
+  font-family: Karla;
+  font-size: 17px;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 13px;
+}
+
+.planSelectBox button:not(:last-of-type) {
+}
+
 .productMeta {
   @media(--phone) {
     width: 264px;
@@ -188,7 +222,7 @@
     color: $white;
 }
 
-.checkoutForm button {
+.checkoutForm .form-row button {
   background: #DB7F1C;
   border: 0;
   font-size: 16px;

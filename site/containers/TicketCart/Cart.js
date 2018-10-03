@@ -20,8 +20,10 @@ class Cart extends React.Component {
     autoBind(Object.getPrototypeOf(this));
     this.state = {
       email: '',
-      year: '2018',
+      year: '2019',
       month: '7',
+      code: 'wds2019',
+      eventCode: 'wds2019',
     };
     this.steps = {
       start_card: [25, 'Verifying card.'],
@@ -171,11 +173,14 @@ class Cart extends React.Component {
 
   processCharge(token, pkg) {
     auth
-      .charge({ card_id: token, code: 'wds2018', purchase_data: pkg })
+      .charge({ card_id: token, code: this.state.code, purchase_data: pkg })
       .then(raw => {
         const rsp = raw.data;
         if (rsp.fire !== undefined && rsp.fire.length) {
-          this.props.act.startListeningToPurchase(rsp.fire, 'wds2018');
+          this.props.act.startListeningToPurchase(
+            rsp.fire,
+            this.state.code
+          );
         }
         // if (rsp.declined !== undefined && rsp.declined) {
         //   this.props.act.setCheckoutError(
@@ -204,7 +209,19 @@ class Cart extends React.Component {
     return [20, 'Processing...'];
   }
 
+  payInFull(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    this.setState({ code: 'wds2019' });
+  }
+  payWithPlan(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    this.setState({ code: 'wds2019plan' });
+  }
+
   renderExisting(btnStr, cost) {
+    const { code } = this.state;
     const card = this.props.auth.card;
     const cardStr = `${card.brand} ending in ${card.last4}`;
     const cardExp = `${card.exp_month}/${card.exp_year}`;
@@ -212,14 +229,14 @@ class Cart extends React.Component {
       <div>
         <div styleName="existingCardRow">
           <div styleName="cardIntro">Charge to your:</div>
-          <div styleName="cardName">
-            {cardStr}
-          </div>
-          <div styleName="cardExp">
-            Expires {cardExp}
-          </div>
+          <div styleName="cardName">{cardStr}</div>
+          <div styleName="cardExp">Expires {cardExp}</div>
         </div>
         {this.renderError()}
+        <div styleName="planSelectBox">
+          <button onClick={this.payInFull} className={code === 'wds2019' ? 'selected' : ''}>Pay in Full</button>
+          <button onClick={this.payWithPlan} className={code === 'wds2019plan' ? 'selected' : ''}>WDS Payment Plan<div>$99 today, then $186/mo for 3 mos.</div></button>
+        </div>
       </div>
     );
   }
@@ -251,12 +268,17 @@ class Cart extends React.Component {
   }
 
   renderNew(btnStr, cost) {
+    const { code } = this.state;
     const width = is.phone() ? '129px' : '166px';
     const cc = this.props.checkout.cc;
     return (
       <div styleName="newShell">
         {this.renderError()}
         {this.renderUserInps()}
+        <div styleName="planSelectBox">
+          <button onClick={this.payInFull} className={code === 'wds2019' ? 'selected' : ''}>Pay in Full</button>
+          <button onClick={this.payWithPlan} className={code === 'wds2019plan' ? 'selected' : ''}>WDS Payment Plan<div>$99 today, then $186/mo for 3 mos.</div></button>
+        </div>
         <div className="form-row">
           <div className="form-box form-cc-box">
             <label>Card Number</label>
@@ -348,9 +370,7 @@ class Cart extends React.Component {
       const completed = this.processCompleted();
       msg = (
         <div>
-          <div>
-            {msg}
-          </div>
+          <div>{msg}</div>
           <div>
             <Progress
               completed={completed[0]}
@@ -363,9 +383,7 @@ class Cart extends React.Component {
       );
       return (
         <div styleName="processing">
-          <div styleName="processMessage">
-            {msg}
-          </div>
+          <div styleName="processMessage">{msg}</div>
         </div>
       );
     }
@@ -374,18 +392,15 @@ class Cart extends React.Component {
 
   renderError() {
     if (this.props.checkout.error) {
-      return (
-        <div styleName="error">
-          {this.props.checkout.error}
-        </div>
-      );
+      return <div styleName="error">{this.props.checkout.error}</div>;
     }
     return '';
   }
 
   render() {
+    const { code } = this.state;
     const q = this.props.checkout.quantity;
-    const cost = C.ticketPrice * q;
+    const cost = (code === 'wds2019' ? C.ticketPrice : C.planStartPrice) * q;
     const feeCost = 10 * q;
     let btnStr = 'Complete Purchase';
     if (this.props.checkout.status === 'process') {
@@ -397,17 +412,19 @@ class Cart extends React.Component {
     if (this.props.hidden) {
       display = 'none';
     }
+    const productName =
+      code === 'wds2019' ? 'WDS 2019 Ticket' : 'WDS Payment Plan';
     return (
       <div className="modal-section cartSection" style={{ display }}>
         <div styleName="productRow">
-          {is.phone() ? <div styleName="productName">WDS 2018 Ticket</div> : ''}
+          {is.phone() ? <div styleName="productName">{productName}</div> : ''}
           <div styleName="productMeta">
             <div styleName="priceBox">
-              <div styleName="cost">
-                ${cost}
-              </div>
+              <div styleName="cost">${cost}</div>
               <div styleName="feeCost">
-                +${feeCost}.00 processing
+                +$
+                {feeCost}
+                .00 processing
               </div>
             </div>
             <div styleName="quantityBox">
@@ -426,7 +443,7 @@ class Cart extends React.Component {
               />
             </div>
           </div>
-          {is.phone() ? '' : <div styleName="productName">WDS 2018 Ticket</div>}
+          {is.phone() ? '' : <div styleName="productName">{productName}</div>}
           <div className="clear" />
         </div>
         {this.renderCardButton()}
@@ -435,11 +452,12 @@ class Cart extends React.Component {
           onSubmit={this.purchase}
           styleName="checkoutForm"
         >
+           
           {this.renderAppropriate(btnStr, cost, feeCost)}
           <div className="form-row">
-            <Button className="submit">{`Purchase ${q > 1
-              ? 'Tickets'
-              : 'Ticket'}`}</Button>
+            <Button className="submit">{`Purchase ${
+              q > 1 ? 'Tickets' : 'Ticket'
+            }`}</Button>
           </div>
         </form>
         {this.renderProcessing()}
@@ -466,6 +484,7 @@ function mapDispatchToProps(dispatch) {
   return { act: bindActionCreators(actions, dispatch) };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(
-  CSSModules(Cart, styles)
-);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(CSSModules(Cart, styles));
