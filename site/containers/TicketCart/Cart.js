@@ -460,6 +460,7 @@ class Cart extends React.Component {
               q > 1 ? 'Tickets' : 'Ticket'
             }`}</Button>
           </div>
+          {code.includes('plan') && <div styleName="planTerms">You will be charged $99 today and $186 per month for 3 months. Payment plan may not be cancelled nor refunded.</div>}
         </form>
         {this.renderProcessing()}
       </div>

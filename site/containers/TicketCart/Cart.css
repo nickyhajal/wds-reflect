@@ -35,6 +35,21 @@
   width: 140%;
   margin: 0 -20%;
   margin-bottom: 38px;
+
+  @media(--phone) {
+    width: 100%;
+    margin: 60px 0 20px;
+  }
+}
+.planTerms {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  width: 280px;
+  margin: 0 auto;
+  @media(--phone) {
+    padding: 20px;
+  }
 }
 .planSelectBox :global(.selected) {
     background: #fff !important;
@@ -52,6 +67,9 @@
     font-family: Vitesse;
     border: 2px solid #fff;
     vertical-align: middle;
+    @media(--phone) {
+      padding: 24px 10px !important;
+    }
 }
 
 .planSelectBox button div {
@@ -60,6 +78,10 @@
   width: 100%;
   padding: 0 20px;
   margin-top: 13px;
+  @media(--phone) {
+    font-size: 15px;
+    padding: 0 10px;
+  }
 }
 
 .planSelectBox button:not(:last-of-type) {
