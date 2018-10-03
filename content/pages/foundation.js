@@ -109,7 +109,7 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
 
 ##### 2019 Applications - Coming Soon!
 
-Stay tuned! The ability to apply for 2019 Scholarships will be announced early next year. 
+Stay tuned! The ability to apply for 2019 Scholarships will go live on **March 1, 2019**. 
 
 </Block>
 </Section>
