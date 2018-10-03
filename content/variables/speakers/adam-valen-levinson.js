@@ -1,6 +1,6 @@
 name: "Adam Valen Levinson",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.2018.speaker.jpg,https://farm1.staticflickr.com/914/28374406707_4b6b65d47b_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Adam.Valen.Levinson.WDS.speaker.thumbnail.png",
 video: "https://vimeo.com/286586993",
 quote: "There are a lot of reasons to be afraid but these are not reasons to live in fear.",

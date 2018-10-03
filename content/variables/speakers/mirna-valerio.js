@@ -1,6 +1,6 @@
 name: "Mirna Valerio",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna-Valerio-WDS-2018-Main-Stage-Speakers.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna-Valerio-WDS-2018-Main-Stage-Speakers.jpg,https://farm2.staticflickr.com/1761/43244048891_0bf3b9dea3_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna.WDS.speaker.thumbnail.png",
 video: "https://vimeo.com/286375551",
 quote: "This is one of my core beliefs: that we allow people to live, to experience, and to express the fullness of their humanity every time and all the time.",

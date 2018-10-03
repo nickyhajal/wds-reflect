@@ -1,6 +1,6 @@
 name: "Kellee Edwards",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee-Edwards-WDS.2018.speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee-Edwards-WDS.2018.speaker.jpg,https://farm1.staticflickr.com/834/29372794038_d8ccf33e54_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee.Edwards.WDS.speaker.thumbnail.png",
 video: "https://vimeo.com/289503008",
 quote: "Be brave enough to find the life you want and courageous enough to chase it.",

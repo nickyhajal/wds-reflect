@@ -1,8 +1,8 @@
 name: "Cathy Heller",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy-Heller-WDS-2018-Main-Stage-Speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy-Heller-WDS-2018-Main-Stage-Speaker.jpg,https://farm2.staticflickr.com/1785/41434427570_96bdf65b2c_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Cathy.Heller.WDS.2018.Speaker.Thumbnail.png",
-video: "https://vimeo.com/291621842/c99e0526a4",
+video: "https://vimeo.com/291621842",
 quote: "We compare our behind the scenes mess to other people's highlight reels, and that is a mistake.",
 ---
 At WDS 2018, Cathy reminded the community that everyone is unique and everyone has something to offer. Everyone thinks that they're not enough but you have something that only you can say.

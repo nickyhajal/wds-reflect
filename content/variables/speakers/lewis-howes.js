@@ -3,7 +3,7 @@ year: "2015",
 headerPhotos: "https://farm1.staticflickr.com/359/19013738553_c8425b38c7_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Lewis+Howes.jpg",
 video: "//player.vimeo.com/video/134968997?byline=0&amp;portrait=0&amp;color=adbf27",
-quote: "“What is holding you back? What is keeping you from greatness?",
+quote: "What is holding you back? What is keeping you from greatness?",
 ---
 **Lewis Howes** has achieved many dreams. He has been a professional athlete, represented The USA as a member of the national team for handball, and has built a multi-million dollar online business by helping thousands of people around the world make a full time living doing what they love.
 

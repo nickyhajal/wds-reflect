@@ -1,6 +1,6 @@
 name: "Chelsea Dinsmore",
 year: "2016",
-headerPhotos: "https://c1.staticflickr.com/9/8583/28888720661_768be12070_b.jpg,https://c2.staticflickr.com/8/7557/28346239424_b4427e564e_b.jpg,https://c1.staticflickr.com/9/8733/28348610823_1451df442f_b.jpg,https://c1.staticflickr.com/9/8561/28932889106_830e732ae3_b.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/chelsea-dinsmore-WDS-2016-Speaker.jpg,https://c2.staticflickr.com/8/7557/28346239424_b4427e564e_b.jpg,https://c1.staticflickr.com/9/8733/28348610823_1451df442f_b.jpg,https://c1.staticflickr.com/9/8561/28932889106_830e732ae3_b.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Chelsea+Dinsmore.jpg",
 video: "//player.vimeo.com/video/182628422?byline=0&amp;portrait=0&amp;color=adbf27",
 quote: "You are limitless. The only limits that you have are the limits you put on yourself. And when you shut down those limitations, you open up to possibility.",

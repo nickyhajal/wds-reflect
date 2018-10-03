@@ -1,6 +1,6 @@
 name: "DJ Prashant",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/DJ-Prashant-WDS-2018-Main-Stage-Speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/DJ-Prashant-WDS-2018-Main-Stage-Speaker.jpg,https://farm1.staticflickr.com/843/43126454782_3830f30089_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/dj.prashant.thumbnail.png",
 video: "https://vimeo.com/285728863",
 quote: "I believe that our community right now really needs to talk. We need to just converse. We need to trust in the goodwill of others, irrespective of their choices.",

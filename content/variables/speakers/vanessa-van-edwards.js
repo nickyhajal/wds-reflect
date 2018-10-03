@@ -1,6 +1,6 @@
 name: "Vanessa Van Edwards",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.WDS.2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.WDS.2017.speaker.png,https://farm5.staticflickr.com/4291/35970771555_6c09bd332a_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/vanessa.van.edwards.WDS.speaker.thumbnail.jpg",
 video: "https://vimeo.com/229493630",
 quote: "Behind every business, every pretty dress, everyone is wearing a pair of Spanx to hold in the wobbly stuff, my friends! Just because you can't see it, doesn't mean it's not there.",
@@ -9,4 +9,4 @@ Vanessa Van Edwards is a behavioral investigator and published author. She runs 
 
 Vanessa is fascinated by body language, leadership and charisma and writes about these topics for CNN, _Fast Company_ and _Forbes_. She also writes a monthly column for _Entrepreneur Magazine_ and the _Huffington Post_. Her innovative work has been featured on NPR, _Business Week_ and _USA Today_. More importantly she's addicted to sour patch kids, airplane coffee and puppies. Vanessa's new book, _[Captivate](http://www.scienceofpeople.com/captivate/)_, recently launched this past April.
 
-<p>Sitting in the audience 4 years ago, Vanessa vowed that if she ever got to the WDS stage, she would share the full story behind her success. Behind the scenes is years and years of hustle, failure, finding the right people, and building a team.</p>
+Sitting in the audience 4 years ago, Vanessa vowed that if she ever got to the WDS stage, she would share the full story behind her success. Behind the scenes is years and years of hustle, failure, finding the right people, and building a team.

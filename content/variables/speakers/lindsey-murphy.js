@@ -1,6 +1,6 @@
 name: "Lindsey Murphy",
 year: "2018",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/lindsey.murphey.WDS.2018.Speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/lindsey.murphey.WDS.2018.Speaker.jpg,https://farm2.staticflickr.com/1829/28435670757_dbfcd144e7_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/lindsey.thumbnail.png",
 video: "https://vimeo.com/288290922",
 quote: "All we have to do is create what we want to see. We can do that together. And guys, I am desperate for that world. I am desperate for you to operate in the fullness of your purpose because we cannot heal without it.",

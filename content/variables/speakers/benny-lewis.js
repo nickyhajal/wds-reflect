@@ -1,6 +1,6 @@
 name: "Benny Lewis",
 year: "2017",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Benny.Lewis.WDS.2017.speaker.png",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Benny.Lewis.WDS.2017.speaker.png,https://farm5.staticflickr.com/4317/35929722036_5ef65b7720_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Benny.Lewis.WDS.speaker.thumbnail.jpg",
 video: "https://vimeo.com/229128147",
 quote: "Ask yourself, 'should I try something different' instead of 'should I give up'?",
