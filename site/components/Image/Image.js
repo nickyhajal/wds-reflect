@@ -72,7 +72,7 @@ const Image = (props) => {
     css.backgroundImage = `url(${src})`;
     css.backgroundSize = props.fit;
     css.backgroundRepeat = 'no-repeat';
-    css.backgroundPosition = props.position;
+    css.backgroundPosition = `center ${props.position}`;
   }
 
   if (props.clip) {
