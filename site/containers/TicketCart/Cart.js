@@ -24,6 +24,7 @@ class Cart extends React.Component {
       month: '7',
       code: 'wds2019',
       eventCode: 'wds2019',
+      accepted: false,
     };
     this.steps = {
       start_card: [25, 'Verifying card.'],
@@ -109,37 +110,41 @@ class Cart extends React.Component {
   purchase(e) {
     e.preventDefault();
     e.stopPropagation();
-    if (this.props.checkout.status !== 'process') {
-      this.props.act.updateCheckoutStatus('process');
-      if (this.props.auth.me) {
-        this.startCharge();
-      } else {
-        const pkg = {
-          first_name: this.state.first_name,
-          last_name: this.state.last_name,
-          email: this.state.email,
-        };
-        auth
-          .createUser(pkg)
-          .then(raw => {
-            const rsp = raw.data;
-            if (rsp.existing !== undefined) {
+    if (this.state.code === 'wds2019plan' && !this.state.accepted) {
+      this.props.act.setCheckoutError('Please Accept the Payment Plan Terms');
+    } else {
+      if (this.props.checkout.status !== 'process') {
+        this.props.act.updateCheckoutStatus('process');
+        if (this.props.auth.me) {
+          this.startCharge();
+        } else {
+          const pkg = {
+            first_name: this.state.first_name,
+            last_name: this.state.last_name,
+            email: this.state.email,
+          };
+          auth
+            .createUser(pkg)
+            .then(raw => {
+              const rsp = raw.data;
+              if (rsp.existing !== undefined) {
+                this.props.act.setCheckoutError(
+                  <div>
+                    That email is already in our system.
+                    <a href="#">Click here to login</a>
+                  </div>
+                );
+              } else {
+                auth.getMe();
+                this.startCharge();
+              }
+            })
+            .catch(error => {
               this.props.act.setCheckoutError(
-                <div>
-                  That email is already in our system.
-                  <a href="#">Click here to login</a>
-                </div>
+                'Seems like there was a problem, can you try again?'
               );
-            } else {
-              auth.getMe();
-              this.startCharge();
-            }
-          })
-          .catch(error => {
-            this.props.act.setCheckoutError(
-              'Seems like there was a problem, can you try again?'
-            );
-          });
+            });
+        }
       }
     }
   }
@@ -178,10 +183,7 @@ class Cart extends React.Component {
       .then(raw => {
         const rsp = raw.data;
         if (rsp.fire !== undefined && rsp.fire.length) {
-          this.props.act.startListeningToPurchase(
-            rsp.fire,
-            this.state.code
-          );
+          this.props.act.startListeningToPurchase(rsp.fire, this.state.code);
         }
         // if (rsp.declined !== undefined && rsp.declined) {
         //   this.props.act.setCheckoutError(
@@ -221,6 +223,10 @@ class Cart extends React.Component {
     this.setState({ code: 'wds2019plan' });
   }
 
+  toggleTerms(e) {
+    this.setState({ accepted: e.currentTarget.checked });
+  }
+
   renderExisting(btnStr, cost) {
     const { code } = this.state;
     const card = this.props.auth.card;
@@ -235,8 +241,19 @@ class Cart extends React.Component {
         </div>
         {this.renderError()}
         <div styleName="planSelectBox">
-          <button onClick={this.payInFull} className={code === 'wds2019' ? 'selected' : ''}>Pay in Full</button>
-          <button onClick={this.payWithPlan} className={code === 'wds2019plan' ? 'selected' : ''}>WDS Payment Plan<div>$99 today, then $186/mo for 3 mos.</div></button>
+          <button
+            onClick={this.payInFull}
+            className={code === 'wds2019' ? 'selected' : ''}
+          >
+            Pay in Full
+          </button>
+          <button
+            onClick={this.payWithPlan}
+            className={code === 'wds2019plan' ? 'selected' : ''}
+          >
+            WDS Payment Plan
+            <div>$99 today, then $186/mo for 3 mos.</div>
+          </button>
         </div>
       </div>
     );
@@ -277,8 +294,19 @@ class Cart extends React.Component {
         {this.renderError()}
         {this.renderUserInps()}
         <div styleName="planSelectBox">
-          <button onClick={this.payInFull} className={code === 'wds2019' ? 'selected' : ''}>Pay in Full</button>
-          <button onClick={this.payWithPlan} className={code === 'wds2019plan' ? 'selected' : ''}>WDS Payment Plan<div>$99 today, then $186/mo for 3 mos.</div></button>
+          <button
+            onClick={this.payInFull}
+            className={code === 'wds2019' ? 'selected' : ''}
+          >
+            Pay in Full
+          </button>
+          <button
+            onClick={this.payWithPlan}
+            className={code === 'wds2019plan' ? 'selected' : ''}
+          >
+            WDS Payment Plan
+            <div>$99 today, then $186/mo for 3 mos.</div>
+          </button>
         </div>
         <div className="form-row">
           <div className="form-box form-cc-box">
@@ -453,14 +481,24 @@ class Cart extends React.Component {
           onSubmit={this.purchase}
           styleName="checkoutForm"
         >
-           
           {this.renderAppropriate(btnStr, cost, feeCost)}
+          {code.includes('plan') && (
+            <div styleName="planAccept">
+              <input type="checkbox" onChange={this.toggleTerms} /> I accept the
+              terms of the WDS Payment Plan
+            </div>
+          )}
           <div className="form-row">
             <Button className="submit">{`Purchase ${
               q > 1 ? 'Tickets' : 'Ticket'
             }`}</Button>
           </div>
-          {code.includes('plan') && <div styleName="planTerms">You will be charged $99 today and $186 per month for 3 months. Payment plan may not be cancelled nor refunded.</div>}
+          {code.includes('plan') && (
+            <div styleName="planTerms">
+              You will be charged $99 today and $186 per month for 3 months.
+              Payment plan may not be cancelled nor refunded.
+            </div>
+          )}
         </form>
         {this.renderProcessing()}
       </div>

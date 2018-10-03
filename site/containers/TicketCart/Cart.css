@@ -41,6 +41,19 @@
     margin: 60px 0 20px;
   }
 }
+.planAccept {
+  background: rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.planAccept input[type="checkbox"] {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
 .planTerms {
   color: #fff;
   font-size: 14px;
