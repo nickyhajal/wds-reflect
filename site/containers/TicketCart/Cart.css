@@ -49,6 +49,9 @@
   color: #fff;
   margin-bottom: 20px;
 }
+.planAccept a {
+  color: #fff;
+}
 .planAccept input[type="checkbox"] {
   width: 26px;
   height: 26px;

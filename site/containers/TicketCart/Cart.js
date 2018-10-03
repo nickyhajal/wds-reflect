@@ -484,8 +484,8 @@ class Cart extends React.Component {
           {this.renderAppropriate(btnStr, cost, feeCost)}
           {code.includes('plan') && (
             <div styleName="planAccept">
-              <input type="checkbox" onChange={this.toggleTerms} /> I accept the
-              terms of the WDS Payment Plan
+              <input type="checkbox" onChange={this.toggleTerms} /> <span>I accept <a href="/payment-plan-terms" target="_blank">the
+              terms of the WDS Payment Plan</a></span>
             </div>
           )}
           <div className="form-row">
