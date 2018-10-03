@@ -25,6 +25,7 @@ import EnsureAttendingAndHasProfile from '../containers/EnsureAttendingAndHasPro
 import Transfer from '../components/Transfer/Transfer';
 import CompleteBooking from '../containers/CompleteBooking';
 import Logout from '../containers/Logout';
+import AwardeePage from '../containers/SpeakerPage/AwardeePage';
 
 const routes = (
   <Route path="/" component={App}>
@@ -40,6 +41,7 @@ const routes = (
     <Route path="/login/:loginhash" component={HashLogin} />
     <Route path="/logout" component={Logout} />
     <Route path="/speaker/:id" component={SpeakerPage} />
+    <Route path="/awardee/:id" component={AwardeePage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
     <Route path="/be-there" component={TicketPurchase} />
