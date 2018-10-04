@@ -1,7 +1,7 @@
 name: "Global Video Academy - Kathleen & Joe",
 year: "2016",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/foundation/Kathleen-and-Joe+Sindorf.jpg",
-photo: "https://s3.amazonaws.com/el-files-wds/images/foundation/benamberlynnslavin.thumbnail.png",
+photo: "https://s3.amazonaws.com/el-files-wds/images/foundation/Kathleen-and-Joe%2BSindorf.thumbnail.png",
 video: "",
 quote: "",
 ---
