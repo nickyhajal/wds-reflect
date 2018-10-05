@@ -3,7 +3,7 @@ year: "2016",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/foundation/Ben-and-Amberlynn-Slavin.WDS.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/foundation/benamberlynnslavin.thumbnail.png",
 video: "",
-headerPosition: "-150px",  
+headerPosition: "-200px",  
 quote: "",
 ---
 **[SnapType](http://www.snaptypeapp.com/)** breaks down the barriers to education and helps students survive in a school system that wasn’t designed for them. The app enables students to complete any school worksheet on an iPad.
