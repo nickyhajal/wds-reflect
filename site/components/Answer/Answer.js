@@ -60,6 +60,7 @@ class Answer extends React.Component {
       });
     }
   }
+ 
   change(e) {
     let curr = this.state.question;
     if (curr) {
@@ -68,6 +69,7 @@ class Answer extends React.Component {
       curr = { question_id: this.props.question_id, answer: e.target.value };
     }
     this.setState({ question: curr });
+    this.props.onChange(curr)
   }
   render() {
     let btn = 'Save & Continue';
@@ -91,6 +93,7 @@ class Answer extends React.Component {
 Answer.defaultProps = {
   type: 'text',
   showButton: true,
+  onChange: () => {}
 };
 Answer.propTypes = {
   onChange: PropTypes.func,

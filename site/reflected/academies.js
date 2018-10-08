@@ -55,28 +55,6 @@ You'll have the opportunity to learn something new to help live your _own_ remar
   _Academies for this year have finished but will return for 2019. Please check back in the spring of 2019 for an all-new scheudle._ {'\n'}
 
 </Block></Section>
-<Section color="orange">
-  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-  <Block margin="50px 0">## Join us at WDS 2019; June 26 - July 1</Block>
-  <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
-  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
-    <Form
-      list="WDS 2019 Waiting List"
-      successMessage="Great, we'll let you know when sales start for WDS 2019!"
-      buttonStart="Get Notified"
-      buttonProgress="Sending..."
-      buttonSuccess="Success!"
-    >
-      <FormRow>
-        <Input id="full_name" placeholder="Your Full Name" />
-      </FormRow>
-      <FormRow>
-        <Input id="email" placeholder="Your Email Address" />
-      </FormRow>
-    </Form>
-  </Block>
-</Section>
-
 
 
 
