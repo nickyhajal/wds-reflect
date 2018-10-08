@@ -3,6 +3,7 @@ year: "2017",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/foundation/Andrew-and-Michelle.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/foundation/Andrew-and-Michelle.thumbnail.png",
 video: "",
+headerPosition: "-150px",      
 quote: "",
 ---
 We can all agree that self-care is extremely important, right? And I think we can all agree that educators, with taxing, demanding jobs, have an even greater need for support to ensure they are taken care of. That is what inspired Andrew Nance and Michelle Holdt to create **Self Care 101 for Educators**.

@@ -14,8 +14,8 @@
    ### When is the next WDS? 
       
    WDS 2019 will take place from June 25th until July 1st, 2019. The main events takes place over the WDS weekend, June 28th to June 30th.  
-      
-    ### How can I get a WDS ticket?
+   
+   ### How can I get a WDS ticket?
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
@@ -26,9 +26,9 @@
 <p>Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2019 emails, please contact our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they will be able to assist you.</p>
 
 ### What is the refund/cancellation policy for WDS tickets?
-    <p>All WDS tickets are <b>non-refundable and cannot be moved to a future year.</b></p> 
+    <p>All WDS tickets are <b>non-refundable.</b></p> 
 
-    ### Can I transfer a WDS 360 ticket?
+    ### Can I transfer a WDS 360 ticket to someone else?
 
 <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 17th (6 weeks prior to WDS). Starting <b>May 18th, 2019</b>, no further transfers or name changes will be possible. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p>
     
