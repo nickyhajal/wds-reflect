@@ -10,10 +10,10 @@
    * The initial payment is $99, followed by 3 payments of $186.
    * Payments are made via credit or debit card and charged automatically each month after the initial payment.
    * All payments are **non-refundable.**
-   * Once a plan has been completed, that WDS ticket is eligible to be transferred (if needed) until **May 17, 2019.**
-   * Payment plans cannot be transferred.
+   * Once a plan has been completed, that WDS ticket is eligible to be transferred (if needed) until **May 17, 2019.** Please note a **$100 transfer fee** must be successfully paid per ticket to complete the transfer.
+   * Payment plans are non-transferable.
    
-   Ready? [Let's go back to the purchase page.](https://worlddominationsummit.com/be-there)
+   Ready? [Take me back to the purchase page.](https://worlddominationsummit.com/be-there)
    
   </Block>
 </Section>
