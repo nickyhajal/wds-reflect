@@ -48,6 +48,9 @@
   display: flex;
   color: #fff;
   margin-bottom: 20px;
+  @media(--phone) {
+    margin-bottom: 40px;
+  }
 }
 .planAccept a {
   color: #fff;
