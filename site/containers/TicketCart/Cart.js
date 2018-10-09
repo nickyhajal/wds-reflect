@@ -110,8 +110,8 @@ class Cart extends React.Component {
   purchase(e) {
     e.preventDefault();
     e.stopPropagation();
-    if (this.state.code === 'wds2019plan' && !this.state.accepted) {
-      this.props.act.setCheckoutError('Please Accept the Payment Plan Terms');
+    if (!this.state.accepted) {
+      this.props.act.setCheckoutError('Please Accept the Terms and Conditions');
     } else {
       if (this.props.checkout.status !== 'process') {
         this.props.act.updateCheckoutStatus('process');
@@ -429,6 +429,7 @@ class Cart extends React.Component {
   render() {
     const { code } = this.state;
     const q = this.props.checkout.quantity;
+    const isPlan = code.includes('plan');
     const cost = (code === 'wds2019' ? C.ticketPrice : C.planStartPrice) * q;
     const feeCost = 10 * q;
     let btnStr = 'Complete Purchase';
@@ -482,12 +483,10 @@ class Cart extends React.Component {
           styleName="checkoutForm"
         >
           {this.renderAppropriate(btnStr, cost, feeCost)}
-          {code.includes('plan') && (
-            <div styleName="planAccept">
-              <input type="checkbox" onChange={this.toggleTerms} /> <span>I accept <a href="/payment-plan-terms" target="_blank">the
-              terms of the WDS Payment Plan</a></span>
-            </div>
-          )}
+          <div styleName="planAccept">
+            <input type="checkbox" onChange={this.toggleTerms} /> <span>I accept <a href={isPlan ? '/payment-plan-terms-and-conditions' : '/ticket-terms-and-conditions'} target="_blank">{`the ${isPlan ? 'WDS Payment Plan' : 'WDS Ticket'}
+            terms and conditions`}</a></span>
+          </div>
           <div className="form-row">
             <Button className="submit">{`Purchase ${
               q > 1 ? 'Tickets' : 'Ticket'
