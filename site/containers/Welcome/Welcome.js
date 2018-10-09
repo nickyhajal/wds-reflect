@@ -34,6 +34,7 @@ import Phone from '../../components/Phone/Phone';
 import Username from '../../components/Username/Username';
 import TwitterConnect from '../../components/TwitterConnect/TwitterConnect';
 import Progress from '../../components/Progress/Progress';
+import FourThings from '../../components/FourThings';
 
 const sections = [
   'Let\'s Get Started',
@@ -241,6 +242,24 @@ const parts = [
   ],
   [
     {
+      title: 'What are 4 things that delight you?',
+      content: (
+        <div>
+          <div>
+            <p>
+              We&apos;d love to know a few specific things that bring you joy or are meaningful to you (or both). Each should be a maximum of 17 characters.
+            </p>
+            <p>
+              Please only add things that you&apos;re comfortable sharing with others.
+            </p>
+          </div>
+        </div>
+      ),
+      customForm: (
+        <FourThings question_id="20" />
+      ),
+    },
+    {
       title: 'What are you excited about these days?',
       content: (
         <div>
@@ -276,7 +295,7 @@ const parts = [
       ),
     },
     {
-      title: 'What\'s your goal for WDS2018?',
+      title: 'What\'s your goal for WDS2019?',
       content: (
         <div>
           <p>
@@ -321,20 +340,6 @@ const parts = [
       ),
       customForm: (
         <Answer type="multi" question_id="11" label="How can you help?" />
-      ),
-    },
-    {
-      title: 'What\'s your favorite way to contribute to society at large?',
-      content: (
-        <div>
-          <p>
-            One of the 3 key principals of WDS is <i>Service</i>. We love to learn about
-            the ways people contribute and help attendees find new ways to serve.
-          </p>
-        </div>
-      ),
-      customForm: (
-        <Answer type="multi" question_id="19" label="How do you serve?" />
       ),
     },
     {

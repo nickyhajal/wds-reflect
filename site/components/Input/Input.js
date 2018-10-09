@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Input.css';
 
-const Input = ({ value, id, type, placeholder, onChange, css, values, pretext, height, postChange, className }) => {
+const Input = ({ value, id, type, placeholder, onFocus, onBlur, onChange, css, values, pretext, height, postChange, className, style }) => {
   let vals = values !== undefined ? values : {};
   let valId = id;
   if (valId.indexOf('[') > -1) {
@@ -30,7 +30,10 @@ const Input = ({ value, id, type, placeholder, onChange, css, values, pretext, h
           placeholder={placeholder}
           className={className}
           value={val}
+          style={style}
           onChange={change}
+          onFocus={onFocus}
+          onBlur={onBlur}
         />)
       }
     </div>

@@ -301,7 +301,7 @@ class Settings extends Component {
                   <form style={{ width: '100%' }} onSubmit={this.saveQuestions}>
                     <div styleName="answerShell">
                       <Answer
-                        type="multi"
+                        type="text"
                         question_id="8"
                         label="What's your favorite quote?"
                         showButton={false}
@@ -309,7 +309,7 @@ class Settings extends Component {
                         format="singleline"
                       />
                       <Answer
-                        type="multi"
+                        type="text"
                         question_id="16"
                         label="What's your favorite song to get pumped up?"
                         showButton={false}
@@ -317,7 +317,7 @@ class Settings extends Component {
                         format="singleline"
                       />
                       <Answer
-                        type="multi"
+                        type="text"
                         question_id="17"
                         label="What's your favorite treat to celebrate a job well-done?"
                         showButton={false}
@@ -325,7 +325,7 @@ class Settings extends Component {
                         format="singleline"
                       />
                       <Answer
-                        type="multi"
+                        type="text"
                         question_id="18"
                         label="What's your favorite beverage to kick back and relax?"
                         showButton={false}
@@ -333,7 +333,7 @@ class Settings extends Component {
                         format="singleline"
                       />
                       <Answer
-                        type="multi"
+                        type="text"
                         question_id="15"
                         label="What book has had the biggest impact on your life?"
                         showButton={false}
@@ -341,7 +341,7 @@ class Settings extends Component {
                         format="singleline"
                       />
                       <Answer
-                        type="multi"
+                        type="text"
                         question_id="19"
                         label="What's your favorite way to contribute to your community?"
                         showButton={false}
