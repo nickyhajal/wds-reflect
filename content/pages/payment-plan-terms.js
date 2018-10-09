@@ -6,7 +6,7 @@
     <Block width="100%" margin="40px 0 0 0" textAlign="center">## The Fine Print: WDS Payment Plan Terms</Block>
    
    Please review all of the following information carefully:
-   * The WDS payment plan is divided into 4 monthly payments for a **total of $657**
+   * The WDS payment plan is divided into 4 monthly payments for a **total of $657**.
    * The initial payment is $99, followed by 3 payments of $186.
    * Payments are made via credit or debit card and charged automatically each month after the initial payment.
    * All payments are **non-refundable.**
