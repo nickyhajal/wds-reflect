@@ -46,7 +46,7 @@
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 1: How WDS Works
         WDS is an unconventional event. How does the week work? What are the events that make up WDS? This should help.       
-          <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button> 
+          <Button to="https://worlddominationsummit.com/wds-how-it-works" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>      
         <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Lodging Info
