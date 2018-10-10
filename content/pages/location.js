@@ -78,7 +78,7 @@
     ## Lodging
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. 
     
-    **COMING SOON: We're finalizing our hotel partners for 2019 and be announcing them soon. Keep checking this page or stay tuned to your inbox for more information.**
+    **COMING SOON: We're finalizing our hotel partners for WDS 2019 and will be announcing them soon. Keep checking this page or stay tuned to your inbox for more information.**
     
     As reference, here are four amazing Portland properties (including our very own WDS Hotel™) we secured rooms with for this past WDS (2018), all within walking distance or a quick ride on public transit to WDS events and activities. 
 
