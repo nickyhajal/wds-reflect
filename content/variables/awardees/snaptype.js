@@ -1,6 +1,6 @@
 name: "SnapType - Ben & Amberlynn",
 year: "2016",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/foundation/Ben-and-Amberlynn-Slavin.WDS.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/foundation/BenandAmberlynn-SnapType.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/foundation/benamberlynnslavin.thumbnail.png",
 video: "",
 headerPosition: "-200px",  
