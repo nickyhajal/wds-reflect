@@ -56,7 +56,7 @@ class TicketCounter extends React.Component {
     const sval = padLeft(Math.floor(((diff % 86400) % 3600) % 60), 2, '0');
     return (
       <div styleName="timer">
-        <h3>Final Ticket Sales for WDS End in:</h3>
+        <h3>Ticket Sales Ends in:</h3>
         <div styleName="timerBlock">
           {dval}
           <span>Days</span>
