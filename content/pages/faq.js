@@ -19,7 +19,11 @@
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
-<p><b>Tickets for WDS 2019 will be available later this year!</b> Join the waitlist to be the first to know when they go live <Link to="http://madmimi.com/signups/aea67a30548f4ac1a00b9e5b1f15efa3/join">WDS 2019 wait list</Link></p>
+<p><b>Tickets for WDS 2019 are on sale now!</b> Get your ticket(s) here: <Link to="https://worlddominationsummit.com/join-us">register for WDS 2019.</Link></p>
+
+  ### Do you offer a payment plan for tickets?
+
+<p>Yes! The first initial payment is <b>$99</b>, followed by <b>three payments of $186</b> for a total of <b>$657</b> (for this ticket round). All payments are non-refundable, and you can pay for up to 3 tickets using a payment plan. Just click on the <https://worlddominationsummit.com/be-there">payment plan option</a> on the purchase page.
 
 ### I've purchased a WDS ticket, what do I do next? 
 
@@ -28,11 +32,11 @@
 ### What is the refund/cancellation policy for WDS tickets?
     <p>All WDS tickets are <b>non-refundable.</b></p> 
 
-    ### Can I transfer a WDS 360 ticket to someone else?
+    ### Can I transfer a WDS ticket to someone else?
 
 <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 17th (6 weeks prior to WDS). Starting <b>May 18th, 2019</b>, no further transfers or name changes will be possible. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p>
     
-    <p>To transfer your 360 ticket please email our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for your unique transfer link.</p>
+    <p>To transfer your WDS ticket please email our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for your unique transfer link.</p>
 
  <p><i>*All WDS tickets are assigned to a specific person using a unique name and email -- this is required for attendance. This process takes place when a ticket is initially purchased (or by a specific date for early-bird ticket purchasers). Transferring a ticket and assigning a ticket are two different processes. Only assigned tickets can be transferred.</i></p>
        
