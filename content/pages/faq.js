@@ -23,7 +23,7 @@
 
   ### Do you offer a payment plan for tickets?
 
-<p>Yes! The first initial payment is <b>$99</b>, followed by <b>three payments of $186</b> for a total of <b>$657</b> (for this ticket round). All payments are non-refundable, and you can pay for up to 3 tickets using a payment plan. Just click on the <https://worlddominationsummit.com/be-there">payment plan option</a> on the purchase page.
+<p>Yes! The first initial payment is <b>$99</b>, followed by <b>three payments of $186</b> for a total of <b>$657</b> (for this ticket round). All payments are non-refundable, and you can pay for up to 3 tickets using a payment plan. Just click on the <Link to="https://worlddominationsummit.com/be-there">payment plan option</Link> on the purchase page.</p>
 
 ### I've purchased a WDS ticket, what do I do next? 
 
