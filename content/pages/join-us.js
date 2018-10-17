@@ -18,7 +18,7 @@ preload
   
  <p><i>All that’s missing is YOU!</i></p>  
 
-<p>The first round of all-access WDS 360 tickets are <b>$647</b> per ticket (<b><s>$697</s></b> regular price) and are sold on a first-come, first-served basis.</p>
+<p>The first round of all-access WDS 360 tickets are <b>$647*</b> per ticket (<b><s>$697</s></b> regular price) and are sold on a first-come, first-served basis.</p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
   
  <p><b>To be a part of WDS 2019, just click the button below:</b></p> 
@@ -26,6 +26,9 @@ preload
   <Button align="center" fitToText to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/be-there'
   )}>Join Us in 2019!</Button>
+
+ <p><i><b>*New for 2019:</b> WDS now offers a payment plan option for ticket purchases. <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions">Click here to learn more</a></i></p> 
+
          </Block>
 </Section>
        <Section color="sea" bound={false}>
