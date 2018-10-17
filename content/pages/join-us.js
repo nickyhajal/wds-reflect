@@ -26,8 +26,8 @@ preload
   <Button align="center" fitToText to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/be-there'
   )}>Join Us in 2019!</Button>
-
- <p><i><b>*New for 2019:</b> WDS now offers a payment plan option for ticket purchases. <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions">Click here to learn more</a></i></p> 
+ <p></p>
+ <p><i><b>*New for 2019:</b> WDS now offers a payment plan option. <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions">Click here to learn more</a></i></p> 
 
          </Block>
 </Section>
