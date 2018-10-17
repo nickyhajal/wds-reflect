@@ -27,7 +27,7 @@ preload
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/be-there'
   )}>Join Us in 2019!</Button>
  <p></p>
- <p><i><b>*New for 2019:</b> WDS now offers a payment plan option. <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions">Click here to learn more</a></i></p> 
+ <p><i>*New for 2019: WDS now offers a payment plan option. <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions">Click here to learn more.</a></i></p> 
 
          </Block>
 </Section>
