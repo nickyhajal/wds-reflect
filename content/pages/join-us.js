@@ -14,20 +14,18 @@ preload
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-<p>Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams.</p>  
-  
- <p><i>All that’s missing is YOU!</i></p>  
+<p>Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams.</p>
+
+ <p><i>All that’s missing is YOU!</i></p>
 
 <p>The first round of all-access WDS 360 tickets are <b>$647*</b> per ticket (<b><s>$697</s></b> regular price) and are sold on a first-come, first-served basis.</p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
-  
- <p><b>To be a part of WDS 2019, just click the button below:</b></p> 
-    
-  <Button align="center" fitToText to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/be-there'
-  )}>Join Us in 2019!</Button>
+
+<p><b>To be notified when WDS 360 tickets go on sale next use the button below:</b></p>
+
+     <Button modal="joinUs" fitToText>Join the Wait List!</Button>
  <p></p>
- <p><i>*New for 2019: WDS now offers a payment plan option. <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions">Click here to learn more.</a></i></p> 
+ <p><i>*New for 2019: WDS now offers a payment plan option. <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions">Click here to learn more.</a></i></p>
 
          </Block>
 </Section>
@@ -57,7 +55,7 @@ preload
     </Block>
      <Block type="image" src="photos/society-hotel.jpg">
       ## Hotel Discounts
-      Each year we partner with iconic Portland properties to offer our attendees special discounted prices when booking your stay in Portland.  
+      Each year we partner with iconic Portland properties to offer our attendees special discounted prices when booking your stay in Portland.
     </Block>
     <Block type="image" src="photos/JoinUs/image-parties.jpg">
       ## Celebrations
@@ -65,7 +63,7 @@ preload
     </Block>
     <Block type="image" src="photos/JoinUs/image-communities.jpg">
       ## Community
-      Once you attend WDS you'll become an alum and part of a global network of over 10,000 adventurers who will continue to support you and your journey. 
+      Once you attend WDS you'll become an alum and part of a global network of over 10,000 adventurers who will continue to support you and your journey.
     </Block>
   </Grid>
 </Block>
