@@ -93,8 +93,9 @@ To _Community, Adventure,_ and _Service_,
 
 Chris Guillebeau
 
-P.S. Tickets for WDS 2019 are on sale now! Reserve your spot using the button below.
+P.S. If you'd like to be notified when tickets go on sale next for WDS 2019, sign-up using the button below.
 
-<Button to="https://worlddominationsummit.com/join-us" newWindow={true} styling="orange" fitToText>Register for WDS 2019</Button> 
- </Block>
+<Button modal="joinUs" fitToText>Join the Wait List!</Button> 
+  
+  </Block>
 </Section>;
