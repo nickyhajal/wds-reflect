@@ -1,6 +1,6 @@
 <Section color="orange">
 <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
-<Block margin="50px 0">## Join us at WDS 2019; June 27 - July 1</Block>
+<Block margin="50px 0">## Join us at WDS 2019; June 25 - July 1</Block>
 <Block margin="50px 0">###  Be the first to get notified when tickets go on sale next.</Block>
 <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>
   <Form
