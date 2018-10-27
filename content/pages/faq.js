@@ -19,11 +19,11 @@
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
-<p><b>Tickets for WDS 2019 are on sale now!</b> Get your ticket(s) here: <Link to="https://worlddominationsummit.com/join-us">register for WDS 2019.</Link></p>
+<p><b>Tickets for WDS 2019 will go on sale again soon!</b> To be the first to be notified when tickets go on sale next, join the official waitlist: <Link to="http://madmimi.com/signups/aea67a30548f4ac1a00b9e5b1f15efa3/join">WDS 2019 Waitlist.</Link></p>
 
   ### Do you offer a payment plan for tickets?
 
-<p>Yes! The first initial payment is <b>$99</b>, followed by <b>three payments of $186</b> for a total of <b>$657</b> (for this ticket round). All payments are non-refundable, and you can pay for up to 3 tickets using a payment plan. Just click on the <Link to="https://worlddominationsummit.com/be-there">payment plan option</Link> on the purchase page.</p>
+<p>Yes! The first initial payment is <b>$99</b>, followed by <b>three payments of $186</b> for a total of <b>$657</b> (for the first ticket round which ended on 10/27/2018). All payments are non-refundable, and you can pay for up to 3 tickets using a payment plan.</p>
 
 ### I've purchased a WDS ticket, what do I do next? 
 
