@@ -13,7 +13,7 @@
    * Once a plan has been completed, that WDS ticket is eligible to be transferred (if needed) until **May 17, 2019.** Please note a **$100 transfer fee** must be successfully paid per ticket to complete the transfer.
    * Payment plans are non-transferable.
    
-   Ready? [Take me back to the purchase page.](https://worlddominationsummit.com/be-there)
+ [Take me back to the WDS FAQs page.](https://worlddominationsummit.com/faq)
    
   </Block>
 </Section>
