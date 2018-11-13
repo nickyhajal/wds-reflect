@@ -89,8 +89,8 @@
   
  <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/society-hotel.jpg">
-      ## WDS Hotel™
-     The WDS Hotel™ (a.k.a. The Society Hotel) was originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
+      ## The Society Hotel
+     Originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
     </Block>
 
