@@ -34,11 +34,11 @@
   <div className="clear" />
 </Section>
   <Section color="canvas">
-  <Block>## Speakers and Special Guests From WDS 2018</Block>
+  <Block>## Speakers and Special Guests for WDS 2019</Block>
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
     
-    Check out our speakers from this past WDS 2018:
+    Check out this year's lineup of superheroes:
 
   </Block>
   <Tabs style="dots">
@@ -57,6 +57,14 @@
        **Tania Katan** is an inspirational speaker, author, creative consultant and co-creator of the #ItWasNeverADress campaign. Tania’s work has been featured in *The New York Times*, *USA Today*, *HuffPost*, *Time*, *Adweek*, *BuzzFeed*, *Mashable*, and *CNN*. 
                                                                                                                                             
        Tania’s new book, "Creative Trespassing", (Penguin Random House) launches February 2019. Tania travels the world showing people and organizations how to disrupt the mindsets keeping us stuck and start a creative revolution from our cubicles! For more of Katan’s productive disruptions, [www.taniakatan.com](https://taniakatan.com/)
+      </Block>
+    </Tab>
+      <Tab title="Coming Soon">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/coming-soon.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## More Speakers Coming Soon!
+                                                                                                                                              
+       Over the next couple of months we'll be announcing more speakers and special guests for WDS 2019. To receive future speaker announcements and get notified when tickets go on sale next, join the **[WDS 2019 waitlist](https://worlddominationsummit.com/join-us)**.
       </Block>
     </Tab>
   </Tabs>
