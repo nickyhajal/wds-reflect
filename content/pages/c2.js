@@ -123,7 +123,7 @@
 
   <Block type="image" src="photos/Duniway-portland-WDS-partner.jpg">
       ## Duniway Hotel
-      This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Enjoy on-site dining at the popular Jackrabbit PDX, workout and/or swim in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
+      This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Enjoy on-site dining at the popular Jackrabbit PDX from chef Chris Cosentino, workout and/or swim in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
       
       IMPORTANT: Enter **WDS** into the **Group/Convention Code** when using the button below. 
       
@@ -143,17 +143,17 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="images/wds-hotel/Bunk+Command.pngg">
       ### Society Hotel 
-      <Button to="https://thesocietyhotel.com/accommodations/" newWindow={true} >Learn More</Button> 
+      A unique Portland hotel with a communal experience. [Learn more>>](https://thesocietyhotel.com/accommodations/)
 
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel
-      <Button to="https://www.nwportlandhostel.com/" newWindow={true} >Learn More</Button> 
+      Everything you'd expect from a great hostel experience. [Learn more>>](https://www.nwportlandhostel.com/)
 
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb near WDS
-   <Button to="https://bit.ly/2M0DK6U" newWindow={true} >Learn More</Button> 
+    A great option for people looking to share a accomodations.[Learn more>>](https://bit.ly/2M0DK6U)
     </Block>
   </Grid>
   </Block>
