@@ -88,7 +88,7 @@
   </Block>
   
  <Grid margin="60px 0 -20px 0">
-    <Block type="image" src="photos/WDS-Partner-Hotels-Location-2019.png">
+    <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
       ## Perfectly Located
      Originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
        <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
