@@ -141,19 +141,20 @@
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
-    <Block type="caption" src="images/wds-hotel/Bunk+Command.png">
+    <Block type="caption" src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png
+">
       ### Society Hotel 
-      A unique hotel with a communal experience. [Learn more>>](https://thesocietyhotel.com/accommodations/)
+      A unique, communal hotel experience. [Learn more>>](https://thesocietyhotel.com/accommodations/)
 
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel
-     Everything you'd expect from a great hostel experience. [Learn more>>](https://www.nwportlandhostel.com/)
+     A great hostel with a great location. [Learn more>>](https://www.nwportlandhostel.com/)
 
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb near WDS
-      A great option for those hoping to share accomdations. [Learn more>>](https://bit.ly/2M0DK6U)
+      Options for group accommodations. [Learn more>>](https://bit.ly/2M0DK6U)
     </Block>
   </Grid>
   </Block>
