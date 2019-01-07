@@ -33,7 +33,9 @@
   <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Your Base in Portland
-    Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. WDS is based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. 
+    Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. 
+    
+    WDS is not confined to one building -- Portland is our venue! Attendees will gather throughout the city for different events such as Academies, Attendee-led Meetups, and our epic parties. We'll even have a dedicated HQ spot for attendees to use and connect with one another throughout the week. For WDS 2019, our main-stage will be based out of the **[Newmark Theatre](https://goo.gl/maps/WGGVeNy8sn42)**. Almost all WDS venues are located near light-rail stops and extremely walkable. 
   </Block>
     
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
@@ -77,40 +79,46 @@
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Lodging
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. 
-    
-    **COMING SOON: We're finalizing our hotel partners for WDS 2019 and will be announcing them soon. Keep checking this page or stay tuned to your inbox for more information.**
-    
-    As reference, here are four amazing Portland properties (including our very own WDS Hotel™) we secured rooms with for this past WDS (2018), all within walking distance or a quick ride on public transit to WDS events and activities. 
+        
+    This year we've secured rooms at these amazing and iconic Portland properties:  
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="photos/modera-lobby.png" width="100%" height="302" />
+    <Image src="photos/Duniway-Lobby-WDS-Hotel-Partner.jpg" width="100%" height="560" />
   </Block>
   
  <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
       ## Perfectly Located
-     Originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
-       <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
+      Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
+      
+      Need help deciding which property to stay at? Contact our concierge team using the button below.
+      
+     <p>PDX Aiport to Downtown <Link to="https://goo.gl/maps/hHYyA6VihZN2">(Google Directions)</Link></p>
+       
+      <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
     </Block>
 
-    <Block type="image" src="photos/Paramount-Hotel.jpg">
+ <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
+      
+      Use the
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
  </Block>
 
     <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
-      ## Hotel Modera
-      A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. 
+      ## The Hoxton Hotel
+      A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.
       <p>0.1 Mi from Base <Link to="https://goo.gl/maps/mAa6guqWiJt">(Google Directions)</Link></p> 
 </Block>
 
   <Block type="image" src="photos/Hotel-Rose-Portland.jpg">
-      ## Hotel Rose
-      Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! 
-      <p>0.5 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
+      ## Duniway Hotel
+      This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Enjoy on-site dining at the popular Jackrabbit PDX, workout and/or swim in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
+      <p>0.2 Mi from Base <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
 </Block>
+
 
   </Grid>
   
