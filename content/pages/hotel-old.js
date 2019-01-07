@@ -41,10 +41,6 @@
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
       
-      <div class="map-responsive">
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_mhDCZ3OyYii_AVMbwAH4piyBstqlzJV" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-      
     </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
       <Block>
