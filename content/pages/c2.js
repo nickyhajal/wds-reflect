@@ -1,101 +1,194 @@
+<Script>
+  import { GoogleMap, Marker, withGoogleMap } from 'react-google-maps';
+
+  let mapComponent = false;
+  function handleMapLoad(map) {
+    mapComponent = map;
+    if (map) {
+    }
+  }
+
+  const PDXLocationMap = withGoogleMap(props => (
+    <GoogleMap
+      ref={props.onMapLoad}
+      defaultZoom={13}
+      onMapLoad={handleMapLoad}
+      defaultCenter={{ lat: 45.516791, lng: -122.681333 }}  
+      onClick={props.onMapClick}
+    >
+      <Marker
+        position={{ lat: 45.516791, lng: -122.681333 }}
+      />
+    </GoogleMap>
+  ));
+</Script>
 <Section
-  headerImage="hero/schedule.jpg"
+  headerImage="hero/location.jpg"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/schedule.png" width="421" height="151" className="scriptHeader" preload/>
-<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## How the WDS Schedule Works
-    As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS ticket](https://worlddominationsummit.com/join-us) gives you access to it all; the main events plus special discounts, bonuses, and surprises.  
-        </Block>
- <Image src="photos/audience.png"
-    width="426" height="263"
-    margin="0 0 -100px -50px"
-    mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
-    preload
-  />
-  <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
-    ## A Week of WDS: June 25th - July 1st, 2019
-
-    - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday (6/26)** Academies, Small Group Activities and Attendee-Led Meetups
-    <li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and the Opening Party</li>
-    <li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the Big Adventure</li>
-    <li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
-    <li><b className="highlight highlight-3">Sunday (6/30)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li>
-    - **Monday (7/01)** Academy and Attendee-Led Meetups
-      
-      <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</i>
+  <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## Your Base in Portland
+    Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. WDS is based out of the Newmark Theatre in downtown Portland, located two blocks from a light-rail stop and directly across from the south park blocks. 
   </Block>
-  <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
-  <div className="clear" />
-</Section>
-  <Section color="canvas">
-  <Block>## Speakers and Special Guests for WDS 2019</Block>
-  <Block cols="6" className="bigger">
-    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
     
-    Check out this year's lineup of superheroes:
-
-  </Block>
-  <Tabs style="dots">
-    <Tab title="Jill">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Jill-Schlesinger-WDS-2019-speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-        ## Jill Schlesinger
-      **Jill Schlesinger**, CFP®, is the Emmy-nominated and Gracie Award Winning Business Analyst for CBS News. Jill covers the economy, markets, investing and all other things money related on TV, and the “Jill on Money” podcast, radio show and blog. Jill’s radio show recently won the 2018 Gracie Award for Best National Talk Show. Jill’s first book, "The Dumb Things Smart People Do With Their Money", will be available in February 2019 by Ballantine Books.
-         </Block>
-    </Tab>
-    <Tab title="Tania">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Tania-Katan-WDS-2019-speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Tania Katan
-                                                                                                                                              
-       **Tania Katan** is an inspirational speaker, author, creative consultant and co-creator of the #ItWasNeverADress campaign. Tania’s work has been featured in *The New York Times*, *USA Today*, *HuffPost*, *Time*, *Adweek*, *BuzzFeed*, *Mashable*, and *CNN*. 
-                                                                                                                                            
-       Tania’s new book, "Creative Trespassing", (Penguin Random House) launches February 2019. Tania travels the world showing people and organizations how to disrupt the mindsets keeping us stuck and start a creative revolution from our cubicles! For more of Katan’s productive disruptions, [www.taniakatan.com](https://taniakatan.com/)
-      </Block>
-    </Tab>
-      <Tab title="Coming Soon">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/coming-soon.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## More Speakers Coming Soon!
-                                                                                                                                              
-       Over the next couple of months we'll be announcing more speakers and special guests for WDS 2019. To receive future speaker announcements and get notified when tickets go on sale next, join the **[WDS 2019 waitlist](https://worlddominationsummit.com/join-us)**.
-      </Block>
-    </Tab>
-  </Tabs>
-  <div class="clear" />
-</Section>  
-   
-<Section
-  color="white"
->
-    
-  <SpeakerList title="2018 Speakers" year="2018" />
-  <SpeakerList title="Alumni Speakers" year="alumni" />
-  <Grid margin="60px 0 -20px 0">
-    <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
-      ## Portland
-      Our home base since year one. Learn more about our beloved city and confirm whether or not all the fun things you've heard is true (they probably are).
-      <Button to="/location">Learn More</Button>
+  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
+    <Block width="100%">
+      ## Welcome to Portland
     </Block>
-    <Block type="image" src="photos/JoinUs/image-academies.jpg" label="Coming Soon">
-      ## Academies
-      These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields.
-      <Button to="/academies">Learn More</Button>
+    <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
+      <PDXLocationMap
+        containerElement={
+          (is.phone() ?
+            <div style={{ height: '220px', width: '260px' }} /> :
+            <div style={{ height: '400px', width: '510px' }} />
+          )
+        }
+        mapElement={
+          (is.phone() ?
+            <div style={{ height: '220px', width: '260px' }} /> :
+            <div style={{ height: '400px', width: '510px' }} />
+          )
+        }
+      />
+    </Block>
+    <Block anchor="left" width="370px" textAlign="left">
+      <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
+        ### Newmark Theatre
+        ### 1037 SW Broadway,
+        ### Portland, OR 97205
+      </Block>
+      <Block type="caption" src="photos/airport.png" width="316" css={{ left: '50px', top: '11px' }}
+        mobile={{
+          all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
+          phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
+        }}
+      >
+        ### PDX Airport
+        <Link to="https://goo.gl/maps/R3R83DZ6sqy">12.6 Mi from Base</Link>
+      </Block>
+    </Block>
+    <div className="clear" />
+  </Block>
+  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## Lodging
+    Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. 
+    
+    **COMING SOON: We're finalizing our hotel partners for WDS 2019 and will be announcing them soon. Keep checking this page or stay tuned to your inbox for more information.**
+    
+    As reference, here are four amazing Portland properties (including our very own WDS Hotel™) we secured rooms with for this past WDS (2018), all within walking distance or a quick ride on public transit to WDS events and activities. 
+
+</Block>
+  <Block cols="8" bleed={false} margin="0 0 80px">
+    <Image src="photos/modera-lobby.png" width="100%" height="302" />
+  </Block>
+  
+ <Grid margin="60px 0 -20px 0">
+    <Block type="image" src="images/photos/WDS-Partner-Hotels-Location-2019.png">
+      ## Perfectly Located
+     Originally built in 1881 as a boarding house for sailors and is now a modern and charming hotel featuring hostel style rooms, bunk beds, and private suites. Featuring hardwood floors and historical artifacts the hotel is a glimpse into Portland's past. 
+       <p>0.8 Mi from Base <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google Directions)</Link></p>
+    </Block>
+
+    <Block type="image" src="photos/Paramount-Hotel.jpg">
+      ## Paramount Hotel 
+      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
+      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
+ </Block>
+
+    <Block type="image" src="photos/Hotel-Modera-Exterior.jpg">
+      ## Hotel Modera
+      A stylish luxury boutique hotel in downtown Portland, Hotel Modera is located in the center of the city's theater district, surrounded by fine restaurants, art galleries, museums and entertaining nightlife. The hotel's elegant atmosphere reflects the vibrancy and unique beauty of Portland itself. 
+      <p>0.1 Mi from Base <Link to="https://goo.gl/maps/mAa6guqWiJt">(Google Directions)</Link></p> 
+</Block>
+
+  <Block type="image" src="photos/Hotel-Rose-Portland.jpg">
+      ## Hotel Rose
+      Colorful, fun, and a perfect example of an authentic "Portland" experience. Hotel Rose is conveniently located directly across from Tom McCall Waterfront Park on the sparkling Willamette River and in walking distance to WDS HQ. Don't forget about their complimentry bicycles to cruise and explore the city! 
+      <p>0.5 Mi from Base <Link to="https://goo.gl/maps/X4Wo8hpBRQk">(Google Directions)</Link></p> 
+</Block>
+
+  </Grid>
+  
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## Alternative Lodging Options
+    If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:
+  </Block>
+  <Block cols="8" bleed={false} margin="0 0 80px">
+  <Grid numCols="3" tabletCols="2" width="968">
+    <Block type="caption" src="photos/Portland.State.University.Summer.Conference.Housing.png">
+      ### Portland State (0.6 Mi)
+    </Block>
+    <Block type="caption" src="photos/Portland-Hostel.jpg">
+     ### NW Hostel (1.0 Mi) 
+    </Block>
+    <Block type="caption" src="photos/PDX-airbnb.jpg">
+      ### Airbnb near WDS
     </Block>
   </Grid>
-  <Block type="padded" background="sea">
-    <Image src="icon/outline-bed.png" width="101" height="78"  align="center" margin="0 0 40px 0" />
-        <Block cols="5">
-      ## How Can We Help? 
-      Have questions about WDS? Trying to find the best donut in Portland? Looking for a high-five? Let our concierge team know how we can help make your WDS experience great.
-           <Button to="mailto:concierge@wds.fm" newWindow={true} styling="orange" fitToText>Email Concierge Team</Button> 
+  </Block>
+  <div className="clear" />
+  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="orange">
+    <Block anchor="left" align="none" width="222" margin="0 40px 0 0">
+      <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="28px 0 48px 0" />
+      <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>
     </Block>
+    <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
+      <Image src="icon/bike-green-circle.png" align="center" width="145" height="130" margin="28px 0 48px 0" />
+      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
+    </Block>
+    <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
+      ## Transportation
+      Portland has one the best public transit systems (TriMet) in the country - no need to rent a car during your whole time in the city. For easy access to and from the airport to downtown, try Portland’s fast-and-easy light rail service (MAX) for just $2.50. 
+
+Other alternative forms of transportation include the Street Car, Car2Go, Uber, Lyft, and for the cyclists, Portland’s new bikeshare program Biketown.
+    </Block>
+    <div className="clear" />
+  </Block>
+  <Block margin="125px 0 50px 0">
+    ## Food & Dining
+    <Grid numCols="3" tabletCols="2" width="968">
+      <Block type="image-narrow" src="photos/food-carts.jpg">
+        ## Food Carts
+        <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>View More</Button>
+      </Block>
+      <Block type="image-narrow" src="photos/restaurants.jpg">
+        ## Restaurants
+        <Button to="http://pdx.eater.com/maps/best-portland-restaurants-38" newWindow={true} fitToText>View More</Button>
+      </Block>
+      <Block type="image-narrow" src="photos/farmers-market.jpg">
+        ## Farmer&apos;s Markets
+        <Button to="http://www.portlandfarmersmarket.org/" newWindow={true} fitToText>View More</Button>
+      </Block>
+    </Grid>
+  </Block>
+  <Block margin="125px 0 50px 0">
+    <Block cols="6">
+      ## The City
+      You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       
+    </Block>
+    <Grid numCols="3" tabletCols="2" width="968">
+      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Neighborhoods: Hawthorne
+        Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
+      </Block>
+      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Neighborhoods: NW & Pearl
+        Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.
+      </Block>
+      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Powell’s Books
+        No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at 1005 W Burnside.
+      </Block>
+      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Waterfront
+        Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.
+      </Block>
+    </Grid>
   </Block>
 </Section>
 <Import id="join-us" />
