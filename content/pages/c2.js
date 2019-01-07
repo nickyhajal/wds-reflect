@@ -154,7 +154,7 @@
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb near WDS
-      Options for group accommodations. [Learn more>>](https://bit.ly/2M0DK6U)
+      Best for group accommodations. [Learn more>>](https://bit.ly/2M0DK6U)
     </Block>
   </Grid>
   </Block>
