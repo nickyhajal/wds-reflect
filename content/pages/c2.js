@@ -103,8 +103,8 @@
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
       
-      Use the button below or call (503)223-9900 to speak with the front desk. Make sure to reference WDS 2019 for the special group rate.
-      <p>0.1 mi from main-stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
+      Use the button below or call **(503)223-9900**. Make sure to reference WDS 2019 for the special group rate.
+      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
         
      <Button to="https://reservations.travelclick.com/104209?groupID=2388512" newWindow={true} >Book the Paramount</Button> 
 
@@ -114,9 +114,9 @@
       ## The Hoxton Hotel
       A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.
       
-      Use the botton below or call (503)770-0500 to speak with the front desk. Make sure to reference WDS 2019 for the special group rate.
+      Use the botton below or call **(503)770-0500**. Make sure to reference WDS 2019 for the special group rate.
         
-     <p>0.7 mi from main-stage <Link to="https://goo.gl/maps/CQtH6AnvrR12">(Google Directions)</Link></p> 
+     <p>0.7 Mi From the Main Stage <Link to="https://goo.gl/maps/CQtH6AnvrR12">(Google Directions)</Link></p> 
         
     <Button to="http://bookings.ihotelier.com/bookings.jsp?groupID=2450681&hotelID=106938" newWindow={true} >Book the Hoxton</Button> 
 </Block>
@@ -127,7 +127,7 @@
       
       IMPORTANT: Enter **WDS** into the **Group/Convention Code** when using the button below. 
       
-        <p>0.2 mi from main-stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
+        <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
   <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >Book the Duniway</Button> 
 
 </Block>
@@ -143,19 +143,16 @@
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="images/wds-hotel/Bunk+Command.pngg">
       ### Society Hotel 
-      About a mile away from the WDS main-stage, this unique Portland hotel features private rooms, private rooms with shared baths, and a bunk-room for a unique communal experience. 
       <Button to="https://thesocietyhotel.com/accommodations/" newWindow={true} >Learn More</Button> 
 
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel
-    A favorite of WDS attendees and hostel lovers. Everything you expect from a great hostel experience and in a great location. There's limited space so book asap!
       <Button to="https://www.nwportlandhostel.com/" newWindow={true} >Learn More</Button> 
 
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb near WDS
-    Portland is Airbnb friendly and it's a great option for people looking to share a space, especially for larger groups. Make sure you book asap as summer is a popular time to visit Portland.
    <Button to="https://bit.ly/2M0DK6U" newWindow={true} >Learn More</Button> 
     </Block>
   </Grid>
