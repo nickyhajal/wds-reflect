@@ -114,7 +114,7 @@
       ## The Hoxton Hotel
       A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.
       
-      Use the botton below or call **(503)770-0500**. Make sure to reference WDS 2019 for the special group rate.
+      Use the botton below or call **(503)770-0500**. Make sure to reference **WDS 2019** for the special group rate.
         
      <p>0.7 Mi From the Main Stage <Link to="https://goo.gl/maps/CQtH6AnvrR12">(Google Directions)</Link></p> 
         
@@ -125,7 +125,7 @@
       ## Duniway Hotel
       This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Enjoy on-site dining at the popular Jackrabbit PDX from chef Chris Cosentino, workout and/or swim in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
       
-      IMPORTANT: Enter **WDS** into the **Group/Convention Code** when using the button below. 
+      IMPORTANT: Look for **"more options"** and then *"add special rate code"**. Enter **WDS** into the **Group Code**. 
       
         <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
   <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >Book the Duniway</Button> 
