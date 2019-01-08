@@ -125,7 +125,7 @@
       ## Duniway Hotel
       This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Enjoy on-site dining at the popular Jackrabbit PDX from chef Chris Cosentino, workout and/or swim in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
       
-      IMPORTANT: Look for **"more options"** and then *"add special rate code"**. Enter **WDS** into the **Group Code**. 
+      IMPORTANT: Look for **"more options"** and then **"add special rate code"**. Enter **WDS** into the **Group Code**. 
       
         <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
   <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >Book the Duniway</Button> 
@@ -154,7 +154,7 @@
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb near WDS
-      Best for group accommodations. [Learn more>>](https://bit.ly/2M0DK6U)
+      Best for groups. [Learn more>>](https://bit.ly/2M0DK6U)
     </Block>
   </Grid>
   </Block>
@@ -181,15 +181,15 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-narrow" src="photos/food-carts.jpg">
         ## Food Carts
-        <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>View More</Button>
+        <Button to="https://goo.gl/jBmx05" newWindow={true} fitToText>Learn More</Button>
       </Block>
       <Block type="image-narrow" src="photos/restaurants.jpg">
         ## Restaurants
-        <Button to="http://pdx.eater.com/maps/best-portland-restaurants-38" newWindow={true} fitToText>View More</Button>
+        <Button to="http://pdx.eater.com/maps/best-portland-restaurants-38" newWindow={true} fitToText>Learn More</Button>
       </Block>
       <Block type="image-narrow" src="photos/farmers-market.jpg">
         ## Farmer&apos;s Markets
-        <Button to="http://www.portlandfarmersmarket.org/" newWindow={true} fitToText>View More</Button>
+        <Button to="http://www.portlandfarmersmarket.org/" newWindow={true} fitToText>Learn More</Button>
       </Block>
     </Grid>
   </Block>
