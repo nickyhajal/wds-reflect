@@ -88,16 +88,6 @@
   </Block>
   
  <Grid margin="60px 0 -20px 0">
-    <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
-      ## Perfectly Located
-      Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
-      
-      Need help deciding which property to stay at? Contact our concierge team using the button below.
-      
-     <p>PDX Airport to Downtown <Link to="https://goo.gl/maps/hHYyA6VihZN2">(Google Directions)</Link></p>
-       
-      <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
-    </Block>
 
  <Block type="image" src="photos/Paramount-Hotel.jpg">
       ## Paramount Hotel 
@@ -125,31 +115,40 @@
       ## Duniway Hotel
       This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Enjoy on-site dining at the popular Jackrabbit PDX from chef Chris Cosentino, workout and/or swim in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
       
-      IMPORTANT: Look for **"more options"** and then **"add special rate code"**. Enter **WDS** into the **Group Code**. 
+      At the top of the booking page, look for **"more options"**, then **"add special rate code"**. Enter **WDS** into the **Group Code**. 
       
         <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
   <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >Book the Duniway</Button> 
-
 </Block>
 
+ <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
+      ## Perfectly Located
+      Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
+      
+      Need help deciding which property to stay at? Contact our concierge team using the button below.
+      
+     <p>PDX Airport to Downtown <Link to="https://goo.gl/maps/hHYyA6VihZN2">(Google Directions)</Link></p>
+       
+      <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
+    </Block>
 
   </Grid>
   
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Alternative Lodging Options
-    If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a couple of WDS attendee favorites:
+    If you can&apos;t get a room at one of these hotels or just want to do something else, there are numerous other options. Here are a some WDS attendee favorites:
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
     <Block type="caption" src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png
 ">
       ### Society Hotel 
-      A unique, communal hotel experience. [Learn more>>](https://thesocietyhotel.com/accommodations/)
+      A fun communal experience. [Learn more>>](https://thesocietyhotel.com/accommodations/)
 
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel
-     A great hostel with a great location. [Learn more>>](https://www.nwportlandhostel.com/)
+     A great hostel and location. [Learn more>>](https://www.nwportlandhostel.com/)
 
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
