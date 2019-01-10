@@ -89,17 +89,6 @@
   
  <Grid margin="60px 0 -20px 0">
 
- <Block type="image" src="photos/Paramount-Hotel.jpg">
-      ## Paramount Hotel 
-      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
-      
-      Use the button below or call **(503)223-9900**. Make sure to reference WDS 2019 for the special group rate.
-      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-        
-     <Button to="https://reservations.travelclick.com/104209?groupID=2388512" newWindow={true} >Book the Paramount</Button> 
-
- </Block>
-
     <Block type="image" src="photos/Hoxton-roomy-view.jpg">
       ## The Hoxton Hotel
       A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.
@@ -120,6 +109,17 @@
         <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
   <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >Book the Duniway</Button> 
 </Block>
+
+ <Block type="image" src="photos/Paramount-Hotel.jpg">
+      ## Paramount Hotel 
+      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
+      
+      Use the button below or call **(503)223-9900**. Make sure to reference WDS 2019 for the special group rate.
+      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
+        
+     <Button to="https://reservations.travelclick.com/104209?groupID=2388512" newWindow={true} >Book the Paramount</Button> 
+
+ </Block>
 
  <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
       ## Perfectly Located
