@@ -169,7 +169,7 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
   <Block margin="125px 0 50px 0">
     <Block cols="6">
       ## The City
-      You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       
+      You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods). For a more extensive guide put together by the entire WDS community, **[click here](https://worlddominationsummit.com/a-wds-guide-of-portlandia)**.                                                                                      
     </Block>
     <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
