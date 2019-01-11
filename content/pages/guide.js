@@ -48,7 +48,7 @@
         WDS is an unconventional event. How does the week work? What are the events that make up WDS? This should help.       
           <Button to="https://worlddominationsummit.com/wds-how-it-works" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>      
-        <Block type="image-overlay" anchor="left" src="photos/society-hotel.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/Duniway-portland-WDS-partner.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Lodging Info
         Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
        <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>
@@ -68,7 +68,7 @@
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
         <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>     
         </Block>      
-        <Block type="image-overlay" anchor="left" src="photos/wds.meetups.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #6: RSVP for Activities
         Create your own personalized schedule by RSVPing for Meetups, Activities, and Academies through the mobile app or online. 
          <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>          
@@ -94,7 +94,7 @@
     <Block cols="5">
       ## We're Here to Help
       Have questions about WDS? Trying to find the best donut in Portland? Looking for a high-five? Let our concierge team know how we can help make your WDS experience great.
-           <Button to="mailto:concierge@wds.fm" newWindow={true} styling="orange" fitToText>Email Concierge Team</Button> 
+           <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} styling="orange" fitToText>Contact Us</Button> 
     </Block>
   </Block> 
 </Section>
