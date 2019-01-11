@@ -173,7 +173,7 @@ Exploring over 40 countries thus far, including parts of North and West Africa, 
         <Block cols="5">
       ## How Can We Help? 
       Have questions about WDS? Trying to find the best donut in Portland? Looking for a high-five? Let our concierge team know how we can help make your WDS experience great.
-           <Button to="mailto:concierge@wds.fm" newWindow={true} styling="orange" fitToText>Email Concierge Team</Button> 
+           <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} styling="orange" fitToText>Contact Us</Button> 
     </Block>
   </Block>
 </Section>
