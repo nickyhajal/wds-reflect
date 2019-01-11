@@ -47,8 +47,6 @@ export class Hub extends Component {
             <div style={{ width: '280px', background: 'transparent', marginRight: '20px', marginTop: '-35px' }}>
               <SideBtn style={{ backgroundImage: 'url(https://files.wds.fm/images/how-wds-works.png)'}} to="/wds-how-it-works" />
               <SideBtn style={{ backgroundImage: 'url(https://s3.amazonaws.com/el-files-wds/images/wds-portlandia.png)'}} to="/a-wds-guide-of-portlandia" />
-              <SideBtn style={{ backgroundImage: 'url(https://files.wds.fm/images/where-to-stay.png)'}} to="/how-to-propose-a-meetup" />
-              <SideBtn style={{ backgroundImage: 'url(https://files.wds.fm/images/where-to-stay.png)'}} to="/how-to-propose-a-meetup" />
             </div>
               <Block cols="6" background="transparent" styleName="contentShell">
                 <h2 style={headcss} >The Dispatch</h2>
