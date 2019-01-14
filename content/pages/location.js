@@ -110,7 +110,7 @@
   <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >Book the Duniway</Button> 
 </Block>
 
- <Block type="image" src="photos/Paramount-Hotel.jpg">
+ <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/Paramount-Hotel-Room.jpg">
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
       
