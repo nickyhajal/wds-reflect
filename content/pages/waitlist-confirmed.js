@@ -1,5 +1,6 @@
-
 <Section
+  headerClip="br:0%,-10%;"
+  headerImage="photos/kitty-WDS.jpg"
   color="sea"
   css={{ marginBottom: '-2px' }}
 >
