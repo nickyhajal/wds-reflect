@@ -89,9 +89,9 @@ export class EventComponent extends Component {
       params.product = 'WDS Academy';
       params.price =
         this.props.auth.me !== undefined &&
-        this.props.auth.me.attending18 !== undefined &&
-        !_.isNull(this.props.auth.me.attending18) &&
-        this.props.auth.me.attending18.toString() === '1'
+        this.props.auth.me.attending19 !== undefined &&
+        !_.isNull(this.props.auth.me.attending19) &&
+        this.props.auth.me.attending19.toString() === '1'
           ? 2900
           : 5900;
       params.redirect = 'academy-purchased';
