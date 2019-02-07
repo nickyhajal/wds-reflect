@@ -23,7 +23,7 @@
 
   ### Do you offer a payment plan for tickets?
 
-<p>Yes! The first initial payment is <b>$99</b>, followed by <b>three payments of $186</b> for a total of <b>$657</b> (for the first ticket round which ended on 10/27/2018). <b>All payments are non-refundable</b>, and you can pay for up to 3 tickets using a payment plan. To review the full terms and conditions of the WDS payment plan <Link to="https://worlddominationsummit.com/payment-plan-terms-and-conditions">click here.</Link></p>
+<p>Yes! For the next sale (starting March 4th), the first initial payment is <b>$107</b>, followed by <b>three payments of $200</b> for a total of <b>$707</b>. <b>All payments are non-refundable</b>, and you can pay for up to 3 tickets using a payment plan. To review the full terms and conditions of the WDS payment plan <Link to="https://worlddominationsummit.com/payment-plan-terms-and-conditions">click here.</Link></p>
 
 ### I've purchased a WDS ticket, what do I do next? 
 
