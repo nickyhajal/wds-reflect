@@ -18,7 +18,7 @@ preload
 
  <p><i>All that’s missing is YOU!</i></p>
 
-<p>WDS tickets are <b>$697</b> and are sold on a first-come, first-served basis.</p>
+<p>WDS tickets are <b>$697</b> and are sold on a first-come, first-served basis. <b>NEW</b>—Payment plan available!</p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
 
 <p><b>To be notified when WDS tickets go on sale next use the button below:</b></p>
