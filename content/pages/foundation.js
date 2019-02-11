@@ -119,12 +119,12 @@ Stay tuned! The ability to apply for 2019 Scholarships will go live on **March 1
 
 </Block>
 </Section>
-<Section color="sea">
+<Section color="green">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
    ## Questions? How can we help?
   <font color="white">Contact our Foundation team using the button below.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.wufoo.com/forms/w12waw4d1nmlnum/" newWindow={true} styling="white" fitToText>Contact the WDS Foundation</Button> 
+   <Button to="https://worlddominationsummit.com/foundation-contact" newWindow={true} styling="white" fitToText>Contact the WDS Foundation</Button> 
  </Block>
   </Block>
 </Section>
