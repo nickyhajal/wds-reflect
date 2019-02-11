@@ -107,18 +107,24 @@ Through her work, Yolanda creates a community where women of color’s experienc
     ##### Eligibility
 The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.
 
+##### 2019 Application Timeline
+- March 1: Applications open
+- April 1: Applications close
+- May 1: First round of top 10 applicants notified
+- May 15: Voyagers selected and notified 
+
 ##### 2019 Applications - Coming Soon!
 
 Stay tuned! The ability to apply for 2019 Scholarships will go live on **March 1, 2019**. 
 
 </Block>
 </Section>
-<Section color="green">
+<Section color="sea">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## Become A Mentor
-  <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>
+   ## Questions? How can we help?
+  <font color="white">Contact our Foundation team using the button below.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.wufoo.com/forms/w12waw4d1nmlnum/" newWindow={true} styling="white" fitToText>Share your expertise!</Button> 
+   <Button to="https://worlddominationsummit.wufoo.com/forms/w12waw4d1nmlnum/" newWindow={true} styling="white" fitToText>Contact the WDS Foundation</Button> 
  </Block>
   </Block>
 </Section>
