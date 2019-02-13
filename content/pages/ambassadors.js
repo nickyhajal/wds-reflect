@@ -24,6 +24,7 @@ Ambassadors are our all-volunteer team of amazing humans who help make WDS happe
 - Answering questions, giving directions, and providing assistance
 - And much more! 
   
+  
 ### Who can apply? 
 We welcome applications from anyone who meets the following criteria: 
 
@@ -42,6 +43,7 @@ Fame, fortune, glory! Ok, maybe not all those things. But you do get the satisfa
 - An all access pass to WDS - any time you’re not volunteering as an Ambassador you’re free to experience WDS like any other attendee. This includes attending our opening and closing parties, seeing our mainstage talks, participating or hosting meetups, and just about all other aspects of the event. 
 - An exclusive Ambassador t-shirt and all the WDS swag
 - Free food! Well, technically a couple gift cards to help cover your lunch. 
+
 
 ### Tell me more about this 20 hour commitment… 
   
