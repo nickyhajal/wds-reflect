@@ -107,11 +107,15 @@ Through her work, Yolanda creates a community where women of color’s experienc
     ##### Eligibility
 The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.
 
-##### 2019 Application Timeline
-- March 1: Applications open
-- April 1: Applications close
-- May 1: First round of top 10 applicants notified
-- May 15: Voyagers selected and notified 
+##### Online Information Sessions - Coming Soon!  
+                  Coming soon, the Foundation will hold two information sessions to help answer any questions about the scholarship, the application, and about the Foundation. More information and how to register for these information sessions is coming soon.
+                  
+                  
+##### 2019 Application Timeline  
+                  **March 1:** Applications open  
+                  **April 1:** Applications close  
+                  **May 1:** First round of top 10 applicants notified  
+                  May 15:** Voyagers selected and notified 
 
 ##### 2019 Applications - Coming Soon!
 
