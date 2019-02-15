@@ -48,7 +48,7 @@ Fame, fortune, glory! Ok, maybe not all those things. But you do get the satisfa
 
 ### Tell me more about this 20 hour commitment… 
   
-This year we’re trying something new! We’ll be releasing 85% of our Ambassador roles to the Ambassador team at a pre-announced day and time (likely between 3-4 weeks out from the event). From there, it will be first-come, first-served to pick your shifts. You can choose any shifts you want, as long as they add up to at least 20 hours. This gives YOU more freedom to choose when you want to volunteer and what you’d like to be doing. You can even coordinate to volunteer alongside a family member or friend (though we’ll encourage to meet new people over the week too). 
+This year we’re trying something new! We’ll be releasing 85% of our Ambassador roles to the Ambassador team at a pre-announced day and time (likely between 3-4 weeks out from the event). From there, it will be first-come, first-served to pick your shifts. You can choose any shifts you want, as long as they add up to at least 20 hours. This gives YOU more freedom to choose when you want to volunteer and what you’d like to be doing. You can even coordinate to volunteer alongside a family member or friend (though we’ll encourage you to meet new people over the week too). 
 
 **If at all possible, we suggest you hold **all-day Thursday, June 27 until Sunday, June 30** on your calendar now so you have lots of options to choose from. 
 
