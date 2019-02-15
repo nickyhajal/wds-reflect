@@ -32,7 +32,7 @@ We welcome applications from anyone who meets the following criteria:
 - You’re committed to helping our attendees have the BEST experience possible 
 - You live in or near Portland, OR (or you’re very familiar with the city)
 - You’re willing to share **20 hours** of your time between **Monday, June 24th and Monday, July 1st** _(please note: the majority of Ambassador shifts are Thursday-Sunday)_
-- You’re available on the evening of **Monday, June 17th** for Ambassador orientation 
+- You’re available on the evening of **Monday, June 24th** for Ambassador orientation 
 - You’re not a paying WDS attendee 
 
   <Image src="photos/2018-WDS-Ambassadors.jpg" width="100%" height="541" />
@@ -62,6 +62,8 @@ Email Tina at **[concierge@wds.fm](mailto:concierge@wds.fm)** and we’ll get ev
         <Block cols="5">
       ## Okay, ready to apply? Let’s do this! 
       Click the button below to get started.
+      
+      _Please note: We recommended completing the application on a computer, as some users have reported trouble submitting the form from their phones._
            <Button to="https://worlddominationsummit.com/ambassador-apply" newWindow={true} styling="orange" fitToText>WDS 2019 Ambassador Application</Button> 
     </Block>
   </Block>
