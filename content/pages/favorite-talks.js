@@ -36,7 +36,11 @@
 --    
 ## Jeremy Cowart 
   <Video placeholder="https://farm4.staticflickr.com/3789/19482077119_49147aede7_k_d.jpg" videoId="134620372" width="710" height="430"/>
-  
+ 
+    
+--    
+#### Looking for more?! 
+  Check-out the **[WDS YouTube page](https://www.youtube.com/channel/UCOdRqojggRLnyTGhim15-og)** for more amazing keynotes. 
   </Block>
 </Section>
 <Import id="join-us" />
