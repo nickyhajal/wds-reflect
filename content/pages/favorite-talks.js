@@ -15,7 +15,7 @@
     Here's a look back at some of our favorite keynotes from the last 8 years:
 
 ## Brand Montague and Robbie Novak (a.k.a Kid President)
-  <Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="1349689953" width="710" height="430"/>
+  <Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="134968995" width="710" height="430"/>
   
     
 --
