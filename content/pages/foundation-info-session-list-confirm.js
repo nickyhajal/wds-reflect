@@ -6,7 +6,7 @@
     <Block width="100%" margin="40px 0 0 0" textAlign="center">## Thanks! You'll be notified soon!</Block>
       <p>We've officially got you on the list to be notified about our upcoming scholarship information sessions.</p>
    <p>Stay tuned!</p>  
-  <p><i>While you're here, learn more about last year's scholarship Voyagers (awardees).</i></p>
-<Video placeholder="foundation/2018-Voyagers.jpg" videoId="289363603" width="710" height="430"/>
+  <p>Want to learn more about last year's scholarship Voyagers (awardees). Check-out the video below:</p>
+<Video placeholder="foundation/2018-Voyagers.jpg" videoId="289363603" width="639" height="387"/>
   </Block>
 </Section>
