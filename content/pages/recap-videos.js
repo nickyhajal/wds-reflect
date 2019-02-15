@@ -51,7 +51,7 @@
     
 --   
 #### Looking for more videos?! 
-  Check-out the **[WDS YouTube page](https://www.youtube.com/channel/UCOdRqojggRLnyTGhim15-og)** for more amazing keynotes. 
+  Check-out the **[WDS YouTube page](https://www.youtube.com/channel/UCOdRqojggRLnyTGhim15-og)** for more highlights from WDS. 
   </Block>
 </Section>
 <Import id="join-us" />
