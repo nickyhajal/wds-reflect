@@ -120,6 +120,7 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
                   
 --
 ##### 2019 Application Timeline  
+                  Please review the following timeline carefully. We will **not accept** any late submissions. 
                  - **March 1:** Applications open  
                  - **April 1:** Applications close  
                  - **May 1:** First round of top 10 applicants notified  
