@@ -111,9 +111,14 @@ Stay tuned! The ability to apply for 2019 Scholarships will go live on **March 1
 ##### Eligibility
 The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.
 
-##### Online Information Sessions - Coming Soon!  
-                  WDS Foundation will hold two information sessions to help answer any questions about the scholarship, the application, and about the Foundation. More information and how to register for these information sessions is coming soon.
+##### Online Information Sessions - Registration Required  
+                  WDS Foundation will hold two information sessions to help answer any questions about the scholarship, the application, and about the Foundation. Please register for one of the following sessions using the appropriate link below:
+                  
+                 - Information Session #1: Sunday, March 3: 2:00-3:00pm PST **[(Register for session #1)](https://zoom.us/meeting/register/8818045ff4fec4e4cde7dc3c8da9331e)**
+                 - Information Session #2: Saturday, March 16, 11:00am-12:00pm PST **[(Register for session #2)](https://zoom.us/meeting/register/6933a7d02893991f66858a512be5123a)**
 
+                  
+--
 ##### 2019 Application Timeline  
                  - **March 1:** Applications open  
                  - **April 1:** Applications close  
