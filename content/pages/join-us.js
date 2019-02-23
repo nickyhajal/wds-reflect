@@ -51,7 +51,7 @@ preload
       ## Academies
       These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields. As a WDS ticket holder you get first access to the Academy of your choice at a huge discount.
     </Block>
-     <Block type="image" src="images/Duniway-portland-WDS-partner.jpg">
+     <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/Duniway-portland-WDS-partner.jpg">
       ## Hotel Discounts
       Each year we partner with iconic Portland properties to offer our attendees special discounted prices when booking your stay in Portland.
     </Block>
