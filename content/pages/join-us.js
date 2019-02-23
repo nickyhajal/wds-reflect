@@ -51,7 +51,7 @@ preload
       ## Academies
       These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields. As a WDS ticket holder you get first access to the Academy of your choice at a huge discount.
     </Block>
-     <Block type="image" src="photos/society-hotel.jpg">
+     <Block type="image" src="images/Duniway-portland-WDS-partner.jpg">
       ## Hotel Discounts
       Each year we partner with iconic Portland properties to offer our attendees special discounted prices when booking your stay in Portland.
     </Block>
@@ -59,7 +59,7 @@ preload
       ## Celebrations
       There's nothing better than celebrating community. Kick-off WDS and meet new friends at the welcome party and dance the night away with them at the closing celebration.
     </Block>
-    <Block type="image" src="photos/JoinUs/image-communities.jpg">
+    <Block type="image" src="photos/community2.jpg">
       ## Community
       Once you attend WDS you'll become an alum and part of a global network of over 10,000 adventurers who will continue to support you and your journey.
     </Block>
