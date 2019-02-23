@@ -39,7 +39,7 @@ preload
       ## Connect
       From fun social gatherings to focused discussions, choose from a variety of special WDS hosted adventures and activities throughout the week with the purpose of meeting and connecting with other attendees.
     </Block>
-    <Block type="image" src="photos/JoinUs/image-meetups.jpg">
+    <Block type="image" src="photos/wds-meetups.jpg">
       ## Meetups
       Every year attendees help lead over 100+ meetups in and around Portland. Share your expertise. Coordinate an adventure. Meet others that share your passions and interests. The best part is you can do all three!
     </Block>
