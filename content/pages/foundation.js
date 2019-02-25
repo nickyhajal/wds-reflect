@@ -91,15 +91,14 @@ Through her work, Yolanda creates a community where women of color’s experienc
     </Block>
     <Block type="color" color="orange">
       ### Implementation
-      - Does the project serve others and create community?
-      - What is the applicant’s experience with the identified problem and community involved?
-      - Has the applicant identified a list of goals to complete the project?
+      - Can the proposal be realistically completed in a year?
+      - If part of a larger, long-term project, how does the proposal further the overall effort?
+      - Does the applicant have the capacity to execute the proposed solution? If not, how will he/she prepare?
     </Block>
     <Block type="color" color="green">
       ### Sustainability
-      - Does the project serve others and create community?
-      - What is the applicant’s experience with the identified problem and community involved?
-      - Has the applicant identified a list of goals to complete the project?
+      - How will the project involve and inspire others?
+      - Without a scholarship, how does the applicant intend to move forward on the proposed solution?
     </Block>
   </Grid>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
