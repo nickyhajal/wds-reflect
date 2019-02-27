@@ -45,7 +45,7 @@ class JoinUs extends React.Component {
     return (
       <Block cols="8" styleName="modal" background="orange" className="modal" css={{ top: `${top}px` }}>
         <button href="#" className="modal-close" onClick={this.props.close}>x</button>
-        <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+        <Image src="v2/heading/joinus.png" width="288px" height="88px" align="center" />
         <Block margin="50px 0" width="100%">## Tickets go on sale again in:</Block>
         <Counter format="calendar" to="ticket-sale" />
         <Block width="600px" align="center" margin="50px 0 0" css={{ maxWidth: '800px' }}>

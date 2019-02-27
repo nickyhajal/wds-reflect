@@ -265,7 +265,7 @@
 }
 
 .checkoutForm :global(.form-row) button {
-  background: #DB7F1C;
+  background: $orange;
   border: 0;
   font-size: 16px;
   color: #fff;

@@ -35,7 +35,7 @@ class Settings extends Component {
     ['The Hub', 'hub'],
     ['Communities', 'communities'],
     ['Updates', 'updates'],
-    ['Your Schedule', 'your-schedule'],
+    // ['Your Schedule', 'your-schedule'],
     ['Events', 'events'],
   ];
   constructor(props) {
@@ -148,15 +148,15 @@ class Settings extends Component {
               <Tabs
                 width="1000"
                 contentWidth="1000"
-                css={{ margin: '-50px' }}
+                css={{ margin: '-18px -50px 50px' }}
                 color="white"
-                tabCss={{ padding: '16px 0' }}
+                style="simple"
+                tabCss={{ padding: '20px 0' }}
               >
                 <Tab
                   title="The Basics"
-                  color="orange"
-                  layout="imageLeft"
                   clip=""
+                  layout="imageLeft"
                 >
                   <Form {...formProps}>
                     <FormRow autosize="true">
@@ -189,14 +189,14 @@ class Settings extends Component {
                     </FormWrap>
                   </Form>
                 </Tab>
-                <Tab title="Location" color="green" layout="imageLeft" clip="">
+                <Tab title="Location" layout="imageLeft" clip="">
                   <Block cols="4">
                     <Form {...formProps}>
                       <Address />
                     </Form>
                   </Block>
                 </Tab>
-                <Tab title="Connect" color="sea" layout="imageLeft" clip="">
+                <Tab title="Connect" layout="imageLeft" clip="">
                   <Form {...formProps}>
                     <FormWrap>
                       <FormRow autosize="true">
@@ -234,16 +234,15 @@ class Settings extends Component {
                     </FormWrap>
                   </Form>
                 </Tab>
-                <Tab title="Avatar" color="green" clip="">
+                <Tab title="Avatar"  clip="">
                   <h4>Update Your Avatar Below!</h4>
                   <PhotoUpload />
                 </Tab>
-                <Tab title="Interests" color="sea" clip="">
+                <Tab title="Interests"  clip="">
                   <InterestPicker />
                 </Tab>
                 <Tab
                   title="About You"
-                  color="orange"
                   layout="imageLeft"
                   clip=""
                 >
@@ -297,7 +296,7 @@ class Settings extends Component {
                     </div>
                   </form>
                 </Tab>
-                <Tab title="Q&A" color="green" layout="imageLeft" clip="">
+                <Tab title="Q&A"  layout="imageLeft" clip="">
                   <form style={{ width: '100%' }} onSubmit={this.saveQuestions}>
                     <div styleName="answerShell">
                       <Answer

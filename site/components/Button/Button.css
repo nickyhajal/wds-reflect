@@ -3,7 +3,7 @@
 .button, :global(.block-text) a.button, :global(.block-padded) a.button {
   display: block;
   padding: 15px 28px;
-  background: $orange;
+  background: $red;
   border: 0;
   color: $white;
   text-align: center;

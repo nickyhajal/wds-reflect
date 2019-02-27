@@ -8,6 +8,9 @@ const TabButton = (props) => {
   if (props.style === 'dots') {
     className += ' tab-button-dot';
   }
+  if (props.style === 'simple') {
+    className += ' tab-button-simple';
+  }
   return (<button onClick={props.onClick} styleName="button" className={className} style={props.css}>{props.children}</button>);
 };
 

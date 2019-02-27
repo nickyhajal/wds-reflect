@@ -29,6 +29,7 @@ import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
 import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 import ComparisonTable from '../../site/components/ComparisonTable';
+import YearReviews from '../../site/components/YearReviews';
 
   
   const Page = (props) => (
@@ -54,7 +55,11 @@ import ComparisonTable from '../../site/components/ComparisonTable';
 
     <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
 
-<p><b>Tickets for WDS 2019 will be available later this year!</b> Join the waitlist to be the first to know when they go live <Link to="http://madmimi.com/signups/aea67a30548f4ac1a00b9e5b1f15efa3/join">WDS 2019 wait list</Link></p>
+<p><b>Tickets for WDS 2019 will go on sale again soon!</b> To be the first to be notified when tickets go on sale next, join the official waitlist: <Link to="http://madmimi.com/signups/aea67a30548f4ac1a00b9e5b1f15efa3/join">WDS 2019 Waitlist.</Link></p>
+
+  ### Do you offer a payment plan for tickets?
+
+<p>Yes! The first initial payment is <b>$99</b>, followed by <b>three payments of $186</b> for a total of <b>$657</b> (for the first ticket round which ended on 10/27/2018). <b>All payments are non-refundable</b>, and you can pay for up to 3 tickets using a payment plan. To review the full terms and conditions of the WDS payment plan <Link to="https://worlddominationsummit.com/payment-plan-terms-and-conditions">click here.</Link></p>
 
 ### I've purchased a WDS ticket, what do I do next? 
 
@@ -63,11 +68,11 @@ import ComparisonTable from '../../site/components/ComparisonTable';
 ### What is the refund/cancellation policy for WDS tickets?
     <p>All WDS tickets are <b>non-refundable.</b></p> 
 
-    ### Can I transfer a WDS 360 ticket to someone else?
+    ### Can I transfer a WDS ticket to someone else?
 
 <p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 17th (6 weeks prior to WDS). Starting <b>May 18th, 2019</b>, no further transfers or name changes will be possible. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p>
     
-    <p>To transfer your 360 ticket please email our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for your unique transfer link.</p>
+    <p>To transfer your WDS ticket please email our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for your unique transfer link.</p>
 
  <p><i>*All WDS tickets are assigned to a specific person using a unique name and email -- this is required for attendance. This process takes place when a ticket is initially purchased (or by a specific date for early-bird ticket purchasers). Transferring a ticket and assigning a ticket are two different processes. Only assigned tickets can be transferred.</i></p>
        
@@ -86,19 +91,24 @@ import ComparisonTable from '../../site/components/ComparisonTable';
      <p>Contact our year-round concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p> 
   </Block>
 </Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="canvas" burst>
+  <Image src="v2/headings/join-us-orange.png" width="288px" height="88px" align="center" className="join-us-heading" />
+  <Block margin="50px 0" className="pagematchText">## Join us at WDS 2019; June 25 - July 1</Block>
+  <Block margin="50px 0">
+    ### Be the first to get notified when tickets go on sale next.{'\n'}
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/be-there'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Join Us in 2019!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter type="countup" />{'\n'}
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: '400px' }}
+  >{'\n'}
+    <Form list="WDS 2019 Waiting List" buttonClassName="pagebutton" successMessage="Great, we'll let you know when sales start for WDS 2019!" buttonStart="Get Notified" buttonProgress="Sending..." buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
 
 

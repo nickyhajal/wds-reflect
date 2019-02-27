@@ -23,14 +23,14 @@
   ));
 </Script>
 <Section
-  headerImage="hero/location.jpg"
+  headerImage="v2/hero/location.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Image src="v2/headings/location.png" width="446px" height="156px" className="scriptHeader" preload/>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Your Base in Portland
     Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. 
@@ -38,7 +38,7 @@
     WDS is not confined to one building -- Portland is our venue! Attendees will gather throughout the city for different events such as Academies, Attendee-led Meetups, and our epic parties. We'll even have a dedicated HQ spot for attendees to use and connect with one another throughout the week. For WDS 2019, our main-stage will be based out of the **[Newmark Theatre](https://goo.gl/maps/WGGVeNy8sn42)**. Almost all WDS venues are located near light-rail stops and extremely walkable. 
   </Block>
     
-  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="green">
+  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="canvas">
     <Block width="100%">
       ## Welcome to Portland
     </Block>
@@ -158,14 +158,14 @@
   </Grid>
   </Block>
   <div className="clear" />
-  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="orange">
+  <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="bgry">
     <Block anchor="left" align="none" width="222" margin="0 40px 0 0">
-      <Image src="icon/circle-transit-green.png" align="center" width="130" height="130" margin="28px 0 48px 0" />
-      <Button to="http://trimet.org/#/planner" newWindow={true} styling="white">TriMet Trip Planner</Button>
+      <Image src="v2/icon/transit.png" align="center" width="130" height="130" margin="28px 0 48px 0" />
+      <Button to="http://trimet.org/#/planner" newWindow={true} styling="orange">TriMet Trip Planner</Button>
     </Block>
     <Block anchor="left" align="none" width="153" margin="0 60px 0 0">
-      <Image src="icon/bike-green-circle.png" align="center" width="145" height="130" margin="28px 0 48px 0" />
-      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="white">Biketown</Button>
+      <Image src="v2/icon/bike.png" align="center" width="130" height="130" margin="28px 0 48px 0" />
+      <Button to="https://www.biketownpdx.com/" newWindow={true} styling="orange">Biketown</Button>
     </Block>
     <Block anchor="left" textAlign="left" width="350" margin="24px 0 0 0">
       ## Transportation
@@ -192,25 +192,25 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
       </Block>
     </Grid>
   </Block>
-  <Block margin="125px 0 50px 0">
-    <Block cols="6">
+  <Block margin="125px 0 50px 0" width="1080" css={{position:'relative', left: '-42px'}}>
+    <Block cols="6" margin="0 0 120px 0">
       ## The City
       You'll have the chance to wander and explore. In short, it will be an amazing weekend in an incredible city (and for those attending from nearby, you'll enjoy meeting new friends while showing off our funky neighborhoods).                                                                                       
     </Block>
-    <Grid numCols="3" tabletCols="2" width="968">
-      <Block type="image-overlay" anchor="right" icon="outline-beers" src="photos/portland-sign.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+    <Grid numCols="3" tabletCols="2" width="1080" gutter="0">
+      <Block type="image-overlay" anchor="right" icon="beers" src="photos/portland-sign.jpg">
         ## Neighborhoods: Hawthorne
         Hawthorne: Stock up on your mustache wax in the hipster capital of the universe! Get there on the 14 bus, which stops at SW Madison and 4th, then get off about 10 minutes later on Hawthorne Boulevard, anywhere between 20th and 39th streets.
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-bike" src="photos/pearl-district-portland.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="bike" src="photos/pearl-district-portland.jpg">
         ## Neighborhoods: NW & Pearl
         Northwest and the Pearl District, reachable by streetcar or a stroll, are the trendy side to Hawthorne’s old-school vibe. Check out the area around NW 23rd, with nice pubs and good ethnic food options.
       </Block>
-      <Block type="image-overlay" anchor="right" icon="outline-eye" src="photos/powells-books.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="right" icon="eye" src="photos/powells-books.jpg">
         ## Powell’s Books
         No trip to Portland is complete without a pilgrimage to Powell’s City of Books, located on an entire city block at 1005 W Burnside.
       </Block>
-      <Block type="image-overlay" anchor="left" icon="outline-camera" src="photos/image-waterfront.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+      <Block type="image-overlay" anchor="left" icon="camera" src="photos/image-waterfront.png">
         ## Waterfront
         Walk, jog, or bike the waterfront area, starting in the south end and continuing to the Steel Bridge near the train station area.
       </Block>

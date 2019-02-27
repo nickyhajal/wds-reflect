@@ -41,7 +41,6 @@ const speakerBlocks = (props) => {
     if (passesFilter(v, props)) {
       out.push(
         <Link to={`/awardee/${s.slugify(v.name)}`} styleName="box">
-          <Image src="avatar-cutout.png" width="105" height="105" styleName="cutout" />
           <Image src={v.photo} width="105" height="105" styleName="avatar" />
           <div styleName="name">{v.name}</div>
         </Link>

@@ -24,14 +24,14 @@
   ));
 </Script>
 <Section
-  headerImage="hero/location.jpg"
+  headerImage="v2/hero/location.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/hoteltempheader.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Image src="v2/headings/hoteltempheader.png" width="446px" height="156px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">

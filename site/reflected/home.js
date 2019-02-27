@@ -29,13 +29,14 @@ import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
 import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 import ComparisonTable from '../../site/components/ComparisonTable';
+import YearReviews from '../../site/components/YearReviews';
 
   
   const Page = (props) => (
     <div>
       <Section
-  headerClip="br:0%,-10%;"
-  headerImage="photos/WDS-community.jpg"
+  headerClip="br:0%,-6%;"
+  headerImage="v2/hero/futurehero.png"
   color="canvas"
 >
   <Block
@@ -128,11 +129,12 @@ To _Community, Adventure,_ and _Service_,{'\n'}
 
 Chris Guillebeau{'\n'}
 
-P.S. Tickets for WDS 2019 are on sale now! Reserve your spot using the button below.{'\n'}
+P.S. If you'd like to be notified when tickets go on sale next for WDS 2019, sign-up using the button below.{'\n'}
 
-<Button to="https://worlddominationsummit.com/join-us" newWindow={true} styling="orange" fitToText>Register for WDS 2019</Button> 
- </Block>
-</Section>;
+<Button modal="joinUs" fitToText>Join the Wait List!</Button> 
+  
+  </Block>
+</Section>
 
 
     </div>

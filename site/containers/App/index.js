@@ -96,8 +96,8 @@ export class App extends Component {
       hub: [
         'guide',
         'communities',
-        'your-schedule',
-        'events',
+        // 'your-schedule',
+        // 'events',
         'your-profile',
         'settings',
         'logout',
@@ -133,7 +133,11 @@ export class App extends Component {
   renderSiteMode() {
     const status = this.props.auth.me ? 'logged-in' : 'logged-out';
     const subNav = this.subNav();
-    const className = `${status} ${subNav ? 'hasSubNav' : 'noSubNav'}`;
+    const greenPages = ['schedule', 'academies', 'local'];
+    let className = `${status} ${subNav ? 'hasSubNav' : 'noSubNav'}`;
+    if (greenPages.indexOf(window.location.pathname.substr(1)) > -1) {
+      className += ' greenpage';
+    }
     return (
       <div className={className}>
         <Header

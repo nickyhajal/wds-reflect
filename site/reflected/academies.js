@@ -29,19 +29,20 @@ import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
 import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 import ComparisonTable from '../../site/components/ComparisonTable';
+import YearReviews from '../../site/components/YearReviews';
 
   
   const Page = (props) => (
     <div>
       <Section
-  headerImage="hero/academies.jpg"
+  headerImage="v2/hero/academies.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
+  <Image src="v2/headings/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Academies{'\n'}
 At a WDS Academy, you might learn how to travel hack your way to a life-changing travel experience, master the art of telling compelling stories, or develop a winning branding strategy for your business. {'\n'}
@@ -55,19 +56,24 @@ You'll have the opportunity to learn something new to help live your _own_ remar
   _Academies for this year have finished but will return for 2019. Please check back in the spring of 2019 for an all-new scheudle._ {'\n'}
 
 </Block></Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="canvas" burst>
+  <Image src="v2/headings/join-us-orange.png" width="288px" height="88px" align="center" className="join-us-heading" />
+  <Block margin="50px 0" className="pagematchText">## Join us at WDS 2019; June 25 - July 1</Block>
+  <Block margin="50px 0">
+    ### Be the first to get notified when tickets go on sale next.{'\n'}
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/be-there'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Join Us in 2019!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter type="countup" />{'\n'}
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: '400px' }}
+  >{'\n'}
+    <Form list="WDS 2019 Waiting List" buttonClassName="pagebutton" successMessage="Great, we'll let you know when sales start for WDS 2019!" buttonStart="Get Notified" buttonProgress="Sending..." buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
 
 

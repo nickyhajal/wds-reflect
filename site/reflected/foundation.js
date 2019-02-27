@@ -29,19 +29,20 @@ import BlockWithLiveLabel from '../../site/containers/BlockWithLiveLabel';
 import BookingDetails from '../../site/components/BookingDetails';
 import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 import ComparisonTable from '../../site/components/ComparisonTable';
+import YearReviews from '../../site/components/YearReviews';
 
   
   const Page = (props) => (
     <div>
       <Section
-  headerImage="hero/foundation.jpg"
+  headerImage="v2/hero/foundation.png"
   headerClip="rl_header"
   headerPosition="center center"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/foundation.png" width="470px" height="165px" className="scriptHeader" preload/>
+  <Image src="v2/headings/foundation.png" width="470px" height="165px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Foundation{'\n'}
     WDS Foundation seeks to put the right resources in the hands of amazing people who are acting on the three core values of WDS—community, adventure, and service.{'\n'}
@@ -58,7 +59,7 @@ import ComparisonTable from '../../site/components/ComparisonTable';
 </Section>
 <Section color="canvas">
   <Block>## 2018 Scholarship Voyagers</Block>
-  <Tabs style="dots">
+  <Tabs style="simple">
     <Tab title="Puzzle Huddle">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
       <Block cols="6" textAlign="left">
@@ -157,19 +158,24 @@ Stay tuned! The ability to apply for 2019 Scholarships will go live on **March 1
  </Block>
   </Block>
 </Section>
-<Section color="orange" overflow="hidden">
-  <Block margin="60px 0 30px">## Tickets are On Sale!</Block>
-  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+<Section color="canvas" burst>
+  <Image src="v2/headings/join-us-orange.png" width="288px" height="88px" align="center" className="join-us-heading" />
+  <Block margin="50px 0" className="pagematchText">## Join us at WDS 2019; June 25 - July 1</Block>
+  <Block margin="50px 0">
+    ### Be the first to get notified when tickets go on sale next.{'\n'}
   </Block>
-  <Button styling="white" align="center" to={(
-    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/be-there'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Join Us in 2019!</Button>
-  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
-    <TicketCounter type="countup" />{'\n'}
+  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: '400px' }}
+  >{'\n'}
+    <Form list="WDS 2019 Waiting List" buttonClassName="pagebutton" successMessage="Great, we'll let you know when sales start for WDS 2019!" buttonStart="Get Notified" buttonProgress="Sending..." buttonSuccess="Success!"
+    >
+      <FormRow>
+        <Input id="full_name" placeholder="Your Full Name" />
+      </FormRow>
+      <FormRow>
+        <Input id="email" placeholder="Your Email Address" />
+      </FormRow>
+    </Form>
   </Block>
-  <JoinUsButton />
-  <div className="clear" />
 </Section>
 
 

@@ -27,14 +27,14 @@ import Cart from '../../site/containers/Cart/Cart';
   const Page = (props) => (
     <div>
       <Section
-  headerImage="hero/academies.jpg"
+  headerImage="hero/v2/academies.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
+  <Image src="v2/heading/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Academies are back in 2017! {'\n'}
 At a WDS Academy, you might learn how to travel hack your way to a life-changing travel experience, master the art of telling compelling stories, or develop a winning branding strategy for your business. {'\n'}
@@ -63,7 +63,7 @@ We're knocking out the final details for these exciting Academies so keep checki
   </Block>
 </Section>
 <Section color="orange">
-  <Image src="heading/joinus.png" width="288px" height="88px" align="center" />
+  <Image src="v2/heading/joinus.png" width="288px" height="88px" align="center" />
   <Block margin="50px 0">## Tickets are sold out!</Block>
   <Block margin="50px 0">### Join us at WDS 2018</Block>
   <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: "400px" }}>

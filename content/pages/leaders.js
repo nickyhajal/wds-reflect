@@ -1,12 +1,12 @@
 <Section
-  headerImage="hero/story.jpg"
+  headerImage="v2/hero/story.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-    <Image src="heading/league.of.leaders.header.png" width="1000px" height="244px" className="scriptHeader" preload/>
+    <Image src="v2/headings/league.of.leaders.header.png" width="1000px" height="244px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Greetings Extraordinary Leaders! 
     <p>We're thrilled to invite you to join us at the 8th annual <i>World Domination Summit</i> taking place June 26th - July 2nd in Portland. Best of all, we want you to attend as our honored guest (at no charge) as part of our <b>League of Leaders</b> program.</p>

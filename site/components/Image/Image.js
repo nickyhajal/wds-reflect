@@ -10,30 +10,30 @@ import is from '../../utils/is';
 import mobilize from '../../utils/mobilize';
 
 const icons = {
-  outline_beers: {
-    src: 'icon/outline-beers.png',
-    w: '105px',
+  beers: {
+    src: 'v2/icon/beer.png',
+    w: '126px',
     h: '126px',
   },
-  outline_bike: {
-    src: 'icon/outline-bike.png',
-    w: '158px',
-    h: '100px',
+  bike: {
+    src: 'v2/icon/bike.png',
+    w: '126px',
+    h: '126px',
   },
-  outline_camera: {
-    src: 'icon/outline-camera.png',
-    w: '109px',
-    h: '78px',
+  camera: {
+    src: 'v2/icon/camera.png',
+    w: '126px',
+    h: '126px',
   },
-  outline_eye: {
-    src: 'icon/outline-eye.png',
-    w: '122px',
-    h: '65px',
+  eye: {
+    src: 'v2/icon/eye.png',
+    w: '126px',
+    h: '126px',
   },
   twitter: {
-    src: 'icon/outline-tweet.png',
-    w: '82px',
-    h: '66px',
+    src: 'v2/icon/outline-tweet.png',
+    w: '126px',
+    h: '126px',
   },
 };
 

@@ -6,7 +6,7 @@
   color="white"
   preload
 >
-  <Image src="heading/wds-connect.png" width="615px" height="202px" className="scriptHeader" preload/>
+  <Image src="v2/headings/wds-connect.png" width="615px" height="202px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="photos/Connect/WDS-Connect-Header-2.jpg" width="100%" height="302" /></Block>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">

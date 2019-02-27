@@ -103,7 +103,7 @@ class Tabs extends React.Component {
           css.background = `${colorize(this.props.color)}`;
         }
       }
-      if (this.props.style !== 'dots') {
+      if (this.props.style !== 'dots' && this.props.style !== 'simple') {
         const angle = t.props.clip !== undefined ? t.props.clip : angles[i];
         const finalClip = angler(angle);
         css.clipPath = finalClip;
@@ -154,7 +154,7 @@ class Tabs extends React.Component {
     css.width = unitize(this.props.width);
     return (
       <div style={css}>
-        <div styleName="buttons" className="tab-controls">
+        <div styleName="buttons" className={`tab-controls tab-controls-${this.props.style}`}>
           {this.renderButtons(tabs)}
         </div>
         <div className="clear" />
@@ -167,11 +167,16 @@ class Tabs extends React.Component {
   }
   render() {
     let style = 'tabs-normal';
+    const { margin } = this.props;
     if (this.props.style.length) {
       style = `tabs-${this.props.style}`;
     }
+    const styles = {};
+    if (margin) {
+      styles.margin = margin;
+    }
     return (
-      <div styleName="shell" className={style} ref={(shell) => { this.shell = shell; }}>
+      <div style={styles} styleName="shell" className={style} ref={(shell) => { this.shell = shell; }}>
         {(is.phone() ? this.renderForPhone() : this.renderStandard())}
       </div>
     );

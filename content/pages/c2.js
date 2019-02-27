@@ -23,14 +23,14 @@
   ));
 </Script>
 <Section
-  headerImage="hero/location.jpg"
+  headerImage="v2/hero/location.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/location.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Image src="v2/headings/location.png" width="446px" height="156px" className="scriptHeader" preload/>
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Your Base in Portland
     Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. 

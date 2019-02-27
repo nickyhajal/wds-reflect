@@ -41,7 +41,6 @@ const speakerBlocks = (props) => {
     if (passesFilter(v, props)) {
       out.push(
         <Link to={`/speaker/${s.slugify(v.name)}`} styleName="box">
-          <Image src="avatar-cutout.png" width="105" height="105" styleName="cutout" />
           <Image src={v.photo} width="105" height="105" styleName="avatar" />
           <div styleName="name">{v.name}</div>
         </Link>
@@ -54,7 +53,7 @@ const speakerBlocks = (props) => {
 
 const renderTitle = title => (
   (title !== undefined && title.length ? (
-    <Block styleName="title" width="100%">##{title}</Block>
+    <Block styleName="title" cols="6">##{title}</Block>
   ) : '')
 );
 

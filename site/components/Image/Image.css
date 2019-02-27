@@ -1,7 +1,7 @@
 .ticket {
 	height: 342px;
   width: 236px;
-  background-image: url(https://files.wds.fm/images/ticket-full.png);
+  background-image: url(https://files.wds.fm/images/v2/ticket-full.png);
   background-size: 100% auto;
   display: block;
   float:right;
@@ -10,17 +10,17 @@
   cursor: pointer;
   right: 60px;
   top: -275px;
-  transform: rotateZ(-4deg);
+  transform: rotateZ(0deg);
 }
 
 .ticket:global.swinging {
   top: -40px;
   right: 64px;
-  transform: rotateZ(3deg);
+  transform: rotateZ(0deg);
 }
 
 .ticket:global.open {
-  transition: ease-in top 0.12s, linear transform 0.12s, linear right 0.12s;
+  transition: ease-in top 0.12s, ease-in transform 0.12s, ease-in right 0.12s;
   right: 60px;
   top: -40px;
   transform: rotateZ(0deg);

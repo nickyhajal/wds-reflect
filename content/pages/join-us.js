@@ -1,13 +1,13 @@
 <Section
-headerImage="hero/joinus.jpg"
+headerImage="v2/hero/joinus.png"
 headerClip="rl_header"
 headerPosition="top"
 headerSize="thin"
 color="white"
 preload
 >
-<Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
-<Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
+<Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
+<Block width="600px" color="orange" css={{marginTop: '80px' }}>
   <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019</h2><p></p>
     ## June 25 - July 1, 2019 in Portland, Oregon
 

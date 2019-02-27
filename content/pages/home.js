@@ -1,6 +1,6 @@
 <Section
-  headerClip="br:0%,-10%;"
-  headerImage="photos/WDS-community.jpg"
+  headerClip="br:0%,-6%;"
+  headerImage="v2/hero/futurehero.png"
   color="canvas"
 >
   <Block
@@ -98,4 +98,4 @@ P.S. If you'd like to be notified when tickets go on sale next for WDS 2019, sig
 <Button modal="joinUs" fitToText>Join the Wait List!</Button> 
   
   </Block>
-</Section>;
+</Section>

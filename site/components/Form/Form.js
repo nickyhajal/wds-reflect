@@ -198,7 +198,7 @@ class Form extends Component {
     return (
       <form ref={this.setForm} action="" method="post" styleName="form" onSubmit={this.submit} className={this.props.className} >
         { children }
-        <Button styling={this.props.buttonStyle} width="100%">{btnText}</Button>
+        <Button styling={this.props.buttonStyle} className={this.props.buttonClassName} width="100%">{btnText}</Button>
       </form>
     );
   }
@@ -212,6 +212,7 @@ Form.defaultProps = {
   buttonError: 'Hm, there was a problem.',
   onSuccess: false,
   onError: false,
+  buttonClassName: '',
   buttonProgress: 'Sending...',
   buttonStyle: 'dark',
 };

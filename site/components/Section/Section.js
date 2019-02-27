@@ -145,7 +145,7 @@ const Section = props => {
   }
   return (
     <section
-      className={cx(props.className, `section-${props.color}`, fullScreen)}
+      className={cx(props.className, `section-${props.color}`, fullScreen, props.burst ? 'has-burst' : '')}
       styleName="shell"
       style={shellCss}
     >

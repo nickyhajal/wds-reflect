@@ -1,12 +1,12 @@
 <Section
-  headerImage="hero/story.jpg"
+  headerImage="v2/hero/story.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/podcast.png" width="565px" height="169px" className="scriptHeader" preload/>
+  <Image src="v2/headings/podcast.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Building a Better World
     How can we live a remarkable life in a conventional world? 

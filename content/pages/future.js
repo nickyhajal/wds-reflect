@@ -97,4 +97,4 @@ P.S. If you'd like to be notified when tickets go on sale next for WDS 2019, sig
 
 <Button modal="joinUs" fitToText>Join the Wait List!</Button>
  </Block>
-</Section>;
+</Section>

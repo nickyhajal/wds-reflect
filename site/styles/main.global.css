@@ -1,12 +1,12 @@
 @import "vars.css";
-@font-face {font-family: "Vitesse"; src: url("https://files.wds.fm/fonts/VitesseMedium.otf") format("opentype");}
-@font-face {font-family: "VitesseLight"; src: url("https://files.wds.fm/fonts/VitesseLight.otf") format("opentype");}
-@font-face {font-family: "VitesseBold"; src: url("https://files.wds.fm/fonts/VitesseBold.otf") format("opentype");}
-@font-face {font-family: "VitesseBook"; src: url("https://files.wds.fm/fonts/VitesseBook.otf") format("opentype");}
-@font-face {font-family: "Populaire"; src: url("https://files.wds.fm/fonts/Populaire.otf") format("opentype");}
-@font-face {font-family: "Karla"; src: url("https://files.wds.fm/fonts/Karla-Regular.ttf") format("truetype");}
-@font-face {font-family: "KarlaBold"; src: url("https://files.wds.fm/fonts/Karla-Bold.ttf") format("truetype");}
-@font-face {font-family: "KarlaItalic"; src: url("https://files.wds.fm/fonts/Karla-Italic.ttf") format("truetype");}
+@font-face {font-family: "Vitesse"; src: url("https://files.wds.fm/fonts/Produkt-Semibold-Web.woff") format("woff");}
+@font-face {font-family: "VitesseLight"; src: url("https://files.wds.fm/fonts/Produkt-Semibold-Web.woff") format("woff");}
+@font-face {font-family: "VitesseBold"; src: url("https://files.wds.fm/fonts/Produkt-Semibold-Web.woff") format("woff");}
+@font-face {font-family: "VitesseBook"; src: url("https://files.wds.fm/fonts/Produkt-Semibold-Web.woff") format("woff");}
+@font-face {font-family: "Populaire"; src: url("https://files.wds.fm/fonts/Populaire.otf") format("woff");}
+@font-face {font-family: "Karla"; src: url("https://files.wds.fm/fonts/Graphik-Medium-Web.woff") format("woff");}
+@font-face {font-family: "KarlaBold"; src: url("https://files.wds.fm/fonts/Graphik-Semibold-Web.woff") format("woff");}
+@font-face {font-family: "KarlaItalic"; src: url("https://files.wds.fm/fonts/Graphik-Medium-Web.woff") format("woff");}
 
 body {
 	font-family: "Karla", sans-serif;
@@ -228,7 +228,7 @@ table.time-table td {
 
 form label {
   display: block;
-  color: rgb(0, 115, 173);
+  color: $blue;
   margin-bottom: 3px;
 }
 
@@ -243,6 +243,7 @@ form input {
   li {
     text-align: right;
     padding-left: 0;
+    font-size: 13px;
     @media(--phone) {
       text-align: center;
     }
@@ -251,7 +252,6 @@ form input {
       display: block;
       font-weight: bold;
       font-style: normal;
-      font-family: KarlaBold;
       float: left;
       @media(--phone) {
         display: block;
@@ -262,31 +262,40 @@ form input {
         margin: 0 auto 10px !important;
       }
     }
+    i, b, strong, em {
+      font-family: KarlaBold;
+    }
+    b, strong {
+      font-family: Vitesse !important;
+      font-size: 16px;
+      font-weight: normal;
+    }
     .highlight {
-      padding: 10px;
       position: relative;
-      margin-top: -10px;
-      margin-left: 8px;
       text-align: center;
-
-      &-1 {
-        clip-path: url(#hl1);
+      color: $blue;
+      &:before {
+        content: "";
+        background: $blue;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        left: -18px;
+        top: 7px;
       }
     }
   }
-}
-.highlight:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #b7dbdf;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    border: 0;
+  .note {
+    margin: 0;
+    padding: 4px 0;
+    font-size: 13px;
+    font-style: none;
+    text-align: left;
+    line-height: 140%;
   }
+}
+
 .highlight.highlight-1::before {
     transform: skewX(4deg) rotate(2deg) skewY(0deg);
 }
@@ -302,21 +311,18 @@ form input {
       margin-top: 40px;
     }
   }
-  h2 { margin-bottom: 18px; margin-top: 15px; }
+  h2 { margin-bottom: 18px; margin-top: 15px; text-align: left; }
   span:last-of-type {display: block; margin-bottom: 25px;}
   ul {
     padding: 0;
+    margin: 0;
   }
   li {
     line-height: 24px;
-    font-size: 14.5px;
+    font-size: 13.5px;
     list-style-type: none;
     position: relative;
-    background-image: url(https://files.wds.fm/images/underline-1.png);
-    background-size: 100% 6px;
-    background-color: transparent;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    border-bottom: 2px solid $blue;
     padding-bottom: 20px;
     padding-top: 18px;
   }

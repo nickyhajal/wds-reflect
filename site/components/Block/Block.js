@@ -123,14 +123,13 @@ class Block extends Component {
       content = (
         <div styleName={`overlay-${anchor}`}>
           <div styleName="image-shell">
-            <Image styleName="image" width="475px" height="340px" src={src} clip={imageClip} />
+            <Image styleName="image" width="540px" height="375px" src={src} clip={imageClip} />
             {(icon ? <Image styleName="icon" icon={icon} /> : '')}
           </div>
           <div styleName="content" style={divCss}><Markdown>{children}</Markdown></div>
-          <div className="clear" />
         </div>
       );
-      css.width = '850px';
+      css.width = '1080px';
       textAlign = 'center';
 
     // COLOR HEADER BLOCK

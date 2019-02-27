@@ -46,22 +46,24 @@ if (host === 'worlddominationsummit.com') {
 }
 constants.apiUrl = `${constants.url}/api`;
 constants.graphUrl = `${constants.protocol}://${constants.url}/api/graphql`;
-constants.ticketPrice = 647;
+constants.ticketPrice = 697;
 constants.planStartPrice = 89;
 constants.planInstallments = 3;
 constants.planInstallmentPrice = 186;
 constants.color = {
-  orange: '#CF7F1A',
-  spice: 'rgba(174, 96, 0, 0.25)',
+  orange: '#FD7021',
+  red: '#E54B2C',
+  spice: '#fd7021',
   gray: '#f2efed',
-  green: '#B1BC40',
-  forest: '#33571D',
+  bluegray: '#E6E6E6',
+  green: '#39B54A',
+  forest: '#39B54A',
   sea: '#62C0CA',
-  blue: '#0373A5',
+  blue: '#0F54ED',
   white: '#FFFFFF',
-  dark: '#21170A',
+  dark: '#262A36',
   black: '#000000',
-  canvas: '#F1EEEC',
+  canvas: '#F4F4F4',
   brown: '#5F3D13',
 };
 

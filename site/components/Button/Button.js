@@ -64,6 +64,9 @@ class Button extends React.Component {
     if (styling === 'dark') {
       style.backgroundColor = colorize('dark');
     }
+    if (styling === 'orange') {
+      style.backgroundColor = colorize('red');
+    }
     if (styling === 'white') {
       style.backgroundColor = colorize('white');
       style.color = colorize('orange');

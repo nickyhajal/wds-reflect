@@ -1,12 +1,12 @@
 <Section
-  headerImage="hero/foundation.jpg"
+  headerImage="v2/hero/foundation.png"
   headerClip="rl_header"
   headerPosition="center center"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/foundation.png" width="470px" height="165px" className="scriptHeader" preload/>
+  <Image src="v2/headings/foundation.png" width="470px" height="165px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Foundation
     WDS Foundation seeks to put the right resources in the hands of amazing people who are acting on the three core values of WDS—community, adventure, and service.
@@ -23,7 +23,7 @@
 </Section>
 <Section color="canvas">
   <Block>## 2018 Scholarship Voyagers</Block>
-  <Tabs style="dots">
+  <Tabs style="simple">
     <Tab title="Puzzle Huddle">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">

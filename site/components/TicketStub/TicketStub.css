@@ -1,7 +1,7 @@
 .ticket {
-	height: 342px;
+	height: 337px;
   width: 236px;
-  background-image: url(https://files.wds.fm/images/ticket-full.png);
+  background-image: url(https://files.wds.fm/images/v2/ticket-full.png);
   background-size: 100% auto;
   display: block;
   float:right;
@@ -9,7 +9,7 @@
   position: absolute;
   cursor: pointer;
   right: 60px;
-  top: -275px;
+  top: -255px;
   transform: rotateZ(-4deg);
 }
 

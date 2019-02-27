@@ -6,7 +6,7 @@
   color="white"
   preload
 >
-  <Image src="heading/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
+  <Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
   <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
     <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2017:</h2>
     ## July 11 - 17, 2017 in Portland, Oregon

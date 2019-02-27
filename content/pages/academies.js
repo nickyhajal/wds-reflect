@@ -1,12 +1,12 @@
 <Section
-  headerImage="hero/academies.jpg"
+  headerImage="v2/hero/academies.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="heading/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
+  <Image src="v2/headings/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Academies
 At a WDS Academy, you might learn how to travel hack your way to a life-changing travel experience, master the art of telling compelling stories, or develop a winning branding strategy for your business. 

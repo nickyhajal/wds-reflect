@@ -81,6 +81,7 @@ figcaption,
 figure,
 main { /* 1 */
   display: block;
+  margin-bottom: -1px;
 }
 
 /**

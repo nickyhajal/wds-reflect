@@ -4,9 +4,10 @@
   
 }
 .footer {
-  padding: 65px 0 80px;
+  position: relative;
+  padding: 47px 0 53px;
   text-align: center;
-  background: $dark;
+  background: #E54B2C;
   .links {
     margin: 10px auto;
     display: inline-block;
@@ -39,5 +40,36 @@
   .sub {
     color: $white;
     opacity: 0.5;
+  }
+  &:before {
+    content: "";
+    background-image: url(https://files.wds.fm/images/v2/footer-red-left.png);
+    width: 383px;
+    height: 160px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  &:after {
+    content: "";
+    background-image: url(https://files.wds.fm/images/v2/footer-red-right.png);
+    width: 480px;
+    height: 160px;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+:global(.greenpage) {
+  .footer {
+    background: #0F54ED;
+    &:before {
+      background-image: url(https://files.wds.fm/images/v2/footer-blue-left.png);
+    }
+    &:after {
+      background-image: url(https://files.wds.fm/images/v2/footer-blue-right.png);
+    }
   }
 }

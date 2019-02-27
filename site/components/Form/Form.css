@@ -65,3 +65,9 @@
     }
   }
 }
+:global(.pagebutton) {
+  background: $red;
+}
+:global(.greenpage .pagebutton) {
+  background: $green;
+}

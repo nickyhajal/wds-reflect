@@ -1,16 +1,17 @@
 const colorize = (props) => {
   const map = {
-    orange: 'CF7F1A',
+    orange: 'FD7021',
     spice: 'rgba(174, 96, 0, 0.25)',
     gray: 'f2efed',
-    green: 'B1BC40',
+    bgry: 'E6E6E6',
+    green: '39B54A',
     forest: '33571D',
-    sea: '62C0CA',
-    blue: '0373A5',
+    sea: '39B54A',
+    blue: '0F54ED',
     white: 'FFFFFF',
     dark: '21170A',
     black: '000000',
-    canvas: 'F1EEEC',
+    canvas: 'F4F4F4',
     brown: '5F3D13',
 
   };
