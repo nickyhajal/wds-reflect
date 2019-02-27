@@ -38,7 +38,6 @@ import YearReviews from '../../site/components/YearReviews';
   headerImage="v2/hero/schedule.png"
   headerClip="rl_header"
   headerPosition="top"
-  headerSize="thin"
   color="white"
   preload
 >

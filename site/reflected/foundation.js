@@ -38,7 +38,6 @@ import YearReviews from '../../site/components/YearReviews';
   headerImage="v2/hero/foundation.png"
   headerClip="rl_header"
   headerPosition="center center"
-  headerSize="thin"
   color="white"
   preload
 >

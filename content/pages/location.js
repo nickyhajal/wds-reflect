@@ -26,7 +26,6 @@
   headerImage="v2/hero/location.png"
   headerClip="rl_header"
   headerPosition="top"
-  headerSize="thin"
   color="white"
   preload
 >

@@ -2,7 +2,6 @@
   headerImage="v2/hero/local.png"
   headerClip="rl_header"
   headerPosition="top"
-  headerSize="thin"
   color="white"
   preload
 >
