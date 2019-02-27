@@ -94,6 +94,7 @@ class Login extends React.Component {
         {this.props.title ? (<h2>{this.props.title}</h2>) : ''}
         <p>
           Use the email and password you used when you created your WDS account.&nbsp;
+          <br />
           <Link
             className="forgotPwLink"
             styleName="link"

@@ -152,10 +152,10 @@ import YearReviews from '../../site/components/YearReviews';
     <Form list="WDS 2019 Waiting List" buttonClassName="pagebutton" successMessage="Great, we'll let you know when sales start for WDS 2019!" buttonStart="Get Notified" buttonProgress="Sending..." buttonSuccess="Success!"
     >
       <FormRow>
-        <Input id="full_name" placeholder="Your Full Name" />
+        <Input id="full_name" placeholder="Your Full Name" style={{borderColor: "#D2D2D2"}} />
       </FormRow>
       <FormRow>
-        <Input id="email" placeholder="Your Email Address" />
+        <Input id="email" placeholder="Your Email Address" style={{borderColor: "#D2D2D2"}} />
       </FormRow>
     </Form>
   </Block>

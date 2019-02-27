@@ -29,7 +29,7 @@ h2 {
 }
 
 button {
-  background: orange;
+  background: rgb(253, 112, 33);
   border: 0;
   font-size: 16px;
   color: #fff;
@@ -42,8 +42,8 @@ width: auto;
 height: auto;
 background-size: 100% auto;
 position: absolute;
-right: -28px;
-top: -44px;
+right: 2px;
+top: 2px;
 background: ${C.color.sea};
 color: $white;
 opacity: 0.8;

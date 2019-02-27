@@ -11,7 +11,7 @@ const Shell = styled.div`
   position: relative;
 `;
 const Title = styled.div`
-  color: #CF7F1A;
+  color: $red;
   font-family: VitesseBold;
   font-size: 28px;
   margin-bottom: 24px;
