@@ -127,34 +127,48 @@ Through her work, Yolanda creates a community where women of color’s experienc
     </Block>
     <Block type="color" color="orange">
       ### Implementation{'\n'}
-      - Does the project serve others and create community?{'\n'}
-      - What is the applicant’s experience with the identified problem and community involved?{'\n'}
-      - Has the applicant identified a list of goals to complete the project?{'\n'}
+      - Can the proposal be realistically completed in a year?{'\n'}
+      - If part of a larger, long-term project, how does the proposal further the overall effort?{'\n'}
+      - Does the applicant have the capacity to execute the proposed solution? If not, how will he/she prepare?{'\n'}
     </Block>
     <Block type="color" color="green">
       ### Sustainability{'\n'}
-      - Does the project serve others and create community?{'\n'}
-      - What is the applicant’s experience with the identified problem and community involved?{'\n'}
-      - Has the applicant identified a list of goals to complete the project?{'\n'}
+      - How will the project involve and inspire others?{'\n'}
+      - Without a scholarship, how does the applicant intend to move forward on the proposed solution?{'\n'}
     </Block>
   </Grid>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?{'\n'}
-    ##### Eligibility{'\n'}
-The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.{'\n'}
 
 ##### 2019 Applications - Coming Soon!{'\n'}
-
 Stay tuned! The ability to apply for 2019 Scholarships will go live on **March 1, 2019**. {'\n'}
+
+##### Eligibility{'\n'}
+The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.{'\n'}
+
+##### Online Information Sessions - Registration Required  {'\n'}
+                  WDS Foundation will hold two information sessions to help answer any questions about the scholarship, the application, and about the Foundation. Please register for one of the following sessions using the appropriate link below:{'\n'}
+                  
+                 - Information Session #1: Sunday, March 3: 2:00-3:00pm PST **[(Register for session #1)](https://zoom.us/meeting/register/8818045ff4fec4e4cde7dc3c8da9331e)**{'\n'}
+                 - Information Session #2: Saturday, March 16, 11:00am-12:00pm PST **[(Register for session #2)](https://zoom.us/meeting/register/6933a7d02893991f66858a512be5123a)**{'\n'}
+
+                  
+--{'\n'}
+##### 2019 Application Timeline  {'\n'}
+                  Please review the following timeline carefully. We will **not accept** any late submissions. {'\n'}
+                 - **March 1:** Applications open  {'\n'}
+                 - **April 1:** Applications close  {'\n'}
+                 - **May 1:** First round of top 10 applicants notified  {'\n'}
+                 - **May 15:** Voyagers selected and notified {'\n'}
 
 </Block>
 </Section>
 <Section color="green">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## Become A Mentor{'\n'}
-  <font color="white">If you would like to contribute your knowledge and expertise to our Voyagers as a Mentor, whether that be for an hour or a full-year, we’d sincerely appreciate your help. Simply fill out the form below and we’ll be in contact when we have a need for your expertise and skills!</font>
+   ## Questions? How can we help?{'\n'}
+  <font color="white">Contact our Foundation team using the button below.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.wufoo.com/forms/w12waw4d1nmlnum/" newWindow={true} styling="white" fitToText>Share your expertise!</Button> 
+   <Button to="https://worlddominationsummit.com/foundation-contact" newWindow={true} styling="white" fitToText>Contact the WDS Foundation</Button> 
  </Block>
   </Block>
 </Section>
