@@ -29,7 +29,7 @@ preload
 </Section>
        <Section color="blue" bound={false}>
 <Block margin="50px 0 50px 0">
-  <span style="color:white">## What's Included in My WDS Ticket</span>
+## What's Included in My WDS Ticket
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
       <Block type="image" src="photos/JoinUs/image-speakers.png">
       ## Main Stage Speakers
