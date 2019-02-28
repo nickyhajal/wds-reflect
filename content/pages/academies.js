@@ -2,6 +2,7 @@
   headerImage="v2/hero/academies.png"
   headerClip="rl_header"
   headerPosition="top"
+  headerSize="thin"
   color="white"
   preload
 >
