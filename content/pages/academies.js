@@ -15,9 +15,9 @@ You'll have the opportunity to learn something new to help live your _own_ remar
   </Block>
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-        ##  Sorry we missed you for 2018! 
+        ##  Stay tuned for the complete 2019 Academies schedule! 
   
-  _Academies for this year have finished but will return for 2019. Please check back in the spring of 2019 for an all-new scheudle._ 
+  _Please check back in April for the full WDS 2019 Academies schedule and registration information._ 
 
 </Block></Section>
 <Import id="join-us" />
