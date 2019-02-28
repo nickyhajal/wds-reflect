@@ -126,15 +126,19 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
 
 </Block>
 </Section>
-<Section color="green">
-  <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## Ready to apply? Let’s do this! 
-  <font color="white">Click the button below to get started.</font> 
-                  
-              <font color="white"><i>Please note: We recommended completing the application on a computer.</i></font>
- <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/foundation-apply" newWindow={true} styling="white" fitToText>2019 Scholarship Application</Button> 
- </Block>
+<Section
+  color="white"
+>  
+ <Block type="padded" background="blue">
+    <Image src="icon/circle-map-green.png" width="101" height="78"  align="center" margin="0 0 40px 0" />
+        <Block cols="5">
+      ## Okay, ready to apply? Let’s do this! 
+      Click the button below to get started.
+      
+      _Please note: We strongly recommended completing the application on a computer. DO NOT refresh or close your browser until your application has been submitted._
+           <Button to="https://worlddominationsummit.com/foundation-apply" newWindow={true} styling="sea" fitToText>2019 Scholarship Application</Button> 
+    </Block>
   </Block>
+
 </Section>
 <Import id="join-us" />
