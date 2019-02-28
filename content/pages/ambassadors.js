@@ -62,6 +62,7 @@ If you’re not able to volunteer 20 hours but still want to help, we’re not a
   
 ### I have more questions/would like more information!
 Email Tina at **[concierge@wds.fm](mailto:concierge@wds.fm)** and we’ll get everything straightened out! 
+   </Block>
 </Section>  
    
 <Section
@@ -78,6 +79,4 @@ Email Tina at **[concierge@wds.fm](mailto:concierge@wds.fm)** and we’ll get ev
     </Block>
   </Block>
 
-  
-   </Block>
 </Section>
