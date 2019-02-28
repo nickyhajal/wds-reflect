@@ -27,7 +27,7 @@ preload
 
          </Block>
 </Section>
-       <Section color="bgry" bound={false}>
+       <Section color="blue" bound={false}>
 <Block margin="50px 0 50px 0">
   ## What's Included in My WDS 360 Ticket
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
