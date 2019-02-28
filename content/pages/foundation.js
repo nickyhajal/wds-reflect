@@ -103,9 +103,9 @@ Through her work, Yolanda creates a community where women of color’s experienc
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?
 
-##### 2019 Applications - Coming Soon!
-Stay tuned! The ability to apply for 2019 Scholarships will go live on **March 1, 2019**. 
-
+##### 2019 Applications - Available Now!
+Please review the following information carefully. 
+                  
 ##### Eligibility
 The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.
 
@@ -118,7 +118,7 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
                   
 --
 ##### 2019 Application Timeline  
-                  Please review the following timeline carefully. We will **not accept** any late submissions. 
+                 Late submissions will **not be accepted**. 
                  - **March 1:** Applications open  
                  - **April 1:** Applications close  
                  - **May 1:** First round of top 10 applicants notified  
@@ -128,10 +128,10 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
 </Section>
 <Section color="green">
   <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## Questions? How can we help?
-  <font color="white">Contact our Foundation team using the button below.</font>
+   ## Ready to apply? Let’s do this! 
+  <font color="white">Click the button below to get started. <i>Please note: We recommended completing the application on a computer.</i></font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/foundation-contact" newWindow={true} styling="white" fitToText>Contact the WDS Foundation</Button> 
+   <Button to="https://worlddominationsummit.com/foundation-apply" newWindow={true} styling="white" fitToText>2019 Scholarship Application</Button> 
  </Block>
   </Block>
 </Section>
