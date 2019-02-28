@@ -63,14 +63,14 @@ If you’re not able to volunteer 20 hours but still want to help, we’re not a
 ### I have more questions/would like more information!
 Email Tina at **[concierge@wds.fm](mailto:concierge@wds.fm)** and we’ll get everything straightened out! 
   
- <Block type="padded" background="sea">
+ <Block type="padded" background="blue">
     <Image src="icon/circle-map-green.png" width="101" height="78"  align="center" margin="0 0 40px 0" />
         <Block cols="5">
       ## Okay, ready to apply? Let’s do this! 
       Click the button below to get started.
       
       _Please note: We recommended completing the application on a computer, as some users have reported trouble submitting the form from their phones._
-           <Button to="https://worlddominationsummit.com/ambassador-apply" newWindow={true} styling="orange" fitToText>WDS 2019 Ambassador Application</Button> 
+           <Button to="https://worlddominationsummit.com/ambassador-apply" newWindow={true} styling="sea" fitToText>WDS 2019 Ambassador Application</Button> 
     </Block>
   </Block>
 
