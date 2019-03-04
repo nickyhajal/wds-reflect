@@ -9,6 +9,8 @@
   text-align: center;
   background: #E54B2C;
   .links {
+    position: relative;
+    z-index: 5;
     margin: 10px auto;
     display: inline-block;
     a {
@@ -38,6 +40,8 @@
     }
   }
   .sub {
+    position: relative;
+    z-index: 5;
     color: $white;
     opacity: 0.5;
   }
@@ -50,6 +54,9 @@
     position: absolute;
     left: 0;
     top: 0;
+    @media(--tablet) {
+      opacity: 0.1;
+    }
   }
   &:after {
     content: "";
@@ -60,6 +67,9 @@
     position: absolute;
     right: 0;
     top: 0;
+    @media(--tablet) {
+      opacity: 0.1;
+    }
   }
 }
 :global(.greenpage) {
