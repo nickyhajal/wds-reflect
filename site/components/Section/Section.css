@@ -15,6 +15,10 @@
       background-image: url(https://files.wds.fm/images/v2/burst-orange-left.png);
       background-size: contain;
       background-repeat: no-repeat;
+      @media(--tablet) {
+        opacity: 0.1;
+        z-index: -1;
+      }
     }
     &:after {
       content: "";
@@ -27,6 +31,10 @@
       background-image: url(https://files.wds.fm/images/v2/burst-orange-right.png);
       background-size: contain;
       background-repeat: no-repeat;
+      @media(--tablet) {
+        opacity: 0.1;
+        z-index: -1;
+      }
     }
   }
 }
