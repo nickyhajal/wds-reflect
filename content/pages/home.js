@@ -95,7 +95,7 @@ Chris Guillebeau
 
 P.S. WDS 2019 tickets are **on sale now**, register using the button below.
 
-<Button to="/joinUs" fitToText>Get Your WDS 2019 Ticket!</Button> 
+<Button to="/join-us" fitToText>Get Your WDS 2019 Ticket!</Button> 
   
   </Block>
 </Section>
