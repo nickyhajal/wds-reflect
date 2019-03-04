@@ -15,7 +15,7 @@
   opacity: 0.8;
 }
 :global .available.usernameInp {
-  background: #919F00;
+  background: $green;
 }
 :global .not-available.usernameInp {
   background: #CF4D1A;
