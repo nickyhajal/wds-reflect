@@ -16,8 +16,8 @@ class Cart extends React.Component {
 		super();
 		this.state = {
 			email: '',
-			year: '2018',
-			month: '2'
+			year: '2019',
+			month: '8'
 
 		}
 	}
@@ -64,7 +64,6 @@ class Cart extends React.Component {
 
 	years() {
 		return [
-			{value: '2018', label: '2018'},
 			{value: '2019', label: '2019'},
 			{value: '2020', label: '2020'},
 			{value: '2021', label: '2021'},
@@ -138,7 +137,7 @@ class Cart extends React.Component {
 	}
 
 	processCharge(token, pkg) {
-		auth.charge({card_id: token, code: 'wds2018', purchase_data: pkg})
+		auth.charge({card_id: token, code: 'wds2019', purchase_data: pkg})
 		.then((raw) => {
 			const rsp = raw.data;
 			if (rsp.declined !== undefined && rsp.declined) {
@@ -312,7 +311,7 @@ class Cart extends React.Component {
 			      	value={this.props.checkout.quantity}
 			      />
 			    </div>
-		    	<div styleName="productName">WDS 2018 Ticket</div>
+		    	<div styleName="productName">WDS 2019 Ticket</div>
 	    	</div>
 	    	{this.renderCardButton()}
 				<form id="checkoutForm" onSubmit={ this.purchase.bind(this) } styleName="checkoutForm">

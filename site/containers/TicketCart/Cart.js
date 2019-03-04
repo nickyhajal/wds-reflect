@@ -96,7 +96,6 @@ class Cart extends React.Component {
 
   years() {
     return [
-      { value: '2018', label: '2018' },
       { value: '2019', label: '2019' },
       { value: '2020', label: '2020' },
       { value: '2021', label: '2021' },
@@ -252,7 +251,7 @@ class Cart extends React.Component {
             className={code === 'wds2019plan' ? 'selected' : ''}
           >
             WDS Payment Plan
-            <div>$99 today, then $186/mo for 3 mos.</div>
+            <div>$95 today, then $204/mo for 3 mos.</div>
           </button>
         </div>
       </div>
@@ -305,7 +304,7 @@ class Cart extends React.Component {
             className={code === 'wds2019plan' ? 'selected' : ''}
           >
             WDS Payment Plan
-            <div>$99 today, then $186/mo for 3 mos.</div>
+            <div>$95 today, then $204/mo for 3 mos.</div>
           </button>
         </div>
         <div className="form-row">
@@ -494,7 +493,7 @@ class Cart extends React.Component {
           </div>
           {code.includes('plan') && (
             <div styleName="planTerms">
-              You will be charged $99 today and $186 per month for 3 months.
+              You will be charged $95 today and $204 per month for 3 months.
               Payment plan may not be cancelled nor refunded.
             </div>
           )}

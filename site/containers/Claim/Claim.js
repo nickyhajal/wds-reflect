@@ -226,7 +226,7 @@ export class App extends Component {
     return c;
   }
   prepareTickets() {
-    const tickets = this.props.auth.me.tickets;
+    const tickets = this.props.auth.me.tickets.filter(({ year }) => `${year}` === '2019');
     this.tickets = { claimed: [], unclaimed: [], countStr: '', count: 0, connectCount: 0 };
     if (tickets !== undefined && _.isArray(tickets) && tickets.length) {
       tickets.forEach(ticket => {

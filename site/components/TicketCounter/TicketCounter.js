@@ -37,7 +37,7 @@ class TicketCounter extends React.Component {
         <div styleName="numbers">
           {elms}
         </div>
-        <h3>incredible people already attending WDS 2018</h3>
+        <h3>incredible people already attending WDS 2019</h3>
         <h4>Will you be one of them?</h4>
       </div>
     );

@@ -97,6 +97,7 @@ const auth = {
     .then((raw) => {
       const rsp = raw.data;
       const now = moment();
+      console.log(rsp);
       if (
         rsp.card !== undefined &&
         rsp.card &&
@@ -106,6 +107,7 @@ const auth = {
           rsp.card.exp_year > now.format('YYYY')
         )
       ) {
+        console.log('>>>>>>>> got card, updating')
         Actions.updateCard(rsp.card, true);
       } else {
         Actions.updateCard(false, false);

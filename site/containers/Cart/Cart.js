@@ -22,8 +22,8 @@ class Cart extends React.Component {
     this.gotCard = false;
     this.state = {
       email: '',
-      year: '2018',
-      month: '2',
+      year: '2019',
+      month: '8',
     };
     this.steps = {
       start_card: [25, 'Verifying card.'],
@@ -122,7 +122,6 @@ class Cart extends React.Component {
 
   years() {
     return [
-      { value: '2018', label: '2018' },
       { value: '2019', label: '2019' },
       { value: '2020', label: '2020' },
       { value: '2021', label: '2021' },

@@ -21,13 +21,13 @@ preload
 <p>WDS tickets are <b>$697</b> and are sold on a first-come, first-served basis.</p>
 <p><b>NEW</b>—payment plan available! <i>(For all ticket policies, refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
 
-<p><b>To be notified when WDS tickets go on sale next use the button below:</b></p>
+<p><b>Tickets are on sale now! Click below to be a part of WDS 2019</b></p>
 
-     <Button modal="joinUs" fitToText>Join the Wait List!</Button>
+     <Button to="/be-there" fitToText>Get Your Ticket to WDS 2019</Button>
 
          </Block>
 </Section>
-       <Section color="sea" bound={false}>
+       <Section color="blue" bound={false}>
 <Block margin="50px 0 50px 0">
   ## What's Included in My WDS 360 Ticket
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>

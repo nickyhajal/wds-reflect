@@ -59,6 +59,7 @@
   width: 26px;
   height: 26px;
   margin-right: 10px;
+  min-width: 26px;
 }
 .planTerms {
   color: #fff;

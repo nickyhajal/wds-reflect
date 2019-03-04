@@ -8,6 +8,7 @@
   margin: 0 auto -76px;
   display: block;
   transition: 0.2s all;
+  filter: saturate(150%) brightness(101%);
 
   &:hover {
     transform: rotate(2deg) scale(1.15) translate(0, -12px);

@@ -26,6 +26,7 @@ import Transfer from '../components/Transfer/Transfer';
 import CompleteBooking from '../containers/CompleteBooking';
 import Logout from '../containers/Logout';
 import AwardeePage from '../containers/SpeakerPage/AwardeePage';
+import Billing from '../containers/Hub/Billing';
 
 const routes = (
   <Route path="/" component={App}>
@@ -54,6 +55,7 @@ const routes = (
     <Route path="/events/activities/:loginhash" component={HashLogin} />
     <Route path="/events/registration/:loginhash" component={HashLogin} />
     <Route path="/hotel/:loginhash" component={HashLogin} />
+    <Route path="/billing/:loginhash" component={HashLogin} />
     <Route path="/your-schedule/:loginhash" component={HashLogin} />
     <Route path="/hub/:loginhash" component={HashLogin} />
     <Route path="/activity/:id" component={Event} />
@@ -71,6 +73,7 @@ const routes = (
         <Route path="/hub" component={Hub} />
         <Route path="/settings" component={Settings} />
         <Route path="/events" component={Events} />
+        <Route path="/billing" component={Billing} />
         <Route path="/your-schedule" component={Schedule} />
         <Route path="/events/meetups" component={EventListing} />
         <Route path="/events/academies" component={EventListing} />

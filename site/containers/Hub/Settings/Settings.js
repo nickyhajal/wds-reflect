@@ -25,6 +25,8 @@ import Answer from '../../../components/Answer/Answer';
 import Block from '../../../components/Block/Block';
 import InterestPicker from '../../../components/InterestPicker/InterestPicker';
 import Button from '../../../components/Button/Button';
+import Cart from '../../Cart/Cart';
+import UpdateCard from '../../UpdateCard/UpdateCard';
 
 // import Auth from '~/containers/Auth';
 // import Dashboard from '~/containers/Dashboard';
@@ -352,6 +354,9 @@ class Settings extends Component {
                       </Button>
                     </div>
                   </form>
+                </Tab>
+                <Tab title="Billing"  layout="imageLeft" clip="">
+                  <UpdateCard />
                 </Tab>
               </Tabs>
             </Block>

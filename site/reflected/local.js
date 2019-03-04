@@ -140,24 +140,19 @@ import YearReviews from '../../site/components/YearReviews';
  </Block>
  </Block>
 </Section>
-<Section color="canvas" burst>
-  <Image src="v2/headings/join-us-orange.png" width="288px" height="88px" align="center" className="join-us-heading" />
-  <Block margin="50px 0" className="pagematchText">## Join us at WDS 2019; June 25 - July 1</Block>
-  <Block margin="50px 0">
-    ### Be the first to get notified when tickets go on sale next.{'\n'}
+<Section color="canvas" overflow="hidden" burst>
+  <Block margin="60px 0 30px">## WDS Tickets are On Sale!</Block>
+  <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
+    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
   </Block>
-  <Block width="400px" align="center" margin="50px 0 0" css={{ maxWidth: '400px' }}
-  >{'\n'}
-    <Form list="WDS 2019 Waiting List" buttonClassName="pagebutton" successMessage="Great, we'll let you know when sales start for WDS 2019!" buttonStart="Get Notified" buttonProgress="Sending..." buttonSuccess="Success!"
-    >
-      <FormRow>
-        <Input id="full_name" placeholder="Your Full Name" style={{borderColor: "#D2D2D2"}} />
-      </FormRow>
-      <FormRow>
-        <Input id="email" placeholder="Your Email Address" style={{borderColor: "#D2D2D2"}} />
-      </FormRow>
-    </Form>
+  <Button styling="white" align="center" to={(
+    window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
+  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+  <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
+    <TicketCounter type="countup" />{'\n'}
   </Block>
+  <JoinUsButton />
+  <div className="clear" />
 </Section>
 
 

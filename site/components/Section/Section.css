@@ -40,6 +40,13 @@
     }
   }
 }
+:global(.section-blue) {
+  h2 {
+    color: #fff;
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+}
 
 :global(.scriptHeader) {
   float: right;
