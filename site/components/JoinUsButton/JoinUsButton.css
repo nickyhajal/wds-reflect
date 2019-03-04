@@ -13,4 +13,8 @@
   &:hover {
     transform: rotate(2deg) scale(1.15) translate(0, -12px);
   }
+  @media(--phone) {
+    width: 280px;
+    height: 95px;
+  }
 }
