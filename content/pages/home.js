@@ -93,9 +93,9 @@ To _Community, Adventure,_ and _Service_,
 
 Chris Guillebeau
 
-P.S. If you'd like to be notified when tickets go on sale next for WDS 2019, sign-up using the button below.
+P.S. WDS 2019 tickets are **on sale now**, register using the button below.
 
-<Button modal="joinUs" fitToText>Join the Wait List!</Button> 
+<Button modal="joinUs" fitToText>Get Your WDS 2019 Ticket!</Button> 
   
   </Block>
 </Section>
