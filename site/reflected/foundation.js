@@ -38,6 +38,7 @@ import YearReviews from '../../site/components/YearReviews';
   headerImage="v2/hero/foundation.png"
   headerClip="rl_header"
   headerPosition="center center"
+  headerSize="thin"
   color="white"
   preload
 >
@@ -139,13 +140,13 @@ Through her work, Yolanda creates a community where women of color’s experienc
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?{'\n'}
 
-##### 2019 Applications - Coming Soon!{'\n'}
-Stay tuned! The ability to apply for 2019 Scholarships will go live on **March 1, 2019**. {'\n'}
-
+##### 2019 Applications - Available Now!{'\n'}
+Please review the following information carefully. {'\n'}
+                  
 ##### Eligibility{'\n'}
 The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.{'\n'}
 
-##### Online Information Sessions - Registration Required  {'\n'}
+##### Online Information Sessions (registration required to participate)  {'\n'}
                   WDS Foundation will hold two information sessions to help answer any questions about the scholarship, the application, and about the Foundation. Please register for one of the following sessions using the appropriate link below:{'\n'}
                   
                  - Information Session #1: Sunday, March 3: 2:00-3:00pm PST **[(Register for session #1)](https://zoom.us/meeting/register/8818045ff4fec4e4cde7dc3c8da9331e)**{'\n'}
@@ -154,7 +155,7 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
                   
 --{'\n'}
 ##### 2019 Application Timeline  {'\n'}
-                  Please review the following timeline carefully. We will **not accept** any late submissions. {'\n'}
+                 Late submissions **will not** be accepted. {'\n'}
                  - **March 1:** Applications open  {'\n'}
                  - **April 1:** Applications close  {'\n'}
                  - **May 1:** First round of top 10 applicants notified  {'\n'}
@@ -162,14 +163,20 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
 
 </Block>
 </Section>
-<Section color="green">
-  <Block cols="6" css={{ padding: '25px 0 20px' }}>
-   ## Questions? How can we help?{'\n'}
-  <font color="white">Contact our Foundation team using the button below.</font>
- <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-   <Button to="https://worlddominationsummit.com/foundation-contact" newWindow={true} styling="white" fitToText>Contact the WDS Foundation</Button> 
- </Block>
+<Section
+  color="white"
+>  
+ <Block type="padded" background="blue">
+    <Image src="icon/circle-map-green.png" width="101" height="78"  align="center" margin="0 0 40px 0" />{'\n'}
+        <Block cols="5">
+      ## Okay, ready to apply? Let’s do this! {'\n'}
+      Click the button below to get started.{'\n'}
+      
+      _Please note: We strongly recommended completing the application on a computer. To preserve your work-in-progress, DO NOT refresh or close your browser until your application has been submitted._{'\n'}
+           <Button to="https://worlddominationsummit.com/foundation-apply" newWindow={true} styling="sea" fitToText>2019 Scholarship Application</Button> 
+    </Block>
   </Block>
+
 </Section>
 <Section color="canvas" overflow="hidden" burst>
   <Block margin="60px 0 30px">## WDS Tickets are On Sale!</Block>

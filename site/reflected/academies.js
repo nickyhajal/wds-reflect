@@ -38,6 +38,7 @@ import YearReviews from '../../site/components/YearReviews';
   headerImage="v2/hero/academies.png"
   headerClip="rl_header"
   headerPosition="top"
+  headerSize="thin"
   color="white"
   preload
 >
@@ -50,9 +51,9 @@ You'll have the opportunity to learn something new to help live your _own_ remar
   </Block>
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-        ##  Sorry we missed you for 2018! {'\n'}
+        ##  Stay tuned for the complete 2019 Academies schedule! {'\n'}
   
-  _Academies for this year have finished but will return for 2019. Please check back in the spring of 2019 for an all-new scheudle._ {'\n'}
+  _Please check back in April for the full WDS 2019 Academies schedule and registration information._ {'\n'}
 
 </Block></Section>
 <Section color="canvas" overflow="hidden" burst>
