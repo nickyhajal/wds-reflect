@@ -17,9 +17,10 @@
    
    ### How can I get a WDS ticket?
 
-    <p>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</p>
+   <p><b>Tickets for WDS 2019 are on sale now!</b> Register before they sell out here: <Link to="https://worlddominationsummit.com/join-us">WDS 2019 Tickets.</Link></p>
 
-<p><b>Tickets for WDS 2019 will go on sale again soon!</b> To be the first to be notified when tickets go on sale next, join the official waitlist: <Link to="http://madmimi.com/signups/aea67a30548f4ac1a00b9e5b1f15efa3/join">WDS 2019 Waitlist.</Link></p>
+    <p><i>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</i></p>
+
 
   ### Do you offer a payment plan for tickets?
 
