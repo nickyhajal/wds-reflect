@@ -6,7 +6,7 @@ import Link from '../Link/Link';
 const JoinUsButton = () => {
   const to = window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us';
   return (
-    <Link styleName="button" to={to} />
+    <Link styleName="button" to={to} className="joinusbuttonticket" />
   );
 };
 
