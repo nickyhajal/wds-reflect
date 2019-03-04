@@ -10,11 +10,11 @@
   transition: 0.2s all;
   filter: saturate(150%) brightness(101%);
 
-  &:hover {
-    transform: rotate(2deg) scale(1.15) translate(0, -12px);
-  }
   @media(--phone) {
     width: 280px;
     height: 95px;
+  }
+  &:hover {
+    transform: rotate(2deg) scale(1.15) translate(0, -12px);
   }
 }
