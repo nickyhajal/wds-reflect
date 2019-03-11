@@ -3,7 +3,7 @@
   css={{ marginBottom: '-2px' }}
 >
   <Block width="768px" bleed={true} type="padded" background="gray" textAlign="left" margin="60px 0 80px" clip="tr:0,1%;">
-    <Block width="100%" margin="40px 0 0 0" textAlign="center">## The Fine Print: WDS Payment Plan Terms</Block>
+    <Block width="100%" margin="40px 0 0 0" textColor="black" textAlign="center">## The Fine Print: WDS Payment Plan Terms</Block>
    
    Please review all of the following information carefully:
    * The WDS payment plan is divided into 4-monthly payments for a **total of $707**.
