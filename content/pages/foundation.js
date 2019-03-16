@@ -114,7 +114,7 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
                   WDS Foundation will hold two information sessions to help answer any questions about the scholarship, the application, and about the Foundation. Please register for one of the following sessions using the appropriate link below:
                   
                  - ~~Information Session #1: Sunday, March 3: 2:00-3:00pm PST~~ **(COMPLETED)**
-                 - Information Session #2: Saturday, March 16, 11:00am-12:00pm PST **[(Register for session #2)](https://zoom.us/meeting/register/6933a7d02893991f66858a512be5123a)**
+                 - ~~Information Session #2: Saturday, March 16, 11:00am-12:00pm PST~~ **(COMPLETED)**
 
                   
 --
