@@ -47,8 +47,7 @@
         ## Jill Schlesinger
       **Jill Schlesinger** CFP®, is the Emmy-nominated and Gracie Award Winning Business Analyst for CBS News. She covers the economy, markets, investing and anything else with a dollar sign on TV, on the “Jill on Money” podcast, radio (including her nationally syndicated show, “Jill on Money”, which won the 2018 Gracie Award for Best National Talk Show), the web and her blog, "Jill on Money."  
 
-Jill also won a 2018 Personal Finance Reporting Award from the Radio Television Digital News Association (RTDNA)/National Endowment for Financial Education (NEFE). Jill’s first book, "The Dumb Things Smart People Do With Their Money", will be published in February 2019 by Ballantine Books.
-         </Block>
+Jill also won a 2018 Personal Finance Reporting Award from the Radio Television Digital News Association (RTDNA)/National Endowment for Financial Education (NEFE). Jill’s first book, *The Dumb Things Smart People Do With Their Money*, was recently published this past February (2019) by Ballantine Books.         </Block>
     </Tab>
     <Tab title="Tania">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Tania-Katan-WDS-2019-speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
