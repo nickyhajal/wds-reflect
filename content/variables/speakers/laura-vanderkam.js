@@ -1,4 +1,4 @@
-name: "Jill Schlesinger",
+name: "Laura Vanderkam",
 year: "2019",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Laura-Vanderkam-WDS-2019-Speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Laura-Vanderkam-thumbnail.png",
