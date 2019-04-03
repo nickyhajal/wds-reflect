@@ -45,32 +45,18 @@
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Jill-Schlesinger-WDS-2019-speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
         ## Jill Schlesinger
-      **Jill Schlesinger** CFP®, is the Emmy-nominated and Gracie Award Winning Business Analyst for CBS News. She covers the economy, markets, investing and anything else with a dollar sign on TV, on the “Jill on Money” podcast, radio (including her nationally syndicated show, “Jill on Money”, which won the 2018 Gracie Award for Best National Talk Show), the web and her blog, "Jill on Money."  
-
-Jill also won a 2018 Personal Finance Reporting Award from the Radio Television Digital News Association (RTDNA)/National Endowment for Financial Education (NEFE). Jill’s first book, *The Dumb Things Smart People Do With Their Money*, was recently published this past February (2019) by Ballantine Books.         </Block>
-    </Tab>
-    <Tab title="Tania">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Tania-Katan-WDS-2019-speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Tania Katan
-                                                                                                                                              
-        **Tania Katan** is an inspirational speaker, creative consultant and co-creator of the #ItWasNeverADress campaign. She has been a featured speaker at CiscoLive!, S.H.E. Summit, Business of Software, Expedia, Uber, Etsy, Humana, Comedy Central Stage, TEDx, and more.
-        
-        Her work has been featured in *The New York Times, USA Today, HuffPost, Time, ReadWrite, Adweek, BuzzFeed, Mashable, CNN,* and others. As author of *Creative Trespassing* (Penguin Random House, 2019) Katan travels the world showing people and organizations how to disrupt the mindsets keeping us stuck and start a creative revolution from our cubicles!
-
-For more of Tania’s productive disruptions visit [taniakatan.com](www.taniakatan.com).
-      </Block>
+      **Jill Schlesinger** CFP®, is the Emmy-nominated and Gracie Award Winning Business Analyst for CBS News. Jill covers the economy, markets, investing and all other things money related on TV, and the “Jill on Money” podcast, radio show and blog. 
+      
+      Jill’s radio show won the 2018 Gracie Award for Best National Talk Show. Jill’s first book, *"The Dumb Things Smart People Do With Their Money,"* was recently released.
+</Block>
     </Tab>
  <Tab title="James">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/James-Victore-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## James Victore
-        **James Victore** is a graphic designer, art educator and dynamic speaker on creativity. He lectures and teaches regularly around the globe, inspiring people to illuminate their individual gifts in order to achieve personal greatness.
-Described as “part Darth Vader, part Yoda,” James is widely known for his timely wisdom and impassioned views about design and it’s place in the world. 
+        **James Victore** is a graphic designer, art educator and dynamic speaker on creativity. He lectures and teaches regularly around the globe, inspiring people to illuminate their individual gifts in order to achieve personal greatness.
 
-James’ work has been exhibited at the Museum of Modern Art in New York and are in the permanent collections of the Palais du Louvre, Paris, the Library of Congress, Washington, DC, the Design Museum in Zurich and the Stedelijk Museum, Amsterdam. His clients include Moet & Chandon, Aveda, *Esquire* and *TIME Magazines*, Yohji Yamamoto, Bobbi Brown cosmetics, *The New York Times*, and The School of Visual Arts.
-
-James Victore’s new book, **“Feck Perfuction: Dangerous Ideas on the Business of Creativity”** was published in 2019.
+James’ work has been exhibited at the Museum of Modern Art in New York and are in the permanent collections of the Palais du Louvre, Paris, the Library of Congress, Washington, DC, the Design Museum in Zurich and the Stedelijk Museum, Amsterdam. 
       </Block>
     </Tab>  
  <Tab title="Laura">
@@ -78,18 +64,18 @@ James Victore’s new book, **“Feck Perfuction: Dangerous Ideas on the Busines
       <Block cols="6" textAlign="left">
         ## Laura Vanderkam
                                                                                                                                               
-        **Laura Vanderkam** is the author of several time management and productivity books, including *Off the Clock, I Know How She Does It, What the Most Successful People Do Before Breakfast,* and *168 Hours*. Her work has appeared in publications including the *New York Times, the Wall Street Journal, Fast Company*, and *Fortune*.
-      
-        She is the co-host, with Sarah Hart-Unger, of the podcast Best of Both Worlds. She lives outside Philadelphia with her husband and four children, and blogs at [LauraVanderkam.com](https://LauraVanderkam.com).
+        **Laura Vanderkam** is the author of several time management and productivity books, including *Off the Clock*, *I Know How She Does It*, *What the Most Successful People Do Before Breakfast*, and *168 Hours*. Her work has appeared in publications including the *New York Times, the Wall Street Journal, Fast Company,* and *Fortune*.
+
+She is the co-host, with Sarah Hart-Unger, of the podcast Best of Both Worlds. She lives outside Philadelphia with her husband and four children, and blogs at [LauraVanderkam.com](LauraVanderkam.com).
           </Block>
     </Tab>
    <Tab title="Nate">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Nate-Staniforth-WDS-2019-Speaker.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Nate Staniforth                                                                                                                            
-        **Nate Staniforth** Magician, writer, traveler, and host of the Discovery Channel’s international hit TV series Breaking Magic. Nate abandons the ubiquitous style-without-substance bravado so often associated with magic and appeals instead to the imagination and intellect of his audience. The journey is wild, visceral and immediate, and like all great art, encourages us to open our minds and hearts, and see the world in new ways.
-      
-      For over a decade, Nate has toured the US college circuit as one of the busiest working magicians in the country. He’s given a TED Talk, lectured at the world-famous Oxford Union, and in 2018 the Harry Potter-famed Bloomsbury Publishing released Nate’s memoir, *Here is Real Magic*.
+        **Nate Staniforth** is a magician, writer, traveler, and host of the Discovery Channel’s international hit TV series Breaking Magic. Nate abandons the ubiquitous style-without-substance bravado so often associated with magic and appeals instead to the imagination and intellect of his audience. The journey is wild, visceral and immediate, and like all great art, encourages us to open our minds and hearts, and see the world in new ways.
+
+For over a decade, Nate has toured the US college circuit as one of the busiest working magicians in the country. He’s given a TED Talk, lectured at the world-famous Oxford Union, and in 2018 the Harry Potter-famed Bloomsbury Publishing released Nate’s memoir, *Here is Real Magic*.
       </Block>
     </Tab> 
     <Tab title="Nadya">
