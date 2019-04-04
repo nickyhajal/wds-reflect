@@ -88,6 +88,16 @@ For over a decade, Nate has toured the US college circuit as one of the busiest 
       In 2017, Nadya ran for office in Cambridge, MA. While she did not win, her campaign team made historic waves in mobilizing young people on the ground and at polls. Nadya recently published her debut book, *Period Power: A Manifesto for the Menstrual Movement*, with publisher Simon & Schuster, which made the Kirkus Reviews list for Best Young Adult Nonfiction of 2018. Most recently, Nadya has become the Chief Brand Officer of JUV Consulting, a Generation Z marketing agency based in NYC. 
           </Block>
     </Tab>
+     <Tab title="Paloma">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paloma+Medina+WDS+Academy-wide.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Paloma Medina
+                                                                                                                                              
+       **Paloma Medina** is a performance coach, trainer, and owner of [11:11 Supply](https://www.1111supply.com/), a store that specializes in beautiful work tools designed to help you feel more productive, happy and balanced in your everyday life. In addition to offering practical tools and frameworks, Paloma's workshops provide audiences with a solid foundation of neuroscience and psychology on how to improve our work and personal lives. 
+       
+       Her workshop topics range from equity and inclusion to the science of goals and stress. She has worked with tech companies such as Etsy and Digital Ocean, nonprofit organizations, homeless healthcare clinics, as well as individual leaders and CEOs. She was born in Guadalajara, Mexico but has made a home on the West Coast since she was 8 years old. 
+          </Block>
+    </Tab>
  <Tab title="Chris">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/chris.guillebeau.wds.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
