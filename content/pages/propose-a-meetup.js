@@ -35,22 +35,24 @@
     As an attendee, you have the opportunity to host meetups, attend meetups, or do both using our online system and mobile app.
 
     ## When Should I Host a Meetup?
-    Here is a list of the best times to host an attendee meet up that don’t conflict with WDS programming:
+    Here is a list of the best times to host an attendee meet up that doesn't conflict with main WDS programming:
 
     <table className="time-table">
       <tbody>
-        <tr><td>Tuesday, June 26th</td><td>Any time</td></tr>
-        <tr><td>Wednesday, June 27th</td><td>Any time</td></tr>
-        <tr><td>Thursday, June 28th</td><td>Any time</td></tr>
-        <tr><td>Friday, June 29th</td><td>Before 9am and between 12pm - 4pm </td></tr>
+        <tr><td>Tuesday, June 25th</td><td>Any time</td></tr>
+        <tr><td>Wednesday, June 26th</td><td>Any time</td></tr>
+        <tr><td>Thursday, June 27th</td><td>Any time before 7:00pm</td></tr>
+        <tr><td>Friday, June 28th</td><td>Any time before 5:00pm and after 8:30pm</td></tr>
         <tr>
-          <td>Saturday, June 30th</td>
+          <td>Saturday, June 29th</td>
           <td>Before 8am, 1pm - 4pm, any time after 7pm</td>
         </tr>
-        <tr><td>Sunday, July 1st</td><td>Before 8am, 1pm - 4pm</td></tr>
-        <tr><td>Monday, July 2nd</td><td>Any time</td></tr>
+        <tr><td>Sunday, June 30th</td><td>Before 8am, 1pm - 4pm</td></tr>
+        <tr><td>Monday, July 1st</td><td>Any time</td></tr>
       </tbody>
     </table>
+
+*Please note this does not include Academies or WDS HQ programming.*
 
     ## How to Host a Meetup
     Want to host an adventure, hang out or something in between during this year's World Domination Summit? Here’s what you need to do:
