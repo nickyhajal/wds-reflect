@@ -21,7 +21,7 @@
     ## A Week of WDS: June 25th - July 1st, 2019
 
     - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday (6/26)** Academies, Small Group Activities and Attendee-Led Meetups
+    - **Wednesday (6/26)** Small Group Activities and Attendee-Led Meetups
     <ul><li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and Opening Party</li></ul>
     <ul><li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the Big Adventure</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
