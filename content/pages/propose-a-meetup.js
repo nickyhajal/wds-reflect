@@ -41,8 +41,8 @@
       <tbody>
         <tr><td>Tuesday, June 25th</td><td>Any time</td></tr>
         <tr><td>Wednesday, June 26th</td><td>Any time</td></tr>
-        <tr><td>Thursday, June 27th</td><td>Any time before 7:00pm</td></tr>
-        <tr><td>Friday, June 28th</td><td>Any time before 5:00pm and after 8:30pm</td></tr>
+        <tr><td>Thursday, June 27th</td><td>Any time before 5:30pm</td></tr>
+        <tr><td>Friday, June 28th</td><td>Any time before 4:30pm and after 8:30pm</td></tr>
         <tr>
           <td>Saturday, June 29th</td>
           <td>Before 8am, 1pm - 4pm, any time after 7pm</td>
@@ -59,7 +59,7 @@
 
     <div style={{ padding: '0 32px' }}>
       <p>
-        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://s3.amazonaws.com/el-files-wds/docs/WDS+2019+Meetup+Guide.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
+        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://s3.amazonaws.com/el-files-wds/docs/WDS-2019-Meetup-Guide.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
       </p>
       <p>
         (Helpful hint: The chances of your meetup getting approved goes up <i><b>astronomically</b></i> if you read and use this document)
