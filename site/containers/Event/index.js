@@ -220,7 +220,7 @@ export class EventComponent extends Component {
     switch (eventType) {
       case 'academy': {
         buttonSubMsg =
-          'Academies cost $29 for WDS 360 Attendees and are available to WDS Connect attendees and those not attending WDS for $59. Academies are not transferable or refundable.';
+          'Academies cost $29 for WDS Attendees and are available to those not attending WDS for $59. Academies are not transferable or refundable.';
         break;
       }
       case 'registration': {
