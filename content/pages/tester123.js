@@ -94,7 +94,7 @@ Humble's latest EP titled Righteous/Ratchet features the first single H.A.I.R,
       <Block cols="6" textAlign="left">
         ## Tania Katan
                                                                                                                                               
-        **Tania Katan** **Tania Katan** is an inspirational speaker, author, creative consultant and co-creator of the #ItWasNeverADress campaign. Tania’s work has been featured in _The New York Times, USA Today, HuffPost, Time, Adweek, BuzzFeed, Mashable,_ and _CNN._
+        **Tania Katan** is an inspirational speaker, author, creative consultant and co-creator of the #ItWasNeverADress campaign. Tania’s work has been featured in _The New York Times, USA Today, HuffPost, Time, Adweek, BuzzFeed, Mashable,_ and _CNN._
 
 Tania travels the world showing people and organizations how to disrupt the mindsets keeping us stuck and start a creative revolution from their cubicles.
 
