@@ -21,7 +21,7 @@
     ## A Week of WDS: June 25th - July 1st, 2019
 
     - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday (6/26)** Academies, Small Group Activities and Attendee-Led Meetups
+    - **Wednesday (6/26)** Small Group Activities and Attendee-Led Meetups
     <ul><li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and Opening Party</li></ul>
     <ul><li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the Big Adventure</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
@@ -76,6 +76,38 @@ She is the co-host, with Sarah Hart-Unger, of the podcast Best of Both Worlds. S
         **Nate Staniforth** is a magician, writer, traveler, and host of the Discovery Channel’s international hit TV series Breaking Magic. Nate abandons the ubiquitous style-without-substance bravado so often associated with magic and appeals instead to the imagination and intellect of his audience. The journey is wild, visceral and immediate, and like all great art, encourages us to open our minds and hearts, and see the world in new ways.
 
 For over a decade, Nate has toured the US college circuit as one of the busiest working magicians in the country. He’s given a TED Talk, lectured at the world-famous Oxford Union, and in 2018 the Harry Potter-famed Bloomsbury Publishing released Nate’s memoir, *Here is Real Magic*.
+      </Block>
+    </Tab> 
+   <Tab title="Humble">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Humble the Poet                                                                                                                           
+        **Kanwer Singh AKA Humble the Poet** is a Toronto-bred MC/spoken word artist with an aura that embodies the diversity and resiliency of one of the world's most unique cities. 
+
+With tattoos, beard, head wrap and a silly smile, Humble commands attention. He stimulates audiences with ideas that challenge conventional wisdom and go against the grain, with dynamic live sets that shake conventions and minds at the same time.  
+
+Humble's latest EP titled Righteous/Ratchet features the first single H.A.I.R, a celebration of women of all shapes, sizes, hair and walks of life. His self directed video for H.A.I.R has amassed almost 2 million views since its release. Humble's first book Unlearn: 101 Simple Truths For A Better Life was published through Indigo Press in October 2017.
+      </Block>
+    </Tab>
+<Tab title="Tania">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Tania-Katan-WDS-2019-speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Tania Katan
+                                                                                                                                              
+        **Tania Katan** **Tania Katan** is an inspirational speaker, author, creative consultant and co-creator of the #ItWasNeverADress campaign. Tania’s work has been featured in _The New York Times, USA Today, HuffPost, Time, Adweek, BuzzFeed, Mashable,_ and _CNN._
+
+Tania travels the world showing people and organizations how to disrupt the mindsets keeping us stuck and start a creative revolution from their cubicles.
+
+For more of Tania’s productive disruptions visit [taniakatan.com](www.taniakatan.com).
+      </Block>
+    </Tab>
+<Tab title="Trystan">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Trystan-Angel-Reese-WDS-2019-Speaker.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Trystan Reese                                                                                                                            
+        **Trystan Reese** is perhaps best known as “the pregnant man” of internet and television fame. But he would prefer to be known as the adoptive father of Hailey and Riley, gestational father of Leo, all-around awesome trans community member, and partner to the amazing Biff Chaplow. 
+
+He lives in Portland, OR and works as the Director of Family Formation at Family Equality Council. He can be found on Facebook and Instagram as **@biffandi** or at [www.biffandi.com](https://www.biffandi.com/).
       </Block>
     </Tab> 
     <Tab title="Nadya">
