@@ -9,7 +9,7 @@
   <Image src="v2/headings/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Academies are back for 2019! 
-At a WDS Academy, you might learn how to travel hack your way to a life-changing travel experience, master the art of telling compelling stories, or develop a winning branding strategy for your business. 
+At a WDS Academy, you might learn how to develop a fulfilling writing practice, build or business through Youtube, or what it's like to build and live in a tiny house. 
 You'll have the opportunity to learn something new to help live your _own_ remarkable life story. It's a great way to lead into the main events of the WDS weekend and keep the conversations going afterward.
   This short video shows more of what it's all about:
   </Block>
@@ -30,8 +30,5 @@ There is no limit to how many Academies you can register for, but please note th
 If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. 
 
 <EventList year={19} type="academy" title="WDS 2019 Academies" />
-    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-We're knocking out the final details for these exciting Academies so keep checking back for the most up-to-date information. 
-    </Block>
 </Block></Section>
 <Import id="join-us" />
