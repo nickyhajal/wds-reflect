@@ -3,7 +3,7 @@ year: "2019",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-WDS-2019-Speaker.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-thumbnail.png",
 video: "",
-headerPosition: "-100px",
+headerPosition: "-250px",
 quote: "",
 ---
 **Kanwer Singh AKA Humble the Poet** is a Toronto-bred MC/spoken word artist with an aura that embodies the diversity and resiliency of one of the world's most unique cities. 
