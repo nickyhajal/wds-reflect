@@ -25,7 +25,7 @@
   <Block>## 2018 Scholarship Voyagers</Block>
   <Tabs style="simple">
     <Tab title="Puzzle Huddle">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Puzzle Huddle (Matthew Goins) - 2018
       
