@@ -130,20 +130,16 @@ He lives in Portland, OR and works as the Director of Family Formation at Family
        Her workshop topics range from equity and inclusion to the science of goals and stress. She has worked with tech companies such as Etsy and Digital Ocean, nonprofit organizations, homeless healthcare clinics, as well as individual leaders and CEOs. She was born in Guadalajara, Mexico but has made a home on the West Coast since she was 8 years old. 
           </Block>
     </Tab>
- <Tab title="Chris">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/chris.guillebeau.wds.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+ <Tab title="Matthew">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Chris Guillebeau
+        ## Matthew Goins
 
-**Chris Guillebeau** is a New York Times bestselling author and modern-day explorer.
+Wouldn’t you want your children to see themselves in the toys they play with? Like many children, Matthew’s kids love jigsaw puzzles. Matthew and his wife struggled with the lack of representative images in commercially-produced products -- with that in mind, they began creating their own puzzle designs featuring African American characters in positive images.
 
-During a lifetime of self-employment that included a four-year commitment as a volunteer executive in West Africa, he visited every country in the world (193 in total) before his 35th birthday. Since then he has modeled the proven definition of an entrepreneur: “Someone who will work 24 hours a day for themselves to avoid working one hour a day for someone else.”
+**[Puzzle Huddle](http://www.puzzlehuddle.com)** develops and produces a line of culturally inclusive images manufactured as puzzles. These puzzles are a tool for adults and children to spend meaningful time together working on an activity that will also affirm the child and stretch their imagination.
 
-Chris’s first book, The Art of Non-Conformity, was translated into more than twenty languages. His second book, The $100 Startup, was a New York Times and Wall Street Journal bestseller, selling more than 500,000 copies worldwide. His third book, The Happiness of Pursuit, was published in September 2014 and was also a New York Times bestseller. His fourth book, Born for This, will help you find the work you were meant to do. His newest book, Side Hustle, will help you create a new source of income in 27 days.
-
-His daily podcast, Side Hustle School, is downloaded more than 2 million times a month.
-
-Every summer in Portland, Oregon, Chris hosts the World Domination Summit, a gathering of creative, remarkable people with thousands in attendance. Chris is also the founder of Pioneer Nation, Unconventional Guides, the Travel Hacking Cartel, and numerous other projects.
+Matthew is a WDS Foundation, Scholarship for Real Life Voyager and at this year's summit, Matthew will share a little bit about himself and how Puzzle Huddle got started.
       </Block>
     </Tab>     
   </Tabs>
