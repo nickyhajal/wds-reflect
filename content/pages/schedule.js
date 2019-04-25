@@ -78,6 +78,38 @@ She is the co-host, with Sarah Hart-Unger, of the podcast Best of Both Worlds. S
 For over a decade, Nate has toured the US college circuit as one of the busiest working magicians in the country. He’s given a TED Talk, lectured at the world-famous Oxford Union, and in 2018 the Harry Potter-famed Bloomsbury Publishing released Nate’s memoir, *Here is Real Magic*.
       </Block>
     </Tab> 
+   <Tab title="Humble">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Humble the Poet                                                                                                                           
+        **Kanwer Singh AKA Humble the Poet** is a Toronto-bred MC/spoken word artist with an aura that embodies the diversity and resiliency of one of the world's most unique cities. 
+
+With tattoos, beard, head wrap and a silly smile, Humble commands attention. He stimulates audiences with ideas that challenge conventional wisdom and go against the grain, with dynamic live sets that shake conventions and minds at the same time.  
+
+Humble's latest EP titled Righteous/Ratchet features the first single H.A.I.R, a celebration of women of all shapes, sizes, hair and walks of life. His self directed video for H.A.I.R has amassed almost 2 million views since its release. Humble's first book Unlearn: 101 Simple Truths For A Better Life was published through Indigo Press. Learn more about Humble the Poet on his website, **[humblethepoet.com](https://www.humblethepoet.com/)**.
+      </Block>
+    </Tab>
+<Tab title="Tania">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Tania-Katan-WDS-2019-speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Tania Katan
+                                                                                                                                              
+        **Tania Katan** is an inspirational speaker, author, creative consultant and co-creator of the #ItWasNeverADress campaign. Tania’s work has been featured in _The New York Times, USA Today, HuffPost, Time, Adweek, BuzzFeed, Mashable,_ and _CNN._
+
+Tania travels the world showing people and organizations how to disrupt the mindsets keeping us stuck and start a creative revolution from their cubicles.
+
+For more of Tania’s productive disruptions visit [taniakatan.com](www.taniakatan.com).
+      </Block>
+    </Tab>
+<Tab title="Trystan">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Trystan-Reese-WDS-Speaker.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Trystan Reese                                                                                                                            
+        **Trystan Reese** is perhaps best known as “the pregnant man” of internet and television fame. But he would prefer to be known as the adoptive father of Hailey and Riley, gestational father of Leo, all-around awesome trans community member, and partner to the amazing Biff Chaplow. 
+
+He lives in Portland, OR and works as the Director of Family Formation at Family Equality Council. He can be found on Facebook and Instagram as **@biffandi** or at [www.biffandi.com](https://www.biffandi.com/).
+      </Block>
+    </Tab> 
     <Tab title="Nadya">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Nadya-Okamoto-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
@@ -98,20 +130,16 @@ For over a decade, Nate has toured the US college circuit as one of the busiest 
        Her workshop topics range from equity and inclusion to the science of goals and stress. She has worked with tech companies such as Etsy and Digital Ocean, nonprofit organizations, homeless healthcare clinics, as well as individual leaders and CEOs. She was born in Guadalajara, Mexico but has made a home on the West Coast since she was 8 years old. 
           </Block>
     </Tab>
- <Tab title="Chris">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/chris.guillebeau.wds.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+ <Tab title="Matthew">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Chris Guillebeau
+        ## Matthew Goins
 
-**Chris Guillebeau** is a New York Times bestselling author and modern-day explorer.
+Wouldn’t you want your children to see themselves in the toys they play with? Like many children, Matthew’s kids love jigsaw puzzles. Matthew and his wife struggled with the lack of representative images in commercially-produced products -- with that in mind, they began creating their own puzzle designs featuring African American characters in positive images.
 
-During a lifetime of self-employment that included a four-year commitment as a volunteer executive in West Africa, he visited every country in the world (193 in total) before his 35th birthday. Since then he has modeled the proven definition of an entrepreneur: “Someone who will work 24 hours a day for themselves to avoid working one hour a day for someone else.”
+**[Puzzle Huddle](http://www.puzzlehuddle.com)** develops and produces a line of culturally inclusive images manufactured as puzzles. These puzzles are a tool for adults and children to spend meaningful time together working on an activity that will also affirm the child and stretch their imagination.
 
-Chris’s first book, The Art of Non-Conformity, was translated into more than twenty languages. His second book, The $100 Startup, was a New York Times and Wall Street Journal bestseller, selling more than 500,000 copies worldwide. His third book, The Happiness of Pursuit, was published in September 2014 and was also a New York Times bestseller. His fourth book, Born for This, will help you find the work you were meant to do. His newest book, Side Hustle, will help you create a new source of income in 27 days.
-
-His daily podcast, Side Hustle School, is downloaded more than 2 million times a month.
-
-Every summer in Portland, Oregon, Chris hosts the World Domination Summit, a gathering of creative, remarkable people with thousands in attendance. Chris is also the founder of Pioneer Nation, Unconventional Guides, the Travel Hacking Cartel, and numerous other projects.
+Matthew is a WDS Foundation, Scholarship for Real Life Voyager and at this year's summit, Matthew will share a little bit about himself and how Puzzle Huddle got started.
       </Block>
     </Tab>     
   </Tabs>
