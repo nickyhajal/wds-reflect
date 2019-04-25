@@ -102,7 +102,7 @@ For more of Tania’s productive disruptions visit [taniakatan.com](www.taniakat
       </Block>
     </Tab>
 <Tab title="Trystan">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Trystan-Reese-WDS-2019-Speaker.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Trystan-Reese-WDS-Speaker.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Trystan Reese                                                                                                                            
         **Trystan Reese** is perhaps best known as “the pregnant man” of internet and television fame. But he would prefer to be known as the adoptive father of Hailey and Riley, gestational father of Leo, all-around awesome trans community member, and partner to the amazing Biff Chaplow. 
