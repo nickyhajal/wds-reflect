@@ -313,7 +313,7 @@ export class MeetupForm extends Component {
             What interests might be associated with your meetup?
           </Label>
           <Sub>
-            We'll use this to suggest meetups to attendees with similar interests.
+            We'll use this to suggest meetups to attendees with similar interests. (Please select at least 3)
           </Sub>
           <InterestPicker
             format="meetupInterests"
