@@ -89,17 +89,6 @@
   
  <Grid margin="60px 0 -20px 0">
 
-    <Block type="image" src="photos/Hoxton-roomy-view.jpg">
-      ## The Hoxton Hotel
-      A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.
-      
-      Use the botton below or call **(503)770-0500**. Make sure to reference **WDS 2019** for the special group rate.
-        
-     <p>0.7 Mi From the Main Stage <Link to="https://goo.gl/maps/CQtH6AnvrR12">(Google Directions)</Link></p> 
-        
-    <Button to="http://bookings.ihotelier.com/bookings.jsp?groupID=2450681&hotelID=106938" newWindow={true} >Book the Hoxton</Button> 
-</Block>
-
   <Block type="image" src="photos/Duniway-portland-WDS-partner.jpg">
       ## Duniway Hotel
       This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Enjoy on-site dining at the popular Jackrabbit PDX, workout and/or swim in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
@@ -118,8 +107,17 @@
       <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
         
      <Button to="https://reservations.travelclick.com/104209?groupID=2388512" newWindow={true} >Book the Paramount</Button> 
-
  </Block>
+ <Block type="image" src="photos/Hoxton-roomy-view.jpg">
+      ## The Hoxton Hotel
+      A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.
+      
+      Use the botton below or call **(503)770-0500**. Make sure to reference **WDS 2019** for the special group rate.
+        
+     <p>0.7 Mi From the Main Stage <Link to="https://goo.gl/maps/CQtH6AnvrR12">(Google Directions)</Link></p> 
+        
+    <Button to="" newWindow={true} >Discount Period Has Ended</Button> 
+</Block>
 
  <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
       ## Perfectly Located
