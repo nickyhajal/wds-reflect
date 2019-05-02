@@ -9,7 +9,7 @@
   <Image src="v2/headings/guide.png" width="421" height="151" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Ready? Set. Go! The Attendee Guide to WDS 2019
-    This summer, you'll join over 1200+ invidividuals from over 30+ countries coming to Portland for our 9th gathering of the remarkable adventurers. This page is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2019 - **_you'll find it here!_**      
+    This summer, you'll join over 1000+ invidividuals from over 30+ countries coming to Portland for our 9th gathering of the remarkable adventurers. This page is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2019 - **_you'll find it here!_**      
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
   </Section>        
@@ -26,7 +26,7 @@
     ## A Week of WDS: June 25th - July 1st, 2019
 
     - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday (6/26)** Academies, Small Group Activities and Attendee-Led Meetups
+    - **Wednesday (6/26)** Small Group Activities and Attendee-Led Meetups
     <li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and the Opening Party</li>
     <li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the Big Adventure</li>
     <li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
@@ -56,17 +56,17 @@
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Academies
         Alumni speakers and other special guests share their knowledge and experience in half-day workshops.
-        <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>     
+        <Button to="https://worlddominationsummit.com/academies" newWindow={true} styling="orange" fitToText>Register for Academies</Button>     
         </Block>
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 4: Host a Meetup 
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
-        <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>     
+        <Button to="https://worlddominationsummit.com/propose-a-meetup" newWindow={true} styling="orange" fitToText>Propose a Meetup</Button>     
           </Block>      
        <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 5: Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
-        <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>     
+        <Button to="https://madmimi.com/p/70726e" newWindow={true} styling="orange" fitToText>Download Now</Button>     
         </Block>      
         <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step #6: RSVP for Activities
