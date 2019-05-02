@@ -1,8 +1,16 @@
 name: "Chris Guillebeau",
-year: "2011",
-headerPhotos: "https://farm1.staticflickr.com/309/19635556795_066b76fc74_k.jpg",
+year: "2019",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/chris.guillebeau.wds.png",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Chris+Guillebeau.jpg",
 video: "",
 quote: "",
 ---
-**Chris Guillebeau** is the author of the New York Times bestsellers *The $100 Startup* and *The Happiness of Pursuit*, as well as *The Art of Non-Conformity*, which was translated into more than 20 languages, and most recently, *Born For This*. Every summer he hosts the World Domination Summit, a gathering of thousands of cultural creatives and thought leaders. Chris is also the founder of Pioneer Nation, Unconventional Guides, the Travel Hacking Cartel, and numerous other projects. A modern-day explorer, Chris recently completed a ten-year personal quest to visit every country in the world.
+**Chris Guillebeau** is a New York Times bestselling author and modern-day explorer.  
+
+During a lifetime of self-employment that included a four-year commitment as a volunteer executive in West Africa, he visited every country in the world (193 in total) before his 35th birthday. Since then he has modeled the proven definition of an entrepreneur: “Someone who will work 24 hours a day for themselves to avoid working one hour a day for someone else.”  
+
+Chris’s first book, The Art of Non-Conformity, was translated into more than twenty languages. His second book, The $100 Startup, was a New York Times and Wall Street Journal bestseller, selling more than 500,000 copies worldwide. His third book, The Happiness of Pursuit, was published in September 2014 and was also a New York Times bestseller. His fourth book, Born for This, will help you find the work you were meant to do. His newest book, Side Hustle, will help you create a new source of income in 27 days.  
+
+His daily podcast, Side Hustle School, is downloaded more than 2 million times a month.  
+
+Every summer in Portland, Oregon, Chris hosts the World Domination Summit, a gathering of creative, remarkable people with thousands in attendance. Chris is also the founder of Pioneer Nation, Unconventional Guides, the Travel Hacking Cartel, and numerous other projects.

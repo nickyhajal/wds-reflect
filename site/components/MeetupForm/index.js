@@ -313,7 +313,7 @@ export class MeetupForm extends Component {
             What interests might be associated with your meetup?
           </Label>
           <Sub>
-            We'll use this to suggest meetups to attendees with similar interests.
+            We'll use this to suggest meetups to attendees with similar interests. (Please select at least 3)
           </Sub>
           <InterestPicker
             format="meetupInterests"
@@ -332,14 +332,14 @@ export class MeetupForm extends Component {
             <Select
               onChange={e => this.change.call(this, e, 'date')}
               options={[
-                { value: '26', label: 'Tuesday, June 26th' },
-                { value: '27', label: 'Wednesday, June 27th' },
-                { value: '28', label: 'Thursday, June 28th' },
-                { value: '29', label: 'Friday, June 29th' },
-                { value: '30', label: 'Saturday, June 30th' },
-                { value: '1', label: 'Sunday, July 1st' },
-                { value: '2', label: 'Monday, July 2nd' },
-                { value: '3', label: 'Tuesday, July 3rd' },
+                { value: '25', label: 'Tuesday, June 25th' },
+                { value: '26', label: 'Wednesday, June 26th' },
+                { value: '27', label: 'Thursday, June 27th' },
+                { value: '28', label: 'Friday, June 28th' },
+                { value: '29', label: 'Saturday, June 29th' },
+                { value: '30', label: 'Sunday, June 30th' },
+                { value: '1', label: 'Monday, July 1st' },
+                { value: '2', label: 'Tuesday, July 2nd' },
               ]}
               name="date"
               clearable={false}
@@ -412,14 +412,14 @@ export class MeetupForm extends Component {
             <Select
               onChange={e => this.change.call(this, e, 'end_date')}
               options={[
-                 { value: '26', label: 'Tuesday, June 26th' },
-                { value: '27', label: 'Wednesday, June 27th' },
-                { value: '28', label: 'Thursday, June 28th' },
-                { value: '29', label: 'Friday, June 29th' },
-                { value: '30', label: 'Saturday, June 30th' },
-                { value: '1', label: 'Sunday, July 1st' },
-                { value: '2', label: 'Monday, July 2nd' },
-                { value: '3', label: 'Tuesday, July 3rd' },
+                 { value: '25', label: 'Tuesday, June 25th' },
+                { value: '26', label: 'Wednesday, June 26th' },
+                { value: '27', label: 'Thursday, June 27th' },
+                { value: '28', label: 'Friday, June 28th' },
+                { value: '29', label: 'Saturday, June 29th' },
+                { value: '30', label: 'Sunday, June 30th' },
+                { value: '1', label: 'Monday, July 1st' },
+                { value: '2', label: 'Tuesday, July 2nd' },
               ]}
               name="end_date"
               clearable={false}
@@ -516,7 +516,7 @@ export class MeetupForm extends Component {
               Refer to the
               {' '}
               <a
-                href="https://s3.amazonaws.com/el-files-wds/docs/WDS+Meetup+Guide+2018.pdf"
+                href="https://s3.amazonaws.com/el-files-wds/docs/WDS-2019-Meetup-Guide.pdf"
                 target="_blank"
               >
                 WDS Meetup Guidelines

@@ -45,8 +45,9 @@ export class Hub extends Component {
         <Section headerSize="thin" headerClip="br:0%,-10%;" headerImage="hero/green.jpg" color="canvas">
           <div style={{ display: 'flex', flexDirection: 'row' }}>
             <div style={{ width: '280px', background: 'transparent', marginRight: '20px', marginTop: '-35px' }}>
-              <SideBtn style={{ backgroundImage: 'url(https://files.wds.fm/images/how-wds-works.png)'}} to="/wds-how-it-works" />
+              <SideBtn style={{ backgroundImage: 'url(https://s3.amazonaws.com/el-files-wds/images/download-mobile-app.png)'}} to="/download-the-wds-mobile-app" />
               <SideBtn style={{ backgroundImage: 'url(https://s3.amazonaws.com/el-files-wds/images/photos/when-to-arrive-wds-2019.png)'}} to="/when-to-arrive-in-portland-for-wds-2019" />
+              <SideBtn style={{ backgroundImage: 'url(https://files.wds.fm/images/how-wds-works.png)'}} to="/wds-how-it-works" />
               <SideBtn style={{ backgroundImage: 'url(https://s3.amazonaws.com/el-files-wds/images/wds-portlandia.png)'}} to="/a-wds-guide-of-portlandia" />
             </div>
               <Block cols="6" background="transparent" styleName="contentShell">
