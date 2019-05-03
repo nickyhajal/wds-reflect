@@ -164,7 +164,7 @@ export class Hub extends Component {
                 </h4>
               </EventButton>
               <EventButton
-                to="#"
+                to="/events"
                 style={{
                   backgroundImage:
                     'url(https://files.wds.fm/images/photos/tile_meetups.jpg)',
