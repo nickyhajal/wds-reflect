@@ -130,16 +130,7 @@ export class Hub extends Component {
                 <h3>Registration</h3>
                 <h4>Let us know which registration session works for you</h4>
               </EventButton> */}
-              <EventButton
-                to="/events/meetups"
-                style={{
-                  backgroundImage:
-                    'url(https://files.wds.fm/images/photos/tile_meetups.jpg)',
-                }}
-              >
-                <h3>Meetups</h3>
-                <h4>Informal hangouts and attendee-led gathering</h4>
-              </EventButton>
+              
               <EventButton
                 to="/events/activities"
                 style={{
@@ -147,7 +138,7 @@ export class Hub extends Component {
                     'url(https://files.wds.fm/images/photos/tile_activities.jpg)',
                 }}
               >
-                <h3>Connect</h3>
+                <h3>WDS HQ</h3>
                 <h4>Special activities to share with your fellow attendees</h4>
               </EventButton>
               {/* <EventButton
@@ -171,6 +162,17 @@ export class Hub extends Component {
                 <h4>
                   Half-day workshops taught by alumni speakers and other experts
                 </h4>
+              </EventButton>
+              <EventButton
+                to="#"
+                style={{
+                  backgroundImage:
+                    'url(https://files.wds.fm/images/photos/tile_meetups.jpg)',
+                }}
+              >
+                <h3>Meetups</h3>
+                <h4>Coming soon!</h4>
+                {/* <h4>Informal hangouts and attendee-led gathering</h4> */}
               </EventButton>
             </Block>
           </Shell>
