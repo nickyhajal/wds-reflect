@@ -1,9 +1,9 @@
 class Event {
-  constructor({ rsvps = [], likes = [], academy = 0, pre18 = '0' }) {
+  constructor({ rsvps = [], likes = [], academy = 0, pre19 = '0' }) {
     this.rsvps = rsvps;
     this.likes = likes;
     this.academy = academy;
-    this.pre18 = pre18;
+    this.pre19 = pre19;
   }
 
   isAttending(event_id) {
@@ -14,7 +14,7 @@ class Event {
   }
 
   hasUnclaimedAcademy() {
-    return parseInt(this.pre18, 10) > 0 && parseInt(this.academy, 10) === 0;
+    return parseInt(this.pre19, 10) > 0 && parseInt(this.academy, 10) === 0;
   }
 }
 
