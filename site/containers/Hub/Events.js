@@ -164,15 +164,15 @@ export class Hub extends Component {
                 </h4>
               </EventButton>
               <EventButton
-                to="/events"
+                to="/events/meetups"
                 style={{
                   backgroundImage:
                     'url(https://files.wds.fm/images/photos/tile_meetups.jpg)',
                 }}
               >
                 <h3>Meetups</h3>
-                <h4>Coming soon!</h4>
-                {/* <h4>Informal hangouts and attendee-led gathering</h4> */}
+                {/* <h4>Coming soon!</h4> */}
+                <h4>Informal hangouts and attendee-led gathering</h4>
               </EventButton>
             </Block>
           </Shell>
