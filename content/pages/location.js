@@ -96,7 +96,7 @@
       At the top of the booking page, look for **"more options"**, then **"add special rate code"**. Enter **WDS** into the **Group Code**. 
       
         <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
-  <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >Book the Duniway</Button> 
+  <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >The Discount Period Has Ended</Button> 
 </Block>
 
  <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/Paramount-Hotel-Room.jpg">
@@ -106,7 +106,7 @@
       Use the button below or call **(503)223-9900**. Make sure to reference WDS 2019 for the special group rate.
       <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
         
-     <Button to="https://reservations.travelclick.com/104209?groupID=2388512" newWindow={true} >Book the Paramount</Button> 
+     <Button to="https://www.portlandparamount.com/" newWindow={true} >The Discount Period Has Ended</Button> 
  </Block>
  <Block type="image" src="photos/Hoxton-roomy-view.jpg">
       ## The Hoxton Hotel
