@@ -133,7 +133,7 @@ As the founder of **[YesYesMarsha.com](http://www.yesyesmarsha.com/), she shows 
      <Tab title="Paloma">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paloma+Medina+WDS+Academy-wide.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Paloma Medina
+        ## Paloma Medina (Featured Academy Leader)
                                                                                                                                               
        **Paloma Medina** is a performance coach, trainer, and owner of [11:11 Supply](https://www.1111supply.com/), a store that specializes in beautiful work tools designed to help you feel more productive, happy and balanced in your everyday life. In addition to offering practical tools and frameworks, Paloma's workshops provide audiences with a solid foundation of neuroscience and psychology on how to improve our work and personal lives. 
        
@@ -145,11 +145,9 @@ As the founder of **[YesYesMarsha.com](http://www.yesyesmarsha.com/), she shows 
       <Block cols="6" textAlign="left">
         ## Matthew Goins
 
-Wouldn’t you want your children to see themselves in the toys they play with? Like many children, Matthew’s kids love jigsaw puzzles. Matthew and his wife struggled with the lack of representative images in commercially-produced products -- with that in mind, they began creating their own puzzle designs featuring African American characters in positive images.
+**Matthew Goins** wanted his children to see themselves in the toys they played with. Like many children, Matthew’s kids love jigsaw puzzles but he and his wife struggled with the lack of representative images in commercially-produced products. 
 
-**[Puzzle Huddle](http://www.puzzlehuddle.com)** develops and produces a line of culturally inclusive images manufactured as puzzles. These puzzles are a tool for adults and children to spend meaningful time together working on an activity that will also affirm the child and stretch their imagination.
-
-Matthew is a WDS Foundation, Scholarship for Real Life Voyager and at this year's summit, Matthew will share a little bit about himself and how Puzzle Huddle got started.
+They began creating their own puzzle designs featuring African American characters in positive images. Their company, **[Puzzle Huddle](http://www.puzzlehuddle.com)**, develops and produces a line of culturally inclusive images manufactured as puzzles. 
       </Block>
     </Tab>
      <Tab title="Rick">
