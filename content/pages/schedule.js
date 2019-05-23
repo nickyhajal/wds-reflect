@@ -110,6 +110,16 @@ For more of Tania’s productive disruptions visit [taniakatan.com](www.taniakat
 He lives in Portland, OR and works as the Director of Family Formation at Family Equality Council. He can be found on Facebook and Instagram as **@biffandi** or at [www.biffandi.com](https://www.biffandi.com/).
       </Block>
     </Tab> 
+<Tab title="Marsha">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Marsha-Shandur-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Marsha Shandur                                                                                                                           
+        **Marsha Shandur** understands that telling stories can change the world. She has coached hundreds of storytellers across the globe, drawing their personal stories out and taking them from confusing mess to compelling piece.
+
+As the founder of **[YesYesMarsha.com](http://www.yesyesmarsha.com/), she shows entrepreneurs and organizations how to make an INSTANT emotional connection with their dream clients and collaborators, through storytelling on stage and screen, and effective (and FUN!) networking. She has been featured on Forbes, the BBC, Mashable and The Muse.
+
+      </Block>
+    </Tab> 
     <Tab title="Nadya">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Nadya-Okamoto-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
@@ -141,7 +151,17 @@ Wouldn’t you want your children to see themselves in the toys they play with? 
 
 Matthew is a WDS Foundation, Scholarship for Real Life Voyager and at this year's summit, Matthew will share a little bit about himself and how Puzzle Huddle got started.
       </Block>
-    </Tab>     
+    </Tab>
+     <Tab title="Rick">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Rick Clemons
+
+**Rick Clemons** is a culture disruptor (shakes up the status quo), closet buster (shatters silly beliefs), and a bold move expert (like Superman without the muscles and cape). 
+
+His superpower is guiding closet dwellers - which is every human - to break free of fear, make bold moves, and live life without apology.
+      </Block>
+    </Tab>   
   </Tabs>
   <div class="clear" />
 </Section>  
