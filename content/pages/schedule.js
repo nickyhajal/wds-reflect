@@ -151,7 +151,7 @@ They began creating their own puzzle designs featuring African American characte
       </Block>
     </Tab>
      <Tab title="Rick">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Rick-Clemons.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Rick Clemons
 
