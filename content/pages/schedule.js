@@ -38,7 +38,7 @@
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
     
-    Check out this year's superhero lineup for WDS 2019 (more speakers to be announced soon):
+    Check out this year's superhero lineup for WDS 2019:
   </Block>
   <Tabs style="simple" margin="80px 0 0">
     <Tab title="Jill">
