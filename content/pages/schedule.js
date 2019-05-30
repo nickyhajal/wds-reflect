@@ -23,7 +23,7 @@
     - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups
     - **Wednesday (6/26)** Small Group Activities and Attendee-Led Meetups
     <ul><li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and Opening Party</li></ul>
-    <ul><li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the Big Adventure</li></ul>
+    <ul><li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the WDS Picnic</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
     <ul><li><b className="highlight highlight-3">Sunday (6/30)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
     - **Monday (7/01)** Academies and Attendee-Led Meetups
@@ -119,7 +119,16 @@ He lives in Portland, OR and works as the Director of Family Formation at Family
 As the founder of **[YesYesMarsha.com](http://www.yesyesmarsha.com/), she shows entrepreneurs and organizations how to make an INSTANT emotional connection with their dream clients and collaborators, through storytelling on stage and screen, and effective (and FUN!) networking. She has been featured on Forbes, the BBC, Mashable and The Muse.
 
       </Block>
-    </Tab> 
+    </Tab>
+<Tab title="Scott">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Scott-Young.WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Scott Young                                                                                                                         
+        **Scott Young** is a writer, programmer, traveler and avid reader of interesting things. For the last ten years he’s been experimenting to find out how to learn and think better. Beyond writing, entrepre- neurship and life philosophy, his interests include programming, travel, cooking and teaching himself anything he can. 
+
+Scott’s new book, _Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career_ will be released later this summer.
+      </Block>
+    </Tab>
     <Tab title="Nadya">
       <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Nadya-Okamoto-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
