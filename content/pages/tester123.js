@@ -13,11 +13,11 @@
       ## Preorder your WDS Picnic Meal
       This year we're teaming up with **Giraffe Japanese Deli** to provide 3 incredibly delicious bentos for the WDS picnic.   
       <p>Why should you preorder your meal?</p>
-      <p><ol>
+      <p><ul>
          <li>The food is amazing! Each bento box holds different compartments of yummy dishes.</li>
-         <li>Easy pickup! Just show up to the event and we'll have your order ready for you. </li>
-         <li>Special, limited edition swag bonus! Be one of the first 400 to order your meal and get a surprise gift.</li>
-         <li>Did we mention, the food is amazing! Learn more about the 3 bento options below.</li></ol></p>
+         <li>Convenience and easy pickup! Just show up to the event and we'll have your order ready for you. </li>
+         <li>Special, limited edition swag bonus! The first 400 to preorder meals get a surprise gift.</li>
+         <li>Did we mention, the food is amazing! Learn more about the 3 bento options below.</li></ul></p>
     </Block>
   </Block>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
@@ -36,7 +36,7 @@
   <Block margin="100px 0 50px 0">
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
         ## Choose Your Bento
-      The best part about bentos is that they are packed with multiple dishes in one container. Please note there are no substitutions and come exactly as described. 
+      Each bentos is packed with multiple items in one container. _Please note there are no substitutions and come exactly as described. The pictures below are for example purposes only and might vary from the actual bento box._ 
       </Block>
       <Grid numCols="3" tabletCols="2" width="968">
         <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
