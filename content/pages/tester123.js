@@ -19,15 +19,7 @@
          <li>Special, limited edition swag bonus! Be one of the first 400 to order your meal and get a surprise gift.</li>
          <li>Did we mention, the food is amazing! Learn more about the 3 bento options below.</li></ol></p>
     </Block>
-    <div className="clear" />
   </Block>
-  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
-    ## Choose Your Bento Box Option
-    Thanks to our friends at **Giraffe Japanese Deli** we've got 3 great bento box options to choose from. Just select the option you want using the appropirate button and we'll charge your card and have your bento ready for pick up at the event. 
-    
-    Sound to good to choose just one? After your initial purchase you can order and add another bento to your account. 
-    
-    Here are the three options:
 </Section>
 <Section color="white">
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
