@@ -6,7 +6,7 @@
   color="white"
   preload
 >
-  <Image src="v2/headings/picnic.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/picnic.png" width="446px" height="156px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="images/wds.picnic.png" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
@@ -32,6 +32,7 @@
       ##### Step #3: Pay for your bento
       Make your bento selection. We'll send an email confirming your selection and purchase.
       ##### Step #4: Pick up your bento at the event and enjoy
+      One final step between you and your delicious bento. 
   </Block>
   <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
   <Block margin="100px 0 50px 0">
