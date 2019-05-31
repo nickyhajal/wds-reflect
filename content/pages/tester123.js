@@ -8,7 +8,7 @@
 >
   <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/picnic.png" width="446px" height="156px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="https://el-files-wds.s3.amazonaws.com/images/wds.picnic.png" width="100%" height="302" />
+    <Image src="https://el-files-wds.s3.amazonaws.com/images/picnic.header.jpg" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       ## Preorder your WDS Picnic Meal
       This year we're teaming up with **Giraffe Japanese Deli** to provide 3 incredibly delicious bentos for the WDS picnic.   
