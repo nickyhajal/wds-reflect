@@ -20,8 +20,6 @@
          <li>Did we mention, the food is amazing! Learn more about the 3 bento options below.</li></ol></p>
     </Block>
   </Block>
-</Section>
-<Section color="white">
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
       ## Let's Do This!
       Here's how to preorder your bento box for the WDS Picnic
@@ -34,7 +32,7 @@
       ##### Step #4: Pick up your bento at the event and enjoy
       One final step between you and your delicious bento. 
   </Block>
-  <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
+  <Image src="https://el-files-wds.s3.amazonaws.com/images/Giraffe-Deli-pics.jpg" width="100%" height="348" />
   <Block margin="100px 0 50px 0">
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
         ## Choose Your Bento
@@ -168,59 +166,5 @@
     </Grid>
     </Block>
     <div className="clear" />
-</Section>
-<Section color="canvas">
-  <Block>## The WDS Hotel™ Gallery</Block>
-  <Tabs style="dots">
-    <Tab title="Exterior ">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left"> 
-      </Block>
-    </Tab>
-    <Tab title="Front Desk">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-    <Tab title="Cafe Counter">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-<Tab title="Rooftop Patio">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-<Tab title="Bunk Room">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-     </Tab>
-      <Tab title="Bunk Bed">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left"> 
-      </Block>
-    </Tab>
-    <Tab title="Private Room">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-    <Tab title="Amenities">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-  </Tabs>
-</Section>
-<Section color="green">
-  <Block cols="6" css={{ padding: '15px 0 20px' }}>
-   ## Additional Accomodations for Staying in Portland
-  <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
- <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2018 Hotel Partners</Button>
- </Block>
-  </Block>
 </Section>
 <Import id="join-us" />
