@@ -1,176 +1,233 @@
 <Section
-  headerImage="v2/hero/schedule.png"
+  headerImage="v2/hero/location.png"
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
   color="white"
   preload
 >
-  <Image src="v2/headings/schedule.png" width="421" height="151" className="scriptHeader" preload/>
-<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## How the WDS Schedule Works
-    As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS ticket](https://worlddominationsummit.com/join-us) gives you access to it all; the main events plus special discounts, bonuses, and surprises.  
-        </Block>
- <Image src="photos/audience.png"
-    width="426" height="263"
-    margin="0 0 -100px -50px"
-    mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
-    preload
-  />
-  <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_rl_1.6">
-    ## A Week of WDS: June 25th - July 1st, 2019
-
-    - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups
-    - **Wednesday (6/26)** Small Group Activities and Attendee-Led Meetups
-    <ul><li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and Opening Party</li></ul>
-    <ul><li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the Big Adventure</li></ul>
-    <ul><li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
-    <ul><li><b className="highlight highlight-3">Sunday (6/30)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
-    - **Monday (7/01)** Academies and Attendee-Led Meetups
-      
-      <div className="note">Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</div>
+  <Image src="v2/headings/hoteltempheader.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Block cols="8" bleed={false} margin="0 0 80px">
+    <Image src="images/wds.picnic.png" width="100%" height="302" />
+    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+      ## Preorder your WDS Picnic Meal
+      This year we're teaming up with **Giraffe Japanese Deli** to provide 3 incredibly delicious bentos for the WDS picnic.   
+      <p>Why should you preorder your meal?</p>
+      <p><ol>
+         <li>The food is amazing! Each bento box holds different compartments of yummy dishes.</li>
+         <li>Easy pickup! Just show up to the event and we'll have your order ready for you. </li>
+         <li>Special, limited edition swag bonus! Be one of the first 400 to order your meal and get a surprise gift.</li>
+         <li>Did we mention, the food is amazing! Learn more about the 3 bento options below.</li></ol></p>
+    </Block>
+    <div className="clear" />
   </Block>
-  <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
-  <div className="clear" />
+  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+    ## Choose Your Bento Box Option
+    Thanks to our friends at **Giraffe Japanese Deli** we've got 3 great bento box options to choose from. Just select the option you want using the appropirate button and we'll charge your card and have your bento ready for pick up at the event. 
+    
+    Sound to good to choose just one? After your initial purchase you can order and add another bento to your account. 
+    
+    Here are the three options:
 </Section>
-  <Section color="canvas">
-  <Block>## Speakers and Special Guests For WDS 2019</Block>
-  <Block cols="6" className="bigger">
-    Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
-    
-    Check out this year's superhero lineup for WDS 2019 (more speakers to be announced soon):
+<Section color="white">
+  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+      ## Let's Do This!
+      Here's how to preorder your bento box for the WDS Picnic
+      ##### Step #1: Choose your bento option (descriptions below)
+      We've got three great options to meet a variety of appetites and needs.
+      ##### Step #2: Review the details and FAQ sections
+      It's the little details that can make a huge difference in your experience.
+      ##### Step #3: Pay for your bento
+      Make your bento selection. We'll send an email confirming your selection and purchase.
+      ##### Step #4: Pick up your bento at the event and enjoy
   </Block>
-  <Tabs style="simple" margin="80px 0 0">
-    <Tab title="Jill">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Jill-Schlesinger-WDS-2019-speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-        ## Jill Schlesinger
-      **Jill Schlesinger** CFP®, is the Emmy-nominated and Gracie Award Winning Business Analyst for CBS News. Jill covers the economy, markets, investing and all other things money related on TV, and the “Jill on Money” podcast, radio show and blog. 
-      
-      Jill’s radio show won the 2018 Gracie Award for Best National Talk Show. Jill’s first book, *"The Dumb Things Smart People Do With Their Money,"* was recently released.
-</Block>
-    </Tab>
- <Tab title="James">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/James-Victore-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## James Victore
-        **James Victore** is a graphic designer, art educator and dynamic speaker on creativity. He lectures and teaches regularly around the globe, inspiring people to illuminate their individual gifts in order to achieve personal greatness.
-
-James’ work has been exhibited at the Museum of Modern Art in New York and are in the permanent collections of the Palais du Louvre, Paris, the Library of Congress, Washington, DC, the Design Museum in Zurich and the Stedelijk Museum, Amsterdam. 
+  <Image src="wds-hotel/bunk.common.png" width="100%" height="302" />
+  <Block margin="100px 0 50px 0">
+      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
+        ## Choose Your Bento
+      The best part about bentos is that they are packed with multiple dishes in one container. Please note there are no substitutions and come exactly as described. 
       </Block>
-    </Tab>  
- <Tab title="Laura">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Laura-Vanderkam-WDS-2019-Speaker.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Laura Vanderkam
-                                                                                                                                              
-        **Laura Vanderkam** is the author of several time management and productivity books, including *Off the Clock*, *I Know How She Does It*, *What the Most Successful People Do Before Breakfast*, and *168 Hours*. Her work has appeared in publications including the *New York Times, the Wall Street Journal, Fast Company,* and *Fortune*.
-
-She is the co-host, with Sarah Hart-Unger, of the podcast Best of Both Worlds. She lives outside Philadelphia with her husband and four children, and blogs at [LauraVanderkam.com](LauraVanderkam.com).
+      <Grid numCols="3" tabletCols="2" width="968">
+        <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Sandwich Bento Box 
+         - Combo sando: half egg-salad, half pork-katsu sandwich. The best of both worlds in one sandwhich!
+         - Kinpira vegetable salad: sweet marinated vegetable medley marinated with a touch of sake
+         - Potato salad: Japanese style. 
+        </Block>
+        <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Veggie Bento Box (Gluten free and Vegan)
+         - Sautéed seasonal mushrooms
+         - Vegetable stir fry
+         - Green beans & tofu
+         - Kinpira vegetable salad: sweet marinated vegetable medley marinated with a touch of sake
+         - Pickled greens onigiri: rice, vegan furikake    
+        </Block>
+        <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Chicken Bento Box (keto and gluten free)
+         - Yuzu chicken: chicken thighs, yuzu, salt, pepper 
+         - Sautéed seasonal mushrooms 
+         - Green beans & tofu
+         - Hard boiled egg: sake, mirin, tamari, konbu 
           </Block>
-    </Tab>
-   <Tab title="Nate">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Nate-Staniforth-WDS-2019-Speaker.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Nate Staniforth                                                                                                                            
-        **Nate Staniforth** is a magician, writer, traveler, and host of the Discovery Channel’s international hit TV series Breaking Magic. Nate abandons the ubiquitous style-without-substance bravado so often associated with magic and appeals instead to the imagination and intellect of his audience. The journey is wild, visceral and immediate, and like all great art, encourages us to open our minds and hearts, and see the world in new ways.
-
-For over a decade, Nate has toured the US college circuit as one of the busiest working magicians in the country. He’s given a TED Talk, lectured at the world-famous Oxford Union, and in 2018 the Harry Potter-famed Bloomsbury Publishing released Nate’s memoir, *Here is Real Magic*.
+     </Grid>
+    </Block>
+    <Block cols="8" bleed={false} margin="0 0 80px">
+    <Grid numCols="3" tabletCols="2" width="968">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
+        ### Sandwich Bento Box ($12.97)
+        Private bathroom
+        <PurchaseButton 
+        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
+        ### Veggie Bento Box ($12.97)
+        Shared bathroom
+        <PurchaseButton 
+        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
+        ### Chicken Bento Box ($12.97)
+        Shared bathroom
+        <PurchaseButton 
+        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
+      </BlockWithLiveLabel>
+    </Grid>
+    </Block>
+    <div className="clear" />
+</Section>
+<Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
+  <div className="clear"></div>
+    <Block
+    type="padded"
+    cols="6"
+    textAlign="left"
+    bleed={false}
+    background="canvas"
+    className="has-checklist"
+    css={{ padding: '60px 40px' }}
+    mobile={{ phone: {
+      padding: '60px 25px 60px 10px'
+    }}}
+    clip="top_lr_1.6"
+  >
+        ## WDS Hotel™ FAQs
+        <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
+        ### Can I book a WDS Hotel™ package through the Society Hotel? 
+        Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, June 28th, checking out Monday, July 2nd). All rooms will be sold as 4-night packages.   
+        ### What is your refund/transfer policy for WDS Hotel™ packages?
+        <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee until June 27th by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
+        ### How do I book additional nights before or after the WDS package dates?
+        <p>Once you've reserved your WDS Hotel™ package, please contact the Society Hotel by phone (avoid their online reservation system) to set up any additional dates by calling their front desk at <b>503-445-0444</b>. You may be able to stay in the same room type as your WDS Hotel™ package, but that will depend on the hotel's room availability.</p>
+        ### When will my credit card be charged?
+        Your card will be immediately charged for the full amount when you book a WDS Hotel™ package. You'll also need to provide a credit card upon check-in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee or cocktail, directly to your room.
+        ### Can I book a room with another WDS attendee?
+        <p>Yes! Similar to any hotel reservation, one person is responsible for the reservation itself and only that person will be able to make any changes. <i>Bunks require individual reservations.</i></p>
+        ### Can I book a partial stay or split days with a friend?
+        Once you've booked a package, you get the room or bunk for the entire 4 nights regardless of how many days you plan to use. Like any hotel reservation, you are ultimately responsible for any other guests that you let stay in your room. For example, if your friend charges 20 craft microbrews and one bag of Skittles to the room, you'd be responsible for paying the bill.
+        ### Can I book a private room with another person who isn’t attending WDS?
+        <p>We'd love for everyone staying at the WDS Hotel™ to be part of WDS. However, we understand if you’ve booked a private room and you have a significant other or dependent staying with you who is not attending WDS. <i>For the bunk section of the hotel, all guests need to be registered WDS attendees.</i></p>
+        ### What kinds of facilities are in the hotel?
+        <p>There is an excellent cafe that serves light fare for breakfast and lunch, which you'll be able to charge to your room/bunk. Additionally, as a registered guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite.</p>    
+        ### How do I get to the hotel from the airport? 
+        <p>For just $2.50, you can take the MAX red line train from the airport towards "City Center/Beaverton" and get off at the "Old Town/Chinatown" stop. Walk two blocks west on Davis St. and you'll see the hotel at the corner of Davis and 3rd Ave. <Link to="https://goo.gl/maps/93LythVvQEG2">(Google directions).</Link> Taxis and ride share options are also available.</p>
+        ### How far is the hotel from the WDS Main Stage?
+        <p>The hotel is less than a mile (0.8) walk through downtown <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google directions)</Link>. You can also make the trip by bike, light rail (MAX) system, or ride share.</p>
+        ### It looks like you're sold out but I'd really like to stay at the WDS Hotel™. What are my options?
+        <p>Reach out to our concierge team at <b>concierge@wds.fm</b> to see if there are any cancellations and openings. <i>Do not contact the Society Hotel regarding WDS packages.</i></p>
+        ### Not finding the answer to your question?
+        <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
+ </Block>
+   <div className="clear" />
+</Section>
+<Section color="white">
+  <Block margin="100px 0 50px 0">
+      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
+        ## Reserve Your WDS Hotel™ Package 
+      Once we run out of rooms/packages that's it! We literally cannot add any extra rooms so make sure to book your package asap. 
       </Block>
-    </Tab> 
-   <Tab title="Humble">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Humble the Poet                                                                                                                           
-        **Kanwer Singh AKA Humble the Poet** is a Toronto-bred MC/spoken word artist with an aura that embodies the diversity and resiliency of one of the world's most unique cities. 
-
-With tattoos, beard, head wrap and a silly smile, Humble commands attention. He stimulates audiences with ideas that challenge conventional wisdom and go against the grain, with dynamic live sets that shake conventions and minds at the same time.  
-
-Humble's latest EP titled Righteous/Ratchet features the first single H.A.I.R, a celebration of women of all shapes, sizes, hair and walks of life. His self directed video for H.A.I.R has amassed almost 2 million views since its release. Humble's first book Unlearn: 101 Simple Truths For A Better Life was published through Indigo Press. Learn more about Humble the Poet on his website, **[humblethepoet.com](https://www.humblethepoet.com/)**.
+    </Block>
+    <Block cols="8" bleed={false} margin="0 0 80px">
+    <Grid numCols="3" tabletCols="2" width="968">
+      <BlockWithLiveLabel type="caption" src="wds-hotel/suite-room1.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
+        ### Private Suites ($947)
+        Private bathroom
+        <PurchaseButton 
+        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
+        ### Standard Room ($747)
+        Shared bathroom
+        <PurchaseButton 
+        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
+      </BlockWithLiveLabel>
+      <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
+        ### Bunks ($347)
+        Shared bathroom
+        <PurchaseButton 
+        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
+      </BlockWithLiveLabel>
+    </Grid>
+    </Block>
+    <div className="clear" />
+</Section>
+<Section color="canvas">
+  <Block>## The WDS Hotel™ Gallery</Block>
+  <Tabs style="dots">
+    <Tab title="Exterior ">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left"> 
       </Block>
     </Tab>
-<Tab title="Tania">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Tania-Katan-WDS-2019-speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+    <Tab title="Front Desk">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Tania Katan
-                                                                                                                                              
-        **Tania Katan** is an inspirational speaker, author, creative consultant and co-creator of the #ItWasNeverADress campaign. Tania’s work has been featured in _The New York Times, USA Today, HuffPost, Time, Adweek, BuzzFeed, Mashable,_ and _CNN._
-
-Tania travels the world showing people and organizations how to disrupt the mindsets keeping us stuck and start a creative revolution from their cubicles.
-
-For more of Tania’s productive disruptions visit [taniakatan.com](www.taniakatan.com).
       </Block>
     </Tab>
-<Tab title="Trystan">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Trystan-Reese-WDS-Speaker.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+    <Tab title="Cafe Counter">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Trystan Reese                                                                                                                            
-        **Trystan Reese** is perhaps best known as “the pregnant man” of internet and television fame. But he would prefer to be known as the adoptive father of Hailey and Riley, gestational father of Leo, all-around awesome trans community member, and partner to the amazing Biff Chaplow. 
-
-He lives in Portland, OR and works as the Director of Family Formation at Family Equality Council. He can be found on Facebook and Instagram as **@biffandi** or at [www.biffandi.com](https://www.biffandi.com/).
       </Block>
-    </Tab> 
-    <Tab title="Nadya">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Nadya-Okamoto-WDS-2019-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Nadya Okamoto
-                                                                                                                                              
-       **Nadya Okamoto** grew up in Portland, OR, and is a 21-year-old Harvard student on a leave of absence. She is the Founder and Executive Director of PERIOD ([period.org](https://period.org)), an organization she founded at the age of 16. PERIOD is now the largest youth-run NGO in women’s health, and one of the fastest growing ones here in the United States. Since 2014 they have addressed over 500,000 periods and registered over 300 campus chapters.
-      
-      In 2017, Nadya ran for office in Cambridge, MA. While she did not win, her campaign team made historic waves in mobilizing young people on the ground and at polls. Nadya recently published her debut book, *Period Power: A Manifesto for the Menstrual Movement*, with publisher Simon & Schuster, which made the Kirkus Reviews list for Best Young Adult Nonfiction of 2018. Most recently, Nadya has become the Chief Brand Officer of JUV Consulting, a Generation Z marketing agency based in NYC. 
-          </Block>
     </Tab>
-     <Tab title="Paloma">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/speakers/Paloma+Medina+WDS+Academy-wide.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+<Tab title="Rooftop Patio">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Paloma Medina
-                                                                                                                                              
-       **Paloma Medina** is a performance coach, trainer, and owner of [11:11 Supply](https://www.1111supply.com/), a store that specializes in beautiful work tools designed to help you feel more productive, happy and balanced in your everyday life. In addition to offering practical tools and frameworks, Paloma's workshops provide audiences with a solid foundation of neuroscience and psychology on how to improve our work and personal lives. 
-       
-       Her workshop topics range from equity and inclusion to the science of goals and stress. She has worked with tech companies such as Etsy and Digital Ocean, nonprofit organizations, homeless healthcare clinics, as well as individual leaders and CEOs. She was born in Guadalajara, Mexico but has made a home on the West Coast since she was 8 years old. 
-          </Block>
-    </Tab>
- <Tab title="Matthew">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-        ## Matthew Goins
-
-Wouldn’t you want your children to see themselves in the toys they play with? Like many children, Matthew’s kids love jigsaw puzzles. Matthew and his wife struggled with the lack of representative images in commercially-produced products -- with that in mind, they began creating their own puzzle designs featuring African American characters in positive images.
-
-**[Puzzle Huddle](http://www.puzzlehuddle.com)** develops and produces a line of culturally inclusive images manufactured as puzzles. These puzzles are a tool for adults and children to spend meaningful time together working on an activity that will also affirm the child and stretch their imagination.
-
-Matthew is a WDS Foundation, Scholarship for Real Life Voyager and at this year's summit, Matthew will share a little bit about himself and how Puzzle Huddle got started.
       </Block>
-    </Tab>     
+    </Tab>
+<Tab title="Bunk Room">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+     </Tab>
+      <Tab title="Bunk Bed">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left"> 
+      </Block>
+    </Tab>
+    <Tab title="Private Room">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+    </Tab>
+    <Tab title="Amenities">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+    </Tab>
   </Tabs>
-  <div class="clear" />
-</Section>  
-   
-<Section
-  color="white"
->
-    
-  <SpeakerList title="2019 Speakers" year="2019" />
-  <SpeakerList title="Alumni Speakers" year="alumni" />
-  <Grid margin="60px 0 -20px 0">
-    <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
-      ## Portland
-      Our home base since year one. Learn more about our beloved city and confirm whether or not all the fun things you've heard is true (they probably are).
-      <Button to="/location">Learn More</Button>
-    </Block>
-    <Block type="image" src="photos/JoinUs/image-academies.jpg" label="Coming Soon">
-      ## Academies
-      These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields.
-      <Button to="/academies">Learn More</Button>
-    </Block>
-  </Grid>
-  <Block type="padded" background="bgry">
-    <Image src="v2/icon/outline-bed.png" width="100" height="100"  align="center" margin="0 0 40px 0" />
-        <Block cols="5">
-      ## How Can We Help? 
-      Have questions about WDS? Trying to find the best donut in Portland? Looking for a high-five? Let our concierge team know how we can help make your WDS experience great.
-           <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} styling="orange" fitToText>Contact Us</Button> 
-    </Block>
+</Section>
+<Section color="green">
+  <Block cols="6" css={{ padding: '15px 0 20px' }}>
+   ## Additional Accomodations for Staying in Portland
+  <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
+ <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
+<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2018 Hotel Partners</Button>
+ </Block>
   </Block>
 </Section>
 <Import id="join-us" />
