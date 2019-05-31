@@ -32,7 +32,7 @@
       ##### Step #4: Pick up your bento at the event and enjoy
       One final step between you and your delicious bento. 
       
-      ## BONUS: the first 200 to order receive a limited edition swag gift!
+      ### BONUS: the first 200 to order receive a limited edition swag gift!
       
   </Block>
   <Image src="https://el-files-wds.s3.amazonaws.com/images/Giraffe-Deli-pics.jpg" width="100%" height="348" />
@@ -43,13 +43,13 @@
       </Block>
       <Grid numCols="3" tabletCols="2" width="968">
         <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Sandwich Bento Box 
+          ## Sandwich Bento Box (omnivore's delight)
          - Combo sando: half egg-salad, half pork-katsu sandwich. The best of both worlds in one sandwhich!
          - Kinpira vegetable salad: sweet marinated vegetable medley marinated with a touch of sake
          - Potato salad: Japanese style. 
         </Block>
-        <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Veggie Bento Box (Gluten free and Vegan)
+        <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+          ## Veggie Bento Box (gluten-free and vegan)
          - Sautéed seasonal mushrooms
          - Vegetable stir fry
          - Green beans & tofu
@@ -57,7 +57,7 @@
          - Pickled greens onigiri: rice, vegan furikake    
         </Block>
         <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Chicken Bento Box (keto and gluten free)
+          ## Chicken Bento Box (keto friendly and gluten-free)
          - Yuzu chicken: chicken thighs, yuzu, salt, pepper 
          - Sautéed seasonal mushrooms 
          - Green beans & tofu
@@ -69,24 +69,24 @@
     <Grid numCols="3" tabletCols="2" width="968">
       <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
         ### Sandwich Bento Box ($12.97)
-        Private bathroom
+        omnivore delight
         <PurchaseButton 
         price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Available!</PurchaseButton>
       </BlockWithLiveLabel>
       <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
         ### Veggie Bento Box ($12.97)
-        Shared bathroom
+        gluten-free and vegan
         <PurchaseButton 
         price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Available!</PurchaseButton>
       </BlockWithLiveLabel>
       <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
         ### Chicken Bento Box ($12.97)
-        Shared bathroom
+        keto friendly and gluten-free
         <PurchaseButton 
         price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Available!</PurchaseButton>
       </BlockWithLiveLabel>
     </Grid>
     </Block>
@@ -136,31 +136,31 @@
   <Block margin="100px 0 50px 0">
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
         ## Order your bento today! 
-      Don't forget, the first 200 attendees to preorder their bento get a limited edition swag gift. 
+      Don't forget, the first 200 attendees to preorder their bento get a limited edition swag gift! 
       </Block>
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
       <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
         ### Sandwich Bento Box ($12.97)
-        Private bathroom
+        omnivore delight
         <PurchaseButton 
         price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Book Your Suite!</PurchaseButton>
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Available!</PurchaseButton>
       </BlockWithLiveLabel>
       <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
         ### Veggie Bento Box ($12.97)
-        Shared bathroom
+        gluten-free and vegan
         <PurchaseButton 
         price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Available!</PurchaseButton>
       </BlockWithLiveLabel>
       <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
         ### Chicken Bento Box ($12.97)
-        Shared bathroom
+        keto friendly and gluten-free
         <PurchaseButton 
         price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
+        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Available!</PurchaseButton>
       </BlockWithLiveLabel>
     </Grid>
     </Block>
