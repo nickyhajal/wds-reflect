@@ -66,47 +66,41 @@
      </Grid>
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
-    <Grid numCols="3" tabletCols="2" width="968">
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
-        ### Sandwich Bento Box ($12.97)
-        omnivore delight
-        <PurchaseButton 
-        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Available!</PurchaseButton>
-      </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
-        ### Veggie Bento Box ($12.97)
-        gluten-free and vegan
-        <PurchaseButton 
-        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Available!</PurchaseButton>
-      </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
-        ### Chicken Bento Box ($12.97)
-        keto friendly and gluten-free
-        <PurchaseButton 
-        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Available!</PurchaseButton>
-      </BlockWithLiveLabel>
-    </Grid>
+      <Grid numCols="3" tabletCols="2" width="968">
+        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="meals.sandwich" mobile={{marginBottom: '100px'}}>
+          ### Sandwich Bento Box ($12.97)
+          omnivore delight
+          <PurchaseButton
+              price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealsandwich"
+              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.sandwich">
+                Purchase
+            </PurchaseButton>
+        </BlockWithLiveLabel>
+        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="meals.veggie" mobile={{marginBottom: '100px'}}>
+          ### Veggie Bento Box ($12.97)
+          gluten-free and vegan
+          <PurchaseButton
+              price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealveggie"
+              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.veggie">
+                Purchase
+            </PurchaseButton>>
+        </BlockWithLiveLabel>
+        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="meals.chicken" mobile={{marginBottom: '100px'}}>
+          ### Chicken Bento Box ($12.97)
+          keto friendly and gluten-free
+          <PurchaseButton
+              price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealchicken"
+              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.chicken">
+                Purchase
+            </PurchaseButton>
+        </BlockWithLiveLabel>
+      </Grid>
     </Block>
     <div className="clear" />
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
-    <Block
-    type="padded"
-    cols="6"
-    textAlign="left"
-    bleed={false}
-    background="canvas"
-    className="has-checklist"
-    css={{ padding: '60px 40px' }}
-    mobile={{ phone: {
-      padding: '60px 25px 60px 10px'
-    }}}
-    clip="top_lr_1.6"
-  >
+    <Block type="padded" cols="6" textAlign="left" bleed={false} background="canvas" className="has-checklist" css={{ padding: '60px 40px' }} mobile={{ phone: { padding: '60px 25px 60px 10px' }}} clip="top_lr_1.6" >
         ## Bento Preorder FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>   
         ### What is your refund/transfer policy for bento orders?
@@ -141,26 +135,32 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="hotels.suite" mobile={{marginBottom: '100px'}}>
+      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="meals.sandwich" mobile={{marginBottom: '100px'}}>
         ### Sandwich Bento Box ($12.97)
         omnivore delight
-        <PurchaseButton 
-        price="94700" product="WDS Hotel Suite" description="Suite at the WDS Hotel" redirect="complete-booking" code="hotelsuite"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.suite">Available!</PurchaseButton>
+        <PurchaseButton
+            price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealsandwich"
+            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.sandwich">
+              Purchase
+          </PurchaseButton>
       </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
+      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="meals.veggie" mobile={{marginBottom: '100px'}}>
         ### Veggie Bento Box ($12.97)
         gluten-free and vegan
-        <PurchaseButton 
-        price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Available!</PurchaseButton>
+        <PurchaseButton
+            price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealveggie"
+            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.veggie">
+              Purchase
+          </PurchaseButton>>
       </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
+      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="meals.chicken" mobile={{marginBottom: '100px'}}>
         ### Chicken Bento Box ($12.97)
         keto friendly and gluten-free
-        <PurchaseButton 
-        price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
-        style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Available!</PurchaseButton>
+        <PurchaseButton
+            price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealchicken"
+            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.chicken">
+              Purchase
+          </PurchaseButton>
       </BlockWithLiveLabel>
     </Grid>
     </Block>

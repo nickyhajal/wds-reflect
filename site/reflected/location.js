@@ -123,25 +123,14 @@ import YearReviews from '../../site/components/YearReviews';
   
  <Grid margin="60px 0 -20px 0">
 
-    <Block type="image" src="photos/Hoxton-roomy-view.jpg">
-      ## The Hoxton Hotel{'\n'}
-      A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.{'\n'}
-      
-      Use the botton below or call **(503)770-0500**. Make sure to reference **WDS 2019** for the special group rate.{'\n'}
-        
-     <p>0.7 Mi From the Main Stage <Link to="https://goo.gl/maps/CQtH6AnvrR12">(Google Directions)</Link></p> 
-        
-    <Button to="http://bookings.ihotelier.com/bookings.jsp?groupID=2450681&hotelID=106938" newWindow={true} >Book the Hoxton</Button> 
-</Block>
-
   <Block type="image" src="photos/Duniway-portland-WDS-partner.jpg">
       ## Duniway Hotel{'\n'}
-      This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Enjoy on-site dining at the popular Jackrabbit PDX, workout and/or swim in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  {'\n'}
+      This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Workout and/or swim onsite in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  {'\n'}
       
       At the top of the booking page, look for **"more options"**, then **"add special rate code"**. Enter **WDS** into the **Group Code**. {'\n'}
       
         <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
-  <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >Book the Duniway</Button> 
+  <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >The Discount Period Has Ended</Button> 
 </Block>
 
  <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/Paramount-Hotel-Room.jpg">
@@ -151,9 +140,18 @@ import YearReviews from '../../site/components/YearReviews';
       Use the button below or call **(503)223-9900**. Make sure to reference WDS 2019 for the special group rate.{'\n'}
       <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
         
-     <Button to="https://reservations.travelclick.com/104209?groupID=2388512" newWindow={true} >Book the Paramount</Button> 
-
+     <Button to="https://www.portlandparamount.com/" newWindow={true} >The Discount Period Has Ended</Button> 
  </Block>
+ <Block type="image" src="photos/Hoxton-roomy-view.jpg">
+      ## The Hoxton Hotel{'\n'}
+      A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.{'\n'}
+      
+      ~Call **(503)770-0500** and make sure to reference **WDS 2019** for the special group rate.~{'\n'}
+        
+     <p>0.7 Mi From the Main Stage <Link to="https://goo.gl/maps/CQtH6AnvrR12">(Google Directions)</Link></p> 
+        
+    <Button to="https://thehoxton.com/oregon/portland/hotels" newWindow={true} >The Discount Period Has Ended</Button> 
+</Block>
 
  <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
       ## Perfectly Located{'\n'}

@@ -44,18 +44,28 @@ import YearReviews from '../../site/components/YearReviews';
 >
   <Image src="v2/headings/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## WDS Academies{'\n'}
-At a WDS Academy, you might learn how to travel hack your way to a life-changing travel experience, master the art of telling compelling stories, or develop a winning branding strategy for your business. {'\n'}
+    ## WDS Academies are back for 2019! {'\n'}
+At a WDS Academy, you might learn how to develop a fulfilling writing practice, build or business through Youtube, or what it's like to build and live in a tiny house. {'\n'}
 You'll have the opportunity to learn something new to help live your _own_ remarkable life story. It's a great way to lead into the main events of the WDS weekend and keep the conversations going afterward.{'\n'}
   This short video shows more of what it's all about:{'\n'}
   </Block>
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-        ##  Stay tuned for the complete 2019 Academies schedule! {'\n'}
-  
-  _Please check back in April for the full WDS 2019 Academies schedule and registration information._ {'\n'}
+        ## The Details {'\n'}
+Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.{'\n'}
 
-</Block></Section>
+- **WDS Attendees:** $29 per Academy{'\n'}
+- **General Public:** $59 per Academy{'\n'}
+
+(Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection){'\n'}
+                                                                                                                                              
+There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. No physical ticket or confirmation will be required upon check-in, just a valid photo ID. Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.{'\n'}
+
+If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. {'\n'}
+
+</Block>
+<EventList year={19} type="academy" title="WDS 2019 Academies" />
+</Section>
 <Section color="canvas" overflow="hidden" burst>
   <Block margin="60px 0 30px">## WDS Tickets are On Sale!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">

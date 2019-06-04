@@ -78,6 +78,7 @@ class Dispatch extends React.Component {
     const params = {
       channel_id: this.props.channelId,
       channel_type: this.props.channelType,
+      filters: this.props.filters,
       include_author: false,
       since: this.state.since,
       before,
@@ -242,10 +243,12 @@ Dispatch.defaultProps = {
   channelId: '0',
   channelType: 'global',
   inifiniteScroll: true,
+  filters: [],
 };
 Dispatch.propTypes = {
   channelId: PropTypes.string,
   channelType: PropTypes.string,
+  filters: PropTypes.arrayOf(PropTypes.shape({name: PropTypes.string, val: PropTypes.string})),
   userId: PropTypes.string,
   inifiniteScroll: PropTypes.bool,
   placeholder: PropTypes.string,

@@ -61,7 +61,7 @@ import YearReviews from '../../site/components/YearReviews';
   <Block>## 2018 Scholarship Voyagers</Block>
   <Tabs style="simple">
     <Tab title="Puzzle Huddle">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>{'\n'}
       <Block cols="6" textAlign="left">
         ## Puzzle Huddle (Matthew Goins) - 2018{'\n'}
       
@@ -140,8 +140,8 @@ Through her work, Yolanda creates a community where women of color’s experienc
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## I'm in! How do I apply?{'\n'}
 
-##### 2019 Applications - Available Now!{'\n'}
-Please review the following information carefully. {'\n'}
+##### 2019 Applications - Now Closed!{'\n'}
+Don't stop believin! The deadline to apply for 2019 grants has passed but keep your dreams alive.  {'\n'}
                   
 ##### Eligibility{'\n'}
 The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.{'\n'}
@@ -150,33 +150,18 @@ The "Scholarships for Real Life" program is open to all alumni who have attended
                   WDS Foundation will hold two information sessions to help answer any questions about the scholarship, the application, and about the Foundation. Please register for one of the following sessions using the appropriate link below:{'\n'}
                   
                  - ~~Information Session #1: Sunday, March 3: 2:00-3:00pm PST~~ **(COMPLETED)**{'\n'}
-                 - Information Session #2: Saturday, March 16, 11:00am-12:00pm PST **[(Register for session #2)](https://zoom.us/meeting/register/6933a7d02893991f66858a512be5123a)**{'\n'}
+                 - ~~Information Session #2: Saturday, March 16, 11:00am-12:00pm PST~~ **(COMPLETED)**{'\n'}
 
                   
 --{'\n'}
 ##### 2019 Application Timeline  {'\n'}
                  Late submissions **will not** be accepted. {'\n'}
-                 - **March 1:** Applications open  {'\n'}
-                 - **April 1:** Applications close  {'\n'}
+                 - ~~**March 1:** Applications open~~  {'\n'}
+                 - ~~**April 1:** Applications close~~  {'\n'}
                  - **May 1:** First round of top 10 applicants notified  {'\n'}
                  - **May 15:** Voyagers selected and notified {'\n'}
 
 </Block>
-</Section>
-<Section
-  color="white"
->  
- <Block type="padded" background="blue">
-    <Image src="icon/circle-map-green.png" width="101" height="78"  align="center" margin="0 0 40px 0" />{'\n'}
-        <Block cols="5">
-      ## Okay, ready to apply? Let’s do this! {'\n'}
-      Click the button below to get started.{'\n'}
-      
-      _Please note: We strongly recommended completing the application on a computer. To preserve your work-in-progress, DO NOT refresh or close your browser until your application has been submitted._{'\n'}
-           <Button to="https://worlddominationsummit.com/foundation-apply" newWindow={true} styling="sea" fitToText>2019 Scholarship Application</Button> 
-    </Block>
-  </Block>
-
 </Section>
 <Section color="canvas" overflow="hidden" burst>
   <Block margin="60px 0 30px">## WDS Tickets are On Sale!</Block>

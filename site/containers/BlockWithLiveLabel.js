@@ -18,8 +18,11 @@ class BlockWithLiveLabel extends React.Component {
     const max = get(this.props.app.settings, `${this.props.path}_max`);
     const count = get(this.props.app.settings, `${this.props.path}_sales`);
     const left = max - count;
+    console.log(count, max, left)
     if (!isNaN(left)) {
+      console.log(left)
       label = left === 0 ? 'Sold out!' : `${left} left!`;
+      console.log(label)
     }
     return (
       <Block label={label} {...this.props}>{this.props.children}</Block>
