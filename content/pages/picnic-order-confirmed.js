@@ -9,7 +9,6 @@
    <p>Have any questions? Please contact our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they'll be able to assist you.</p>
    <p>Want to order another meal? Click on the link below.</p> 
 
-   ## [Picnic Bento Preorder page](https://worlddominationsummit.com/picnic-preorder)
+   ### [--> Picnic Bento Preorder page](https://worlddominationsummit.com/picnic-preorder)
   </Block>
-<Block width="100%" margin="40px 0 0 0" textAlign="center">## [Picnic Bento Preorder page](https://worlddominationsummit.com/picnic-preorder)</Block>
 </Section>
