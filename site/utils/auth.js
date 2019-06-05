@@ -98,6 +98,8 @@ const auth = {
       const rsp = raw.data;
       const now = moment();
       console.log('>>>> card');
+      console.log(rsp.card.exp_month);
+      console.log(now.format('M'));
       console.log(rsp.card.exp_month >= now.format('M'));
       console.log(rsp.card.exp_year);
       console.log(now.format('YYYY'));
