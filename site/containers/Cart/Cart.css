@@ -102,8 +102,8 @@
   text-align: center;
   padding: 10px 0 9px;
   background: $white;
-  margin-left: -60px;
-  margin-right: -60px;
+  margin-left: -50px;
+  margin-right: -50px;
   font-size: 15px;
   text-decoration: none;
 }
@@ -162,10 +162,10 @@
 }
 
 .productRow {
-  margin-left: -60px;
-  margin-right: -60px;
-  margin-top: -60px;
-  padding: 54px 58px 0;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: -50px;
+  padding: 54px 58px 0 0;
   font-family: KarlaBold;
   border-bottom: 2px solid $white;
 }
@@ -174,10 +174,10 @@
   border-left: 2px solid $white;
   float: right;
   text-align: center;
-  margin-top: -54px;
-  margin-right: -57px;
+  margin-top: -53px;
+  margin-right: -60px;
   border-left: 2px solid #FFFFFF;
-  padding: 38px 20px 36px 11px;
+  padding: 28px 20px 44px 26px;
 }
 
 .productRow :global(.Select) {
