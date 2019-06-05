@@ -97,14 +97,6 @@ const auth = {
     .then((raw) => {
       const rsp = raw.data;
       const now = moment();
-      console.log('>>>> card');
-      console.log(+rsp.card.exp_month);
-      console.log(+now.format('M'));
-      console.log(+rsp.card.exp_month >= +now.format('M'));
-      console.log(rsp.card.exp_year);
-      console.log(now.format('YYYY'));
-      console.log(rsp.card.exp_year >= now.format('YYYY'));
-      console.log('<<< card');
       if (
         rsp.card !== undefined &&
         rsp.card &&
