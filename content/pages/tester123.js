@@ -71,7 +71,7 @@
           ### Sandwich Bento Box ($12.97)
           omnivore delight
           <PurchaseButton
-              price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealsandwich"
+              price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealsandwich"
               style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.sandwich">
                 Purchase
             </PurchaseButton>
@@ -80,7 +80,7 @@
           ### Veggie Bento Box ($12.97)
           gluten-free and vegan
           <PurchaseButton
-              price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealveggie"
+              price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealveggie"
               style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.veggie">
                 Purchase
             </PurchaseButton>>
@@ -89,7 +89,7 @@
           ### Chicken Bento Box ($12.97)
           keto friendly and gluten-free
           <PurchaseButton
-              price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealchicken"
+              price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealchicken"
               style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.chicken">
                 Purchase
             </PurchaseButton>
@@ -139,7 +139,7 @@
         ### Sandwich Bento Box ($12.97)
         omnivore delight
         <PurchaseButton
-            price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealsandwich"
+            price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealsandwich"
             style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.sandwich">
               Purchase
           </PurchaseButton>
@@ -148,7 +148,7 @@
         ### Veggie Bento Box ($12.97)
         gluten-free and vegan
         <PurchaseButton
-            price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealveggie"
+            price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealveggie"
             style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.veggie">
               Purchase
           </PurchaseButton>>
@@ -157,7 +157,7 @@
         ### Chicken Bento Box ($12.97)
         keto friendly and gluten-free
         <PurchaseButton
-            price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="food-purchase-complete" code="mealchicken"
+            price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealchicken"
             style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.chicken">
               Purchase
           </PurchaseButton>
