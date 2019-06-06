@@ -445,34 +445,38 @@
 @media (--phone) {
   .block-image-overlay {
     float: none !important;
-  .image {
-    width: 300px !important;
+    .image {
+      width: 100% !important;
+    }
+    .content {
+      clear: both;
+      width: 100%;
+      min-height: 0;
+      padding: 0 20px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      float: none !important;
+    }
+    .icon {
+      position: absolute;
+      bottom: -25px;
+      right: -20px;
+    }
   }
-  .content {
-    clear: both;
-    width: 100%;
-    min-height: 0;
-    padding: 0 20px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    float: none !important;
+  .overlay-left {
+    flex-direction: column;
+    .image-shell {
+      float: right !important;
+      width: 100% !important;
+      margin-right: -20px !important;
+    }
   }
-  .icon {
-    position: absolute;
-    bottom: -25px;
-    right: -20px;
+  .overlay-right {
+    flex-direction: column;
+    .image-shell {
+      float: left !important;
+      width: 100% !important;
+      margin-left: -20px !important;
+    }
   }
-}
-.overlay-left {
-  .image-shell {
-    float: right !important;
-    margin-right: -20px !important;
-  }
-}
-.overlay-right {
-  .image-shell {
-    float: left !important;
-    margin-left: -20px !important;
-  }
-}
 }
