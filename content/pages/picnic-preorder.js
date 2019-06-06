@@ -81,7 +81,7 @@
           gluten-free and vegan
           <PurchaseButton
               price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealveggie"
-              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.veggie">
+              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-65px'}} path="meals.veggie">
                 Purchase
             </PurchaseButton>>
         </BlockWithLiveLabel>
@@ -149,7 +149,7 @@
         gluten-free and vegan
         <PurchaseButton
             price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealveggie"
-            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.veggie">
+            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-65px'}} path="meals.veggie">
               Purchase
           </PurchaseButton>>
       </BlockWithLiveLabel>
