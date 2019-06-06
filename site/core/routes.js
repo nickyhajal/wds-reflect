@@ -49,6 +49,7 @@ const routes = (
     <Route path="/side-hustlers-only" component={TicketPurchase} />
     <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />
+    <Route path="/picnic-preorder/:loginhash" component={HashLogin} />
     <Route path="/events/meetups/:loginhash" component={HashLogin} />
     <Route path="/events/academies/:loginhash" component={HashLogin} />
     <Route path="/events/expeditions/:loginhash" component={HashLogin} />
