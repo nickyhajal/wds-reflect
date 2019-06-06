@@ -138,6 +138,9 @@ export class EventComponent extends Component {
             break;
           }
           default: {
+            if (+event_id === 1245) {
+              browserHistory.replace('/picnic-preorder');
+            }
             me.rsvps = [...me.rsvps, event_id];
             break;
           }
