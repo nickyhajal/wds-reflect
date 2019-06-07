@@ -32,7 +32,7 @@
       ##### Step #4: Pick up your bento at the event and enjoy
       One final step between you and your delicious bento. 
       
-      ### >> BONUS: the first 300 to order receive a limited edition swag gift! <<
+      ### BONUS: the first 400 to order receive a limited edition swag gift!
       
   </Block>
   <Image src="https://el-files-wds.s3.amazonaws.com/images/Giraffe-Deli-pics.jpg" width="100%" height="348" />
@@ -130,7 +130,7 @@
   <Block margin="100px 0 50px 0">
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
         ## Order your bento today! 
-      Don't forget, the first 300 attendees to preorder their bento get a limited edition swag gift! 
+      Don't forget, the first 400 attendees to preorder their bento get a limited edition swag gift! 
       </Block>
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
