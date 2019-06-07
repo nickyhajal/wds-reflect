@@ -122,7 +122,7 @@
          ### Why bentos?
         <p>They are the perfect meal for picnics. You get lots of different dishes and it can be transported in one container. It's also a fun word to say!</p>
         ### Not finding the answer to your question?
-         Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!
+        Contact our year-round concierge team at **concierge@wds.fm.** They’ll get back to you at lightning speed!
  </Block>
    <div className="clear" />
 </Section>
