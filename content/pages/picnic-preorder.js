@@ -32,7 +32,7 @@
       ##### Step #4: Pick up your bento at the event and enjoy
       One final step between you and your delicious bento. 
       
-      ### BONUS: the first 400 to order receive a limited edition swag gift!
+      ### &gt;&gt; BONUS: the first 400 to order receive a limited edition swag gift! &lt;&lt;
       
   </Block>
   <Image src="https://el-files-wds.s3.amazonaws.com/images/Giraffe-Deli-pics.jpg" width="100%" height="348" />
