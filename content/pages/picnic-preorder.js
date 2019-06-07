@@ -20,9 +20,9 @@
          <li>Did we mention, the food is amazing! Learn more about the 3 bento options below.</li></ul></p>
     </Block>
   </Block>
-  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+  <Block cols="6" css={{ padding: '20px 0 20px' }} textAlign="left">
       ## Let's Do This!
-      Here's how to preorder your bento box for the WDS Picnic
+      Here's how to preorder your bento box for the WDS Picnic:
       ##### Step #1: Choose your bento option (descriptions below)
       We've got three great options to meet a variety of appetites and needs.
       ##### Step #2: Review the details and FAQ sections
@@ -32,7 +32,7 @@
       ##### Step #4: Pick up your bento at the event and enjoy
       One final step between you and your delicious bento. 
       
-      ### BONUS: the first 200 to order receive a limited edition swag gift!
+      ### >> BONUS: the first 300 to order receive a limited edition swag gift! <<
       
   </Block>
   <Image src="https://el-files-wds.s3.amazonaws.com/images/Giraffe-Deli-pics.jpg" width="100%" height="348" />
@@ -45,8 +45,8 @@
         <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Sandwich Bento Box (omnivore's delight)
          - Combo sando: half egg-salad, half pork-katsu sandwich. The best of both worlds in one sandwhich!
-         - Kinpira vegetable salad: sweet marinated vegetable medley marinated with a touch of sake
-         - Potato salad: Japanese style. 
+         - Kinpira vegetable salad: sweet marinated vegetable medley marinated with a touch of sake (not pictured)
+         - Potato salad: Japanese style (not pictured)
         </Block>
         <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Veggie Bento Box (gluten-free and vegan)
@@ -122,7 +122,7 @@
          ### Why bentos?
         <p>They are the perfect meal for picnics. You get lots of different dishes and it can be transported in one container. It's also a fun word to say!</p>
         ### Not finding the answer to your question?
-        <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
+         Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!
  </Block>
    <div className="clear" />
 </Section>
@@ -130,7 +130,7 @@
   <Block margin="100px 0 50px 0">
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
         ## Order your bento today! 
-      Don't forget, the first 200 attendees to preorder their bento get a limited edition swag gift! 
+      Don't forget, the first 300 attendees to preorder their bento get a limited edition swag gift! 
       </Block>
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
@@ -166,4 +166,3 @@
     </Block>
     <div className="clear" />
 </Section>
-<Import id="join-us" />
