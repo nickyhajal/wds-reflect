@@ -11,7 +11,7 @@
     <Image src="https://el-files-wds.s3.amazonaws.com/images/picnic.header.jpg" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       ## Preorder your WDS Picnic Meal
-      This year we're teaming up with **Giraffe Japanese Deli** to provide 3 incredibly delicious bentos for the WDS picnic.   
+      This year we're teaming up with critically acclaimed, **Giraffe Japanese Deli** to provide 3 incredibly delicious bentos for the WDS picnic. _(Please note: preordering a meal is NOT required to attend the WDS Picnic. You are more than welcome to bring your own meal.)_   
       <p>Why should you preorder your meal?</p>
       <p><ul>
          <li>The food is amazing! Each bento box holds different compartments of yummy dishes.</li>
