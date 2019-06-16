@@ -18,12 +18,11 @@ preload
 
  <p><i>All that’s missing is YOU!</i></p>
 
-<p>WDS tickets are <b>$697</b> and are sold on a first-come, first-served basis.</p>
-<p><b>NEW</b>—payment plan available! <i>(For all ticket policies, refer to our <a href="https://worlddominationsummit.com/faq" target="_blank">FAQ page</a>)</i></p>
-
-<p><b>Tickets are on sale now! Click below to be a part of WDS 2019</b></p>
-
-     <Button to="/be-there" fitToText>Get Your Ticket to WDS 2019</Button>
+    We’re doing it again in 2019, and all that’s missing is YOU!
+      
+    <p><b>**PLEASE NOTE: Tickets for 2019 have sold out! To be notified when tickets go back on sale for 2020 use the button below:**</b></p> 
+    
+    <Button modal="joinUs" fitToText>Join the Wait List!</Button>
 
          </Block>
 </Section>
