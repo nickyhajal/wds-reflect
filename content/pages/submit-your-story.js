@@ -19,10 +19,12 @@
     className="bigger"
   >
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
-      Submit Your Story - Thanks and sorry we missed you!
+      Submit Your Story
     </h2>
-     <p><b>Submissions for WDS 2018 Attendee-stories has closed</b> but that doesn't mean you should stop sharing your story with others at WDS.</p>
-    {' '}
+     <p>Do you have a remarkable, personal story that you'd like to share on the WDS main stage? We want to learn more. <b>Fill out the following form by Sunday, June 23rd, 5pm PST/8pm EST.</b> Late submissions will not be considered.</p>
+     <Block cols="6">
+    <iframe height="4500" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Submit your remarkable story!</a></iframe>
+  </Block>
 
   </Block>
 </Section>
