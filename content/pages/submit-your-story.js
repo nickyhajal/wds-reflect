@@ -25,7 +25,7 @@
       <p><b>Fill out the following form by Sunday, June 23rd, 5pm PST/8pm EST.</b></p> 
         <p>Late submissions will not be considered.</p>
      <Block cols="6">
-    <iframe height="1750" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Submit your remarkable story!</a></iframe>
+    <iframe height="2050" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Submit your remarkable story!</a></iframe>
   </Block>
 
   </Block>
