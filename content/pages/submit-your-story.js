@@ -23,7 +23,7 @@
     </h2>
      <p>Do you have a remarkable, personal story that you'd like to share on the WDS main stage? We want to learn more.</p> 
       <p><b>Fill out the following form by Sunday, June 23rd, 5pm PST/8pm EST.</b></p> 
-        <p>Late submissions will not be considered.</p>
+        <p>Late submissions will not be considered. For the best user experience we suggest completing this form with a computer or tablet.</p>
      <Block cols="6">
     <iframe height="2050" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Submit your remarkable story!</a></iframe>
   </Block>
