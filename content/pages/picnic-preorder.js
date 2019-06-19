@@ -10,7 +10,7 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="https://el-files-wds.s3.amazonaws.com/images/picnic.header.jpg" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-      ## Preorder your WDS Picnic Meal
+      ## Preorder your WDS Picnic Meal (ENDING TODAY)
       This year we're teaming up with critically acclaimed, **Giraffe Japanese Deli** to provide 3 incredibly delicious bentos for the WDS picnic. _(Please note: preordering a meal is NOT required to attend the WDS Picnic. You are more than welcome to bring your own meal.)_   
       <p>Why should you preorder your meal?</p>
       <p><ul>
@@ -21,7 +21,7 @@
     </Block>
   </Block>
   <Block cols="6" css={{ padding: '20px 0 20px' }} textAlign="left">
-      ## Let's Do This!
+      ## Let's Do This! (Last Chance)
       Here's how to preorder your bento box for the WDS Picnic:
       ##### Step #1: Choose your bento option (descriptions below)
       We've got three great options to meet a variety of appetites and needs.
@@ -103,6 +103,8 @@
     <Block type="padded" cols="6" textAlign="left" bleed={false} background="canvas" className="has-checklist" css={{ padding: '60px 40px' }} mobile={{ phone: { padding: '60px 25px 60px 10px' }}} clip="top_lr_1.6" >
         ## Bento Preorder FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>   
+        ### (NEW) I missed the bento preorder, what are my options?
+        <p>We'll have a limited number of bentos available for order on site, there will be food carts at Pioneer Courthouse Square, and you can always bring your own meal.</p>  
         ### What is your refund/transfer policy for bento orders?
         <p>All bento preorders are <b>non-refundable</b>.</p>  
         ### Can I modify or request different items in any of the bentos?
@@ -122,14 +124,14 @@
          ### Why bentos?
         <p>They are the perfect meal for picnics. You get lots of different dishes and it can be transported in one container. It's also a fun word to say!</p>
         ### Not finding the answer to your question?
-        Contact our year-round concierge team at **concierge@wds.fm.** They’ll get back to you at lightning speed!
+        <p>Contact our year-round concierge team at <b>concierge@wds.fm.</b> They’ll get back to you at lightning speed!</p>
  </Block>
    <div className="clear" />
 </Section>
 <Section color="white">
   <Block margin="100px 0 50px 0">
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
-        ## Order your bento today! 
+        ## Order your bento today! (Today's the final day!)
       Don't forget, the first 400 attendees to preorder their bento get a limited edition swag gift! 
       </Block>
     </Block>
