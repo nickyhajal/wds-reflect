@@ -66,37 +66,6 @@
           </Block>
      </Grid>
     </Block>
-    <Block cols="8" bleed={false} margin="0 0 80px">
-      <Grid numCols="3" tabletCols="2" width="968">
-        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="" mobile={{marginBottom: '100px'}}>
-          ### Sandwich Bento Box ($12.97)
-          omnivore delight
-          <PurchaseButton
-              price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealsandwich"
-              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="">
-                No Longer Available
-            </PurchaseButton>
-        </BlockWithLiveLabel>
-        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="" mobile={{marginBottom: '100px'}}>
-          ### Veggie Bento Box ($12.97)
-          gluten-free and vegan
-          <PurchaseButton
-              price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealveggie"
-              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-65px'}} path="">
-                No Longer Available
-            </PurchaseButton>>
-        </BlockWithLiveLabel>
-        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="" mobile={{marginBottom: '100px'}}>
-          ### Chicken Bento Box ($12.97)
-          keto friendly and gluten-free
-          <PurchaseButton
-              price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealchicken"
-              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="">
-                No Longer Available
-            </PurchaseButton>
-        </BlockWithLiveLabel>
-      </Grid>
-    </Block>
     <div className="clear" />
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
@@ -128,44 +97,4 @@
         <p>Contact our year-round concierge team at <b>concierge@wds.fm.</b> They’ll get back to you at lightning speed!</p>
  </Block>
    <div className="clear" />
-</Section>
-<Section color="white">
-  <Block margin="100px 0 50px 0">
-      <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
-        ## Order your bento today! (Sale Ended)
-      Don't forget, the first 400 attendees to preorder their bento get a limited edition swag gift! 
-      </Block>
-    </Block>
-    <Block cols="8" bleed={false} margin="0 0 80px">
-    <Grid numCols="3" tabletCols="2" width="968">
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="" mobile={{marginBottom: '100px'}}>
-        ### Sandwich Bento Box ($12.97)
-        omnivore delight
-        <PurchaseButton
-            price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealsandwich"
-            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="">
-              No Longer Available
-          </PurchaseButton>
-      </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="" mobile={{marginBottom: '100px'}}>
-        ### Veggie Bento Box ($12.97)
-        gluten-free and vegan
-        <PurchaseButton
-            price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealveggie"
-            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-65px'}} path="">
-              No Longer Available
-          </PurchaseButton>>
-      </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="" mobile={{marginBottom: '100px'}}>
-        ### Chicken Bento Box ($12.97)
-        keto friendly and gluten-free
-        <PurchaseButton
-            price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealchicken"
-            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="">
-              No Longer Available
-          </PurchaseButton>
-      </BlockWithLiveLabel>
-    </Grid>
-    </Block>
-    <div className="clear" />
 </Section>
