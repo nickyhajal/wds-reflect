@@ -10,8 +10,9 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="https://el-files-wds.s3.amazonaws.com/images/picnic.header.jpg" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-      ## Preorder your WDS Picnic Meal (ENDING TODAY)
-      This year we're teaming up with critically acclaimed, **Giraffe Japanese Deli** to provide 3 incredibly delicious bentos for the WDS picnic. _(Please note: preordering a meal is NOT required to attend the WDS Picnic. You are more than welcome to bring your own meal.)_   
+      ## Preorder your WDS Picnic Meal (Sale Ended)
+    <p><h3> >>Update: the preorder is no longer available but there will be a limited amount of bento boxes available for sale at the event along with dessert and drinks.<< </h3></p>
+      <p>This year we're teaming up with critically acclaimed, **Giraffe Japanese Deli** to provide 3 incredibly delicious bentos for the WDS picnic. <i>(Please note: preordering a meal is NOT required to attend the WDS Picnic. You are more than welcome to bring your own meal.)</i></p>   
       <p>Why should you preorder your meal?</p>
       <p><ul>
          <li>The food is amazing! Each bento box holds different compartments of yummy dishes.</li>
@@ -21,7 +22,7 @@
     </Block>
   </Block>
   <Block cols="6" css={{ padding: '20px 0 20px' }} textAlign="left">
-      ## Let's Do This! (Last Chance)
+      ## Let's Do This! (Sale Has Ended)
       Here's how to preorder your bento box for the WDS Picnic:
       ##### Step #1: Choose your bento option (descriptions below)
       We've got three great options to meet a variety of appetites and needs.
@@ -67,31 +68,31 @@
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
       <Grid numCols="3" tabletCols="2" width="968">
-        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="meals.sandwich" mobile={{marginBottom: '100px'}}>
+        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="" mobile={{marginBottom: '100px'}}>
           ### Sandwich Bento Box ($12.97)
           omnivore delight
           <PurchaseButton
               price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealsandwich"
-              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.sandwich">
-                Purchase
+              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="">
+                No Longer Available
             </PurchaseButton>
         </BlockWithLiveLabel>
-        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="meals.veggie" mobile={{marginBottom: '100px'}}>
+        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="" mobile={{marginBottom: '100px'}}>
           ### Veggie Bento Box ($12.97)
           gluten-free and vegan
           <PurchaseButton
               price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealveggie"
-              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-65px'}} path="meals.veggie">
-                Purchase
+              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-65px'}} path="">
+                No Longer Available
             </PurchaseButton>>
         </BlockWithLiveLabel>
-        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="meals.chicken" mobile={{marginBottom: '100px'}}>
+        <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="" mobile={{marginBottom: '100px'}}>
           ### Chicken Bento Box ($12.97)
           keto friendly and gluten-free
           <PurchaseButton
               price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealchicken"
-              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.chicken">
-                Purchase
+              style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="">
+                No Longer Available
             </PurchaseButton>
         </BlockWithLiveLabel>
       </Grid>
@@ -131,37 +132,37 @@
 <Section color="white">
   <Block margin="100px 0 50px 0">
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
-        ## Order your bento today! (Today's the final day!)
+        ## Order your bento today! (Sale Ended)
       Don't forget, the first 400 attendees to preorder their bento get a limited edition swag gift! 
       </Block>
     </Block>
     <Block cols="8" bleed={false} margin="0 0 80px">
     <Grid numCols="3" tabletCols="2" width="968">
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="meals.sandwich" mobile={{marginBottom: '100px'}}>
+      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentosandwich.jpg" path="" mobile={{marginBottom: '100px'}}>
         ### Sandwich Bento Box ($12.97)
         omnivore delight
         <PurchaseButton
             price="1297" product="Sandwich Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealsandwich"
-            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.sandwich">
-              Purchase
+            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="">
+              No Longer Available
           </PurchaseButton>
       </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="meals.veggie" mobile={{marginBottom: '100px'}}>
+      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentoveg.jpg" path="" mobile={{marginBottom: '100px'}}>
         ### Veggie Bento Box ($12.97)
         gluten-free and vegan
         <PurchaseButton
             price="1297" product="Veggie Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealveggie"
-            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-65px'}} path="meals.veggie">
-              Purchase
+            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-65px'}} path="">
+              No Longer Available
           </PurchaseButton>>
       </BlockWithLiveLabel>
-      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="meals.chicken" mobile={{marginBottom: '100px'}}>
+      <BlockWithLiveLabel type="caption" src="https://el-files-wds.s3.amazonaws.com/images/bentochicken.jpg" path="" mobile={{marginBottom: '100px'}}>
         ### Chicken Bento Box ($12.97)
         keto friendly and gluten-free
         <PurchaseButton
             price="1297" product="Chicken Bento Box" description="Your WDS Picnic Meal" redirect="picnic-order-confirmed" code="mealchicken"
-            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="meals.chicken">
-              Purchase
+            style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="">
+              No Longer Available
           </PurchaseButton>
       </BlockWithLiveLabel>
     </Grid>
