@@ -28,7 +28,7 @@
     - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups
     - **Wednesday (6/26)** Small Group Activities and Attendee-Led Meetups
     <li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and the Opening Party</li>
-    <li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the Big Adventure</li>
+    <li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the WDS Picnic</li>
     <li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li>
     <li><b className="highlight highlight-3">Sunday (6/30)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li>
     - **Monday (7/01)** Academies and Attendee-Led Meetups
