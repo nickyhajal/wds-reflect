@@ -21,7 +21,7 @@
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
       Submit Your Story (Now Closed!)
     </h2>
-<p><h3>Update: We are no longer taking story submissions for WDS 2019. This is just one opportunity to share your stoy with others so don't stop here.</h3></p> 
+<p><h3>Update: We are no longer taking story submissions for WDS 2019. This is just one opportunity to share your story with others so don't stop here.</h3></p> 
      <p>Do you have a remarkable, personal story that you'd like to share on the WDS main stage? We want to learn more.</p> 
 
 <p><h3>Your Chance to Propose an Attendee Story</h3></p>
