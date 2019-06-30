@@ -14,9 +14,9 @@ preload
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-<p>Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams.</p>
+    <p>Since 2011, WDS has brought together more than 10,000 people from more than forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams.</p>
 
- <p><i>All that’s missing is YOU!</i></p>
+    <p><i>All that’s missing is YOU!</i></p>
 
     We’re doing it again in 2019, and all that’s missing is YOU!
       
@@ -24,7 +24,7 @@ preload
     
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>
 
-         </Block>
+  </Block>
 </Section>
        <Section color="blue" bound={false}>
 <Block margin="50px 0 50px 0">

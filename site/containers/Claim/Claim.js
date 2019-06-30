@@ -167,66 +167,67 @@ export class App extends Component {
             );
           }
         }
-      // } else if (tickets.claimed.length) {
-      //   if (tickets.claimed.length > 1) {
-      //     c.title = "Nice work, you've claimed all your tickets!";
-      //     c.action = (
-      //       <Block
-      //         styleName="action"
-      //         css={{ textAlign: 'center' }}
-      //         background="spice"
-      //       >
-      //         ## Woohoo! See you in 2019!
-      //       </Block>
-      //     );
-      //   } else {
-      //     c.title = 'Woohoo, your ticket is claimed!';
-      //     c.action = (
-      //       <Block
-      //         styleName="action"
-      //         css={{ textAlign: 'center' }}
-      //         background="spice"
-      //       >
-      //         ## Aw yeah! See you in 2019!
-      //       </Block>
-      //     );
-      //   }
-      // }
       } else if (tickets.claimed.length) {
-        if (this.meClaimed()) {
-          if (tickets.claimed.length > 1) {
-            c.title = 'Nice work, you\'ve claimed all your tickets!';
-            c.action = (
-              <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-                ## Impressive! Now let&apos;s setup your account.
-                <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
-              </Block>
-            );
-          } else {
-            c.title = 'Woohoo, your ticket is claimed!';
-            c.action = (
-              <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-                ## Great job! Now let&apos;s setup your account!
-                <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
-              </Block>
-            );
-          }
-        } else {
-          c.title = 'Great, you\'re all done!';
+        if (tickets.claimed.length > 1) {
+          c.title = "Nice work, you've claimed all your tickets!";
           c.action = (
-            <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
-              ## Thanks for sharing WDS with the people you care about!
+            <Block
+              styleName="action"
+              css={{ textAlign: 'center' }}
+              background="spice"
+            >
+              ## Woohoo! See you in 2020!
+            </Block>
+          );
+        } else {
+          c.title = 'Woohoo, your ticket is claimed!';
+          c.action = (
+            <Block
+              styleName="action"
+              css={{ textAlign: 'center' }}
+              background="spice"
+            >
+              ## Aw yeah! See you in 2020!
             </Block>
           );
         }
       }
+      // } else if (tickets.claimed.length) {
+      //   if (this.meClaimed()) {
+      //     if (tickets.claimed.length > 1) {
+      //       c.title = 'Nice work, you\'ve claimed all your tickets!';
+      //       c.action = (
+      //         <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+      //           ## Impressive! Now let&apos;s setup your account.
+      //           <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+      //         </Block>
+      //       );
+      //     } else {
+      //       c.title = 'Woohoo, your ticket is claimed!';
+      //       c.action = (
+      //         <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+      //           ## Great job! Now let&apos;s setup your account!
+      //           <Button styling="dark" to="/welcome" styleName="finishBtn">Continue</Button>
+      //         </Block>
+      //       );
+      //     }
+      //   } else {
+      //     c.title = 'Great, you\'re all done!';
+      //     c.action = (
+      //       <Block styleName="action" css={{ textAlign: 'center' }} background="spice">
+      //         ## Thanks for sharing WDS with the people you care about!
+      //       </Block>
+      //     );
+      //   }
+      // }
     } else {
       c.title = "Hmm, looks like you don't have a ticket to WDS";
     }
     return c;
   }
   prepareTickets() {
-    const tickets = this.props.auth.me.tickets.filter(({ year }) => `${year}` === '2019');
+    this.props.auth.me.tickets.forEach((t) => console.log(t.year === '2020'));
+    const tickets = this.props.auth.me.tickets.filter(({ year }) => (console.log(year), year === '2020'));
     this.tickets = { claimed: [], unclaimed: [], countStr: '', count: 0, connectCount: 0 };
     if (tickets !== undefined && _.isArray(tickets) && tickets.length) {
       tickets.forEach(ticket => {
@@ -325,6 +326,7 @@ export class App extends Component {
     return '';
   }
   renderTicketSetup() {
+    this.prepareTickets();
     const progress = _.shuffle([
       'Dominating the World...',
       'Crunching Numbers...',
@@ -370,7 +372,7 @@ export class App extends Component {
     const title =
       content.title !== undefined
         ? content.title
-        : `Woohoo! You have ${this.tickets.countStr} to WDS 2019!`;
+        : `Woohoo! You have ${this.tickets.countStr} to WDS 2020!`;
     return (
       <Section color="orange" styleName="shell" className="fillScreen">
         <Image

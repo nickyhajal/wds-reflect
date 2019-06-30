@@ -242,7 +242,7 @@ class Cart extends React.Component {
           <div styleName="cardExp">Expires {cardExp}</div>
         </div>
         {this.renderError()}
-        <div styleName="planSelectBox">
+        {/* <div styleName="planSelectBox">
           <button
             onClick={this.payInFull}
             className={code === 'wds2019' ? 'selected' : ''}
@@ -256,7 +256,7 @@ class Cart extends React.Component {
             WDS Payment Plan
             <div>$95 today, then $204/mo for 3 mos.</div>
           </button>
-        </div>
+        </div> */}
       </div>
     );
   }
@@ -295,7 +295,7 @@ class Cart extends React.Component {
       <div styleName="newShell">
         {this.renderError()}
         {this.renderUserInps()}
-        <div styleName="planSelectBox">
+        {/* <div styleName="planSelectBox">
           <button
             onClick={this.payInFull}
             className={code === 'wds2019' ? 'selected' : ''}
@@ -309,7 +309,7 @@ class Cart extends React.Component {
             WDS Payment Plan
             <div>$95 today, then $204/mo for 3 mos.</div>
           </button>
-        </div>
+        </div> */}
         <div className="form-row">
           <div className="form-box form-cc-box">
             <label>Card Number</label>

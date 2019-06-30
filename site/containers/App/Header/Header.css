@@ -167,6 +167,32 @@
   display: none;
   cursor: pointer;
 }
+@media(--mdesk) {
+  .link {
+    font-size: 14px;
+    padding: 23px 16px;
+  }
+  .rightNav {
+    right: 235px;
+  }
+  .nav {
+    padding-left: 80px;
+    padding-right: 0;
+  }
+}
+@media(--smdesk) {
+  .link {
+    font-size: 13px;
+    padding: 23px 15px;
+  }
+  .rightNav {
+    right: 215px;
+  }
+  .nav {
+    padding-left: 60px;
+    padding-right: 0;
+  }
+}
 @media(--phone) {
   .hiddenNav {
     padding-top: 80px !important;

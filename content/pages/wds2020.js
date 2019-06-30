@@ -23,12 +23,14 @@ For 2020, we are returning to the beautiful and intimate Newmark Theater, bringi
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/ticket-terms-and-conditions" target="_blank">WDS Ticket, Terms and Conditions.</a>)</i></p>
        
 Make sure you reserve your spot for the final year before tickets sell out! 
+
+<Button to="/be-there" fitToText>Get Your Ticket to WDS 2020</Button>
        
          </Block>
 </Section>
        <Section color="sea" bound={false}>
 <Block margin="50px 0 50px 0">
-  ## What's Included in My WDS Ticket
+  <h2 style={{color: "#fff"}}>What's Included in My WDS Ticket</h2>
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
       <Block type="image" src="photos/JoinUs/image-speakers.png">
       ## Main Stage Speakers
