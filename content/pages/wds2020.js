@@ -9,11 +9,11 @@ preload
 <Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
   <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2020</h2><p></p>
-    ## Tuesday, June 23rd thru Monday, June 29th, 2020
+    ## Tuesday, June 23rd - Monday, June 29th, 2020
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-<p>Join us again next year for an all-new experience at the <i>penultimate</i> World Domination Summit! We’ll continue to explore how to live a remarkable life and build a better world through community, adventure, and service.</p>
+<p>Join us as we celebrate 10 years of <i>community, adventure, and service</i> at the final, World Domination Summit.</p>
 
 For 2020, we are returning to the beautiful and intimate Newmark Theater, bringing back the WDS Connect experience, and as always, we'll have a few suprises for our time together. All that’s missing is YOU!
   
