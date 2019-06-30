@@ -28,7 +28,7 @@ Make sure you reserve your spot for the final year before tickets sell out!
 </Section>
        <Section color="sea" bound={false}>
 <Block margin="50px 0 50px 0">
-  ## What's Included in My WDS 360 Ticket
+  ## What's Included in My WDS Ticket
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
       <Block type="image" src="photos/JoinUs/image-speakers.png">
       ## Main Stage Speakers
