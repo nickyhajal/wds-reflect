@@ -65,6 +65,8 @@ Make sure you reserve your spot for the final year before tickets sell out!
       Once you attend WDS you'll become an alum and part of a global network of over 10,000 adventurers who will continue to support you and your journey. 
     </Block>
   </Grid>
+  <div style={{ marginTop: "80px"}} />
+  <Button to="/be-there" fitToText>Get Your Ticket to WDS 2020</Button>
 </Block>
 </Section>
 
