@@ -7,35 +7,35 @@
 
     ### What is WDS?
 
-    The World Domination Summit (WDS) is a gathering of creative, interesting people from all over the world. Every summer, 1000+ of people travel to Portland, Oregon for an immersive experience in life, work, and travel.
+    The World Domination Summit (WDS) is a gathering of creative, interesting, and remarkable people from all over the world. Every summer, 1000+ of people travel to Portland, Oregon for an immersive experience in life, work, and travel.
     The almost week-long event consists of three primary activities: main-stage events with keynote speakers that are attended by the entire group, workshops that focus on specific topics, and lots of meetups, parties, and informal engagement. Despite the large number of people who attend, WDS is introvert-friendly, and everyone who participates is a big part of the event.
     <p>WDS was founded by <Link to="http://chrisguillebeau.com" target="blank">Chris Guillebeau</Link>, explorer of the world and <i>New York Times</i> bestselling author of <i>The $100 Startup</i>.</p>
 
    ### When is the next WDS? 
       
-   WDS 2019 will take place from June 25th until July 1st, 2019. The main events takes place over the WDS weekend, June 28th to June 30th.  
+   **WDS 2020 (our final year!)** will take place from Tueday, June 23th until June 29th, 2020. The main events takes place over the WDS weekend, June 26th to June 28th.  
    
    ### How can I get a WDS ticket?
 
-   <p><b>Tickets for WDS 2019 are on sale now!</b> Register before they sell out here: <Link to="https://worlddominationsummit.com/join-us">WDS 2019 Tickets.</Link></p>
+   <p><b>Tickets for WDS 2020 will go back on sale later this week</b> Join the wait list here: <Link to="https://worlddominationsummit.com/join-us">WDS 2020 Wait List.</Link></p>
 
     <p><i>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</i></p>
 
 
   ### Do you offer a payment plan for tickets?
 
-<p>Yes! For the next sale (starting March 4th), the first initial payment is <b>$95</b>, followed by <b>three payments of $204</b> for a total of <b>$707</b>. <b>All payments are non-refundable</b>, and you can pay for up to 3 tickets using a payment plan. To review the full terms and conditions of the WDS payment plan <Link to="https://worlddominationsummit.com/payment-plan-terms-and-conditions">click here.</Link></p>
+<p>Yes! For the next sale, the first initial payment is <b>$95</b>, followed by <b>three payments of $204</b> for a total of <b>$707</b>. <b>All payments are non-refundable</b>, and you can pay for up to 3 tickets using a payment plan. To review the full terms and conditions of the WDS payment plan <Link to="https://worlddominationsummit.com/payment-plan-terms-and-conditions">click here.</Link></p>
 
 ### I've purchased a WDS ticket, what do I do next? 
 
-<p>Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2019 emails, please contact our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they will be able to assist you.</p>
+<p>Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2020 emails, please contact our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> and they will be able to assist you.</p>
 
 ### What is the refund/cancellation policy for WDS tickets?
     <p>All WDS tickets are <b>non-refundable.</b></p> 
 
     ### Can I transfer a WDS ticket to someone else?
 
-<p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 17th (6 weeks prior to WDS). Starting <b>May 18th, 2019</b>, no further transfers or name changes will be possible. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p>
+<p>Once a ticket has been officially "assigned"* to someone that ticket may be transferred to someone else for a $100 fee until May 17th (6 weeks prior to WDS). Starting <b>May 18th, 2020</b>, no further transfers or name changes will be possible. <i>Please note: Special benefits and perks associated with an original ticket are not transferrable.</i></p>
     
     <p>To transfer your WDS ticket please email our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> for your unique transfer link.</p>
 
