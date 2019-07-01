@@ -17,7 +17,7 @@ preload
 
 For 2020, we are returning to the beautiful and intimate Newmark Theater, bringing back the WDS Connect experience, and as always, we'll have a few suprises for our time together. All that’s missing is YOU!
   
-<p>WDS tickets cost <b>$697</b>!</p> 
+<p>WDS tickets cost <b>$697</b>! (payment plan: an initial payment of $95 + 3-monthly payments of $204)</p> 
 
 <p>These are non-refundable, sold on a first-come, first-served basis, and up to 3 tickets can be purchased (login required). This special offer is only available to WDS 2019 attendees, and expires at <b>midnight PDT on Tuesday, July 2nd.</b></p>
 <p><i>(Please review our <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">WDS Ticket, Terms and Conditions.</a>)</i></p>
