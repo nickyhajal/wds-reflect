@@ -22,9 +22,9 @@ For 2020, we are returning to the beautiful and intimate Newmark Theater, bringi
 <p>These are non-refundable, sold on a first-come, first-served basis, and up to 3 tickets can be purchased (login required). This special offer is only available to WDS 2019 attendees, and expires at <b>midnight PDT on Monday, July 1st.</b></p>
 <p><i>(For all ticket policies, please refer to our <a href="https://worlddominationsummit.com/ticket-terms-and-conditions" target="_blank">WDS Ticket, Terms and Conditions.</a>)</i></p>
        
-Make sure you reserve your spot for the final year before tickets sell out! 
-
-<Button to="/be-there" fitToText>Get Your Ticket to WDS 2020</Button>
+<p><b>**PLEASE NOTE: The presale for WDS 2020 has ended! To be notified when tickets go back on sale for WDS 2020 use the button below:**</b></p> 
+    
+    <Button modal="joinUs" fitToText>Join the Wait List!</Button>
        
          </Block>
 </Section>
@@ -66,7 +66,7 @@ Make sure you reserve your spot for the final year before tickets sell out!
     </Block>
   </Grid>
   <div style={{ marginTop: "80px"}} />
-  <Button to="/be-there" fitToText>Get Your Ticket to WDS 2020</Button>
+  <Button modal="joinUs" fitToText>Join the Wait List!</Button>
 </Block>
 </Section>
 
