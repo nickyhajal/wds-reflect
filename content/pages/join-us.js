@@ -8,8 +8,8 @@ preload
 >
 <Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" color="orange" css={{marginTop: '80px' }}>
-  <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019</h2><p></p>
-    ## June 25 - July 1, 2019 in Portland, Oregon
+  <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2020 (Our Final Year!)</h2><p></p>
+    ## June 23 - June 29, 2020 in Portland, Oregon
 
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
@@ -18,9 +18,9 @@ preload
 
     <p><i>All that’s missing is YOU!</i></p>
 
-    We’re doing it again in 2019, and all that’s missing is YOU!
+     <p>For 2020 we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
       
-    <p><b>**PLEASE NOTE: Tickets for 2019 have sold out! To be notified when tickets go back on sale for 2020 use the button below:**</b></p> 
+    <p><b>**Less than 40% of tickets remain and will go back on sale later this year. To get notified when the next sale goes live, join the wait list below:**</b></p> 
     
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>
 
