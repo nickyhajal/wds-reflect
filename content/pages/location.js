@@ -35,7 +35,7 @@
     ## Your Base in Portland
     Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. 
     
-    WDS is not confined to one building -- Portland is our venue! Attendees will gather throughout the city for different events such as Academies, Attendee-led Meetups, and our epic parties. We'll even have a dedicated HQ spot for attendees to use and connect with one another throughout the week. For WDS 2019, our main-stage will be based out of the **[Newmark Theatre](https://goo.gl/maps/WGGVeNy8sn42)**. Almost all WDS venues are located near light-rail stops and extremely walkable. 
+    WDS is not confined to one building -- Portland is our venue! Attendees will gather throughout the city for different events such as Academies, Attendee-led Meetups, and our epic parties. We'll even have a dedicated HQ spot for attendees to use and connect with one another throughout the week. For WDS 2020, our main-stage will be based out of the **[Newmark Theatre](https://goo.gl/maps/WGGVeNy8sn42)**. Almost all WDS venues are located near light-rail stops and extremely walkable. 
   </Block>
     
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="canvas">
@@ -80,7 +80,7 @@
     ## Lodging
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. 
         
-    This year we've secured rooms at these amazing and iconic Portland properties:  
+    **Please note: Hotel Partners for 2020 will be announced soon. Please use the following information as reference.** Last year we secured rooms at these amazing and iconic Portland properties:  
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
@@ -99,7 +99,7 @@
   <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >The Discount Period Has Ended</Button> 
 </Block>
 
- <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/Paramount-Hotel-Room.jpg">
+ <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Paramount-Hotel-King-Room-Portland-Oregon.jpg">
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
       
