@@ -88,17 +88,16 @@
   </Block>
   
  <Grid margin="60px 0 -20px 0">
-
-  <Block type="image" src="photos/Duniway-portland-WDS-partner.jpg">
-      ## Duniway Hotel
-      This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Workout and/or swim onsite in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
+<Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
+      ## Perfectly Located
+      Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
       
-      At the top of the booking page, look for **"more options"**, then **"add special rate code"**. Enter **WDS** into the **Group Code**. 
+      Need help deciding which property to stay at? Contact our concierge team using the button below.
       
-        <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
-  <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >The Discount Period Has Ended</Button> 
-</Block>
-
+     <p>PDX Airport to Downtown <Link to="https://goo.gl/maps/hHYyA6VihZN2">(Google Directions)</Link></p>
+       
+      <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
+    </Block>
  <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Paramount-Hotel-King-Room-Portland-Oregon.jpg">
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
@@ -108,6 +107,15 @@
         
      <Button to="https://www.portlandparamount.com/" newWindow={true} >The Discount Period Has Ended</Button> 
  </Block>
+  <Block type="image" src="photos/Duniway-portland-WDS-partner.jpg">
+      ## Duniway Hotel
+      This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Workout and/or swim onsite in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  
+      
+      At the top of the booking page, look for **"more options"**, then **"add special rate code"**. Enter **WDS** into the **Group Code**. 
+      
+        <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
+  <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >The Discount Period Has Ended</Button> 
+</Block>
  <Block type="image" src="photos/Hoxton-roomy-view.jpg">
       ## The Hoxton Hotel
       A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.
@@ -118,18 +126,6 @@
         
     <Button to="https://thehoxton.com/oregon/portland/hotels" newWindow={true} >The Discount Period Has Ended</Button> 
 </Block>
-
- <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
-      ## Perfectly Located
-      Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
-      
-      Need help deciding which property to stay at? Contact our concierge team using the button below.
-      
-     <p>PDX Airport to Downtown <Link to="https://goo.gl/maps/hHYyA6VihZN2">(Google Directions)</Link></p>
-       
-      <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
-    </Block>
-
   </Grid>
   
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
