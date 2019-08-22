@@ -29,11 +29,11 @@ We've broken world records, learned to Bollywood dance, faced our fears, found t
     
     <Image src="future/WDS-Pins.jpg" width="100%" height="541" /><br/>
 
-   Last year at WDS 2018, we announced that we'll produce **two more years of our epic annual gathering.** We just completed 2019 our peultimate, better-than-ultimate year. Next year, WDS 2020 will be our final year. Naturally, not everyone was in attendance at this year's event—so I wanted to explain a bit more about this decision to our entire community.
+   At WDS 2018, we announced that we'll produce **two more years of our epic annual gathering.** We just completed 2019 our peultimate, better-than-ultimate year. Next year, WDS 2020 will be our final year. Naturally, not everyone was in attendance at this year's event—so I wanted to explain a bit more about this decision to our entire community.
 
-First up, if you missed the announcement or just want to see it again, watch this 7-minute video (below). It also includes some special highlights from this year:
+First up, if you missed this past year's event (WDS 2019) check out this quick highlights video:
   </Block>
-<Video placeholder="photos/WDS-2018-main.jpg" videoId="282373496" cols="8" /> 
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/WDS-2019-recap-video.jpg" videoId="350010002" cols="8" /> 
    <Block
     cols="8"
     bleed={false}
