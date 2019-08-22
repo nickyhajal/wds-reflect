@@ -1,6 +1,6 @@
 name: "Laura Vanderkam",
 year: "2019",
-headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Laura-VanderkamWDS2019-Mainstage.jpg",
+headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Laura-VanderkamWDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48155957527_a5529f05fa_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Laura-Vanderkam-thumbnail.png",
 video: "https://vimeo.com/349990195",
 headerPosition: "-20px",
