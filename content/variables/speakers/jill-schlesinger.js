@@ -10,4 +10,4 @@ quote: "Fear is the enemy of understanding. I implore you to ask questions.",
 
 Jill believes that there are two main emotions that effect our relationship with money — greed and fear. She reminded the WDS 2020 audience that we have the power to control and take action even when we feel these emotions. We don’t have to make dumb decisions when it comes to money.
 
-With humor and real-life examples, Jill tackles subjects like college debt, renting vs. buying a home, saving for retirement, and creating an emergency fund.  If we plan and take action today we create the freedom to live the lives we want to.
+With humor and real-life examples, Jill tackles subjects like college debt, renting vs. buying a home, saving for retirement, and creating an emergency fund.  If we plan and take action today, we create the freedom to live the lives we want to.
