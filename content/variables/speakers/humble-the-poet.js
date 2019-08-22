@@ -1,6 +1,6 @@
 name: "Humble the Poet",
 year: "2019",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-WDS2019-Mainstage.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48155861261_e36176bfe0_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-thumbnail.png",
 video: "https://vimeo.com/349978053",
 headerPosition: "-10px",
