@@ -1,13 +1,15 @@
 name: "Humble the Poet",
 year: "2019",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-WDS-2019-Speaker.jpg",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-WDS2019-Mainstage.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-thumbnail.png",
-video: "",
-headerPosition: "-20px",
-quote: "",
+video: "https://vimeo.com/349978053",
+headerPosition: "-10px",
+quote: "When you assign blame you give power. Our problems are not our fault, but our problems are our responsibility. And when we take responsibility, we have power",
 ---
 **Kanwer Singh AKA Humble the Poet** is a Toronto-bred MC/spoken word artist with an aura that embodies the diversity and resiliency of one of the world's most unique cities. 
 
-With tattoos, beard, head wrap and a silly smile, Humble commands attention. He stimulates audiences with ideas that challenge conventional wisdom and go against the grain, with dynamic live sets that shake conventions and minds at the same time.  
+At WDS 2019, Kanwer Singh (a.k.a. Humble the Poet) shared his origin story.  He followed his father's advice: to get a good education, became an elementary school teacher but at the same time, fell in love with spoken word art and performance.
 
-Humble's latest EP titled Righteous/Ratchet features the first single H.A.I.R, a celebration of women of all shapes, sizes, hair and walks of life. His self directed video for H.A.I.R has amassed almost 2 million views since its release. Humble's first book Unlearn: 101 Simple Truths For A Better Life was published through Indigo Press. Learn more about Humble the Poet on his website, **[humblethepoet.com](https://www.humblethepoet.com/)**.
+On the promise of a potential record deal, he quit his job and went all in to performing. But things didn't go as planned, leaving him $80,000 in debt and with no record deal. He channeled his struggles and pain into vulnerability and honesty which led to a successful book but also new revelations about life. 
+
+Now he focuses on "seva", or service -- the idea of using your pain and your experiences to help others. Pain isn't a badge of honor or something to compare with others, but instead something to use to help others, and add beauty and value to the world.
