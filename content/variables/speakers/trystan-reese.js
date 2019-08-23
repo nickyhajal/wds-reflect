@@ -1,6 +1,6 @@
 name: "Trystan Reese",
 year: "2019",
-headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Trystan-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48183655831_397f1b8471_k_d.jpg",
+headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Trystan-Reese-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48183655831_397f1b8471_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Trystan-Reese-thumbnail.png",
 video: "",
 headerPosition: "-20px",
