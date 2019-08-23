@@ -1,6 +1,6 @@
 name: "Tania Katan",
 year: "2019",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Tania-Katan-WDS-2019-speaker.jpg",
+headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Tania-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48183684261_4e617ba712_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Tania-Katan-Thumbnail.png",
 video: "",
 headerPosition: "-100px",
