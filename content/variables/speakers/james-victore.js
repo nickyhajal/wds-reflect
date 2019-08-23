@@ -1,9 +1,9 @@
 name: "James Victore",
 year: "2019",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/James-Victore-WDS-2019-Speaker.jpg",
+headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/James-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48183754262_265459d268_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/James-Victore-thumbnail.png",
 video: "",
-headerPosition: "-100px",
+headerPosition: "-20px",
 quote: "",
 ---
 **James Victore** is a graphic designer, art educator and dynamic speaker on creativity. He lectures and teaches regularly around the globe, inspiring people to illuminate their individual gifts in order to achieve personal greatness.
