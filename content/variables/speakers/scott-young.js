@@ -1,6 +1,6 @@
 name: "Scott Young",
 year: "2019",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Scott-Young.WDS-2019-Speaker.jpg",
+headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Scott-Young-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48155934222_a3d237b2f1_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Scott-Young.thumbnail.png",
 video: "",
 headerPosition: "-100px",
