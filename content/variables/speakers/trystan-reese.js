@@ -1,9 +1,9 @@
 name: "Trystan Reese",
 year: "2019",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Trystan-Reese-WDS-Speaker.png",
+headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Trystan-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48183655831_397f1b8471_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Trystan-Reese-thumbnail.png",
 video: "",
-headerPosition: "-100px",
+headerPosition: "-20px",
 quote: "",
 ---
 **Trystan Reese** is perhaps best known as “the pregnant man” of internet and television fame. But he would prefer to be known as the adoptive father of Hailey and Riley, gestational father of Leo, all-around awesome trans community member, and partner to the amazing Biff Chaplow. 
