@@ -2,7 +2,7 @@ name: "Nadya Okamoto",
 year: "2019",
 headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Nadya-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48183728457_919dadf5ac_k_d.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Nadya-Okamoto-thumbnail.png",
-video: "https://vimeo.com/349994408/c6db58c088",
+video: "https://vimeo.com/349994408",
 headerPosition: "-20px",
 quote: "Generation Z doesn’t want a seat at the table, they want to flip the damn table.",
 ---
