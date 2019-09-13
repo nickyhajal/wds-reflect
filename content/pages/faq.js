@@ -7,7 +7,7 @@
 
     ### What is WDS?
 
-    The World Domination Summit (WDS) is a gathering of creative, interesting, and remarkable people from all over the world. Every summer, 1000+ of people travel to Portland, Oregon for an immersive experience in life, work, and travel.
+    The World Domination Summit (WDS) is a gathering of creative, interesting, and remarkable people from all over the world. Every summer, more than one thousand people travel to Portland, Oregon for an immersive experience in life, work, and travel.
     The almost week-long event consists of three primary activities: main-stage events with keynote speakers that are attended by the entire group, workshops that focus on specific topics, and lots of meetups, parties, and informal engagement. Despite the large number of people who attend, WDS is introvert-friendly, and everyone who participates is a big part of the event.
     <p>WDS was founded by <Link to="http://chrisguillebeau.com" target="blank">Chris Guillebeau</Link>, explorer of the world and <i>New York Times</i> bestselling author of <i>The $100 Startup</i>.</p>
 
@@ -24,7 +24,7 @@
 
   ### Do you offer a payment plan for tickets?
 
-<p>Yes! For the next sale, the first initial payment is <b>$95</b>, followed by <b>three payments of $204</b> for a total of <b>$707</b>. <b>All payments are non-refundable</b>, and you can pay for up to 3 tickets using a payment plan. To review the full terms and conditions of the WDS payment plan <Link to="https://worlddominationsummit.com/payment-plan-terms-and-conditions">click here.</Link></p>
+<p>Yes! For the next sale, the first initial payment is <b>$95</b>, followed by <b>three payments of $204</b> for a total of <b>$707</b>. <b>All payments are non-refundable</b>, and you can pay for up to three tickets using a payment plan. To review the full terms and conditions of the WDS payment plan <Link to="https://worlddominationsummit.com/payment-plan-terms-and-conditions">click here.</Link></p>
 
 ### I've purchased a WDS ticket, what do I do next? 
 
