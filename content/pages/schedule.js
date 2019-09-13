@@ -26,7 +26,7 @@
     <ul><li><b className="highlight highlight-2">Friday (6/26)</b>  Academies, Activities, Attendee-Led Meetups, TBA Adventure</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/27)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
     <ul><li><b className="highlight highlight-3">Sunday (6/28)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
-    - **Monday (6/29)** Academies and Attendee-Led Meetups
+    - **Monday (6/29)** Attendee-Led Meetups & Final Farewells
       
       <div className="note">Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</div>
   </Block>
