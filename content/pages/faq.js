@@ -43,7 +43,7 @@
        
     ### Can I nominate myself or someone I represent to be a speaker?
 
-   <p>We're sure that you or your client would be great but we do not accept nominations for speakers. Everyone who attends WDS is a big part of everything. Current year speakers are nominated by alumni speakers from previous years.</p>
+   <p>We're sure that you or your client would be great! ... but we do not accept nominations for speakers. Everyone who attends WDS is a big part of everything. Current year speakers are nominated by alumni speakers from previous years.</p>
 
     ### Can I sponsor WDS or donate something for your attendees?
 
