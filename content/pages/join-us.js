@@ -22,9 +22,11 @@ preload
       
     <p><b>**Less than 40% of tickets remain and will go back on sale later this year. To get notified when the next sale goes live, join the wait list below:**</b></p> 
     
-       <p><b>WDS Tickets are $697</b>, non-refundable, and offered on a first come, first served basis.</p>
+       <p><b>WDS Tickets are $697*</b>, non-refundable, and offered on a first come, first served basis.</p>
       
     <Button modal="joinUs" fitToText>Join the Wait List!</Button>
+
+ <p><i>*A 4-month payment plan will be available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
 
   </Block>
 </Section>
