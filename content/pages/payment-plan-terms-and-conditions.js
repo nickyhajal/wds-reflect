@@ -1,5 +1,5 @@
 <Section
-  color="blue"
+  color="green"
   css={{ marginBottom: '-2px' }}
 >
   <Block width="768px" bleed={true} type="padded" background="gray" textAlign="left" margin="60px 0 80px" clip="tr:0,1%;">
