@@ -9,6 +9,6 @@ quote: "You have no friends. You have no enemies. You only have teachers.",
 **James Victore** is a graphic designer, art educator and dynamic speaker on creativity. He lectures and teaches regularly around the globe, inspiring people to illuminate their individual gifts in order to achieve personal greatness.
 Described as “part Darth Vader, part Yoda,” James is widely known for his timely wisdom and impassioned views about design and it’s place in the world. 
 
-James Victore is a Graphic Designer ... and a teacher. Using his colorful personality, James reminded the WDS 2020 audience to ‘Feck’ rules that constrain ourselves from doing the things we are meant to. 
+James Victore is a Graphic Designer ... and a teacher. Using his colorful personality, James reminded the WDS 2019 audience to ‘Feck’ rules that constrain ourselves from doing the things we are meant to. 
 
 He shared an important story that we can learn from anything—but we also need to choose and do the painful work that’s necessary.
