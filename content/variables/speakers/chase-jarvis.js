@@ -7,6 +7,6 @@ quote: "",
 ---
 **Chase Jarvis** is well known as a visionary photographer, director, and fine artist with a consistent ambition to break down the barriers between new- and traditional media, fine and commercial art.
 
-An award winning photographer, director, and media maven, Chase Jarvis also co-founded <a href="https://www.creativelive.com/" target="_blank">Creative Live</a> in 2010 to share free creative education with aspiring artists and entrepreneurs worldwide. 
+An award winning photographer, director, and media maven, Chase Jarvis also co-founded <em>Creative Live</em> in 2010 to share free creative education with aspiring artists and entrepreneurs worldwide. 
 
 In addition to his work creating campaigns for Nike, Apple, RedBull, Starbucks, and other Fortune 100 companies, Chase is widely recognized for creating Best Camera—the world's first photo app to share images to social networks—which kicked off the mobile photography/sharing craze.
