@@ -45,7 +45,9 @@ import YearReviews from '../../site/components/YearReviews';
   <Image src="v2/headings/schedule.png" width="421" height="151" className="scriptHeader" preload/>
 <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## How the WDS Schedule Works{'\n'}
-    As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS ticket](https://worlddominationsummit.com/join-us) gives you access to it all; the main events plus special discounts, bonuses, and surprises.  {'\n'}
+    As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. {'\n'}
+
+You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS ticket](https://worlddominationsummit.com/join-us) gives you access to it all: main events, special discounts, bonuses, and surprises.  {'\n'}
         </Block>
  <Image src="photos/audience.png"
     width="426" height="263"
@@ -54,15 +56,15 @@ import YearReviews from '../../site/components/YearReviews';
     preload
   />
   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_rl_1.6">
-    ## A Week of WDS: June 25th - July 1st, 2019{'\n'}
+    ## A Week of WDS: June 23rd - June 29th, 2020{'\n'}
 
-    - **Tuesday (6/25)** Small Group Activities and Attendee-Led Meetups{'\n'}
-    - **Wednesday (6/26)** Small Group Activities and Attendee-Led Meetups{'\n'}
-    <ul><li><b className="highlight highlight-2">Thursday (6/27)</b> Academies, Activities, and Attendee-Led Meetups, and Opening Party</li></ul>
-    <ul><li><b className="highlight highlight-2">Friday (6/28)</b>  Academies, Activities, Attendee-Led Meetups, and the WDS Picnic</li></ul>
-    <ul><li><b className="highlight highlight-2">Saturday(6/29)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
-    <ul><li><b className="highlight highlight-3">Sunday (6/30)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
-    - **Monday (7/01)** Academies and Attendee-Led Meetups{'\n'}
+    - **Tuesday (6/23)** Activities at WDS HQ and Attendee-Led Meetups{'\n'}
+    - **Wednesday (6/24)** Academies, Activities at WDS HQ and Attendee-Led Meetups{'\n'}
+    <ul><li><b className="highlight highlight-2">Thursday (6/25)</b> Academies, Activities, and Attendee-Led Meetups, and Opening Party</li></ul>
+    <ul><li><b className="highlight highlight-2">Friday (6/26)</b>  Academies, Activities, Attendee-Led Meetups, TBA Adventure</li></ul>
+    <ul><li><b className="highlight highlight-2">Saturday(6/27)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
+    <ul><li><b className="highlight highlight-3">Sunday (6/28)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
+    - **Monday (6/29)** Attendee-Led Meetups & Final Farewells{'\n'}
       
       <div className="note">Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</div>
   </Block>
@@ -74,7 +76,7 @@ import YearReviews from '../../site/components/YearReviews';
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. {'\n'}
     
-    Check out this year's superhero lineup for WDS 2019:{'\n'}
+    Check out this superhero lineup from WDS 2019:{'\n'}
   </Block>
   <Tabs style="simple" margin="80px 0 0">
     <Tab title="Jill">

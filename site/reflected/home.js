@@ -65,13 +65,11 @@ We've broken world records, learned to Bollywood dance, faced our fears, found t
     
     <Image src="future/WDS-Pins.jpg" width="100%" height="541" /><br/>{'\n'}
 
-   At this year's event, we announced that we'll produce **two more years of our epic annual gathering.** Next year is WDS 2019, and then WDS 2020 will be our 10-year grand finale.{'\n'}
+   At WDS 2018, we announced that we'll produce **two more years of our epic annual gathering.** We just completed 2019 our peultimate, better-than-ultimate year. Next year, WDS 2020 will be our final year. Naturally, not everyone was in attendance at this year's event—so I wanted to explain a bit more about this decision to our entire community.{'\n'}
 
-Naturally, not everyone was in attendance at this year's event—so I wanted to explain a bit more about this decision to our entire community.{'\n'}
-
-First up, if you missed the announcement or just want to see it again, watch this 7-minute video (below). It also includes some special highlights from this year:{'\n'}
+First up, if you missed this past year's event (WDS 2019) check out this quick highlights video:{'\n'}
   </Block>
-<Video placeholder="photos/WDS-2018-main.jpg" videoId="282373496" cols="8" /> 
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/WDS-2019-recap-video.jpg" videoId="350010002" cols="8" /> 
    <Block
     cols="8"
     bleed={false}
@@ -105,23 +103,23 @@ Rather than just say "It's over," we wanted people to be able to prepare for the
   
 **Is WDS being sold?**{'\n'}
 
-Nope. It's not being sold and it's not for sale. For our final two years, we'll continue to operate on the same model we've had from the beginning: all profits go to the WDS Foundation, a 501(c)(3). The Foundation will then continue to operate until all its distributions have been made.{'\n'}
+Nope. It's not being sold and it's not for sale. For our final year, we'll continue to operate on the same model we've had from the beginning — focusing on the attendee experience while being a non-sponsored, non-commerical event.{'\n'}
 
 **What happens next?**  {'\n'}
   
-We're not sure! Two years is a long time. :) There's no secret plan and we want to focus on putting together a fantastic experience for 2019 and 2020.{'\n'}
+We're not sure! Two years is a long time. :) There's no secret plan and we want to focus on putting together a fantastic experience for 2020.{'\n'}
 
-**How can I get involved with the final two years?**  {'\n'}
+**How can I get involved with the final year?**  {'\n'}
   
-If WDS has meant something to you in the past, *please plan to return at least one of the years*. As a previous attendee, you know that everyone at the event is a big part of everything. We need you!{'\n'}
+If WDS has meant something to you in the past, *please plan to return for one final celebration*. As a previous attendee, you know that everyone at the event is a big part of everything. We need you!{'\n'}
   
-And if you've stumbled on WDS but have yet to attend... now's the time! Join us to help create two amazing, final years.  {'\n'}
+And if you've stumbled on WDS but have yet to attend... now's the time! Join us to help create and celebrate our final year.  {'\n'}
  
  <Image src="future/2015-Closing-Party-1.jpg" width="100%" height="541" /><br/>{'\n'}
   
 WDS was never just about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come.{'\n'}
 
-I look forward to celebrating with you in 2019, 2020, and beyond.{'\n'}
+I look forward to celebrating with you next year, and beyond.{'\n'}
 
 To _Community, Adventure,_ and _Service_,{'\n'}
 
@@ -129,9 +127,9 @@ To _Community, Adventure,_ and _Service_,{'\n'}
 
 Chris Guillebeau{'\n'}
 
-P.S. WDS 2019 tickets are **on sale now**, register using the button below.{'\n'}
+P.S. WDS 2020 tickets will go **on sale soon**, join the wait list using the button or form below.{'\n'}
 
-<Button to="/join-us" fitToText>Get Your WDS 2019 Ticket!</Button> 
+<Button to="/join-us" fitToText>Join the WDS 2020 Wait List!</Button> 
   
   </Block>
 </Section>

@@ -69,7 +69,7 @@ import YearReviews from '../../site/components/YearReviews';
     ## Your Base in Portland{'\n'}
     Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. {'\n'}
     
-    WDS is not confined to one building -- Portland is our venue! Attendees will gather throughout the city for different events such as Academies, Attendee-led Meetups, and our epic parties. We'll even have a dedicated HQ spot for attendees to use and connect with one another throughout the week. For WDS 2019, our main-stage will be based out of the **[Newmark Theatre](https://goo.gl/maps/WGGVeNy8sn42)**. Almost all WDS venues are located near light-rail stops and extremely walkable. {'\n'}
+    WDS is not confined to one building -- Portland is our venue! Attendees will gather throughout the city for different events such as Academies, Attendee-led Meetups, and our epic parties. We'll even have a dedicated HQ spot for attendees to use and connect with one another throughout the week. For WDS 2020, our main-stage will be based out of the **[Newmark Theatre](https://goo.gl/maps/WGGVeNy8sn42)**. Almost all WDS venues are located near light-rail stops and extremely walkable. {'\n'}
   </Block>
     
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="canvas">
@@ -114,7 +114,7 @@ import YearReviews from '../../site/components/YearReviews';
     ## Lodging{'\n'}
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. {'\n'}
         
-    This year we've secured rooms at these amazing and iconic Portland properties:  {'\n'}
+    **Please note: Hotel Partners for 2020 will be announced soon. Please use the following information as reference.** Last year we secured rooms at these amazing and iconic Portland properties:  {'\n'}
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
@@ -122,7 +122,25 @@ import YearReviews from '../../site/components/YearReviews';
   </Block>
   
  <Grid margin="60px 0 -20px 0">
-
+<Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
+      ## Perfectly Located{'\n'}
+      Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   {'\n'}
+      
+      Need help deciding which property to stay at? Contact our concierge team using the button below.{'\n'}
+      
+     <p>PDX Airport to Downtown <Link to="https://goo.gl/maps/hHYyA6VihZN2">(Google Directions)</Link></p>
+       
+      <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
+    </Block>
+ <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Paramount-Hotel-King-Room-Portland-Oregon.jpg">
+      ## Paramount Hotel {'\n'}
+      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
+      
+      Use the button below or call **(503)223-9900**. Make sure to reference WDS 2019 for the special group rate.{'\n'}
+      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
+        
+     <Button to="https://www.portlandparamount.com/" newWindow={true} >The Discount Period Has Ended</Button> 
+ </Block>
   <Block type="image" src="photos/Duniway-portland-WDS-partner.jpg">
       ## Duniway Hotel{'\n'}
       This modern boutique hotel offers spacious rooms and suites, complimentary wifi (for WDS attendees), 65-inch TVs, and unique eclectic decor. Workout and/or swim onsite in the heated indoor waveless lap pool, or relax on the 11th floor outdoor patio with friends. Attention travel hackers, did we mention it's a Hilton?  {'\n'}
@@ -132,16 +150,6 @@ import YearReviews from '../../site/components/YearReviews';
         <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/YYvbGjiuiMN2">(Google Directions)</Link></p> 
   <Button to="http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html" newWindow={true} >The Discount Period Has Ended</Button> 
 </Block>
-
- <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/photos/Paramount-Hotel-Room.jpg">
-      ## Paramount Hotel {'\n'}
-      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
-      
-      Use the button below or call **(503)223-9900**. Make sure to reference WDS 2019 for the special group rate.{'\n'}
-      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-        
-     <Button to="https://www.portlandparamount.com/" newWindow={true} >The Discount Period Has Ended</Button> 
- </Block>
  <Block type="image" src="photos/Hoxton-roomy-view.jpg">
       ## The Hoxton Hotel{'\n'}
       A new boutique hotel near Portland's Old Town Chinatown. The Hoxton features a variety of room types, cleverly designed with mid-century touches, free breakfast bag, and complimentary wifi. Don't forget to explore the property's fun and cozy communal spaces including a rootop taqueria and bar, a cafe co-working area, onsite restaurant, and basement bar.{'\n'}
@@ -152,18 +160,6 @@ import YearReviews from '../../site/components/YearReviews';
         
     <Button to="https://thehoxton.com/oregon/portland/hotels" newWindow={true} >The Discount Period Has Ended</Button> 
 </Block>
-
- <Block type="image" src="photos/Partner-Hotels-Location-WDS-2019.png">
-      ## Perfectly Located{'\n'}
-      Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   {'\n'}
-      
-      Need help deciding which property to stay at? Contact our concierge team using the button below.{'\n'}
-      
-     <p>PDX Airport to Downtown <Link to="https://goo.gl/maps/hHYyA6VihZN2">(Google Directions)</Link></p>
-       
-      <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
-    </Block>
-
   </Grid>
   
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
