@@ -1,5 +1,5 @@
 <Section
-  headerVideo="280404514"
+  headerVideo="350010002"
   headerImage="hero/balls.jpg"
   headerClip="lr_header"
   color="canvas"
@@ -12,8 +12,9 @@
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2020:</h2>
-    ## June 23 - June 29, 2020 in Portland, Oregon
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2020 (final year!)</h2>
+    ## June 23 - June 29, 2020 
+    ## in Portland, Oregon
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
@@ -23,7 +24,8 @@
     
     For 2020 we'll celebrate 10 years of Community, Adventure, and Service featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises. 
 
-    All that’s missing is YOU!
+    _All that’s missing is YOU!_
+
   </Block>
 </Section>
 <Section color="green" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
@@ -87,7 +89,7 @@
     <Block type="image" src="photos/happening.jpg">
       ## Our Story
 
-    There's so many incredible and unforgettable memories we've created as a community over the past 9 years. See some of our favorite highlights from the journey so far.   
+    See some of our favorite highlights and unforgettable memories we've created as a community over the past 9 years.
       <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
