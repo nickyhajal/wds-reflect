@@ -113,7 +113,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
       When you spend WDS with us in Portland, you’ll help us take over the city. With main-stage keynotes, hundreds of attendee-led meetups, dozens of workshops known as “Academies,” adventure activities, two big parties, and hundreds of new friends high-fiving you on street corners, it’s a truly immersive and awesome experience.
       Everyone who comes to WDS is a big part of everything that happens. Our attendees make the community strong and independent with no corporate sponsorships.
     </Tab>
-    <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
+    <Tab title="Attendee Meetups" color="red" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>
       Attendee-led meetups have been a staple of WDS since our first year. In 2020, they're back and better than ever!
       Each day, there will be time set aside for attendees to host these informal meetups, and on any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.
