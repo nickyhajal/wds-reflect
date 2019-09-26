@@ -12,8 +12,8 @@
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2019:</h2>
-    ## June 25 - July 1, 2019 in Portland, Oregon
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2020:</h2>
+    ## June 23 - June 29, 2020 in Portland, Oregon
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
@@ -21,7 +21,9 @@
 
     With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.
     
-    We’re doing it again in 2019, and all that’s missing is YOU!
+    For 2020 we'll celebrate 10 years of Community, Adventure, and Service featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises. 
+
+    All that’s missing is YOU!
   </Block>
 </Section>
 <Section color="green" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 130px 0' } }}>
@@ -57,14 +59,14 @@
     }}}
     clip="top_lr_1.6"
   >
-    ## A WDS 360 Ticket Includes:
+    ## A WDS Ticket Includes:
 
     - All access pass to main stage keynotes on Saturday & Sunday
     - Access to your choice of more than 150+ themed meetups all over the city (or host your own!)
-    - Ability to connect with attendees and RSVP to your choice of activities through the WDS App
-    - Discounted registration for any of the 12 half-day Academies taking place before and after the weekend
-    - Discounted and priority hotel registration, including the chance to stay at the new WDS Hotel™
     - Entrance to the Opening & Closing Parties
+    - Ability to connect with attendees and RSVP to your choice of activities through the WDS mobile app
+    - Discounted registration for any of the half-day Academies taking place througout the week
+    - Discounted and priority hotel registration, including the chance to stay at the WDS Hotel™
     - A special community that will support you for life
   </Block>
 </Section>
@@ -85,7 +87,7 @@
     <Block type="image" src="photos/happening.jpg">
       ## Our Story
 
-    There's so many incredible and unforgettable memories we've created as a community over the past 6 years. See some of our favorite highlights from the journey so far.   
+    There's so many incredible and unforgettable memories we've created as a community over the past 9 years. See some of our favorite highlights from the journey so far.   
       <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
@@ -111,17 +113,16 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     </Tab>
     <Tab title="Attendee Meetups" color="sea" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>
-      Attendee-led meetups have been a staple of WDS since our first year. In 2019, they're back and better than ever!
+      Attendee-led meetups have been a staple of WDS since our first year. In 2020, they're back and better than ever!
       Each day, there will be time set aside for attendees to host these informal meetups, and on any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.
       Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    
       And if you have your own audience, you can host a meetup too. (Our dedicated attendee web app will tell you where each meetup is being held.)
     </Tab>
     <Tab title="Special Events" color="green" layout="imageLeft">
       <Image src="photos/tab-events.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>
-      WDS is now a week-long gathering bringing together some of the most remarkable people from around the world. This means we have all-new activities and mini-events to create even more incredible memories together.
+      WDS is a week-long gathering bringing together some of the most remarkable people from around the world. This means we'll have new activities and mini-events to create even more incredible memories together.
       From an Opening Party that gives you a chance to meet the team, speakers, and other attendees, all the way through to an epic Closing Party, we’ve crafted a wonderfully immersive experience. 
       Join your fellow attendees at your choice of extracurricular activities around town—from film screenings and river cruises, to world record attempts and more!
-        We will be closing Main Street between Broadway and Park, Saturday and Sunday between 8:00am and 6:30pm. This event will benefit the World Domination Summit Foundation and is free and open to the public. Feel free to stop by during this time.
     </Tab>
     <Tab title="Speakers" color="orange" layout="imageLeft">
       <Image src="photos/tab-speakers.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>
