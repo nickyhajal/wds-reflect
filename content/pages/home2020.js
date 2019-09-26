@@ -4,7 +4,7 @@
   headerClip="lr_header"
   color="canvas"
 >
-  <Image src="heading/weekend.png" width="819px" height="217px" align="center" mobile={{ all: { width: '580px', backgroundSize: '100% auto' }, phone: { width: '320px', height: '97px' } }}/>
+  <Image src="v2/heading/weekend.png" width="819px" height="217px" align="center" mobile={{ all: { width: '580px', backgroundSize: '100% auto' }, phone: { width: '320px', height: '97px' } }}/>
   <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px" mobile={{ all:{ width: '550px' }, phone: {width: '100%'} }}>
     #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, acquire powerful new skills, and go away with an all-new community of friends and supporters.
     <Button to="/join-us" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>Join Us!</Button>

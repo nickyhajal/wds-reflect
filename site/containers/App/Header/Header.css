@@ -85,7 +85,7 @@
 .logo {
   color: blue;
   text-decoration: none;
-  background-image: url(https://files.wds.fm/images/v2/logo.png);
+  background-image: url(https://files.wds.fm/images/v2/logo2020.png);
   background-size: auto 100%;
   background-repeat: no-repeat;
   width: 123px;
@@ -100,7 +100,7 @@
   cursor: pointer;
 }
 :global(.greenpage) .logo {
-  background-image: url(https://files.wds.fm/images/v2/logo-blue.png);
+  background-image: url(https://files.wds.fm/images/v2/logo-blue2020.png);
 }
 
 .nav {
