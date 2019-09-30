@@ -2,7 +2,7 @@ name: "Puzzle Huddle - Matthew Goins",
 year: "2018",
 headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle-Thumbnail.jpg",
-video: "",
+video: "https://vimeo.com/289363603",
 headerPosition: "-100px",
 quote: "",
 ---
