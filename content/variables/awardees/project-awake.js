@@ -4,7 +4,7 @@ headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/foundation/Justin.jp
 photo: "https://el-files-wds.s3.amazonaws.com/images/foundation/Justin.Thumbnail.jpg",
 video: "",
 headerPosition: "-100px",
-quote: "",
+quote: "https://vimeo.com/289363603",
 ---
 The world is a pretty scary place for all of us - but exponentially more so for middle- and high-school students, who are still navigating all that adolescence entails: peer pressure, self-esteem issues, bullying, etc. - but it doesn’t have to be bleak!
 
