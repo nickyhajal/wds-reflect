@@ -50,7 +50,7 @@ Through the Scholarship for Real Life from WDS Foundation, Peter and his family 
       </Block>
     </Tab>
         <Tab title="A Walk in our Shoes">
-    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/Yuliya-Patsay-WDS-Foundation.jpg" videoId="350008246" width="710" height="430"/>
+    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/YuliyaPatsay.WDS-Foundation.jpg" videoId="350008246" width="710" height="430"/>
       <Block cols="6" textAlign="left">
         ## A Walk in our Shoes (Yuliya Patsay) - 2019
 
@@ -65,7 +65,7 @@ As society is increasingly divided and people talk about building walls and clos
       </Block>
     </Tab>
       <Tab title="Office Retreat">
-    <Video placeholder="" videoId="350007451" width="710" height="430"/>
+    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/Keonna-Ollison-WDS-Foundation.jpg" videoId="350007451" width="710" height="430"/>
       <Block cols="6" textAlign="left">
         ## Office Retreat (Keonna Ollison) - 2019
       
