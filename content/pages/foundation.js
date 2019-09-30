@@ -17,23 +17,21 @@
       
     Watch the announcement of this year's scholarship voyagers and learn more about their inspiring projects below:
       
-  <Video placeholder="foundation/2018-Voyagers.jpg" videoId="289363603" width="710" height="430"/>
+  <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/2019-WDS-Foundation-Voyagers.jpg" videoId="349973358" width="710" height="430"/>
       
   </Block>
 </Section>
 <Section color="canvas">
-  <Block>## 2018 Scholarship Voyagers</Block>
+  <Block>## 2019 Scholarship Voyagers</Block>
   <Tabs style="simple">
-    <Tab title="Puzzle Huddle">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+    <Tab title="She is the Universe">
+    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/Laura-Pena-WDS-Foundation.jpg" videoId="350007728" width="710" height="430"/>
       <Block cols="6" textAlign="left">
-        ## Puzzle Huddle (Matthew Goins) - 2018
+        ## She is the Universe (Laura Peña) - 2019
       
-      Wouldn’t you want your children to see themselves in the toys they play with? Like many children, Matthew’s kids love jigsaw puzzles. Matthew and his wife struggled with the lack of representative images in commercially-produced products -- with that in mind, they began creating their own puzzle designs featuring African American characters in positive images.
+      More than ever, young women need strong role models that show them they can accomplish anything and everything they want. The wider media is catching up, featuring more films with women leading, and the extreme success of the US Women’s World Cup domination inspired countless girls everywhere. But seeing the story of a peer can be just as important, if not more, to empower another. 
 
-**[Puzzle Huddle](http://www.puzzlehuddle.com)** develops and produces a line of culturally inclusive images manufactured as puzzles. These puzzles are a tool for adults and children to spend meaningful time together working on an activity that will also affirm the child and stretch their imagination.
-
-Through the Scholarship for Real Life from WDS Foundation, Matthew and his family will work with illustrators to expand the existing product line to include a broader range of ethnic, gender and demographic representation, emphasizing women in leadership positions, and larger-sized puzzles. 
+This was the catalyst for Laura Peña to create **[She is the Universe: Stories of Girls told by Girls](http://www.sheistheuniverse.org/about-us)**, a global platform dedicated to inspire, empower and support teenage girls from around the globe. Through documenting the stories of 111 teenage girls from 6 continents, of all shapes, sizes, colors, languages, and cultural and socio-economic backgrounds, Laura amplifies the voices of these young women by inspiring and empowering them to stand in their own stories and pursue their dreams, through storytelling, mentorship, and community.
 
       </Block>
     </Tab>
