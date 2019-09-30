@@ -35,38 +35,45 @@ This was the catalyst for Laura Peña to create **[She is the Universe: Stories 
 
       </Block>
     </Tab>
-     <Tab title="Ice Box">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Krista+Dalby.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+     <Tab title="Return of the Birds">
+    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/Peter.Meddick.WDS-Foundation.jpg" videoId="350007992" width="710" height="430"/>
       <Block cols="6" textAlign="left">
-        ## Ice Box (Krista Dalby) - 2018
+        ## Return of the Birds (Peter Meddick) - 2019
 
-What would keep you motivated and in good spirits in the heart of an Arctic winter? After living through eight bleak Canadian Februaries in a rural community in Prince Edward County, Krista came up with the idea to alleviate the dreariness and depression that results from months of deep snow and short days. With the community reliant on seasonal tourism, producing ICE BOX in the off-season will not only boost spirits but also support local artists, struggling during the winter lull.
+Does reading an intricately detailed description of a sound allow you to hear it on your own or does it inspire you to seek it out to hear for yourself? For Peter Meddick, it was the latter, and his own curiosity to hear the compelling detailed birdsongs described in John Burroughs’ 148-year old text, led him to ornithology collections to listen to the rare bird vocalizations. Through this process, it became clear to Peter that he wanted to bring this story to life through modern audio, creating a work that was not possible when Burroughs published it. 
 
-An immersive public art installation and event that will strengthen the community’s social fabric and inspire all who visit, ICE BOX will create an unforgettable art experience in the heart of winter for the rural community. At the heart of the event is community engagement, providing a variety of ways for both professional artists and community members to participate and work and play alongside each other. Community participation is very accessible through free or inexpensive programming, with Pay-What-You-Can options available.
+John Burroughs was a naturalist and nature essayist, and published Wake Robin in 1871. **[Return of the Birds](www.returnofthebirds.com)** offers listeners a joyful escape from busyness, a pleasant quiet place in the rush and noise of contemporary daily life, and reminds us to understand the give and take or nature and humans, and value it. “Long before we could interpret our impact on the earth, Burroughs wrote about the critical relationship between people and the land,” said Meddick. “Birds know no borders or boundaries, yet are a key indicator of the health of our environment.”
+
+Through the Scholarship for Real Life from WDS Foundation, Peter and his family will work with one of the premier Ornithology libraries to access the best recorded bird vocalizations available, and with sound engineers, to produce the serialized audiobook podcast.
+
         
       </Block>
     </Tab>
-        <Tab title="Project Awake">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Justin.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+        <Tab title="A Walk in our Shoes">
+    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/Yuliya-Patsay-WDS-Foundation.jpg" videoId="350008246" width="710" height="430"/>
       <Block cols="6" textAlign="left">
-        ## Project Awake (Justin Harvey) - 2018
+        ## A Walk in our Shoes (Yuliya Patsay) - 2019
 
-      The world is a pretty scary place for all of us - but exponentially more so for middle- and high-school students, who are still navigating all that adolescence entails: peer pressure, self-esteem issues, bullying, etc. - but it doesn’t have to be bleak! 
+      Do you know your neighborhood’s history and the cultures that brought it to life? Yuliya Patsay immigrated with her family from the former Soviet Union in 1991. She and her family set down roots in a neighborhood in San Francisco known as “Little Russia,” where the influence of slavic immigrants was present in everything. 
 
-Justin created Project Awake, a unique interactive experience that inspires students to realize their potential, challenges them to overcome self-destructive mediocrity, and empowers them to make positive choices that last a lifetime.
+Yuliya also knows there is a strong connection between where we come from to what we bring with us wherever we go - our culture, our language, our food, our energy and passions - and how we impact the community around us. 
 
-Through the Scholarship for Real Life, Justin will work with schools and artists to produce several live theatrical productions depicting everyday life and highlighting students’ common challenges to show the effects their choices have on one another, and workshops to mitigate violence and aggression in high school students and schools.
+As society is increasingly divided and people talk about building walls and closing the path to refugees and immigrants, Yuliya is inspired to share the lasting contributions and impact immigrants have made on their communities, particularly at the micro level. The best way to do this is by allowing people to understand and interact with immigrants by walking in their shoes and seeing the paths they have created for those that come after them.
+
+**[A Walk in Our Shoes](https://www.yuliyapatsay.com/a-walk-in-our-shoes)** is a fully interactive experience that combines both a walking audio tour with a restaurant crawl component through the Richmond neighborhood in San Francisco. Participants will get to learn about the history of the area and buildings, and meet local business owners who have shaped the culture through their food and relationships.
         
       </Block>
     </Tab>
-      <Tab title="How She Did It">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/foundation/Yolanda-Enoch.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+      <Tab title="Office Retreat">
+    <Video placeholder="" videoId="350007451" width="710" height="430"/>
       <Block cols="6" textAlign="left">
-        ## How She Did It Podcast (Yolanda Enoch) - 2018
+        ## Office Retreat (Keonna Ollison) - 2019
       
-      Have you ever wondered, “how did she do that?!” Yolanda interviews women of color and explores their career paths to share, via podcast, how they accomplished their goals to inspire other women working to do the same. Formally centered around individuals, this second version of the HSDI podcast will be job-title-centered and share multiple perspectives of the same role.
+      Coworking is becoming a booming trend, and coworking spaces are in abundance to meet the demand. But how many are accessible to marginalized groups, emerging small business owners and creatives? Keonna Ollison believes there are not enough and set out to change that by creating an intentional space dedicated to communities of color and their growth and development. 
 
-Through her work, Yolanda creates a community where women of color’s experiences and stories are centered, celebrated, and prioritized...and not an occasional byline. And although not directly her goal, she hopes by focusing on women of color, mainstream media - and employers - will see it’s not that hard to find underrepresented people to highlight and hire, and hopes more WoC would feel excited about where things can go in their own professional lives.
+Specifically a response to gentrification in historically black neighborhoods of North and Northeast Portland, Keonna aims to restore ethnic pride, prosperity and equity by cultivating ‘Office Retreat,’ a collaborative workspace dedicated to minority entrepreneurs, creatives and other marginalized professionals seeking diverse and safe spaces.
+
+Through Office Retreat, Keonna will create a community that supports people of color and marginalized communities holistically, by developing authentic partnerships with other inclusive nonprofits, hiring POC entrepreneurs and artists to help build Office Retreat, employing POC, LGBTQ, and Women-owned businesses, and holding panel discussion, business networking and culturally relevant events.
 
       </Block>
     </Tab>
