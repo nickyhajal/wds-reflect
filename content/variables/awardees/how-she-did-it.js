@@ -4,7 +4,7 @@ headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/foundation/Yolanda-E
 photo: "https://el-files-wds.s3.amazonaws.com/images/foundation/Yolanda-Enoch.thumbnail.jpg",
 video: "",
 headerPosition: "-100px",
-quote: "",
+quote: "https://vimeo.com/289363603",
 ---
 Have you ever wondered, “how did she do that?!” Yolanda interviews women of color and explores their career paths to share, via podcast, how they accomplished their goals to inspire other women working to do the same. Formally centered around individuals, this second version of the **[HSDI podcast](https://howshedidit.club/)** will be job-title-centered and share multiple perspectives of the same role.
 
