@@ -1,5 +1,5 @@
 name: "How She Did It - Yolanda Enoch",
-year: "2017",
+year: "2018",
 headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/foundation/Yolanda-Enoch.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/foundation/Yolanda-Enoch.thumbnail.jpg",
 video: "",
