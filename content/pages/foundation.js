@@ -85,7 +85,7 @@ Through Office Retreat, Keonna will create a community that supports people of c
 <Section color="white">
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## Selection Criteria
-    Our selection committee will be looking at a number of factors to determine which projects best fit with our current goals.
+    Our selection committee looked at a number of factors to determine which projects best fit the program.
   </Block>
   <Grid numCols="3" tabletCols="2">
     <Block type="color" color="blue">
@@ -107,28 +107,6 @@ Through Office Retreat, Keonna will create a community that supports people of c
     </Block>
   </Grid>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
-    ## I'm in! How do I apply?
-
-##### 2019 Applications - Now Closed!
-Don't stop believin! The deadline to apply for 2019 grants has passed but keep your dreams alive.  
-                  
-##### Eligibility
-The "Scholarships for Real Life" program is open to all alumni who have attended one of our past eight WDS events OR those that have [officially registered for WDS 2019](https://worlddominationsummit.com/join-us) even if this is your first time attending.
-
-##### Online Information Sessions (registration required to participate)  
-                  WDS Foundation will hold two information sessions to help answer any questions about the scholarship, the application, and about the Foundation. Please register for one of the following sessions using the appropriate link below:
-                  
-                 - ~~Information Session #1: Sunday, March 3: 2:00-3:00pm PST~~ **(COMPLETED)**
-                 - ~~Information Session #2: Saturday, March 16, 11:00am-12:00pm PST~~ **(COMPLETED)**
-
-                  
---
-##### 2019 Application Timeline  
-                 Late submissions **will not** be accepted. 
-                 - ~~**March 1:** Applications open~~  
-                 - ~~**April 1:** Applications close~~  
-                 - **May 1:** First round of top 10 applicants notified  
-                 - **May 15:** Voyagers selected and notified 
 
 </Block>
 </Section>
