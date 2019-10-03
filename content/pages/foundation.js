@@ -9,13 +9,13 @@
   <Image src="v2/headings/foundation.png" width="470px" height="165px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Foundation
-    WDS Foundation seeks to put the right resources in the hands of amazing people who are acting on the three core values of WDS—community, adventure, and service.
+   Launched with an initial funding gift at the end of WDS 2013, the World Domination Summit Foundation seeks to put resources in the hands of amazing people who are acting on the three core values of WDS -- community, adventure, and service.
 
-    <p>We do this by providing what we call <b>"Scholarships For Real Life."</b> The goal of these scholarships is to empower individuals to pursue their dreams and impact their community.</p>
+We've done this by providing individual grants that we call **'Scholarships for Real Life.'** The goal of these grants has been to empower WDS attendees to pursue their dreams and impact their community.
 
-    Have a crazy project you want to bring to life? Want to take a trip around the earth and share what you learned with the world? Trying to build something that’s a bit out of your reach? Whatever it is, the WDS Foundation can help fund your inspiring project that will improve your life and make the world a better place!
-      
-    Watch the announcement of this year's scholarship voyagers and learn more about their inspiring projects below:
+Over the past six years, WDS Foundation has granted over $200,000 to fund 21 projects. 2019-2020 is our final grant cycle, and we're looking forward sharing updates from our voyagers over the course of the next year.
+
+Watch the announcement of this year's scholarship voyagers and learn more about their inspiring projects below: 
       
   <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/2019-WDS-Foundation-Voyagers.jpg" videoId="349973358" width="710" height="430"/>
       
