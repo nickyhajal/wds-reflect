@@ -269,7 +269,7 @@ export class App extends Component {
         claimCount: this.state.claimCount + 1,
       });
       this.props.act.updateMe('tickets', rsp.data.tickets);
-      this.props.act.updateMe('attending19', '1');
+      this.props.act.updateMe('attending20', '1');
     });
   }
   meClaimed() {
@@ -389,7 +389,7 @@ export class App extends Component {
         />
         <Block align="center" textAlign="center">
           <Image
-            src="logo.png"
+            src="logo2020.png"
             width="123"
             height="26"
             fit="contain"
