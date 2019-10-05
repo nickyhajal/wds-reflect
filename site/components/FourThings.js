@@ -52,13 +52,6 @@ const Label = styled.div`
   font-weight: bold;
   padding-top: 16px;
 `;
-const Count = styled.div`
-  display: block;
-  position: absolute;
-  right: 12px;
-  top: 20px;
-`;
-
 class FourThings extends React.Component {
   constructor() {
     super();
@@ -175,12 +168,9 @@ class FourThings extends React.Component {
     const answers = this.answers();
     return answers[num] || '';
   }
-  count(num) {
-    return 17 - this.answer(num).length;
-  }
   change(e, num) {
     let curr = this.state.question;
-    if (e.target.value.length < 18) {
+    if (e.target.value.length < 200) {
       if (curr) {
         curr.answer[num] = e.target.value;
       } else {
@@ -237,7 +227,6 @@ class FourThings extends React.Component {
               value={this.answer(0)}
               style={{ fontSize: '26px' }}
             />
-            <Count>{this.count(0)}</Count>
           </div>
         </Row>
         <Row>
@@ -253,7 +242,6 @@ class FourThings extends React.Component {
               value={this.answer(1)}
               style={{ fontSize: '26px' }}
             />
-            <Count>{this.count(1)}</Count>
           </div>
         </Row>
         <Row>
@@ -269,7 +257,6 @@ class FourThings extends React.Component {
               value={this.answer(2)}
               style={{ fontSize: '26px' }}
             />
-            <Count>{this.count(2)}</Count>
           </div>
         </Row>
         <Row>
@@ -285,7 +272,6 @@ class FourThings extends React.Component {
               value={this.answer(3)}
               style={{ fontSize: '26px' }}
             />
-            <Count>{this.count(3)}</Count>
           </div>
         </Row>
         {this.props.showButton ? (

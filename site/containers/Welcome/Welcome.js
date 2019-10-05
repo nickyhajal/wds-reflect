@@ -52,9 +52,7 @@ const parts = [
       content: (
         <div>
           <p>
-            This quick walkthrough will help you get your WDS account
-            setup so you can begin connecting with your fellow
-            attendees and help us serve you best!
+            Whether this is your first or 10th time attending WDS, this quick walkthrough helps us plan for your arrival and provides you with a way to connect with fellow attendees. Important: If you’re a returning attendee, please note the questions have been updated for this year’s gathering.
           </p>
           <p>
             Ready?
@@ -139,14 +137,13 @@ const parts = [
       ),
     },
     {
-      title: 'We like to send things!',
+      title: 'Where do you live on planet earth?',
       format: 'col1 col2-form',
       content: (
         <div>
           <div>
             <p>
-              Please provide us with your best mailing address so we can send
-              you the occasional surprise. :)
+              Please provide us with your best mailing address — especially for February through October 2020.
             </p>
           </div>
         </div>
@@ -156,7 +153,7 @@ const parts = [
       ),
     },
     {
-      title: 'Where can we find you on the web?',
+      title: 'Where can we find you online?',
       content: (
         <div>
           <div>
@@ -165,7 +162,7 @@ const parts = [
               adding your social media accounts and website.
             </p>
             <p>
-              We'll share these on your WDS profile and in the WDS App during the event.
+              We&apos;ll share these on your WDS profile and in the WDS App during the event.
             </p>
           </div>
         </div>
@@ -220,7 +217,7 @@ const parts = [
           <div>
             <p>
               Once we&apos;re done here, you&apos;ll have
-              your very own WDS Profile. What should it be?
+              your very own WDS Profile. What should the link be?
             </p>
           </div>
         </div>
@@ -242,12 +239,12 @@ const parts = [
   ],
   [
     {
-      title: 'What are 4 things that delight you?',
+      title: 'What are 4 things that could enhance or support your WDS experience?',
       content: (
         <div>
           <div>
             <p>
-              We&apos;d love to know a few specific things that bring you joy or are meaningful to you (or both). Each should be a maximum of 17 characters.
+              We&apos;d love to know a few specific things that bring you joy or are meaningful to you (or both).
             </p>
             <p>
               Please only add things that you&apos;re comfortable sharing with others.
@@ -278,6 +275,23 @@ const parts = [
       ),
     },
     {
+      title: 'What\'s something you\'d love help with from the WDS community?',
+      content: (
+        <div>
+          <p>
+            The WDS community is full of incredibly skilled people that frequently
+            support each other in business and life.
+          </p>
+          <p>
+          What’s one thing the community can help you with?
+          </p>
+        </div>
+      ),
+      customForm: (
+        <Answer type="multi" question_id="10" label="How can the community help?" />
+      ),
+    },
+    {
       title: 'What\'s your super-power?',
       content: (
         <div>
@@ -295,7 +309,21 @@ const parts = [
       ),
     },
     {
-      title: 'What\'s your goal for WDS2019?',
+      title: 'What is something you can offer to another WDS attendee?',
+      content: (
+        <div>
+          <p>
+            Receving is great, but giving is better! How can you use your
+            strengths to help other members of the WDS community?
+          </p>
+        </div>
+      ),
+      customForm: (
+        <Answer type="multi" question_id="11" label="How can you help?" />
+      ),
+    },
+    {
+      title: 'What\'s your goal for WDS 2020?',
       content: (
         <div>
           <p>
@@ -312,37 +340,6 @@ const parts = [
       ),
     },
     {
-      title: 'What\'s something you\'d love help with from the WDS community?',
-      content: (
-        <div>
-          <p>
-            The WDS community is full of incredibly skilled people that frequently
-            support each other in business and life.
-          </p>
-          <p>
-            How can we help you?
-          </p>
-        </div>
-      ),
-      customForm: (
-        <Answer type="multi" question_id="10" label="How can we help?" />
-      ),
-    },
-    {
-      title: 'What is something you can offer to another WDS attendee?',
-      content: (
-        <div>
-          <p>
-            Receving is great, but giving is better! How can you use your
-            strengths to help other members of the WDS community?
-          </p>
-        </div>
-      ),
-      customForm: (
-        <Answer type="multi" question_id="11" label="How can you help?" />
-      ),
-    },
-    {
       title: 'Which of these are you passionate about?',
       format: 'col1',
       button: 'Continue',
@@ -351,7 +348,7 @@ const parts = [
       content: (
         <div>
           <p>
-            We love to know about our attendees interests to help you
+            We love to know about our attendees&apos; interests to help you
             get to know other attendees you may connect with!
           </p>
         </div>
@@ -380,26 +377,6 @@ const parts = [
       ),
       customForm: (
         <Answer question_id="16" label="What's your jam?" />
-      ),
-    },
-    {
-      title: 'What\'s your favorite treat to celebrate a job well-done?',
-      format: 'col1',
-      content: (
-        <div />
-      ),
-      customForm: (
-        <Answer question_id="17" label="What's your reward?" />
-      ),
-    },
-    {
-      title: 'What\'s your favorite beverage to kick-back and relax?',
-      format: 'col1',
-      content: (
-        <div />
-      ),
-      customForm: (
-        <Answer question_id="18" label="How do you relax?" />
       ),
     },
     {
