@@ -20,7 +20,7 @@ preload
 
      <p>For 2020 we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
       
-    <p><b>**Less than 35% of tickets remain and will go back on sale later this year. To get notified when the next sale goes live, join the wait list below:**</b></p> 
+    <p><b>**Less than 35% of tickets remain and are on sale now! Use the button below:**</b></p> 
     
        <p><b>WDS Tickets are $697*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
       
