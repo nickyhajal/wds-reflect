@@ -202,7 +202,7 @@ export class Welcome extends Component {
       <div styleName="shell">
         <Section color="white">
           <Block align="center" textAlign="center">
-            <Image src="logo2020.png" width="123" height="26" fit="contain" margin="-80px auto 110px" />
+            <Image src="v2/logo2020.png" width="123" height="26" fit="contain" margin="-80px auto 110px" />
           </Block>
           <Block>
             <h1>{title}</h1>
