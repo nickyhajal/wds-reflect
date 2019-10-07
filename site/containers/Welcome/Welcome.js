@@ -52,8 +52,9 @@ const parts = [
       content: (
         <div>
           <p>
-            Whether this is your first or 10th time attending WDS, this quick walkthrough helps us plan for your arrival and provides you with a way to connect with fellow attendees. Important: If you’re a returning attendee, please note the questions have been updated for this year’s gathering.
+            Whether this is your 1st or 10th time attending WDS, this quick walkthrough helps us plan for your arrival and provides you with a way to connect with fellow attendees.
           </p>
+          <p>Important: If you’re a returning attendee, please note the questions have been updated for this year’s gathering.</p>
           <p>
             Ready?
           </p>
@@ -313,7 +314,7 @@ const parts = [
       content: (
         <div>
           <p>
-            Receving is great, but giving is better! How can you use your
+            Receiving is great, but giving is better! How can you use your
             strengths to help other members of the WDS community?
           </p>
         </div>
