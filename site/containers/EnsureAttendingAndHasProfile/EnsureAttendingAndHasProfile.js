@@ -11,7 +11,7 @@ class EnsureAttendingAndHasProfile extends React.Component {
     if (this.props.auth.me) {
       const [section] = this.props.auth.me.intro.split(',').map(v => parseInt(v, 10));
       const ticketsToClaim = this.props.auth.me.tickets.find(({ status }) => status === 'unclaimed');
-      if (+this.props.auth.me.attending19 !== 1) {
+      if (+this.props.auth.me.attending20 !== 1) {
         browserHistory.replace('/attendees-only');
       } else if (ticketsToClaim) {
         browserHistory.replace('/assign');
