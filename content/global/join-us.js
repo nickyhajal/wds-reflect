@@ -1,7 +1,7 @@
 <Section color="canvas" overflow="hidden" burst>
   <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and they recently sold out.
+  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.
   </Block>
   {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
