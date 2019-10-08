@@ -56,10 +56,10 @@ class FourThings extends React.Component {
   constructor() {
     super();
     const placeholders = [
-      ['Writing Letters', 'Croissants', 'New Adventures', 'Trevor Noah'],
-      ['Milk & Cookies', 'Star Wars', 'Elephants', 'Morning Runs'],
-      ['Travel Hacking', 'Journey Songs', 'Cinnamon Rolls', 'Libby the Cat'],
-      ['The Ocean', '$100 Startup', 'Sparkling Water', 'Fountain Pens'],
+      ['Milk & Cookies', 'Inspiring Movies', 'Elephants', 'Morning Runs'],
+      ['Writing Notes', 'Croissants', 'New Adventures', 'Trevor Noah'],
+      ['Zumba', 'Journey Songs', 'Cinnamon Rolls', 'Libby the Cat'],
+      ['The Ocean', 'Bungee Jumping', 'Sparkling Water', 'Fountain Pens'],
     ];
     this.state = {
       status: 'ready',
