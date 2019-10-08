@@ -119,9 +119,9 @@ export class Profile extends Component {
         const block = [16, 17];
         if (block.indexOf(+a.question_id) === -1) {
           a.wc = a.answer.split(' ').length;
-          if (a.answer.indexOf("[\"") > -1) {
-            a.answer = JSON.parse(a.answer).join(", ")
-          })
+          if (a.answer.indexOf('[\"') > -1) {
+            a.answer = JSON.parse(a.answer).join(', ')
+          }
           theAs.push(a);
         }
       });
