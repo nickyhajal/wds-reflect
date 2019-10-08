@@ -11,6 +11,7 @@ preload
   <h2 style={{ marginBottom: '4px' }}>WDS 2020 (Our Final Year!)</h2><p></p>
     ## June 23 - June 29, 2020 in Portland, Oregon
 
+    <Button to="/be-there" fitToText style={{fontSize: '1.2rem', padding: '1.3rem 5rem', margin: '0.4rem auto 4rem'}}>Get Your WDS Ticket!</Button>
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
@@ -19,12 +20,15 @@ preload
     <p><i>All that’s missing is YOU!</i></p>
 
     <p>For 2020 we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
+
+    <p><b>ON SALE NOW: Less than 35% of tickets remain so act fast!</b></p> 
       
-    <p><b>**ON SALE NOW: Less than 35% of tickets remain so act fast! Use the button below:**</b></p> 
-      
-    <Button to="/be-there" fitToText style={{fontSize: '1.2rem', padding: '1.3rem 5rem', margin: '2rem auto'}}>Get Your WDS Ticket!</Button>
+    <Block color="canvas" width="750px" align="center" padding="3rem 1.7rem" background="canvas" >
+        <TicketCounter type="countup" />
+    </Block>
+    <Button to="/be-there"fitToText style={{fontSize: '1.2rem', padding: '1.3rem 5rem', margin: '2rem auto'}}>Get Your WDS Ticket!</Button>
     
-    <p><b>WDS Tickets are $697*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
+    <p><b>WDS Tickets are $697*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan is available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
 
 
   </Block>
