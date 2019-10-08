@@ -18,13 +18,13 @@ preload
 
     <p><i>All that’s missing is YOU!</i></p>
 
-     <p>For 2020 we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
+    <p>For 2020 we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
       
     <p><b>**ON SALE NOW: Less than 35% of tickets remain so act fast! Use the button below:**</b></p> 
-    
-       <p><b>WDS Tickets are $697*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
       
     <Button to="/be-there" fitToText style={{fontSize: '1.2rem', padding: '1.3rem 5rem', margin: '2rem auto'}}>Get Your WDS Ticket!</Button>
+    
+    <p><b>WDS Tickets are $697*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
 
 
   </Block>
