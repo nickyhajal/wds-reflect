@@ -21,7 +21,7 @@ preload
 
     <p>For 2020 we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
 
-    <p><b>ON SALE NOW: Less than 35% of tickets remain so act fast!</b></p> 
+    <p><b>ON SALE NOW: Less than 10% of tickets remain so act fast!</b></p> 
       
     <Block color="canvas" width="750px" align="center" padding="3rem 1.7rem" background="canvas" >
         <TicketCounter type="countup" />
