@@ -17,10 +17,7 @@
    
    ### How can I get a WDS ticket?
 
-   <p><b>Tickets for WDS 2020 will go back on sale a couple of times between now and the event.</b> Join the wait list here to be notified when tickets go on sale next: <Link to="https://worlddominationsummit.com/join-us">WDS 2020 Wait List.</Link></p>
-
-    <p><i>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</i></p>
-
+   <p><b>Tickets for WDS 2020 have sold out!</b> If you're still looking for a ticket, please contact our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> to learn what options might exist to attend WDS.</p>
 
   ### Do you offer a payment plan for tickets?
 
