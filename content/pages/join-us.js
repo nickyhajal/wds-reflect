@@ -9,8 +9,7 @@ preload
 <Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" color="orange" css={{marginTop: '80px' }}>
   <h2 style={{ marginBottom: '4px' }}>WDS 2020 (Our Final Year!)</h2><p></p>
-    ## June 23 - June 29, 2020 in Portland, Oregon
-
+    ## --SOLD OUT-- 
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
