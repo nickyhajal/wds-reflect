@@ -45,7 +45,7 @@ const routes = (
     <Route path="/awardee/:id" component={AwardeePage} />
     <Route path="/welcome/:id" component={Welcome} />
     <Route path="/academy/:id" component={Event} />
-    <Route path="/be-there" component={TicketPurchase} />
+    <Route path="/secret-purchase" component={TicketPurchase} />
     <Route path="/side-hustlers-only" component={TicketPurchase} />
     <Route path="/checkout" component={Purchase} />
     <Route path="/id" component={Person} />

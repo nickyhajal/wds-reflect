@@ -49,8 +49,12 @@ export class App extends Component {
       }
       if (
         nextProps.location.pathname.indexOf('claim') > -1 &&
-        this.props.location.pathname.indexOf('be-there') > -1
+        this.props.location.pathname.indexOf('secret-purchase') > -1
       ) {
+      // if (
+      //   nextProps.location.pathname.indexOf('claim') > -1 &&
+      //   this.props.location.pathname.indexOf('be-there') > -1
+      // ) {
         $('body').addClass('start-transition transition-green-to-orange');
       }
       // this.props.act.openMenu(false);
@@ -73,6 +77,7 @@ export class App extends Component {
   ticketClick() {
     if (window.location.pathname.indexOf('join-us') > -1) {
       browserHistory.replace('/be-there');
+      browserHistory.replace('/secret-purchase');
       // browserHistory.replace('/join-us');
     } else {
       browserHistory.replace('/join-us');
@@ -97,7 +102,7 @@ export class App extends Component {
         'guide',
         'communities',
         'your-schedule',
-        'events',
+        // 'events',
         'your-profile',
         'settings',
         'logout',
@@ -180,7 +185,8 @@ export class App extends Component {
     );
   }
   render() {
-    const focus = ['/assign', '/welcome', '/be-there'];
+    const focus = ['/assign', '/welcome', '/secret-purchase'];
+    // const focus = ['/assign', '/welcome', '/be-there'];
     if (this.pathHas(focus)) {
       return this.renderFocusMode();
     }
