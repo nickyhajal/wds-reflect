@@ -15,6 +15,7 @@
    * Once the transfer deadline has passed, the ticket will still be held for the original purchaser. 
    * Becuase we are a non-sponsored, non-commercial event, all ticket revenue goes towards the operating cost of WDS.
    
+[Take me back to the WDS FAQ page.](https://worlddominationsummit.com/faq)
    
   </Block>
 </Section>
