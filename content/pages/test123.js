@@ -13,22 +13,8 @@ At a WDS Academy, you might learn how to develop a fulfilling writing practice, 
 You'll have the opportunity to learn something new to help live your _own_ remarkable life story. It's a great way to lead into the main events of the WDS weekend and keep the conversations going afterward.
   This short video shows more of what it's all about:
   </Block>
-<Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-        ## The Details 
-Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.
-
-- **WDS Attendees:** $29 per Academy
-- **General Public:** $59 per Academy
-
-(Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection)
-                                                                                                                                              
-Each Academy has a limited number of free "Insider Access" seats only available to early-bird alumni ticket holders (folks who purchased at WDS last July). Early-bird ticket holders can only claim **one** of these seats and they are available on a first-come, first-serve basis. If you have access to one of these seats, [log-in to your WDS account](http://worlddominationsummit.com/login) and when you register for your first Academy you'll see it as an option on each Academy page.
-
-There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. No physical ticket or confirmation will be required upon check-in, just a valid photo ID. Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.
-
-If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. 
-
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfNxu7O1SYn85akHPe0CGczG2ypv39UUsyvmJi27uUBJ-vrw/viewform?embedded=true" width="640" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </Block>
 <EventList year={19} type="academy" title="WDS 2019 Academies" />
 </Section>
