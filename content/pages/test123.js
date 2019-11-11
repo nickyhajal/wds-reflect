@@ -25,7 +25,6 @@ P.S. If you're wondering, "what about the WDS Hotel?" (an entire hotel just for 
 
 </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfNxu7O1SYn85akHPe0CGczG2ypv39UUsyvmJi27uUBJ-vrw/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</Block>
+<iframe height="200" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/m1ddm1nu0711t3x/"><a href="https://worlddominationsummit.wufoo.com/forms/m1ddm1nu0711t3x/">Fill out my Wufoo form!</a></iframe></Block>
 </Section>
 <Import id="join-us" />
