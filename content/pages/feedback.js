@@ -8,20 +8,20 @@
 >
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Help Us Plan WDS 2020 
-As we dream big for the final WDS, help us with our planning by providing your input. Keep checking back for different ways you can assist.
+As we dream big for the final WDS, we'd love to get your input. Keep checking back for different ways you can assist!
 
-    #### Current Ask: WDS Pop-up RV Campground Feedback
-    We know that there are several full and partial RVers in our community and we've been playing with the idea of creating our own site for this community—a WDS Pop-up RV Campground in downtown Portland (RV, tent, van, Airstream rental, etc)!
+    #### FOR NOW: WDS Pop-up RV Campground Feedback
+    We know that there are numerous "RVers" in our community, and we've been playing with the idea of creating our own dedicated site for this community—a WDS Pop-up RV Campground in downtown Portland (RV, tent, van, Airstream rental, etc)!
 
-From speaking with RVers who've attended WDS we've heard, "there aren't a lot of good options or nearby campgrounds" and "it would be great to be in the same place with other WDS attendees." 
+From speaking with RVers who've attended WDS, we've heard that there aren't a lot of good options or nearby campgrounds—and of course, we want to avoid having everyone scattered near and far. 
 
-As you can imagine, this would be a HUGE feat to accomplish (challenge accepted) but we wanted to see if enough people would be interested in the idea. 
+As you can imagine, setting up a large-scale community campground would be a HUGE project. Fortunately we like challenges... but before we took this on, we wanted to see if enough people would be interested in the idea. 
 
-Similar to any campground you would be paying a nightly fee that would help to cover the cost of security and other logistics including fun WDS touches. Because this is very much in the "idea phase" we don't have additional details. 
+Similar to any campground, anyone who stays there would pay a nightly fee to cover the cost of security and other logistics. Because this is very much in the "idea phase" we don't have additional details just yet. 
 
-The important thing to remember that this would be urban (in downtown Portland or really close to it) and it would just be for registered WDS attendees (how fun is that!). 
+The important thing to remember that this would be <em>centrally located</em> (in downtown Portland or really close to it) and it would just be for registered WDS attendees. What do you think? 
 
-P.S. If you're wondering, "what about the WDS Hotel?" (an entire hotel just for attendees). We're looking into that as well.
+P.S. If you're wondering, "What about the WDS Hotel?"—an entire hotel just for attendees—rest assured we're looking into that as well.
 
 </Block>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
