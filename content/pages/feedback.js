@@ -17,7 +17,7 @@ From speaking with RVers who've attended WDS, we've heard that there aren't a lo
 
 As you can imagine, setting up a large-scale community campground would be a HUGE project. Fortunately, we like challenges ... but before we take this on, we want to see if enough people would be interested in the idea. 
 
-Similar to any campground, anyone who stays there would pay a nightly fee to cover the cost of security and other logistics. Because this is very much in the "idea phase" we don't have additional details just yet. 
+Similar to any campground, anyone who stays there would pay a nightly fee to cover the cost of security and other important setup and logistics. Unlike a regular campground, this would be a full-on experience and magical transformation of an urban space so take that into consideration when thinking of a nightly fee. Because this is very much in the "idea phase" we don't have additional details just yet. 
 
 The important thing to remember that this would be centrally located (in downtown Portland or really close to it) and it would just be for registered WDS attendees. 
 
