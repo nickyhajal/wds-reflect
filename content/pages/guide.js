@@ -40,52 +40,57 @@
     <Section color="white">
 <Block margin="125px 0 50px 0">
     <Block cols="6">
-      ## Preparing for WDS 2019
+      ## Preparing for WDS 2020
      </Block>
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 1: How WDS Works
         WDS is an unconventional event. How does the week work? What are the events that make up WDS? This should help.       
           <Button to="https://worlddominationsummit.com/wds-how-it-works" newWindow={true} styling="orange" fitToText>Learn More</Button> 
-         </Block>      
-        <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/Duniway-portland-WDS-partner.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 2: Lodging Info
+         </Block>
+       <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/WDS-high-five-chain.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 2: When to Arrive in Portland
+        As you make your travel plans, use this helpful guide to determine when to arrive to (and depart from) Portland.
+       <Button to="https://worlddominationsummit.com/when-to-arrive-in-portland-for-wds-2020" newWindow={true} styling="orange" fitToText>Learn More</Button>
+        </Block>            
+        <Block type="image-overlay" anchor="right" src="https://s3.amazonaws.com/el-files-wds/images/Duniway-portland-WDS-partner.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 3: Lodging Info
         Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
        <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon!</Button>
         </Block>      
-        <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 3: Academies
+        <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 4: Academies
         Alumni speakers and other special guests share their knowledge and experience in half-day workshops.
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
         </Block>
-         <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 4: Host a Meetup 
+         <Block type="image-overlay" anchor="right" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 5: Host a Meetup 
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
           </Block>      
-       <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 5: Mobile App 
+       <Block type="image-overlay" anchor="left" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 6: Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
         </Block>      
-        <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #6: RSVP for Activities
+        <Block type="image-overlay" anchor="right" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        ## Step #7: RSVP for Activities
         Create your own personalized schedule by RSVPing for Meetups, Activities, and Academies through the mobile app or online. 
          <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>          
         </Block>
-        <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 7: Packing List 
+        <Block type="image-overlay" anchor="left" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 8: Packing List 
         Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum and the core team? 
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2020</Button>     
         </Block>   
-         <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #8: Check-in Info
+         <Block type="image-overlay" anchor="right" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        ## Step #9: Check-in Info
         You're here - welcome to Portland! Learn what to do when you arrive to Portland.  
          <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2020</Button>          
         </Block>
-          <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 9: Have an Amazing Experience
-        Make new friends. Have new adventures. Learn something new. Go impact our world. Let's do this!
+          <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 10: Have an Amazing Experience
+        Make new friends. Go on adventures. Learn something new. Go impact our world. Let's do this!
         </Block>
     </Grid>
   </Block> 
