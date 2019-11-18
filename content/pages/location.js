@@ -98,7 +98,7 @@
        
       <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
     </Block>
- <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Paramount-Hotel-King-Room-Portland-Oregon.jpg">
+ <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
       
