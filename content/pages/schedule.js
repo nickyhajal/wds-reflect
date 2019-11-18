@@ -11,7 +11,7 @@
     ## How the WDS Schedule Works
     As we've done since year one, the main events (main-stage keynotes and celebrations) take place during the weekend of WDS. Additionally, every attendee will have the ability to add events and activities throughout the entire week using the WDS mobile app to create their own personalized schedule. 
 
-You decide if you'll join us for the weekend or come for the entire week. Regardless, a [WDS ticket](https://worlddominationsummit.com/join-us) gives you access to it all: main events, special discounts, bonuses, and surprises.  
+You decide if you'll join us for the weekend or come for the entire week. Regardless, a WDS ticket gives you access to it all: main events, special discounts, bonuses, and surprises.  
         </Block>
  <Image src="photos/audience.png"
     width="426" height="263"
@@ -31,7 +31,9 @@ You decide if you'll join us for the weekend or come for the entire week. Regard
     - **Monday (6/29)** Attendee-Led Meetups & Final Farewells
       
       <div className="note">Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</div>
-  </Block>
+Registered for WDS 2020 and ready to go? Start here!
+<Button to="https://worlddominationsummit.com/guide" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>WDS 2020 Guide</Button>
+</Block>
   <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
 </Section>
