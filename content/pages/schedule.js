@@ -33,8 +33,9 @@ You decide if you'll join us for the weekend or come for the entire week. Regard
   </Block>
 <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
-<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-### Registered for WDS 2020 and ready to attend? Start here!
+<Block cols="6" bleed={false} textAlign="center" margin="80px 0 80px">
+## Registered for WDS 2020 and ready to Attend? Start here!
+Click on the following button for a step-by-step guide on how to prepare and maximize your WDS experience.
 <Button to="https://worlddominationsummit.com/guide" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>WDS 2020 Guide</Button>
 </Block>
 </Section>
