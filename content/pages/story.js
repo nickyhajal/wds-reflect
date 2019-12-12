@@ -15,7 +15,7 @@ Fast forward to 2019, and we’re still exploring that question every summer wit
     
     With a full week of events and an unforgettable keynote speaker-filled weekend, you'll learn from unconventional thinkers, acquire powerful new skills, and go away with an all-new community of friends and supporters.
   
-    This summer (late June/early July), we’re inviting all our friends (you!) to Portland for the ninth WDS. As always, some things this year will be new, but our core principles of **Community, Adventure,** and **Service** will continue to guide our shared pursuit of changing the world.
+    Next summer (late June/early July), adventurers from all over the world (you!) will join us in Portland for our final WDS. We'll celebrate 10 years of **Community, Adventure,** and **Service** and our shared pursuit of postively impacting the world.
   </Block>
 </Section>
 <Section color="canvas" bound={false}>
