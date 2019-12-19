@@ -13,7 +13,7 @@
 
 We've done this by providing individual grants that we call **'Scholarships for Real Life.'** The goal of these grants has been to empower WDS attendees to pursue their dreams and impact their community.
 
-Over the past six years, WDS Foundation has granted over $200,000 to fund 21 projects. 2019-2020 is our final grant cycle, and we're looking forward sharing updates from our voyagers over the course of the next year.
+As WDS comes to an end in 2020, so too will the Foundation and the Scholarships For Real Life program. Over the past six years, WDS Foundation has granted over $200,000 to fund 21 projects. 2019-2020 is our final grant cycle, and we're looking forward sharing updates from all of our Voyagers over the course of the next year.
 
 Watch the announcement of this year's scholarship voyagers and learn more about their inspiring projects below: 
       
