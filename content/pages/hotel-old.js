@@ -138,17 +138,17 @@
       <Grid numCols="3" tabletCols="2" width="968">
         <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Private Suite & Bathroom
-         Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (12 available suites) 
+         Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. **(12 available suites)** 
          **4-Night Package: $947** (Max occupancy: 2 persons)
         </Block>
         <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Standard Room & Shared Bathroom
-          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and shared (private) bathrooms on the floor. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (25 available rooms)
+          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and shared (private) bathrooms on the floor. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. **(25 available rooms)**
         **4-Night Package: $747** (max occupancy: 2 persons)
         </Block>
         <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Bunk Bed & Shared Bathroom
-          <p>Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With the custom-built triple-tall bunks, you’ll get both community and privacy. Each bunk has a storage locker, charging station, reading light, and privacy curtain. Full-size luxury mattresses and quiet hours ensure you’ll get solid night’s sleep. Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. <i>Please Note: Upper bunks require climbing a ladder.</i> (24 available bunks) </p>  
+          <p>Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With the custom-built triple-tall bunks, you’ll get both community and privacy. Each bunk has a storage locker, charging station, reading light, and privacy curtain. Full-size luxury mattresses and quiet hours ensure you’ll get solid night’s sleep. Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. <i>Please Note: Upper bunks require climbing a ladder.</i> <b>(23 available bunks)</b> </p>  
           **4-Night Package: $347** (1 bed per person)
           </Block>
      </Grid>
