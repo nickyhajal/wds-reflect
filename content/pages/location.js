@@ -80,7 +80,7 @@
     ## Lodging
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. 
         
-    **Please note: Hotel Partners for 2020 will be announced soon. Please use the following information as reference.** Last year we secured rooms at these amazing and iconic Portland properties:  
+    For WDS 2020 we've secured rooms at these amazing and iconic Portland properties:  
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
@@ -92,7 +92,7 @@
       ## Perfectly Located
       Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
       
-      Need help deciding which property to stay at? Contact our concierge team using the button below.
+      Need help deciding which property to stay at? Contact our concierge team!
       
      <p>PDX Airport to Downtown <Link to="https://goo.gl/maps/hHYyA6VihZN2">(Google Directions)</Link></p>
        
@@ -112,7 +112,7 @@
       ## Hotel Zags 
       The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.
       
-      Use the button below or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**
+      Use the button or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**
       
         <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
   <Button to="https://aonc.co/2tstT4q" newWindow={true} >Coming Soon</Button> 
