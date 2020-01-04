@@ -308,7 +308,7 @@
    ## Additional Accomodations for Staying in Portland
   <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2018 Hotel Partners</Button>
+<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2020 Hotel Partners</Button>
  </Block>
   </Block>
 </Section>
