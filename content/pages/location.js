@@ -100,17 +100,17 @@
     </Block>
 <Block type="image" src="photos/Hoxton-roomy-view.jpg">
       ## The WDS Hotel™
-      We've taken over an entire boutique hotel in Portland's Old Town Chinatown. The WDS Hotel™ features a variety of fun room types and social areas including a coffee shop/co-working area and a beautiful rooftop area to take in breathaking Portland views. Don't forget the entire hotel is reserved just for WDS attendees!  
+      We've reserved an entire boutique hotel in Portland's Old Town Chinatown just for attendees. The WDS Hotel™ features a variety of fun room types and social areas including a coffee shop/co-working area and a beautiful rooftop to take in breathaking Portland vistas.  
       
-      ~Limited availability and based on a 4-night package. Use the link below for details.~
+      ~Limited availability and based on a 4-night package. Use the botton below for details.~
         
      <p>0.8 Mi From the Main Stage <Link to="https://goo.gl/maps/yAmfYNzFDgRgDk7y7">(Google Directions)</Link></p> 
         
     <Button to="" newWindow={true} >Coming Soon!</Button> 
 </Block>
-  <Block type="image" src="images/photos/Hotel-Zags-King.jpg">
-      ## Hotel Zags
-      (Formerly the Hotel Modera) The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.
+  <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg">
+      ## Hotel Zags (formerly Modera)
+      The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.
       
       Use the button below or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**
       
