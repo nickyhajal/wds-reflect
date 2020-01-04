@@ -37,7 +37,7 @@
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       ## Welcome to the WDS Hotel™
       Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
-      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2018.</p>
+      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2020.</p>
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
       
@@ -82,9 +82,9 @@
   </Block>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## We're Taking Over an Entire Hotel!
-    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 28th until Monday, July 2nd</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
+    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 25th until Monday, June 29th</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
 
-<p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (concierge@wds.fm) to see if any openings become available and they'll do their best to assist you.</p>
+<p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (<a href="mailto:concierge@wds.fm">concierge@wds.fm</a>) to see if any openings become available and they'll do their best to assist you.</p>
     Here's what you need to know...
   </Block>
 </Section>
@@ -105,7 +105,7 @@
   >
     ## WDS Hotel™ Package Details
 
-    - 4-nights: Thursday, June 28th (check-in 3pm) to Monday, July 2nd (check-out 11am)
+    - 4-nights: Thursday, June 25th (check-in 3pm) to Monday, June 29th (check-out 11am)
     - All hotel taxes included in listed prices
     - Complimentary high speed Wi-Fi
     - Rooftop access
