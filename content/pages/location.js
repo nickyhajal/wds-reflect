@@ -88,7 +88,7 @@
   </Block>
   
  <Grid margin="60px 0 -20px 0">
-<Block type="image" src="photos/Partner-Hotels-Location-WDS-2020.png">
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Partner-Hotels-Locations-WDS-2020.png">
       ## Perfectly Located
       Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
       
@@ -109,7 +109,7 @@
     <Button to="" newWindow={true} >Coming Soon!</Button> 
 </Block>
   <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg">
-      ## Hotel Zags (formerly Modera)
+      ## Hotel Zags 
       The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.
       
       Use the button below or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**
@@ -141,12 +141,12 @@
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
      ### NW Hostel
-     A great hostel and location. [Learn more>>](https://www.nwportlandhostel.com/)
+     A great hostel. [Learn more>>](https://www.nwportlandhostel.com/)
 
     </Block>
     <Block type="caption" src="photos/PDX-airbnb.jpg">
       ### Airbnb near WDS
-      Best for groups. [Learn more>>](https://bit.ly/2M0DK6U)
+      Shared accomodation. [Learn more>>](https://bit.ly/2M0DK6U)
     </Block>
   </Grid>
   </Block>
