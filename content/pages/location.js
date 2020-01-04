@@ -98,7 +98,7 @@
        
       <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
     </Block>
-<Block type="image" src="photos/Hoxton-roomy-view.jpg">
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/wds-hotel/standard-room1.jpg">
       ## The WDS Hotel™
       We've reserved an entire boutique hotel in Portland's Old Town Chinatown just for attendees. The WDS Hotel™ features a variety of fun room types and social areas including a coffee shop/co-working area and a beautiful rooftop to take in breathaking Portland vistas.  
       
@@ -134,10 +134,9 @@
   </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
   <Grid numCols="3" tabletCols="2" width="968">
-    <Block type="caption" src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png
-">
-      ### Society Hotel 
-      A fun communal experience. [Learn more>>](https://thesocietyhotel.com/accommodations/)
+    <Block type="caption" src="https://el-files-wds.s3.amazonaws.com/images/photos/Crystal.Hotel.jpg">
+      ### Crystal Hotel 
+      Unique rooms. [Learn more>>](https://www.mcmenamins.com/crystal-hotel/lodging/guestrooms)
 
     </Block>
     <Block type="caption" src="photos/Portland-Hostel.jpg">
