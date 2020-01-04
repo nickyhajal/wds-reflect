@@ -84,7 +84,7 @@
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="images/photos/Hotel-Zags-Lobby.jpg" width="100%" height="350" />
+    <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-Lobby.jpg" width="100%" height="350" />
   </Block>
   
  <Grid margin="60px 0 -20px 0">
