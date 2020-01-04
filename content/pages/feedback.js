@@ -13,6 +13,8 @@ As we dream big for the final WDS, we'd love to get your input. Keep checking ba
     #### Stay Tuned!
     We'll need your help again soon so please look for the next email announcement. Thanks!
 
+      <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/WDS-2019-recap-video.jpg" videoId="350010002" cols="8" />    
+
 </Block>
 </Section>
 <Import id="join-us" />
