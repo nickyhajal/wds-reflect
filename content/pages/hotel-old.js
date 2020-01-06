@@ -211,6 +211,8 @@
         Once you've booked a package, you get the room or bunk for the entire 4 nights regardless of how many days you plan to use. Like any hotel reservation, you are ultimately responsible for any other guests that you let stay in your room. For example, if your friend charges 20 craft microbrews and one bag of Skittles to the room, you'd be responsible for paying the bill.
         ### Can I book a private room with another person who isn’t attending WDS?
         <p>We'd love for everyone staying at the WDS Hotel™ to be part of WDS. However, we understand if you’ve booked a private room and you have a significant other or dependent staying with you who is not attending WDS. <i>For the bunk section of the hotel, all guests need to be registered WDS attendees.</i></p>
+        ### What is a private (shared) bathroom?
+        <p>Standard room and Bunkroom guests share bathroom facilities on the floors they are located in. Though shared by those staying on the floor, they are individual, private bathrooms.</p>
         ### What kinds of facilities are in the hotel?
         <p>There is an excellent cafe that serves light fare for breakfast and lunch, which you'll be able to charge to your room/bunk. Additionally, as a registered guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite.</p>    
         ### How do I get to the hotel from the airport? 
@@ -220,7 +222,7 @@
         ### It looks like you're sold out but I'd really like to stay at the WDS Hotel™. What are my options?
         <p>Reach out to our concierge team at <b>concierge@wds.fm</b> to see if there are any cancellations and openings. <i>Do not contact the Society Hotel regarding WDS packages.</i></p>
         ### Not finding the answer to your question?
-        <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
+        Contact our year-round concierge team at concierge@wds.fm. They’ll get back to you at lightning speed!
  </Block>
    <div className="clear" />
 </Section>
