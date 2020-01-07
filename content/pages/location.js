@@ -106,7 +106,7 @@
         
      <p>0.8 Mi From the Main Stage <Link to="https://goo.gl/maps/yAmfYNzFDgRgDk7y7">(Google Directions)</Link></p> 
         
-    <Button to="https://thesocietyhotel.com/" newWindow={true} >Coming Soon!</Button> 
+    <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >Coming Soon!</Button> 
 </Block>
   <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg">
       ## Hotel Zags 
