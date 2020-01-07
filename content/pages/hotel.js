@@ -153,6 +153,9 @@
           </Block>
      </Grid>
     </Block>
+<Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+## Reservations begin, Tuesday, January 14 at 9am PST
+ </Block>
     <div className="clear" />
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
@@ -206,7 +209,8 @@
       <Block cols="6" css={{ padding: '10px 0 20px' }} textAlign="left">
         ## Reserve Your WDS Hotel™ Package 
       Once we run out of rooms/packages that's it! We literally cannot add any extra rooms so make sure to book your package asap. 
-      </Block>
+## Reservations begin, Tuesday, January 14 at 9am PST
+</Block>
     </Block>
     <div className="clear" />
 </Section>
