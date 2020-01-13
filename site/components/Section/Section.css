@@ -54,6 +54,9 @@
     font-size: 34px;
     margin-bottom: 40px;
   }
+  .block-color-canvas h2 {
+    color: $orange;
+  }
 }
 
 :global(.scriptHeader) {
