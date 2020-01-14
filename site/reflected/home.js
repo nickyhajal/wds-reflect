@@ -43,7 +43,7 @@ import YearReviews from '../../site/components/YearReviews';
   <Image src="v2/heading/weekend.png" width="819px" height="217px" align="center" mobile={{ all: { width: '580px', backgroundSize: '100% auto' }, phone: { width: '320px', height: '97px' } }}/>
   <Block cols="6" bleed={false} align="center" textAlign="center" margin="50px 0 20px" mobile={{ all:{ width: '550px' }, phone: {width: '100%'} }}>
     #### A full week of activities and an unforgettable main-stage weekend in Portland, Oregon. Learn from unconventional thinkers, acquire powerful new skills, and go away with an all-new community of friends and supporters.{'\n'}
-    <Button to="/join-us" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>Join Us!</Button>
+    <Button to="" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>SOLD OUT!</Button>
   </Block>
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
@@ -172,7 +172,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
 <Section color="canvas" overflow="hidden" burst>
   <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and they recently sold out.{'\n'}
+  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.{'\n'}
   </Block>
   {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'

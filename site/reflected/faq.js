@@ -53,10 +53,7 @@ import YearReviews from '../../site/components/YearReviews';
    
    ### How can I get a WDS ticket?{'\n'}
 
-   <p><b>Tickets for WDS 2020 will go back on sale a couple of times between now and the event.</b> Join the wait list here to be notified when tickets go on sale next: <Link to="https://worlddominationsummit.com/join-us">WDS 2020 Wait List.</Link></p>
-
-    <p><i>Tickets for WDS are only offered a couple of times a year, and they go quickly. There is no fast-track or secret process to get a ticket; they are all offered on a first-come, first-served basis. Once tickets are gone, they're gone. We do not hold any tickets back for higher-priced sales later, nor do we sell tickets at the door.</i></p>
-
+   <p><b>Tickets for WDS 2020 have sold out!</b> If you're still looking for a ticket, please contact our concierge team at <Link to="mailto:concierge@wds.fm">concierge@wds.fm</Link> to learn what options might exist to attend WDS.</p>
 
   ### Do you offer a payment plan for tickets?{'\n'}
 
@@ -95,7 +92,7 @@ import YearReviews from '../../site/components/YearReviews';
 <Section color="canvas" overflow="hidden" burst>
   <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and they recently sold out.{'\n'}
+  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.{'\n'}
   </Block>
   {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'

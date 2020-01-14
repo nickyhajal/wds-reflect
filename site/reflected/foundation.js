@@ -49,7 +49,7 @@ import YearReviews from '../../site/components/YearReviews';
 
 We've done this by providing individual grants that we call **'Scholarships for Real Life.'** The goal of these grants has been to empower WDS attendees to pursue their dreams and impact their community.{'\n'}
 
-Over the past six years, WDS Foundation has granted over $200,000 to fund 21 projects. 2019-2020 is our final grant cycle, and we're looking forward sharing updates from our voyagers over the course of the next year.{'\n'}
+As WDS comes to an end in 2020, so too will the Foundation and the Scholarships For Real Life program. Over the past six years, WDS Foundation has granted over $200,000 to fund 21 projects. 2019-2020 is our final grant cycle, and we're looking forward sharing updates from all of our Voyagers over the course of the next year.{'\n'}
 
 Watch the announcement of this year's scholarship voyagers and learn more about their inspiring projects below: {'\n'}
       
@@ -149,7 +149,7 @@ Through Office Retreat, Keonna will create a community that supports people of c
 <Section color="canvas" overflow="hidden" burst>
   <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and they recently sold out.{'\n'}
+  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.{'\n'}
   </Block>
   {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
