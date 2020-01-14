@@ -115,7 +115,7 @@
       Use the button or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**
       
         <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
-  <Button to="https://aonc.co/2tstT4q" newWindow={true} >Coming Soon</Button> 
+  <Button to="https://aonc.co/2tstT4q" newWindow={true} >Book Now!</Button> 
 </Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
       ## Paramount Hotel 
@@ -124,7 +124,7 @@
       Use the button below or call **(503)223-9900**. Make sure to reference **WDS20** for the special group rate.
       <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
         
-     <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Coming Soon!</Button> 
+     <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Book Now!</Button> 
  </Block>
   </Grid>
   
