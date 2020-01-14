@@ -51,10 +51,11 @@ class Cart extends React.Component {
   finish() {
     const props = this.props;
     if (props.checkout.processStatus === 'done') {
+      this.isFinished = true
       console.log('DONE')
       auth.getMe()
       .then((me) => {
-        console.log('RUN COMPLETE', me)
+        console.log('RUN COMPLETE', this.complete)
         this.complete();
       });
     }
@@ -62,6 +63,8 @@ class Cart extends React.Component {
 
   complete() {
     console.log('NOW COMPLET E')
+
+
     setTimeout(() => {
       console.log(1)
       const props = this.props;
@@ -249,6 +252,7 @@ class Cart extends React.Component {
 
   processCompleted() {
     let status = 'waiting';
+    if (this.finished) { return this.steps.done; }
     if (this.props.checkout.processStatus) {
       status = this.props.checkout.processStatus.replace('-', '_');
     }
