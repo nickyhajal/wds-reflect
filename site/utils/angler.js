@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import is from './is';
 
 const angles = [];
 const map = {
@@ -58,7 +59,7 @@ const convert = (p) => {
 };
 
 const angler = (polygon) => {
-  let poly = convert(polygon);
+  let poly = is.safari() ? convert('0,0') : convert(polygon);
   let p = convert(polygon);
   if (poly.indexOf(' ') < 0) {
     poly = poly.replace(/\./g, '__');
