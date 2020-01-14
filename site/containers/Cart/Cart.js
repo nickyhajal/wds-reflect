@@ -61,6 +61,7 @@ class Cart extends React.Component {
   }
 
   complete() {
+    console.log('NOW COMPLET E')
     setTimeout(() => {
       console.log(1)
       const props = this.props;
