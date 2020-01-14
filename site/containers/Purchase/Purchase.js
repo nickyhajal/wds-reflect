@@ -158,7 +158,6 @@ export class Purchase extends Component {
                   background="green"
                   textAlign="left"
                   margin="60px 0 80px"
-                  clip="tr:0,1%;"
                 >
                   <Cart hidden={page[0]} key="cart-129" />
                 </Block>}
