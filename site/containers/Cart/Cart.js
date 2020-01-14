@@ -51,8 +51,10 @@ class Cart extends React.Component {
   finish() {
     const props = this.props;
     if (props.checkout.processStatus === 'done') {
+      console.log('DONE')
       auth.getMe()
-      .then(() => {
+      .then((me) => {
+        console.log('RUN COMPLETE', me)
         this.complete();
       });
     }
@@ -60,15 +62,22 @@ class Cart extends React.Component {
 
   complete() {
     setTimeout(() => {
+      console.log(1)
       const props = this.props;
+      console.log(2)
       if (props.checkout.processStatus === 'done') {
+      console.log(3)
         this.finished = true;
+      console.log(4)
         this.props.act.updateCheckoutStatus('success');
+      console.log(5)
         if (
           this.props.checkout.redirect &&
           this.props.checkout.redirect.length
         ) {
+      console.log(6)
           browserHistory.replace(`/${this.props.checkout.redirect}`);
+      console.log(7)
         }
         if (this.props.onSuccess) {
           this.props.onSuccess();
@@ -387,6 +396,7 @@ class Cart extends React.Component {
     if (this.props.checkout.status === 'process') {
       let msg = 'Hang tight while we process your payment! ';
       const completed = this.processCompleted();
+      console.log('cccc',completed)
       msg = (
         <div>
           <div>{msg}</div>

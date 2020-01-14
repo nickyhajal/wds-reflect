@@ -207,7 +207,6 @@ const Header = ({
   auth,
   subNav,
 }) => {
-  console.log(is.mobile());
   return is.mobile()
     ? mobileHeader(ticketClick, scrollTo, navOpen, onMenuClick, auth, subNav)
     : desktopHeader(ticketClick, scrollTo, auth, subNav);
