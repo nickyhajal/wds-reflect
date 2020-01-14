@@ -63,7 +63,6 @@ class Cart extends React.Component {
 
   complete() {
     const self = this;
-    setTimeout(function() {
       console.log(1)
       const props = this.props;
       console.log(2)
@@ -85,8 +84,6 @@ class Cart extends React.Component {
           self.props.onSuccess();
         }
       }
-    }, 500);
-
   }
 
   change(e, id, cc) {
