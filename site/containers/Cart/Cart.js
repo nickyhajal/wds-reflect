@@ -62,29 +62,27 @@ class Cart extends React.Component {
   }
 
   complete() {
-    console.log('NOW COMPLET E')
-
-
-    setTimeout(() => {
+    const self = this;
+    setTimeout(function() {
       console.log(1)
       const props = this.props;
       console.log(2)
       if (props.checkout.processStatus === 'done') {
       console.log(3)
-        this.finished = true;
+      self.finished = true;
       console.log(4)
-        this.props.act.updateCheckoutStatus('success');
+      self.props.act.updateCheckoutStatus('success');
       console.log(5)
         if (
-          this.props.checkout.redirect &&
-          this.props.checkout.redirect.length
+          self.props.checkout.redirect &&
+          self.props.checkout.redirect.length
         ) {
       console.log(6)
-          browserHistory.replace(`/${this.props.checkout.redirect}`);
+          browserHistory.replace(`/${self.props.checkout.redirect}`);
       console.log(7)
         }
-        if (this.props.onSuccess) {
-          this.props.onSuccess();
+        if (self.props.onSuccess) {
+          self.props.onSuccess();
         }
       }
     }, 500);
