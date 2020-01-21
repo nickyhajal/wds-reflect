@@ -102,7 +102,7 @@
       ## The WDS Hotel™
       We've reserved an entire boutique hotel in Portland's Old Town Chinatown just for attendees. The WDS Hotel™ features a variety of fun room types and social areas including a coffee shop/co-working area and a beautiful rooftop to take in breathaking Portland vistas.  
       
-      **Limited capacity** and based on a 4-night package. Use the botton below to reserve your room.
+      **1 Room Left!** Based on a 4-night package. Use the botton below to reserve your room.
         
      <p>0.8 Mi From the Main Stage <Link to="https://goo.gl/maps/yAmfYNzFDgRgDk7y7">(Google Directions)</Link></p> 
         
