@@ -53,10 +53,10 @@
         As you make your travel plans, use this helpful guide to determine when to arrive to (and depart from) Portland.
        <Button to="https://worlddominationsummit.com/when-to-arrive-in-portland-for-wds-2020" newWindow={true} styling="orange" fitToText>Learn More</Button>
         </Block>            
-        <Block type="image-overlay" anchor="right" src="https://s3.amazonaws.com/el-files-wds/images/Duniway-portland-WDS-partner.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Lodging Info
         Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
-       <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon!</Button>
+       <Button to="Location" newWindow={true} styling="orange" fitToText>Book Now!</Button>
         </Block>      
         <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 4: Academies
