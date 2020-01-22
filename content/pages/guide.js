@@ -56,7 +56,7 @@
         <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Lodging Info
         Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
-       <Button to="Location" newWindow={true} styling="orange" fitToText>Book Now!</Button>
+       <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fitToText>Book Now!</Button>
         </Block>      
         <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 4: Academies
