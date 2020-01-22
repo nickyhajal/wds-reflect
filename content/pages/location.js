@@ -88,6 +88,24 @@
   </Block>
   
  <Grid margin="60px 0 -20px 0">
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg">
+      ## Hotel Zags 
+      The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.
+      
+      Use the button or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**
+      
+        <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
+  <Button to="https://aonc.co/2tstT4q" newWindow={true} >Book Now!</Button> 
+</Block>
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
+      ## Paramount Hotel 
+      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
+      
+      Use the button below or call **(503)223-9900**. Make sure to reference **WDS20** for the special group rate.
+      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
+        
+     <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Book Now!</Button> 
+ </Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Partner-Hotels-Locations-WDS-2020.png">
       ## Perfectly Located
       Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
@@ -108,24 +126,6 @@
         
     <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >SOLD OUT!</Button> 
 </Block>
-  <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg">
-      ## Hotel Zags 
-      The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.
-      
-      Use the button or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**
-      
-        <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
-  <Button to="https://aonc.co/2tstT4q" newWindow={true} >Book Now!</Button> 
-</Block>
-<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
-      ## Paramount Hotel 
-      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
-      
-      Use the button below or call **(503)223-9900**. Make sure to reference **WDS20** for the special group rate.
-      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-        
-     <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Book Now!</Button> 
- </Block>
   </Grid>
   
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
