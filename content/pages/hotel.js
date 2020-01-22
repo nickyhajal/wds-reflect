@@ -40,7 +40,7 @@
       <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2020.</p>
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, offers one large bunk room (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
-      
+      ### Update: the WDS Hotel™ has sold out! 
     </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
       <Block>
@@ -142,7 +142,7 @@
          **4-Night Package: $947** (Max occupancy: 2 persons)
         </Block>
         <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-          ## Standard Room & Shared Bathroom
+          ## Standard Room & Shared Bathroom (SOLD OUT)
           Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and shared (private) bathrooms on the floor. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. **(25 available rooms)**
         **4-Night Package: $747** (max occupancy: 2 persons)
         </Block>
