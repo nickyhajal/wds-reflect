@@ -25,7 +25,7 @@ You decide if you'll join us for the weekend or come for the entire week. Regard
     - **Tuesday (6/23)** Activities at WDS HQ and Attendee-Led Meetups
     - **Wednesday (6/24)** Academies, Activities at WDS HQ and Attendee-Led Meetups
     <ul><li><b className="highlight highlight-2">Thursday (6/25)</b> Academies, Activities, and Attendee-Led Meetups, and Opening Party</li></ul>
-    <ul><li><b className="highlight highlight-2">Friday (6/26)</b>  Academies, Activities, Attendee-Led Meetups, TBA Adventure</li></ul>
+    <ul><li><b className="highlight highlight-2">Friday (6/26)</b>  Academies, Activities, Attendee-Led Meetups, World Record Attempt</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/27)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
     <ul><li><b className="highlight highlight-3">Sunday (6/28)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
     - **Monday (6/29)** Attendee-Led Meetups & Final Farewells
