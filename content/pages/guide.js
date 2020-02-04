@@ -28,7 +28,7 @@
     - **Tuesday (6/23)** Activities at WDS HQ and Attendee-Led Meetups
     - **Wednesday (6/24)** Academies, Activities at WDS HQ and Attendee-Led Meetups
     <ul><li><b className="highlight highlight-2">Thursday (6/25)</b> Academies, Activities, and Attendee-Led Meetups, and Opening Party</li></ul>
-    <ul><li><b className="highlight highlight-2">Friday (6/26)</b>  Academies, Activities, Attendee-Led Meetups, TBA Adventure</li></ul>
+    <ul><li><b className="highlight highlight-2">Friday (6/26)</b>  Academies, Activities, Attendee-Led Meetups, World Record Attempt</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/27)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
     <ul><li><b className="highlight highlight-3">Sunday (6/28)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
     - **Monday (6/29)** Attendee-Led Meetups & Final Farewells
@@ -57,39 +57,44 @@
         ## Step 3: Lodging Info
         Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
        <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fitToText>Book Now!</Button>
-        </Block>      
-        <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 4: Academies
+        </Block>
+         <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/World-Record-Attempt.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 4: Register for the World Record Attemp
+        It's back! We're going to band together to break another world record and we need your help!
+        <Button to="" newWindow={true} styling="orange" fitToText>Check back around March/April 2020</Button>     
+        </Block>
+        <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 5: Academies
         Alumni speakers and other special guests share their knowledge and experience in half-day workshops.
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
         </Block>
-         <Block type="image-overlay" anchor="right" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 5: Host a Meetup 
+         <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 6: Host a Meetup 
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
           </Block>      
-       <Block type="image-overlay" anchor="left" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 6: Mobile App 
+       <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 7: Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
         </Block>      
-        <Block type="image-overlay" anchor="right" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #7: RSVP for Activities
+        <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        ## Step 8: RSVP for Activities
         Create your own personalized schedule by RSVPing for Meetups, Activities, and Academies through the mobile app or online. 
          <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>          
         </Block>
-        <Block type="image-overlay" anchor="left" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 8: Packing List 
+        <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 9: Packing List 
         Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum and the core team? 
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2020</Button>     
         </Block>   
-         <Block type="image-overlay" anchor="right" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step #9: Check-in Info
+         <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        ## Step 10: Check-in Info
         You're here - welcome to Portland! Learn what to do when you arrive to Portland.  
          <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2020</Button>          
         </Block>
-          <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 10: Have an Amazing Experience
+          <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 11: Have an Amazing Experience
         Make new friends. Go on adventures. Learn something new. Go impact our world. Let's do this!
         </Block>
     </Grid>
