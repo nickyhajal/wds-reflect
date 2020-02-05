@@ -59,8 +59,8 @@
        <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fitToText>Book Now!</Button>
         </Block>
          <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/World-Record-Attempt.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 4: Register for the World Record Attemp
-        It's back! We're going to band together to break another world record and we need your help!
+        ## Step 4: Help Set a World Record
+        It's back! We're going to band together to break another world record and we'll need your help!
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around March/April 2020</Button>     
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
