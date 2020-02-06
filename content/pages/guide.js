@@ -44,17 +44,17 @@
      </Block>
       <Grid numCols="3" tabletCols="2" width="968">
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 1: How WDS Works
+        ## Step 1: Learn How WDS Works
         WDS is an unconventional event. How does the week work? What are the events that make up WDS? This should help.       
           <Button to="https://worlddominationsummit.com/wds-how-it-works" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>
        <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/WDS-high-five-chain.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 2: When to Arrive in Portland
+        ## Step 2: Plan Your Arrival to Portland
         As you make your travel plans, use this helpful guide to determine when to arrive to (and depart from) Portland.
        <Button to="https://worlddominationsummit.com/when-to-arrive-in-portland-for-wds-2020" newWindow={true} styling="orange" fitToText>Learn More</Button>
         </Block>            
         <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 3: Lodging Info
+        ## Step 3: Book Lodging
         Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
        <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fitToText>Book Now!</Button>
         </Block>
@@ -64,7 +64,7 @@
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around March/April 2020</Button>     
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 5: Academies
+        ## Step 5: Register for Academies
         Alumni speakers and other special guests share their knowledge and experience in half-day workshops.
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
         </Block>
@@ -74,7 +74,7 @@
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
           </Block>      
        <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 7: Mobile App 
+        ## Step 7: Download the Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>     
         </Block>      
@@ -84,12 +84,12 @@
          <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2020</Button>          
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 9: Packing List 
+        ## Step 9: Pack for WDS 
         Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum and the core team? 
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2020</Button>     
         </Block>   
          <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step 10: Check-in Info
+        ## Step 10: Check-in at WDS
         You're here - welcome to Portland! Learn what to do when you arrive to Portland.  
          <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2020</Button>          
         </Block>
