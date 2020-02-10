@@ -13,7 +13,7 @@
     className="scriptHeader"
     preload
   />
- <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+ <Block cols="6" css={{ padding: '20px 0 20px' }} textAlign="left">
     ## Be part of the magic of WDS!
     We're searching for 80 amazing people who would like to help support our FINAL World Domination Summit!
  
@@ -27,7 +27,7 @@ Ambassadors are our all-volunteer team of amazing humans who help make WDS happe
 - And much more! 
    </Block>
  
-<Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">   
+<Block cols="6" css={{ padding: '20px 0 20px' }} textAlign="left">   
   ### Who can apply? 
 
 We welcome applications from anyone who meets the following criteria: 
@@ -38,17 +38,19 @@ We welcome applications from anyone who meets the following criteria:
 - You’re not a 2020 WDS attendee 
      </Block>
 
-<Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+<Block cols="6" css={{ padding: '20px 0 20px' }} textAlign="left">
   ### What do I get in return? 
 Fame, fortune, glory! Ok, maybe not all those things. But you do get the satisfaction of helping others, along with some more tangible perks in exchange for being a part of this epic experience, including: 
 - An all access pass to WDS - any time you’re not volunteering as an Ambassador you’re free to experience WDS like any other attendee. This includes attending our opening and closing parties, seeing our mainstage talks, participating or hosting meetups, and just about all other aspects of the event. 
 - An exclusive Ambassador t-shirt and all the WDS swag.
-- Free food! Well, technically a couple gift cards to help cover some lunches.  
+- Free food! Well, technically a couple gift cards to help cover some lunches. 
+  </Block>
 
+ <Block cols="6" css={{ padding: '20px 0 20px' }} textAlign="left">
 <Image src="https://el-files-wds.s3.amazonaws.com/images/ambassadors-2019.jpg" width="100%" height="533" />
   </Block>
 
- <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+ <Block cols="6" css={{ padding: '20px 0 20px' }} textAlign="left">
 ### Tell me more about this 20 hour commitment…
 This is the second year we’re giving this a try. We’ll be releasing a majority of our Ambassador roles to the Ambassador team at a pre-announced day and time (likely between 3-4 weeks out from the event). From there, it will be first-come, first-served to pick your shifts. You can choose any shifts you want, as long as they add up to at least 20 hours. This gives YOU more freedom to choose when you want to volunteer and what you’d like to be doing. You can even coordinate to volunteer alongside a family member or friend (though we encourage you to meet new people over the week too). We’ll send the shift schedule out ahead of time, so you can look at what options might be best for you. 
 
