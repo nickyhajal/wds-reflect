@@ -16,10 +16,8 @@
  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## Be part of the magic of WDS!
     We're searching for 80 amazing people who would like to help support our FINAL World Domination Summit!
-  </Block>
-  <Grid numCols="3" tabletCols="2">
-    <Block type="color" color="blue">
-      ### What is an Ambassador? 
+ 
+   ### What is an Ambassador? 
 Ambassadors are our all-volunteer team of amazing humans who help make WDS happen each year. Ambassadors do a variety of tasks that make WDS run smoothly including: 
 - Running registration
 - Handing out swag
@@ -27,9 +25,8 @@ Ambassadors are our all-volunteer team of amazing humans who help make WDS happe
 - Assisting with our big adventure
 - Answering questions, giving directions, and providing assistance
 - And much more! 
-    </Block>
-    <Block type="color" color="orange">
-      ### Who can apply? 
+    
+  ### Who can apply? 
 
 We welcome applications from anyone who meets the following criteria: 
 - You’re committed to helping our attendees have the BEST experience possible 
@@ -37,16 +34,15 @@ We welcome applications from anyone who meets the following criteria:
 - You’re willing to share **20 hours** of your time between **Monday, June 22nd and Sunday, June 28th** (please note: the majority of Ambassador shifts are Thursday-Sunday)
 - You’re available on the evening of **Monday, June 22nd** for Ambassador orientation 
 - You’re not a 2020 WDS attendee 
-    </Block>
-    <Block type="color" color="green">
-      ### What do I get in return? 
+  
+  ### What do I get in return? 
 Fame, fortune, glory! Ok, maybe not all those things. But you do get the satisfaction of helping others, along with some more tangible perks in exchange for being a part of this epic experience, including: 
 - An all access pass to WDS - any time you’re not volunteering as an Ambassador you’re free to experience WDS like any other attendee. This includes attending our opening and closing parties, seeing our mainstage talks, participating or hosting meetups, and just about all other aspects of the event. 
 - An exclusive Ambassador t-shirt and all the WDS swag.
 - Free food! Well, technically a couple gift cards to help cover some lunches.  
-    </Block>
-  </Grid>
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+
+<Image src="https://el-files-wds.s3.amazonaws.com/images/ambassadors-2019.jpg" width="100%" height="533" />
+
 
 ### Tell me more about this 20 hour commitment…
 This is the second year we’re giving this a try. We’ll be releasing a majority of our Ambassador roles to the Ambassador team at a pre-announced day and time (likely between 3-4 weeks out from the event). From there, it will be first-come, first-served to pick your shifts. You can choose any shifts you want, as long as they add up to at least 20 hours. This gives YOU more freedom to choose when you want to volunteer and what you’d like to be doing. You can even coordinate to volunteer alongside a family member or friend (though we encourage you to meet new people over the week too). We’ll send the shift schedule out ahead of time, so you can look at what options might be best for you. 
