@@ -25,7 +25,7 @@ Ambassadors are our all-volunteer team of amazing humans who help make WDS happe
 - Assisting with our big adventure
 - Answering questions, giving directions, and providing assistance
 - And much more! 
- </block>
+   </Block>
  
 <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">   
   ### Who can apply? 
@@ -36,7 +36,7 @@ We welcome applications from anyone who meets the following criteria:
 - You’re willing to share **20 hours** of your time between **Monday, June 22nd and Sunday, June 28th** (please note: the majority of Ambassador shifts are Thursday-Sunday)
 - You’re available on the evening of **Monday, June 22nd** for Ambassador orientation 
 - You’re not a 2020 WDS attendee 
-   </block>
+     </Block>
 
 <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
   ### What do I get in return? 
@@ -46,7 +46,7 @@ Fame, fortune, glory! Ok, maybe not all those things. But you do get the satisfa
 - Free food! Well, technically a couple gift cards to help cover some lunches.  
 
 <Image src="https://el-files-wds.s3.amazonaws.com/images/ambassadors-2019.jpg" width="100%" height="533" />
-</block>
+  </Block>
 
  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
 ### Tell me more about this 20 hour commitment…
