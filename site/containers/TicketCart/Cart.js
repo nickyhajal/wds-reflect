@@ -20,10 +20,10 @@ class Cart extends React.Component {
     autoBind(Object.getPrototypeOf(this));
     this.state = {
       email: '',
-      year: '2019',
+      year: '2020',
       month: '7',
-      code: 'wds2019',
-      eventCode: 'wds2019',
+      code: 'wds2020',
+      eventCode: 'wds2020',
       accepted: false,
     };
     this.steps = {
@@ -217,12 +217,12 @@ class Cart extends React.Component {
   payInFull(e) {
     e.stopPropagation();
     e.preventDefault();
-    this.setState({ code: 'wds2019' });
+    this.setState({ code: 'wds2020' });
   }
   payWithPlan(e) {
     e.stopPropagation();
     e.preventDefault();
-    this.setState({ code: 'wds2019plan' });
+    this.setState({ code: 'wds2020plan' });
   }
 
   toggleTerms(e) {
@@ -245,13 +245,13 @@ class Cart extends React.Component {
         <div styleName="planSelectBox">
           <button
             onClick={this.payInFull}
-            className={code === 'wds2019' ? 'selected' : ''}
+            className={code === 'wds2020' ? 'selected' : ''}
           >
             Pay in Full
           </button>
           <button
             onClick={this.payWithPlan}
-            className={code === 'wds2019plan' ? 'selected' : ''}
+            className={code === 'wds2020plan' ? 'selected' : ''}
           >
             WDS Payment Plan
             <div>$95 today, then $204/mo for 3 mos.</div>
@@ -298,13 +298,13 @@ class Cart extends React.Component {
         <div styleName="planSelectBox">
           <button
             onClick={this.payInFull}
-            className={code === 'wds2019' ? 'selected' : ''}
+            className={code === 'wds2020' ? 'selected' : ''}
           >
             Pay in Full
           </button>
           <button
             onClick={this.payWithPlan}
-            className={code === 'wds2019plan' ? 'selected' : ''}
+            className={code === 'wds2020plan' ? 'selected' : ''}
           >
             WDS Payment Plan
             <div>$95 today, then $204/mo for 3 mos.</div>
@@ -432,7 +432,7 @@ class Cart extends React.Component {
     const { code } = this.state;
     const q = this.props.checkout.quantity;
     const isPlan = code.includes('plan');
-    const cost = (code === 'wds2019' ? C.ticketPrice : C.planStartPrice) * q;
+    const cost = (code === 'wds2020' ? C.ticketPrice : C.planStartPrice) * q;
     const feeCost = 10 * q;
     let btnStr = 'Complete Purchase';
     if (this.props.checkout.status === 'process') {
@@ -445,7 +445,7 @@ class Cart extends React.Component {
       display = 'none';
     }
     const productName =
-      code === 'wds2019' ? 'WDS 2019 Ticket' : 'WDS Payment Plan';
+      code === 'wds2020' ? 'WDS 2020 Ticket' : 'WDS Payment Plan';
     return (
       <div className="modal-section cartSection" style={{ display }}>
         <div styleName="productRow">

@@ -82,8 +82,9 @@ class TicketCounter extends React.Component {
     if (this.isLive('numbers')) {
       messages.push((
         <div styleName="remaining" key="remaining">
-          <span>{(this.sale.max - this.sale.sold)}</span>
-          <div>Tickets Remaining</div>
+          <div>Tickets Sold Out!</div>
+          {/* <span>{(this.sale.max - this.sale.sold)}</span>
+          <div>Tickets Remaining</div> */}
         </div>
       ));
     } else if (this.isLive('messages')) {
@@ -104,6 +105,7 @@ class TicketCounter extends React.Component {
   }
   render() {
     const saleId = this.props.sale ? this.props.sale : this.props.app.settings.activeSale;
+    console.log(saleId)
     if (this.props.app.settings !== undefined &&
         this.props.app.settings[saleId] !== undefined
     ) {

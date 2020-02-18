@@ -51,31 +51,39 @@ class Cart extends React.Component {
   finish() {
     const props = this.props;
     if (props.checkout.processStatus === 'done') {
+      this.isFinished = true
+      console.log('DONE')
       auth.getMe()
-      .then(() => {
+      .then((me) => {
+        console.log('RUN COMPLETE', this.complete)
         this.complete();
       });
     }
   }
 
   complete() {
-    setTimeout(() => {
+    const self = this;
+      console.log(1)
       const props = this.props;
+      console.log(2)
       if (props.checkout.processStatus === 'done') {
-        this.finished = true;
-        this.props.act.updateCheckoutStatus('success');
+      console.log(3)
+      self.finished = true;
+      console.log(4)
+      self.props.act.updateCheckoutStatus('success');
+      console.log(5)
         if (
-          this.props.checkout.redirect &&
-          this.props.checkout.redirect.length
+          self.props.checkout.redirect &&
+          self.props.checkout.redirect.length
         ) {
-          browserHistory.replace(`/${this.props.checkout.redirect}`);
+      console.log(6)
+          browserHistory.replace(`/${self.props.checkout.redirect}`);
+      console.log(7)
         }
-        if (this.props.onSuccess) {
-          this.props.onSuccess();
+        if (self.props.onSuccess) {
+          self.props.onSuccess();
         }
       }
-    }, 500);
-
   }
 
   change(e, id, cc) {
@@ -239,6 +247,7 @@ class Cart extends React.Component {
 
   processCompleted() {
     let status = 'waiting';
+    if (this.finished) { return this.steps.done; }
     if (this.props.checkout.processStatus) {
       status = this.props.checkout.processStatus.replace('-', '_');
     }
@@ -387,6 +396,7 @@ class Cart extends React.Component {
     if (this.props.checkout.status === 'process') {
       let msg = 'Hang tight while we process your payment! ';
       const completed = this.processCompleted();
+      console.log('cccc',completed)
       msg = (
         <div>
           <div>{msg}</div>

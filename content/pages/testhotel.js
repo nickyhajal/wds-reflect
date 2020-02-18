@@ -37,8 +37,8 @@
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       ## Welcome to the WDS Hotel™
       Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
-      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2018.</p>
-      <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, consists of one large room with shared bunks (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
+      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2020.</p>
+      <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, offers one large bunk room (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
       
     </Block>
@@ -82,9 +82,9 @@
   </Block>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## We're Taking Over an Entire Hotel!
-    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 28th until Monday, July 2nd</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
+    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 25th until Monday, June 29th</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
 
-<p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (concierge@wds.fm) to see if any openings become available and they'll do their best to assist you.</p>
+<p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (<a href="mailto:concierge@wds.fm">concierge@wds.fm</a>) to see if any openings become available and they'll do their best to assist you.</p>
     Here's what you need to know...
   </Block>
 </Section>
@@ -105,7 +105,7 @@
   >
     ## WDS Hotel™ Package Details
 
-    - 4-nights: Thursday, June 28th (check-in 3pm) to Monday, July 2nd (check-out 11am)
+    - 4-nights: Thursday, June 25th (check-in 3pm) to Monday, June 29th (check-out 11am)
     - All hotel taxes included in listed prices
     - Complimentary high speed Wi-Fi
     - Rooftop access
@@ -138,17 +138,17 @@
       <Grid numCols="3" tabletCols="2" width="968">
         <Block type="image-overlay" anchor="right" src="wds-hotel/suite-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Private Suite & Bathroom
-         Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. (12 available suites) 
+         Spread out with a bit more space for yourself and your own private bathroom in one of our private suites. The private suite is a refuge for those who want a more traditional hotel room with king size bed, more space, more views, and the privacy of your own bath. **(12 available suites)** 
          **4-Night Package: $947** (Max occupancy: 2 persons)
         </Block>
         <Block type="image-overlay" anchor="left" src="wds-hotel/standard-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Standard Room & Shared Bathroom
-          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and shared (private) bathrooms on the floor. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. (25 available rooms)
+          Enjoy your own private sanctuary with a dash of community in a private room featuring an ultra comfortable queen-size bed and shared (private) bathrooms on the floor. Ideal for guests seeking the full hotel experience while still capturing that sense of community found in old-world lodging houses. **(25 available rooms)**
         **4-Night Package: $747** (max occupancy: 2 persons)
         </Block>
         <Block type="image-overlay" anchor="right" src="wds-hotel/Bunk-room1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
           ## Bunk Bed & Shared Bathroom
-          <p>Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With the custom-built triple-tall bunks, you’ll get both community and privacy. Each bunk has a storage locker, charging station, reading light, and privacy curtain. Full-size luxury mattresses and quiet hours ensure you’ll get solid night’s sleep. Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. <i>Please Note: Upper bunks require climbing a ladder.</i> (24 available bunks) </p>  
+          <p>Get the most bed for your buck in one of our hostel-style bunks in the bunk room. With the custom-built triple-tall bunks, you’ll get both community and privacy. Each bunk has a storage locker, charging station, reading light, and privacy curtain. Full-size luxury mattresses and quiet hours ensure you’ll get solid night’s sleep. Plus, you’ll get the opportunity to make new friends or grow closer with old ones, as you share time together at the community table or kitchenette area. <i>Please Note: Upper bunks require climbing a ladder.</i> <b>(23 available bunks)</b> </p>  
           **4-Night Package: $347** (1 bed per person)
           </Block>
      </Grid>
@@ -164,14 +164,14 @@
       </BlockWithLiveLabel>
       <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
         ### Standard Room ($747)
-        Shared bathroom
+        Shared (private) bathroom
         <PurchaseButton 
         price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
         style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
       </BlockWithLiveLabel>
       <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
         ### Bunks ($347)
-        Shared bathroom
+        Shared (private) bathroom
         <PurchaseButton 
         price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
         style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
@@ -198,11 +198,11 @@
         ## WDS Hotel™ FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### Can I book a WDS Hotel™ package through the Society Hotel? 
-        Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, June 28th, checking out Monday, July 2nd). All rooms will be sold as 4-night packages.   
+        Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, June 25th, checking out Monday, June 29th). All rooms will be sold as 4-night packages.   
         ### What is your refund/transfer policy for WDS Hotel™ packages?
-        <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee until June 27th by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
+        <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee <b>until June 24th</b> by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
         ### How do I book additional nights before or after the WDS package dates?
-        <p>Once you've reserved your WDS Hotel™ package, please contact the Society Hotel by phone (avoid their online reservation system) to set up any additional dates by calling their front desk at <b>503-445-0444</b>. You may be able to stay in the same room type as your WDS Hotel™ package, but that will depend on the hotel's room availability.</p>
+        <p>Once you've reserved your WDS Hotel™ package, please contact the Society Hotel by phone (avoid their online reservation system) to set up any additional dates by calling their front desk at <b>(503)445-0444</b>. You may be able to stay in the same room type as your WDS Hotel™ package, but that will depend on the hotel's room availability.</p>
         ### When will my credit card be charged?
         Your card will be immediately charged for the full amount when you book a WDS Hotel™ package. You'll also need to provide a credit card upon check-in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee or cocktail, directly to your room.
         ### Can I book a room with another WDS attendee?
@@ -211,6 +211,8 @@
         Once you've booked a package, you get the room or bunk for the entire 4 nights regardless of how many days you plan to use. Like any hotel reservation, you are ultimately responsible for any other guests that you let stay in your room. For example, if your friend charges 20 craft microbrews and one bag of Skittles to the room, you'd be responsible for paying the bill.
         ### Can I book a private room with another person who isn’t attending WDS?
         <p>We'd love for everyone staying at the WDS Hotel™ to be part of WDS. However, we understand if you’ve booked a private room and you have a significant other or dependent staying with you who is not attending WDS. <i>For the bunk section of the hotel, all guests need to be registered WDS attendees.</i></p>
+        ### What is a private (shared) bathroom?
+        <p>Standard room and Bunkroom guests share bathroom facilities on the floors they are located in. Though shared by those staying on the floor, they are individual, private bathrooms.</p>
         ### What kinds of facilities are in the hotel?
         <p>There is an excellent cafe that serves light fare for breakfast and lunch, which you'll be able to charge to your room/bunk. Additionally, as a registered guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite.</p>    
         ### How do I get to the hotel from the airport? 
@@ -220,7 +222,7 @@
         ### It looks like you're sold out but I'd really like to stay at the WDS Hotel™. What are my options?
         <p>Reach out to our concierge team at <b>concierge@wds.fm</b> to see if there are any cancellations and openings. <i>Do not contact the Society Hotel regarding WDS packages.</i></p>
         ### Not finding the answer to your question?
-        <p>Contact our year-round concierge team at <b>concierge@wds.fm</b>. They’ll get back to you at lightning speed!</p>
+        Contact our year-round concierge team at concierge@wds.fm. They’ll get back to you at lightning speed!
  </Block>
    <div className="clear" />
 </Section>
@@ -242,14 +244,14 @@
       </BlockWithLiveLabel>
       <BlockWithLiveLabel type="caption" src="wds-hotel/standard-room1.jpg" path="hotels.room" mobile={{marginBottom: '100px'}}>
         ### Standard Room ($747)
-        Shared bathroom
+        Shared (private) bathroom
         <PurchaseButton 
         price="74700" product="WDS Hotel Standard Room" description="Standard Room at the WDS Hotel" redirect="complete-booking" code="hotelroom"
         style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.room">Book Your Room!</PurchaseButton>
       </BlockWithLiveLabel>
       <BlockWithLiveLabel type="caption" src="wds-hotel/Bunk-room1.jpg" path="hotels.bunk" mobile={{marginBottom: '100px'}}>
         ### Bunks ($347)
-        Shared bathroom
+        Shared (private) bathroom
         <PurchaseButton 
         price="34700" product="WDS Hotel Bunk" description="Bunk at the WDS Hotel" redirect="complete-booking" code="hotelbunk"
         style={{width: '100%', position: 'relative', top: '30px', marginBottom: '-50px'}} path="hotels.bunk">Book Your Bunk!</PurchaseButton>
@@ -308,7 +310,7 @@
    ## Additional Accomodations for Staying in Portland
   <font color="white">Every year WDS partners with iconic Portland hotels to provide our attendees with the best discounts.</font>
  <Block anchor="center" align="center" width="300" margin="20px 0 0 0">
-<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2018 Hotel Partners</Button>
+<Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fittotext>2020 Hotel Partners</Button>
  </Block>
   </Block>
 </Section>

@@ -85,7 +85,7 @@
 .logo {
   color: blue;
   text-decoration: none;
-  background-image: url(https://files.wds.fm/images/v2/logo.png);
+  background-image: url(https://files.wds.fm/images/v2/logo2020.png);
   background-size: auto 100%;
   background-repeat: no-repeat;
   width: 123px;
@@ -100,7 +100,7 @@
   cursor: pointer;
 }
 :global(.greenpage) .logo {
-  background-image: url(https://files.wds.fm/images/v2/logo-blue.png);
+  background-image: url(https://files.wds.fm/images/v2/logo-blue2020.png);
 }
 
 .nav {
@@ -166,6 +166,32 @@
 .hamburger {
   display: none;
   cursor: pointer;
+}
+@media(--mdesk) {
+  .link {
+    font-size: 14px;
+    padding: 23px 16px;
+  }
+  .rightNav {
+    right: 235px;
+  }
+  .nav {
+    padding-left: 80px;
+    padding-right: 0;
+  }
+}
+@media(--smdesk) {
+  .link {
+    font-size: 13px;
+    padding: 23px 15px;
+  }
+  .rightNav {
+    right: 215px;
+  }
+  .nav {
+    padding-left: 60px;
+    padding-right: 0;
+  }
 }
 @media(--phone) {
   .hiddenNav {

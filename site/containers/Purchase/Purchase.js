@@ -139,7 +139,7 @@ export class Purchase extends Component {
           />
           <Block align="center" textAlign="center">
             <Image
-              src="logo.png"
+              src="v2/logo2020.png"
               width="123"
               height="26"
               fit="contain"
@@ -158,7 +158,6 @@ export class Purchase extends Component {
                   background="green"
                   textAlign="left"
                   margin="60px 0 80px"
-                  clip="tr:0,1%;"
                 >
                   <Cart hidden={page[0]} key="cart-129" />
                 </Block>}
@@ -171,7 +170,7 @@ export class Purchase extends Component {
       <Section color="white" styleName="shell" className="fillScreen">
         <Block align="center" textAlign="center">
           <Image
-            src="logo.png"
+            src="v2/logo2020.png"
             width="123"
             height="26"
             fit="contain"

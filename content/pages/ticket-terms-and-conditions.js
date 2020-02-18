@@ -10,12 +10,12 @@
    Please review all of the following information carefully:
    * WDS tickets are **non-refundable.**  
    * There is no physical ticket. Only a photo-ID is required to check-in at WDS.
-   * In the case where a ticket cannot be used, WDS tickets can be transferred until **May 17, 2019**. Please note a **$100 transfer fee** must be successfully paid per ticket to complete the transfer.
+   * In the case where a ticket cannot be used, WDS tickets can be transferred until **May 17, 2020**. Please note a **$100 transfer fee** must be successfully paid per ticket to complete the transfer.
    * Special benefits and perks associated with the _Alumni Early-Bird ticket_ are not transferrable.
    * Once the transfer deadline has passed, the ticket will still be held for the original purchaser. 
-   * All ticket revenue goes towards the operating cost of WDS with anything left over going to the [WDS Foundation Scholarships for Real Life Program](https://worlddominationsummit.com/foundation).
+   * Becuase we are a non-sponsored, non-commercial event, all ticket revenue goes towards the operating cost of WDS.
    
-   Ready? [Take me back to the purchase page.](https://worlddominationsummit.com/be-there)
+[Take me back to the WDS FAQ page.](https://worlddominationsummit.com/faq)
    
   </Block>
 </Section>

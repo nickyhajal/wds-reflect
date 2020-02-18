@@ -189,6 +189,9 @@ export class MeetupForm extends Component {
     const req = _.without(Object.keys(params), optional);
     console.log(req);
     const missing = req.reduce((result, i) => {
+      /* if (i === 'date' && this.state[i] === '11') {
+        result.push(this.params[i])
+      } */
       if (this.state[i] === undefined || this.state[i].toString().length < 1) {
         result.push(this.params[i]);
       }

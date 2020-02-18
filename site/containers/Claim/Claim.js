@@ -176,7 +176,7 @@ export class App extends Component {
       //         css={{ textAlign: 'center' }}
       //         background="spice"
       //       >
-      //         ## Woohoo! See you in 2019!
+      //         ## Woohoo! See you in 2020!
       //       </Block>
       //     );
       //   } else {
@@ -187,7 +187,7 @@ export class App extends Component {
       //         css={{ textAlign: 'center' }}
       //         background="spice"
       //       >
-      //         ## Aw yeah! See you in 2019!
+      //         ## Aw yeah! See you in 2020!
       //       </Block>
       //     );
       //   }
@@ -226,7 +226,8 @@ export class App extends Component {
     return c;
   }
   prepareTickets() {
-    const tickets = this.props.auth.me.tickets.filter(({ year }) => `${year}` === '2019');
+    this.props.auth.me.tickets.forEach((t) => console.log(t.year === '2020'));
+    const tickets = this.props.auth.me.tickets.filter(({ year }) => (console.log(year), year === '2020'));
     this.tickets = { claimed: [], unclaimed: [], countStr: '', count: 0, connectCount: 0 };
     if (tickets !== undefined && _.isArray(tickets) && tickets.length) {
       tickets.forEach(ticket => {
@@ -268,7 +269,7 @@ export class App extends Component {
         claimCount: this.state.claimCount + 1,
       });
       this.props.act.updateMe('tickets', rsp.data.tickets);
-      this.props.act.updateMe('attending19', '1');
+      this.props.act.updateMe('attending20', '1');
     });
   }
   meClaimed() {
@@ -325,6 +326,7 @@ export class App extends Component {
     return '';
   }
   renderTicketSetup() {
+    this.prepareTickets();
     const progress = _.shuffle([
       'Dominating the World...',
       'Crunching Numbers...',
@@ -370,7 +372,7 @@ export class App extends Component {
     const title =
       content.title !== undefined
         ? content.title
-        : `Woohoo! You have ${this.tickets.countStr} to WDS 2019!`;
+        : `Woohoo! You have ${this.tickets.countStr} to WDS 2020!`;
     return (
       <Section color="orange" styleName="shell" className="fillScreen">
         <Image
@@ -387,7 +389,7 @@ export class App extends Component {
         />
         <Block align="center" textAlign="center">
           <Image
-            src="logo.png"
+            src="v2/logo2020.png"
             width="123"
             height="26"
             fit="contain"

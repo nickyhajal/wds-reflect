@@ -18,13 +18,13 @@ class Tweet extends React.Component {
     super();
     autoBind(Object.getPrototypeOf(this));
     this.state  ={
-      tweet: `Just setup my attendee profile for WDS! #WDS2019`,
+      tweet: `Just setup my attendee profile for WDS! #WDS2020`,
       status: 'ready',
     };
   }
   componentDidMount(props) {
     this.setState({
-      tweet: `Just setup my attendee profile for WDS! Check it out: http://wds.fm/~${this.props.auth.me.user_name} #WDS2019`,
+      tweet: `Just setup my attendee profile for WDS! Check it out: http://wds.fm/~${this.props.auth.me.user_name} #WDS2020`,
     });
   }
   setInp(inp) {

@@ -75,7 +75,7 @@ const Image = (props) => {
     css.backgroundPosition = `center ${props.position}`;
   }
 
-  if (props.clip) {
+  if (props.clip && !is.phone()) {
     const clip = angler(props.clip);
     css.clipPath = clip;
     css.WebkitClipPath = clip;

@@ -7,30 +7,30 @@ color="white"
 preload
 >
 <Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
-<Block width="600px" color="orange" css={{marginTop: '80px' }}>
-  <h2 style={{ marginBottom: '4px' }}>WDS 2020 (Our Final Year!)</h2><p></p>
-    ## --SOLD OUT-- 
+<Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
+  <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2020</h2><p></p>
+    ## Tuesday, June 23rd - Monday, June 29th, 2020
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
-    <p>Since 2011, WDS has brought together more than 10,000 people from over forty countries and all 50 states. As adventurers from all walks of life, our mission is to create a remarkable community that helps each person pursue their own dreams.</p>
+<p>Join us as we celebrate 10 years of <i>community, adventure, and service</i> at the final, World Domination Summit.</p>
 
-    <p><i>All that’s missing is YOU!</i></p>
+For 2020, we are returning to the beautiful and intimate Newmark Theater, bringing back the WDS Connect experience, and as always, we'll have a few suprises for our time together. All that’s missing is YOU!
+  
+<p>WDS tickets cost <b>$697</b>! (payment plan: an initial payment of $95 + 3-monthly payments of $204)</p> 
 
-    <p>For 2020 we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
+<p>These are non-refundable, sold on a first-come, first-served basis, and up to 3 tickets can be purchased (login required). This special offer is only available to WDS 2019 attendees, and expires at <b>midnight PDT on Tuesday, July 2nd.</b></p>
+<p><i>(Please review our <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">WDS Ticket, Terms and Conditions.</a>)</i></p>
+       
+Make sure you reserve your spot for the final year before tickets sell out! 
 
-    <Block color="canvas" width="750px" align="center" padding="3rem 1.7rem" margin="2rem 0 4rem" background="canvas" >
-        <TicketCounter type="countup" />
-    </Block>
-    
-    <p><b>WDS Tickets are $697*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan is available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
-
-
-  </Block>
+<Button to="/be-there" fitToText>Get Your Ticket to WDS 2020 (Payment Plan)</Button>
+       
+         </Block>
 </Section>
-       <Section color="blue" bound={false}>
+       <Section color="sea" bound={false}>
 <Block margin="50px 0 50px 0">
-## What's Included in My WDS Ticket
+  <h2 style={{color: "#fff"}}>What's Included in My WDS Ticket</h2>
   <Grid numCols="2" tabletCols="2" block={{ className: 'dropped-button' }} equalize>
       <Block type="image" src="photos/JoinUs/image-speakers.png">
       ## Main Stage Speakers
@@ -40,7 +40,7 @@ preload
       ## Connect
       From fun social gatherings to focused discussions, choose from a variety of special WDS hosted adventures and activities throughout the week with the purpose of meeting and connecting with other attendees.
     </Block>
-    <Block type="image" src="photos/wds-meetups.jpg">
+    <Block type="image" src="photos/JoinUs/image-meetups.jpg">
       ## Meetups
       Every year attendees help lead over 100+ meetups in and around Portland. Share your expertise. Coordinate an adventure. Meet others that share your passions and interests. The best part is you can do all three!
     </Block>
@@ -52,19 +52,21 @@ preload
       ## Academies
       These half-day workshops feature some of our favorite alumni speakers and select WDS community members that are experts in their fields. As a WDS ticket holder you get first access to the Academy of your choice at a huge discount.
     </Block>
-     <Block type="image" src="https://s3.amazonaws.com/el-files-wds/images/Duniway-portland-WDS-partner.jpg">
+     <Block type="image" src="photos/society-hotel.jpg">
       ## Hotel Discounts
-      Each year we partner with iconic Portland properties to offer our attendees special discounted prices when booking your stay in Portland.
+      Each year we partner with iconic Portland properties to offer our attendees special discounted prices when booking your stay in Portland.  
     </Block>
     <Block type="image" src="photos/JoinUs/image-parties.jpg">
       ## Celebrations
       There's nothing better than celebrating community. Kick-off WDS and meet new friends at the welcome party and dance the night away with them at the closing celebration.
     </Block>
-    <Block type="image" src="photos/community2.jpg">
+    <Block type="image" src="photos/JoinUs/image-communities.jpg">
       ## Community
-      Once you attend WDS you'll become an alum and part of a global network of over 10,000 adventurers who will continue to support you and your journey.
+      Once you attend WDS you'll become an alum and part of a global network of over 10,000 adventurers who will continue to support you and your journey. 
     </Block>
   </Grid>
+  <div style={{ marginTop: "80px"}} />
+  <Button to="/be-there" fitToText>Get Your Ticket to WDS 2020</Button>
 </Block>
 </Section>
-<Import id="join-us" />
+

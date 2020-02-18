@@ -37,3 +37,18 @@
   }
 
 }
+
+@media screen and (max-width: 1364px) {
+  .ticket {
+    top: -231px;
+    height: 309px !important;
+    width: 216px !important;
+  }
+}
+@media screen and (max-width: 1254px) {
+  .ticket {
+    top: -205px;
+    height: 272px !important;
+    width: 190px !important;
+  }
+}

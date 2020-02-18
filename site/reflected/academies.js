@@ -44,7 +44,7 @@ import YearReviews from '../../site/components/YearReviews';
 >
   <Image src="v2/headings/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## WDS Academies are back for 2019! {'\n'}
+    ## WDS Academies will be back for 2020 with an all-star lineup! {'\n'}
 At a WDS Academy, you might learn how to develop a fulfilling writing practice, build or business through Youtube, or what it's like to build and live in a tiny house. {'\n'}
 You'll have the opportunity to learn something new to help live your _own_ remarkable life story. It's a great way to lead into the main events of the WDS weekend and keep the conversations going afterward.{'\n'}
   This short video shows more of what it's all about:{'\n'}
@@ -63,21 +63,25 @@ There is no limit to how many Academies you can register for, but please note th
 
 If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. {'\n'}
 
+### Sorry We Missed You For 2019!{'\n'}
+
+_Academies for this year have concluded but will return for 2020 (our final year). Please use the following WDS 2019 Academies schedule as reference._ {'\n'}
+
 </Block>
 <EventList year={19} type="academy" title="WDS 2019 Academies" />
 </Section>
 <Section color="canvas" overflow="hidden" burst>
-  <Block margin="60px 0 30px">## WDS Tickets are On Sale!</Block>
+  <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-    We release WDS tickets for a few weeks each year and now is your chance! Are you ready to be part of an experience that will change your life forever?{'\n'}
+  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.{'\n'}
   </Block>
-  <Button styling="white" align="center" to={(
+  {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
-  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+  )} style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button> */}
   <Block width="400px" align="center" margin="50px 0 90px" css={{ maxWidth: "400px" }}>
     <TicketCounter type="countup" />{'\n'}
   </Block>
-  <JoinUsButton />
+  {/* <JoinUsButton /> */}
   <div className="clear" />
 </Section>
 

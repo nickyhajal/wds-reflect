@@ -54,6 +54,12 @@
     font-size: 34px;
     margin-bottom: 40px;
   }
+  :global(.block-color-canvas) h2 {
+    color: $orange;
+  }
+  :global(.block-color-gray) h2 {
+    color: $orange;
+  }
 }
 
 :global(.scriptHeader) {

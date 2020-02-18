@@ -11,11 +11,11 @@
     ## Why WDS?
     Way back in 2011, we invited 500 friends to Portland, Oregon. Our common curiosity brought us together to explore one question: _How do we live a remarkable life in a conventional world?_  
 
-Fast forward to 2019, and we’re still exploring that question every summer with an in-person gathering that has now included **more than 10,000 people from all 50 states and more than 40 countries** since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guinness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. 
+Fast forward to 2020, and we’re still exploring that question every summer with an in-person gathering that has now included **more than 10,000 people from all 50 states and more than 40 countries** since we started. The stakes and stories have grown each year with activities like Bollywood dancing, Academies, Guinness World Records, and the creation of a foundation that offers grants to individuals to pursue their dreams and positively impact their community. We call them “Scholarships for Real Life”. 
     
     With a full week of events and an unforgettable keynote speaker-filled weekend, you'll learn from unconventional thinkers, acquire powerful new skills, and go away with an all-new community of friends and supporters.
   
-    This summer (late June/early July), we’re inviting all our friends (you!) to Portland for the ninth WDS. As always, some things this year will be new, but our core principles of **Community, Adventure,** and **Service** will continue to guide our shared pursuit of changing the world.
+    This summer, adventurers from all over the world (you!) will join us in Portland for our final WDS. We'll celebrate 10 years of **Community, Adventure,** and **Service** and our shared pursuit of postively impacting the world.
   </Block>
 </Section>
 <Section color="canvas" bound={false}>

@@ -25,6 +25,10 @@ const is = {
     }
     return 'desktop';
   },
+  safari() {
+    const ua = window.navigator.userAgent.toLowerCase();
+    return ua.indexOf('safari') !== (-1);
+  },
   set(prop, props) {
     // console.info(props, 'props');
     // console.info(prop, 'prop');

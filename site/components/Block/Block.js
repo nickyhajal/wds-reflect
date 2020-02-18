@@ -79,6 +79,9 @@ class Block extends Component {
   }
   render() {
     const props = this.props;
+    if (is.mobile()) {
+      props.clip = false
+    }
     const {
       type, height, imageClip, src, children, className, align, feed,
       clip, label, title, anchor, margin, background, icon, color, padding
@@ -129,7 +132,7 @@ class Block extends Component {
           <div styleName="content" style={divCss}><Markdown>{children}</Markdown></div>
         </div>
       );
-      css.width = '1080px';
+      css.width = is.mobile ? '100%' : '1080px';
       textAlign = 'center';
 
     // COLOR HEADER BLOCK
