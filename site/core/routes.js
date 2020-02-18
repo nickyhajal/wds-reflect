@@ -59,6 +59,7 @@ const routes = (
     <Route path="/billing/:loginhash" component={HashLogin} />
     <Route path="/your-schedule/:loginhash" component={HashLogin} />
     <Route path="/hub/:loginhash" component={HashLogin} />
+    <Route path="/something-special/:loginhash" component={HashLogin} />
     <Route path="/activity/:id" component={Event} />
     <Route path="/activity/:id/:loginhash" component={HashLogin} />
     <Route component={EnsureLoggedIn}>

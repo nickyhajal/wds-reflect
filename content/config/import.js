@@ -17,6 +17,7 @@ import SpeakerList from '../components/SpeakerList/SpeakerList';
 import PersonScroller from '../components/PersonScroller/PersonScroller';
 import Testimonials from '../components/Testimonials/Testimonials';
 import TicketCounter from '../../site/components/TicketCounter/TicketCounter';
+import WordQuestion from '../../site/components/WordQuestion/WordQuestion';
 import Login from '../components/Login/Login';
 import JoinUsButton from '../components/JoinUsButton/JoinUsButton';
 import ResetPass from '../components/ResetPass/ResetPass';
