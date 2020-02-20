@@ -106,6 +106,10 @@ const WordQuestion = styled(WordQuestionRaw)`
         font-size: 22px;
         color: #0F54ED;
         min-width: 380px;
+        @media screen and (max-width: 544px) {
+          min-width: calc(100% - 40px);
+          font-size: 18px;
+        }
       }
       span {
         color: #39B54A;
