@@ -1,4 +1,4 @@
-name: "Colin O Brady",
+name: "Colin O'Brady",
 year: "2020",
 headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/ColinOBrady.WDS.2020.speaker.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/ColinOBrady-thumbnail.png",
