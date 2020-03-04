@@ -3,7 +3,7 @@ year: "2020",
 headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Arlan-Hamilton.WDS.2020.speaker.png",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Arlan-Hamilton-Thumbnail.png",
 video: "",
-headerPosition: "-10px",
+headerPosition: "-20px",
 quote: "",
 ---
 **Arlan Hamilton** built a venture capital fund from the ground up, while homeless. She is the Founder and Managing Partner of **[Backstage Capital](https://backstagecapital.com/)**, a fund that is dedicated to minimizing funding disparities in tech by investing in high-potential founders who are people of color, women, and/or LGBT. 
