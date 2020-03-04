@@ -1,6 +1,6 @@
 name: "Chris Guillebeau",
-year: "2019",
-headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/chris.guillebeau.wds.png",
+year: "2020",
+headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Chris-Guillebeau-WDS-2019-stage.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/photos/Chris+Guillebeau.jpg",
 video: "",
 quote: "",
