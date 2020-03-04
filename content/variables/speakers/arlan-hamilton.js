@@ -1,6 +1,6 @@
 name: "Arlan Hamilton",
 year: "2020",
-headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Arlan-Hamilton.WDS.2020.speaker.jpg",
+headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Arlan-Hamilton.WDS.2020.speaker.png",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Arlan-Hamilton-Thumbnail.png",
 video: "",
 headerPosition: "-20px",
