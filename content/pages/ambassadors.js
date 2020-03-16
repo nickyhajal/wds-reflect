@@ -64,7 +64,7 @@ If you’re not able to volunteer 20 hours but still want to help, we’re not a
 Possibly. We have had extensive interest from volunteers, and we anticipate that we may not be able to accept anyone. Being a previous Ambassador will help your chances, but we cannot guarantee that all previous Ambassadors will be able to return again.
 
 ### When should I apply by? 
-To ensure the best chance of being selected, please apply by **March 15, 2020**. 
+Ambassador applications are now closed. Thanks for your interest!. 
 
 ### Anything happening ahead of the event? 
 Each year we host an Ambassador Meet and Greet to reconnect with old friends and to meet new ones. It also gives us a chance to share a ‘sneak peek’ of what’s to come. This year’s Meet and Greet will be held in early May, exact date and time TBD. 
@@ -77,11 +77,11 @@ Email Tina at concierge@wds.fm and we’ll get everything straightened out!
  <Block type="padded" background="blue">
     <Image src="icon/circle-map-green.png" width="101" height="78"  align="center" margin="0 0 40px 0" />
         <Block cols="5">
-      ## Okay, ready to apply? Let’s do this! 
-      Click the button below to get started.
+      ## Sorry we missed you! 
+      Thanks so much for your interest in volunteering for WDS 2020. However, as of March 15, Ambassador applications are closed. 
       
       _Please note: We recommended completing the application on a computer, as some users have reported trouble submitting the form from their phones._
-           <Button to="https://worlddominationsummit.com/ambassador-apply" newWindow={true} styling="sea" fitToText>WDS 2020 Ambassador Application</Button> 
+           <Button to="" newWindow={true} styling="sea" fitToText>Application Are No Longer Available</Button> 
     </Block>
   </Block>
 
