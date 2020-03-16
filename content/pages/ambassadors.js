@@ -80,7 +80,7 @@ Email Tina at concierge@wds.fm and we’ll get everything straightened out!
       ## Sorry we missed you! 
       Thanks so much for your interest in volunteering for WDS 2020. However, as of March 15, Ambassador applications are closed. 
       
-      _Please note: We recommended completing the application on a computer, as some users have reported trouble submitting the form from their phones._
+      If you have any questions, please reach out to us at concierge@wds.fm.
            <Button to="" newWindow={true} styling="sea" fitToText>Application Are No Longer Available</Button> 
     </Block>
   </Block>
