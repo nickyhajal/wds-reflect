@@ -18,8 +18,7 @@ For everyone who _was_ able to join (our apologies again), thank you so much! I 
 <p>Yours in sanitization,</p>
 
 <p>Chris Guillebeau</p>
-<p><iframe src="https://player.vimeo.com/video/399025561?autoplay=1&muted=1" width="710" height="430" frameborder=“0” allowfullscreen allow=autoplay></iframe></p>
-<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoId="399025561" width="710" height="430"/>
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="399025561" width="710" height="430"/>
 </Block>
 </Section>
 <Import id="join-us" />
