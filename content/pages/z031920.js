@@ -6,7 +6,7 @@
   color="white"
   preload
 >
-  <Image src="v2/headings/community.png" width="565px" height="169px" className="scriptHeader" preload/>
+  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/community.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Community Call #1 
 For everyone who _was_ able to join (our apologies again), thank you so much! I wasn't sure if people would want to hang out online ... but it seems like many of us do. :) 
@@ -18,8 +18,7 @@ For everyone who _was_ able to join (our apologies again), thank you so much! I 
 <p>Yours in sanitization,</p>
 
 <p>Chris Guillebeau</p>
-
-  </Block>
-<Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoId="399025561" width="710" height="430"/>
+</Block>
 </Section>
 <Import id="join-us" />
