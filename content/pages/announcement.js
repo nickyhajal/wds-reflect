@@ -6,9 +6,9 @@
   color="white"
   preload
 >
-  <Image src="https://cascade.madmimi.com/promotion_images/1478/1610/original/2014-WDS-question.jpg?1585590463" width="565px" height="169px" className="scriptHeader" preload/>
+  <Image src="https://cascade.madmimi.com/promotion_images/1478/1610/original/2014-WDS-question.jpg?1585590463" width="100%" height="533px" />
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/>
+    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/> 
     
     Dear WDS Community,  
     
@@ -29,7 +29,7 @@
     - **WDS Week:** Tuesday, June 22 to Sunday, June 27  
     - **Main Events:** Thursday, June 24 to Sunday, June 27 
     
-    <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="565px" height="169px" className="scriptHeader" preload/> 
+    <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" />
     
     ## What's Next?  
     
