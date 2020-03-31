@@ -7,8 +7,7 @@
   preload
 >
   <Image src="https://cascade.madmimi.com/promotion_images/1478/1610/original/2014-WDS-question.jpg?1585590463" width="100%" height="533px" />
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/> 
+  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px"> 
     
     Dear WDS Community,  
     
@@ -17,7 +16,9 @@
     As we continue to monitor the global situation, we've come to the decision to **postpone WDS 2020 until the summer of 2021**. This wasn't an easy decision, but we feel it's the right one given the ever-changing situation and uncertainty.  
     
     We want to make sure that when we gather again to celebrate (and we will gather again), we'll do so under the best possible circumstances. As I’m sure you’re aware, more and more it’s looking like this summer is not the best time.  
-    
+
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/>
+
     ## Important: WDS is Not Canceled. 
     
     We remain committed to hosting a final WDS. This event is important to all of us, and the entire core team is dedicated to seeing it through. Before this happened, we were working on some big plans for the event … and those plans will still take place, just not right away.  
