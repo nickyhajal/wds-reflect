@@ -15,7 +15,7 @@
     
     As we continue to monitor the global situation, we've come to the decision to **postpone WDS 2020 until the summer of 2021**. This wasn't an easy decision, but we feel it's the right one given the ever-changing situation and uncertainty.  
     
-    We want to make sure that when we gather again to celebrate (and we will gather again), we'll do so under the best possible circumstances. As I’m sure you’re aware, more and more it’s looking like this summer is not the best time.  
+    We want to make sure that when we gather again to celebrate (and we will gather again), we'll do so under the best possible circumstances. As I’m sure you’re aware, more and more it’s looking like this summer is not the best time. Watch the video below to learn more about the thought process behind the decision.  
 
 <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/>
 
