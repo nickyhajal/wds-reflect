@@ -5,11 +5,21 @@ import { Link, browserHistory } from 'react-router';
 import auth from '../utils/auth';
 
 class HashLoginComponent extends Component {
+  constructor() {
+    super()
+    this.count = 0
+    this.state = {
+      count: 0,
+    };
+  }
   componentDidMount() {
     this.checkHash();
   }
   componentDidUpdate() {
-    this.checkHash();
+    if (this.count < 5) {
+      this.checkHash();
+    }
+    this.count += 1;
   }
   checkHash() {
     if (this.props.auth.me) {

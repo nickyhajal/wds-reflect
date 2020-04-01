@@ -17,6 +17,7 @@ import SpeakerList from '../components/SpeakerList/SpeakerList';
 import PersonScroller from '../components/PersonScroller/PersonScroller';
 import Testimonials from '../components/Testimonials/Testimonials';
 import TicketCounter from '../../site/components/TicketCounter/TicketCounter';
+import WordQuestion from '../../site/components/WordQuestion/WordQuestion';
 import Login from '../components/Login/Login';
 import JoinUsButton from '../components/JoinUsButton/JoinUsButton';
 import ResetPass from '../components/ResetPass/ResetPass';
@@ -122,6 +123,24 @@ import YearReviews from '../../site/components/YearReviews';
   </Block>
   
  <Grid margin="60px 0 -20px 0">
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg">
+      ## Hotel Zags {'\n'}
+      The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.{'\n'}
+      
+      Use the button or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**{'\n'}
+      
+        <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
+  <Button to="https://aonc.co/2tstT4q" newWindow={true} >Book Now!</Button> 
+</Block>
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
+      ## Paramount Hotel {'\n'}
+      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
+      
+      Use the button below or call **(503)223-9900**. Make sure to reference **WDS20** for the special group rate.{'\n'}
+      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
+        
+     <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Book Now!</Button> 
+ </Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Partner-Hotels-Locations-WDS-2020.png">
       ## Perfectly Located{'\n'}
       Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   {'\n'}
@@ -132,34 +151,16 @@ import YearReviews from '../../site/components/YearReviews';
        
       <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
     </Block>
-<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/wds-hotel/standard-room1.jpg">
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/wds-hotel/standard-room1-bw.jpg">
       ## The WDS Hotel™{'\n'}
       We've reserved an entire boutique hotel in Portland's Old Town Chinatown just for attendees. The WDS Hotel™ features a variety of fun room types and social areas including a coffee shop/co-working area and a beautiful rooftop to take in breathaking Portland vistas.  {'\n'}
       
-      **Limited capacity** and based on a 4-night package. Use the botton below to reserve your room.{'\n'}
+      **Limited availability** Based on a 4-night package. Use the botton below to reserve your room.{'\n'}
         
      <p>0.8 Mi From the Main Stage <Link to="https://goo.gl/maps/yAmfYNzFDgRgDk7y7">(Google Directions)</Link></p> 
         
-    <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >Coming Soon!</Button> 
+    <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >SOLD OUT!</Button> 
 </Block>
-  <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg">
-      ## Hotel Zags {'\n'}
-      The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.{'\n'}
-      
-      Use the button or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**{'\n'}
-      
-        <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
-  <Button to="https://aonc.co/2tstT4q" newWindow={true} >Coming Soon</Button> 
-</Block>
-<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
-      ## Paramount Hotel {'\n'}
-      The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
-      
-      Use the button below or call **(503)223-9900**. Make sure to reference **WDS20** for the special group rate.{'\n'}
-      <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
-        
-     <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Coming Soon!</Button> 
- </Block>
   </Grid>
   
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">

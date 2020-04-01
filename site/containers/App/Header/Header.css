@@ -14,6 +14,27 @@
     font-size: 20px;
     padding-top: 14px;
   }
+  &:global(.covid) {
+    background: $canvas;
+    color: $red;
+    font-family: Vitesse;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 310px;
+    padding-top: 10px;
+    a {
+      display: inline-block;
+      color: #E54B2C;
+      font-size: 15px;
+      background: #ccc;
+      padding: 7px 14px 8px;
+      background: #f7e0d3;
+      margin-left: 1rem;
+      &:hover {
+        background: #ffdecb;
+      }
+    }
+  }
 
   a {
     font-family: VitesseBook;
@@ -101,6 +122,10 @@
 }
 :global(.greenpage) .logo {
   background-image: url(https://files.wds.fm/images/v2/logo-blue2020.png);
+}
+.covid {
+  background: $orange;
+  color: $white;
 }
 
 .nav {

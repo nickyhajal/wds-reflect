@@ -39,6 +39,7 @@ const auth = {
     });
   },
   loginWithHash(id, autohide = false) {
+    console.log('>>> loginwithash')
     return (new Promise((resolve, reject) => {
       auth.login(id, false, autohide)
       .then(resolve)

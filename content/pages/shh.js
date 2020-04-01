@@ -9,7 +9,7 @@
   <Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
   <Block width="600px" css={{ color: 'orange', marginTop: '80px' }}>
     <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2018:</h2><p></p>
-    ## June 26 - July 2, 2018 in Portland, Oregon
+    ## June 26 - July 2, 2019 in Portland, Oregon
 
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
