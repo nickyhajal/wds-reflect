@@ -33,9 +33,9 @@
     
     ##### What are the new dates for WDS in 2021?  
 
-    
-    - **WDS Week:** Tuesday, June 22 to Sunday, June 27  
-    - **Main Events:** Thursday, June 24 to Sunday, June 27 
+    <p><ul>
+    <li>**WDS Week:** Tuesday, June 22 to Sunday, June 27</li>  
+    <li>**Main Events:** Thursday, June 24 to Sunday, June 27</li></ul></p>  
     
 
     ##### Where will WDS take place?  
@@ -68,11 +68,15 @@
     
     ##### What if I booked accomodations through an official hotel partner (Paramount & Hotel Zags)?  
     
-    Please contact our hotel partners directly to cancel your reservations.
+    Please contact our hotel partners directly to cancel your reservations.  
+                            
+    ## I have more questions...  
+    
+    Contact our year-round concierge team at [concierge@wds.fm](mailto:concierge@wds.fm) and they'll do their best to assist you.
                             
    <Image src="https://cascade.madmimi.com/promotion_images/1452/9125/original/48153223311_d99938c952_k.jpg?1584493145" width="100%" height="533px" />
                             
-    ## Hang in There!  
+    ##### Hang in There!  
     
     Thank you for your understanding during these challenging times. The WDS community is mighty—we will make it through this!  
     
