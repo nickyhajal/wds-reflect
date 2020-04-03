@@ -19,6 +19,7 @@
 
 <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/>
 
+  
     
   ## Important: WDS is Not Canceled. 
     
@@ -29,13 +30,14 @@
       <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" />
 
     
+        
 ## FAQs About WDS Postponement    
     
     ##### What are the new dates for WDS in 2021?  
       
-      - **WDS Week:** Tuesday, June 22 to Sunday, June 27. 
-        
-      - **Main Events:** Thursday, June 24 to Sunday, June 27. 
+    **WDS Week:** Tuesday, June 22 to Sunday, June 27.  
+      
+    **Main Events:** Thursday, June 24 to Sunday, June 27. 
     
 
     ##### Where will WDS take place?  
@@ -76,7 +78,9 @@
                             
    <Image src="https://cascade.madmimi.com/promotion_images/1452/9125/original/48153223311_d99938c952_k.jpg?1584493145" width="100%" height="533px" />
                             
-    ##### Hang in There!  
+    
+     
+     ##### Hang in There!  
     
     Thank you for your understanding during these challenging times. The WDS community is mighty—we will make it through this!  
     
