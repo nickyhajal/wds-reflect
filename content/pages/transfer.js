@@ -10,7 +10,7 @@
         
         <p>Starting January 1, 2021, a $100 transfer fee will be required per transfer.</p>
 
-        <p><b>The last day to transfer a WDS ticket is May 12, 2021.<b> No further transfers or name changes will be possible after this date.</i></p>
+        <p><b>The last day to transfer a WDS ticket is May 12, 2021.</b> No further transfers or name changes will be possible after this date.</p>
 
     </Transfer>
   </Block>
