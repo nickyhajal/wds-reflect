@@ -24,24 +24,50 @@
     We remain committed to hosting a final WDS. This event is important to all of us, and the entire core team is dedicated to seeing it through.  
     
     Before this happened, we were working on some big plans for the event … and those plans will still take place, just not right away.  
+      
+      <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" />
+
+    ## FAQs About WDS Postponement    
     
-    ## New WDS Dates for 2021  
-    
-    We've already confirmed the following dates for next year:  
+    #### What are the new dates for WDS in 2021?  
     
     - **WDS Week:** Tuesday, June 22 to Sunday, June 27  
     - **Main Events:** Thursday, June 24 to Sunday, June 27 
+        
+    #### Where will WDS take place?  
     
-    <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" />
+    WDS will remain in Portland and the main stage sessions will still be at the Newmark Theatre.    
     
-    ## What's Next?  
+    ## Ticket Information  
     
-    I wanted to make sure that everyone knew about this important decision ASAP, since I know it affects your schedule and plans.  
+    #### What happens to my ticket now that the summit is postponed for a year?  
     
-    Our team is working to reconfigure a lot of logistics and plans. We’ll email updates as they become available so keep checking your inbox.  
+    Your ticket has already been rolled over to next year's event. No further action is needed here.  
+
+    #### Is WDS still sold out? 
     
-    We’ll also **update this page** (you might want to bookmark it). Please know that we'll be working as quickly as possible, but a lot of things are beyond our control at the moment.  
+    Yes, WDS is still sold out. We will not be releasing more tickets.  
+    
+    #### Can I get a refund for my ticket?
+    
+    WDS tickets are non-refundable and have been since year one. If you are not planning to attend, you can transfer your ticket to someone else. The $100 transfer fee has been waived from now until the end of this year, 2020.  
                                                        
+    #### How do I transfer my ticket?  
+    
+    Go to [wds.fm/transfer](https://worlddominationsummit.com/transfer) and login. You’ll then be asked to provide a name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2021, a $100 transfer fee will be required to complete the process. The last day to transfer a WDS ticket is May 12, 2021 (40 days prior to WDS). 
+
+    ## Hotel Questions  
+    
+    #### What happens to my WDS Hotel package that I purchased for this year?  
+                            
+    That reservation has been cancelled by the hotel and any charges will be refunded within 1-2 weeks.  
+    
+    #### What if I booked accomodations through an official hotel partner (Paramount & Hotel Zags)?  
+    
+    Please contact our hotel partners directly to cancel your reservations.
+                            
+   <Image src="https://cascade.madmimi.com/promotion_images/1452/9125/original/48153223311_d99938c952_k.jpg?1584493145" width="100%" height="533px" />
+                            
     ### Hang in There!  
     
     Thank you for your understanding during these challenging times. The WDS community is mighty—we will make it through this!  
