@@ -19,22 +19,25 @@
 
 <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/>
 
-    ## Important: WDS is Not Canceled. 
+    
+  ## Important: WDS is Not Canceled. 
     
     We remain committed to hosting a final WDS. This event is important to all of us, and the entire core team is dedicated to seeing it through.  
     
     Before this happened, we were working on some big plans for the event … and those plans will still take place, just not right away.  
       
       <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" />
-&nbsp
+
     
 ## FAQs About WDS Postponement    
     
     ##### What are the new dates for WDS in 2021?  
+
     
     - **WDS Week:** Tuesday, June 22 to Sunday, June 27  
     - **Main Events:** Thursday, June 24 to Sunday, June 27 
-        
+    
+
     ##### Where will WDS take place?  
     
     WDS will remain in Portland and the main stage sessions will still be at the Newmark Theatre.    
