@@ -34,10 +34,9 @@
 ## FAQs About WDS Postponement    
     
     ##### What are the new dates for WDS in 2021?  
-      
-    **WDS Week:** Tuesday, June 22 to Sunday, June 27.  
-      
-    **Main Events:** Thursday, June 24 to Sunday, June 27. 
+     
+    
+    **WDS Week:** Tuesday, June 22 to Sunday, June 27 | **Main Events:** Thursday, June 24 to Sunday, June 27. 
     
 
     ##### Where will WDS take place?  
@@ -80,9 +79,9 @@
                             
     
      
-     ##### Hang in There!  
-    
-    Thank you for your understanding during these challenging times. The WDS community is mighty—we will make it through this!  
+     ### Hang in There!  
+   
+   Thank you for your understanding during these challenging times. The WDS community is mighty—we will make it through this!  
     
     Wiping down counters,  
     
