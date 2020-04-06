@@ -79,7 +79,7 @@
                             
     
      
-     ### Hang in There!  
+     ### Team Everybody 
    
    We're still sad WDS is not happening, but the good news is that it will continue for another year.  _Hang in there!_  
     
