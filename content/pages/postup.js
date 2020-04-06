@@ -59,8 +59,8 @@
                                                        
     ##### How do I transfer my ticket?  
     
-    Go to [wds.fm/transfer](https://worlddominationsummit.com/transfer) and login. You’ll then be asked to provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2021, a $100 transfer fee will be required to complete the process. The last day to complete all transfers is May 12, 2021 (40 days prior to WDS). 
-
+    Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2021, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2021** (40 days prior to WDS).  
+    
     ## Hotel Questions  
     
     ##### What happens to my WDS Hotel package that I purchased for this year?  
@@ -73,7 +73,7 @@
                             
     ## I have more questions...  
     
-    Contact our year-round concierge team at [concierge@wds.fm](mailto:concierge@wds.fm) and they'll do their best to assist you.
+    Contact our year-round concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they'll do their best to assist you.
                             
    <Image src="https://cascade.madmimi.com/promotion_images/1452/9125/original/48153223311_d99938c952_k.jpg?1584493145" width="100%" height="533px" />
                             
