@@ -36,40 +36,40 @@
     ##### What are the new dates for WDS in 2021?  
      
     
-    **WDS Week:** Tuesday, June 22 to Sunday, June 27 | **Main Events:** Thursday, June 24 to Sunday, June 27. 
+    **WDS Week:** Tuesday, June 22 to Sunday, June 27 (Main Events: Thursday, June 24 to Sunday, June 27). 
     
 
     ##### Where will WDS take place?  
     
-    WDS will remain in Portland and the main stage sessions will still be at the Newmark Theatre.    
+    WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. We are effectively working to move most of our 2020 plans to 2021—it will be very similar to what we've been working on, just one year later.    
     
-    ## Ticket Information  
+    ## Ticket Information. 
+
+    ##### Am I still registered for WDS?  
     
-    ##### What happens to my ticket now that the summit is postponed for a year?  
-    
-    Your ticket has already been rolled over to next year's event. No further action is needed here.  
+    YES, your ticket has already been rolled over to next year's event. No further action is needed.    
 
     ##### Is WDS still sold out? 
     
-    Yes, WDS is still sold out. We will not be releasing more tickets.  
+    YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.  
     
-    ##### Can I get a refund for my ticket?
+    ##### If I won't be able to attend next year, can I transfer my ticket?
     
-    WDS tickets are non-refundable and have been since year one. If you are not planning to attend, you can transfer your ticket to someone else. The $100 transfer fee has been waived from now until the end of this year, 2020.  
+    YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2020)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
                                                        
     ##### How do I transfer my ticket?  
     
-    Go to [wds.fm/transfer](https://worlddominationsummit.com/transfer) and login. You’ll then be asked to provide a name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2021, a $100 transfer fee will be required to complete the process. The last day to transfer a WDS ticket is May 12, 2021 (40 days prior to WDS). 
+    Go to [wds.fm/transfer](https://worlddominationsummit.com/transfer) and login. You’ll then be asked to provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2021, a $100 transfer fee will be required to complete the process. The last day to complete all transfers is May 12, 2021 (40 days prior to WDS). 
 
     ## Hotel Questions  
     
     ##### What happens to my WDS Hotel package that I purchased for this year?  
                             
-    That reservation has been cancelled by the hotel and any charges will be refunded within 1-2 weeks.  
-    
+    That reservation has been canceled by the hotel, and any charges will be refunded to your original method of payment within 1-2 weeks. If you no longer have access to that method of payment, please let us know and we'll see if we can find an alternative.  
+                            
     ##### What if I booked accomodations through an official hotel partner (Paramount & Hotel Zags)?  
     
-    Please contact our hotel partners directly to cancel your reservations.  
+    Please contact our hotel partners directly to cancel your reservations. Many hotels in Portland are now closed for the foreseeable future, so you shouldn't be liable for any expected charges.  
                             
     ## I have more questions...  
     
@@ -81,7 +81,7 @@
      
      ### Hang in There!  
    
-   Thank you for your understanding during these challenging times. The WDS community is mighty—we will make it through this!  
+   We're still sad WDS is not happening, but the good news is that it will continue for another year.  _Hang in there!_  
     
     Wiping down counters,  
     
