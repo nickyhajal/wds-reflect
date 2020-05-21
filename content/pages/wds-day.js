@@ -21,7 +21,7 @@ Dear WDS Community,
 
 Greetings from WDS HQ where we are social distancing and looking forward to the day we can be together as a community again.
 
-Usually, this is the time of the year that the team and I kick things into another gear to prepare for your arrival to Portland. But strange times call for appropriate action and though we're sad that we wont be meeting for WDS this year, we're excited to annouce the start of something new called, **WDS Day**!
+Usually, this is the time of the year that the team and I kick things into another gear to prepare for your arrival to Portland. But strange times call for appropriate action and though we're sad we wont be meeting for WDS this year, we're excited to annouce the start of something new called, **WDS Day**!
     
     {' '}
     
@@ -29,12 +29,25 @@ Usually, this is the time of the year that the team and I kick things into anoth
 
 <h2>WDS Day</h2>   
 
-Every year on WDS Day, members of this community will commit to doing an activity that honors the WDS core values of — Community, Adventure, and Service. This could mean volunteering or serving at a local food pantry, getting your first tattoo, going on that hike you've always wanted to, learning a new recipe, commiting to meeting someone new, etc... We'll then share those activities online through social media using the #WDSday tag to see each other's adventures.
+One of our ideas to see WDS live on after the final year was through WDS Day - a 24 hour celebration of Community, Adventure, and Service
 
-Prior to the pandemic, we were already having discussions as a community about what does WDS look like after the final year. After hearing feedback from this community and discussing it as a team, we know that the best part about WDS is the people and not the event itself. We know WDS will continue to live on through everyone that has taken part in it. Though we had planned to launch WDS Day this year at WDS, the current times give us a great opportunity to live out our WDS values, today.
+Every year on the last Saturday in June, members of this community will commit to doing an activity that honors WDS.*
 
-This is a free event, opened to the _entire_ WDS community — you!
+This could mean volunteering or serving at a local food pantry, getting your first tattoo, going on that hike you've always wanted to, learning a new recipe, reconnecting with a friend, meeting someone new, etc... We'll then share those activities online through social media using the #WDSday tag to see each other's adventures.
 
+Additional examples ideas include (especially with our current global situation in mind):
+- Learning to cook/bake something new
+- Connecting with a long lost friend
+- Doing something to thank essential workers
+- Hosting an online dance party
+- Taking part in a virtual tour or activity (like a museum or one of the 7 wonders of the world)
+- Learning a new language
+- Create and send a care package
+- Going on a hike or exploring a neighborhood (if it's safe to do so)
+                                               
+After hearing feedback from this community and discussing it as a team, we know that the best part about WDS is the people who make up this community and not the event itself. We know WDS will continue to live on through everyone that has taken part in it. Though we had planned to launch WDS Day this year at WDS, the current times give us a great opportunity to live out our WDS values, today.  
+                                               _*Special for this year, we'll also be hosting a limited number of virtual, attendee-led meetups._
+                                            
   </Block>
 <Video placeholder="photos/WDS-2018-main.jpg" videoId="282373496" cols="8" /> 
    <Block
@@ -50,50 +63,22 @@ This is a free event, opened to the _entire_ WDS community — you!
   >
 Here's some questions and answers to help you plan:
 
-**WDS Day Plan for 2020**
-
+**What is the Schedule/Plan for This Year's WDS Day?**
 First, save the date for this year's WDS Day: **Saturday, June 27, 2020**
 
 On this day we'll do 3 things as a community:  
-- 1) Come together and meet online as a community - think of this as a virtual WDS main stage. We'll have light programming, but more importantly, it will be a time that we can collectively gather together.
-- 2) Attendee-led meetups - one of the cornerstones of any WDS is our attendee-led meetups. Members of the WDS community will host smaller get-togethers centered around different topics.
-- 3) Take part in an activity that honors the WDS core values - what is one thing you could do in honor of WDS?  
+1) **Come together and meet online as a community**: think of this as a virtual WDS main stage. We'll have light programming, but more importantly, it will be a time that we can collectively gather together. A Zoom meeting link will be emailed to all interested participants.
+2) **Take part in an activity that honors the WDS core values**: what is one thing you could do in honor of WDS?  
+3) **Join/Host an Attendee-led, virtual meetup**: one of the cornerstones of any WDS is our attendee-led meetups. Members of the WDS community will host smaller get-togethers centered around different topics.
 
-**Why announce the end two years early?**  
+**How Do I Paricipate in WDS Day?**  
+WDS Day is open to the entire WDS community. To make sure you get all the event information and updates, please sign up with your email at **[this link](http://madmimi.com/signups/37b1184441c943a0a93ac294552aa549/join)**. 
   
-Some people just come to WDS because it's a fun experience, or to network, and that's fine. But for others (including many of our team and ambassadors), this gathering has become very special.
-
-Rather than just say "It's over," we wanted people to be able to prepare for the end, and also to join us in finishing well.
+  **Please note: a WDS Account is required to RSVP for meetups.** All information about the event will be communicated via email and also posted on this page. 
 
 <Image src="future/WDS-2015-Waffles-1.jpg" width="100%" height="541" />
   
 <Image src="future/WDS-2018-opening-party.jpg" width="100%" height="541" /><br/>
-  
-**Is WDS being sold?**
-
-Nope. It's not being sold and it's not for sale. For our final two years, we'll continue to operate on the same model we've had from the beginning: all profits go to the WDS Foundation, a 501(c)(3). The Foundation will then continue to operate until all its distributions have been made.
-
-**What happens next?**  
-  
-We're not sure! Two years is a long time. :) There's no secret plan and we want to focus on putting together a fantastic experience for 2019 and 2020.
-
-**How can I get involved with the final two years?**  
-  
-If WDS has meant something to you in the past, *please plan to return at least one of the years*. As a previous attendee, you know that everyone at the event is a big part of everything. We need you!
-  
-And if you've stumbled on WDS but have yet to attend... now's the time! Join us to help create two amazing, final years.  
- 
- <Image src="future/2015-Closing-Party-1.jpg" width="100%" height="541" /><br/>
-  
-WDS was never just about an event. It has been and will forever be about community. It's been an unforgettable story so far—and I truly believe the best is yet to come.
-
-I look forward to celebrating with you in 2019, 2020, and beyond.
-
-To _Community, Adventure,_ and _Service_,
-
-<Image src="future/cg.png" width="15%" height="52" />
-
-Chris Guillebeau
 
  </Block>
 </Section>
