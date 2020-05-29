@@ -33,7 +33,7 @@ const Btn = styled(Button)`
   width: 100%;
   padding: 19px 16px 16px;
   font-size: 20px;
-  margin-bottom: 16px
+  margin-bottom: 16px;
 `;
 const Label = styled.label`
    color: ${C.color.blue};
@@ -246,13 +246,13 @@ export class MeetupForm extends Component {
             <Select
               onChange={e => this.change.call(this, e, 'format')}
               options={[
-                { value: 'service', label: 'Service (Contribute Together)' },
+                // { value: 'service', label: 'Service (Contribute Together)' },
                 { value: 'discover', label: 'Discover (Class/Workshop)' },
                 { value: 'network', label: 'Network (Hangout/Collaborate)' },
-                {
-                  value: 'experience',
-                  label: 'Experience (Adventure/Activity)',
-                },
+                // {
+                //   value: 'experience',
+                //   label: 'Experience (Adventure/Activity)',
+                // },
               ]}
               name="format"
               clearable={false}
@@ -269,14 +269,14 @@ export class MeetupForm extends Component {
           </Sub>
           <Text name="descr" onChange={this.change} value={this.state.descr} />
         </FormSection>
-        <FormSection>
+        {/* <FormSection>
           <Label>Where will it be hosted? (venue/location name)</Label>
           <Sub>
             Your meetup is much more likely to be accepted if you have a venue planned in advance.
           </Sub>
           <Inp name="place" onChange={this.change} value={this.state.place} />
-        </FormSection>
-        <FormSection>
+        </FormSection> */}
+        {/* <FormSection>
           <Label>
             Venue Address (please enter the actual physical address)
           </Label>
@@ -288,8 +288,8 @@ export class MeetupForm extends Component {
             onChange={this.change}
             value={this.state.address}
           />
-        </FormSection>
-        <FormSection>
+        </FormSection> */}
+        {/* <FormSection>
           <Label>
             Any Special Notes About the Venue/Location
           </Label>
@@ -301,7 +301,7 @@ export class MeetupForm extends Component {
             onChange={this.change}
             value={this.state.venue_note}
           />
-        </FormSection>
+        </FormSection> */}
         <FormSection>
           <Label>
             What kind of person might enjoy this? Who's this for?
@@ -311,7 +311,7 @@ export class MeetupForm extends Component {
           </Sub>
           <Inp name="who" onChange={this.change} value={this.state.who} />
         </FormSection>
-        <FormSection>
+        {/* <FormSection>
           <Label>
             What interests might be associated with your meetup?
           </Label>
@@ -326,7 +326,7 @@ export class MeetupForm extends Component {
               this.setState({ interests });
             }}
           />
-        </FormSection>
+        </FormSection> */}
         <FormSection>
           <Label style={{ width: '330px' }}>
             When will your meetup start?
@@ -489,7 +489,7 @@ export class MeetupForm extends Component {
         </FormSection>
         <FormSection>
           <Label>
-            How many people can attend?
+            How many people can attend? (Max: 50)
           </Label>
           <Sub>
             We'll close your event after it has this many RSVPs
@@ -498,7 +498,7 @@ export class MeetupForm extends Component {
             type="number"
             name="max"
             min="1"
-            max="5000"
+            max="50"
             style={{ width: '90px' }}
             onChange={this.change}
             value={this.state.max}
