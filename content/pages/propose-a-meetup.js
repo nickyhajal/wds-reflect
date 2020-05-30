@@ -40,7 +40,7 @@
     <table className="time-table">
       <tbody>
         <tr><td>Saturday, June 27th</td><td>10:00am - 5:55pm, anytime after 7:00pm.</td></tr>
-        <tr><td>Sunday, June 28th</td><td>Between 12:00am - 10:00am </td></tr>
+        <tr><td>Sunday, June 28th</td><td>Anytime until 8:00pm </td></tr>
       </tbody>
     </table>
 
@@ -49,7 +49,7 @@
 
     <div style={{ padding: '0 32px' }}>
       <p>
-        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://el-files-wds.s3.amazonaws.com/docs/WDS-Virtual-Meetup-Guide-V3.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
+        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://el-files-wds.s3.amazonaws.com/docs/WDS-Virtual-Meetup-Guide-2020.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
       </p>
       <p>
         (Helpful hint: The chances of your meetup getting approved goes up <i><b>astronomically</b></i> if you read and use this document)
