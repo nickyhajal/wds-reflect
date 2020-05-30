@@ -331,6 +331,9 @@ export class MeetupForm extends Component {
           <Label style={{ width: '330px' }}>
             When will your meetup start?
           </Label>
+          <Sub>
+            Please enter your start time in Pacific Time - <a href="https://www.worldtimebuddy.com/?pl=1&lid=5746545" target="_blank">Use this tool to translate times</a>
+          </Sub>
           <FormBox style={{ width: '280px', marginRight: '16px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'date')}
@@ -411,6 +414,9 @@ export class MeetupForm extends Component {
           <Label>
             When will your meetup end?
           </Label>
+          <Sub>
+            Please enter your end time in Pacific Time - <a href="https://www.worldtimebuddy.com/?pl=1&lid=5746545" target="_blank">Use this tool to translate times</a>
+          </Sub>
           <FormBox style={{ width: '280px', marginRight: '16px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'end_date')}
