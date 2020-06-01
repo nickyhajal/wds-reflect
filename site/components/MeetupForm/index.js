@@ -173,6 +173,11 @@ export class MeetupForm extends Component {
       t = e.target;
       id = t.name;
     }
+    if (this.state.end_date === '28' && id === 'end_hour' && +t.value > 8 && this.state.end_pm === '12') {
+      t.value = '08';
+    } else if (this.state.date === '28' && id === 'hour' && +t.value > 8 && this.state.pm === '12') {
+      t.value = '08';
+    }
     const state = {};
     state[id] = t.value;
     this.setState(state);
@@ -187,7 +192,6 @@ export class MeetupForm extends Component {
     const optional = ['venue_note'];
     const params = this.params;
     const req = _.without(Object.keys(params), optional);
-    console.log(req);
     const missing = req.reduce((result, i) => {
       /* if (i === 'date' && this.state[i] === '11') {
         result.push(this.params[i])
