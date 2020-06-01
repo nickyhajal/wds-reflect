@@ -338,14 +338,8 @@ export class MeetupForm extends Component {
             <Select
               onChange={e => this.change.call(this, e, 'date')}
               options={[
-                { value: '25', label: 'Tuesday, June 25th' },
-                { value: '26', label: 'Wednesday, June 26th' },
-                { value: '27', label: 'Thursday, June 27th' },
-                { value: '28', label: 'Friday, June 28th' },
-                { value: '29', label: 'Saturday, June 29th' },
-                { value: '30', label: 'Sunday, June 30th' },
-                { value: '1', label: 'Monday, July 1st' },
-                { value: '2', label: 'Tuesday, July 2nd' },
+                { value: '27', label: 'Saturday, June 27th' },
+                { value: '28', label: 'Sunday, June 28th' },
               ]}
               name="date"
               clearable={false}
