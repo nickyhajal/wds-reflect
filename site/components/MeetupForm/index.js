@@ -44,6 +44,24 @@ const FormSection = styled.div`
   margin-bottom: 32px;
   clear: both;
 `;
+const TimeSection = styled(FormSection)`
+  .timeselect {
+    width:120px;
+  }
+  .dayselect {
+    width:240px;
+  }
+  @media (max-width: 544px) and (orientation: portrait) {
+    .dayselect {
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+    .timeselect {
+      width: calc(33% - 2px);
+    }
+    width: 100%;
+  }
+`;
 const FormBox = styled.div`
   float: left;
 `;
@@ -51,6 +69,15 @@ const Inp = styled.input`
   width: 400px;
   font-size: 16px;
   padding: 16px;
+  @media (max-width: 544px) and (orientation: portrait) {
+    width: 100%;
+  }
+`;
+const SelectShell = styled.div`
+  width: 400px;
+  @media (max-width: 544px) and (orientation: portrait) {
+    width: 100%;
+  }
 `;
 const Text = styled.textarea`
   background: #eeefe9;
@@ -60,6 +87,9 @@ const Text = styled.textarea`
   padding: 12px 10px 10px;
   font-size: 16px;
   width: 400px;
+  @media (max-width: 544px) and (orientation: portrait) {
+    width: 100%;
+  }
 `;
 const Sub = styled.label`
   color: rgb(118, 118, 118) ! important;
@@ -75,6 +105,12 @@ const Sub = styled.label`
     &:last-of-type {
       margin-bottom: 16px;
     }
+    @media (max-width: 544px) and (orientation: portrait) {
+      width: 100%;
+    }
+  }
+  @media (max-width: 544px) and (orientation: portrait) {
+    width: 100%;
   }
 `;
 const Success = styled.div`
@@ -246,7 +282,7 @@ export class MeetupForm extends Component {
           <Sub>
             We use these general categories to help attendees find meetups they&apos;ll enjoy.
           </Sub>
-          <div style={{ width: '400px' }}>
+          <SelectShell>
             <Select
               onChange={e => this.change.call(this, e, 'format')}
               options={[
@@ -264,7 +300,7 @@ export class MeetupForm extends Component {
               value={this.state.format}
               className="onWhite"
             />
-          </div>
+          </SelectShell>
         </FormSection>
         <FormSection>
           <Label>Your Meetup Description:</Label>
@@ -331,14 +367,14 @@ export class MeetupForm extends Component {
             }}
           />
         </FormSection> */}
-        <FormSection>
+        <TimeSection>
           <Label style={{ width: '330px' }}>
             When will your meetup start?
           </Label>
           <Sub>
             Please enter your start time in Pacific Time - <a href="https://www.worldtimebuddy.com/?pl=1&lid=5746545" target="_blank">Use this tool to translate times</a>
           </Sub>
-          <FormBox style={{ width: '280px', marginRight: '16px' }}>
+          <FormBox className="dayselect" style={{ marginRight: '16px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'date')}
               options={[
@@ -352,7 +388,7 @@ export class MeetupForm extends Component {
               className="onWhite"
             />
           </FormBox>
-          <FormBox style={{ width: '120px', marginRight: '4px' }}>
+          <FormBox className="timeselect" style={{ marginRight: '4px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'hour')}
               options={[
@@ -376,7 +412,7 @@ export class MeetupForm extends Component {
               className="onWhite"
             />
           </FormBox>
-          <FormBox style={{ width: '120px', marginRight: '4px' }}>
+          <FormBox className="timeselect" style={{ marginRight: '4px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'minute')}
               options={[
@@ -392,7 +428,7 @@ export class MeetupForm extends Component {
               className="onWhite"
             />
           </FormBox>
-          <FormBox style={{ width: '120px' }}>
+          <FormBox className="timeselect" >
             <Select
               onChange={e => this.change.call(this, e, 'pm')}
               options={[
@@ -407,15 +443,15 @@ export class MeetupForm extends Component {
             />
           </FormBox>
           <div className="clear" />
-        </FormSection>
-        <FormSection>
+        </TimeSection>
+        <TimeSection>
           <Label>
             When will your meetup end?
           </Label>
           <Sub>
             Please enter your end time in Pacific Time - <a href="https://www.worldtimebuddy.com/?pl=1&lid=5746545" target="_blank">Use this tool to translate times</a>
           </Sub>
-          <FormBox style={{ width: '280px', marginRight: '16px' }}>
+          <FormBox className="dayselect" style={{ marginRight: '16px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'end_date')}
               options={[
@@ -429,7 +465,7 @@ export class MeetupForm extends Component {
               className="onWhite"
             />
           </FormBox>
-          <FormBox style={{ width: '120px', marginRight: '4px' }}>
+          <FormBox className="timeselect" style={{ marginRight: '4px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'end_hour')}
               options={[
@@ -453,7 +489,7 @@ export class MeetupForm extends Component {
               className="onWhite"
             />
           </FormBox>
-          <FormBox style={{ width: '120px', marginRight: '4px' }}>
+          <FormBox className="timeselect" style={{ marginRight: '4px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'end_minute')}
               options={[
@@ -469,7 +505,7 @@ export class MeetupForm extends Component {
               className="onWhite"
             />
           </FormBox>
-          <FormBox style={{ width: '120px' }}>
+          <FormBox className="timeselect">
             <Select
               onChange={e => this.change.call(this, e, 'end_pm')}
               options={[
@@ -484,7 +520,7 @@ export class MeetupForm extends Component {
             />
           </FormBox>
           <div className="clear" />
-        </FormSection>
+        </TimeSection>
         <FormSection>
           <Label>
             How many people can attend? (Max: 50)

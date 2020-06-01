@@ -10,7 +10,6 @@
     margin="80px 0 80px"
     background="white"
     type="padded"
-    padding="80px 120px"
     className="bigger"
   >
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
