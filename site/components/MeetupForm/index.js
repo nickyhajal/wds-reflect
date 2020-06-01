@@ -189,9 +189,10 @@ export class MeetupForm extends Component {
     }, 100);
   };
   validate = () => {
-    const optional = ['venue_note'];
+    const optional = ['venue_note', 'place', 'interests', 'address'];
     const params = this.params;
     const req = _.without(Object.keys(params), optional);
+    console.log(optional, params, req)
     const missing = req.reduce((result, i) => {
       /* if (i === 'date' && this.state[i] === '11') {
         result.push(this.params[i])
@@ -244,19 +245,19 @@ export class MeetupForm extends Component {
         <FormSection>
           <Label>What type of meetup will this be?</Label>
           <Sub>
-            We use these general categories to help attendees find meetups they'll enjoy.
+            We use these general categories to help attendees find meetups they&apos;ll enjoy.
           </Sub>
           <div style={{ width: '400px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'format')}
               options={[
                 // { value: 'service', label: 'Service (Contribute Together)' },
-                { value: 'discover', label: 'Discover (Class/Workshop)' },
+                // { value: 'discover', label: 'Discover (Class/Workshop)' },
                 { value: 'network', label: 'Network (Hangout/Collaborate)' },
-                // {
-                //   value: 'experience',
-                //   label: 'Experience (Adventure/Activity)',
-                // },
+                {
+                  value: 'experience',
+                  label: 'Experience (Adventure/Activity)',
+                },
               ]}
               name="format"
               clearable={false}
@@ -517,7 +518,7 @@ export class MeetupForm extends Component {
               Refer to the
               {' '}
               <a
-                href="https://s3.amazonaws.com/el-files-wds/docs/WDS-2019-Meetup-Guide.pdf"
+                href="https://el-files-wds.s3.amazonaws.com/docs/WDS-Virtual-Meetup-Guide-2020.pdf"
                 target="_blank"
               >
                 WDS Meetup Guidelines
