@@ -191,8 +191,7 @@ export class MeetupForm extends Component {
   validate = () => {
     const optional = ['venue_note', 'place', 'interests', 'address'];
     const params = this.params;
-    const req = _.without(Object.keys(params), optional);
-    console.log(optional, params, req)
+    const req = _.without(Object.keys(params), ...optional);
     const missing = req.reduce((result, i) => {
       /* if (i === 'date' && this.state[i] === '11') {
         result.push(this.params[i])
