@@ -72,4 +72,4 @@
     Think about what will best communicate your meetup idea to other attendees, and why it will be attractive and interesting.
     <MeetupForm />
   </Block>
-</Section>;
+</Section>
