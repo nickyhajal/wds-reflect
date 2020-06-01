@@ -304,7 +304,7 @@ export class MeetupForm extends Component {
         </FormSection> */}
         <FormSection>
           <Label>
-            What kind of person might enjoy this? Who's this for?
+            What kind of person might enjoy this? Who&apos;s this for?
           </Label>
           <Sub>
             This is a meetup for...
@@ -528,7 +528,7 @@ export class MeetupForm extends Component {
       <Success id="meetupProposalSuccess">
         <h3>Success!</h3>
         <p>
-          Your meetup was submitted! You'll receive a response back from the WDS Team soon.
+          Your meetup was submitted! You&apos;ll receive a response back from the WDS Team soon.
         </p>
         <p>Thanks for helping make WDS an amazing experience!</p>
         <Button onClick={this.reset}>Submit another meetup</Button>
