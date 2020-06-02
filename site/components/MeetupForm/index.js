@@ -186,6 +186,11 @@ export class MeetupForm extends Component {
     };
     this.state = Object.assign({}, this.defaultState);
   }
+  componentDidMount() {
+    if (!this.props.auth.me) {
+      window.location.href = 'https://worlddominationsummit.com/login';
+    }
+  }
   submit = async e => {
     e.stopPropagation();
     e.preventDefault();
