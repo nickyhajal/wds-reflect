@@ -33,7 +33,7 @@ Though we're sad that we won't be meeting for WDS this year, we're excited to an
 
 Every year on the last Saturday of June, members of the community will commit to doing an activity that honors the WDS core values of Community, Adventure, and Service.
 
-This could mean volunteering at a local food pantry, getting your first tattoo, going on that hike you've always wanted to, learning a new recipe, checking in with an old friend (or making a new one), etc... We'll then share those activities online through social media using #WDSday.
+This could mean volunteering at a local food pantry, getting your first tattoo, going on that hike you've always wanted to, learning a new recipe, checking in with an old friend (or making a new one), etc... We'll then share those activities online through social media using #WDSlocal.
 
 Prior to the pandemic, we were already having discussions as a community about how WDS can live on (independent of the main event) after our final year. We know that the best part about WDS is the people and not the event itself!
 
