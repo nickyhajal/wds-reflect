@@ -187,9 +187,8 @@ export class MeetupForm extends Component {
     this.state = Object.assign({}, this.defaultState);
   }
   componentDidMount() {
-    console.log('me', this.props.auth)
     if (this.props.auth.checked && !this.props.auth.me) {
-      window.location.href = '/login';
+      window.location.href = '/login?propose-a-meetup';
     }
   }
   submit = async e => {

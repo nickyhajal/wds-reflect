@@ -39,6 +39,7 @@ class Login extends React.Component {
     this.state = {
       username: '',
       pw: '',
+      redirect: window.location.search.replace('?'),
     };
   }
 
@@ -54,7 +55,9 @@ class Login extends React.Component {
   }
 
   success() {
-    if (this.props.redirect) {
+    if (this.state.redirect) {
+      browserHistory.replace(`/${this.state.redirect}`);
+    } else if (this.props.redirect) {
       browserHistory.replace('/hub');
     }
   }
