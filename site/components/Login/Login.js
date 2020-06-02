@@ -39,7 +39,7 @@ class Login extends React.Component {
     this.state = {
       username: '',
       pw: '',
-      redirect: window.location.search.replace('?'),
+      redirect: window.location.search.replace('?', ''),
     };
   }
 

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import { browserHistory } from 'react-router';
 import { graphql } from 'react-apollo';
 import styled from 'styled-components';
 import _ from 'lodash';
-import { browserHistory } from 'react-router';
 import moment from 'moment';
 import Select from 'react-select';
 import Section from '../../components/Section/Section';
@@ -188,7 +188,8 @@ export class MeetupForm extends Component {
   }
   componentDidMount() {
     if (this.props.auth.checked && !this.props.auth.me) {
-      window.location.href = '/login?propose-a-meetup';
+      browserHistory.push('/login?propose-a-meetup');
+      // window.location.href = '/login?propose-a-meetup';
     }
   }
   submit = async e => {
