@@ -15,7 +15,7 @@
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
       Make WDS Awesome! Propose a Meetup.
     </h2>
-    The goal of WDS has always been to bring amazing people together who believe in and live out the core values of Community, Adventure, and Service.  For the past 5 years, attendee-led meetups have been an integral part of the WDS experience and the best way for us as a community to learn from each other.
+    The goal of WDS has always been to bring amazing people together who believe in and live out the core values of Community, Adventure, and Service.  For the past 9 years, attendee-led meetups have been an integral part of the WDS experience and the best way for us as a community to learn from each other.
     {' '}
 
     Here are the goals of meetups:
@@ -34,7 +34,7 @@
     As an WDS community member, you have the opportunity to host meetups, attend meetups, or do both using our online system.
 
     ## When Should I Host a Meetup?
-    For WDS Day (June 27th) we’ll host a large community gatherings at 9:00am and 6:00pm Pacific. Meetups should take place around these gatherings (all times listed below are for Pacific Standard Time):
+    For WDS Day (June 27th) We'll come together and meet online as a community at 9:00am and 6:00pm Pacific. Meetups should take place around these gatherings (all times listed below are for Pacific Standard Time):
 
     <table className="time-table">
       <tbody>
@@ -44,7 +44,7 @@
     </table>
 
     ## How to Host a Meetup
-    Want to host an adventure or connction event during WDS Day? Here’s what you need to do:
+    Want to host an Experience or Network meetup during WDS Day? Here’s what you need to do:
 
     <div style={{ padding: '0 32px' }}>
       <p>
