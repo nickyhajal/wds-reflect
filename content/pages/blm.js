@@ -6,7 +6,7 @@
   color="white"
   preload
 >
-  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/BlackLivesMatter.png" width="670px" height="165px" className="scriptHeader" preload/>
+  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/blmheader.png" width="670px" height="79px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS Foundation
    Launched with an initial funding gift at the end of WDS 2013, the World Domination Summit Foundation seeks to put resources in the hands of amazing people who are acting on the three core values of WDS -- community, adventure, and service.
