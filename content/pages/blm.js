@@ -6,28 +6,27 @@
   color="white"
   preload
 >
-  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/blmheader2.png" width="800px" height="94px" className="scriptHeader" preload/>
+  <Image src="" width="800px" height="94px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## WDS Foundation
-   Launched with an initial funding gift at the end of WDS 2013, the World Domination Summit Foundation seeks to put resources in the hands of amazing people who are acting on the three core values of WDS -- community, adventure, and service.
+    ## Committed to Change Not By Our Words, But By Our Actions
+WDS has always and will always be about creating a better world that we want to see exist. One that is inclusive. One that stands up to injustice. One that promotes equity for all. _But we know that this is not the reality..._
 
-We've done this by providing individual grants that we call **'Scholarships for Real Life.'** The goal of these grants has been to empower WDS attendees to pursue their dreams and impact their community.
+**We want to be very clear that we unequivocally denounce racism, Police brutality, white supremacy, and any discrimination against the Black community.**  
 
-As WDS comes to an end in 2020, so too will the Foundation and the Scholarships For Real Life program. Over the past six years, WDS Foundation has granted over $200,000 to fund 21 projects. 2019-2020 is our final grant cycle, and we're looking forward sharing updates from all of our Voyagers over the course of the next year.
+We too demand justice for George Floyd, Breonna Taylor, Ahmaud Arbery, and sadly, so many others. These murders should never have happened and we need systemic change to prevent future deaths. There is no debate. There is no staying silent. Black lives matter.
 
-Watch the announcement of this year's scholarship voyagers and learn more about their inspiring projects below: 
-      
-  <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/2019-WDS-Foundation-Voyagers.jpg" videoId="349973358" width="710" height="430"/>
+And speaking of voices we recognize that ours is not the ones we should be hearing from. Our team has been talking about our own privileges and how we are committing ourselves to actively be a part of real change. Here is a page of resources, voices, and organizations we are learning from and actively supporting. 
+     
       
   </Block>
 </Section>
 <Section color="canvas">
-  <Block>## 2019 Scholarship Voyagers</Block>
+  <Block>## Understanding This Moment</Block>
   <Tabs style="simple">
-    <Tab title="She is the Universe">
-    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/Laura-Pena-WDS-Foundation.jpg" videoId="350007728" width="710" height="430"/>
+    <Tab title="Root of Racial Injustice">
+     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/-aCn72iXO9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
       <Block cols="6" textAlign="left">
-        ## She is the Universe (Laura Peña) - 2019
+        ## Let's Get to the Root of Racial Injustice - Megan Ming Francis
       
       More than ever, young women need strong role models that show them they can accomplish anything and everything they want. The wider media is catching up, featuring more films with women leading, and the extreme success of the US Women’s World Cup domination inspired countless girls everywhere. But seeing the story of a peer can be just as important, if not more, to empower another. 
 
@@ -81,6 +80,19 @@ Through Office Retreat, Keonna will create a community that supports people of c
   <h2 style={{marginBottom: '-60px', position: 'relative', zIndex: '1', textAlign: 'center'}}>All Previous Awardees</h2>
   <PersonScroller personType="awardees" />
   <div class="clear" />
+</Section>
+<Section color="white">
+ <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    ## Committed to Change Not By Our Words, But By Our Actions
+WDS has always and will always be about creating a better world that we want to see exist. One that is inclusive. One that stands up to injustice. One that promotes equity for all. _But we know that this is not the reality..._
+
+**We want to be very clear that we unequivocally denounce racism, Police brutality, white supremacy, and any discrimination against the Black community.**  
+
+We too demand justice for George Floyd, Breonna Taylor, Ahmaud Arbery, and sadly, so many others. These murders should never have happened and we need systemic change to prevent future deaths. There is no debate. There is no staying silent. Black lives matter.
+
+And speaking of voices we recognize that ours is not the ones we should be hearing from. Our team has been talking about our own privileges and how we are committing ourselves to actively be a part of real change. Here is a page of resources, voices, and organizations we are learning from and actively supporting. 
+      
+  </Block>
 </Section>
 <Section color="white">
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
