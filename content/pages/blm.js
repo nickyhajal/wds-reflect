@@ -19,7 +19,7 @@ We too demand justice for George Floyd, Breonna Taylor, Ahmaud Arbery, and sadly
 
 And speaking of voices we recognize that ours is not the ones we should be hearing from. Our team has been talking about our own privileges and how we are committing ourselves to actively be a part of real change. Here is a page of resources, voices, and organizations we are learning from and actively supporting.  
 
-_(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)
+_(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
      
       
   </Block>
@@ -41,7 +41,7 @@ In her award winning book, Civil Rights and the Making of the Modern American St
       </Block>
     </Tab>
      <Tab title="Dominos of Racial Injustice">
-     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/watch?v=v4amCfVbA_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
+     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/v4amCfVbA_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
       <Block cols="6" textAlign="left">
         ## George Floyd, Minneapolis Protests, Ahmaud Arbery & Amy Cooper - Trevor Noah
 
@@ -51,7 +51,7 @@ In her award winning book, Civil Rights and the Making of the Modern American St
       </Block>
     </Tab>
         <Tab title="How Racist Are You?">
-     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/watch?v=6MYHBrJIIFU&t=1573s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
+     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/6MYHBrJIIFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
       <Block cols="6" textAlign="left">
         ## How Racist Are You? - Jane Elliot
 
@@ -67,22 +67,22 @@ An important exercise learning about and understanding racism through a majority
     ## Ways to Take Action
 A short list of resources and links to orgnaizations to help take action:
 
-**Further Reading and Education** 
+## Further Reading and Education 
 
-- How to Be a Better White Person in 2020 [LINK](https://www.theroot.com/how-to-be-a-better-white-person-in-2020-1840868641)
-- Beyond the Hashtag: How to Take Anti-Racist Action in Your Life [LINK](https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234)
-- How to be Anti-Racist [LINK](https://www.cnn.com/2020/06/04/health/how-to-be-an-anti-racist-wellness/index.html)
+- How to Be a Better White Person in 2020 [link](https://www.theroot.com/how-to-be-a-better-white-person-in-2020-1840868641)
+- Beyond the Hashtag: How to Take Anti-Racist Action in Your Life [link](https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234)
+- How to be Anti-Racist [link](https://www.cnn.com/2020/06/04/health/how-to-be-an-anti-racist-wellness/index.html)
 
-**Organizations**
-
-- Black Lives Matter [LINK](https://blacklivesmatter.com/)
-- NAACP [LINK](https://www.naacp.org/)
-- How to be Anti-Racist [LINK](https://www.cnn.com/2020/06/04/health/how-to-be-an-anti-racist-wellness/index.html)
+## Organizations 
                                                  
-**Political Action**
+- Black Lives Matter [link](https://blacklivesmatter.com/)
+- NAACP [link](https://www.naacp.org/)
+- How to be Anti-Racist [link](https://www.cnn.com/2020/06/04/health/how-to-be-an-anti-racist-wellness/index.html)
+                                                 
+## Political Action 
 
-- 8 Can't Wait: 8 policy proposals to reduce police killings and violence [LINK](https://8cantwait.org/)
-- Resist Bot: makes it easy to contact your representatives. They have a specific guide to using their tool to support Black Lives Matter [LINK](https://resist.bot/news/2020/06/02/black-lives-matter)
+- 8 Can't Wait: 8 policy proposals to reduce police killings and violence [link](https://8cantwait.org/)
+- Resist Bot: makes it easy to contact your representatives. They have a specific guide to using their tool to support Black Lives Matter [link](https://resist.bot/news/2020/06/02/black-lives-matter)
 
       
   </Block>
@@ -164,7 +164,7 @@ At WDS 2018, Kellee shared her journey of pursuing a dream of hosting a travel a
       </Block>
     </Tab>
  <Tab title="Matthew">
-    <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/foundation/Matthew-Goins-WDS-Puzzle-Huddle-Thumbnail.jpg" videoId="349993645" width="710" height="430"/>
+    <Video placeholder="https://live.staticflickr.com/65535/48155896102_b828fa25d5_k_d.jpg" videoId="349993645" width="710" height="430"/>
       <Block cols="6" textAlign="left">
         ## Matthew Goins
 
@@ -198,7 +198,7 @@ At WDS 2018, Lindsey shared her journey from climbing the corporate latter quick
 <Section color="white">
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## Our Personal Committment
-Here are 3 steps we are actively committing to:  </Block>
+Here are 3 steps we are actively committing to. Join us?  </Block>
   <Grid numCols="3" tabletCols="2">
     <Block type="color" color="blue">
       ### Listening
