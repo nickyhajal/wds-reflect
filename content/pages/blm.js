@@ -142,7 +142,6 @@ During that time, he founded Planetwalk, a non-profit environmental awareness or
 
       </Block>
     </Tab>
-  </Tab>
     <Tab title="Mirna">
     <Video placeholder="https://s3.amazonaws.com/el-files-wds/images/speakers/Mirna-Valerio-WDS-2018-Main-Stage-Speakers.jpg" videoId="286375551" width="710" height="430"/>
       <Block cols="6" textAlign="left">
