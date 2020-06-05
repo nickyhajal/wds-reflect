@@ -63,29 +63,39 @@ An important exercise learning about and understanding racism through a majority
   <div class="clear" />
 </Section>
 <Section color="white">
- <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## Ways to Take Action
-A short list of resources and links to orgnaizations to help take action:
+  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+    ## Our Personal Committment
+Here are 3 steps we are actively committing to. Join us?  </Block>
+  <Grid numCols="3" tabletCols="2">
+    <Block type="color" color="blue">
+      ### Listening
+     - [Black Lives Matter](https://blacklivesmatter.com/)
+      - [NAACP](https://www.naacp.org/)
+      - Has the applicant identified a list of goals to complete the project?
+    </Block>
+    <Block type="color" color="orange">
+      ### Learning
+      - [How to Be a Better White Person in 2020](https://www.theroot.com/how-to-be-a-better-white-person-in-2020-1840868641)
+      - [Beyond the Hashtag: How to Take Anti-Racist Action in Your Life](https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234)
+     - [How to be Anti-Racist](https://www.cnn.com/2020/06/04/health/how-to-be-an-anti-racist-wellness/index.html)
+    </Block>
+    <Block type="color" color="green">
+      ### Taking Action
+      - [8 Can't Wait](https://8cantwait.org/) (
+      - [Resist Bot Support kit for Black Lives Matter](https://resist.bot/news/2020/06/02/black-lives-matter)
+    </Block>
+  </Grid>
+## Additional Resources      
+- [Ways You Can Help](https://blacklivesmatters.carrd.co/)
+- [Resources for Accountability and Actions for Black Lives](https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ)
+- [Anti-Racism Resources Doc 1](https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs)
+- [Anti-Racism Resources Doc 2](https://docs.google.com/document/d/1PrAq4iBNb4nVIcTsLcNlW8zjaQXBLkWayL8EaPlh0bc)
 
-## Further Reading and Education 
+                  
+                  _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
+  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
 
-- How to Be a Better White Person in 2020 [link](https://www.theroot.com/how-to-be-a-better-white-person-in-2020-1840868641)
-- Beyond the Hashtag: How to Take Anti-Racist Action in Your Life [link](https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234)
-- How to be Anti-Racist [link](https://www.cnn.com/2020/06/04/health/how-to-be-an-anti-racist-wellness/index.html)
-
-## Organizations 
-                                                 
-- Black Lives Matter [link](https://blacklivesmatter.com/)
-- NAACP [link](https://www.naacp.org/)
-- How to be Anti-Racist [link](https://www.cnn.com/2020/06/04/health/how-to-be-an-anti-racist-wellness/index.html)
-                                                 
-## Political Action 
-
-- 8 Can't Wait: 8 policy proposals to reduce police killings and violence [link](https://8cantwait.org/)
-- Resist Bot: makes it easy to contact your representatives. They have a specific guide to using their tool to support Black Lives Matter [link](https://resist.bot/news/2020/06/02/black-lives-matter)
-
-      
-  </Block>
+</Block>
 </Section>
 <Section color="canvas">
   <Block>## Voices Withing Our Own Community</Block>
@@ -196,32 +206,16 @@ At WDS 2018, Lindsey shared her journey from climbing the corporate latter quick
 </Section>                                                 
                                                  
 <Section color="white">
-  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
-    ## Our Personal Committment
-Here are 3 steps we are actively committing to. Join us?  </Block>
-  <Grid numCols="3" tabletCols="2">
-    <Block type="color" color="blue">
-      ### Listening
-      - Does the project serve others and create community?
-      - What is the applicant’s experience with the identified problem and community involved?
-      - Has the applicant identified a list of goals to complete the project?
-    </Block>
-    <Block type="color" color="orange">
-      ### Learning
-      - Can the proposal be realistically completed in a year?
-      - If part of a larger, long-term project, how does the proposal further the overall effort?
-      - Does the applicant have the capacity to execute the proposed solution? If not, how will he/she prepare?
-    </Block>
-    <Block type="color" color="green">
-      ### Taking Action
-      - How will the project involve and inspire others?
-      - Without a scholarship, how does the applicant intend to move forward on the proposed solution?
-    </Block>
-  </Grid>
-      
- _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)
-  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+ 
+## Ways to Financially Support Organizations
+New York Magazine and The Cut have compiled a list of organizations working to support Black lives and communities of color, and if you’re able to help financially, we suggest donating to the groups that resonate most with you.  
+                  **[Where to Donate for Black Lives Matter](https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html)**  
+                  
+**[How to Support the Struggle Against Police Brutality](https://www.thecut.com/article/george-floyd-protests-how-to-help-where-to-donate.html)**
 
-</Block>
+_(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
+     
+      
+  </Block>
 </Section>
-<Import id="join-us" />
