@@ -9,8 +9,8 @@
   <Image src="" width="800px" height="94px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     # Black Lives Matter
+**_Committed to Change: Not By Our Words, But By Our Actions_** 
 
-#### Committed to Change: Not By Our Words, But By Our Actions
 WDS has always and will always be about creating a better world that we want to see exist. One that is inclusive. One that stands up to injustice. One that promotes equity for all. _But we know that this is not the reality..._
 
 **We want to be very clear that we unequivocally denounce racism, police brutality, white supremacy, and any discrimination against the Black community.**  
@@ -63,7 +63,7 @@ An important exercise learning about and understanding racism through a majority
   <div class="clear" />
 </Section>
 <Section color="white">
-  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
+  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="center">
     ## Our Personal Committment
 Here are 3 steps we are actively committing to. Join us?  </Block>
   <Grid numCols="3" tabletCols="2">
@@ -71,7 +71,7 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
       ### Listening
      - [Black Lives Matter](https://blacklivesmatter.com/)
       - [NAACP](https://www.naacp.org/)
-      - Has the applicant identified a list of goals to complete the project?
+      
     </Block>
     <Block type="color" color="orange">
       ### Learning
@@ -81,10 +81,11 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
     </Block>
     <Block type="color" color="green">
       ### Taking Action
-      - [8 Can't Wait](https://8cantwait.org/) (
+      - [8 Can't Wait](https://8cantwait.org/)
       - [Resist Bot Support kit for Black Lives Matter](https://resist.bot/news/2020/06/02/black-lives-matter)
     </Block>
   </Grid>
+ <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
 ## Additional Resources      
 - [Ways You Can Help](https://blacklivesmatters.carrd.co/)
 - [Resources for Accountability and Actions for Black Lives](https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ)
@@ -93,7 +94,6 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
 
                   
                   _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
-  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
 
 </Block>
 </Section>
