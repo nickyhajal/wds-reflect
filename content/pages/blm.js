@@ -15,9 +15,9 @@ WDS has always and will always be about creating a better world that we want to 
 
 **We want to be very clear that we unequivocally denounce racism, police brutality, white supremacy, and any discrimination against the Black community.**  
 
-We too demand justice for George Floyd, Breonna Taylor, Ahmaud Arbery, and sadly, so many others. These murders should never have happened and we need systemic change to prevent future deaths. There is no debate. There is no staying silent. Black lives matter.
+We too demand justice for George Floyd, Breonna Taylor, Ahmaud Arbery, and sadly, so many others. These murders should never have happened and we need systemic change to prevent future deaths. There is no debate. There is no staying silent. **Black lives matter.**
 
-And speaking of voices we recognize that ours is not the ones we should be hearing from. Our team has been talking about our own privileges and how we are committing ourselves to actively be a part of real change. Here is a page of resources, voices, and organizations we are learning from and actively supporting.  
+We recognize that our voices are not the ones we should be hearing from, and that it's our responsibility to amplify Black voices as we figure out how to confront this difficult struggle. Our team has been discussing our own privilege, and how we can commit ourselves to actively be a part of real change. Below is a list of resources, voices, and organizations we are learning from and actively supporting, as well as a list of ways you can help too.  
 
 _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
      
