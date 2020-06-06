@@ -9,17 +9,20 @@
   <Image src="" width="800px" height="94px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     # Black Lives Matter
-**_Committed to Change: Not By Our Words, But By Our Actions_** 
+**_Committed to Change: Through Words AND Actions_** 
 
-WDS has always and will always be about creating a better world that we want to see exist. One that is inclusive. One that stands up to injustice. One that promotes equity for all. _But we know that this is not the reality..._
+WDS is fundamentally about creating a better world. Since our first year in 2011, we’ve been proud to feature a wide range of minority voices from our main stage platform. In 2017, we introduced the concept of “Team Everybody,” as part of a campaign to more forcefully articulate what we stand for and believe. 
 
-**We want to be very clear that we unequivocally denounce racism, police brutality, white supremacy, and any discrimination against the Black community.**  
+Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This isn’t okay! 
 
-We too demand justice for George Floyd, Breonna Taylor, Ahmaud Arbery, and sadly, so many others. These murders should never have happened and we need systemic change to prevent future deaths. There is no debate. There is no staying silent. **Black lives matter.**
+While we are proud that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we agree that <strong>Black Lives Matter</strong>. We want to see justice for all, including George Floyd, Breonna Taylor, Ahmaud Arbery, and the countless others who have been killed or abused by a system of white supremecy.  
 
-We recognize that our voices are not the ones we should be hearing from, and that it's our responsibility to amplify Black voices as we figure out how to confront this difficult struggle. Our team has been discussing our own privilege, and how we can commit ourselves to actively be a part of real change. Below is a list of resources, voices, and organizations we are learning from and actively supporting, as well as a list of ways you can help too.  
+We also know that we can do better. 
 
-_(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
+Our team has been actively discussing how we can continue to be part of accelerating real change. Below is a list of resources, voices, and organizations we are learning from and supporting, as well as a list of ways you can help too.  
+  
+  
+_(Please note: This page is a work in progress, and we'd like your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
      
       
   </Block>
@@ -93,12 +96,12 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
 - [Anti-Racism Resources Doc 2](https://docs.google.com/document/d/1PrAq4iBNb4nVIcTsLcNlW8zjaQXBLkWayL8EaPlh0bc)
 
                   
-                  _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
+                  _(Please note: This page is a work in progress and we'd like your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
 
 </Block>
 </Section>
 <Section color="canvas">
-  <Block>## Voices Withing Our Own Community</Block>
+  <Block>## Some of the Voices Within Our Community</Block>
   <Tabs style="simple">
     <Tab title="Charles">
     <Video placeholder="https://s3.amazonaws.com/el-files-wds/images/speakers/Charles.Hunt.WDS.2017.speaker.png" videoId="229861221" width="710" height="430"/>
@@ -182,7 +185,7 @@ Wouldn’t you want your children to see themselves in the toys they play with? 
 
 **[Puzzle Huddle](http://www.puzzlehuddle.com/)** develops and produces a line of culturally inclusive images manufactured as puzzles. These puzzles are a tool for adults and children to spend meaningful time together working on an activity that will also affirm the child and stretch their imagination.
 
-Through the Scholarship for Real Life from WDS Foundation, Matthew and his family will work with illustrators to expand the existing product line to include a broader range of ethnic, gender and demographic representation, emphasizing women in leadership positions, and larger-sized puzzles._ magazine and advocate for Women in Adventure Travel. At WDS 2019, Matthew share more of his personal story and the origin of Puzzle Huddle.
+Through the Scholarship for Real Life from WDS Foundation, Matthew and his family will work with illustrators to expand the existing product line to include a broader range of ethnic, gender and demographic representation, emphasizing women in leadership positions, and larger-sized puzzles._ magazine and advocate for Women in Adventure Travel. At WDS 2019, Matthew shared more of his personal story and the origin of Puzzle Huddle.
       </Block>
     </Tab>
                   <Tab title="Lindsey">
@@ -213,7 +216,7 @@ New York Magazine and The Cut have compiled a list of organizations working to s
                   **[Where to Donate for Black Lives Matter](https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html)**  
                   
 **[How to Support the Struggle Against Police Brutality](https://www.thecut.com/article/george-floyd-protests-how-to-help-where-to-donate.html)**
-
+<p></p>
 _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
      
       
