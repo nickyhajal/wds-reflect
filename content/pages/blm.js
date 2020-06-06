@@ -8,18 +8,18 @@
 >
   <Image src="" width="800px" height="94px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    # Black Lives Matter
+    # Yes, Black Lives Matter!
 **_Committed to Change: Through Words AND Actions_** 
 
-WDS is fundamentally about creating a better world. Since our first year in 2011, we’ve been proud to feature a wide range of minority voices from our main stage platform. In 2017, we introduced the concept of “Team Everybody,” as part of a campaign to more forcefully articulate what we stand for and believe. 
+WDS is fundamentally about creating a better world. Since our inception in 2011, we’ve been proud to feature a wide range of minority voices from our main stage platform. In 2017, we introduced the concept of _Team Everybody_ as part of a campaign to more forcefully articulate what we stand for and believe. 
 
 Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This isn’t okay! 
 
-While we are proud that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we agree that <strong>Black Lives Matter</strong>. We want to see justice for all, including George Floyd, Breonna Taylor, Ahmaud Arbery, and the countless others who have been killed or abused by a system of white supremecy.  
+While we are proud that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we agree that **Black Lives Matter**. We want to see justice for all, including **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or abused by a system of white supremecy.  
 
 We also know that we can do better. 
 
-Our team has been actively discussing how we can continue to be part of accelerating real change. Below is a list of resources, voices, and organizations we are learning from and supporting, as well as a list of ways you can help too.  
+Our team has been actively discussing how we can continue to be part of accelerating real change. Below is a list of resources, voices, and organizations we are learning from and supporting, as well as a list of ways you can join us in this critical work.  
   
   
 _(Please note: This page is a work in progress, and we'd like your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
