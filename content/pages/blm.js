@@ -8,12 +8,12 @@
 >
   <Image src="" width="800px" height="94px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    # Yes, Black Lives Matter!
+    # Yes, Black Lives Matter.
 **_Committed to Change: Through Words AND Actions_** 
 
 WDS is fundamentally about creating a better world. Since our inception in 2011, we’ve been proud to feature a wide range of minority voices from our main stage platform. In 2017, we introduced the concept of _Team Everybody_ as part of a campaign to more forcefully articulate what we stand for and believe. 
 
-Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This isn’t okay! 
+Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This isn’t okay.
 
 While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we agree that **Black Lives Matter**. We want to see justice for all, including **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or abused by a system of white supremacy.  
 
