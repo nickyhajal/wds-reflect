@@ -13,7 +13,7 @@
 
 WDS is fundamentally about creating a better world. Since our inception in 2011, we’ve been proud to feature a wide range of minority voices from our main stage platform. In 2017, we introduced the concept of _Team Everybody_ as part of a campaign to more forcefully articulate what we stand for and believe. 
 
-Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This is wrong.
+Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This is unacceptable.
 
 While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we believe that **Black Lives Matter**. We demand justice for **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or harmed by a system of white supremacy.  
 
