@@ -72,6 +72,7 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
       ### Listening
      - [Black Lives Matter](https://blacklivesmatter.com/)
       - [NAACP](https://www.naacp.org/)
+      - <a href="https://bethebridge.com/get-started/" target="_blank">Be the Bridge</a>
       
     </Block>
     <Block type="color" color="orange">
@@ -211,10 +212,13 @@ Having contributed to several major publications (including Good Housekeeping an
  
 ## Ways to Financially Support Organizations
 New York Magazine and The Cut have compiled a list of organizations working to support Black lives and communities of color, and if you’re able to help financially, we suggest donating to the groups that resonate most with you.  
-                  **[Where to Donate for Black Lives Matter](https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html)**  
+
+<p><b><a href="https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html" target="_blank">Where to Donate for Black Lives Matter</a></b></p>
                   
-**[How to Support the Struggle Against Police Brutality](https://www.thecut.com/article/george-floyd-protests-how-to-help-where-to-donate.html)**
-<p></p>
+<p><b><a href="https://www.thecut.com/article/george-floyd-protests-how-to-help-where-to-donate.html" target="_blank">How to Support the Struggle Against Police Brutality</a></b></p>  
+                                                                                                                                        
+<p><b><a href="https://bailfunds.github.io/" target="_blank">Help Bail Out Protestors.</a></b></p>  
+                                                                                                                                        
 _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
      
       
