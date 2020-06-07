@@ -15,7 +15,7 @@ WDS is fundamentally about creating a better world. Since our inception in 2011,
 
 Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This is wrong.
 
-While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we believe that **Black Lives Matter**. We demand justice for **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or abused by a system of white supremacy.  
+While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we believe that **Black Lives Matter**. We demand justice for **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or harmed by a system of white supremacy.  
 
 We also know that we can do better. Our team has been actively discussing how we can continue to be part of accelerating real change. Below is a list of resources, voices, and organizations we are learning from and supporting, as well as a list of ways you can join us in this critical work.  
   
@@ -71,20 +71,22 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
     <Block type="color" color="blue">
       ### Listening
      - [Black Lives Matter](https://blacklivesmatter.com/)
+      - [1619 Podcast](https://www.nytimes.com/2020/01/23/podcasts/1619-podcast.html)
       - [NAACP](https://www.naacp.org/)
       - [Be the Bridge](https://bethebridge.com/get-started/)
       
     </Block>
-    <Block type="color" color="orange">
+    <Block type="color" color="orange"> 
       ### Learning
-      - [How to Be a Better White Person in 2020](https://www.theroot.com/how-to-be-a-better-white-person-in-2020-1840868641)
+      - [Talking to Kids about Racism](https://www.nytimes.com/2020/06/05/us/talking-to-kids-about-racism.html)
       - [Beyond the Hashtag: How to Take Anti-Racist Action in Your Life](https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234)
-     - [How to be Anti-Racist](https://www.cnn.com/2020/06/04/health/how-to-be-an-anti-racist-wellness/index.html)
+     - [How to Be an Anti-Racist](https://www.ibramxkendi.com/how-to-be-an-antiracist-1)
     </Block>
     <Block type="color" color="green">
       ### Taking Action
+      - [Equal Justice Initiative](https://eji.org/)
       - [8 Can't Wait](https://8cantwait.org/)
-      - [Resist Bot Support kit for Black Lives Matter](https://resist.bot/news/2020/06/02/black-lives-matter)
+      - [Resist Bot Support Kit for Black Lives Matter](https://resist.bot/news/2020/06/02/black-lives-matter)
     </Block>
   </Grid>
  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
@@ -141,7 +143,7 @@ At WDS 2018, Lindsey shared her journey from climbing the corporate latter quick
       
 **Charles Hunt** knows a thing or two about resilience. At WDS 2017, Charles shared his powerful story and reminded us that society does not dictate who we become because we have more power than we realize—no matter who we are, where we come from, or what our circumstances are, we have the power of choice and the opportunity to become more resilient in the face of adversity.  
                                                  Charles Hunt is a resilience expert, adjunct professor, speaker and trainer. Adept at leveraging transparency to inspire and get results, this former college recruiting, talent management, diversity and supply chain leader left the corporate world to fulfill his vision of building unbreakable spirits and cultivating resiliency for those who like him, have [The Audacity](http://www.audacityfirm.com/) to succeed despite adversity.  
-                                                 With a mantra of “you’re as resilient as you THINK you are”, he helps students, young professionals, business and thought leaders build resilience while harnessing our most important resource in resilience…our minds. Charles’ TEDx Talk ["What Trauma Taught Me About Resilience"](https://www.youtube.com/watch?v=3qELiw_1Ddg&feature=youtu.be) has attracted international acclaim. A lover of hip-hop, Charles is a firm believer that there’s a Jay-Z lyric for every situation and finds joy in weaving lines into everyday conversation!
+                                                 With a mantra of “you’re as resilient as you THINK you are”, he helps students, young professionals, business and thought leaders build resilience while harnessing our most important resource in resilience…our minds. Charles’ TEDx Talk ["What Trauma Taught Me About Resilience"](https://www.youtube.com/watch?v=3qELiw_1Ddg&feature=youtu.be) has attracted international acclaim. A lover of hip-hop, Charles is a firm believer that there’s a Jay-Z lyric for every situation and finds joy in weaving lines into everyday conversation.
 
 
       </Block>
