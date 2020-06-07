@@ -13,9 +13,9 @@
 
 WDS is fundamentally about creating a better world. Since our inception in 2011, we’ve been proud to feature a wide range of minority voices from our main stage platform. In 2017, we introduced the concept of _Team Everybody_ as part of a campaign to more forcefully articulate what we stand for and believe. 
 
-Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This isn’t okay.
+Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This is wrong.
 
-While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we agree that **Black Lives Matter**. We want to see justice for all, including **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or abused by a system of white supremacy.  
+While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we believe that **Black Lives Matter**. We demand justice for all, including **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or abused by a system of white supremacy.  
 
 We also know that we can do better. Our team has been actively discussing how we can continue to be part of accelerating real change. Below is a list of resources, voices, and organizations we are learning from and supporting, as well as a list of ways you can join us in this critical work.  
   
@@ -72,7 +72,7 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
       ### Listening
      - [Black Lives Matter](https://blacklivesmatter.com/)
       - [NAACP](https://www.naacp.org/)
-      - <a href="https://bethebridge.com/get-started/" target="_blank">Be the Bridge</a>
+      - <p><a href="https://bethebridge.com/get-started/" target="_blank">Be the Bridge</a></p>
       
     </Block>
     <Block type="color" color="orange">
