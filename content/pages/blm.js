@@ -72,7 +72,7 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
       ### Listening
      - [Black Lives Matter](https://blacklivesmatter.com/)
       - [NAACP](https://www.naacp.org/)
-      - <p><a href="https://bethebridge.com/get-started/" target="_blank">Be the Bridge</a></p>
+      - [Be the Bridge](https://bethebridge.com/get-started/)
       
     </Block>
     <Block type="color" color="orange">
@@ -89,10 +89,10 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
   </Grid>
  <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
 ## Additional Resources      
-- [Ways You Can Help](https://blacklivesmatters.carrd.co/)
-- [Resources for Accountability and Actions for Black Lives](https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ)
-- [Anti-Racism Resources Doc 1](https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs)
-- [Anti-Racism Resources Doc 2](https://docs.google.com/document/d/1PrAq4iBNb4nVIcTsLcNlW8zjaQXBLkWayL8EaPlh0bc)
+<p><b>--> <a href="https://blacklivesmatters.carrd.co/" target="_blank">Ways You Can Help</a></b></p>
+<p><b>--> <a href="https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ" target="_blank">Resources for Accountability and Actions for Black Lives</a></b></p>
+<p><b>--> <a href="https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs" target="_blank">Anti-Racism Resources Doc 1</a></b></p>
+<p><b>--> <a href="https://docs.google.com/document/d/1PrAq4iBNb4nVIcTsLcNlW8zjaQXBLkWayL8EaPlh0bc" target="_blank">Anti-Racism Resources Doc 2</a></b></p>
 
                   
                   _(Please note: This page is a work in progress and we'd like your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
@@ -213,11 +213,11 @@ Having contributed to several major publications (including Good Housekeeping an
 ## Ways to Financially Support Organizations
 New York Magazine and The Cut have compiled a list of organizations working to support Black lives and communities of color, and if you’re able to help financially, we suggest donating to the groups that resonate most with you.  
 
-<p><b><a href="https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html" target="_blank">Where to Donate for Black Lives Matter</a></b></p>
+<p><b>--> <a href="https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html" target="_blank">Where to Donate for Black Lives Matter</a></b></p>
                   
-<p><b><a href="https://www.thecut.com/article/george-floyd-protests-how-to-help-where-to-donate.html" target="_blank">How to Support the Struggle Against Police Brutality</a></b></p>  
+<p><b>--> <a href="https://www.thecut.com/article/george-floyd-protests-how-to-help-where-to-donate.html" target="_blank">How to Support the Struggle Against Police Brutality</a></b></p>  
                                                                                                                                         
-<p><b><a href="https://bailfunds.github.io/" target="_blank">Help Bail Out Protestors.</a></b></p>  
+<p><b>--> <a href="https://bailfunds.github.io/" target="_blank">Help Bail Out Protestors</a></b></p>  
                                                                                                                                         
 _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
      
