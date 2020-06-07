@@ -71,7 +71,7 @@ Here are 3 steps we are actively committing to. Join us?  </Block>
     <Block type="color" color="blue">
       ### Listening
      - [Black Lives Matter](https://blacklivesmatter.com/ target="blank")
-      - [1619 Podcast](https://www.nytimes.com/2020/01/23/podcasts/1619-podcast.html)
+      - <a href="https://www.nytimes.com/2020/01/23/podcasts/1619-podcast.html" "target="blank">1619 Podcast</a>
       - [NAACP](https://www.naacp.org/)
       - [Be the Bridge](https://bethebridge.com/get-started/)
       
