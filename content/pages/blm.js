@@ -15,7 +15,7 @@ WDS is fundamentally about creating a better world. Since our inception in 2011,
 
 Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This is wrong.
 
-While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we believe that **Black Lives Matter**. We demand justice for all, including **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or abused by a system of white supremacy.  
+While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we believe that **Black Lives Matter**. We demand justice for **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or abused by a system of white supremacy.  
 
 We also know that we can do better. Our team has been actively discussing how we can continue to be part of accelerating real change. Below is a list of resources, voices, and organizations we are learning from and supporting, as well as a list of ways you can join us in this critical work.  
   
