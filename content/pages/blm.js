@@ -220,6 +220,8 @@ New York Magazine and The Cut have compiled a list of organizations working to s
                                                                                                                                         
 <p><b>--> <a href="https://bailfunds.github.io/" target="_blank">Help Bail Out Protestors</a></b></p>  
                                                                                                                                         
+<p><b>--> <a href="https://www.gofundme.com/f/the-black-resilience-fund" target="_blank">The Black Resilience Fund</a></b></p>  
+                                                                                                                                        
 _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
      
       
