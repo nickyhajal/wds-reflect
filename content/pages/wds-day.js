@@ -24,12 +24,9 @@ This is the time of year when the team usually kick things into a higher gear to
 In case you missed it, we decided a while back that WDS 2020 (our intended finale) will now take place one year later, in the summer of 2021.
 
 Though we're sad that we won't be meeting for WDS this year, we're excited to announce the start of something new that will outlive WDS itself... **WDS Day!**
-    
-    {' '}
-    
+        {' '}
     <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/collage-wds.jpg" width="100%" height="541" /><br/>
-  </Block>
- <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+    {' '}
 <h2>What is WDS Day</h2>   
 
 Every year on the last Saturday of June, members of the community will commit to doing an activity that honors the WDS core values of **Community**, **Adventure**, and **Service**.
@@ -49,7 +46,7 @@ Additional examples ideas include (especially with our current global situation 
 - Going on a hike or exploring a neighborhood (if it's safe to do so)
 
 ## Virtual Attendee-Led Meetups                                               
-And because of our current global situation, we're putting a call out for Virtual Attendee-led Meetups. This would be a great opportunity for us to talk about current issues such as Black Lives Matter, and what we'll do as a community to foster real change. Meetups will take place from 10:00am Saturday (26th) through all-day Sunday (27th). Here's two important links to for those interested in hosting a meetup*:
+And because of our current global situation, we're putting a call out for Virtual Attendee-led Meetups. This would be a great opportunity for us to talk about current issues such as Black Lives Matter, and what we'll do as a community to foster real change. Meetups will take place from 10:00am Saturday (26th) through all-day Sunday (27th). Here's two important links to for those interested in hosting a meetup:
 
 **[--> Virtual Meetup Guide for WDS Day](https://el-files-wds.s3.amazonaws.com/docs/WDS-Virtual-Meetup-Guide-2020.pdf)**
 **[--> Propose a Meetup Form](https://worlddominationsummit.com/propose-a-meetup)**
@@ -81,7 +78,7 @@ If you have any questions about WDS Day, don't hesitate to reach out to our team
 
 <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/ukulelemeetup.jpg" width="100%" height="541" />
   
-<Image src="https://el-files-wds.s3.amazonaws.com/images/photos/bollywoodmeetup.jpg" width="100%" height="541" /><br/>
+<Image src="https://el-files-wds.s3.amazonaws.com/images/photos/bollywoodmeetup.jpg" width="100%" height="541" />
 
  </Block>
 </Section>
