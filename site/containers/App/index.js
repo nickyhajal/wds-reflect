@@ -162,7 +162,7 @@ export class App extends Component {
             <Link to="/faq">FAQ</Link>
             <Link to="/story">Our Story</Link>
             <Link to="/postponed">Postponed</Link>
-            <Link to="/contact-us">Contact Us</Link>
+            <Link to="/contact-us">Contact</Link>
           </div>
           <div styleName="sub">© World Domination Summit 2011-2020</div>
         </div>
