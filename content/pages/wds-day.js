@@ -21,11 +21,11 @@ Greetings from WDS HQ! I hope you're staying safe during these unprecendented ti
 
 This is the time of year when the team usually kick things into a higher gear to prepare for everyone's arrival in Portland. This time, though, we've been confined to a series of virtual meetings as a team, and Zoom check-ins with our 2020 attendees.
 
-In case you missed it, we announced in April that WDS 2020 (our intended finale) will now take place one year later, in the summer of 2021.
+In case you missed it, [we announced in April](https://worlddominationsummit.com/postponed) that WDS 2020 (our intended finale) will now take place one year later, in the summer of 2021.
 
 Though we're sad that we won't be meeting in-person for WDS this year, we're excited to announce the start of something new that will outlive WDS itself... **WDS Day!**
        
-    <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/collage-wds.jpg" width="100%" height="541" /><br/>
+    <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/wdsday4.jpg" width="100%" height="541" /><br/>
    
 ## What is WDS Day?
 
@@ -42,18 +42,21 @@ Additional ideas include:
 - Hosting an online dance party
 - Learning to cook or bake something new
 - Creating and sending a care package
-- Going on a hike or exploring a neighborhood (depending on local conditions, of course) 
+- Going on a hike or exploring a neighborhood (depending on local conditions, of course). 
+--
 
-These are just a few ideas to get you thinking. We're excited to see what you come up with. Don't forget to share your activity during WDS day with **#WDSlocal**.
+These are just a few ideas to get you thinking. We're excited to see what you come up with. Don't forget to share your chosen activity during WDS Day with **#WDSlocal**.
 
 ## Virtual Attendee-Led Meetups                                               
-And because we won't be meeting in person this year, we're putting a call out for Virtual Attendee-led Meetups. Meetups will take place from 10:00am Saturday the 26th through all-day Sunday the 27th. Here are two important links to for those interested in hosting a meetup:
+And because we won't be meeting in person this year, we're putting a call out for Virtual Attendee-led Meetups. Meetups will take place from 10:00am Saturday the 26th through all-day Sunday the 27th.  
+
+Here are two important links to for those interested in hosting a meetup:
 
 **[--> Virtual Meetup Guide for WDS Day](https://el-files-wds.s3.amazonaws.com/docs/WDS-Virtual-Meetup-Guide-2020.pdf)**
 **[--> Propose a Meetup Form](https://worlddominationsummit.com/propose-a-meetup)** 
                                          
                                             
-<Image src="https://el-files-wds.s3.amazonaws.com/images/photos/wdsday2.jpg" width="100%" height="541" /><br/>
+<Image src="https://el-files-wds.s3.amazonaws.com/images/photos/wdsday3.jpg" width="100%" height="541" /><br/>
 
 
 ## What's the plan for this year's WDS Day?  
@@ -70,7 +73,6 @@ WDS Day is open to the entire WDS community. To make sure you get all the event 
 
 If you have any questions about WDS Day, don't hesitate to reach out to our team by emailing us at concierge@wds.fm.  
 
-<Image src="https://el-files-wds.s3.amazonaws.com/images/photos/wdsday3.jpg" width="100%" height="541" /><br/>
 <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/wdsday1.jpg" width="100%" height="541" /><br/>
 
  </Block>
