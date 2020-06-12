@@ -59,7 +59,7 @@ Here are two important links to for those interested in hosting a meetup:
 <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/wdsday3.jpg" width="100%" height="541" /><br/>
 
 
-## What's the plan for this year's WDS Day?  
+## What's The Plan For This Year's WDS Day?  
                                          
 First, save the date for this year's WDS Day: **Saturday, June 27, 2020** 
                                          We'll start this year's WDS Day by coming together and meeting online as a community (through Zoom) **starting at 9:00am PT**.  
