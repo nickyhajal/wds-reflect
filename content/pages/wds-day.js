@@ -24,10 +24,10 @@ This is the time of year when the team usually kick things into a higher gear to
 In case you missed it, we decided a while back that WDS 2020 (our intended finale) will now take place one year later, in the summer of 2021.
 
 Though we're sad that we won't be meeting for WDS this year, we're excited to announce the start of something new that will outlive WDS itself... **WDS Day!**
-        {' '}
+       
     <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/collage-wds.jpg" width="100%" height="541" /><br/>
-    {' '}
-<h2>What is WDS Day</h2>   
+   
+## What is WDS Day
 
 Every year on the last Saturday of June, members of the community will commit to doing an activity that honors the WDS core values of **Community**, **Adventure**, and **Service**.
 
