@@ -54,21 +54,20 @@ And because of our current global situation, we're putting a call out for Virtua
   </Block>
 <Video placeholder="photos/WDS-2018-main.jpg" videoId="282373496" cols="8" /> 
    <Block cols="8" bleed={false} textAlign="left" margin="80px 0 80px" background="white" type="padded" padding="80px 120px" className="bigger" mobile={{tablet: {padding: '50px 40px'}, phone: {padding: '30px 20px'}}} >
-**What is the Schedule/Plan for This Year's WDS Day?** 
+
+## What is the Schedule/Plan for This Year's WDS Day?  
+                                         
 First, save the date for this year's WDS Day: **Saturday, June 27, 2020** 
                                          We'll start this year's WDS Day by coming together and meeting online as a community (through Zoom) **starting at 9:00am PT**.  
 From there the community will take part in individual activities that reflect the WDS core values and participate in Attendee-led, virtual meetups. We'll then **finish the day together at 6:00pm PT**.
 
-**How Do I Paricipate in WDS Day?**  
+## How Do I Paricipate in WDS Day?  
+
 WDS Day is open to the entire WDS community. To make sure you get all the event information and updates, please sign up with your email at **[this link](http://madmimi.com/signups/37b1184441c943a0a93ac294552aa549/join)**. 
   
 **Please note: a WDS Account is required to RSVP for meetups.** All information about the event will be communicated via email and also posted on this page.  
 
 If you have any questions about WDS Day, don't hesitate to reach out to our team by emailing us at concierge@wds.fm.
-
-<Image src="https://el-files-wds.s3.amazonaws.com/images/photos/ukulelemeetup.jpg" width="100%" height="541" />
-  
-<Image src="https://el-files-wds.s3.amazonaws.com/images/photos/bollywoodmeetup.jpg" width="100%" height="541" />
 
  </Block>
 </Section>
