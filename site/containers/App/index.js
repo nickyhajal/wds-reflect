@@ -158,6 +158,7 @@ export class App extends Component {
         </main>
         <div styleName="footer" className="footer">
           <div styleName="links">
+            <Link to="/blm">Black Lives Matter</Link>
             <Link to="/faq">FAQ</Link>
             <Link to="/story">Our Story</Link>
             <Link to="/postponed">Postponed</Link>
