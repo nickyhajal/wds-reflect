@@ -25,7 +25,7 @@ In case you missed it, [we announced in April](https://worlddominationsummit.com
 
 Though we're sad that we won't be meeting in-person for WDS this year, we're excited to announce the start of something new that will outlive WDS itself... **WDS Day!**
        
-    <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/wdsday4.jpg" width="100%" height="541" /><br/>
+    <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/wdsday5.jpg" width="100%" height="541" /><br/>
    
 ## What is WDS Day?
 
