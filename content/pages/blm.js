@@ -42,7 +42,7 @@ In her award winning book, Civil Rights and the Making of the Modern American St
       </Block>
   </Tab>
  <Tab title="13th Documentary">
-     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/-krfcq5pF8u8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
+     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/krfcq5pF8u8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
       <Block cols="6" textAlign="left">
         ## 13th Documentary - Ava DuVernay
       
