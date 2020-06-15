@@ -40,6 +40,18 @@ Megan Ming Francis is an Assistant Professor in the Department of Political Scie
 In her award winning book, Civil Rights and the Making of the Modern American State, shows that the battle against lynching and mob violence in the first quarter of the 20th century were pivotal to the development of civil rights and the growth of federal court power. She is inspired by people who fight for justice–even when the end appears nowhere in sight.
 
       </Block>
+ <Tab title="13th Documentary">
+     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/-aCn72iXO9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
+      <Block cols="6" textAlign="left">
+        ## 13th Documentary - Ava DuVernay
+      
+(from Netflix) Combining archival footage with testimony from activists and scholars, director Ava DuVernay's examination of the U.S. prison system looks at how the country's history of racial inequality drives the high rate of incarceration in America.  
+
+This piercing, Oscar-nominated film won Best Documentary at the Emmys, the BAFTAs and the NAACP Image Awards.  
+
+US Rating: TV-MA For mature audiences. May not be suitable for ages 17 and under. 
+
+      </Block>
     </Tab>
      <Tab title="Dominos of Racial Injustice">
      <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/v4amCfVbA_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
