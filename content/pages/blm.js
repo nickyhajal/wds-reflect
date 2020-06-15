@@ -40,6 +40,7 @@ Megan Ming Francis is an Assistant Professor in the Department of Political Scie
 In her award winning book, Civil Rights and the Making of the Modern American State, shows that the battle against lynching and mob violence in the first quarter of the 20th century were pivotal to the development of civil rights and the growth of federal court power. She is inspired by people who fight for justice–even when the end appears nowhere in sight.
 
       </Block>
+  </Tab>
  <Tab title="13th Documentary">
      <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/-krfcq5pF8u8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
       <Block cols="6" textAlign="left">
