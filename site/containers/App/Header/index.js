@@ -116,7 +116,7 @@ const desktopHeader = (ticketClick, scrollTo, auth, subNav) =>
       </nav>
       {auth.me ? '' : <TicketStub onClick={ticketClick} />}
     </div>
-    <div styleName="subNav" className="covid">Black Lives Matter: Our Commitment to Action, Not Just Words<Link to="/blm">Learn More</Link></div>
+    <div styleName="subNav" className="covid">ALUMNI: Join us for WDS Day on June 27th<Link to="/wds-day">Learn More</Link></div>
     {renderSubNav(subNav, scrollTo, auth.me)}
     {renderAlert(subNav, scrollTo, auth.me)}
   </header>;
