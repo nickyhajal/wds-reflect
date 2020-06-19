@@ -13,7 +13,7 @@
 
 WDS is fundamentally about creating a better world. Since our inception in 2011, we’ve been proud to feature a wide range of minority voices from our main stage platform. In 2017, we introduced the concept of _Team Everybody_ as part of a campaign to more forcefully articulate what we stand for and believe. 
 
-Yet it’s clear that so many people of color continue to experience severe income inequality, systematic racism, and far too many instances of police brutality. This is unacceptable.
+Yet it’s clear that so many people of color continue to experience severe income inequality, systemic racism, and far too many instances of police brutality. This is unacceptable.
 
 While we are glad that WDS includes people from many different backgrounds and political preferences, this isn’t a matter of politics. As a team and community, we believe that **Black Lives Matter**. We want to see justice for **George Floyd, Breonna Taylor, Ahmaud Arbery**, and the countless others who have been killed or harmed by a system of white supremacy.  
 
@@ -38,6 +38,19 @@ _(Please note: This page is a work in progress, and we'd like your help to keep 
 Megan Ming Francis is an Assistant Professor in the Department of Political Science at the University of Washington where she specializes in the study of American politics, race, and the development of constitutional law. She is particularly interested in the construction of rights and citizenship, black political activism, and the post-civil war South. Born and raised in Seattle, WA, she was educated at Garfield High School, Rice University in Houston, and Princeton University where she received her M.A. and her Ph.D. in Politics.  
 
 In her award winning book, Civil Rights and the Making of the Modern American State, shows that the battle against lynching and mob violence in the first quarter of the 20th century were pivotal to the development of civil rights and the growth of federal court power. She is inspired by people who fight for justice–even when the end appears nowhere in sight.
+
+      </Block>
+  </Tab>
+ <Tab title="13th Documentary">
+     <Block cols="6"><iframe width="710" height="430" src="https://www.youtube.com/embed/krfcq5pF8u8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Block>
+      <Block cols="6" textAlign="left">
+        ## 13th Documentary - Ava DuVernay
+      
+(from Netflix) Combining archival footage with testimony from activists and scholars, director Ava DuVernay's examination of the U.S. prison system looks at how the country's history of racial inequality drives the high rate of incarceration in America.  
+
+This piercing, Oscar-nominated film won Best Documentary at the Emmys, the BAFTAs and the NAACP Image Awards.  
+
+US Rating: TV-MA For mature audiences. May not be suitable for ages 17 and under. 
 
       </Block>
     </Tab>
@@ -220,7 +233,9 @@ New York Magazine and The Cut have compiled a list of organizations working to s
                                                                                                                                         
 <p><b>--> <a href="https://bailfunds.github.io/" target="_blank">Help Bail Out Protestors</a></b></p>  
                                                                                                                                         
-<p><b>--> <a href="https://www.gofundme.com/f/the-black-resilience-fund" target="_blank">The Black Resilience Fund</a></b></p>  
+<p><b>--> <a href="https://www.gofundme.com/f/the-black-resilience-fund" target="_blank">The Black Resilience Fund</a></b></p>
+                                                                                                                                        
+<p><b>--> <a href="https://officialblackwallstreet.com/directory/" target="_blank">The Official Black Wall Street - Support Black Owned Businesses</a></b></p> 
                                                                                                                                         
 _(Please note: This page is a work in progress and we need your help to keep it updated. Please email us at [concierge@wds.fm](mailto:concierge@wds.fm) if there is a voice or resource we should add.)_
      

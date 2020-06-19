@@ -1,13 +1,23 @@
+  
 <Section
-  headerImage="v2/hero/location.png"
-  headerClip="rl_header"
-  headerPosition="top"
-  headerSize="thin"
-  color="white"
-  preload
+  headerClip="br:0%,-10%;"
+  headerImage="photos/WDS-community.jpg"
+  color="canvas"
 >
-  <Image src="https://cascade.madmimi.com/promotion_images/1478/1610/original/2014-WDS-question.jpg?1585590463" width="100%" height="533px" />
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px"> 
+  <Block
+    cols="8"
+    bleed={false}
+    textAlign="left"
+    margin="80px 0 80px"
+    background="white"
+    type="padded"
+    padding="80px 120px"
+    className="bigger"
+    mobile={{tablet: {padding: '50px 40px'}, phone: {padding: '30px 20px'}}}
+  >
+    <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
+      WDS Postponed Until 2021
+    </h2>
     
     Dear WDS Community,  
     
@@ -17,21 +27,17 @@
     
     We want to make sure that when we gather again to celebrate (and we _will_ gather again), we'll do so under the best possible circumstances. Watch the video below to learn more about the thought process behind the decision.  
 
-<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/>
-
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/>  
   
-    
   ## Important: WDS is Not Canceled. 
     
     We remain committed to hosting a final WDS. This event is important to all of us, and the entire core team is dedicated to seeing it through.  
     
     Before this happened, we were working on some big plans for the event … and those plans will still take place, just not right away.  
       
-      <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" />
-
-    
-        
-## FAQs About WDS Postponement    
+      <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" /> 
+      
+      ## FAQs About WDS Postponement    
     
     ##### What are the new dates for WDS in 2021?  
      
@@ -75,11 +81,8 @@
     
     Contact our year-round concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they'll do their best to assist you.
                             
-   <Image src="https://cascade.madmimi.com/promotion_images/1452/9125/original/48153223311_d99938c952_k.jpg?1584493145" width="100%" height="533px" />
-                            
-    
-     
-     ### Team Everybody 
+   <Image src="https://cascade.madmimi.com/promotion_images/1452/9125/original/48153223311_d99938c952_k.jpg?1584493145" width="100%" height="533px" /> 
+   ## See you next year!
    
    We're still sad WDS is not happening, but the good news is that it will continue for another year.  _Hang in there!_  
     
@@ -88,4 +91,3 @@
     Chris Guillebeau
   </Block>
 </Section>
-<Import id="join-us" />
