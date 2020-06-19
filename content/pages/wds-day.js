@@ -48,7 +48,7 @@ Additional ideas include:
 These are just a few ideas to get you thinking. We're excited to see what you come up with. Don't forget to share your chosen activity during WDS Day with **#WDSlocal**.
 
 ## Virtual Attendee-Led Meetups                                               
-And because we won't be meeting in person this year, we're putting a call out for Virtual Attendee-led Meetups. Meetups will take place from 10:00am Saturday the 26th through all-day Sunday the 27th.  
+And because we won't be meeting in person this year, we're putting a call out for Virtual Attendee-led Meetups. Meetups will take place from 10:00am Saturday the 27th through all-day Sunday the 28th.  
 
 Here are two important links to for those interested in hosting a meetup:
 
