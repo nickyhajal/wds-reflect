@@ -51,6 +51,7 @@ const routes = (
     <Route path="/id" component={Person} />
     <Route path="/picnic-preorder/:loginhash" component={HashLogin} />
     <Route path="/events/meetups/:loginhash" component={HashLogin} />
+    <Route path="/wds-day/meetups/:loginhash" component={HashLogin} />
     <Route path="/events/academies/:loginhash" component={HashLogin} />
     <Route path="/events/expeditions/:loginhash" component={HashLogin} />
     <Route path="/events/activities/:loginhash" component={HashLogin} />
@@ -78,6 +79,7 @@ const routes = (
         <Route path="/billing" component={Billing} />
         <Route path="/your-schedule" component={Schedule} />
         <Route path="/events/meetups" component={EventListing} />
+        <Route path="/wds-day/meetups" component={EventListing} />
         <Route path="/events/academies" component={EventListing} />
         <Route path="/events/expeditions" component={EventListing} />
         <Route path="/events/activities" component={EventListing} />

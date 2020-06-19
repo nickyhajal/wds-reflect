@@ -124,7 +124,7 @@ export class EventListing extends Component {
         >
           <Shell cols="8" background="transparent">
             <h2 style={headcss}>{`WDS ${type.plural}`}</h2>
-            <EventList year="19" type={id} title={false} format="contained" />
+            <EventList year="20" type={id} title={false} format="contained" />
           </Shell>
         </Section>
       </div>
