@@ -298,7 +298,8 @@ export class EventComponent extends Component {
                   {E.dateStr()}
                 </div>
                 <div className="sub">
-                  {place}
+                  {/* {place} */}
+                  Zoom meeting links will be emailed once you RSVP for a meetup
                 </div>
                 <div className="sub">
                   {address}
