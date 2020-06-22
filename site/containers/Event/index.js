@@ -242,7 +242,9 @@ export class EventComponent extends Component {
         break;
     }
     if (Me.isAttending(event_id)) {
-      buttonText = "You'll be there!";
+      buttonText = "You'll be there! - unRSVP";
+      buttonSubMsg =
+        "Click to unRSVP if you can't make it.";
       buttonClick = () => {};
       if (E.isCancelable()) {
         buttonClick = this.rsvp;

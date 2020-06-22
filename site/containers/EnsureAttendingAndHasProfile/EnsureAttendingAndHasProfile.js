@@ -14,9 +14,9 @@ class EnsureAttendingAndHasProfile extends React.Component {
       if (+this.props.auth.me.attending20 !== 1) {
         // browserHistory.replace('/attendees-only');
       } else if (ticketsToClaim) {
-        browserHistory.replace('/assign');
+        // browserHistory.replace('/assign');
       } else if (section < 4) {
-        browserHistory.replace('/welcome');
+        // browserHistory.replace('/welcome');
       }
     }
   }
