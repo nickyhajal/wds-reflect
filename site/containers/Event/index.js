@@ -249,7 +249,6 @@ export class EventComponent extends Component {
       if (E.isCancelable()) {
         buttonClick = this.rsvp;
       }
-      buttonSubMsg = '';
     } else if (eventType === 'registration') {
       buttonText = 'RSVP to this Session';
       buttonClick = this.rsvp;
