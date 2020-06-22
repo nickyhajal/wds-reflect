@@ -324,19 +324,21 @@ export class EventComponent extends Component {
                 <h3>{`Your Host${hosts.length > 1 ? 's' : ''}`}</h3>
                 {hosts.map(h => {
                   return (
-                    <Host>
-                      <div className="name">
-                        <Avatar user={h.user_id} />
-                        <span>{`${h.first_name} ${h.last_name}`}</span>
-                      </div>
-                      {type === 'academy'
-                        ? <div className="about">
-                            <Markdown>
-                              {bios[h.user_id]}
-                            </Markdown>
-                          </div>
-                        : ''}
-                    </Host>
+                    <a href={`/~${h.username}`} target="_blank">
+                      <Host>
+                        <div className="name">
+                          <Avatar user={h.user_id} />
+                          <span>{`${h.first_name} ${h.last_name}`}</span>
+                        </div>
+                        {type === 'academy'
+                          ? <div className="about">
+                              <Markdown>
+                                {bios[h.user_id]}
+                              </Markdown>
+                            </div>
+                          : ''}
+                      </Host>
+                    </a>
                   );
                 })}
               </div>
