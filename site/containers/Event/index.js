@@ -324,7 +324,7 @@ export class EventComponent extends Component {
                 <h3>{`Your Host${hosts.length > 1 ? 's' : ''}`}</h3>
                 {hosts.map(h => {
                   return (
-                    <a href={`/~${h.username}`} target="_blank">
+                    <a href={`/~${h.user_name}`} target="_blank" style={{ textDecoration: 'none' }}>
                       <Host>
                         <div className="name">
                           <Avatar user={h.user_id} />
