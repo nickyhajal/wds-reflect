@@ -91,7 +91,7 @@ class SelectTimezone extends React.Component {
 			return value === this.state.selectedValue
 		})
 		return (
-			<Shell>
+			<Shell className="tzSelect">
 			<Select
 				className={selectClassName}
 				isClearable={false}
@@ -238,7 +238,7 @@ const Shell = styled.div`
   text-align: center;
   vertical-align: middle;
 	width: 25px;
-	top: -4px;
+	top: -3px;
   padding-right: 5px;
 }
 .Select-arrow {
@@ -251,7 +251,7 @@ const Shell = styled.div`
 }
 .Select-arrow,
 .Select-arrow-zone:hover > .Select-arrow {
-  border-top-color: #666;
+  border-top-color: #666 !important;
 }
 .Select--multi .Select-multi-value-wrapper {
   display: inline-block;
@@ -450,6 +450,27 @@ const Shell = styled.div`
       }
     }
 }
+.tzSelect {
+  .Select-placeholder, .Select-control .Select-value {
+    padding-top: 3px !important;
+  }
+	.Select-control {
+    /* border: 0; */
+    color: #21170A;
+    height: 50px;
+    background: #fff;
+    border: 2px solid black;
+  }
+  .Select-option {
+      background: #f5f7ea;
+      &.is-selected {
+        background: #f5f7ea;
+      }
+      &.is-focused {
+        background-color: #ebf5ff;
+      }
+    }	
+}
 .block-color-white .onWhite {
   .Select-placeholder, .Select-control .Select-value {
     padding-left: 0 !important;
@@ -487,7 +508,7 @@ const Shell = styled.div`
 
     
     .Select-value {
-      top: 5px !important;
+      top: 9px !important;
       left: 5px !important;
 
       span {
