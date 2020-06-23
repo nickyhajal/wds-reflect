@@ -49,6 +49,7 @@
     }
   },
   "dependencies": {
+    "@capaj/react-select-timezone": "^2.0.1",
     "apollo-client": "^1.2.0",
     "autosize": "^3.0.20",
     "axios": "^0.15.2",
@@ -73,6 +74,7 @@
     "react-addons-css-transition-group": "^15.4.2",
     "react-apollo": "^1.2.0",
     "react-autobind": "^1.0.6",
+    "react-bootstrap-timezone-picker": "^2.0.1",
     "react-css-modules": "^3.7.10",
     "react-dom": "^15.3.2",
     "react-dropzone": "^3.9.2",
@@ -84,7 +86,9 @@
     "react-remarkable": "^1.1.1",
     "react-router": "^3.0.0",
     "react-select": "^1.0.0-rc.5",
+    "react-select-timezone": "^1.0.0",
     "react-slick": "^0.14.5",
+    "react-timezone": "^2.4.0",
     "redux": "^3.6.0",
     "redux-action-helper": "^1.1.1",
     "redux-mock-store": "^1.2.1",

@@ -8,6 +8,7 @@ import moment from 'moment';
 import _ from 'lodash';
 import { browserHistory } from 'react-router';
 import s from 'underscore.string';
+import momentTimezone from 'moment-timezone';
 import Section from '../../components/Section/Section';
 import Avatar from '../../components/Avatar/Avatar';
 import Block from '../../components/Block/Block';
@@ -26,6 +27,7 @@ import Host from './Host';
 import User from '../../models/User';
 import api from '../../utils/api';
 import EventUtil from '../../utils/EventUtil';
+import TimePicker, { getTimezoneProps } from '../../components/TimePicker';
 
 const Grid = styled.div`
   display: flex;
@@ -69,11 +71,31 @@ const Sub = styled.div`
   margin-bottom: 18px;
 `;
 
+const TimeShell = styled.div`
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 4rem;
+label {
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+}
+> div {
+  width: 70%;
+}
+
+`;
+
 export class EventComponent extends Component {
   constructor() {
     super();
     this.state = {
       claiming: false,
+      offset: 0,
+      label: 'Pacific Time',
+      timezone: momentTimezone.tz.guess(),
     };
     this.claimTimo = 0;
   }
@@ -285,8 +307,8 @@ export class EventComponent extends Component {
           headerClip="br:0%,-10%;"
           headerImage="hero/green.jpg"
           color="white"
-          headerMap={mapCenter}
-          headerMapRef={map}
+          // headerMap={mapCenter}
+          // headerMapRef={map}
           width={hasSidebar ? '1096px' : '866px'}
         >
           <Grid>
@@ -296,7 +318,17 @@ export class EventComponent extends Component {
               </h2>
               <div className="details">
                 <div>
-                  {E.dateStr()}
+                  {E.dateStr(this.state.offset, this.state.label)}
+                  <TimeShell>
+                    <label>Change Timezone</label>
+                    <TimePicker
+                      guess // this will fill the input with user's timezone guessed by moment. A "value" prop has always bigger priority than guessed TZ
+                      onChange={(val) => {
+                        const timezoneProps = getTimezoneProps(val, +new Date())
+                        this.setState({offset: timezoneProps.offset, label: timezoneProps.abbr })
+                      }} 
+                    />
+                  </TimeShell>
                 </div>
                 <div className="sub">
                   {/* {place} */}

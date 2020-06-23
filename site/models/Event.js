@@ -66,11 +66,11 @@ class Event {
     this.hosts = hosts;
   }
 
-  dateStr(timeShift) {
+  dateStr(offset, label) {
     if (this.start.isValid() && this.end) {
-      return `${moment(this.start).format(
+      return `${moment(this.start).add(420, 'm').add(offset, 'm').format(
         'MMMM Do YYYY [from] h:mma',
-      )} until ${moment(this.end).format('h:mma')} Pacific Time`;
+      )} until ${moment(this.end).add(420, 'm').add(offset, 'm').format('h:mma')} ${label}`;
       // return `${moment(this.start).format('MMMM Do')} - Start time TBD`;
     }
     return '⁛⁛⁛⁛⁛ ⁛⁛⁛⁛ ⁛⁛⁛⁛⁛ ⁛⁛:⁛⁛ ⁛⁛⁛⁛⁛⁛⁛';
