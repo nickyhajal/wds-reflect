@@ -45,7 +45,7 @@ const Time = styled.div`
   line-height: 140%;
   padding: 6px 0px 3px;
   margin-right: 16px;
-  width: 120px;
+  width: 150px;
   text-align: left;
   color: #99a23a;
   margin-top: 4px;
@@ -65,7 +65,7 @@ const EventRow = ({ event, me, rowClass, offset, label }) => {
   return (
     <Row className={rowClass}>
       <Time>
-        {E.startStr(offset)} {label}
+        {E.startStr(offset)}
       </Time>
       <Content>
         <Name>
