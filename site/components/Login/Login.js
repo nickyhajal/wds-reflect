@@ -57,6 +57,8 @@ class Login extends React.Component {
   success() {
     if (this.state.redirect) {
       browserHistory.replace(`/${this.state.redirect}`);
+    } else if (this.props.app.loginRedirectUrl) {
+      browserHistory.replace(`${this.props.app.loginRedirectUrl}`);
     } else if (this.props.redirect) {
       browserHistory.replace('/hub');
     }
@@ -143,6 +145,7 @@ class Login extends React.Component {
 function mapStateToProps(state) {
   return {
     auth: state.auth.toJS(),
+    app: state.app.toJS(),
   };
 }
 

@@ -9,12 +9,25 @@ import types from '../../utils/types';
 class EnsureLoggedIn extends React.Component {
   componentDidMount() {
     const { currentURL } = this.props;
-
+    console.log('>>>>>>>, ', this.props.auth.me)
     if (!this.props.auth.me) {
       if (!this.props.auth.checked) {
         auth.getMe();
       } else {
-        this.props.act.setLoginRedirect(currentURL);
+        this.props.act.setLoginRedirect(window.location.pathname);
+        browserHistory.replace('/login');
+      }
+    }
+  }
+  componentDidUpdate() {
+    const { currentURL } = this.props;
+    console.log('>>>>>>>, ', this.props.auth.me)
+    if (!this.props.auth.me) {
+      if (!this.props.auth.checked) {
+        auth.getMe();
+      } else {
+        console.log(window.location.pathname)
+        this.props.act.setLoginRedirect(window.location.pathname);
         browserHistory.replace('/login');
       }
     }
