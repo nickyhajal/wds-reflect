@@ -62,9 +62,11 @@ Some of the meetup titles and topics include:
 - Botjoy: A Community Art Making Experience
 - _and many more!_
 
+--  
+
 #### Meetup RSVP Notes 
 
-All meetups take place via Zoom and a meeting link will be emailed to you with an RSVP confirmation. **Meetup times are listed in Pacific Time.** To help coordinate timezones, use this **[helpful tool](https://everytimezone.com/)**.  
+All meetups take place via Zoom and a meeting link will be emailed to you with an RSVP confirmation. **Meetup times are listed in Pacific Time.** 
 
 Note: Please only RSVP for meetups you will actually attend, and do not RSVP for more than one taking place at the same time.  
 
