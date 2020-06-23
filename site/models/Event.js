@@ -76,6 +76,13 @@ class Event {
     return '⁛⁛⁛⁛⁛ ⁛⁛⁛⁛ ⁛⁛⁛⁛⁛ ⁛⁛:⁛⁛ ⁛⁛⁛⁛⁛⁛⁛';
   }
 
+  startStr(offset, label) {
+    if (this.start.isValid()) {
+      return `${moment(this.start).add(420, 'm').add(offset, 'm').format('h:mma')}`;
+    }
+    return '⁛⁛⁛⁛⁛';
+  }
+
   hostnames() {
     const hs = this.hosts;
     const length = hs.length;

@@ -11,7 +11,7 @@
 
 import Select from 'react-select'
 import moment from 'moment-timezone'
-import sortBy from 'lodash.sortby'
+import { sortBy}  from 'lodash'
 import React from 'react'
 import styled from 'styled-components'
 

@@ -20,6 +20,7 @@ import Button from '../../components/Button/Button';
 import C from '../../constants';
 import User from '../../models/User';
 import EventRow from './EventRow';
+import TimePicker, { getTimezoneProps } from '../../components/TimePicker';
 // import EventHead from './EventHead';
 
 const Grid = styled.div`
@@ -53,24 +54,44 @@ const EventHead = styled.h3`
     margin-top: 64px;
 `;
 
+const TimeShell = styled.div`
+width: 100%;
+margin-bottom: 4rem;
+label {
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+}
+> div {
+  width: 70%;
+}
+
+`;
+
 export class EventComponent extends Component {
   lastDay: '';
-  eventRow(event, Me, inx) {
+  constructor() {
+    super();
+    this.state = {
+      offset: 0,
+      label: 'Pacific Time',
+    };
+  }
+  eventRow(event, Me, inx, offset, label) {
     const ev = new Event(event);
     const day = ev.start.format('dddd[,] MMMM Do');
     let rowClass = inx % 2 === 0 ? 'row-even' : 'row-odd';
     if (this.props.format === 'contained') {
       rowClass += ` ${this.props.format}`;
     }
-
+    console.log(offset, label)
     if (this.lastDay !== day) {
       const style = this.lastDay === '' ? { marginTop: '0' } : {};
       this.lastDay = day;
       return (
         <div>
           <EventHead style={style}>{day}</EventHead>
-          <div style={{ marginTop: '-1.6rem', marginBottom: '2rem' }}>All Times Pacific Time</div>
-          <EventRow rowClass={rowClass} event={event} me={Me} />
+          <EventRow rowClass={rowClass} event={event} me={Me} offset={offset} label={label}/>
         </div>
       );
     }
@@ -100,11 +121,21 @@ export class EventComponent extends Component {
       blockProps.background = 'white';
       blockProps.cols = false;
     }
-    events = events.map((event, i) => this.eventRow(event, Me, i));
+    events = events.map((event, i) => this.eventRow(event, Me, i, this.state.offset, this.state.label));
     return (
       <Block textAlign="left" width="100%">
         {this.props.title ? `## ${this.props.title}` : ''}
         <Block {...blockProps}>
+        <TimeShell>
+                    <label>Change Timezone</label>
+                    <TimePicker
+                      guess // this will fill the input with user's timezone guessed by moment. A "value" prop has always bigger priority than guessed TZ
+                      onChange={(val) => {
+                        const timezoneProps = getTimezoneProps(val, +new Date())
+                        this.setState({offset: timezoneProps.offset, label: timezoneProps.abbr })
+                      }} 
+                    />
+                  </TimeShell>
           {events}
         </Block>
       </Block>

@@ -58,14 +58,14 @@ const Hosts = styled.div`
   font-size: 16px;
 `;
 
-const EventRow = ({ event, me, rowClass }) => {
+const EventRow = ({ event, me, rowClass, offset, label }) => {
   const E = new Event(event);
   let hostname = E.hostnames();
   const hasDetails = E.descr.length > 0;
   return (
     <Row className={rowClass}>
       <Time>
-        {event.startStr}
+        {E.startStr(offset)} {label}
       </Time>
       <Content>
         <Name>
