@@ -84,7 +84,6 @@ export class EventComponent extends Component {
     if (this.props.format === 'contained') {
       rowClass += ` ${this.props.format}`;
     }
-    console.log(offset, label)
     if (this.lastDay !== day) {
       const style = this.lastDay === '' ? { marginTop: '0' } : {};
       this.lastDay = day;

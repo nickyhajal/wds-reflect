@@ -45,7 +45,7 @@ const Time = styled.div`
   line-height: 140%;
   padding: 6px 0px 3px;
   margin-right: 16px;
-  width: 150px;
+  width: 120px;
   text-align: left;
   color: #99a23a;
   margin-top: 4px;
