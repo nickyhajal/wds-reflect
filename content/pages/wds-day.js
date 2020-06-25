@@ -50,7 +50,33 @@ These are just a few ideas to get you thinking. We're excited to see what you co
 ## Virtual Attendee-Led Meetups                                               
 And because we won't be meeting in person this year, we're putting a call out for Virtual Attendee-led Meetups. Meetups will take place from 10:00am Saturday the 27th through all-day Sunday the 28th.  
 
-Here are two important links to for those interested in hosting a meetup:
+Starting today, as in, right now, anyone in the WDS community can RSVP for any of the 30+ virtual attendee-led meetups for WDS Day.  
+
+Some of the meetup titles and topics include:  
+
+- The Virtual Improv Playground
+- Goals and Accountability Meetup
+- Courageous Conversations: Practice Interrupting Racism
+- Adventure is STILL on.  Let's make Ravioli!
+- Psychedelics in Healing - the Future of Mental Health
+- Botjoy: A Community Art Making Experience
+- _and many more!_
+
+--  
+
+#### Meetup RSVP Notes 
+
+All meetups take place via Zoom and a meeting link will be emailed to you with an RSVP confirmation. **Meetup times are listed in Pacific Time.** 
+
+Note: Please only RSVP for meetups you will actually attend, and do not RSVP for more than one taking place at the same time.  
+
+If you are unable to attend, please _unRSVP_ by going to the meetup page and click on the unRSVP button. This creates an opportunity for someone else to attend.  
+
+To get started, go to the following link (_for the best user experience, we suggest using a computer, not your phone)_. You will need to login to your WDS account:
+
+**[--> RSVP for WDS Day Meetups](https://worlddominationsummit.com/wds-day/meetups/)**
+
+Interested in hosting a meetup? See these two important links:
 
 **[--> Virtual Meetup Guide for WDS Day](https://el-files-wds.s3.amazonaws.com/docs/WDS-Virtual-Meetup-Guide-2020.pdf)**
 **[--> Propose a Meetup Form](https://worlddominationsummit.com/propose-a-meetup)** 
