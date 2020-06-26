@@ -289,7 +289,7 @@ export class EventComponent extends Component {
     } else if (!E.isPurchase()) {
       buttonClick = this.rsvp;
     }
-    if (max > 0 && num_rsvps >= max) {
+    if (!Me.isAttending(event_id) && max > 0 && num_rsvps >= max) {
       buttonText = `This ${etype.single} is Full`;
       buttonClick = () => {};
     }
