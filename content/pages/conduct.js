@@ -27,4 +27,3 @@ We expect participants to follow these rules throughout the full WDS experience,
   
   </Block>
 </Section>
-<Import id="join-us" />
