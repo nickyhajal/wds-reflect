@@ -62,7 +62,7 @@
     "form-serialize": "^0.7.2",
     "graphql-tag": "^2.0.0",
     "immutable": "^3.8.1",
-    "jquery": "^3.1.1",
+    "jquery": "^3.5.0",
     "jquery.scrollto": "^2.1.2",
     "lodash": "^4.16.6",
     "markdown-react-js": "^0.3.0",
