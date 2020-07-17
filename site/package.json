@@ -64,7 +64,7 @@
     "immutable": "^3.8.1",
     "jquery": "^3.1.1",
     "jquery.scrollto": "^2.1.2",
-    "lodash": "^4.16.6",
+    "lodash": "^4.17.19",
     "markdown-react-js": "^0.3.0",
     "moment": "^2.15.2",
     "moment-timezone": "^0.5.13",
