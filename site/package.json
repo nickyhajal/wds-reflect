@@ -52,7 +52,7 @@
     "@capaj/react-select-timezone": "^2.0.1",
     "apollo-client": "^1.2.0",
     "autosize": "^3.0.20",
-    "axios": "^0.15.2",
+    "axios": "^0.21.1",
     "axios-mock-adapter": "^1.7.1",
     "babel-polyfill": "^6.16.0",
     "chai": "^3.5.0",
