@@ -10,7 +10,7 @@
    Please review all of the following information carefully:
    * WDS tickets are **non-refundable.**  
    * There is no physical ticket. Only a photo-ID is required to check-in at WDS.
-   * In the case where a ticket cannot be used, WDS tickets can be transferred until **May 12, 2021**. Please note a **$100 transfer fee** must be successfully paid per ticket to complete the transfer (currently waived until 12/31/20).
+   * In the case where a ticket cannot be used, WDS tickets can be transferred until **May 23, 2021. **Please note** Due to COVID, transfer fees have been waived until March 31, 2021.
    * Special benefits and perks associated with the _Alumni Early-Bird ticket_ are not transferrable.
    * Once the transfer deadline has passed, the ticket will still be held for the original purchaser. 
    * Becuase we are a non-sponsored, non-commercial event, all ticket revenue goes towards the operating cost of WDS.
@@ -19,3 +19,4 @@
    
   </Block>
 </Section>
+
