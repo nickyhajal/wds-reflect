@@ -35,9 +35,9 @@ All WDS tickets are **non-refundable.**
 
     ### Can I transfer a WDS ticket to someone else?  
 
-  If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2020)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
+  If you are no longer planning to attend, **the $100 transfer fee has been waived from now until March 31, 2021)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
 
-Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2021, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2021** (40 days prior to WDS).  
+Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to.  **The last day to complete all transfers is May 23, 2021** (30 days prior to WDS).  
        
     ### Can I nominate myself or someone I represent to be a speaker?  
     
