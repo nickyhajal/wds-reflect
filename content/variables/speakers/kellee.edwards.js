@@ -2,7 +2,7 @@ name: "Kellee Edwards",
 year: "2018",
 headerPhotos: "https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee-Edwards-WDS.2018.speaker.jpg,https://farm1.staticflickr.com/834/29372794038_d8ccf33e54_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Kellee.Edwards.WDS.speaker.thumbnail.png",
-video: "https://vimeo.com/289503008",
+video: "https://www.youtube.com/watch?v=95hp1k_gbX8",
 quote: "Be brave enough to find the life you want and courageous enough to chase it.",
 ---
 At WDS 2018, Kellee shared her journey of pursuing a dream of hosting a travel and adventure show on a major network and the lessons she learned along the way. She shared with the WDS community that pursuing a goal or dream is never perfect from the outset. It's a process that sucks, that's messy, and that takes a lot of commitment to get there.
