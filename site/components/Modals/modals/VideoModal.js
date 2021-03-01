@@ -48,6 +48,16 @@ class VideoModal extends React.Component {
       }
       h = (9 / 16) * w;
       return (
+        this.props.modals.data.video.id.match(/[a-zA-Z]/) ?
+        <iframe
+          className="modal-remove"
+          src={`//www.youtube.com/embed/${this.props.modals.data.video.id}?autoplay=1`}
+          width={w}
+          height={h}
+          frameBorder="0"
+          allowFullScreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        /> :
         <iframe
           className="modal-remove"
           src={`//player.vimeo.com/video/${this.props.modals.data.video.id}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1`}

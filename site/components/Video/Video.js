@@ -31,15 +31,25 @@ class Video extends Component {
       id = this.props.url.split('?')[0].split('/').slice(-1);
     }
     return (
-      <iframe
-        className="modal-remove"
-        src={`//player.vimeo.com/video/${id}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1`}
-        width={w}
-        height={h}
-        frameBorder="0"
-        allowFullScreen
-      />
-    );
+        this.props.modals.data.video.id.match(/[a-zA-Z]/) ?
+        <iframe
+          className="modal-remove"
+          src={`//www.youtube.com/embed/${id}?autoplay=1`}
+          width={w}
+          height={h}
+          frameBorder="0"
+          allowFullScreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        /> :
+        <iframe
+          className="modal-remove"
+          src={`//player.vimeo.com/video/${id}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1`}
+          width={w}
+          height={h}
+          frameBorder="0"
+          allowFullScreen
+        />
+      );
   }
   renderPlaceholder(width, height) {
     let w = width;
