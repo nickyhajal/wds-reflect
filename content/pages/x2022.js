@@ -55,7 +55,7 @@ Here's some important factors we considered when making this decision:
     
     Before this happened, we were working on some big plans for the event … and those plans will still take place, just not right away.  
       
-      <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" /> 
+      <Image src="https://cascade.madmimi.com/promotion_images/2296/0905/original/WDS-Memories.png?1615329072" width="100%" height="533px" /> 
       
     ## FAQs About WDS Postponement    
 
@@ -86,7 +86,7 @@ WDS will remain in Portland, Oregon and in many of the same venues we were plann
     
     Contact our year-round concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they'll do their best to assist you.
                             
-   <Image src="https://cascade.madmimi.com/promotion_images/1452/9125/original/48153223311_d99938c952_k.jpg?1584493145" width="100%" height="533px" /> 
+   <Image src="https://cascade.madmimi.com/promotion_images/8271/3043/original/2016-heros-journey-2.jpg?1551616247" width="100%" height="533px" /> 
    ## See you next year!
    
    We're still sad WDS is not happening, but the good news is that it will continue for another year.  _Hang in there!_  
