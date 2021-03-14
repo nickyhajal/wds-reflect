@@ -36,7 +36,7 @@ Before this happened, we were working on some big plans for the event … and th
 - **WDS Week:** Tuesday, June 21 through Sunday, June 26
 - **Main Events:** Thursday, June 24 to Sunday, June 27  
 
-This was not an easy decision. Why? Because we want to see you all and gather as a community as soon as possible. Like you, we've been monitoring the global situation and there is light at the end of this pandemic tunnel. We've been closely monitoring our local and state guidelines and working with our local venues to determine when we can safely host WDS at its full capacity and decided that 2022 would be best.
+<p>This was not an easy decision. Why? Because we want to see you all and gather as a community as soon as possible. Like you, we've been monitoring the global situation and there is light at the end of this pandemic tunnel. We've been closely monitoring our local and state guidelines and working with our local venues to determine when we can safely host WDS at its full capacity and decided that 2022 would be best. </p>
 
 Here's some important factors we considered when making this decision: 
 
@@ -61,25 +61,27 @@ Here's some important factors we considered when making this decision:
 
     ##### Where will WDS take place?  
     
-    WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. They city of Portland has always been the home of WDS and will continue to be.  
+   <p> WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. They city of Portland has always been the home of WDS and will continue to be. </p>
     
     ## Ticket Information. 
 
     ##### I have a ticket for the final WDS, am I still registered?  
     
-    YES, your ticket has already been rolled over to next year's event. No further action is needed.    
+    <p>YES, your ticket has already been rolled over to next year's event. No further action is needed.</p>    
 
-    ##### Is WDS still sold out? 
+    ##### Is WDS still sold out? How can I get a ticket?
     
-    YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.  
+    <p>YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.</p>
+
+    There might be a ticket available from someone that can no longer attend. Please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
     
     ##### If I won't be able to attend next year, can I transfer my ticket?
     
-    YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2021)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
+    <p>YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2021)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee. </p> 
                                                        
     ##### How do I transfer my ticket?  
     
-    Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2022, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2022** (40 days prior to WDS).  
+   Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2022, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2022** (40 days prior to WDS).  
                             
     ## I have more questions...  
     
