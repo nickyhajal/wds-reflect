@@ -30,6 +30,7 @@ class Video extends Component {
     if (this.props.url) {
       id = this.props.url.replace('watch?v=', '').split('?')[0].split('/').slice(-1);
     }
+    console.log(this.props, id)
     return (
        id.match(/[a-zA-Z]/) ?
         <iframe
