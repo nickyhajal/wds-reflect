@@ -28,7 +28,7 @@ class Video extends Component {
     h = (9 / 16) * w;
     let id = this.props.videoId;
     if (this.props.url) {
-      id = this.props.url.split('?')[0].split('/').slice(-1);
+      id = this.props.url.replace('watch?v=', '').split('?')[0].split('/').slice(-1);
     }
     return (
         this.props.modals.data.video.id.match(/[a-zA-Z]/) ?
