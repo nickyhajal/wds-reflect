@@ -46,7 +46,7 @@ Here's some important factors we considered when making this decision:
 
 -- Travel has been greatly reduced during the pandemic and additionally, there were travel restrictions that prevented people from coming to the US. We anticipate that both of these will change in the coming year. We want to make sure as many friends from around the world can participate in WDS who would like to do so.
 
-<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="f0mJrruzSQQ" width="710" height="430"/>  
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="https://www.youtube.com/watch?v=f0mJrruzSQQ&t=4s" width="710" height="430"/>  
   <hr></hr>
   
   ## Important: WDS is Not Canceled. 
