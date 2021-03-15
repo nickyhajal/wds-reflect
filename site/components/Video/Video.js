@@ -31,7 +31,7 @@ class Video extends Component {
       id = this.props.url.replace('watch?v=', '').split('?')[0].split('/').slice(-1);
     }
     return (
-        this.props.modals.data.video.id.match(/[a-zA-Z]/) ?
+       id.match(/[a-zA-Z]/) ?
         <iframe
           className="modal-remove"
           src={`//www.youtube.com/embed/${id}?autoplay=1`}
