@@ -29,6 +29,9 @@ class Video extends Component {
     let id = this.props.videoId;
     if (this.props.url) {
       id = this.props.url.replace('watch?v=', '').split('?')[0].split('/').slice(-1);
+      if (id) {
+        id = id[0]
+      }
     }
     console.log(this.props, id)
     return (
