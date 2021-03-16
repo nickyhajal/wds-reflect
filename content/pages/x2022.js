@@ -33,7 +33,7 @@ Therefore, in coordination with the city of Portland and other partners, we're g
 - **Main Events:** Thursday, June 24 to Sunday, June 27  
 
 
-<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="https://www.youtube.com/watch?v=f0mJrruzSQQ&t=4s" width="710" height="430"/>  
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="https://www.youtube.com/watch?v=f0mJrruzSQQ&t=4s" width="100%" height="430"/>  
   <hr></hr>
   
   ## Important: We Shall Return! 
