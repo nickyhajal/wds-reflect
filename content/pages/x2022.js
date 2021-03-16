@@ -23,7 +23,7 @@
     
    Well ... we really hoped it would work for this year, but late June seems a bit too optimistic for an epic WDS.
 
-Therefore, in coordination with the city of Portland and other partners, we're going to postpone the event once more to the same week one year later, June 21-26, 2022. More details below... 
+Therefore, in coordination with the city of Portland and other partners, we're going to postpone the event once more to the same week one year later, <strong>June 21-26, 2022</strong>. More details below... 
 
 ## New Dates for WDS
 
@@ -48,13 +48,12 @@ Therefore, in coordination with the city of Portland and other partners, we're g
 
     ##### Where will WDS take place?  
     
-WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. They city of Portland has always been the home of WDS and will continue to be for the 2022 event.
+WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. The city of Portland has always been the home of WDS and will continue to be for the 2022 event.
     
-    ## Ticket Information. 
-
     ##### I have a ticket for WDS 2020, am I still registered for WDS x?  
     
     YES, your original ticket has already been rolled over to next year's event. No further action is needed.
+
     ##### Is WDS still sold out? How can I get a ticket?
     
   YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.
