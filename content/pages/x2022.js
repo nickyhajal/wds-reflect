@@ -58,7 +58,7 @@ WDS will remain in Portland, Oregon and in many of the same venues we were plann
     
   YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.
 
-    There might be a ticket available from someone that can no longer attend. Please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
+    There might be a ticket available from someone that can no longer attend. Please contact our concierge team at [concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
     
     ##### If I won't be able to attend next year, can I transfer my ticket?
     
