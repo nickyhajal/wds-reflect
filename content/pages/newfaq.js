@@ -13,9 +13,9 @@
     
     WDS was founded by **[Chris Guillebeau](http://chrisguillebeau.com)**, explorer of the world and _New York Times_ bestselling author of _The $100 Startup_.
 
-   ### When is the next WDS? (IMPORTANT UPDATE) 
+   ### When is the next WDS? (IMPORTANT UPDATE - last updated 3/16/21) 
       
-   **Due to COVID-19, WDS has been postponed until June 2022 and has been renamed to WDS X**. For more information go to our **[Postponement page](https://worlddominationsummit.com/postponed)**.  
+   **Due to COVID-19, WDS has been postponed (again) until June 2022 and has been renamed to WDS X**. For more information go to our **[Postponement page](https://worlddominationsummit.com/postponed)**.  
    
    ### How can I get a WDS ticket?  
    
