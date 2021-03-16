@@ -23,7 +23,7 @@
     
    Well ... we really hoped it would work for this year, but late June seems a bit too optimistic for an epic WDS.
 
-Therefore, in coordination with the city of Portland and other partners, we're going to postpone the event once more to the same week one year later, <strong>June 21-26, 2022</strong>. More details below... 
+Therefore, in coordination with the city of Portland and other partners, we're going to postpone the event once more to the same week one year later, <b>June 21-26, 2022</b>. More details below... 
 
 ## New Dates for WDS
 
@@ -75,7 +75,7 @@ WDS will remain in Portland, Oregon and in many of the same venues we were plann
    <Image src="https://cascade.madmimi.com/promotion_images/8271/3043/original/2016-heros-journey-2.jpg?1551616247" width="100%" height="533px" /> 
    ## See you next year!
    
-   We're still sad WDS is not happening, but the good news is that it will continue for another year.  _Hang in there!_  
+   We're still sad WDS is not happening, but the good news is that it will continue for at least another year.  _Hang in there!_  
     
     Yours in slightly delayed world domination,  
     
