@@ -21,7 +21,7 @@
     
     Dear WDS Community,  
     
-   Well ... we really hoped it would work for this year, but late June seems a bit too optimistic for an epic, final WDS.
+   Well ... we really hoped it would work for this year, but late June seems a bit too optimistic for an epic WDS.
 
 Therefore, in coordination with the city of Portland and other partners, we're going to postpone the event once more to the same week one year later, June 21-26, 2022. More details are listed below. 
 
