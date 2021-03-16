@@ -36,11 +36,11 @@ Therefore, in coordination with the city of Portland and other partners, we're g
 <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="https://www.youtube.com/watch?v=f0mJrruzSQQ&t=4s" width="710" height="430"/>  
   <hr></hr>
   
-  ## Important: WDS is Not Canceled. 
+  ## Important: We Shall Return! 
     
-    We remain committed to hosting a final WDS. This event is important to all of us, and the core team is dedicated to seeing it through.  
+    We remain committed to hosting WDS again. This event is important to all of us, and the core team is dedicated to seeing it through.  
     
-    Before the pandemic took over our lives, we were working on some big plans for the event ... and those plans will still take place, just not right away.  
+    Before the pandemic took over our lives, we were working on some big plans for the event. Those plans will still take place as soon as circumstances permit.  
       
       <Image src="https://cascade.madmimi.com/promotion_images/2296/0905/original/WDS-Memories.png?1615329072" width="100%" height="533px" /> 
       
@@ -52,7 +52,7 @@ WDS will remain in Portland, Oregon and in many of the same venues we were plann
     
     ##### I have a ticket for WDS 2020, am I still registered for WDS x?  
     
-    YES, your original ticket has already been rolled over to next year's event. No further action is needed.
+    YES, your original ticket has already been rolled over to next year's event, which we're now calling WDS X. No further action is needed.
 
     ##### Is WDS still sold out? How can I get a ticket?
     
