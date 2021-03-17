@@ -13,31 +13,30 @@
     
     WDS was founded by **[Chris Guillebeau](http://chrisguillebeau.com)**, explorer of the world and _New York Times_ bestselling author of _The $100 Startup_.
 
-   ### When is the next WDS? (IMPORTANT UPDATE) 
+   ### When is the next WDS? (IMPORTANT UPDATE - last updated 3/16/21) 
       
-   **Due to COVID-19, WDS for 2020 has been postponed until June 2021**. For more information go to our **[Postponement page](https://worlddominationsummit.com/postponed)**.  
+   **Due to COVID-19, WDS has been postponed (again) until June 2022 and has been renamed to WDS X**. For more information go to our **[Postponement page](https://worlddominationsummit.com/postponed)**.  
    
    ### How can I get a WDS ticket?  
    
    **Tickets for WDS are still sold out!** If you're still looking for a ticket, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** to learn what options might exist to attend WDS.  
-
-  ### Do you offer a payment plan for tickets?  
-  
-Yes! The first initial payment is **$95**, followed by **three payments of $204** for a total of **$707**. **All payments are non-refundable**, and you can pay for up to three tickets using a payment plan. To review the full terms and conditions of the WDS payment plan **[click here](https://worlddominationsummit.com/payment-plan-terms-and-conditions)**.  
                                                                                                                               
 ### I've purchased a WDS ticket, what do I do next?  
 
-Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2020 emails, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they will be able to assist you.
+Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. If you are not receiving WDS 2020 emails, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they will be able to assist you.  
+    
+     ### Do you offer a payment plan for tickets?  
+  
+Yes, we did when tickets were available. To review the full terms and conditions of the WDS payment plan **[click here](https://worlddominationsummit.com/payment-plan-terms-and-conditions)**.  
 
 ### What is the refund/cancellation policy for WDS tickets?  
 
-All WDS tickets are **non-refundable.**
+All WDS tickets are **non-refundable.** To review the full terms and conditions of the WDS tickets **[click here](https://worlddominationsummit.com/ticket-terms-and-conditions)**.
 
     ### Can I transfer a WDS ticket to someone else?  
 
-  If you are no longer planning to attend, **the $100 transfer fee has been waived from now until March 31, 2021)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
-
-Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to.  **The last day to complete all transfers is May 23, 2021** (30 days prior to WDS).  
+  Yes (though we'll miss you). Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to.  **The last day to complete all transfers is May 23, 2021** (30 days prior to WDS).  
+                                                                                                                        **The $100 transfer fee has been waived from now until the end of this year, December 31, 2021**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
        
     ### Can I nominate myself or someone I represent to be a speaker?  
     
