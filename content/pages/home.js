@@ -12,8 +12,8 @@
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2020 (final year!)</h2>
-    ## June 23 - June 29, 2020 
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit X (Coming in June 2022)</h2>
+    ## June 21 - June 26, 2022 
     ## in Portland, Oregon
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
@@ -22,7 +22,7 @@
 
     With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.
     
-    For 2020 we'll celebrate 10 years of Community, Adventure, and Service featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises. 
+    For WDS X (2022), we'll celebrate 10 years of Community, Adventure, and Service featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises. 
 
     _All that’s missing is YOU!_
 
