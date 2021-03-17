@@ -16,77 +16,66 @@
     mobile={{tablet: {padding: '50px 40px'}, phone: {padding: '30px 20px'}}}
   >
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
-      WDS Postponed Until 2021
+      WDS X Will Be Held in June 2022
     </h2>
     
     Dear WDS Community,  
     
-    Greetings from WDS HQ! I wanted to bring you this important update as soon as we had the information.   
-    
-    As our team has continued to monitor the global pandemic we all know as COVID-19, we've come to the decision to **postpone the final WDS until the summer of 2021**. This wasn't an easy decision, but we also don't have much of an alternative given the ever-changing situation.  
-    
-    We want to make sure that when we gather again to celebrate (and we _will_ gather again), we'll do so under the best possible circumstances. Watch the video below to learn more about the thought process behind the decision.  
+   Well ... we really hoped it would work for this year, but late June seems a bit too optimistic for an epic WDS.
 
-<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="402725641" width="710" height="430"/>  
+Therefore, in coordination with the city of Portland and other partners, we're going to postpone the event once more to the same week one year later, June 21-26, 2022. More details are listed below. 
+
+## New Dates for WDS
+
+**We've already confirmed the following dates for 2022**:
+
+- **WDS Week:** Tuesday, June 21 through Sunday, June 26
+- **Main Events:** Thursday, June 24 to Sunday, June 27  
+
+  <hr></hr>
   
-  ## Important: WDS is Not Canceled. 
+  ## Important: We Shall Return! 
     
-    We remain committed to hosting a final WDS. This event is important to all of us, and the entire core team is dedicated to seeing it through.  
+    We remain committed to hosting WDS again. This event is important to all of us, and the core team is dedicated to seeing it through.  
     
-    Before this happened, we were working on some big plans for the event … and those plans will still take place, just not right away.  
+    Before the pandemic took over our lives, we were working on some big plans for the event. Those plans will still take place as soon as circumstances permit.  
       
-      <Image src="https://cascade.madmimi.com/promotion_images/1474/7121/original/WDS-community-cheer.jpg?1585434097" width="100%" height="533px" /> 
+      <Image src="https://cascade.madmimi.com/promotion_images/2296/0905/original/WDS-Memories.png?1615329072" width="100%" height="533px" /> 
       
-      ## FAQs About WDS Postponement    
-    
-    ##### What are the new dates for WDS in 2021?  
-     
-    
-    **WDS Week:** Tuesday, June 22 to Sunday, June 27 (Main Events: Thursday, June 24 to Sunday, June 27). 
-    
+    ## FAQs About WDS Postponement    
 
     ##### Where will WDS take place?  
     
-    WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. We are effectively working to move most of our 2020 plans to 2021—it will be very similar to what we've been working on, just one year later.    
+WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. The city of Portland has always been the home of WDS and will continue to be for the 2022 event.
     
-    ## Ticket Information. 
+    ##### I have a ticket for WDS 2020, am I still registered for WDS X?  
+    
+    YES, your original ticket has already been rolled over to next year's event, **which we're now calling WDS X**. No further action is needed.
 
-    ##### Am I still registered for WDS?  
+    ##### Is WDS still sold out? How can I get a ticket?
     
-    YES, your ticket has already been rolled over to next year's event. No further action is needed.    
+  YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.
 
-    ##### Is WDS still sold out? 
-    
-    YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.  
+    There might be a ticket available from someone that can no longer attend. Please contact our concierge team at [concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
     
     ##### If I won't be able to attend next year, can I transfer my ticket?
     
-    YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2020)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
+   YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2021)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee. 
                                                        
     ##### How do I transfer my ticket?  
     
-    Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2021, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2021** (40 days prior to WDS).  
-    
-    ## Hotel Questions  
-    
-    ##### What happens to my WDS Hotel package that I purchased for this year?  
-                            
-    That reservation has been canceled by the hotel, and any charges will be refunded to your original method of payment within 1-2 weeks. If you no longer have access to that method of payment, please let us know and we'll see if we can find an alternative.  
-                            
-    ##### What if I booked accomodations through an official hotel partner (Paramount & Hotel Zags)?  
-    
-    Please contact our hotel partners directly to cancel your reservations. Many hotels in Portland are now closed for the foreseeable future, so you shouldn't be liable for any expected charges.  
+   Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2022, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2022** (40 days prior to WDS).  
                             
     ## I have more questions...  
     
     Contact our year-round concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they'll do their best to assist you.
                             
-   <Image src="https://cascade.madmimi.com/promotion_images/1452/9125/original/48153223311_d99938c952_k.jpg?1584493145" width="100%" height="533px" /> 
+   <Image src="https://cascade.madmimi.com/promotion_images/8271/3043/original/2016-heros-journey-2.jpg?1551616247" width="100%" height="533px" /> 
    ## See you next year!
    
-   We're still sad WDS is not happening, but the good news is that it will continue for another year.  _Hang in there!_  
+   We're still sad WDS is not happening, but the good news is that it will continue for at least another year.  _Hang in there!_  
     
-    Wiping down counters,  
+    Yours in slightly delayed world domination,  
     
     Chris Guillebeau
   </Block>
