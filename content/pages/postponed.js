@@ -46,25 +46,29 @@ Therefore, in coordination with the city of Portland and other partners, we're g
 
     ##### Where will WDS take place?  
     
-WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. The city of Portland has always been the home of WDS and will continue to be for the 2022 event.
+    WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. The city of Portland has always been the home of WDS and will continue to be for the 2022 event.
     
     ##### I have a ticket for WDS 2020, am I still registered for WDS X?  
     
     YES, your original ticket has already been rolled over to next year's event, **which we're now calling WDS X**. No further action is needed.
 
-    ##### Is WDS still sold out? How can I get a ticket?
+    ##### Is WDS still sold out? How can I get a ticket?  
     
-  YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.
+    YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.
 
     There might be a ticket available from someone that can no longer attend. Please contact our concierge team at [concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
     
-    ##### If I won't be able to attend next year, can I transfer my ticket?
+    ##### If I won't be able to attend next year, can I transfer my ticket?  
     
-   YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2021)**. Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee. 
+    YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2021)**. 
+    
+    Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
+
+    For the ticket terms and conditions, please review [this link](https://worlddominationsummit.com/ticket-terms-and-conditions)
                                                        
     ##### How do I transfer my ticket?  
     
-   Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2022, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2022** (40 days prior to WDS).  
+    Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2022, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2022** (40 days prior to WDS).  
                             
     ## I have more questions...  
     
