@@ -12,7 +12,7 @@
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit X (Coming in June 2022)</h2>
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit X</h2>
     ## June 21 - June 26, 2022 
     ## in Portland, Oregon
   </Block>
