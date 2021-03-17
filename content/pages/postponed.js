@@ -32,6 +32,8 @@ Therefore, in coordination with the city of Portland and other partners, we're g
 - **WDS Week:** Tuesday, June 21 through Sunday, June 26
 - **Main Events:** Thursday, June 24 to Sunday, June 26  
 
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="f0mJrruzSQQ" width="100%" height="430"/>
+
   <hr></hr>
   
   ## Important: We Shall Return! 
