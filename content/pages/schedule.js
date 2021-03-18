@@ -53,7 +53,6 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
   color="white"
 >
     
-  <SpeakerList title="2020 Speakers" year="2020" />
   <SpeakerList title="Alumni Speakers" year="alumni" />
   <Grid margin="60px 0 -20px 0">
     <Block type="image" src="photos/Portland-Oregon.png" label="Portlandia">
