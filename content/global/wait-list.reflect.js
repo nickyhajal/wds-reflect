@@ -1,4 +1,4 @@
-<Section color="sea">
+<Section color="blue">
   <Image
     src="v2/headings/joinus.png"
     width="288px"
@@ -18,7 +18,7 @@
       successMessage="Great, check your inbox for more information!"
       buttonStart="Get Notified"
       buttonProgress="Sending..."
-      buttonSuccess="Success!"
+      buttonSuccess="Success! Check your inbox."
     >
       <FormRow>
         <Input id="full_name" placeholder="Your Full Name" />
