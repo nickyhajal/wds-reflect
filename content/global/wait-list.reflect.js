@@ -1,4 +1,4 @@
-<Section color="orange">
+<Section color="sea">
   <Image
     src="v2/headings/joinus.png"
     width="288px"
