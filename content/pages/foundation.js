@@ -111,3 +111,4 @@ Through Office Retreat, Keonna will create a community that supports people of c
 </Block>
 </Section>
 <Import id="join-us" />
+<Import id="wait-list" />
