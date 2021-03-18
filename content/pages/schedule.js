@@ -28,7 +28,7 @@ You decide if you'll join us for the weekend or come for the entire week. Regard
     <ul><li><b className="highlight highlight-2">Friday (6/24)</b>  Academies, Activities, Attendee-Led Meetups, World Record Attempt</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/25)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
     <ul><li><b className="highlight highlight-3">Sunday (6/26)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
-    - **Monday (6/28)** Attendee-Led Meetups & Final Farewells
+    - **Monday (6/27)** Attendee-Led Meetups & Final Farewells
       <div className="note">Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</div>
   </Block>
 <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
@@ -36,7 +36,7 @@ You decide if you'll join us for the weekend or come for the entire week. Regard
 <Block cols="6" bleed={false} textAlign="center" margin="80px 0 80px">
 ## Registered for WDS? Start here!
 Click on the button for a step-by-step guide on how to prepare and maximize your WDS experience.
-<Button to="https://worlddominationsummit.com/guide" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>WDS 2020 Guide</Button>
+<Button to="" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>WDS X Guide (coming soon)</Button>
 </Block>
 </Section>
   <Section color="canvas">
