@@ -83,3 +83,4 @@ Fast forward to 2020, and we’re still exploring that question every summer wit
   </div>
 </Section>
 <Import id="join-us" />
+<Import id="wait-list" />
