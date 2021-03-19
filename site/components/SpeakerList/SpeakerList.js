@@ -24,7 +24,7 @@ const passesFilter = (speaker, { year }) => {
   if (year !== undefined) {
     if (
       (!year.length) ||
-      (year === 'alumni' && speaker.year.indexOf('2018') < 0) ||
+      (year === 'alumni' && speaker.year.indexOf('2020') < 0) ||
       (speaker.year.indexOf(year) > -1)
     ) {
       return true;
