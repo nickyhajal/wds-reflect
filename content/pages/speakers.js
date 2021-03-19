@@ -7,7 +7,9 @@
   preload
 >
   <Image src="v2/headings/schedule.png" width="421" height="151" className="scriptHeader" preload/>
-  <SpeakerList title="2020 Speakers" year="2020" type="expanded" />
+  <block>Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community.  
+  Here is a list of superheros that have taken part in previous WDS events:
+    </block>
   <SpeakerList title="2019 Speakers" year="2019" type="expanded" />
   <SpeakerList title="2018 Speakers" year="2018" type="expanded" />  
   <SpeakerList title="2017 Speakers" year="2017" type="expanded" />
