@@ -33,7 +33,6 @@ class Video extends Component {
         id = id[0]
       }
     }
-    console.log(this.props, id)
     return (
        id.match(/[a-zA-Z]/) ?
         <iframe
