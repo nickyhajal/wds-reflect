@@ -16,18 +16,14 @@
     mobile={{tablet: {padding: '50px 40px'}, phone: {padding: '30px 20px'}}}
   >
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
-      WDS X - The Final Chapter Slated for June 2022
+      WDS X Will Be Held in June 2022
     </h2>
     
     Dear WDS Community,  
     
-    Greetings from WDS HQ where we have been patiently waiting, washing our hands regularly, and anticipating the day we can welcome you back to Portland for our final WDS. We miss _you_!!!
-    
-   I'm writing today with an important announcement -- **WDS is Postponed (again), Not _Canceled_**
+   Well ... we really hoped it would work for this year, but late June seems a bit too optimistic for an epic WDS.
 
-   We remain committed to hosting a final WDS. This event is important to all of us, and the entire core team is dedicated to seeing it through. 
-
-Before this happened, we were working on some big plans for the event … and those plans will still take place, just not right away. 
+Therefore, in coordination with the city of Portland and other partners, we're going to postpone the event once more to the same week one year later, June 21-26, 2022. More details are listed below. 
 
 ## New Dates for WDS
 
@@ -36,24 +32,13 @@ Before this happened, we were working on some big plans for the event … and th
 - **WDS Week:** Tuesday, June 21 through Sunday, June 26
 - **Main Events:** Thursday, June 24 to Sunday, June 27  
 
-This was not an easy decision. Why? Because we want to see you all and gather as a community as soon as possible. Like you, we've been monitoring the global situation and there is light at the end of this pandemic tunnel. We've been closely monitoring our local and state guidelines and working with our local venues to determine when we can safely host WDS at its full capacity and decided that 2022 would be best.
-
-Here's some important factors we considered when making this decision: 
-
--- While many people are getting vaccinated (yay!), there are still a lot of folks that don't have access to a vaccine yet. Waiting another year allows more people the opportunity to get vaccinated. Our community's safety will always be the most important priority to us.
-
--- We are committed to hosting a final WDS at the level and capacity we have always put on WDS. We don't feel the world is at a point where things are "back to normal" making it challenging to honor this committement.
-
--- Travel has been greatly reduced during the pandemic and additionally, there were travel restrictions that prevented people from coming to the US. We anticipate that both of these will change in the coming year. We want to make sure as many friends from around the world can participate in WDS who would like to do so.
-
-<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="f0mJrruzSQQ" width="710" height="430"/>  
   <hr></hr>
   
-  ## Important: WDS is Not Canceled. 
+  ## Important: We Shall Return! 
     
-    We remain committed to hosting a final WDS. This event is important to all of us, and the entire core team is dedicated to seeing it through.  
+    We remain committed to hosting WDS again. This event is important to all of us, and the core team is dedicated to seeing it through.  
     
-    Before this happened, we were working on some big plans for the event … and those plans will still take place, just not right away.  
+    Before the pandemic took over our lives, we were working on some big plans for the event. Those plans will still take place as soon as circumstances permit.  
       
       <Image src="https://cascade.madmimi.com/promotion_images/2296/0905/original/WDS-Memories.png?1615329072" width="100%" height="533px" /> 
       
@@ -61,18 +46,17 @@ Here's some important factors we considered when making this decision:
 
     ##### Where will WDS take place?  
     
-WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. They city of Portland has always been the home of WDS and will continue to be.
+WDS will remain in Portland, Oregon and in many of the same venues we were planning on using. The city of Portland has always been the home of WDS and will continue to be for the 2022 event.
     
-    ## Ticket Information. 
+    ##### I have a ticket for WDS 2020, am I still registered for WDS X?  
+    
+    YES, your original ticket has already been rolled over to next year's event, **which we're now calling WDS X**. No further action is needed.
 
-    ##### I have a ticket for the final WDS, am I still registered?  
-    
-    YES, your ticket has already been rolled over to next year's event. No further action is needed.
     ##### Is WDS still sold out? How can I get a ticket?
     
   YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.
 
-    There might be a ticket available from someone that can no longer attend. Please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
+    There might be a ticket available from someone that can no longer attend. Please contact our concierge team at [concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
     
     ##### If I won't be able to attend next year, can I transfer my ticket?
     
@@ -89,9 +73,9 @@ WDS will remain in Portland, Oregon and in many of the same venues we were plann
    <Image src="https://cascade.madmimi.com/promotion_images/8271/3043/original/2016-heros-journey-2.jpg?1551616247" width="100%" height="533px" /> 
    ## See you next year!
    
-   We're still sad WDS is not happening, but the good news is that it will continue for another year.  _Hang in there!_  
+   We're still sad WDS is not happening, but the good news is that it will continue for at least another year.  _Hang in there!_  
     
-    Wiping down counters,  
+    Yours in slightly delayed world domination,  
     
     Chris Guillebeau
   </Block>

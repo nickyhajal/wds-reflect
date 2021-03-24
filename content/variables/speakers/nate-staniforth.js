@@ -2,7 +2,7 @@ name: "Nate Staniforth",
 year: "2019",
 headerPhotos: "https://el-files-wds.s3.amazonaws.com/images/speakers/Nate-WDS2019-Mainstage.jpg, https://live.staticflickr.com/65535/48183709901_2b4cf9c39f_k_d.jpg",
 photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Nate-Staniforth-thumbnail.png",
-video: "",
+video: "https://www.youtube.com/watch?v=nhav6O8MIPg",
 headerPosition: "-20px",
 quote: "",
 ---

@@ -10,7 +10,7 @@
    * The initial payment is $95, followed by 3-payments of $204.
    * Payments are made via credit or debit card and charged automatically each month after the initial payment.
    * All payments are **non-refundable.**
-   * Once a plan has been completed, that WDS ticket is eligible to be transferred (if needed) until **May 23, 2021. **Please note** Due to COVID, transfer fees have been waived until March 31, 2021.
+   * Once a plan has been completed, that WDS ticket is eligible to be transferred (if needed) until **May 12, 2022. **Please note** Due to COVID, transfer fees have been waived until December 31, 2021.
    * Payment plans are non-transferable.
    
  [Take me back to the WDS FAQs page.](https://worlddominationsummit.com/faq)

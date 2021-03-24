@@ -34,7 +34,7 @@ const renderAlert = (subNav, scrollTo, me) => {
   if ((!subNav || subNav === 'False') && !me && 0) {
     return (
       <div styleName="subNav" className="alert">
-        <span>Ticket sales to WDS 2019 end in </span>
+        <span>Ticket sales to WDS X end in </span>
         <Counter to="ticket-end" format="text" interval="1" />
       </div>
     );
@@ -116,7 +116,7 @@ const desktopHeader = (ticketClick, scrollTo, auth, subNav) =>
       </nav>
       {auth.me ? '' : <TicketStub onClick={ticketClick} />}
     </div>
-    <div styleName="subNav" className="covid">Update: WDS has been postponed due to COVID-19<Link to="/postponed">More Info</Link></div>
+    <div styleName="subNav" className="covid">UPDATE: WDS will return in 2022!<Link to="/postponed">Learn More</Link></div>
     {renderSubNav(subNav, scrollTo, auth.me)}
     {renderAlert(subNav, scrollTo, auth.me)}
   </header>;
