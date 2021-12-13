@@ -1,6 +1,6 @@
 <Section
   headerClip="br:0%,-10%;"
-  headerImage="photos/2012-Audience-Newmark-2.jpg"
+  headerImage="photos/memories.png"
   color="canvas"
 >
   <Block
