@@ -8,8 +8,9 @@ preload
 >
 <Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" color="orange" css={{marginTop: '80px' }}>
-  <h2 style={{ marginBottom: '4px' }}>WDS 2020 (Our Final Year!)</h2><p></p>
-    ## --SOLD OUT-- 
+  <h2 style={{ marginBottom: '4px' }}>WDS X (Our Final Year!)</h2><p></p>
+    ## --June 21 to June 26, 2022-- 
+    ### --Limited Ticket Release Coming Soon!-- 
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
 
@@ -17,13 +18,13 @@ preload
 
     <p><i>All that’s missing is YOU!</i></p>
 
-    <p>For 2020 we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
+    <p>For WDS X we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
 
     <Block color="canvas" width="750px" align="center" padding="3rem 1.7rem" margin="2rem 0 4rem" background="canvas" >
         <TicketCounter type="countup" />
     </Block>
     
-    <p><b>WDS Tickets are $697*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan is available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
+    <p><b>WDS Tickets are $987*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available. Learn more about the <a href="https://worlddominationsummit.com/payment-plan-terms-and-conditions" target="_blank">plan and terms here.</a></i></p>
 
 
   </Block>
