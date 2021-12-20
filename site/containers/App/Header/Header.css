@@ -121,7 +121,7 @@
   cursor: pointer;
 }
 :global(.greenpage) .logo {
-  background-image: url(https://files.wds.fm/images/v2/logo-blue2020.png);
+  background-image: url(https://el-files-wds.s3.amazonaws.com/images/v2/WDS-X-logo-blue.png);
 }
 .covid {
   background: $orange;
