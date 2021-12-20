@@ -171,7 +171,7 @@ export class Purchase extends Component {
             />
             <Block align="center" textAlign="center">
               <Image
-                src="v2/logo2020.png"
+                src="https://el-files-wds.s3.amazonaws.com/images/v2/WDS-X-logo-orange.png"
                 width="123"
                 height="26"
                 fit="contain"
@@ -196,7 +196,7 @@ export class Purchase extends Component {
       <Section color="white" styleName="shell" className="fillScreen">
         <Block align="center" textAlign="center">
           <Image
-            src="v2/logo2020.png"
+            src="https://el-files-wds.s3.amazonaws.com/images/v2/WDS-X-logo-orange.png"
             width="123"
             height="26"
             fit="contain"
