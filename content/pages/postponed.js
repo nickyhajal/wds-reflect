@@ -54,11 +54,11 @@ Therefore, in coordination with the city of Portland and other partners, we're g
     
     YES, your original ticket has already been rolled over to next year's event, **which we're now calling WDS X**. No further action is needed.
 
-    ##### Is WDS still sold out? How can I get a ticket?  
+    ##### How can I get a ticket?  
     
-    YES, WDS is still sold out. While a lot of things are still up in the air and out of our control, at this point we don't plan to sell any more tickets.
+    Due to changes that occured over the past couple of years, we will be releasing and selling a limited amount of tickets early in the new year. If you're interested in being notified about these tickets, go to [this link](https://worlddominationsummit.com/join-us)
 
-    There might be a ticket available from someone that can no longer attend. Please contact our concierge team at [concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
+    Additionally, there might be a ticket available from someone that can no longer attend. Please contact our concierge team at [concierge@wds.fm](mailto:concierge@wds.fm), and they'll do their best to connect you with someone.
     
     ##### If I won't be able to attend next year, can I transfer my ticket?  
     
