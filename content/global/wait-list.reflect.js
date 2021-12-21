@@ -28,4 +28,4 @@
       </FormRow>
     </Form>
   </Block>
-</Section>;
+</Section>
