@@ -62,7 +62,7 @@ Therefore, in coordination with the city of Portland and other partners, we're g
     
     ##### If I won't be able to attend next year, can I transfer my ticket?  
     
-    YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived from now until the end of this year (December 31, 2021)**. 
+    YES, and we are making this process more flexible. If you are no longer planning to attend, **the $100 transfer fee has been waived until February 28, 2022.**. 
     
     Note that this waiver applies to the first transfer of a ticket—if another ticketholder wants to transfer their ticket after receiving it from you, they'll need to pay the fee.  
 
