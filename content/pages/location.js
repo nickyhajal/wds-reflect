@@ -103,6 +103,14 @@
         
      <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Coming Soon</Button> 
  </Block>
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Duniway-portland-WDS-partner.jpg">
+      ## Hotel Duniway (Hilton)
+      A iconic, boutique hotel with modern style and a touch of Portland flair. The hotel also features a workout room, lap pool, and an amazing outdoor patio/lounge area with city views. Have a delicious breakfast or dinner at their new restaurant, the Mayrose and don't forget it's a Hilton. Go get those Hilton Honor points!   
+              
+     <p>0.8 Mi From the Main Stage <Link to="https://goo.gl/maps/yAmfYNzFDgRgDk7y7">(Google Directions)</Link></p> 
+        
+    <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >Coming Soon</Button> 
+</Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Partner-Hotels-Locations-WDS-2020.png">
       ## Perfectly Located
       Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
@@ -113,14 +121,6 @@
        
       <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
     </Block>
-<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/wds-hotel/standard-room1-bw.jpg">
-      ## The WDS Hotel™
-      We've reserved an entire boutique hotel in Portland's Old Town Chinatown just for attendees. The WDS Hotel™ features a variety of fun room types and social areas including a coffee shop/co-working area and a beautiful rooftop to take in breathaking Portland vistas.  
-              
-     <p>0.8 Mi From the Main Stage <Link to="https://goo.gl/maps/yAmfYNzFDgRgDk7y7">(Google Directions)</Link></p> 
-        
-    <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >Coming Soon</Button> 
-</Block>
   </Grid>
   
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
@@ -205,5 +205,4 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
     </Grid>
   </Block>
 </Section>
-<Import id="join-us" />
 <Import id="wait-list" />
