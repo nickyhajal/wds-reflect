@@ -75,5 +75,4 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
     </Block>
   </Block>
 </Section>
-<Import id="join-us" />
 <Import id="wait-list" />
