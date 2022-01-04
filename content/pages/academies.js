@@ -15,8 +15,8 @@ You'll have the opportunity to learn something new to help live your _own_ remar
   </Block>
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-        ## The Details 
-Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.
+        ## The Details (Academies will return for our final year)
+**All information here is subject to change.** Please use as reference information only: Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.
 
 - **WDS Attendees:** $29 per Academy
 - **General Public:** $59 per Academy
@@ -34,5 +34,4 @@ _Academies will return for our final year. Please use the following WDS 2019 Aca
 </Block>
 <EventList year={19} type="academy" title="WDS 2019 Academies" />
 </Section>
-<Import id="join-us" />
 <Import id="wait-list" />
