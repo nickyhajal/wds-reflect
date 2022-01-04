@@ -13,13 +13,13 @@
     
     WDS was founded by **[Chris Guillebeau](http://chrisguillebeau.com)**, explorer of the world and _New York Times_ bestselling author of _The $100 Startup_.
 
-   ### When is the next WDS? (IMPORTANT UPDATE - last updated 3/16/21) 
+   ### When is the next WDS? (IMPORTANT UPDATE - last updated 1/04/22) 
       
-   **Due to COVID-19, WDS has been postponed (again) until June 2022 and has been renamed to WDS X**. For more information go to our **[Postponement page](https://worlddominationsummit.com/postponed)**.  
+   **Due to COVID-19, WDS will return June 2022 and has been renamed to WDS X in honor of our 10th and final year of WDS**. For more information go to our **[Postponement page](https://worlddominationsummit.com/postponed)**.  
    
    ### How can I get a WDS ticket?  
    
-   **Tickets for WDS are still sold out!** If you're still looking for a ticket, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** to learn what options might exist to attend WDS.  
+   **Yes!** We're going to offer a small number of tickets in a public sale, most likely in February or March of 2022. Join our wait list at the bottom of this page to be notified about ticket information.  
                                                                                                                               
 ### I've purchased a WDS ticket, what do I do next?  
 
