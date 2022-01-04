@@ -68,7 +68,7 @@
     - Entrance to the Opening & Closing Parties
     - Ability to connect with attendees and RSVP to your choice of activities through the WDS mobile app
     - Discounted registration for any of the half-day Academies taking place througout the week
-    - Discounted and priority hotel registration, including the chance to stay at the WDS Hotel™
+    - Discounted and priority hotel registration at iconic Portland hotels
     - A special community that will support you for life
   </Block>
 </Section>
@@ -89,7 +89,7 @@
     <Block type="image" src="photos/happening.jpg">
       ## Our Story
 
-    See some of our favorite highlights and unforgettable memories we've created as a community over the past 9 years.
+    See some of our favorite highlights and unforgettable memories we've created as a community over 9 years of WDS.
       <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
@@ -101,7 +101,7 @@
     <Block type="image" src="photos/foundation.jpg">
       ## WDS Foundation
       
-Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/foundation">Learn More</Button>
+Profits from WDS have gone to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/foundation">Learn More</Button>
     </Block>
   </div>
   <div className="clear" />
@@ -115,7 +115,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     </Tab>
     <Tab title="Attendee Meetups" color="red" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>
-      Attendee-led meetups have been a staple of WDS since our first year. In 2020, they're back and better than ever!
+      Attendee-led meetups have been a staple of WDS since our first year. In 2022, they're back and better than ever!
       Each day, there will be time set aside for attendees to host these informal meetups, and on any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.
       Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    
       And if you have your own audience, you can host a meetup too. (Our dedicated attendee web app will tell you where each meetup is being held.)
