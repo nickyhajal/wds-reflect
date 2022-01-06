@@ -70,7 +70,7 @@ Therefore, in coordination with the city of Portland and other partners, we're g
                                                        
     ##### How do I transfer my ticket?  
     
-    Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting January 1, 2022, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2022** (40 days prior to WDS).  
+    Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and provide the name, email, and mailing address of the person you’re transferring your ticket to. Starting March 1, 2022, a $100 transfer fee will be required to complete the process. **The last day to complete all transfers is May 12, 2022** (40 days prior to WDS).  
                             
     ## I have more questions...  
     
