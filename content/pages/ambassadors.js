@@ -82,12 +82,13 @@ Okay, ready to apply? Let’s do this:!
     <Image src="icon/circle-map-green.png" width="101" height="78"  align="center" margin="0 0 40px 0" />
         <Block cols="5">
       
-          ## Sorry we missed you! 
+          ## Ambassador Applications Now Open!!!
               
 <Button to="https://worlddominationsummit.com/ambassador-application" newWindow={true} styling="sea" fitToText>Apply Now!</Button> 
 
-We’ll be in touch to confirm receipt of your application within about a week of receiving it, and again with next steps a couple weeks after the February 1st deadline.
-    </Block>
+We’ll be in touch to confirm receipt of your application within a couple of weeks of receiving it, and again with next steps a couple weeks after the February 1st deadline.
+    
+  </Block>
   </Block>
 
 </Section>
