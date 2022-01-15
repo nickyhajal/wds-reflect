@@ -92,26 +92,32 @@
       ## Hotel Zags 
       The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.
       
+      Reservation notes: Use the special booking link below (book now). To reserve shoulder dates at the group rate, first book the dates with the booking link, then contact Edwin at (503)484-1075.
+      
         <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
-  <Button to="https://aonc.co/2tstT4q" newWindow={true} >Coming Soon</Button> 
+  <Button to="https://gc.synxis.com/rez.aspx?Hotel=53439&Chain=6052&arrive=6/21/2022&depart=6/28/2022&adult=1&child=0&group=WDS2022" newWindow={true} >Book Now!</Button> 
 </Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
       
+      Reservation notes: Use the special booking link below (book now) or call the Front Desk at (503)223-9900 and reference the special group code: WDS22
+      
       <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
         
-     <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Coming Soon</Button> 
+     <Button to="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Freservations.travelclick.com%2F104209%3FgroupID%3D3215371&data=04%7C01%7C%7C556c4b3c198946085ff508d8ee2cd1dc%7Cf720296908904694acd03173243c4cdc%7C0%7C0%7C637521223547174836%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=7LKTWgQe2pTsFpeRVtTYKsxM606EMMHfSOiSDendQvA%3D&reserved=0" newWindow={true} >Book Now!</Button> 
  </Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Duniway-portland-WDS-partner.jpg">
       ## Hotel Duniway (Hilton)
       A iconic, boutique hotel with modern style and a touch of Portland flair. The hotel also features a workout room, lap pool, and an amazing outdoor patio/lounge area with city views. Have a delicious breakfast or dinner at their new restaurant, the Mayrose and don't forget it's a Hilton. Go get those Hilton Honor points!   
-              
-     <p>0.8 Mi From the Main Stage <Link to="https://goo.gl/maps/yAmfYNzFDgRgDk7y7">(Google Directions)</Link></p> 
+        
+        Reservation notes: Use the special booking link below (coming soon) or call the hotel directly (instructions coming soon).
+        
+     <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/XEamX4yFVoUUDjLV8">(Google Directions)</Link></p> 
         
     <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >Coming Soon</Button> 
 </Block>
-<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Partner-Hotels-Locations-WDS-2020.png">
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/WDS-X-Partner-Hotels.png">
       ## Perfectly Located
       Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   
       
