@@ -8,6 +8,6 @@
 
     We'll take it from here, so you're all set.
 
-    We're sorry you can't make it but hope to see you next year!
+    We're sorry you can't make it and wish you all the best.
   </Block>
 </Section>
