@@ -101,7 +101,7 @@
       ## Paramount Hotel 
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.
       
-      Reservation notes: Use the special booking link below (book now) or call the Front Desk at (503)223-9900 and reference the special group code: WDS22
+      Reservation notes: Use the special booking link (book now) below or call the Front Desk at (503)223-9900 and reference the special group code: WDS22
       
       <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
         
@@ -111,11 +111,11 @@
       ## Hotel Duniway (Hilton)
       A iconic, boutique hotel with modern style and a touch of Portland flair. The hotel also features a workout room, lap pool, and an amazing outdoor patio/lounge area with city views. Have a delicious breakfast or dinner at their new restaurant, the Mayrose and don't forget it's a Hilton. Go get those Hilton Honor points!   
         
-        Reservation notes: Use the special booking link below (coming soon) or call the hotel directly (instructions coming soon).
+        Reservation notes: Use the special booking link (book now) below.
         
      <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/XEamX4yFVoUUDjLV8">(Google Directions)</Link></p> 
         
-    <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >Coming Soon</Button> 
+    <Button to="https://book.passkey.com/go/WorldDomination" newWindow={true} >Book Now!</Button> 
 </Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/WDS-X-Partner-Hotels.png">
       ## Perfectly Located
