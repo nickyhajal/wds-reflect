@@ -83,7 +83,7 @@ We'll share details and timing for the sale at least two weeks in advance throug
     Contact our year-round concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they'll do their best to assist you.
                             
    <Image src="https://cascade.madmimi.com/promotion_images/8271/3043/original/2016-heros-journey-2.jpg?1551616247" width="100%" height="533px" /> 
-   ## See you next year!
+   ## See you soon!
    
    The last two years have been unlike anything any of us have ever experienced. Like you, I never expected we'd all have to rearrange our lives for so long.
 
