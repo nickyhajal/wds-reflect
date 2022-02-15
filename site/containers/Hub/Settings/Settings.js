@@ -267,7 +267,7 @@ class Settings extends Component {
                       <Answer
                         type="multi"
                         question_id="4"
-                        label="What is your goal for WDS 2020?"
+                        label="What is your goal for WDS X?"
                         showButton={false}
                         onChange={this.updateQuestion}
                       />

@@ -105,7 +105,6 @@ class TicketCounter extends React.Component {
   }
   render() {
     const saleId = this.props.sale ? this.props.sale : this.props.app.settings.activeSale;
-    console.log(saleId)
     if (this.props.app.settings !== undefined &&
         this.props.app.settings[saleId] !== undefined
     ) {

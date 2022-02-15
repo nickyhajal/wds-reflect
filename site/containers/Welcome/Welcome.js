@@ -144,7 +144,7 @@ const parts = [
         <div>
           <div>
             <p>
-              Please provide us with your best mailing address — especially for February through October 2020.
+              Please provide us with your best mailing address — especially for February through October 2022.
             </p>
           </div>
         </div>
@@ -324,7 +324,7 @@ const parts = [
       ),
     },
     {
-      title: 'What\'s your goal for WDS 2020?',
+      title: 'What\'s your goal for WDS X?',
       content: (
         <div>
           <p>

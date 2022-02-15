@@ -372,7 +372,7 @@ export class App extends Component {
     const title =
       content.title !== undefined
         ? content.title
-        : `Woohoo! You have ${this.tickets.countStr} to WDS 2020!`;
+        : `Woohoo! You have ${this.tickets.countStr} to WDS X!`;
     return (
       <Section color="orange" styleName="shell" className="fillScreen">
         <Image

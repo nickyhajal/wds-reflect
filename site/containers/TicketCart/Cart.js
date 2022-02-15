@@ -448,7 +448,7 @@ class Cart extends React.Component {
       display = 'none';
     }
     const productName =
-      code === 'wds2020' ? 'WDS 2020 Ticket' : 'WDS Payment Plan';
+      code === 'wds2020' ? 'WDS X Ticket' : 'WDS Payment Plan';
     return (
       <div className="modal-section cartSection" style={{ display }}>
         <div styleName="productRow">

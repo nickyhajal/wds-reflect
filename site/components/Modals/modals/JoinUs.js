@@ -51,7 +51,7 @@ class JoinUs extends React.Component {
         <Block width="600px" align="center" margin="50px 0 0" css={{ maxWidth: '800px' }}>
           <Form
             styleName="form"
-            list="WDS 2020 Waiting List"
+            list="WDS X Waiting List"
             successMessage="Great, we'll let you know when the next sale starts!"
             buttonStart="Get Notified"
             buttonProgress="Sending..."
