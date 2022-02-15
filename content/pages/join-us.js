@@ -8,7 +8,7 @@ preload
 >
 <Image src="v2/headings/script-joinUs.png" width="446px" height="196px" className="scriptHeader" align="center" css={{ float: 'none' }} preload/>
 <Block width="600px" color="orange" css={{marginTop: '80px' }}>
-  <h2 style={{ marginBottom: '4px' }}>WDS X (Our Final Year!)</h2><p></p>
+  <h2 style={{ marginBottom: '4px' }}>WDS X</h2><p></p>
     ## --June 21 to June 26, 2022-- 
     ### _(Limited Ticket Release Coming Soon!)_ 
 <p></p>

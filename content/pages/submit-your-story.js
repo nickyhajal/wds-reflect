@@ -19,24 +19,11 @@
     className="bigger"
   >
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
-      Submit Your Story (Now Closed!)
+      How Has WDS Impacted Your Life? Submit Your Story!
     </h2>
-<p><h3>Update: We are no longer taking story submissions for WDS 2019. This is just one opportunity to share your story with others so don't stop here.</h3></p> 
-     <p>Do you have a remarkable, personal story that you'd like to share on the WDS main stage? We want to learn more.</p> 
-
-<p><h3>Your Chance to Propose an Attendee Story</h3></p>
-<p>Community, Adventure and Service are the three core values of WDS—and an Attendee Stories session is your chance to experience all three. The adventure of sharing your story on stage is an awesome way to serve and be a part of this community.</p>
-
-<p>Here are a few ideas of the kind of stories we're looking for:</p>
-<p><ul>
-<li>A time in which you needed to trust</li>
-<li>A moment that altered the trajectory of your life</li>
-<li>A quick lesson or life principle you think would help others</li>
-<li>A way in which you were inspired or influenced by someone else, or something that happened</li>
-<li>A story that is vulnerable and reflective</li>
-<li>A request that you think the WDS community can help you with</li>
-<li>A person you'd like to publicly thank</li>
-</ul></p>
-      <p><b>Fill out the following form by Sunday, June 23rd, 5pm PST/8pm EST. (Late submissions will not be considered)</b></p> 
+     <p>Do you have a personal story of how WDS impacted your life? As we prepare for WDS X, we want to look back on over ten years of Community, Adventure, and Service.</p> 
+  </Block>
+<Block cols="6">
+    <iframe height="3000" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Fill out my Wufoo form!</a></iframe>
   </Block>
 </Section>
