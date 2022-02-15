@@ -254,7 +254,7 @@ class Cart extends React.Component {
             className={code === 'wds2020plan' ? 'selected' : ''}
           >
             WDS Payment Plan
-            <div>$95 today, then $204/mo for 3 mos.</div>
+            <div>$97 today, then $300/mo for 3 mos.</div>
           </button>
         </div>
       </div>
@@ -307,7 +307,7 @@ class Cart extends React.Component {
             className={code === 'wds2020plan' ? 'selected' : ''}
           >
             WDS Payment Plan
-            <div>$95 today, then $204/mo for 3 mos.</div>
+            <div>$97 today, then $300/mo for 3 mos.</div>
           </button>
         </div>
         <div className="form-row">
