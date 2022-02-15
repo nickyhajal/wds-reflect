@@ -432,7 +432,10 @@ class Cart extends React.Component {
     const { code } = this.state;
     const q = this.props.checkout.quantity;
     const isPlan = code.includes('plan');
+    console.log('>>> is plan', isPlan);
+    console.log('constant', C);
     const cost = (code === 'wds2020' ? C.ticketPrice : C.planStartPrice) * q;
+    console.log('cost', code);
     const feeCost = 10 * q;
     let btnStr = 'Complete Purchase';
     if (this.props.checkout.status === 'process') {
