@@ -496,7 +496,7 @@ class Cart extends React.Component {
           </div>
           {code.includes('plan') && (
             <div styleName="planTerms">
-              You will be charged $95 today and $204 per month for 3 months.
+              You will be charged $97 today and $300 per month for 3 months.
               Payment plan may not be cancelled nor refunded.
             </div>
           )}
