@@ -53,7 +53,7 @@ export class Purchase extends Component {
         'Step 1: Create Your Account',
         'green',
       ],
-      cart: [false, "Let's Do This!", 'green'],
+      cart: [false, "Let's Do This Thing!", 'green'],
     };
   }
   componentDidMount() {
