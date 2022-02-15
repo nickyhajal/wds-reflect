@@ -16,8 +16,8 @@ class Cart extends React.Component {
 		super();
 		this.state = {
 			email: '',
-			year: '2019',
-			month: '8'
+			year: '2023',
+			month: '7'
 
 		}
 	}
@@ -64,9 +64,6 @@ class Cart extends React.Component {
 
 	years() {
 		return [
-			{ value: '2019', label: '2019'},
-			{ value: '2020', label: '2020'},
-			{ value: '2021', label: '2021'},
 			{ value: '2022', label: '2022'},
 			{ value: '2023', label: '2023'},
 			{ value: '2024', label: '2024'},
@@ -284,7 +281,7 @@ class Cart extends React.Component {
 	}
 
 	render() {
-		const cost = 697 * this.props.checkout.quantity;
+		const cost = 987 * this.props.checkout.quantity;
 		const feeCost = 10 * this.props.checkout.quantity;
 		let btnStr = 'Complete Purchase';
 		if (this.props.checkout.status === 'process') {
