@@ -396,7 +396,6 @@ class Cart extends React.Component {
     if (this.props.checkout.status === 'process') {
       let msg = 'Hang tight while we process your payment! ';
       const completed = this.processCompleted();
-      console.log('cccc',completed)
       msg = (
         <div>
           <div>{msg}</div>

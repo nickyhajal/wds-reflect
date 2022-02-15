@@ -70,11 +70,10 @@ right: 22px;
     z-index: 4;
   }
   .progress-status {
-    color: color($forest a(70%));
     width: 100%;
     position: absolute;
     text-align: center;
-    color: #33571D99;
+    color: #fff;
     top: 23px;
     left: -10px;
     z-index: 5;

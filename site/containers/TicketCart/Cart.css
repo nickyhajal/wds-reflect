@@ -116,7 +116,7 @@
 
 .processing {
   position: absolute;
-  background: rgba(73, 86, 56, 0.78);
+  background: rgba(47, 48, 46, 0.78);
   top: 0;
   left: 0;
   width: 100%;
@@ -142,10 +142,9 @@
   height: 160px;
   text-align: center;
   font-family: KarlaItalic;
-  font-weight: bold;
   font-size: 19px;
-  color: #594C3C;
-  border: 2px solid #708F57;
+  color: #494745;
+  border: 0px solid #708F57;
 
   @media(--phone) {
     width: 98%;
