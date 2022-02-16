@@ -65,7 +65,7 @@ If you’re not able to volunteer 20 hours but still want to help, we’re not a
 Yes -- we have had extensive interest from volunteers and already have a significant pool of Ambassadors who have been approved. We anticipate that we will not be able to accept everyone who applies. Note: Being a previous Ambassador will help your chances, but we cannot guarantee that all previous Ambassadors will be able to return again.
 
 ### When should I apply by? 
-To ensure the best chance of being selected, please apply by February 1, 2022. We cannot guarantee that any applications after this date will be accepted, but if there’s space we’ll do our best!
+To ensure the best chance of being selected, please apply by March 15, 2022. We cannot guarantee that any applications after this date will be accepted, but if there’s space we’ll do our best!
 
 ### Anything happening ahead of the event? 
 Each year we host an Ambassador Meet and Greet to reconnect with old friends and to meet new ones. It also gives us a chance to share a ‘sneak peek’ of what’s to come. This year’s Meet and Greet will be held in early May, exact date and time TBD. 
@@ -86,7 +86,7 @@ Okay, ready to apply? Let’s do this:!
               
 <Button to="https://worlddominationsummit.com/ambassador-application" newWindow={true} styling="sea" fitToText>Apply Now!</Button> 
 
-We’ll be in touch to confirm receipt of your application within a couple of weeks of receiving it, and again with next steps a couple weeks after the February 1st deadline.
+We’ll be in touch to confirm receipt of your application within a couple of weeks of receiving it, and again with next steps a couple weeks after the March 15th deadline.
     
   </Block>
   </Block>
