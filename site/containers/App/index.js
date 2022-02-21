@@ -49,7 +49,7 @@ export class App extends Component {
       }
       if (
         nextProps.location.pathname.indexOf('claim') > -1 &&
-        this.props.location.pathname.indexOf('secret-purchase') > -1
+        this.props.location.pathname.indexOf('be-there') > -1
       ) {
       // if (
       //   nextProps.location.pathname.indexOf('claim') > -1 &&
@@ -186,8 +186,8 @@ export class App extends Component {
     );
   }
   render() {
-    const focus = ['/assign', '/welcome', '/secret-purchase'];
-    // const focus = ['/assign', '/welcome', '/be-there'];
+    // const focus = ['/assign', '/welcome', '/secret-purchase'];
+    const focus = ['/assign', '/welcome', '/be-there'];
     if (this.pathHas(focus)) {
       return this.renderFocusMode();
     }
