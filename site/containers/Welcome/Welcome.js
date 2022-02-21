@@ -240,15 +240,12 @@ const parts = [
   ],
   [
     {
-      title: 'What are 4 things that could enhance or support your WDS experience?',
+      title: 'Please share a single word that\'s meaningful to you.',
       content: (
         <div>
           <div>
             <p>
-              We&apos;d love to know a few specific things that bring you joy or are meaningful to you (or both).
-            </p>
-            <p>
-              Please only add things that you&apos;re comfortable sharing with others.
+              It could be your word for the year, or just another word you really like.
             </p>
           </div>
         </div>

@@ -82,7 +82,7 @@ class FourThings extends React.Component {
       const answers = props.auth.me.answers || [];
       answers.forEach((v, i) => {
         if (+v.question_id === +props.question_id) {
-          v.answer = JSON.parse(v.answer);
+          v.answer = v.answer[0] === '[' ? JSON.parse(v.answer) : v.answer;
           this.setState({ question: v });
         }
       });
@@ -118,7 +118,7 @@ class FourThings extends React.Component {
   }
   valid = () => {
     const answers = this.answers();
-    if (answers.length < 4) return false;
+    if (answers.length < 1) return false;
 
     let good = true;
     answers.forEach(a => {
@@ -129,7 +129,7 @@ class FourThings extends React.Component {
     return good;
   };
   error = () => {
-    this.setState({ error: 'Enter 4 things!' });
+    this.setState({ error: 'Enter a word!' });
     setTimeout(() => {
       this.setState({ error: '' });
     }, 750);
@@ -215,7 +215,6 @@ class FourThings extends React.Component {
     return (
       <Shell className={placeholderState === 'selected' ? 'selected' : placeholderState === 'changing' ? 'changing' : ''}>
         <Row>
-          <Label>1</Label>
           <div>
             <Input
               id="i1"
@@ -223,13 +222,13 @@ class FourThings extends React.Component {
               type="text"
               onFocus={this.focus}
               onBlur={this.blur}
-              placeholder={placeholder[0]}
+              placeholder="Your Word"
               value={this.answer(0)}
               style={{ fontSize: '26px' }}
             />
           </div>
         </Row>
-        <Row>
+        {/* <Row>
           <Label>2</Label>
           <div>
             <Input
@@ -273,7 +272,7 @@ class FourThings extends React.Component {
               style={{ fontSize: '26px' }}
             />
           </div>
-        </Row>
+        </Row> */}
         {this.props.showButton ? (
           <Button onClick={this.save}>{btn}</Button>
         ) : (
