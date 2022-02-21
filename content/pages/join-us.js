@@ -21,7 +21,7 @@ preload
 
     <p>For WDS X we will celebrate 10 years of <i>Community, Adventure,</i> and <i>Service</i> featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises.</p>
     
-    <p><b>WDS Tickets are $987*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available.</i></p>
+    <p><b>WDS Tickets are $997*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available.</i></p>
 
 
   </Block>

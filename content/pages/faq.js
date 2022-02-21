@@ -15,11 +15,11 @@
 
    ### When is the next WDS? (IMPORTANT UPDATE - last updated 1/04/22) 
       
-   **Due to COVID-19, WDS will return June 2022 and has been renamed to WDS X in honor of our 10th and final year of WDS**. For more information go to our **[Postponement page](https://worlddominationsummit.com/postponed)**.  
+   **Due to COVID-19, WDS will return June 2022 and has been renamed to WDS X to celerbate our 10th WDS**. For more information go to our **[Postponement page](https://worlddominationsummit.com/wds2022)**.  
    
    ### How can I get a WDS ticket?  
    
-   **Yes!** We're going to offer a small number of tickets in a public sale, most likely in February or March of 2022. Join our wait list at the bottom of this page to be notified about ticket information.  
+   **Yes!** We're going to offer a small number of tickets in a public sale, starting on February 22, 2022. Join our wait list at the bottom of this page to be notified about ticket information.  
                                                                                                                               
 ### I've purchased a WDS ticket, what do I do next?  
 
@@ -48,7 +48,7 @@ All WDS tickets are **non-refundable.** To review the full terms and conditions 
 
     ### Can I be a volunteer?  
     
-    Every year we recruit a number of volunteer "Ambassadors" to serve our attendees during WDS. To apply for this role, you must be a champion in helping attendees have an amazing experience, have extensive knowledge of Portland, and be available during the entire weekend for WDS main-events. Special consideration is given to those that are available for the entire week of WDS. Applications are typically available 3-4 months prior to WDS. Email our team at **[concierge@wds.fm](mailto:concierge@wds.fm)** to get notified when applications become available. 
+    Every year we recruit a number of volunteer “Ambassadors” to serve our attendees during WDS. To apply for this role, you must be a champion in helping attendees have an amazing experience, have extensive knowledge of Portland, and be available during the entire weekend for WDS main-events. Special consideration is given to those that are available for the entire week of WDS. Please apply at **[this page](https://worlddominationsummit.com/ambassadors)**. Priority deadline is March 15, 2022 but we’ll continue to accept applications as long as the application is live!
    
    ### Still have additional questions?  
    
