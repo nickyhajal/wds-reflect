@@ -10,7 +10,7 @@ preload
 <Block width="600px" color="orange" css={{marginTop: '80px' }}>
   <h2 style={{ marginBottom: '4px' }}>WDS X</h2><p></p>
     ## --June 21 to June 26, 2022-- 
-    ### _(Limited Ticket Release Coming Soon!)_ 
+  <JoinUsButton />
 <p></p>
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
@@ -65,4 +65,4 @@ preload
   </Grid>
 </Block>
 </Section>
-<Import id="wait-list" />
+<Import id="buy-box" />
