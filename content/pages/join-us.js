@@ -10,7 +10,7 @@ preload
 <Block width="600px" color="orange" css={{marginTop: '80px' }}>
   <h2 style={{ marginBottom: '4px' }}>WDS X</h2><p></p>
     ## --June 21 to June 26, 2022-- 
-  <Button styling="white" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+  <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
 <p></p>
 </Block>
 <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
