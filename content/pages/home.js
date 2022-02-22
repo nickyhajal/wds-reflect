@@ -133,4 +133,4 @@ Profits from WDS have gone to our "Scholarships for Real Life" foundation, a 501
     </Tab>
   </Tabs>
 </Section>
-<Import id="wait-list" />
+<Import id="buy-box" />
