@@ -82,4 +82,4 @@ Fast forward to 2022, and we’re still exploring that question every summer wit
       ]}/>
   </div>
 </Section>
-<Import id="wait-list" />
+<Import id="buy-box" />

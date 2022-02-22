@@ -105,4 +105,4 @@
  </Block>
  </Block>
 </Section>
-<Import id="wait-list" />
+<Import id="buy-box" />

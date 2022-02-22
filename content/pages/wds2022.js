@@ -96,4 +96,4 @@ The best is yet to come.
     Chris Guillebeau
   </Block>
 </Section>
-<Import id="wait-list" />
+<Import id="buy-box" />

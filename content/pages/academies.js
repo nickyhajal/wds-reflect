@@ -34,4 +34,4 @@ _Academies will return for our final year. Please use the following WDS 2019 Aca
 </Block>
 <EventList year={19} type="academy" title="WDS 2019 Academies" />
 </Section>
-<Import id="wait-list" />
+<Import id="buy-box" />
