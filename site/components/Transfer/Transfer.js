@@ -41,20 +41,20 @@ class Transfer extends React.Component {
   }
 
   doTransfer(elm) {
-    // const { first_name: firstName, last_name: lastName } = elm.state.form;
-    api('post tickettransfer', { data: _.defaults(elm.state.form, { country: 'US' }) }).then((rsp) => {
-      console.log(rsp);
-      browserHistory.push('/transferred');
-    });
-    // this.props.act.setProduct({
-    //   code: 'xfer',
-    //   product: 'WDS Ticket Transfer',
-    //   description: `Transfer to ${firstName} ${lastName}`,
-    //   data: _.defaults(elm.state.form, { country: 'US' }),
-    //   price: 10000,
-    //   redirect: 'transferred',
+    const { first_name: firstName, last_name: lastName } = elm.state.form;
+    // api('post tickettransfer', { data: _.defaults(elm.state.form, { country: 'US' }) }).then((rsp) => {
+    //   console.log(rsp);
+    //   browserHistory.push('/transferred');
     // });
-    // browserHistory.replace('/cart');
+    this.props.act.setProduct({
+      code: 'xfer',
+      product: 'WDS Ticket Transfer',
+      description: `Transfer to ${firstName} ${lastName}`,
+      data: _.defaults(elm.state.form, { country: 'US' }),
+      price: 10000,
+      redirect: 'transferred',
+    });
+    browserHistory.replace('/cart');
   }
 
   change(e) {
