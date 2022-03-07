@@ -15,27 +15,27 @@
     Here's a look back at some of our favorite keynotes from the last 9 WDS gatherings:
 
 ## Brand Montague and Robbie Novak (a.k.a Kid President)
-  <Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="134968995" width="710" height="430"/>
+  <Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="710" height="430"/>
   
     
 --
 ## Gretchen Rubin 
-  <Video placeholder="https://farm8.staticflickr.com/7444/9231360227_ef972e9c3a_c.jpg" videoId="70277456" width="710" height="430"/>
+  <Video placeholder="https://farm8.staticflickr.com/7444/9231360227_ef972e9c3a_c.jpg" videoId="Lt1mIqECeTo" width="710" height="430"/>
   
     
 --    
 ## Zach Anner 
-  <Video placeholder="https://c1.staticflickr.com/9/8299/28883938652_dbaf105039_b.jpg" videoId="183042075" width="710" height="430"/>  
+  <Video placeholder="https://c1.staticflickr.com/9/8299/28883938652_dbaf105039_b.jpg" videoId="HIK7epNIl2A" width="710" height="430"/>  
  
     
 --    
 ## Jadah Sellner 
-  <Video placeholder="https://farm4.staticflickr.com/3868/14618318286_2cce1b5cb7_b.jpg" videoId="102690002" width="710" height="430"/>
+  <Video placeholder="https://farm4.staticflickr.com/3868/14618318286_2cce1b5cb7_b.jpg" videoId="LfxuhxAAzGI" width="710" height="430"/>
   
     
 --    
 ## Jeremy Cowart 
-  <Video placeholder="https://farm4.staticflickr.com/3789/19482077119_49147aede7_k_d.jpg" videoId="134620372" width="710" height="430"/>
+  <Video placeholder="https://farm4.staticflickr.com/3789/19482077119_49147aede7_k_d.jpg" videoId="bTfvjaCdJw0" width="710" height="430"/>
  
     
 --    
