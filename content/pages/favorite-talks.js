@@ -12,7 +12,7 @@
     
     Addtionally, each year we invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community.
 
-    Here's a look back at some of our favorite keynotes from the last 8 years:
+    Here's a look back at some of our favorite keynotes from the last 9 WDS gatherings:
 
 ## Brand Montague and Robbie Novak (a.k.a Kid President)
   <Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="134968995" width="710" height="430"/>
@@ -43,4 +43,4 @@
   Check-out the **[WDS YouTube page](https://www.youtube.com/channel/UCOdRqojggRLnyTGhim15-og)** for more amazing keynotes. 
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="buy-box" />
