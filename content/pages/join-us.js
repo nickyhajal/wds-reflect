@@ -23,6 +23,7 @@ preload
     
     <p><b>WDS Tickets are $997*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available.</i></p>
 
+ <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
 
   </Block>
 </Section>
