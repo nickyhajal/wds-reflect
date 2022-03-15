@@ -656,7 +656,7 @@ class Welcome extends Component {
           css={{ position: 'absolute', top: '40px', left: '-280px', zIndex: '-1' }}
         />
         <Block align="center" textAlign="center">
-          <Image src="v2/logo2020.png" width="123" height="26" fit="contain" margin="-104px auto 80px" />
+          <Image src="v2/WDS-X-logo-orange.png" width="123" height="26" fit="contain" margin="-104px auto 80px" />
         </Block>
         {this.renderHeader(format)}
         {this.renderPart(format)}
