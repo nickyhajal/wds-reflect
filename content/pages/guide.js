@@ -23,7 +23,7 @@
     preload
   />
    <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
-    ## A Week of WDS: June 23rd - June 29th, 2020
+    ## WDS: June 21 - June 26, 2022
 
     - **Tuesday (6/21)** WDS HQ and Attendee-Led Meetups
     - **Wednesday (6/22)** Academies, WDS HQ and Attendee-Led Meetups
