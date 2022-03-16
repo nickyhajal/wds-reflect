@@ -9,7 +9,7 @@
   <Image src="v2/headings/guide.png" width="421" height="151" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## Ready? Set. Go! The Attendee Guide to WDS X
-    This summer, you'll join over 1000+ invidividuals from over 30+ countries coming to Portland for our final WDS gathering of remarkable adventurers. This is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS 2020 - **_you'll find it here!_**      
+    This summer, you'll join over 1000+ invidividuals from over 30+ countries coming to Portland for our final WDS gathering of remarkable adventurers. This is a checklist and guide to help you prepare and maximize your WDS experience. If you need any information regarding WDS X - **_you'll find it here!_**      
   <Image src="photos/league.of.leaders.banner.jpg" width="100%" height="405" />
       </Block>
   </Section>        
@@ -45,17 +45,17 @@
       <Block type="image-overlay" anchor="right" src="photos/wds.main.stage.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 1: Learn How WDS Works
         WDS is an unconventional event. How does the week work? What are the events that make up WDS? This should help.       
-          <Button to="https://worlddominationsummit.com/wds-how-it-works" newWindow={true} styling="orange" fitToText>Coming Soon</Button> 
+          <Button to="https://worlddominationsummit.com/wds-how-it-works" newWindow={true} styling="orange" fitToText>Learn More</Button> 
          </Block>
        <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/WDS-high-five-chain.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Plan Your Arrival to Portland
         As you make your travel plans, use this helpful guide to determine when to arrive to (and depart from) Portland.
-       <Button to="When to Arrive in Portland for WDS X (2022)" newWindow={true} styling="orange" fitToText>Coming Soon</Button>
+       <Button to="When to Arrive in Portland for WDS X (2022)" newWindow={true} styling="orange" fitToText>Learn More</Button>
         </Block>            
         <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Book Lodging
         Every year WDS partners with some of Portland's most iconic hotels to provide exclusive discounts for our attendees.
-       <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fitToText>Coming Soon</Button>
+       <Button to="https://worlddominationsummit.com/location" newWindow={true} styling="orange" fitToText>Reserve Today</Button>
         </Block>
          <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/World-Record-Attempt.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 4: Help Set a World Record
