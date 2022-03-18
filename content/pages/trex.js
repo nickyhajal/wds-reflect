@@ -32,9 +32,12 @@
   preload
 >
   <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/Trex-logo.png" width="900px" height="153px" className="scriptHeader" preload/>
-  <Block cols="8" bleed={false} margin="0 0 80px">
-    <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
-    <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
+  
+<Block cols="8" bleed={false} margin="0 0 80px">
+
+<Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="710" height="430"/>
+  
+<Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       ## We're Taking Over the City, Roar!
       Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
       <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2020.</p>
