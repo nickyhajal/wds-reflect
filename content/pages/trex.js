@@ -35,7 +35,7 @@
   
 <Block cols="8" bleed={false} margin="0 0 80px">
 
-<Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="710" height="430"/>
+<Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="100%" height=""/>
   
 <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       ## We're Taking Over the City, Roar!
@@ -89,6 +89,51 @@
 <p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (<a href="mailto:concierge@wds.fm">concierge@wds.fm</a>) to see if any openings become available and they'll do their best to assist you.</p>
     Here's what you need to know...
   </Block>
+</Section>
+<Section color="canvas">
+  <Block>## The WDS Hotel™ Gallery</Block>
+  <Tabs style="dots">
+    <Tab title="Exterior ">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left"> 
+      </Block>
+    </Tab>
+    <Tab title="Front Desk">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+    </Tab>
+    <Tab title="Cafe Counter">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+    </Tab>
+<Tab title="Rooftop Patio">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+    </Tab>
+<Tab title="Bunk Room">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+     </Tab>
+      <Tab title="Bunk Bed">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left"> 
+      </Block>
+    </Tab>
+    <Tab title="Private Room">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+    </Tab>
+    <Tab title="Amenities">
+      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+      </Block>
+    </Tab>
+  </Tabs>
 </Section>
 <Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
@@ -261,51 +306,6 @@
     </Grid>
     </Block>
     <div className="clear" />
-</Section>
-<Section color="canvas">
-  <Block>## The WDS Hotel™ Gallery</Block>
-  <Tabs style="dots">
-    <Tab title="Exterior ">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left"> 
-      </Block>
-    </Tab>
-    <Tab title="Front Desk">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-    <Tab title="Cafe Counter">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-<Tab title="Rooftop Patio">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-<Tab title="Bunk Room">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-     </Tab>
-      <Tab title="Bunk Bed">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left"> 
-      </Block>
-    </Tab>
-    <Tab title="Private Room">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-    <Tab title="Amenities">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-  </Tabs>
 </Section>
 <Section color="green">
   <Block cols="6" css={{ padding: '15px 0 20px' }}>
