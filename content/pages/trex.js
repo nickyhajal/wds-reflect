@@ -35,7 +35,7 @@
   
 <Block cols="8" bleed={false} margin="0 0 80px">
 
-<Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="100%" height=""/>
+<Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="1000" height=""/>
   
 <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       ## We're Taking Over the City, Roar!
@@ -91,46 +91,36 @@
   </Block>
 </Section>
 <Section color="canvas">
-  <Block>## The WDS Hotel™ Gallery</Block>
+  <Block>## Previous World Record Attempts</Block>
   <Tabs style="dots">
-    <Tab title="Exterior ">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Hotel+Exterior.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+    <Tab title="Worldwide Waffles">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/Waffles-1.jpg" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left"> 
       </Block>
     </Tab>
-    <Tab title="Front Desk">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Front+Desk.png" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+    <Tab title="Breakfast in Bed">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/Waffles-2.jpg" width="800" height="533" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
       </Block>
     </Tab>
-    <Tab title="Cafe Counter">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Society+Hotel+Barista.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
+    <Tab title="The Great Namaste">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/Yoga-1.jpg" mobile={{ all: { width: '100%' }}} width="800" height="533" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
       </Block>
     </Tab>
-<Tab title="Rooftop Patio">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Patio!.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+<Tab title="Yoga Chain">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/Yoga-2.jpg" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
       </Block>
     </Tab>
-<Tab title="Bunk Room">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Command.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+<Tab title="The Big Float">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/Big-Float-1.jpg" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
       </Block>
      </Tab>
-      <Tab title="Bunk Bed">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Bunk+Bed.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Tab title="Float Chain">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/Big-Float-2.jpg" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left"> 
-      </Block>
-    </Tab>
-    <Tab title="Private Room">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Private+Room.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
-      </Block>
-    </Tab>
-    <Tab title="Amenities">
-      <Image src="https://s3.amazonaws.com/el-files-wds/images/wds-hotel/Robe+etc.png" width="800" height="533" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
-      <Block cols="6" textAlign="left">
       </Block>
     </Tab>
   </Tabs>
