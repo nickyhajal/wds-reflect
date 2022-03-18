@@ -35,18 +35,17 @@
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-      ## Welcome to the WDS Hotel™
+      ## We're Taking Over the City, Roar!
       Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
       <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2020.</p>
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, offers one large bunk room (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
-      ### UPDATE: The WDS Hotel™ Has Sold Out!
     </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
       <Block>
-        ## Conveniently Located
+        ## T-Rex Gathering Point
       </Block>
-      <Block className="locationMap" anchor="left" width="510px" margin="50px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
+      <Block className="locationMap" anchor="left" width="510px" margin="25px auto 0 auto" mobile={{ all: { width: '510px', float: 'none' }, phone: {width: '260px', height:'220px' } }}>
         <PDXLocationMap
           containerElement={
             (is.phone() ?
@@ -64,24 +63,24 @@
       </Block>
       <Block anchor="left" width="370px" textAlign="left">
         <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
-          ### 203 NW 3rd Ave,
-          ### Portland, OR 97209
+          ### 701 SW 6th Ave,
+          ### Portland, OR 97205
         </Block>
-        <Block type="caption" src="photos/society-hotel.jpg" width="316" css={{ left: '50px', top: '11px' }}
+        <Block type="caption" src="https://el-files-wds.s3.amazonaws.com/images/photos/pioneer-square.jpg" width="316" css={{ left: '50px', top: '11px' }}
           mobile={{
             all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
             phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
           }}
         >
-          ### WDS Hotel™
-          <Link to="https://goo.gl/maps/v6kK2y4xsN82">0.8 Mi from Base</Link>
+          ### Pioneer Courthouse Square
+          <Link to="https://goo.gl/maps/32g7MTf8H3fZ6z1T7">0.4 Mi from WDS HQ</Link>
         </Block>
       </Block>
     </Block>
     <div className="clear" />
   </Block>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
-    ## We're Taking Over an Entire Hotel!
+    ## World Record Attempts
     <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 25th until Monday, June 29th</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
 
 <p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (<a href="mailto:concierge@wds.fm">concierge@wds.fm</a>) to see if any openings become available and they'll do their best to assist you.</p>
