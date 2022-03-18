@@ -66,7 +66,7 @@
           ### 701 SW 6th Ave,
           ### Portland, OR 97205
         </Block>
-        <Block type="caption" src="https://el-files-wds.s3.amazonaws.com/images/photos/pioneer-square.jpg" width="316" css={{ left: '50px', top: '11px' }}
+        <Block type="caption" src="https://el-files-wds.s3.amazonaws.com/images/photos/Pioneer-Courthouse-Square-Portland.jpg" width="316" css={{ left: '50px', top: '11px' }}
           mobile={{
             all: {width: '510px', left: '0', margin: '0 auto 20px', float: 'none' },
             phone: {width: '260px', left: '0', margin: '0 auto 20px', float: 'none' }
