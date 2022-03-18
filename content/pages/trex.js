@@ -31,7 +31,7 @@
   color="white"
   preload
 >
-  <Image src="images/heading/T-rex-Takeover-logo.png" width="446px" height="156px" className="scriptHeader" preload/>
+  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/T-rex-Takeover-logo.png" width="1219px" height="207px" className="scriptHeader" preload/>
   <Block cols="8" bleed={false} margin="0 0 80px">
     <Image src="wds-hotel/WDS.hotel.lobby.1.png" width="100%" height="302" />
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
