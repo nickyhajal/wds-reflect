@@ -43,7 +43,10 @@
       <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2020.</p>
       <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, offers one large bunk room (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
       <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
-    </Block>
+     
+        <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+
+        </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
       <Block>
         ## T-Rex Gathering Point
@@ -124,6 +127,8 @@
       </Block>
     </Tab>
   </Tabs>
+ <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+
 </Section>
 <Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
   <div className="clear"></div>
