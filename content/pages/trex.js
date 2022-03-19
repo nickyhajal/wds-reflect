@@ -31,7 +31,7 @@
   color="white"
   preload
 >
-  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/Trex-logo.png" width="900px" height="153px" className="scriptHeader" preload/>
+  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/Trex-logo.png" width="450px" height="" className="scriptHeader" preload/>
   
 <Block cols="8" bleed={false} margin="0 0 80px">
 
