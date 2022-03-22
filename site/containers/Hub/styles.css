@@ -25,3 +25,25 @@
     color: $blue;
    }
 }
+.sideBtns {
+  width: 280px;
+  background: transparent;
+  margin-right: 20px;
+  margin-top: -35px;
+  @media(--tablet) {
+    height: 430px;
+    gap: 1rem;
+    margin-top: -200px;
+    display: flex;
+    width: 100%;
+  }
+}
+.content {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  @media(--tablet) {
+    flex-direction: column;
+  }
+}

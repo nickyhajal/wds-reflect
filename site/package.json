@@ -79,7 +79,7 @@
     "react-dom": "^15.3.2",
     "react-dropzone": "^3.9.2",
     "react-fastclick": "^2.1.2",
-    "react-google-maps": "next",
+    "react-google-maps": "^9.4.5",
     "react-markdown": "^2.4.4",
     "react-modal": "^1.6.5",
     "react-redux": "^5.0.2",
