@@ -127,7 +127,7 @@ export class Profile extends Component {
       });
       _.sortBy(theAs, 'wc').forEach((a) => {
         assets.questions.forEach((q) => {
-          if (+q.question_id === +a.question_id) {
+          if (+q.question_id === +a.question_id && +q.question_id !== 20) {
             qnas.push(
               <div styleName="qna" key={`qna-${q.question_id}`}>
                 <h4>{q.question}</h4>
