@@ -17,9 +17,9 @@
       
    **Due to COVID-19, WDS will return June 2022 and has been renamed to WDS X to celerbate our 10th WDS**. For more information go to our **[Postponement page](https://worlddominationsummit.com/wds2022)**.  
    
-   ### How can I get a WDS ticket?  
+   ### Can I get a WDS X ticket?  
    
-   **Yes!** We're going to offer a small number of tickets in a public sale, starting on February 22, 2022. Join our wait list at the bottom of this page to be notified about ticket information.  
+   **Yes!** Less than 30 tickets are available right now at **[this page](https://worlddominationsummit.com/join-us)**.  
                                                                                                                               
 ### I've purchased a WDS ticket, what do I do next?  
 
@@ -55,4 +55,4 @@ All WDS tickets are **non-refundable.** To review the full terms and conditions 
    Contact our year-round concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they'll be able to assist you. 
   </Block>
 </Section>
-<Import id="join-us" />
+<Import id="buy-box" />

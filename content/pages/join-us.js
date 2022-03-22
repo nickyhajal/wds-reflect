@@ -10,6 +10,7 @@ preload
 <Block width="600px" color="orange" css={{marginTop: '80px' }}>
   <h2 style={{ marginBottom: '4px' }}>WDS X</h2><p></p>
     ## --June 21 to June 26, 2022-- 
+<p><i>Less than 30 tickets remaining!</i></p>
   <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
 <p></p>
 </Block>
@@ -23,6 +24,7 @@ preload
     
     <p><b>WDS Tickets are $997*</b>, non-refundable, and offered on a first come, first served basis. <i>*A 4-month payment plan will be available.</i></p>
 
+ <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
 
   </Block>
 </Section>

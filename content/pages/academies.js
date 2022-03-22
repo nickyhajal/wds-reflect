@@ -15,19 +15,17 @@ You'll have the opportunity to learn something new to help live your _own_ remar
   </Block>
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-        ## The Details (Academies will return for our final year)
-**All information here is subject to change.** Please use as reference information only: Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.
+        ## The Details
+**All information here is subject to change.** Please use as reference information only until Academies for WDS X are officially announced: Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.
 
-- **WDS Attendees:** $29 per Academy
-- **General Public:** $59 per Academy
+- **WDS Attendees:** $29 (early bird) --> $49 per Academy
+- **General Public:** $49 (early bird) --> $69 per Academy
 
 (Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection)
                                                                                                                                               
 There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. No physical ticket or confirmation will be required upon check-in, just a valid photo ID. Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.
 
 If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. 
-
-### Sorry We Missed You!
 
 _Academies will return for our final year. Please use the following WDS 2019 Academies schedule as reference of the type of content you might experience._ 
 
