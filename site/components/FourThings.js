@@ -121,7 +121,9 @@ class FourThings extends React.Component {
     if (answers.length < 1) return false;
 
     let good = true;
+    console.log('validate', answers);
     answers.forEach(a => {
+      console.log('foreach', a)
       if (!a.length) {
         good = false;
       }
