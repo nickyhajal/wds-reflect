@@ -118,17 +118,18 @@ class FourThings extends React.Component {
   }
   valid = () => {
     const answers = this.answers();
-    if (answers.length < 1) return false;
+    if (answers.filter(a => a).length < 1) return false;
+    return true;
 
-    let good = true;
-    console.log('validate', answers);
-    answers.forEach(a => {
-      console.log('foreach', a)
-      if (!a.length) {
-        good = false;
-      }
-    });
-    return good;
+    // let good = true;
+    // console.log('validate', answers);
+    // answers.forEach(a => {
+    //   console.log('foreach', a)
+    //   if (!a.length) {
+    //     good = false;
+    //   }
+    // });
+    // return good;
   };
   error = () => {
     this.setState({ error: 'Enter a word!' });
