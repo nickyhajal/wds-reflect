@@ -43,4 +43,4 @@
   Check-out the **[WDS YouTube page](https://www.youtube.com/channel/UCOdRqojggRLnyTGhim15-og)** for more amazing keynotes. 
   </Block>
 </Section>
-<Import id="buy-box" />
+<Import id="join-us" />
