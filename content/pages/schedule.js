@@ -29,14 +29,14 @@ You decide if you'll join us for the weekend or come for the entire week. Regard
     <ul><li><b className="highlight highlight-2">Saturday (6/25)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
     <ul><li><b className="highlight highlight-2">Sunday (6/26)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
     - **Monday (6/27)** Attendee-Led Meetups & Final Farewells
-      <div className="note">Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</div>
+      <div className="note">Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</div>
   </Block>
 <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
   <div className="clear" />
 <Block cols="6" bleed={false} textAlign="center" margin="80px 0 80px">
-## Registered for WDS? Start here!
+## Registered for WDS X? Start here!
 Click on the button for a step-by-step guide on how to prepare and maximize your WDS experience.
-<Button to="" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>WDS X Guide (coming soon)</Button>
+<Button to="/guide" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>WDS X Guide (Now Available)</Button>
 </Block>
 </Section>
   <Section color="canvas">
@@ -44,7 +44,7 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
     
-    _**Check back later in the year for WDS speaker lineup announcements and profiles.**_
+    _**WDS X Speaker Profiles (COMING SOON).**_
   </Block>
   <div class="clear" />
 </Section>  
@@ -75,4 +75,4 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
     </Block>
   </Block>
 </Section>
-<Import id="buy-box" />
+<Import id="join-us" />
