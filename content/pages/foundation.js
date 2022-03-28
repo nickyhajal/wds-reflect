@@ -50,4 +50,4 @@ The Foundation and the Scholarships For Real Life program has come to an end, bu
 
 </Block>
 </Section>
-<Import id="buy-box" />
+<Import id="join-us" />
