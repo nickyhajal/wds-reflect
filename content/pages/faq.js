@@ -19,11 +19,11 @@
    
    ### Can I get a WDS X ticket?  
    
-   **WDS X is now SOLD OUT.** If you're looking for a way to attend, contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** for options.
+   WDS X is now **SOLD OUT** but there's still a chance to attend WDS. Contact our Concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** for options.
                                                                                                                               
 ### I've purchased a WDS ticket, what do I do next?  
 
-Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. Alsoc check out this helpful, **[step-by-step guide](https://worlddominationsummit.com/guide)**.
+Keep checking your inbox. All communication about the event and specific actions needed from you to prepare you for the event is sent via email. Additionally, check out this helpful, **[step-by-step guide](https://worlddominationsummit.com/guide)**.
     
      ### Do you offer a payment plan for tickets?  
   
