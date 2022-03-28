@@ -55,4 +55,4 @@ All WDS tickets are **non-refundable.** To review the full terms and conditions 
    Contact our year-round concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)** and they'll be able to assist you. 
   </Block>
 </Section>
-<Import id="buy-box" />
+<Import id="join-us" />
