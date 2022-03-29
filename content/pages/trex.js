@@ -31,7 +31,7 @@
   color="white"
   preload
 >
-  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/Trex-logo.png" width="400px" height="112" className="scriptHeader" preload/>
+  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/Trex-logo.png" width="300px" height="112" className="scriptHeader" preload/>
   
 <Block cols="8" bleed={false} margin="0 0 80px">
 
@@ -216,4 +216,3 @@
  </Block>
    <div className="clear" />
 </Section>
-<Import id="join-us" />
