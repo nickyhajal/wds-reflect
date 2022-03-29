@@ -31,18 +31,17 @@
   color="white"
   preload
 >
-  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/Trex-logo.png" width="450px" height="" className="scriptHeader" preload/>
+  <Image src="https://el-files-wds.s3.amazonaws.com/images/heading/Trex-logo.png" width="400px" height="112" className="scriptHeader" preload/>
   
 <Block cols="8" bleed={false} margin="0 0 80px">
 
 <Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="1000" height=""/>
   
 <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-      ## We're Taking Over the City, Roar!!!
-      Community has always been at the heart of WDS. Every year, many attendees forge lasting friendships and find creative ways to stay together during the weekend before they return home. 
-      <p>One of the most frequent requests we receive is a way to centralize the process of group accommodations. Well, we can’t be a matchmaker… but we have reserved <i>an entire hotel</i> for the final four days of WDS 2020.</p>
-      <p>This hotel, known during non-WDS times as the <Link to="http://thesocietyhotel.com/">Society Hotel</Link>, offers one large bunk room (hostel style, but nice) <i>and</i> a number of private rooms, including suites. Want to be the life of the party? Book a bunk. Need your space? Choose one of the rooms or suites.</p>
-      <p>If you love the community of WDS, you’ll love the WDS Hotel™. It’s a sleepover party with 100 of the world's most remarkable adventurers.</p>
+      ## A world record 65 million years in the making.
+     This summer, be part of something extraordinary: a World Record for the most people dressed in dinosaur costumes.  
+     This is serious—we're not dino-ing around. A meteor may have taken out our prehistoric ancestors, but not even a global pandemic could stop this modern day reenactment.  
+     It all goes down Friday morning on June 24th, 2022. Sign up and make history! 
      
         <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
 
@@ -69,6 +68,7 @@
       </Block>
       <Block anchor="left" width="370px" textAlign="left">
         <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
+          ### Pick up Suits at 8am
           ### 701 SW 6th Ave,
           ### Portland, OR 97205
         </Block>
@@ -87,10 +87,7 @@
   </Block>
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
     ## World Record Attempts
-    <p>We've reserved every single room and bed of the Society Hotel during the main events of WDS from <b>Thursday, June 25th until Monday, June 29th</b>. Because this is more than just a typical hotel experience, rooms and bunks will <b>only be available for purchase as a four-night package.</b></p>
-
-<p>Once we sell out, that's it! We literally cannot add any extra rooms or bunks. If you do miss out on the initial sale, email the WDS Concierge team (<a href="mailto:concierge@wds.fm">concierge@wds.fm</a>) to see if any openings become available and they'll do their best to assist you.</p>
-    Here's what you need to know...
+    With a long history of World Records, including the most number of people eating breakfast in bed and the Longest Yoga Chain, we’re excited to be back to break the record for Most People in Inflatable Dinosaur Costumes!
   </Block>
 </Section>
 <Section color="canvas">
@@ -145,32 +142,37 @@
     }}}
     clip="top_lr_1.6"
   >
-    ## WDS Hotel™ Package Details
+    ## T-Rex Takeover Details
 
-    - 4-nights: Thursday, June 25th (check-in 3pm) to Monday, June 29th (check-out 11am)
-    - All hotel taxes included in listed prices
-    - Complimentary high speed Wi-Fi
-    - Rooftop access
-    - Text-a-concierge service through the hotel
-    - Exclusive programming and activities
-    - Exclusive SWAG just for WDS Hotel™ guests
-    - High fives
-     <p><b>Important details:</b> All packages are reserved through WDS and are paid in full upfront and are non-refundable (so make sure you can commit to being there before purchasing). A credit card is required for online reservation and at check-in. WDS is responsible for the reservation process and any changes associated with the 4-night package. The Society Hotel will provide all other hotel and guest services.</p> 
+    - Break a world record and make history!
+    - Includes full size, inflatable WDS T-Rex Costume (kind of important) for you to take home
+    - Batteries and T-Rex hands also included 
+    - Dino Dance party in Pioneer Courthouse Square - the heart of Portland!
+    - On-stage antics and entertainment
+
+     <p><b>Important details:</b> Tickets are reserved through WDS and your credit card will be charged at purchase. Tickets are non-refundable. </p> 
   </Block>
-  <Image src="wds-hotel/coffee.bar.png" width="426" height="263" margin="-50px -60px 40px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
-  <div className="clear" />
-</Section>
+ 
+<Image src="https://el-files-wds.s3.amazonaws.com/images/photos/t-rex-party.jpg" width="400" height="266" margin="-50px -60px 40px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
+  
+<div className="clear" />
+
+    </Section>
 <Section color="white">
   <Block cols="6" css={{ padding: '50px 0 20px' }} textAlign="left">
       ## Let's Do This!
-      Here's how to reserve your spot at the WDS Hotel™
-      ##### Step #1: Choose your room type (descriptions below)
-      We've got three options for travelers with both budget and sleep preferences in mind.
-     ##### Step #2: Review the details and FAQ sections
-  <p>It's the little details that can make a huge difference in your experience.</p>
-  ##### Step #3: Payment and guest information
-  <p>Make your room selection, book, tell us who's coming, and then prepare for lift-off.</p>
-  </Block>
+      Here’s how to reserve your spot in the WDS T-Rex Takeover!
+      
+      ##### Step #1: Buy Your Ticket
+      It’s going to sell out fast.
+     
+      ##### Step #2: Review the details and FAQ sections
+  <p>We’ll send out more info to participants, but this is a great place to learn the basics</p>
+  
+      ##### Step #3: Get ready to be 7 feet tall with tiny arms!
+  <p>You can pick up your suit at Pioneer Courthouse Square starting 8am on Friday, June 24th</p>
+  
+</Block>
  <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
     <div className="clear" />
 </Section>
@@ -189,34 +191,28 @@
     }}}
     clip="top_lr_1.6"
   >
-        ## WDS Hotel™ FAQs
+        ## T-Rex Takeover FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
-        ### Can I book a WDS Hotel™ package through the Society Hotel? 
-        Because of our arrangement with the Society Hotel, WDS is handling reservations for all rooms during the WDS weekend (arriving Thursday, June 25th, checking out Monday, June 29th). All rooms will be sold as 4-night packages.   
-        ### What is your refund/transfer policy for WDS Hotel™ packages?
-        <p>All WDS Hotel packages are <b>non-refundable</b>. You can, however, transfer your package to another attendee for a $50 fee <b>until June 24th</b> by contacting the WDS concierge team (not the Society Hotel) at <b>concierge@wds.fm</b>.</p>  
-        ### How do I book additional nights before or after the WDS package dates?
-        <p>Once you've reserved your WDS Hotel™ package, please contact the Society Hotel by phone (avoid their online reservation system) to set up any additional dates by calling their front desk at <b>(503)445-0444</b>. You may be able to stay in the same room type as your WDS Hotel™ package, but that will depend on the hotel's room availability.</p>
-        ### When will my credit card be charged?
-        Your card will be immediately charged for the full amount when you book a WDS Hotel™ package. You'll also need to provide a credit card upon check-in for an incidental hold. This will also allow you to charge any hotel services, like buying a coffee or cocktail, directly to your room.
-        ### Can I book a room with another WDS attendee?
-        <p>Yes! Similar to any hotel reservation, one person is responsible for the reservation itself and only that person will be able to make any changes. <i>Bunks require individual reservations.</i></p>
-        ### Can I book a partial stay or split days with a friend?
-        Once you've booked a package, you get the room or bunk for the entire 4 nights regardless of how many days you plan to use. Like any hotel reservation, you are ultimately responsible for any other guests that you let stay in your room. For example, if your friend charges 20 craft microbrews and one bag of Skittles to the room, you'd be responsible for paying the bill.
-        ### Can I book a private room with another person who isn’t attending WDS?
-        <p>We'd love for everyone staying at the WDS Hotel™ to be part of WDS. However, we understand if you’ve booked a private room and you have a significant other or dependent staying with you who is not attending WDS. <i>For the bunk section of the hotel, all guests need to be registered WDS attendees.</i></p>
-        ### What is a private (shared) bathroom?
-        <p>Standard room and Bunkroom guests share bathroom facilities on the floors they are located in. Though shared by those staying on the floor, they are individual, private bathrooms.</p>
-        ### What kinds of facilities are in the hotel?
-        <p>There is an excellent cafe that serves light fare for breakfast and lunch, which you'll be able to charge to your room/bunk. Additionally, as a registered guest you'll have access to the amazing rooftop lounge. Please note there is not a fitness center onsite.</p>    
-        ### How do I get to the hotel from the airport? 
-        <p>For just $2.50, you can take the MAX red line train from the airport towards "City Center/Beaverton" and get off at the "Old Town/Chinatown" stop. Walk two blocks west on Davis St. and you'll see the hotel at the corner of Davis and 3rd Ave. <Link to="https://goo.gl/maps/93LythVvQEG2">(Google directions).</Link> Taxis and ride share options are also available.</p>
-        ### How far is the hotel from the WDS Main Stage?
-        <p>The hotel is less than a mile (0.8) walk through downtown <Link to="https://goo.gl/maps/v6kK2y4xsN82">(Google directions)</Link>. You can also make the trip by bike, light rail (MAX) system, or ride share.</p>
-        ### It looks like you're sold out but I'd really like to stay at the WDS Hotel™. What are my options?
-        <p>Reach out to our concierge team at <b>concierge@wds.fm</b> to see if there are any cancellations and openings. <i>Do not contact the Society Hotel regarding WDS packages.</i></p>
+        ### Will you sell out?
+        We expect to sell out pretty quick. We have a long history of selling out our World Records. This event has limited space and limited dino-suits. If you want to take part of breaking this World Record, get your ticket ASAP! 
+        ### Can I buy tickets for friends?
+        <p>Right now, we are limiting this sale to WDS attendees, with the hope of having <i>only</i> WDS attendees. If we open it up to a wider audience, we’ll make sure you’re the first to know!</p>  
+        ### Will the suit fit me?
+        <p>We have tried the suits out on a wide-range of body types. Very short, and very tall. Large and small. Everyone so far has been able to fit relatively comfortably.</p>
+        ### Can I bring my own suit?
+        We are not allowing outside suits for this event. You will be given a full-size, WDS T-Rex costume at registration. We’ll have Ambassadors around to help you put it on, and keep you safe while you’re in it.
+        ### What should I bring?
+        <p>Pack light. The suit is large enough for most people to wear a small backpack, purse or satchel. The event will be fenced off from the general public, but we won’t have a secure bag check area. Bring water, sunscreen, a small snack and your ID. If you have long hair, a hair tie or headband is highly recommended.</p>
+        ### How long will I be in the suit?
+        We expect that you’ll be in the suit for 30-45 minutes as we do the official count for the record and enjoy some Dino Dancing.
+        ### Will I be able to take the suit home with me?
+        <p>Yes, you can keep it and wear it for all special occasions. Proms, weddings, family reunions—we've got you covered. </p>
+        ### What is the previous record?
+        <p>You can find it here -- <a href="https://www.guinnessworldrecords.com/world-records/430985-largest-gathering-of-people-dressed-as-dinosaurs" target="_blank">Largest Gathering of People Dressed as Dinosaurs</a> . It was set in 2019 with 252 people. We expect to smash this record back to the stone age!</p>
+        ### Will there be more tickets once you sell out?
+        <p>Nope! We have a limited number of suits and once they’re reserved, ticket sales become extinct. Don’t wait for evolution! </p>   
         ### Not finding the answer to your question?
-        Contact our year-round concierge team at concierge@wds.fm. They’ll get back to you at lightning speed!
+        Contact our year-round concierge team at concierge@wds.fm.
  </Block>
    <div className="clear" />
 </Section>
