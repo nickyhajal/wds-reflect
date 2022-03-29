@@ -95,7 +95,7 @@
       Reservation notes: Use the special booking link below (book now). To reserve shoulder dates at the group rate, first book the dates with the booking link, then contact Edwin at (503)484-1075.
       
         <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
-  <Button to="https://gc.synxis.com/rez.aspx?Hotel=53439&Chain=6052&arrive=6/21/2022&depart=6/28/2022&adult=1&child=0&group=WDS2022" newWindow={true} >Book Now!</Button> 
+  <Button to="https://be.synxis.com/?Hotel=53439&Chain=6052&arrive=2022-06-23&depart=2022-06-27&adult=1&child=0&group=WDS2022" newWindow={true} >Book Now!</Button> 
 </Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
       ## Paramount Hotel 
