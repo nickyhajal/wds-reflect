@@ -42,7 +42,7 @@
      This is serious—we're not dino-ing around. A meteor may have taken out our prehistoric ancestors, but not even a global pandemic could stop this modern day reenactment.  
      It all goes down Friday morning on June 24th, 2022. Sign up and make history! 
      
-        <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+        <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Registration begins April 6th</Button>
 
         </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
@@ -68,8 +68,8 @@
       <Block anchor="left" width="370px" textAlign="left">
         <Block width="340px" css={{ padding: '50px 20px 50px 70px', fontFamily: 'Vitesse', color: 'white', fontSize: '18px' }} mobile={{ all: {padding: '50px 0px 50px 0px' } }} align="center">
           ### Pick up Suits at 8am
-          ### 701 SW 6th Ave,
-          ### Portland, OR 97205
+          ### 701 SW 6th Avenue
+          ### Portland, Oregon 97205
         </Block>
         <Block type="caption" src="https://el-files-wds.s3.amazonaws.com/images/photos/Pioneer-Courthouse-Square-Portland.jpg" width="316" css={{ left: '50px', top: '11px' }}
           mobile={{
@@ -123,7 +123,7 @@
       </Block>
     </Tab>
   </Tabs>
- <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+ <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Early registration begins April 6th</Button>
 
 </Section>
 <Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
@@ -144,9 +144,9 @@
     ## T-Rex Takeover Details
 
     - Break a world record and make history!
-    - Includes full size, inflatable WDS T-Rex Costume (kind of important) for you to take home
+    - Includes a full size, inflatable WDS T-Rex Costume (key item!) for you to take home
     - Batteries and T-Rex hands also included 
-    - Dino Dance party in Pioneer Courthouse Square - the heart of Portland!
+    - Dino Dance party in Pioneer Courthouse Square, the heart of Portland
     - On-stage antics and entertainment
 
      <p><b>Important details:</b> Tickets are reserved through WDS and your credit card will be charged at purchase. Tickets are non-refundable. </p> 
@@ -163,7 +163,7 @@
       Here’s how to reserve your spot in the WDS T-Rex Takeover!
       
       ##### Step #1: Buy Your Ticket
-      It’s going to sell out fast.
+      Don't delay, history has its eyes on you
      
       ##### Step #2: Review the details and FAQ sections
   <p>We’ll send out more info to participants, but this is a great place to learn the basics</p>
@@ -197,7 +197,7 @@
         ### Can I buy tickets for friends?
         <p>Right now, we are limiting this sale to WDS attendees, with the hope of having <i>only</i> WDS attendees. If we open it up to a wider audience, we’ll make sure you’re the first to know!</p>  
         ### Will the suit fit me?
-        <p>We have tried the suits out on a wide-range of body types. Very short, and very tall. Large and small. Everyone so far has been able to fit relatively comfortably.</p>
+        <p>We have tried the suits out on a wide-range of body types. Very short, and very tall. Large and small. Everyone so far has been able to fit comfortably, or at least as comfortably as you can feel in a giant costume.</p>
         ### Can I bring my own suit?
         <p>We are not allowing outside suits for this event. You will be given a full-size, WDS T-Rex costume at registration. We’ll have Ambassadors around to help you put it on, and keep you safe while you’re in it.</p>
         ### What should I bring?
