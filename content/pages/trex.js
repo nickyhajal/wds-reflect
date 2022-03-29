@@ -123,7 +123,7 @@
       </Block>
     </Tab>
   </Tabs>
- <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Early registration begins April 6th</Button>
+ <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Registration begins April 6th</Button>
 
 </Section>
 <Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
@@ -149,7 +149,7 @@
     - Dino Dance party in Pioneer Courthouse Square, the heart of Portland
     - On-stage antics and entertainment
 
-     <p><b>Important details:</b> Tickets are reserved through WDS and your credit card will be charged at purchase. Tickets are non-refundable. </p> 
+     <p><b>Important details:</b> Tickets are non-refundable and your credit card will be charged at purchase. </p> 
   </Block>
  
 <Image src="https://el-files-wds.s3.amazonaws.com/images/photos/t-rex-party.jpg" width="400" height="266" margin="-50px -60px 40px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
@@ -172,7 +172,7 @@
   <p>You can pick up your suit at Pioneer Courthouse Square starting 8am on Friday, June 24th</p>
   
 </Block>
- <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Get Your Ticket!</Button>
+ <Button styling="orange" align="center" to="/be-there" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Registration begins April 6th</Button>
     <div className="clear" />
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
@@ -193,15 +193,15 @@
         ## T-Rex Takeover FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### Will you sell out?
-        We expect to sell out pretty quick. We have a long history of selling out our World Records. This event has limited space and limited dino-suits. If you want to take part of breaking this World Record, get your ticket ASAP! 
+        We have a long history of selling out our World Records! This event has limited space and limited dino-suits. If you want to take part of breaking this World Record, don't delay. 
         ### Can I buy tickets for friends?
-        <p>Right now, we are limiting this sale to WDS attendees, with the hope of having <i>only</i> WDS attendees. If we open it up to a wider audience, we’ll make sure you’re the first to know!</p>  
+        <p>Right now, we're limiting this sale to registered WDS X attendees. If we open it up to a wider audience, we’ll make sure you’re the first to know.</p>  
         ### Will the suit fit me?
         <p>We have tried the suits out on a wide-range of body types. Very short, and very tall. Large and small. Everyone so far has been able to fit comfortably, or at least as comfortably as you can feel in a giant costume.</p>
         ### Can I bring my own suit?
-        <p>We are not allowing outside suits for this event. You will be given a full-size, WDS T-Rex costume at registration. We’ll have Ambassadors around to help you put it on, and keep you safe while you’re in it.</p>
+        <p>We're not allowing outside suits for this event. You'll receive a full-size WDS T-Rex costume at registration. We’ll have Ambassadors around to help you put it on, and keep you safe while you’re in it.</p>
         ### What should I bring?
-        <p>Pack light. The suit is large enough for most people to wear a small backpack, purse or satchel. The event will be fenced off from the general public, but we won’t have a secure bag check area. Bring water, sunscreen, a small snack and your ID. If you have long hair, a hair tie or headband is highly recommended.</p>
+        <p>Pack light. The suit is large enough for most people to wear a small backpack, purse or satchel. The event will be fenced off from the general public, but we won’t have a secure bag check area. Bring water, sunscreen, a small snack, and your ID. If you have long hair, a hair tie or headband is highly recommended.</p>
         ### How long will I be in the suit?
         <p>We expect that you’ll be in the suit for 30-45 minutes as we do the official count for the record and enjoy some Dino Dancing.</p>
         ### Will I be able to take the suit home with me?
@@ -209,7 +209,7 @@
         ### What is the previous record?
         <p>You can find it here -- <a href="https://www.guinnessworldrecords.com/world-records/430985-largest-gathering-of-people-dressed-as-dinosaurs" target="_blank">Largest Gathering of People Dressed as Dinosaurs</a> . It was set in 2019 with 252 people. We expect to smash this record back to the stone age!</p>
         ### Will there be more tickets once you sell out?
-        <p>Nope! We have a limited number of suits and once they’re reserved, ticket sales become extinct. Don’t wait for evolution! </p>   
+        <p>Nope! We have a limited number of suits and once they’re reserved, ticket sales become extinct. Don’t wait for evolution... </p>   
         ### Not finding the answer to your question?
         <p>Contact our year-round concierge team at <a href="mailto:concierge@wds.fm" target="_blank">concierge@wds.fm.</a></p>
  </Block>
