@@ -199,11 +199,11 @@
         ### Will the suit fit me?
         <p>We have tried the suits out on a wide-range of body types. Very short, and very tall. Large and small. Everyone so far has been able to fit relatively comfortably.</p>
         ### Can I bring my own suit?
-        We are not allowing outside suits for this event. You will be given a full-size, WDS T-Rex costume at registration. We’ll have Ambassadors around to help you put it on, and keep you safe while you’re in it.
+        <p>We are not allowing outside suits for this event. You will be given a full-size, WDS T-Rex costume at registration. We’ll have Ambassadors around to help you put it on, and keep you safe while you’re in it.</p>
         ### What should I bring?
         <p>Pack light. The suit is large enough for most people to wear a small backpack, purse or satchel. The event will be fenced off from the general public, but we won’t have a secure bag check area. Bring water, sunscreen, a small snack and your ID. If you have long hair, a hair tie or headband is highly recommended.</p>
         ### How long will I be in the suit?
-        We expect that you’ll be in the suit for 30-45 minutes as we do the official count for the record and enjoy some Dino Dancing.
+        <p>We expect that you’ll be in the suit for 30-45 minutes as we do the official count for the record and enjoy some Dino Dancing.</p>
         ### Will I be able to take the suit home with me?
         <p>Yes, you can keep it and wear it for all special occasions. Proms, weddings, family reunions—we've got you covered. </p>
         ### What is the previous record?
@@ -211,7 +211,7 @@
         ### Will there be more tickets once you sell out?
         <p>Nope! We have a limited number of suits and once they’re reserved, ticket sales become extinct. Don’t wait for evolution! </p>   
         ### Not finding the answer to your question?
-        Contact our year-round concierge team at concierge@wds.fm.
+        <p>Contact our year-round concierge team at <a href="mailto:concierge@wds.fm" target="_blank">concierge@wds.fm.</a></p>
  </Block>
    <div className="clear" />
 </Section>
