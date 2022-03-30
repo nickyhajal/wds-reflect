@@ -25,6 +25,7 @@
 </Script>
 <Section
   color="white"
+  margin="20px 0 0"
 >
 <Block cols="8" bleed={false} margin="0 0 80px">
 
