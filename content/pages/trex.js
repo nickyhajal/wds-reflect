@@ -24,7 +24,7 @@
   ));
 </Script>
 <Section
-  headerImage="v2/hero/location.png"
+  headerImage=""
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
