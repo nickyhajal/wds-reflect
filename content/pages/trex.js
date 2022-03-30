@@ -24,12 +24,7 @@
   ));
 </Script>
 <Section
-  headerImage=""
-  headerClip="rl_header"
-  headerPosition="top"
-  headerSize="thin"
   color="white"
-  preload
 >
 <Block cols="8" bleed={false} margin="0 0 80px">
 
