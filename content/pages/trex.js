@@ -29,7 +29,7 @@
 >
 <Block cols="8" bleed={false} margin="0 0 80px">
 
-<Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="1000" height=""/>
+<Video placeholder="https://el-files-wds.s3.amazonaws.com/images/T-Rex-Takeover.png" videoId="rhwGoq6a2Vs" width="1000" height=""/>
   
 <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
       ## A world record 65 million years in the making.
