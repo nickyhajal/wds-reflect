@@ -188,7 +188,7 @@
         ## T-Rex Takeover FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### What's the current record?
-        <p>The current record is <a href="https://www.guinnessworldrecords.com/world-records/430985-largest-gathering-of-people-dressed-as-dinosaurs" target="_blank">252 dinosaur-costumed people in one location<a/>. We expect to smash this record back to the stone age! (But we need your help, so sign up.</p>
+        <p>The current record is <a href="https://www.guinnessworldrecords.com/world-records/430985-largest-gathering-of-people-dressed-as-dinosaurs" target="_blank">252 dinosaur-costumed people in one location</a>. We expect to smash this record back to the stone age! (But we need your help, so sign up.</p>
         ### How cool will I look in a T-Rex suit? 
          <p>Incredibly cool. Our professional media team will get lots of photos for your socials.</p>
         ### Will the suit fit me?
