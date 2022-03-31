@@ -158,7 +158,7 @@
       Here’s how to reserve your spot in the WDS T-Rex Takeover!
       
       ##### Step #1: Buy Your Ticket
-      Don't delay, history has its eyes on you
+      <p>Don't delay, history has its eyes on you</p>
      
       ##### Step #2: Review the details and FAQ sections
   <p>We’ll send out more info to participants, but this is a great place to learn the basics</p>
@@ -200,13 +200,13 @@
         ### How long will I be in the suit?
         <p>We expect that you’ll be in the suit for 30-45 minutes as we do the official count for the record and enjoy some Dino Dancing.</p>
         ### Will I be able to take the suit home with me?
-        <p>Yes, you can keep it and wear it for all special occasions. Proms, weddings, family reunions—we've got you covered. </p>
+        <p>Yes, you can keep it and wear it for all special occasions. Proms, weddings, family reunions—we've got you covered.</p>
         ### Can I buy tickets for friends?
         <p>Right now, we're limiting this sale to registered WDS X attendees. If we open it up to a wider audience, we’ll make sure you’re the first to know.</p>  
         ### Will you sell out?
-        <p>We have a long history of selling out our World Records! This event has limited space and limited dino-suits. If you want to take part of breaking this World Record, don't delay. </p>
+        <p>We have a long history of selling out our World Records! This event has limited space and limited dino-suits. If you want to take part of breaking this World Record, don't delay.</p>
         ### Will there be more tickets once you sell out?
-        <p>Nope! We have a limited number of suits and once they’re reserved, ticket sales become extinct. Don’t wait for evolution... </p>   
+        <p>Nope! We have a limited number of suits and once they’re reserved, ticket sales become extinct. Don’t wait for evolution...</p>   
         ### Not finding the answer to your question?
         <p>Contact our year-round concierge team at <a href="mailto:concierge@wds.fm" target="_blank">concierge@wds.fm.</a></p>
  </Block>
