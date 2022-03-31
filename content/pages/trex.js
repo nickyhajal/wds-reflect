@@ -188,7 +188,7 @@
         ## T-Rex Takeover FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
         ### What's the current record?
-        <p>The current record is <a href="https://www.guinnessworldrecords.com/world-records/430985-largest-gathering-of-people-dressed-as-dinosaurs" target="_blank">252 dinosaur-costumed people in one location</a>. We expect to smash this record back to the stone age! (But we need your help, so sign up.</p>
+        <p>The current record is <a href="https://www.guinnessworldrecords.com/world-records/430985-largest-gathering-of-people-dressed-as-dinosaurs" target="_blank">252 dinosaur-costumed people in one location</a>. We expect to smash this record back to the stone age! (But we need your help, so sign up when registration opens.)</p>
         ### How cool will I look in a T-Rex suit? 
          <p>Incredibly cool. Our professional media team will get lots of photos for your socials.</p>
         ### Will the suit fit me?
@@ -196,7 +196,7 @@
         ### Can I bring my own suit?
         <p>We're not allowing outside suits for this event. You'll receive a full-size WDS T-Rex costume at registration. We’ll have Ambassadors around to help you put it on, and keep you safe while you’re in it.</p>
         ### What should I bring?
-        <p>Pack light. The suit is large enough for most people to wear a small backpack, purse or satchel. The event will be fenced off from the general public, but we won’t have a secure bag check area. Bring water, sunscreen, a small snack, and your ID. If you have long hair, a hair tie or headband is highly recommended.</p>
+        <p>Pack light. The suit is large enough for most people to wear a small backpack, purse or satchel. Bring water, sunscreen, a small snack, and your ID. If you have long hair, a hair tie or headband is highly recommended.</p>
         ### How long will I be in the suit?
         <p>We expect that you’ll be in the suit for 30-45 minutes as we do the official count for the record and enjoy some Dino Dancing.</p>
         ### Will I be able to take the suit home with me?
