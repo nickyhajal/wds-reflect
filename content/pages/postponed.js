@@ -30,7 +30,7 @@ Therefore, in coordination with the city of Portland and other partners, we're g
 **We've already confirmed the following dates for 2022**:
 
 - **WDS Week:** Tuesday, June 21 through Sunday, June 26
-- **Main Events:** Thursday, June 24 to Sunday, June 26  
+- **Main Events:** Thursday, June 23 to Sunday, June 26  
 
 <Video placeholder="https://el-files-wds.s3.amazonaws.com/images/photos/checkin1-31920.png" videoautoplay="true" videoId="XqGDKfeAqgI" width="710" height="430"/>
 
