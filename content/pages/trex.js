@@ -187,12 +187,13 @@
   >
         ## T-Rex Takeover FAQs
         <Block className="bigger" width="100%" margin="30px 0 0 0" css={{ textAlign: 'left' }}>You might have some questions. We've got some answers.</Block>
-        ### Will you sell out?
-        We have a long history of selling out our World Records! This event has limited space and limited dino-suits. If you want to take part of breaking this World Record, don't delay. 
-        ### Can I buy tickets for friends?
-        <p>Right now, we're limiting this sale to registered WDS X attendees. If we open it up to a wider audience, we’ll make sure you’re the first to know.</p>  
+        ### What's the current record?
+        <p>The current record is <a href="https://www.guinnessworldrecords.com/world-records/430985-largest-gathering-of-people-dressed-as-dinosaurs" target="_blank">252 dinosaur-costumed people in one location<a/>. We expect to smash this record back to the stone age! (But we need your help, so sign up.</p>
+        ### How cool will I look in a T-Rex suit? 
+        Incredibly cool. Our professional media team will get lots of photos for your socials.  </p>
+        
         ### Will the suit fit me?
-        <p>We have tried the suits out on a wide-range of body types. Very short, and very tall. Large and small. Everyone so far has been able to fit comfortably, or at least as comfortably as you can feel in a giant costume.</p>
+        <p>We've tried the suits out on a wide-range of body types, including large, small, very short, and very tall. Everyone so far has been able to fit comfortably, or at least as comfortably as you can feel in a giant costume.</p>
         ### Can I bring my own suit?
         <p>We're not allowing outside suits for this event. You'll receive a full-size WDS T-Rex costume at registration. We’ll have Ambassadors around to help you put it on, and keep you safe while you’re in it.</p>
         ### What should I bring?
@@ -201,8 +202,10 @@
         <p>We expect that you’ll be in the suit for 30-45 minutes as we do the official count for the record and enjoy some Dino Dancing.</p>
         ### Will I be able to take the suit home with me?
         <p>Yes, you can keep it and wear it for all special occasions. Proms, weddings, family reunions—we've got you covered. </p>
-        ### What is the previous record?
-        <p>You can find it here -- <a href="https://www.guinnessworldrecords.com/world-records/430985-largest-gathering-of-people-dressed-as-dinosaurs" target="_blank">Largest Gathering of People Dressed as Dinosaurs</a> . It was set in 2019 with 252 people. We expect to smash this record back to the stone age!</p>
+        ### Can I buy tickets for friends?
+        <p>Right now, we're limiting this sale to registered WDS X attendees. If we open it up to a wider audience, we’ll make sure you’re the first to know.</p>  
+        ### Will you sell out?
+        We have a long history of selling out our World Records! This event has limited space and limited dino-suits. If you want to take part of breaking this World Record, don't delay. </p>
         ### Will there be more tickets once you sell out?
         <p>Nope! We have a limited number of suits and once they’re reserved, ticket sales become extinct. Don’t wait for evolution... </p>   
         ### Not finding the answer to your question?
