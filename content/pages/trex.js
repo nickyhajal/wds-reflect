@@ -37,7 +37,9 @@
      This is serious—we're not dino-ing around. A meteor may have taken out our prehistoric ancestors, but not even a global pandemic could stop this modern day reenactment.  
      It all goes down Friday morning on June 24th, 2022. Sign up and make history! 
      
-        <Button styling="orange" align="center" to="" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Registration begins April 6th</Button>
+        <PurchaseButton 
+price="4000" product="T-Rex Takeover - World Record" description="Early bird Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
+style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>$40 early bird price</div></PurchaseButton>
 
         </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
@@ -118,7 +120,9 @@
       </Block>
     </Tab>
   </Tabs>
- <Button styling="orange" align="center" to="" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Registration begins April 6th</Button>
+        <PurchaseButton 
+price="4000" product="T-Rex Takeover - World Record" description="Early bird Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
+style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>$40 early bird price</div></PurchaseButton>
 
 </Section>
 <Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
@@ -167,7 +171,9 @@
   <p>You can pick up your suit at Pioneer Courthouse Square starting 8am on Friday, June 24th</p>
   
 </Block>
- <Button styling="orange" align="center" to="" style={{ width: '260px', margin: '60px auto 110px', padding: '20px 0', fontSize: '21px', fontFamily: 'VitesseBold' }}>Registration begins April 6th</Button>
+        <PurchaseButton 
+price="4000" product="T-Rex Takeover - World Record" description="Early bird Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
+style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>$40 early bird price</div></PurchaseButton>
     <div className="clear" />
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>

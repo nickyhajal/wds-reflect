@@ -148,8 +148,10 @@
 
 .quantityBox {
   float: right;
-  margin-right: 27px;
-  margin-top: -21px;
+  margin-right: 17px;
+  margin-top: -41px;
+  position: relative;
+  z-index: 40;
 }
 
 .quantityBox label {
