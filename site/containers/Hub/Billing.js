@@ -43,7 +43,7 @@ export class Hub extends Component {
     ['The Hub', 'hub'],
     ['Communities', 'communities'],
     ['Updates', 'updates'],
-    ['Your Schedule', 'your-schedule'],
+    // ['Your Schedule', 'your-schedule'],
     ['Events', 'events'],
   ];
   constructor(props) {
