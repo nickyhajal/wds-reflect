@@ -72,7 +72,7 @@
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
         <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
           </Block>      
-       <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+       <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/wds.mobile.event.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 7: Download the Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
         <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
