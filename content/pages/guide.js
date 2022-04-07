@@ -65,7 +65,7 @@
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 5: Register for Academies
         Alumni speakers and other special guests share their knowledge and experience in half-day workshops.
-        <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2022</Button>     
+        <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
         </Block>
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 6: Host a Meetup 
