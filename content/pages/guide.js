@@ -60,7 +60,7 @@
          <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/World-Record-Attempt.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 4: Help Set a World Record
         It's back! We're going to band together to break another world record and we'll need your help!
-        <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
+        <Button to="https://worlddominationsummit.com/trex" newWindow={true} styling="orange" fitToText>Register Now!</Button>     
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 5: Register for Academies
@@ -70,17 +70,17 @@
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 6: Host a Meetup 
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
-        <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2022</Button>     
+        <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
           </Block>      
        <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 7: Download the Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
-        <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2022</Button>     
+        <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
         </Block>      
         <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step 8: RSVP for Activities
         Create your own personalized schedule by RSVPing for Meetups, Activities, and Academies through the mobile app or online. 
-         <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2022</Button>          
+         <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>          
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 9: Pack for WDS 
