@@ -101,7 +101,7 @@ export class App extends Component {
       hub: [
         'guide',
         'communities',
-        'your-schedule',
+        // 'your-schedule',
         // 'events',
         'your-profile',
         'settings',
