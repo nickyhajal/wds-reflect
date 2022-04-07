@@ -153,14 +153,14 @@ const mobileHeader = (
           >
             Story
           </Link>
-          <Link
+          {/* <Link
             to="/schedule"
             onClick={scrollTo}
             activeClassName="active"
             styleName="link"
           >
             Schedule
-          </Link>
+          </Link> */}
           <Link
             to="/location"
             onClick={scrollTo}
