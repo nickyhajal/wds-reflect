@@ -50,7 +50,7 @@
        <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/WDS-high-five-chain.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Plan Your Arrival to Portland
         As you make your travel plans, use this helpful guide to determine when to arrive to (and depart from) Portland.
-       <Button to="When to Arrive in Portland for WDS X (2022)" newWindow={true} styling="orange" fitToText>Learn More</Button>
+       <Button to="https://worlddominationsummit.com/when-to-arrive-in-portland-for-wds-x-2022" newWindow={true} styling="orange" fitToText>Learn More</Button>
         </Block>            
         <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Book Lodging
