@@ -13,9 +13,9 @@
     
     WDS was founded by **[Chris Guillebeau](http://chrisguillebeau.com)**, explorer of the world and _New York Times_ bestselling author of _The $100 Startup_.
 
-   ### When is the next WDS? (IMPORTANT UPDATE - last updated 1/04/22) 
+   ### When is the next WDS? 
       
-   **Due to COVID-19, WDS will return June 2022 and has been renamed to WDS X to celerbate our 10th WDS**.  
+   WDS will return June 2022 and has been renamed to WDS X to celerbate our 10th WDS.  
    
    ### Can I get a WDS X ticket?  
    
