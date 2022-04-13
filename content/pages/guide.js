@@ -27,7 +27,7 @@
 
     - **Tuesday (6/21)** WDS HQ and Attendee-Led Meetups
     - **Wednesday (6/22)** Academies, WDS HQ and Attendee-Led Meetups
-    <ul><li><b className="highlight highlight-2">Thursday (6/23)</b> Academies, WDS HQ, and Attendee-Led Meetups</li></ul>
+    - **Thursday (6/23)** Academies, WDS HQ, and Attendee-Led Meetups
     <ul><li><b className="highlight highlight-2">Friday (6/24)</b>  Academies, WDS HQ, Attendee-Led Meetups, World Record Attempt, and Opening Party</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/25)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
     <ul><li><b className="highlight highlight-3">Sunday (6/26)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
