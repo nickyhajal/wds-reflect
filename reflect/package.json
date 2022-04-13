@@ -11,7 +11,7 @@
   "author": "Nicky Hajal",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^3.2.2",
     "del": "^3.0.0",
     "express": "^4.14.0",
     "gulp": "3.9.1",
