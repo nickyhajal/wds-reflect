@@ -38,7 +38,7 @@
      It all goes down Friday morning on June 24th, 2022. Sign up and make history! 
      
         <PurchaseButton 
-price="4000" product="T-Rex Takeover - World Record" description="Early bird Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
+price="4700" product="T-Rex Takeover - World Record" description="Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
 style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>$40 early bird price</div></PurchaseButton>
 
         </Block>
@@ -121,7 +121,7 @@ style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', ma
     </Tab>
   </Tabs>
         <PurchaseButton 
-price="4000" product="T-Rex Takeover - World Record" description="Early bird Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
+price="4700" product="T-Rex Takeover - World Record" description="Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
 style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>$40 early bird price</div></PurchaseButton>
 
 </Section>
