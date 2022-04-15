@@ -27,7 +27,7 @@
 
     - **Tuesday (6/21)** WDS HQ and Attendee-Led Meetups
     - **Wednesday (6/22)** Academies, WDS HQ and Attendee-Led Meetups
-    <ul><li><b className="highlight highlight-2">Thursday (6/23)</b> Academies, WDS HQ, and Attendee-Led Meetups</li></ul>
+    - **Thursday (6/23)** Academies, WDS HQ, and Attendee-Led Meetups
     <ul><li><b className="highlight highlight-2">Friday (6/24)</b>  Academies, WDS HQ, Attendee-Led Meetups, World Record Attempt, and Opening Party</li></ul>
     <ul><li><b className="highlight highlight-2">Saturday(6/25)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
     <ul><li><b className="highlight highlight-3">Sunday (6/26)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
@@ -50,7 +50,7 @@
        <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/WDS-high-five-chain.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 2: Plan Your Arrival to Portland
         As you make your travel plans, use this helpful guide to determine when to arrive to (and depart from) Portland.
-       <Button to="When to Arrive in Portland for WDS X (2022)" newWindow={true} styling="orange" fitToText>Learn More</Button>
+       <Button to="https://worlddominationsummit.com/when-to-arrive-in-portland-for-wds-x-2022" newWindow={true} styling="orange" fitToText>Learn More</Button>
         </Block>            
         <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/Hotel-Zags-King.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 3: Book Lodging
@@ -65,14 +65,14 @@
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 5: Register for Academies
         Alumni speakers and other special guests share their knowledge and experience in half-day workshops.
-        <Button to="" newWindow={true} styling="orange" fitToText>Check back around April 2022</Button>     
+        <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
         </Block>
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 6: Host a Meetup 
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
         <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
           </Block>      
-       <Block type="image-overlay" anchor="right" src="photos/wds.mobile.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+       <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/wds.mobile.event.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 7: Download the Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
         <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
