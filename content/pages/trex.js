@@ -39,7 +39,7 @@
      
         <PurchaseButton 
 price="4700" product="T-Rex Takeover - World Record" description="Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
-style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>$40 early bird price</div></PurchaseButton>
+style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>Just $47, dino-suit included</div></PurchaseButton>
 
         </Block>
     <Block type="padded" width="105%" align="center" margin="50px 0 20px" background="sea">
@@ -122,7 +122,7 @@ style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', ma
   </Tabs>
         <PurchaseButton 
 price="4700" product="T-Rex Takeover - World Record" description="Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
-style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>$40 early bird price</div></PurchaseButton>
+style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>Just $47, dino-suit included</div></PurchaseButton>
 
 </Section>
 <Section color="blue" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
@@ -172,8 +172,8 @@ style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', ma
   
 </Block>
         <PurchaseButton 
-price="4000" product="T-Rex Takeover - World Record" description="Early bird Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
-style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>$40 early bird price</div></PurchaseButton>
+price="4700" product="T-Rex Takeover - World Record" description="Admission to T-Rex Take-over and Dino-Suit" allowedQuantity={6} redirect="trex-confirmed" code="trex"
+style={{width: '100%', position: 'relative', top: '15px', fontSize: '1.2rem', marginBottom: '-10px', width: '20rem', margin: '0 auto'}} path="trex.tickets"><div>Join the Take-over!</div><div style={{fontFamily: 'Karla', opacity: 0.8, fontSize: '0.9rem', fontWeight: 800, marginTop: '0.2rem'}}>Just $47, dino-suit included</div></PurchaseButton>
     <div className="clear" />
 </Section>
 <Section color="sea" css={{ padding: '90px 0 45px 0' }} mobile={{ phone: { padding: '20px 0 40px 0' } }}>
