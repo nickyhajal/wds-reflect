@@ -45,7 +45,7 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
     
-    Check out this superhero lineup for the WDS main stage:
+    Check out this superhero lineup for the WDS main stage (additional speakers to be announced soon):
   </Block>
   <Tabs style="simple" margin="80px 0 0">
     <Tab title="Tiago">
@@ -61,9 +61,9 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
       <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Emily-Rudow-WDS-Main-Stage-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Emily Rudow
-        **Emily Rudow** is a digital marketer, an entrepreneur, and a fitness writer. She holds a bachelor’s degree in business administration from Wilfrid Laurier University. Emily is also an avid long-distance runner. In 2017, she broke a world record by running 74 consecutive half-marathon distances (21.1 kilometers/13.1 miles) while raising over $10,000 for the Canadian Cancer Society. Since then, she hasn’t stopped running. To date, she has run an average of 10 kilometers every day for over four years.
+        **Emily Rudow** is a digital marketer, an entrepreneur, fitness writer, and an avid long-distance runner. In 2017, she broke a world record by running 74 consecutive half-marathon distances (21.1 kilometers/13.1 miles) while raising over $10,000 for the Canadian Cancer Society. Since then, she hasn’t stopped running. To date, she has run an average of 10 kilometers every day for over four years.
 
-Her new book, Find Your Stride, is available now at all major retailers.
+Her new book, Find Your Stride, is available now at all major booksellers.
 
       </Block>
     </Tab>  
