@@ -331,9 +331,7 @@ export class EventComponent extends Component {
                   </TimeShell>
                 </div>
                 <div className="sub">
-                  {{ place }}
-                  {[1593, 1594].includes(+event_id) ? place :
-                  'Zoom meeting links will be emailed once you RSVP for a meetup'}
+                  {place}
                 </div>
                 <div className="sub">
                   {address}
