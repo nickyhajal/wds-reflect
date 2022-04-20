@@ -111,9 +111,9 @@ export class EventComponent extends Component {
       params.product = 'WDS Academy';
       params.price =
         this.props.auth.me !== undefined &&
-        this.props.auth.me.attending19 !== undefined &&
-        !_.isNull(this.props.auth.me.attending19) &&
-        this.props.auth.me.attending19.toString() === '1'
+        this.props.auth.me.attending20 !== undefined &&
+        !_.isNull(this.props.auth.me.attending20) &&
+        this.props.auth.me.attending20.toString() === '1'
           ? 2900
           : 5900;
       params.redirect = 'academy-purchased';
@@ -296,13 +296,10 @@ export class EventComponent extends Component {
     if (this.state.claiming) {
       buttonText = 'Click Again to Confirm';
     }
-    let hasSidebar =
+    const hasSidebar =
       ((this.props.auth.me !== undefined && this.props.auth.me) ||
         type === 'academy') &&
       type !== 'program';
-    if (hasSidebar) {
-      hasSidebar = ![1593, 1594].includes(+event_id)
-    }
     return (
       <div>
         <Section
@@ -334,6 +331,7 @@ export class EventComponent extends Component {
                   </TimeShell>
                 </div>
                 <div className="sub">
+                  {{ place }}
                   {[1593, 1594].includes(+event_id) ? place :
                   'Zoom meeting links will be emailed once you RSVP for a meetup'}
                 </div>
