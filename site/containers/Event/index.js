@@ -115,7 +115,7 @@ export class EventComponent extends Component {
         !_.isNull(this.props.auth.me.attending20) &&
         this.props.auth.me.attending20.toString() === '1'
           ? 2900
-          : 5900;
+          : 4900;
       params.redirect = 'academy-purchased';
     } else {
       params.code = 'event';
@@ -245,7 +245,7 @@ export class EventComponent extends Component {
     switch (eventType) {
       case 'academy': {
         buttonSubMsg =
-          'For a limited time, academies have an early-bird cost of $29 for WDS Attendees and are available to those not attending WDS for $59. Academies are not transferable or refundable.';
+          'For a limited time, academies have an early-bird cost of $29 for WDS Attendees and are available to those not attending WDS for $49. Academies are not transferable or refundable.';
         break;
       }
       case 'registration': {
