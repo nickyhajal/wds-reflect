@@ -319,16 +319,6 @@ export class EventComponent extends Component {
               <div className="details">
                 <div>
                   {E.dateStr(this.state.offset, this.state.label)}
-                  <TimeShell>
-                    <label>Change Timezone</label>
-                    <TimePicker
-                      guess // this will fill the input with user's timezone guessed by moment. A "value" prop has always bigger priority than guessed TZ
-                      onChange={(val) => {
-                        const timezoneProps = getTimezoneProps(val, +new Date())
-                        this.setState({offset: timezoneProps.offset, label: timezoneProps.abbr })
-                      }} 
-                    />
-                  </TimeShell>
                 </div>
                 <div className="sub">
                   {place}
@@ -355,12 +345,13 @@ export class EventComponent extends Component {
                 <h3>{`Your Host${hosts.length > 1 ? 's' : ''}`}</h3>
                 {hosts.map(h => {
                   return (
-                    <a href={`/~${h.user_name}`} target="_blank" style={{ textDecoration: 'none' }}>
-                      <Host>
+                    <Host>
+                      <a href={`/~${h.user_name}`} target="_blank" style={{ textDecoration: 'none' }}>
                         <div className="name">
                           <Avatar user={h.user_id} />
                           <span>{`${h.first_name} ${h.last_name}`}</span>
                         </div>
+                      </a>
                         {type === 'academy'
                           ? <div className="about">
                               <Markdown>
@@ -368,8 +359,7 @@ export class EventComponent extends Component {
                               </Markdown>
                             </div>
                           : ''}
-                      </Host>
-                    </a>
+                    </Host>
                   );
                 })}
               </div>
