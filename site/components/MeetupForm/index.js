@@ -292,11 +292,10 @@ export class MeetupForm extends Component {
             <Select
               onChange={e => this.change.call(this, e, 'format')}
               options={[
-                // { value: 'service', label: 'Service (Contribute Together)' },
-                // { value: 'discover', label: 'Discover (Class/Workshop)' },
-                // { value: 'network', label: 'Network (Hangout/Collaborate)' },
-                // { value: 'experience', label: 'Experience (Adventure/Activity)',
-                },
+                { value: 'service', label: 'Service (Contribute Together)' },
+                { value: 'discover', label: 'Discover (Class/Workshop)' },
+                { value: 'network', label: 'Network (Hangout/Collaborate)' },
+                { value: 'experience', label: 'Experience (Adventure/Activity)' },
               ]}
               name="format"
               clearable={false}
