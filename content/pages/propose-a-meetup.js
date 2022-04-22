@@ -31,24 +31,29 @@
       </tbody>
     </table>
 
-    As an WDS community member, you have the opportunity to host meetups, attend meetups, or do both using our online system.
+    As a WDS attendee, you have the opportunity to host meetups, attend meetups, or do both using our online system and the WDS mobile app.
 
     ## When Should I Host a Meetup?
-    For WDS Day (June 27th) We'll come together and meet online as a community at 9:00am and 6:00pm Pacific. Meetups should take place around these gatherings (all times listed below are for Pacific Standard Time):
+    Here is a list of the best times to host an attendee meet up that doesn't conflict with main WDS programming (parties, world record attempt, and main stage sessions). These are the most optimal times for your fellow attendees to take part in meetups. Please note this does not include Academies or WDS HQ programming.
 
     <table className="time-table">
       <tbody>
-        <tr><td>Saturday, June 27th</td><td>10:00am - 5:55pm, anytime after 7:00pm.</td></tr>
-        <tr><td>Sunday, June 28th</td><td>Anytime until 8:00pm </td></tr>
+      <tr><td>Tuesday, June 21</td><td>Any time</td></tr>
+      <tr><td>Wednesday, June 22</td><td>Any time</td></tr>
+      <tr><td>Thursday, June 23</td><td>Any time</td></tr>
+      <tr><td>Friday, June 24</td><td>Between 11:00am and 6:00pm</td></tr>  
+      <tr><td>Saturday, June 25</td><td>Before 8:00am, 1:00pm - 4:00pm, and anytime after 7:00pm</td></tr>
+      <tr><td>Sunday, June 26</td><td>Before 8:00am, 1:00pm - 4:00pm </td></tr>
+      <tr><td>Monday, June 27</td><td>Any time</td></tr>
       </tbody>
     </table>
 
     ## How to Host a Meetup
-    Want to host an Experience or Network meetup during WDS Day? Here’s what you need to do:
+    Want to host a meetup at WDS X, here’s what you need to do:
 
     <div style={{ padding: '0 32px' }}>
       <p>
-        1. Before you propose a meetup, use the information from this PDF guide to help you organize a successful event: <a href="https://el-files-wds.s3.amazonaws.com/docs/WDS-Virtual-Meetup-Guide-2020.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
+        1. Before you propose a meetup, use the information from the following PDF guide to help you organize a successful event: <a href="https://el-files-wds.s3.amazonaws.com/docs/WDS+X+-+Meetup+Guide.pdf" target="_blank">WDS Meetup Guidelines - Create the Best Meetup Ever!!!</a> 
       </p>
       <p>
         (Helpful hint: The chances of your meetup getting approved goes up <i><b>astronomically</b></i> if you read and use this document)
@@ -56,10 +61,10 @@
     </div>
     <div style={{ padding: '0 32px' }}>
       <p>
-        2. Complete the form below with the details on what you have planned. We'll review your proposal and get back to you shortly. Note: you may only submit one meetup proposal and only a limited amount will be selected. Make it count! 
+        2. Complete the form below with the details on what you have planned. We'll review your proposal and get back to you to let you know if your meetup was confirmed or not. If your meetup isn't approved, we'll get in touch with you to assist you.
       </p>
     </div>
-    Once your proposal is accepted, it will be listed in our official directory of WDS meetups and made available to the entire WDS community.
+    Once your proposal is accepted, it will be listed in our official directory of WDS meetups and made available to all registered WDS attendees.
     {' '}
 
     ## Meetup Proposal Form
