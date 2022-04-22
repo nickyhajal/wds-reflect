@@ -280,7 +280,7 @@ export class MeetupForm extends Component {
       <form onSubmit={this.submit} id="meetupProposalForm">
         <FormSection>
           <Label>What's the name of your meetup?</Label>
-          <Sub>Be clear, specific, and catchy</Sub>
+          <Sub> This will be displayed on your meetup page. Be clear, specific, and catchy/</Sub>
           <Inp name="what" onChange={this.change} value={this.state.what} />
         </FormSection>
         <FormSection>
@@ -294,10 +294,8 @@ export class MeetupForm extends Component {
               options={[
                 // { value: 'service', label: 'Service (Contribute Together)' },
                 // { value: 'discover', label: 'Discover (Class/Workshop)' },
-                { value: 'network', label: 'Network (Hangout/Collaborate)' },
-                {
-                  value: 'experience',
-                  label: 'Experience (Adventure/Activity)',
+                // { value: 'network', label: 'Network (Hangout/Collaborate)' },
+                // { value: 'experience', label: 'Experience (Adventure/Activity)',
                 },
               ]}
               name="format"
@@ -311,7 +309,7 @@ export class MeetupForm extends Component {
         <FormSection>
           <Label>Your Meetup Description:</Label>
           <Sub>
-            Let attendees know what to expect and why they should sign-up.
+            Let attendees know what to expect and why they should sign-up. This will be displayed on your meetup page.
           </Sub>
           <Text name="descr" onChange={this.change} value={this.state.descr} />
         </FormSection>
@@ -353,7 +351,7 @@ export class MeetupForm extends Component {
             What kind of person might enjoy this? Who&apos;s this for?
           </Label>
           <Sub>
-            This is a meetup for...
+            This will be displayed on your meetup page. "This is a meetup for..."
           </Sub>
           <Inp name="who" onChange={this.change} value={this.state.who} />
         </FormSection>
@@ -384,8 +382,13 @@ export class MeetupForm extends Component {
             <Select
               onChange={e => this.change.call(this, e, 'date')}
               options={[
-                { value: '27', label: 'Saturday, June 27th' },
-                { value: '28', label: 'Sunday, June 28th' },
+                { value: '21', label: 'Tuesday, June 21st' },
+                { value: '22', label: 'Wednesday, June 22nd' },
+                { value: '23', label: 'Thursday, June 23rd' },
+                { value: '24', label: 'Friday, June 24th' },
+                { value: '25', label: 'Saturday, June 25th' },
+                { value: '26', label: 'Sunday, June 26th' },
+                { value: '27', label: 'Monday, June 27th' },
               ]}
               name="date"
               clearable={false}
@@ -559,7 +562,7 @@ export class MeetupForm extends Component {
               Refer to the
               {' '}
               <a
-                href="https://el-files-wds.s3.amazonaws.com/docs/WDS-Virtual-Meetup-Guide-2020.pdf"
+                href="https://el-files-wds.s3.amazonaws.com/docs/WDS+X+-+Meetup+Guide.pdf"
                 target="_blank"
               >
                 WDS Meetup Guidelines
