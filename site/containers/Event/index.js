@@ -305,12 +305,13 @@ export class EventComponent extends Component {
         <Section
           headerSize="thin"
           headerClip="br:0%,-10%;"
-          headerImage="hero/green.jpg"
+          headerImage={eventType === 'academy' ? 'v2/headings/academies.png' : 'hero/green.jpg'}
           color="white"
           // headerMap={mapCenter}
           // headerMapRef={map}
           width={hasSidebar ? '1096px' : '866px'}
         >
+          {eventType === 'academy' &&  <Image src="v2/headings/academies.png" width="565px" height="169px" className="scriptHeader" preload/>}
           <Grid>
             <Content>
               <h2>
@@ -318,7 +319,7 @@ export class EventComponent extends Component {
               </h2>
               <div className="details">
                 <div>
-                  {E.dateStr(this.state.offset, this.state.label)}
+                  {E.dateStr(0, this.state.label)}
                 </div>
                 <div className="sub">
                   {place}
