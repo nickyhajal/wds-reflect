@@ -206,6 +206,8 @@ export class EventComponent extends Component {
     let { hosts } = E;
     if (type === 'program')
       hosts = [{ first_name: 'WDS', last_name: 'Team', user_id: '10124' }];
+    
+    console.log('>> hosts', hosts)
 
     // LatLon for map with default set to PDX downtown
     let map = {};

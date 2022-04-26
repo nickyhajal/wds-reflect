@@ -42,6 +42,7 @@ export const Event = gql`
         first_name
         last_name
         user_name
+        host_type
         user_id
       }
     }
