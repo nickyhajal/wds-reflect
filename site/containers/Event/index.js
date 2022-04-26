@@ -307,7 +307,7 @@ export class EventComponent extends Component {
         <Section
           headerSize="thin"
           headerClip="br:0%,-10%;"
-          headerImage={eventType === 'academy' ? 'v2/headings/academies.png' : 'hero/green.jpg'}
+          headerImage={eventType === 'academy' ? 'v2/hero/academies.png' : 'hero/green.jpg'}
           color="white"
           // headerMap={mapCenter}
           // headerMapRef={map}
