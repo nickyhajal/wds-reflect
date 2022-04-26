@@ -68,9 +68,9 @@ class Event {
 
   dateStr(offset, label) {
     if (this.start.isValid() && this.end) {
-      return `${moment(this.start).add(420, 'm').add(offset, 'm').format(
+      return `${moment(this.start).format(
         'MMMM Do YYYY [from] h:mma',
-      )} until ${moment(this.end).add(420, 'm').add(offset, 'm').format('h:mma')} ${label}`;
+      )} until ${moment(this.end).format('h:mma')} ${label}`;
       // return `${moment(this.start).format('MMMM Do')} - Start time TBD`;
     }
     return '⁛⁛⁛⁛⁛ ⁛⁛⁛⁛ ⁛⁛⁛⁛⁛ ⁛⁛:⁛⁛ ⁛⁛⁛⁛⁛⁛⁛';
