@@ -121,21 +121,11 @@ export class EventComponent extends Component {
       blockProps.background = 'white';
       blockProps.cols = false;
     }
-    events = events.map((event, i) => this.eventRow(event, Me, i, this.state.offset, this.state.label));
+    events = events.map((event, i) => this.eventRow(event, Me, i, 0, this.state.label));
     return (
       <Block textAlign="left" width="100%">
         {this.props.title ? `## ${this.props.title}` : ''}
         <Block {...blockProps}>
-        <TimeShell>
-                    <label>Change Timezone</label>
-                    <TimePicker
-                      guess // this will fill the input with user's timezone guessed by moment. A "value" prop has always bigger priority than guessed TZ
-                      onChange={(val) => {
-                        const timezoneProps = getTimezoneProps(val, +new Date())
-                        this.setState({offset: timezoneProps.offset, label: timezoneProps.abbr })
-                      }} 
-                    />
-                  </TimeShell>
           {events}
         </Block>
       </Block>
