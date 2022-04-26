@@ -1,5 +1,5 @@
 @custom-media --phone (max-width: 544px);
-@custom-media --tablet (max-width: 768px);
+@custom-media --tablet (max-width: 810px);
 @custom-media --desktop (max-width: 8000px);
 @custom-media --desktop (max-width: 8000px);
 @custom-media --mdesk (max-width: 1364px);

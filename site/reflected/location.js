@@ -70,7 +70,7 @@ import YearReviews from '../../site/components/YearReviews';
     ## Your Base in Portland{'\n'}
     Our beloved city is one of the most eclectic and beautiful cities in the US. Known for our amazing food and drink, our love for the arts, the bold and creative, the outdoors -- Portland is the perfect gathering spot for remarkable adventurers. {'\n'}
     
-    WDS is not confined to one building -- Portland is our venue! Attendees will gather throughout the city for different events such as Academies, Attendee-led Meetups, and our epic parties. We'll even have a dedicated HQ spot for attendees to use and connect with one another throughout the week. For WDS 2020, our main-stage will be based out of the **[Newmark Theatre](https://goo.gl/maps/WGGVeNy8sn42)**. Almost all WDS venues are located near light-rail stops and extremely walkable. {'\n'}
+    WDS is not confined to one building -- Portland is our venue! Attendees will gather throughout the city for different events such as Academies, Attendee-led Meetups, and our epic parties. We'll even have a dedicated HQ spot for attendees to use and connect with one another throughout the week. For WDS X, our main-stage will be based out of the **[Newmark Theatre](https://goo.gl/maps/WGGVeNy8sn42)**. Almost all WDS venues are located near light-rail stops and extremely walkable. {'\n'}
   </Block>
     
   <Block type="padded" width="100%" align="center" margin="50px 0 20px" background="canvas">
@@ -115,7 +115,7 @@ import YearReviews from '../../site/components/YearReviews';
     ## Lodging{'\n'}
     Portland is an affordable destination, with the lowest hotel rates of any major west coast city. Every year we arrange a number of discounts from partner hotels. Other attendees rent through AirBnB or stay at a local hostel. With Portland being a very popular destination in the summertime, it&apos;s important to book your rooms ASAP. {'\n'}
         
-    For WDS 2020 we've secured rooms at these amazing and iconic Portland properties:  {'\n'}
+    For WDS X (2022) we have secured rooms at these amazing and iconic Portland properties:  {'\n'}
 
 </Block>
   <Block cols="8" bleed={false} margin="0 0 80px">
@@ -127,21 +127,32 @@ import YearReviews from '../../site/components/YearReviews';
       ## Hotel Zags {'\n'}
       The newly renovated Hotel Zags is a fun and delightful boutique hotel located by the WDS main-stage featuring complimentary wifi, access to a gear shed (bikes, ukuleles, cameras and more), and the popular Nel Centro restaurant. It also comes with passes to 24-Hour Fitness.{'\n'}
       
-      Use the button or call **(877)484-1084** and ask for the **"World Domination Summit 2020 Group Rate".**{'\n'}
+      Reservation notes: Use the special booking link below (book now). To reserve shoulder dates at the group rate, first book the dates with the booking link, then contact Edwin at (503)484-1075.{'\n'}
       
         <p>0.3 Mi From the Main Stage <Link to="https://goo.gl/maps/CjCe1a3Tfc8K4YB99">(Google Directions)</Link></p> 
-  <Button to="https://aonc.co/2tstT4q" newWindow={true} >Book Now!</Button> 
+  <Button to="https://be.synxis.com/?Hotel=53439&Chain=6052&arrive=2022-06-23&depart=2022-06-27&adult=1&child=0&group=WDS2022" newWindow={true} >Book Now!</Button> 
 </Block>
 <Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/paramount-hotel-wds-partner.jpg">
       ## Paramount Hotel {'\n'}
       The Paramount Hotel is a casual, intimate boutique hotel boasting oversized guestrooms and genuine hospitality. Each guestroom and suite features relaxing décor, spacious marble finished bathrooms and modern amenities. The Paramount provides easy access to the very best the city has to offer.{'\n'}
       
-      Use the button below or call **(503)223-9900**. Make sure to reference **WDS20** for the special group rate.{'\n'}
+      Reservation notes: Use the special booking link (book now) below or call the Front Desk at (503)223-9900 and reference the special group code: WDS22{'\n'}
+      
       <p>0.1 Mi From the Main Stage <Link to="https://goo.gl/maps/VwXGqjMYw9B2">(Google Directions)</Link></p> 
         
-     <Button to="https://aonc.co/2ZNALWa" newWindow={true} >Book Now!</Button> 
+     <Button to="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Freservations.travelclick.com%2F104209%3FgroupID%3D3215371&data=04%7C01%7C%7C556c4b3c198946085ff508d8ee2cd1dc%7Cf720296908904694acd03173243c4cdc%7C0%7C0%7C637521223547174836%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=7LKTWgQe2pTsFpeRVtTYKsxM606EMMHfSOiSDendQvA%3D&reserved=0" newWindow={true} >Book Now!</Button> 
  </Block>
-<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Partner-Hotels-Locations-WDS-2020.png">
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/Duniway-portland-WDS-partner.jpg">
+      ## Hotel Duniway (Hilton){'\n'}
+      A iconic, boutique hotel with modern style and a touch of Portland flair. The hotel also features a workout room, lap pool, and an amazing outdoor patio/lounge area with city views. Have a delicious breakfast or dinner at their new restaurant, the Mayrose and don't forget it's a Hilton. Go get those Hilton Honor points!   {'\n'}
+        
+        Reservation notes: Use the special booking link (book now) below.{'\n'}
+        
+     <p>0.2 Mi From the Main Stage <Link to="https://goo.gl/maps/XEamX4yFVoUUDjLV8">(Google Directions)</Link></p> 
+        
+    <Button to="https://book.passkey.com/go/WorldDomination" newWindow={true} >Book Now!</Button> 
+</Block>
+<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/photos/WDS-X-Partner-Hotels.png">
       ## Perfectly Located{'\n'}
       Each partner hotel is within walking distance or a quick ride on public transit to WDS events and activities and are accessible to the airport by light rail. You have three great options to choose from based on value, ammenities, and location. Just make sure to reserve your room ASAP.   {'\n'}
       
@@ -151,16 +162,6 @@ import YearReviews from '../../site/components/YearReviews';
        
       <Button to="https://worlddominationsummit.com/contact-us" newWindow={true} >Contact the Concierge Team</Button> 
     </Block>
-<Block type="image" src="https://el-files-wds.s3.amazonaws.com/images/wds-hotel/standard-room1-bw.jpg">
-      ## The WDS Hotel™{'\n'}
-      We've reserved an entire boutique hotel in Portland's Old Town Chinatown just for attendees. The WDS Hotel™ features a variety of fun room types and social areas including a coffee shop/co-working area and a beautiful rooftop to take in breathaking Portland vistas.  {'\n'}
-      
-      **Limited availability** Based on a 4-night package. Use the botton below to reserve your room.{'\n'}
-        
-     <p>0.8 Mi From the Main Stage <Link to="https://goo.gl/maps/yAmfYNzFDgRgDk7y7">(Google Directions)</Link></p> 
-        
-    <Button to="https://worlddominationsummit.com/hotel" newWindow={true} >SOLD OUT!</Button> 
-</Block>
   </Grid>
   
     <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
@@ -246,9 +247,9 @@ Other alternative forms of transportation include the Street Car, Car2Go, Uber, 
   </Block>
 </Section>
 <Section color="canvas" overflow="hidden" burst>
-  <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
+  <Block margin="60px 0 30px">## WDS X Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.{'\n'}
+  The WDS ticket sale didn’t last long... we’re now at full capacity with no more tickets available.{'\n'}
   </Block>
   {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'

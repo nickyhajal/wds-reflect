@@ -31,6 +31,9 @@ TASKS.md
 builtAssets
 #Test processor
 app/processors/tester.coffee
+.history
+design/
+reflected/
 
 .vscode
 

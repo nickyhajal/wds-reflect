@@ -52,11 +52,11 @@ You'll have the opportunity to learn something new to help live your _own_ remar
   </Block>
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-        ## The Details {'\n'}
-Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.{'\n'}
+        ## The Details{'\n'}
+**All information here is subject to change.** Please use as reference information only until Academies for WDS X are officially announced: Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.{'\n'}
 
-- **WDS Attendees:** $29 per Academy{'\n'}
-- **General Public:** $59 per Academy{'\n'}
+- **WDS Attendees:** $29 (early bird) --> $49 per Academy{'\n'}
+- **General Public:** $49 (early bird) --> $69 per Academy{'\n'}
 
 (Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection){'\n'}
                                                                                                                                               
@@ -64,17 +64,15 @@ There is no limit to how many Academies you can register for, but please note th
 
 If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. {'\n'}
 
-### Sorry We Missed You!{'\n'}
-
 _Academies will return for our final year. Please use the following WDS 2019 Academies schedule as reference of the type of content you might experience._ {'\n'}
 
 </Block>
 <EventList year={19} type="academy" title="WDS 2019 Academies" />
 </Section>
 <Section color="canvas" overflow="hidden" burst>
-  <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
+  <Block margin="60px 0 30px">## WDS X Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.{'\n'}
+  The WDS ticket sale didn’t last long... we’re now at full capacity with no more tickets available.{'\n'}
   </Block>
   {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'

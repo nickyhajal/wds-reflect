@@ -49,8 +49,8 @@ import YearReviews from '../../site/components/YearReviews';
 </Section>
 <Section color="white" css={{ padding: '90px 0 230px 0' }} mobile={{ phone: { padding: '20px 0 230px 0' } }}>
   <Block width="600px" css={{ color: 'orange' }}>
-    <h2 style={{ marginBottom: '4px' }}>World Domination Summit 2020 (final year!)</h2>
-    ## June 23 - June 29, 2020 {'\n'}
+    <h2 style={{ marginBottom: '4px' }}>World Domination Summit X</h2>
+    ## June 21 - June 26, 2022 {'\n'}
     ## in Portland, Oregon{'\n'}
   </Block>
   <Block cols="6" className="bigger" mobile={{ all:{ padding: '0 50px', marginBottom: '20px' }, phone: { padding: '0 20px' } }}>
@@ -59,7 +59,7 @@ import YearReviews from '../../site/components/YearReviews';
 
     With discussions and activities on topics like how to live a good life, travel hacking your way around the globe, and writing your first book, it’s an experience like no other.{'\n'}
     
-    For 2020 we'll celebrate 10 years of Community, Adventure, and Service featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises. {'\n'}
+    For WDS X (2022), we'll celebrate 10 years of Community, Adventure, and Service featuring an all-star speaker/Academy lineup, tons of opportunities to connect with fellow attendees and as always, fun, unforgettable surprises. {'\n'}
 
     _All that’s missing is YOU!_{'\n'}
 
@@ -105,7 +105,7 @@ import YearReviews from '../../site/components/YearReviews';
     - Entrance to the Opening & Closing Parties{'\n'}
     - Ability to connect with attendees and RSVP to your choice of activities through the WDS mobile app{'\n'}
     - Discounted registration for any of the half-day Academies taking place througout the week{'\n'}
-    - Discounted and priority hotel registration, including the chance to stay at the WDS Hotel™{'\n'}
+    - Discounted and priority hotel registration at iconic Portland hotels{'\n'}
     - A special community that will support you for life{'\n'}
   </Block>
 </Section>
@@ -126,7 +126,7 @@ import YearReviews from '../../site/components/YearReviews';
     <Block type="image" src="photos/happening.jpg">
       ## Our Story{'\n'}
 
-    See some of our favorite highlights and unforgettable memories we've created as a community over the past 9 years.{'\n'}
+    See some of our favorite highlights and unforgettable memories we've created as a community over 9 years of WDS.{'\n'}
       <Button to="/story">See the Highlights</Button>
     </Block>
     <Block type="image" src="photos/academies.jpg">
@@ -138,7 +138,7 @@ import YearReviews from '../../site/components/YearReviews';
     <Block type="image" src="photos/foundation.jpg">
       ## WDS Foundation{'\n'}
       
-Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/foundation">Learn More</Button>
+Profits from WDS have gone to our "Scholarships for Real Life" foundation, a 501(c)(3) charity that provides microgrants in support of bold projects. <Button to="/foundation">Learn More</Button>
     </Block>
   </div>
   <div className="clear" />
@@ -152,7 +152,7 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
     </Tab>
     <Tab title="Attendee Meetups" color="red" layout="imageLeft">
       <Image src="photos/tab-meetups.png" width="348px" height="324px" anchor="left" mobile={{ phone: { width: '100%', height: '180px', marginBottom: '16px' } }}/>{'\n'}
-      Attendee-led meetups have been a staple of WDS since our first year. In 2020, they're back and better than ever!{'\n'}
+      Attendee-led meetups have been a staple of WDS since our first year. In 2022, they're back and better than ever!{'\n'}
       Each day, there will be time set aside for attendees to host these informal meetups, and on any given day, you can go from a meetup for star gazing to a meetup for creative entrepreneurs—and then over to a meetup for a group of people interested in the Tiny House Movement, where a fight will likely break out over who owns the fewest things.{'\n'}
       Meetups aren't led by WDS team members—they're led by your fellow attendees! Our attendee-only app will guide you to your choice of meetups happening all over town from morning to night.    {'\n'}
       And if you have your own audience, you can host a meetup too. (Our dedicated attendee web app will tell you where each meetup is being held.){'\n'}
@@ -171,9 +171,9 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   </Tabs>
 </Section>
 <Section color="canvas" overflow="hidden" burst>
-  <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
+  <Block margin="60px 0 30px">## WDS X Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.{'\n'}
+  The WDS ticket sale didn’t last long... we’re now at full capacity with no more tickets available.{'\n'}
   </Block>
   {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
@@ -183,16 +183,6 @@ Profits from WDS go to our "Scholarships for Real Life" foundation, a 501(c)(3) 
   </Block>
   {/* <JoinUsButton /> */}
   <div className="clear" />
-</Section>
-
-
-<Section color="green" clip="top_lr_2.6" margin="-22px 0 0">
-  <Block margin="50px 0" width="420px">
-    ## Tell a Friend{'\n'}
-    Spread the word! Great things are even better when they’re shared with friends.{'\n'}
-    <Button modal="tellAFriend" width="184px" align="center">Share the Love</Button>
-  </Block>
-  <Image src="art/friends.png" width="286px" height="201px" margin="-120px 0 -60px" mobile={{phone: {margin: '30px 0 -60px 30px'}}} />
 </Section>
 
 

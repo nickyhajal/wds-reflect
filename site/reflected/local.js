@@ -143,9 +143,9 @@ import YearReviews from '../../site/components/YearReviews';
  </Block>
 </Section>
 <Section color="canvas" overflow="hidden" burst>
-  <Block margin="60px 0 30px">## WDS Tickets are Sold Out!</Block>
+  <Block margin="60px 0 30px">## WDS X Tickets are Sold Out!</Block>
   <Block cols="5" css={{ color: 'white', margin: '50px auto' }} className="bigger">
-  The WDS 2020 ticket sale didn’t last a single day... we’re now at full capacity with no more tickets available.{'\n'}
+  The WDS ticket sale didn’t last long... we’re now at full capacity with no more tickets available.{'\n'}
   </Block>
   {/* <Button styling="white" align="center" to={(
     window.location.pathname.indexOf('join-us') > -1 ? '/be-there' : '/join-us'
