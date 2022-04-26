@@ -78,7 +78,7 @@ class Event {
 
   startStr(offset) {
     if (this.start.isValid()) {
-      return `${moment(this.start).add(420, 'm').add(offset, 'm').format('h:mma')}`;
+      return `${moment(this.start).format('h:mma')}`;
     }
     return '⁛⁛⁛⁛⁛';
   }
