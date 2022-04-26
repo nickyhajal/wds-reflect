@@ -207,7 +207,9 @@ export class EventComponent extends Component {
     if (type === 'program')
       hosts = [{ first_name: 'WDS', last_name: 'Team', user_id: '10124' }];
     
-    console.log('>> hosts', hosts)
+
+    let cohosts = hosts.filter(({host_type}) => host_type === 'co')
+    hosts = hosts.filter(({host_type}) => host_type !== 'co')
 
     // LatLon for map with default set to PDX downtown
     let map = {};
@@ -366,6 +368,30 @@ export class EventComponent extends Component {
                   );
                 })}
               </div>
+              {cohosts.length > 0 &&
+              <div className="section">
+                <h3>{`Co-Host${cohosts.length > 1 ? 's' : ''}`}</h3>
+                {cohosts.map(h => {
+                  return (
+                    <Host>
+                      <a href={`/~${h.user_name}`} target="_blank" style={{ textDecoration: 'none' }}>
+                        <div className="name">
+                          <Avatar user={h.user_id} />
+                          <span>{`${h.first_name} ${h.last_name}`}</span>
+                        </div>
+                      </a>
+                        {type === 'academy'
+                          ? <div className="about">
+                              <Markdown>
+                                {bios[h.user_id]}
+                              </Markdown>
+                            </div>
+                          : ''}
+                    </Host>
+                  );
+                })}
+              </div>
+  }
             </Content>
             {hasSidebar
               ? <Side>

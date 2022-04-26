@@ -73,9 +73,10 @@ export const Events = gql`
       free_max
       num_free
       hosts {
-        first_name,
-        last_name,
-        user_id,
+        first_name
+        host_type
+        last_name
+        user_id
       }
     }
   }
