@@ -90,7 +90,6 @@ export class EventComponent extends Component {
       return (
         <div>
           <EventHead style={style}>{day}</EventHead>
-          <div style={{ marginTop: '-1.6rem', marginBottom: '2rem' }}>All Times in {label}</div>
           <EventRow rowClass={rowClass} event={event} me={Me} offset={offset}/>
         </div>
       );
