@@ -30,6 +30,6 @@ If you have any questions or need any assistance, please contact our concierge t
 _Academies will return for our final year. Please use the following WDS 2019 Academies schedule as reference of the type of content you might experience._ 
 
 </Block>
-<EventList year={20} type="academy" title="WDS 2020 Academies" />
+<EventList year={20} type="academy" title="WDS X Academies" />
 </Section>
 <Import id="join-us" />
