@@ -312,14 +312,14 @@ export class MeetupForm extends Component {
           </Sub>
           <Text name="descr" onChange={this.change} value={this.state.descr} />
         </FormSection>
-        {/* <FormSection>
+        <FormSection>
           <Label>Where will it be hosted? (venue/location name)</Label>
           <Sub>
             Your meetup is much more likely to be accepted if you have a venue planned in advance.
           </Sub>
           <Inp name="place" onChange={this.change} value={this.state.place} />
-        </FormSection> */}
-        {/* <FormSection>
+        </FormSection>
+        <FormSection>
           <Label>
             Venue Address (please enter the actual physical address)
           </Label>
@@ -331,8 +331,8 @@ export class MeetupForm extends Component {
             onChange={this.change}
             value={this.state.address}
           />
-        </FormSection> */}
-        {/* <FormSection>
+        </FormSection>
+        <FormSection>
           <Label>
             Any Special Notes About the Venue/Location
           </Label>
@@ -344,7 +344,7 @@ export class MeetupForm extends Component {
             onChange={this.change}
             value={this.state.venue_note}
           />
-        </FormSection> */}
+        </FormSection>
         <FormSection>
           <Label>
             What kind of person might enjoy this? Who&apos;s this for?
@@ -354,7 +354,7 @@ export class MeetupForm extends Component {
           </Sub>
           <Inp name="who" onChange={this.change} value={this.state.who} />
         </FormSection>
-        {/* <FormSection>
+        <FormSection>
           <Label>
             What interests might be associated with your meetup?
           </Label>
@@ -369,25 +369,25 @@ export class MeetupForm extends Component {
               this.setState({ interests });
             }}
           />
-        </FormSection> */}
+        </FormSection>
         <TimeSection>
           <Label style={{ width: '330px' }}>
             When will your meetup start?
           </Label>
           <Sub>
-            Please enter your start time in Pacific Time - <a href="https://www.worldtimebuddy.com/?pl=1&lid=5746545" target="_blank">Use this tool to translate times</a>
+            Please enter your start time
           </Sub>
           <FormBox className="dayselect" style={{ marginRight: '16px' }}>
             <Select
               onChange={e => this.change.call(this, e, 'date')}
               options={[
-                { value: '21', label: 'Tuesday, June 21st' },
-                { value: '22', label: 'Wednesday, June 22nd' },
-                { value: '23', label: 'Thursday, June 23rd' },
-                { value: '24', label: 'Friday, June 24th' },
-                { value: '25', label: 'Saturday, June 25th' },
-                { value: '26', label: 'Sunday, June 26th' },
-                { value: '27', label: 'Monday, June 27th' },
+                { label: 'Wednesday, June 21st', value: '21' },
+                { label: 'Wednesday, June 22nd', value: '22' },
+                { label: 'Thursday, June 23rd', value: '23' },
+                { label: 'Friday, June 24th', value: '24' },
+                { label: 'Saturday, June 25th', value: '25' },
+                { label: 'Sunday, June 26th', value: '26' },
+                { label: 'Monday, June 27th', value: '27' },
               ]}
               name="date"
               clearable={false}
@@ -463,8 +463,13 @@ export class MeetupForm extends Component {
             <Select
               onChange={e => this.change.call(this, e, 'end_date')}
               options={[
-                { value: '27', label: 'Saturday, June 27th' },
-                { value: '28', label: 'Sunday, June 28th' },
+                { label: 'Wednesday, June 21st', value: '21' },
+                { label: 'Wednesday, June 22nd', value: '22' },
+                { label: 'Thursday, June 23rd', value: '23' },
+                { label: 'Friday, June 24th', value: '24' },
+                { label: 'Saturday, June 25th', value: '25' },
+                { label: 'Sunday, June 26th', value: '26' },
+                { label: 'Monday, June 27th', value: '27' },
               ]}
               name="end_date"
               clearable={false}
@@ -534,7 +539,7 @@ export class MeetupForm extends Component {
             How many people can attend? (Max: 50)
           </Label>
           <Sub>
-            We'll close your event after it has this many RSVPs
+            We&apos;ll close your event after it has this many RSVPs
           </Sub>
           <Inp
             type="number"
