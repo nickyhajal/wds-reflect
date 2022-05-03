@@ -22,9 +22,6 @@
 
     <table className="time-table">
       <tbody>
-        <tr>
-          <td>WDS Core Team Titles</td>
-        </tr>
         <tr><td>Chris Guillebeau - Ringleader</td></tr>
         <tr><td>Jolie Guillebeau - Chief Emotional Officer</td></tr>
         <tr><td>Nicky Hajal - Resident Genius</td></tr>
@@ -38,12 +35,12 @@
         <tr><td>Denise Ransome - Creative Catalyst</td></tr>
       </tbody>
     </table>
-
-    There is no one like you. What will you bring to WDS to help create the overall experience? 
     
-    ## What is Your WDS Title
+    ## What is Your WDS Title?
     Every attendee will have their title proudly printed on their name badge. Use the space below to enter your own personal WDS title (20 character limit).  
-    Our goal is to have 100% participation and because of printing deadlines, titles must be submitted by May 31, 2022.
+    Our goal is to have 100% participation and because of printing deadlines, titles must be submitted by **May 31, 2022**.  
+    
+    There is no one like you. What will you bring to WDS to help create the overall experience? 
 
    
   </Block>
