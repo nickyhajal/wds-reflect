@@ -25,20 +25,20 @@ You'll have the opportunity to learn something new to help live your _own_ remar
 
 ## Academies FAQs 
 
-**How many Academies can I register for?**                                                                       
-There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. 
+#### How many Academies can I register for?
+                                                                     There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. 
                                                                      
-**Is there a physical or digital ticket to present?**                                                                       
-No physical ticket or confirmation will be required upon check-in, just a valid photo ID.
+#### Is there a physical or digital ticket to present?
+                                                                     No physical ticket or confirmation will be required upon check-in, just a valid photo ID.
                                                                      
-**What are the Acadmies ticket policies?**   
-Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.
+#### What are the Acadmies ticket policies?
+                                                                     Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.
                                                                      
-**What is the COVID policy for WDS Academies?**  
-Proof of full COVID vaccination or a negative COVID test result within 2 days will be required to enter the venue. 
+#### What is the COVID policy for WDS Academies?
+                                                                     Proof of full COVID vaccination or a negative COVID test result within 2 days will be required to enter the venue. 
                                                                    
-**What if I have any questions or need any assistance?** 
-Please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. 
+#### What if I have any questions or need any assistance?
+                                                                     Please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. 
 
 </Block>
 <EventList year={20} type="academy" title="WDS X Academy Schedule (full list coming soon)" />
