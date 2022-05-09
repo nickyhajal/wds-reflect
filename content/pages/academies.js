@@ -25,10 +25,10 @@ You'll have the opportunity to learn something new to help live your _own_ remar
 
 ## Academies FAQs 
 
-#### How many Academies can I register for?
+### How many Academies can I register for?
                                                                      There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. 
                                                                      
-#### Is there a physical or digital ticket to present?
+### Is there a physical or digital ticket to present?
                                                                      No physical ticket or confirmation will be required upon check-in, just a valid photo ID.
                                                                      
 #### What are the Acadmies ticket policies?
