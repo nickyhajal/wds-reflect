@@ -39,13 +39,54 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
 <Button to="/guide" style={{ fontSize: '22px', padding: '18px 100px', marginTop: '80px', marginBottom: '40px' }} fitToText>WDS X Guide (Now Available)</Button>
 </Block>
 </Section>
-  <Section color="canvas">
-  <Block>## Speakers and Special Guests For WDS</Block>
+  
+<Section color="canvas">
+  <Block>## Speakers and Special Guests For WDS X</Block>
   <Block cols="6" className="bigger">
     Every year we're excited to invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community. 
     
-    _**WDS X Speaker Profiles (COMING SOON).**_
+    Check out this superhero lineup for the WDS main stage (additional speakers to be announced soon):
   </Block>
+  <Tabs style="simple" margin="80px 0 0">
+
+ <Tab title="Ozan">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Ozan-Varol-WDS-Main-Stage-Speaker.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Ozan Varol
+                                                                                                                                              
+**Ozan Varol** is a rocket scientist turned award-winning professor and bestselling author of _Think Like a Rocket Scientist: Simple Strategies You Can Use to Make Giant Leaps in Work and Life_. The book has been translated to over 20 foreign languages and has sold over 100,000 copies worldwide.
+
+Ozan has been called a “true original” by Adam Grant and dubbed a “superhero” by Dan Pink. His work has been described as “must read” by Susan Cain and featured in the _Wall Street Journal_, _Time_, _BBC_, _CNN_, _Fast Company_, _Washington Post_, and more.
+
+
+          </Block>
+    </Tab>
+
+<Tab title="Samira">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Samira-Rajabi-WDS-Main-Stage-Speaker.jpeg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+      <Block cols="6" textAlign="left">
+        ## Samira Rajabi
+                                                                                                                                              
+**Samira Rajabi, Ph.D.**, is currently an Assistant Professor of Media Studies at the University of Colorado. Samira is also a freelance culture writer and qualitative research consultant specializing in research design.  
+Her most recent book, _All of My Friends Live in my Computer: Tactical Media, Trauma and Meaning Making_ is available now.  
+Her research and writing center around how we make sense of trauma using the platform affordances of digital technologies and social media. She is currently working on her next book, a field guide to help everyday people cope with ambiguous grief through digital media. Previously she was a Postdoctoral Fellow at the Center for Advanced Research in Global Communication at the Annenberg School for Communication at the University of Pennsylvania.
+
+          </Block>
+    </Tab>
+
+<Tab title="Tiago">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Tiago-Forte-WDS-Main-Stage-Speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+      <Block cols="6" textAlign="left">
+        ## Tiago Forte
+        
+       **Tiago Forte** is one of the world’s foremost experts on productivity. He has taught more than 20,000 people worldwide through his programs and writes and speaks on how technology can help knowledge workers revolutionize their personal effectiveness.  
+       What started as a quest to deal with a chronic illness turned into a life-long mission to help people harness the full potential of their ideas and turn them into reality.  
+       His work has been featured in media outlets like _The New York Times_, _Lifehacker_, _The Atlantic_, _Thrive Global_, and _Quartz. 
+
+</Block>
+    </Tab>
+
+  </Tabs>
   <div class="clear" />
 </Section>  
    
