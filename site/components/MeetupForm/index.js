@@ -198,7 +198,7 @@ export class MeetupForm extends Component {
     const valid = this.validate();
     if (valid) {
       const params = _.pick(this.state, Object.keys(this.params));
-      // params.interests = params.interests.join(',');
+      params.interests = params.interests.join(',');
       this.setState({ status: 'loading' });
       const rsp = await api('post event', params);
       this.setState({ status: 'loaded' });
