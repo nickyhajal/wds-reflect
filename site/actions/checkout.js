@@ -68,7 +68,7 @@ export function setCheckoutError(error) {
   return (dispatch) => {
     dispatch({
       type: C.CHECKOUT_SET_ERROR,
-      error,
+      error: error.replace('security code', 'security code or expiration'),
     });
     setTimeout(() => {
       dispatch({
