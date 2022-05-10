@@ -31,13 +31,13 @@ You'll have the opportunity to learn something new to help live your _own_ remar
 ### Is there a physical or digital ticket to present?
                                                                      No physical ticket or confirmation will be required upon check-in, just a valid photo ID.
                                                                      
-#### What are the Acadmies ticket policies?
+### What are the Acadmies ticket policies?
                                                                      Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.
                                                                      
-#### What is the COVID policy for WDS Academies?
+### What is the COVID policy for WDS Academies?
                                                                      Proof of full COVID vaccination or a negative COVID test result within 2 days will be required to enter the venue. 
                                                                    
-#### What if I have any questions or need any assistance?
+### What if I have any questions or need any assistance?
                                                                      Please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. 
 
 </Block>
