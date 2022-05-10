@@ -271,6 +271,10 @@ export class EventComponent extends Component {
       buttonText = "unRSVP";
       buttonSubMsg =
         "You'll be there! Click above to unRSVP if you can't make it.";
+      if (eventType === 'academy') {
+        buttonText = "You'll be there!"
+        buttonSubMsg = "You're attending this academy! Contact concierge@wds.fm if you need any additional assistance."
+      }
       buttonClick = () => {};
       if (E.isCancelable()) {
         buttonClick = this.rsvp;
