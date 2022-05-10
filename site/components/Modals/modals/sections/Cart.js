@@ -128,7 +128,7 @@ class Cart extends React.Component {
 			window.Stripe.setPublishableKey("pk_live_v32iH6nfQOgPmKgQiNOrnZCi");
 			window.Stripe.card.createToken(form, (status, rsp) => {
 				if (rsp.error !== undefined && rsp.error) {
-					this.props.act.setCheckoutError(rsp.error.message);
+					this.props.act.setCheckoutError(rsp.error.message.replace('security code', 'security code or expiration'));
 				} else {
 					this.processCharge(rsp.id, pkg);
 				}

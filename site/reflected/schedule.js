@@ -63,7 +63,7 @@ You decide if you'll join us for the weekend or come for the entire week. Regard
     - **Wednesday (6/22)** Activities at WDS HQ and Attendee-Led Meetups{'\n'}
     - **Thursday (6/23)** Academies, Activities at WDS HQ and Attendee-Led Meetups{'\n'}
     <ul><li><b className="highlight highlight-2">Friday (6/24)</b>  Academies, World Record Attempt, Opening Party</li></ul>
-    <ul><li><b className="highlight highlight-2">Saturday (6/25)</b> Main Stage Keynotes, Attendee-Led Meetups, and Evening Activities</li></ul>
+    <ul><li><b className="highlight highlight-2">Saturday (6/25)</b> Main Stage Keynotes and Attendee-Led Meetups</li></ul>
     <ul><li><b className="highlight highlight-2">Sunday (6/26)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
     - **Monday (6/27)** Attendee-Led Meetups & Final Farewells{'\n'}
       <div className="note">Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</div>

@@ -16,11 +16,13 @@ const renderSubNav = (subNav, scrollTo, me) => {
       if (uri === 'your-profile') {
         uri = `~${me.user_name}`;
       }
-      links.push(
-        <Navlink to={`/${uri}`} onClick={scrollTo} key={`navto-${nav}`}>
-          {_s.titleize(nav).replace('-', ' ')}
-        </Navlink>
-      );
+      if (uri !== '~') {
+        links.push(
+          <Navlink to={`/${uri}`} onClick={scrollTo} key={`navto-${nav}`}>
+            {_s.titleize(nav).replace('-', ' ')}
+          </Navlink>
+        );
+      }
     });
     return (
       <div styleName="subNav">
