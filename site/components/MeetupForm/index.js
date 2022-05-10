@@ -280,7 +280,7 @@ export class MeetupForm extends Component {
       <form onSubmit={this.submit} id="meetupProposalForm">
         <FormSection>
           <Label>What's the name of your meetup?</Label>
-          <Sub> This will be displayed on your meetup page. Be clear, specific, and catchy/</Sub>
+          <Sub> This will be displayed on your meetup page. Be clear, specific, and catchy. If you've proposed a meetup at a past WDS, try to alter your title a little bit.</Sub>
           <Inp name="what" onChange={this.change} value={this.state.what} />
         </FormSection>
         <FormSection>
@@ -324,7 +324,7 @@ export class MeetupForm extends Component {
             Venue Address (please enter the actual physical address)
           </Label>
           <Sub>
-            Make sure this is an address that can be found using Google maps. If your meetup is on the move, this is the meeting point.
+            Make sure this is an address that can be found using Google maps. If your meetup is on the move, this address should be your initial meeting point.
           </Sub>
           <Inp
             name="address"
