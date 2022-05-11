@@ -48,7 +48,6 @@ export function setProduct({ code, price, allowedQuantity, data, redirect, fee, 
       fee,
       product,
     };
-    console.log('action', action)
     window.localStorage.setItem('productAction', JSON.stringify(action));
     action.type = C.CHECKOUT_SET_PRODUCT;
     dispatch(action);

@@ -31,3 +31,4 @@ import BookingDetails from '../../site/components/BookingDetails';
 import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 import ComparisonTable from '../../site/components/ComparisonTable';
 import YearReviews from '../../site/components/YearReviews';
+import WdsTitle from '../../site/components/WdsTitle';
