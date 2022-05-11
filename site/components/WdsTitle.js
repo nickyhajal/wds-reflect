@@ -10,31 +10,9 @@ import Button from './Button/Button';
 import api from '../utils/api';
 
 const Shell = styled.div`
-  .ftrow {
-    &:nth-of-type(1) input {
-      transition: 0.3s all 0s;
-    }
-    &:nth-of-type(2) input {
-      transition: 0.3s all 0.1s;
-    }
-    &:nth-of-type(3) input {
-      transition: 0.3s all 0.2s;
-    }
-    &:nth-of-type(4) input {
-      transition: 0.2s all 0.3s;
-    }
-  }
-  &.changing {
-    input {
-      text-indent: 380px;
-    }
-  }
-  &.selected {
-    input {
-      transition: 0s !important;
-      text-indent: 0 !important;
-    }
-  }
+input {
+  background: white;
+}
 `;
 
 const Row = styled.div.attrs({
@@ -111,11 +89,11 @@ class WdsTitle extends React.Component {
   }
   render() {
     const { status, error } = this.state;
-    let btn = 'Save & Continue';
+    let btn = 'Save My Title';
     if (status === 'sending') {
       btn = 'Saving...';
     } else if (status === 'sent') {
-      btn = 'Success!';
+      btn = 'Saved!';
     }
     if (error.length) {
       btn = error;

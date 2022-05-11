@@ -61,9 +61,11 @@
       titles must be submitted by <b>May 31, 2022</b>. There is no one like you.
       What will you bring to WDS to help create the overall experience?
     </p>
-    ## Enter Your WDS Title
-    <div style={{marginTop: '-20px'}}>
-    <WdsTitle />
+    <div className="title-enterArea">
+      <h2 style={{marginBottom: '2rem', fontSize: '1.4rem'}}>It's time... set your WDS Title below:</h2>
+      <div style={{marginTop: '-20px'}}>
+      <WdsTitle />
+      </div>
     </div>
   </Block>
 </Section>
