@@ -65,12 +65,12 @@
         <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-academies.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 5: Register for Academies
         Alumni speakers and other special guests share their knowledge and experience in half-day workshops.
-        <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
+        <Button to="https://worlddominationsummit.com/academies" newWindow={true} styling="orange" fitToText>Register Now!</Button>     
         </Block>
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 6: Host a Meetup 
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
-        <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
+        <Button to="https://el-files-wds.s3.amazonaws.com/docs/WDS+X+-+Meetup+Guide.pdf" newWindow={true} styling="orange" fitToText>Learn More! (PDF Guide)</Button>     
           </Block>      
        <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/wds.mobile.event.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 7: Download the Mobile App 
