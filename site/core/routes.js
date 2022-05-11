@@ -52,6 +52,7 @@ const routes = (
     <Route path="/picnic-preorder/:loginhash" component={HashLogin} />
     <Route path="/trex/:loginhash" component={HashLogin} />
     <Route path="/events/meetups/:loginhash" component={HashLogin} />
+    <Route path="/title/:loginhash" component={HashLogin} />
     <Route path="/wds-day/meetups/:loginhash" component={HashLogin} />
     <Route path="/events/academies/:loginhash" component={HashLogin} />
     <Route path="/events/expeditions/:loginhash" component={HashLogin} />
