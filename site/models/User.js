@@ -14,7 +14,7 @@ class Event {
   }
 
   hasUnclaimedAcademy() {
-    return parseInt(this.pre19, 10) > 0 && parseInt(this.academy, 10) === 0;
+    return parseInt(this.pre19, 10) > 0 && parseInt(this.academy, 10) === 0 && false;
   }
 }
 
