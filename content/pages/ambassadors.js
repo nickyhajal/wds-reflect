@@ -70,27 +70,11 @@ To ensure the best chance of being selected, please apply by March 15, 2022. We 
 ### Anything happening ahead of the event? 
 Each year we host an Ambassador Meet and Greet to reconnect with old friends and to meet new ones. It also gives us a chance to share a ‘sneak peek’ of what’s to come. This year’s Meet and Greet will be held in early May, exact date and time TBD. 
 
-### I have more questions or would like more information!
-Email Tina at concierge@wds.fm and we’ll get everything straightened out! 
-
-Okay, ready to apply? Let’s do this:!
+## Our WDS X Ambassador team is full!  
+  If you have questions or would like more information please feel free to reach out to Tina at concierge@wds.fm
 
 
 </Block>
-
- <Block type="padded" background="blue">
-    <Image src="icon/circle-map-green.png" width="101" height="78"  align="center" margin="0 0 40px 0" />
-        <Block cols="5">
-      
-          ## Ambassador Applications Now Open!!!
-              
-<Button to="https://worlddominationsummit.com/ambassador-application" newWindow={true} styling="sea" fitToText>Apply Now!</Button> 
-
-We’ll be in touch to confirm receipt of your application within a couple of weeks of receiving it, and again with next steps a couple weeks after the March 15th deadline.
-    
-  </Block>
-  </Block>
-
 </Section>
 
 
