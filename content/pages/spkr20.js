@@ -49,39 +49,34 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
   </Block>
   <Tabs style="simple" margin="80px 0 0">
 
- <Tab title="Ozan">
-      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Ozan-Varol-WDS-Main-Stage-Speaker.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+ <Tab title="Carlos">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Carlos-Whittaker-WDS-Speaker.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Ozan Varol
+        ## Carlos Whittaker
                                                                                                                                               
-**Ozan Varol** is a rocket scientist turned award-winning professor and bestselling author of _Think Like a Rocket Scientist: Simple Strategies You Can Use to Make Giant Leaps in Work and Life_. The book has been translated to over 20 foreign languages and has sold over 100,000 copies worldwide.
-
-Ozan has been called a “true original” by Adam Grant and dubbed a “superhero” by Dan Pink. His work has been described as “must read” by Susan Cain and featured in the _Wall Street Journal_, _Time_, _BBC_, _CNN_, _Fast Company_, _Washington Post_, and more.
-
+**Carlos Whittaker** is a self-proclaimed “Hope Dealer” who spends the majority of his time telling stories on stages and phone screens across the world that lead people towards action.
+He’s a Peoples Choice Award winner and the author of three books, Moment Maker, Kill The Spider, & Enter Wild which all lead people towards freedom in some way, shape, or form. Carlos is the host of the popular podcast “Human Hope w/ Carlos Whittaker”. He lives with his wife, 3 kids, 2 large Bernese Mountain Dogs, and 5 chickens in Nashville TN.
+You can find out more about Carlos and his work at [CarlosWhittaker.com](http://carloswhittaker.com) or on Instagram @loswhit.
 
           </Block>
     </Tab>
 
-<Tab title="Samira">
-      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Samira-Rajabi-WDS-Main-Stage-Speaker.jpeg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+ <Tab title="Emily">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Emily-Rudow-WDS-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Samira Rajabi
-                                                                                                                                              
-**Samira Rajabi, Ph.D.**, is currently an Assistant Professor of Media Studies at the University of Colorado. Samira is also a freelance culture writer and qualitative research consultant specializing in research design.  
-Her most recent book, _All of My Friends Live in my Computer: Tactical Media, Trauma and Meaning Making_ is available now.  
-Her research and writing center around how we make sense of trauma using the platform affordances of digital technologies and social media. She is currently working on her next book, a field guide to help everyday people cope with ambiguous grief through digital media. Previously she was a Postdoctoral Fellow at the Center for Advanced Research in Global Communication at the Annenberg School for Communication at the University of Pennsylvania.
+        ## Emily Rudow
+        **Emily Rudow** is a digital marketer, an entrepreneur, fitness writer, and an avid long-distance runner. In 2017, she broke a world record by running 74 consecutive half-marathon distances (21.1 kilometers/13.1 miles) while raising over $10,000 for the Canadian Cancer Society. Since then, she hasn’t stopped running. To date, she has run an average of 10 kilometers every day for over four years.
 
-          </Block>
-    </Tab>
+Emily’s released her debut book Find Your Stride: A Personalized Path to Sustainable Nutrition and Training in late March 2022. Her book has been described by best-selling author and elite run coach, Steve Magness, as “the book the exercise and fitness world needs right now.” 
+      </Block>
+    </Tab>  
 
-<Tab title="Tiago">
-      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Tiago-Forte-WDS-Main-Stage-Speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+<Tab title="Frank">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Frank-Warren-WDS-Speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Tiago Forte
+        ## Frank Warren
         
-       **Tiago Forte** is one of the world’s foremost experts on productivity. He has taught more than 20,000 people worldwide through his programs and writes and speaks on how technology can help knowledge workers revolutionize their personal effectiveness.  
-       What started as a quest to deal with a chronic illness turned into a life-long mission to help people harness the full potential of their ideas and turn them into reality.  
-       His work has been featured in media outlets like _The New York Times_, _Lifehacker_, _The Atlantic_, _Thrive Global_, and _Quartz. 
+       **Frank Warren** is the creator of The PostSecret Project, over one million highly personal postcards mailed anonymously from around the world. They display soulful secrets we never voice—from shocking to romantic, from tragic to laugh-out-loud funny.  They have been published in six best-selling books and on the award-winning PostSecret blog. Frank’s multimedia live events reveal the stories behind the secrets, what he has learned as “America’s most trusted stranger,” and how sharing our stories deepens relationships and transforms lives.
 
 </Block>
     </Tab>
