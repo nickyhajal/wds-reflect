@@ -70,7 +70,7 @@
          <Block type="image-overlay" anchor="left" src="photos/meetups-guide.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 6: Host a Meetup 
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
-        <Button to="https://el-files-wds.s3.amazonaws.com/docs/WDS+X+-+Meetup+Guide.pdf" newWindow={true} styling="orange" fitToText>Learn More! (PDF Guide)</Button>     
+        <Button to="https://worlddominationsummit.com/propose-a-meetup" newWindow={true} styling="orange" fitToText>Learn More!</Button>     
           </Block>      
        <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/wds.mobile.event.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 7: Download the Mobile App 
