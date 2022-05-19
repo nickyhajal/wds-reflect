@@ -43,7 +43,7 @@
         </tr>
         <tr>
           <td>David Van Veen - T-Rex Tamer</td>       
-        <tr>
+        </tr>
           <td>Denise Ransome - Creative Catalyst</td>
         </tr>
       </tbody>
