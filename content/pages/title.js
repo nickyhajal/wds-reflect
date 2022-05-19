@@ -42,8 +42,7 @@
           <td>Jedd Chang - Ambassador of Aloha</td>
         </tr>
         <tr>
-          <td>David Van Veen - T-Rex Tamer</td>
-       
+          <td>David Van Veen - T-Rex Tamer</td>       
         <tr>
           <td>Denise Ransome - Creative Catalyst</td>
         </tr>
