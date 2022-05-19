@@ -54,9 +54,9 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
       <Block cols="6" textAlign="left">
         ## Carlos Whittaker
                                                                                                                                               
-**Carlos Whittaker** is a self-proclaimed “Hope Dealer” who spends the majority of his time telling stories on stages and phone screens across the world that lead people towards action.
-He’s a Peoples Choice Award winner and the author of three books, Moment Maker, Kill The Spider, & Enter Wild which all lead people towards freedom in some way, shape, or form. Carlos is the host of the popular podcast “Human Hope w/ Carlos Whittaker”. He lives with his wife, 3 kids, 2 large Bernese Mountain Dogs, and 5 chickens in Nashville TN.
-You can find out more about Carlos and his work at [CarlosWhittaker.com](http://carloswhittaker.com) or on Instagram @loswhit.
+**Carlos Whittaker** is a self-proclaimed “Hope Dealer” who spends the majority of his time telling stories on stages and phone screens across the world that lead people towards action.  
+He’s a Peoples Choice Award winner and the author of three books: _Moment Maker_, _Kill The Spider_, & _Enter Wild_ which all lead people towards freedom in some way, shape, or form. Carlos is the host of the popular podcast “Human Hope w/ Carlos Whittaker.”  
+You can find out more about Carlos and his work at [CarlosWhittaker.com](http://carloswhittaker.com) or on Instagram [@loswhit](https://www.instagram.com/loswhit/)
 
           </Block>
     </Tab>
@@ -65,9 +65,9 @@ You can find out more about Carlos and his work at [CarlosWhittaker.com](http:/
       <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Emily-Rudow-WDS-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
         ## Emily Rudow
-        **Emily Rudow** is a digital marketer, an entrepreneur, fitness writer, and an avid long-distance runner. In 2017, she broke a world record by running 74 consecutive half-marathon distances (21.1 kilometers/13.1 miles) while raising over $10,000 for the Canadian Cancer Society. Since then, she hasn’t stopped running. To date, she has run an average of 10 kilometers every day for over four years.
-
-Emily’s released her debut book Find Your Stride: A Personalized Path to Sustainable Nutrition and Training in late March 2022. Her book has been described by best-selling author and elite run coach, Steve Magness, as “the book the exercise and fitness world needs right now.” 
+        **Emily Rudow** is a digital marketer, an entrepreneur, fitness writer, and an avid long-distance runner. In 2017, she broke a world record by running 74 consecutive half-marathon distances (21.1 kilometers/13.1 miles) while raising over $10,000 for the Canadian Cancer Society. Since then, she hasn’t stopped running. To date, she has run an average of 10 kilometers every day for over four years.  
+        Emily’s debut book _Find Your Stride: A Personalized Path to Sustainable Nutrition and Training_ is available now.  
+        Learn more about Emily at her website, [emilyrudow.com](https://emilyrudow.com/) or on Instagram [@emilyrudow](https://www.instagram.com/emilyrudow/)
       </Block>
     </Tab>  
 
@@ -76,7 +76,9 @@ Emily’s released her debut book Find Your Stride: A Personalized Path to Sus
       <Block cols="6" textAlign="left">
         ## Frank Warren
         
-       **Frank Warren** is the creator of The PostSecret Project, over one million highly personal postcards mailed anonymously from around the world. They display soulful secrets we never voice—from shocking to romantic, from tragic to laugh-out-loud funny.  They have been published in six best-selling books and on the award-winning PostSecret blog. Frank’s multimedia live events reveal the stories behind the secrets, what he has learned as “America’s most trusted stranger,” and how sharing our stories deepens relationships and transforms lives.
+**Frank Warren** is the creator of The PostSecret Project, over one million highly personal postcards mailed anonymously from around the world. They display soulful secrets we never voice—from shocking to romantic, from tragic to laugh-out-loud funny.  
+They have been published in six best-selling books and on the award-winning PostSecret blog. Frank’s multimedia live events reveal the stories behind the secrets, what he has learned as “America’s most trusted stranger,” and how sharing our stories deepens relationships and transforms lives.  
+See the latest secrets at Frank's website, [postsecret.com](https://postsecret.com/) or on Instagram [@postsecret](https://www.instagram.com/postsecret)
 
 </Block>
     </Tab>
