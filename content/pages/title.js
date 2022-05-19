@@ -13,7 +13,7 @@
     className="bigger"
   >
     <h2 style={{fontSize: '32px', textAlign: 'center'}}>
-      Action Needed: Share With Us Your WDS Title
+      Action Needed: Choose Your Own WDS Title
     </h2>
     <p>
       The best and most important part about WDS is you. Each year, every
@@ -21,7 +21,7 @@
     </p>
     <p>
       This year we want to commision and give everyone the opportunity to create
-      their own WDS title. Here are some examples from our team:
+      their own WDS title. It can be serious or silly, or maybe a little of both. Here are some examples from our team:
     </p>
     <table className="time-table">
       <tbody>
@@ -42,22 +42,21 @@
           <td>Jedd Chang - Ambassador of Aloha</td>
         </tr>
         <tr>
-          <td>David Van Veen - Talent Wrangler</td>
-          <td>Steven Peterson - Designated Survivor</td>
-        </tr>
+          <td>David Van Veen - T-Rex Tamer</td>
+       
         <tr>
           <td>Denise Ransome - Creative Catalyst</td>
         </tr>
       </tbody>
     </table>
-    ## What is Your WDS Title?
+    ## What is <em>Your</em> WDS Title?
     <p>
       Every attendee will have their title proudly printed on their name badge.
       Use the space below to enter your own personal WDS title (20 character
       limit).
     </p>
     <p>
-      Our goal is to have 100% participation and because of printing deadlines,
+      Our goal is to have 100% participation for this activity! Because of printing deadlines,
       titles must be submitted by <b>May 31, 2022</b>. There is no one like you.
       What will you bring to WDS to help create the overall experience?
     </p>
