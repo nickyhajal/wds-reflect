@@ -83,8 +83,8 @@ class WdsTitle extends React.Component {
     }
   };
   change(e) {
-    if (e.target.value.length < 20) {
-      this.setState({ title: e.target.value});
+    if (e.target.value.length < 40) {
+      this.setState({ title: e.target.value });
     }
   }
   render() {
