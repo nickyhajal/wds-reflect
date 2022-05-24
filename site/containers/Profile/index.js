@@ -47,6 +47,7 @@ export class Profile extends Component {
       user: {
         first_name: '░░░░░░░░░',
         last_name: '░░░░░░░',
+        title: '',
         user_name: '░░░░░░░',
         distanceStr: '░░░░░░░░░░ ░░░░░░░ ░░░░ ░░░░░░ ░░░░░ ░░░░ ░░░ ░░░░░░░ ░░░░░,░░',
       },
@@ -200,6 +201,7 @@ export class Profile extends Component {
       user_id: userId,
       first_name: firstName,
       last_name: lastName,
+      title,
       distanceStr,
       lat, lon,
     } = this.state.user;
@@ -211,7 +213,10 @@ export class Profile extends Component {
       <div styleName="shell">
         <Section headerSize="thin" headerClip="br:0%,-10%;" headerImage="hero/green.jpg" color="canvas">
           <Block cols="8" background="transparent" styleName="profile">
-            <h2 style={headcss}>{`${firstName} ${lastName}`}</h2>
+            <h2 style={headcss}>
+              <div>{`${firstName} ${lastName}`}</div>
+              {title && <div style={{ fontSize: '1.3rem' }}>{title}</div>}
+            </h2>
             <Block width="100%" background="white" type="padded">
               <Avatar clip="tl:0,3%" user={userId} />
               <div styleName="map">
