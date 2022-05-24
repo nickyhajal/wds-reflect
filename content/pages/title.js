@@ -20,7 +20,7 @@
       attendee plays an important part in creating the overall WDS experience.
     </p>
     <p>
-      This year we want to commision and give everyone the opportunity to create
+      This year we want to commission and give everyone the opportunity to create
       their own WDS title. It can be serious or silly, or maybe a little of both. Here are some examples from our team:
     </p>
     <table className="time-table">
