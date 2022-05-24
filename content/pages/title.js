@@ -58,7 +58,7 @@
     </p>
     <p>
       Our goal is to have 100% participation for this activity! Because of printing deadlines,
-      titles must be submitted by <b>May 31, 2022</b>. There is no one like you.
+      titles must be submitted by <b>June 8, 2022</b>. There is no one like you.
       What will you bring to WDS to help create the overall experience?
     </p>
     <div className="title-enterArea">
