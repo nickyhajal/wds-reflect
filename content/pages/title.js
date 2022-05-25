@@ -23,7 +23,7 @@
       This year we want to commission and give everyone the opportunity to create
       their own WDS title. It can be serious or silly, or maybe a little of both. Here are some examples from our team:
     </p>
-    <table className="time-table" align="center">
+    <center><table className="time-table">
       <tbody>
         <tr>
           <td>Chris Guillebeau - Ringleader</td>
@@ -46,7 +46,7 @@
           <td>Denise Ransome - Creative Catalyst</td>      
         </tr>
       </tbody>
-    </table>
+    </table></center>
     <p></p>
    <p><em>What is your superpower? What is something you can share and help other attendees with? What is something that is a core part of your identity? </em></p>
 
