@@ -23,7 +23,7 @@
       This year we want to commission and give everyone the opportunity to create
       their own WDS title. It can be serious or silly, or maybe a little of both. Here are some examples from our team:
     </p>
-    <table className="time-table">
+    <table className="time-table" align="center">
       <tbody>
         <tr>
           <td>Chris Guillebeau - Ringleader</td>
@@ -54,7 +54,7 @@
    
    <p>&nbsp;</p>
 
- <h2 style={{fontSize: '32px', textAlign: 'left'}}>What is <em>Your</em> WDS Title?</h2>
+ <h2 style={{fontSize: '32px', textAlign: 'center'}}>What is <em>Your</em> WDS Title?</h2>
     <p>
       Every attendee will have their title proudly printed on their name badge.
       Use the space below to enter your own personal WDS title (20 character
