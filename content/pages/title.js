@@ -51,6 +51,9 @@
    <p><em>What is your superpower? What is something you can share and help other attendees with? What is something that is a core part of your identity? </em></p>
 
  <p>These are the kind of questions to think about as you choose your title for WDS.</p>
+   
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
 
  <h2 style={{fontSize: '32px', textAlign: 'left'}}>What is <em>Your</em> WDS Title?</h2>
     <p>
