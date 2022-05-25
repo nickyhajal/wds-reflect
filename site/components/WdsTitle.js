@@ -8,6 +8,8 @@ import actions from '../actions';
 import Input from './Input/Input';
 import Button from './Button/Button';
 import api from '../utils/api';
+import Link from './Link/Link';
+
 
 const Shell = styled.div`
 input {
@@ -47,7 +49,7 @@ class WdsTitle extends React.Component {
   }
   loadAnswer(props) {
     if (props.auth.me) {
-      this.setState({title: props.auth.me.title});
+      this.setState({title: props.auth.me.title, hasTitle: props.auth.me.title && props.auth.me.title.length ? true : false});
     }
   }
   valid = () => {
@@ -75,7 +77,7 @@ class WdsTitle extends React.Component {
         setTimeout(() => {
           this.setState({ status: 'ready' });
         }, 1000);
-        this.setState({ status: 'sent' });
+        this.setState({ status: 'sent', hasTitle: true });
         if (this.props.onFinish !== undefined) {
           this.props.onFinish();
         }
@@ -100,6 +102,7 @@ class WdsTitle extends React.Component {
     }
     return (
       <Shell>
+        {this.state.title && this.state.title.length && this.state.hasTitle && <div style={{ width: '100%', background: '#39B54A', color: 'white', padding: '1rem', marginBottom: '1.2rem' }}>Great, your WDS Title is set! You can check it out <a target="_blank" style={{color: '#fff'}} href={`/~${this.props.auth.me.user_name}`}>on your profile here</a>.</div>}
         <Row>
           <div>
             <Input
