@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import _ from 'lodash';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import { browserHistory } from 'react-router';
 import styled from 'styled-components';
 import types from '../utils/types';
 import actions from '../actions';
@@ -42,6 +43,10 @@ class WdsTitle extends React.Component {
     };
   }
   componentDidMount() {
+    if (this.props.auth.checked && !this.props.auth.me) {
+      browserHistory.push('/login?title');
+      // window.location.href = '/login?propose-a-meetup';
+    }
     this.loadAnswer(this.props);
   }
   componentWillReceiveProps(props) {
