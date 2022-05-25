@@ -71,29 +71,34 @@
         ## Step 6: Host a Meetup 
         Share your knowledge. Coordinate an activity. Help people connect. Make WDS awesome by proposing a meetup.
         <Button to="https://worlddominationsummit.com/propose-a-meetup" newWindow={true} styling="orange" fitToText>Learn More!</Button>     
-          </Block>      
-       <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/wds.mobile.event.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 7: Download the Mobile App 
+          </Block>
+       <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/WDS-Heros.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 7: Create Your WDS Title
+        Every person coming to WDS has an important role in creating the expereince. What super power will you be bringing?
+        <Button to="https://worlddominationsummit.com/title" newWindow={true} styling="orange" fitToText>Share Your Title Now!</Button>     
+        </Block>   
+       <Block type="image-overlay" anchor="left" src="https://el-files-wds.s3.amazonaws.com/images/photos/wds.mobile.event.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 8: Download the Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
         <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
         </Block>      
-        <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step 8: RSVP for Activities
+        <Block type="image-overlay" anchor="right" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        ## Step 9: RSVP for Activities
         Create your own personalized schedule by RSVPing for Meetups, Activities, and Academies through the mobile app or online. 
          <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>          
         </Block>
-        <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 9: Pack for WDS 
+        <Block type="image-overlay" anchor="left" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 10: Pack for WDS 
         Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum and the core team? 
         <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2022</Button>     
         </Block>   
-         <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
-        ## Step 10: Check-in at WDS
+         <Block type="image-overlay" anchor="right" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
+        ## Step 11: Check-in at WDS
         You're here - welcome to Portland! Learn what to do when you arrive to Portland.  
          <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2022</Button>          
         </Block>
-          <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
-        ## Step 11: Have an Amazing Experience
+          <Block type="image-overlay" anchor="left" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
+        ## Step 12: Have an Amazing Experience
         Make new friends. Go on adventures. Learn something new. Go impact our world. Let's do this!
         </Block>
     </Grid>
