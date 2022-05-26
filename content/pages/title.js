@@ -23,7 +23,7 @@
       This year we want to commission and give everyone the opportunity to create
       their own WDS title. It can be serious or silly, or maybe a little of both. Here are some examples from our team:
     </p>
-    <table className="time-table">
+    <center><table className="time-table">
       <tbody>
         <tr>
           <td>Chris Guillebeau - Ringleader</td>
@@ -46,11 +46,15 @@
           <td>Denise Ransome - Creative Catalyst</td>      
         </tr>
       </tbody>
-    </table>
-  
-  
+    </table></center>
+    <p></p>
+   <p><em>What is your superpower? What is something you can share and help other attendees with? What is something that is a core part of your identity? </em></p>
 
- <h2 style={{fontSize: '32px', textAlign: 'left'}}>What is <em>Your</em> WDS Title?</h2>
+ <p>These are the kind of questions to think about as you choose your title for WDS.</p>
+   
+   <p>&nbsp;</p>
+
+ <h2 style={{fontSize: '32px', textAlign: 'center'}}>What is <em>Your</em> WDS Title?</h2>
     <p>
       Every attendee will have their title proudly printed on their name badge.
       Use the space below to enter your own personal WDS title (20 character
@@ -58,9 +62,10 @@
     </p>
     <p>
       Our goal is to have 100% participation for this activity! Because of printing deadlines,
-      titles must be submitted by <b>June 8, 2022</b>. There is no one like you.
-      What will you bring to WDS to help create the overall experience?
-    </p>
+      titles must be submitted by <b>June 8, 2022</b>.</p> 
+
+     <p>There is no one like you. What will you bring to WDS to help create the overall experience?</p>
+
     <div className="title-enterArea">
       <h2 style={{marginBottom: '2rem', fontSize: '1.4rem'}}>It's time... set your WDS Title below:</h2>
       <div style={{marginTop: '-20px'}}>
