@@ -43,14 +43,16 @@ class WdsTitle extends React.Component {
     };
   }
   componentDidMount() {
-    if (this.props.auth.checked && !this.props.auth.me) {
-      browserHistory.push('/login?title');
-      // window.location.href = '/login?propose-a-meetup';
-    }
     this.loadAnswer(this.props);
   }
   componentWillReceiveProps(props) {
     this.loadAnswer(props);
+  }
+  componentDidUpdate() {
+    if (this.props.auth.checked && !this.props.auth.me) {
+      browserHistory.push('/login?title');
+      // window.location.href = '/login?propose-a-meetup';
+    }
   }
   loadAnswer(props) {
     if (props.auth.me) {
