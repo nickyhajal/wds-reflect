@@ -26,15 +26,15 @@
     <center><table className="time-table">
       <tbody>
         <tr>
-          <td>Chris Guillebeau - Ringleader</td>
+          <td>Chris Guillebeau - Ringleader & Janitor</td>
           <td>Jolie Guillebeau - Chief Emotional Officer</td>
         </tr>
         <tr>
-          <td>Nicky Hajal - Resident Genius</td>
+          <td>Nicky Hajal - Digital Magician</td>
           <td>Wes & Tera Wages - Media Moguls</td>
         </tr>
         <tr>
-          <td>Tina Hart - Viceroy of Volunteers</td>
+          <td>Tina Hart - The Enthusiast</td>
           <td>Shauna Noah - First Lady of Fun</td>
         </tr>
         <tr>
