@@ -49,6 +49,7 @@ class WdsTitle extends React.Component {
     this.loadAnswer(props);
   }
   componentDidUpdate() {
+    //
     if (this.props.auth.checked && !this.props.auth.me) {
       browserHistory.push('/login?title');
       // window.location.href = '/login?propose-a-meetup';
