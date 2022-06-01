@@ -49,36 +49,38 @@ Click on the button for a step-by-step guide on how to prepare and maximize your
   </Block>
   <Tabs style="simple" margin="80px 0 0">
 
- <Tab title="Carlos">
-      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Carlos-Whittaker-WDS-Speaker.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
+ <Tab title="Colin">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/ColinOBrady.WDS.speaker.wide.jpg" width="904" height="549" mobile={{ all: { width: '100%' }}} margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Carlos Whittaker
+        ## Colin O’Brady 
                                                                                                                                               
-**Carlos Whittaker** is a self-proclaimed “Hope Dealer” who spends the majority of his time telling stories on stages and phone screens across the world that lead people towards action.  
-He’s a Peoples Choice Award winner and the author of three books: _Moment Maker_, _Kill The Spider_, & _Enter Wild_ which all lead people towards freedom in some way, shape, or form. Carlos is the host of the popular podcast “Human Hope w/ Carlos Whittaker.”  
-You can find out more about Carlos and his work at [CarlosWhittaker.com](http://carloswhittaker.com) or on Instagram [@loswhit](https://www.instagram.com/loswhit/)
+ **Colin O’Brady** is a world record holding explorer and one of the world’s best endurance athletes. Colin is regarded as a foremost expert on mindset.   
+ He isn’t your typical athlete despite his unmatched athletic accomplishments - a world first solo crossing of Antarctica, a world first row across Drake Passage, summiting Mt. Everest, and setting three prestigious mountaineering world records - and he has done it all after overcoming a devastating accident to prove that anything is possible.  
+ Learn more about Colin at his [website](https://www.colinobrady.com/) or follow him on Instagram [@colinobrady](https://www.instagram.com/colinobrady/).
 
           </Block>
     </Tab>
 
- <Tab title="Emily">
-      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Emily-Rudow-WDS-Speaker.jpg" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
+ <Tab title="Karla">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Karla-Starr-WDS-speaker-wide.png" mobile={{ all: { width: '100%' }}} width="904" height="549" margin="0 auto 60px" preload/>
       <Block cols="6" textAlign="left">
-        ## Emily Rudow
-        **Emily Rudow** is a digital marketer, an entrepreneur, fitness writer, and an avid long-distance runner. In 2017, she broke a world record by running 74 consecutive half-marathon distances (21.1 kilometers/13.1 miles) while raising over $10,000 for the Canadian Cancer Society. Since then, she hasn’t stopped running. To date, she has run an average of 10 kilometers every day for over four years.  
-        Emily’s debut book _Find Your Stride: A Personalized Path to Sustainable Nutrition and Training_ is available now.  
-        Learn more about Emily at her website, [emilyrudow.com](https://emilyrudow.com/) or on Instagram [@emilyrudow](https://www.instagram.com/emilyrudow/)
+        ## Karla Starr
+        **Karla Starr** is a writer and Underdog Advocate. In addition to being a columnist for _Medium_, Karla also writes the newsletter, _The Starr Report_ on _Substack_.  
+        Karla has appeared on _NPR_ and _CBS Sunday Morning_, and has written for _The Atlantic_, _Slate_, _Popular Science_, and the _Guardian_.  
+        Her most recent book, _Making Numbers Count: The Art and Science of Communicating Numbers_, with Chip Heath (_Switch, Made to Stick_) has been met with critical acclaim from _The Wall Street Journal_, _Kirkus Reviews_, and _Adam Grant_.
+
+Learn more about Karla at her website, [kstarr.com](https://kstarr.com/about/) or follow her on Instagram [@karlastarr](https://www.instagram.com/karlastarr/)
       </Block>
     </Tab>  
 
-<Tab title="Frank">
-      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Frank-Warren-WDS-Speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
+<Tab title="Gary">
+      <Image src="https://el-files-wds.s3.amazonaws.com/images/speakers/Gary-Ware-WDS-Speaker.jpg" width="904" height="549" margin="0 auto 60px" mobile={{ all: { width: '100%' }}} preload/>
       <Block cols="6" textAlign="left">
-        ## Frank Warren
-        
-**Frank Warren** is the creator of The PostSecret Project, over one million highly personal postcards mailed anonymously from around the world. They display soulful secrets we never voice—from shocking to romantic, from tragic to laugh-out-loud funny.  
-They have been published in six best-selling books and on the award-winning PostSecret blog. Frank’s multimedia live events reveal the stories behind the secrets, what he has learned as “America’s most trusted stranger,” and how sharing our stories deepens relationships and transforms lives.  
-See the latest secrets at Frank's website, [postsecret.com](https://postsecret.com/) or on Instagram [@postsecret](https://www.instagram.com/postsecret)
+        ## Gary Ware
+        **Gary Ware** is a corporate facilitator, certified coach, and Creative Catalyst. He has over 14 years of experience holding leadership positions in the corporate world and nearly a decade as a performer in improv theatre.   
+        After experiencing burnout, he realized that what was missing was play, leading him to discover his passion for facilitating.  
+        Through his company Breakthrough Play, Gary uses the power of applied improvisation and other playful methods to assist people in unlocking creativity, confidence, and better communication and was recently featured as one of the Top 100 HR influencers of 2021 by Engagedly.  
+        Learn more about Gary at his website, [breakthroughplay.com](https://www.breakthroughplay.com/about/) and follow him on Instagram [@garyware](https://www.instagram.com/garyware)
 
 </Block>
     </Tab>
