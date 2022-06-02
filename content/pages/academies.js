@@ -41,6 +41,6 @@ Registration for Academies is separate from WDS itself and is available to both 
                                                                      Please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. 
 
 </Block>
-<EventList year={20} type="academy" title="WDS X Academy Schedule (full list coming soon)" />
+<EventList year={20} type="academy" title="WDS X Academies Schedule" />
 </Section>
 <Import id="join-us" />
