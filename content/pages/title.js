@@ -62,7 +62,7 @@
     </p>
     <p>
       Our goal is to have 100% participation for this activity! Because of printing deadlines,
-      titles must be submitted by <b>June 8, 2022</b>.</p> 
+      titles must be submitted by <b>Sunday, June 5, 2022</b>.</p> 
 
      <p>There is no one like you. What will you bring to WDS to help create the overall experience?</p>
 
