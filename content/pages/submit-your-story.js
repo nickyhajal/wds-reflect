@@ -32,7 +32,7 @@
 <li>A request that you think the WDS community can help you with</li>
 <li>A person you'd like to publicly thank</li></ul></p>
 
-If you'd like to throw your hat into the ring for one of these topics, let us know... and don't delay! **The deadline to be considered is Sunday, June 18th.**
+If you'd like to throw your hat into the ring for one of these topics, let us know... and don't delay! **The deadline to be considered is Sunday, June 19th.**
   </Block>
 <Block cols="6">
     <iframe height="3000" allowTransparency="true" frameborder="0" scrolling="no" style={{ width:'100%', border: 'none'}}  src="https://worlddominationsummit.wufoo.com/embed/s1wmwbs81n6u528/"><a href="https://worlddominationsummit.wufoo.com/forms/s1wmwbs81n6u528/">Fill out my Wufoo form!</a></iframe>
