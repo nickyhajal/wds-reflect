@@ -19,7 +19,7 @@
     className="bigger"
   >
     <h2 style={{ fontSize: '32px', textAlign: 'center' }}>
-      Do You have a Remarkable Story? Share it on the main stage!
+      Do You have a Remarkable Story? Share it on The Main stage!
     </h2>
      _Community, Adventure_ and _Service_ are the three core values of WDS—and an Attendee Stories session is your chance to experience all three. The adventure of sharing your story on stage is an awesome way to serve and be a part of this community.
 
