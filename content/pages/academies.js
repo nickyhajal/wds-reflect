@@ -18,8 +18,8 @@ You'll have the opportunity to learn something new to help live your _own_ remar
         ## The Details
 Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.
 
-- **WDS Attendees:** $29 (early bird) --> $49 per Academy
-- **General Public:** $49 (early bird) --> $69 per Academy
+- **WDS Attendees:** $49 per Academy
+- **General Public:** $69 per Academy
 
 (Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection)
 
