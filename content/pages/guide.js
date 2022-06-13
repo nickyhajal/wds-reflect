@@ -85,12 +85,12 @@
        <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/wds.mobile.event.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 9: Download the Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
-        <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>     
+        <Button to="https://madmimi.com/p/70726e" newWindow={true} styling="orange" fitToText>DOWNLOAD NOW!</Button>     
         </Block>      
         <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step 10: RSVP for Activities
         Create your own personalized schedule by RSVPing for Meetups, Activities, and Academies through the mobile app or online. 
-         <Button to="" newWindow={true} styling="orange" fitToText>COMING SOON</Button>          
+         <Button to="https://worlddominationsummit.com/events" newWindow={true} styling="orange" fitToText>AVAILABLE NOW</Button>          
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 11: Pack for WDS 
