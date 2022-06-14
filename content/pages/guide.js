@@ -100,7 +100,7 @@
          <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step 12: Check-in at WDS
         You're here - welcome to Portland! Learn what to do when you arrive to Portland.  
-         <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2022</Button>          
+         <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>          
         </Block>
           <Block type="image-overlay" anchor="right" src="photos/JoinUs/image-parties.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 13: Have an Amazing Experience
