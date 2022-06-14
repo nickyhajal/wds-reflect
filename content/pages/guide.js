@@ -85,17 +85,17 @@
        <Block type="image-overlay" anchor="right" src="https://el-files-wds.s3.amazonaws.com/images/photos/wds.mobile.event.app.png" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 9: Download the Mobile App 
         Download our very own mobile app to RSVP for activities, check your personalized schedule, and so much more.
-        <Button to="https://madmimi.com/p/70726e" newWindow={true} styling="orange" fitToText>DOWNLOAD NOW!</Button>     
+        <Button to="https://madmimi.com/p/70726e" newWindow={true} styling="orange" fitToText>Download Today!</Button>     
         </Block>      
         <Block type="image-overlay" anchor="left" src="https://s3.amazonaws.com/el-files-wds/images/2015-Waffles-1.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step 10: RSVP for Activities
         Create your own personalized schedule by RSVPing for Meetups, Activities, and Academies through the mobile app or online. 
-         <Button to="https://worlddominationsummit.com/events" newWindow={true} styling="orange" fitToText>AVAILABLE NOW</Button>          
+         <Button to="https://worlddominationsummit.com/events" newWindow={true} styling="orange" fitToText>Available Now</Button>          
         </Block>
         <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 11: Pack for WDS 
         Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum and the core team? 
-        <Button to="" newWindow={true} styling="orange" fitToText>Check back around May 2022</Button>     
+        <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>     
         </Block>   
          <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step 12: Check-in at WDS
