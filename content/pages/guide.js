@@ -95,7 +95,7 @@
         <Block type="image-overlay" anchor="right" src="photos/wds.packing.list.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">
         ## Step 11: Pack for WDS 
         Want to pack like an expert scout and maximize your WDS experience? Want helpful suggestions from WDS alum and the core team? 
-        <Button to="" newWindow={true} styling="orange" fitToText>Coming Soon</Button>     
+        <Button to="https://madmimi.com/p/096e141/" newWindow={true} styling="orange" fitToText>Learn More</Button>     
         </Block>   
          <Block type="image-overlay" anchor="left" src="photos/wds.checkin.jpg" imageClip="tr:0,+10%;" clip="tr:0,+10%;">   
         ## Step 12: Check-in at WDS
