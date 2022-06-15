@@ -30,13 +30,18 @@ class Answer extends React.Component {
     this.loadAnswer(this.props);
   }
   loadAnswer(props) {
+    let found = false
     if (props.auth.me) {
       const answers = props.auth.me.answers || [];
       answers.forEach((v, i) => {
         if (+v.question_id === +props.question_id) {
           this.setState({ question: v });
+          found = true
         }
       });
+    }
+    if (!found) {
+      this.setState({question: false})
     }
   }
   setInp(inp) {
