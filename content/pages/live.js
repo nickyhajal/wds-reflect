@@ -11,8 +11,7 @@
     Wherever you are right now, we're glad you're here for the main stage livestream. The following schedule is when we hope to start and end sessions. As you know, due to the nature of live events, the timing may not be exact.      
 
       </Block>
-<Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
-  </Section>   
+<Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" />  
   <Image src="photos/audience.png"
     width="426" height="263"
     margin="0 0 -100px -50px"
