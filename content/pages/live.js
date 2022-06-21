@@ -3,44 +3,26 @@
   headerClip="rl_header"
   headerPosition="top"
   headerSize="thin"
-  color="white"
+  color="sea"
   preload
 >
-  <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## A Look Back at Some of Our Favorite Main-Stage Talks
-    At WDS, the community gathers on Saturday and Sunday at the main-stage—this year in the beautiful Newmark Theatre. We'll have community updates, make special memories together, and always a surprise or two for everyone. 
-    
-    Addtionally, each year we invite several friends of WDS living extraordinary lives and working to build a better world. Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community.
+  <Image src="photos/audience.png"
+    width="426" height="263"
+    margin="0 0 -100px -50px"
+    mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
+    preload
+  />
+   <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
+    ## WDS: June 21 - June 26, 2022
 
-    Here's a look back at some of our favorite keynotes from the last 9 WDS gatherings:
-
-## Brand Montague and Robbie Novak (a.k.a Kid President)
-  <Video placeholder="https://farm1.staticflickr.com/261/19429502759_b07f583140_k_d.jpg" videoId="2evbNSYREGE" width="710" height="430"/>
-  
-    
---
-## Gretchen Rubin 
-  <Video placeholder="https://farm8.staticflickr.com/7444/9231360227_ef972e9c3a_c.jpg" videoId="Lt1mIqECeTo" width="710" height="430"/>
-  
-    
---    
-## Zach Anner 
-  <Video placeholder="https://c1.staticflickr.com/9/8299/28883938652_dbaf105039_b.jpg" videoId="HIK7epNIl2A" width="710" height="430"/>  
- 
-    
---    
-## Jadah Sellner 
-  <Video placeholder="https://farm4.staticflickr.com/3868/14618318286_2cce1b5cb7_b.jpg" videoId="LfxuhxAAzGI" width="710" height="430"/>
-  
-    
---    
-## Jeremy Cowart 
-  <Video placeholder="https://farm4.staticflickr.com/3789/19482077119_49147aede7_k_d.jpg" videoId="bTfvjaCdJw0" width="710" height="430"/>
- 
-    
---    
-#### Looking for more?! 
-  Check-out the **[WDS YouTube page](https://www.youtube.com/channel/UCOdRqojggRLnyTGhim15-og)** for more amazing keynotes. 
+    - **Tuesday (6/21)** WDS HQ and Attendee-Led Meetups
+    - **Wednesday (6/22)** Academies, WDS HQ and Attendee-Led Meetups
+    - **Thursday (6/23)** Academies, WDS HQ, and Attendee-Led Meetups
+    <ul><li><b className="highlight highlight-2">Friday (6/24)</b>  Academies, WDS HQ, Attendee-Led Meetups, World Record Attempt, and Opening Party</li></ul>
+    <ul><li><b className="highlight highlight-2">Saturday(6/25)</b> Main Stage Keynotes and Attendee-Led Meetups</li></ul>
+    <ul><li><b className="highlight highlight-3">Sunday (6/26)</b> Main Stage Keynotes, Attendee-Led Meetups, and the Closing Party</li></ul>
+      <i>Can't come for the whole time? No problem, but you don't want to miss the main events taking place on Thursday (evening), Friday, Saturday, and Sunday. For the best possible WDS experience we recommend arriving no later than Thursday afternoon, and leaving no earlier than Monday morning.</i>
   </Block>
-</Section>
-<Import id="join-us" />
+  <Image src="photos/jellyfish.png" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />
+  <div className="clear" />
+    </Section> 
