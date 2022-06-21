@@ -183,6 +183,7 @@ export class EventComponent extends Component {
   render() {
     const eventType = location.pathname.split('/')[1];
     const { data } = this.props;
+    console.log(data.event)
     const E = new Event(data.event !== undefined ? data.event : {});
     const {
       type,

@@ -22,8 +22,8 @@
     ## WDS X: Livestream Schedule (in Pacific Time)
     - **Saturday Morning, 9:00am - 12:30pm** Main Stage Session 1 (with midway break)
     - **Saturday Afternoon** 4:30pm - 6:30pm** Main Stage Session 2
-    <ul><li><b className="highlight highlight-2">Sunday Morning, 9:00am - 12:30pm** Main Stage Session 3 (with midway break)</li></ul>
-    <ul><li><b className="highlight highlight-2">Sunday Afternoon, 4:30pm - 6:30pm** Main Stage Session 4</li></ul>
+    <ul><li><b className="highlight highlight-2">Sunday Morning, 9:00am - 12:30pm</b> Main Stage Session 3 (with midway break)</li></ul>
+    <ul><li><b className="highlight highlight-2">Sunday Afternoon, 4:30pm - 6:30pm</b> Main Stage Session 4</li></ul>
       
   </Block>
   <Image src="photos/academies.jpg" width="426" height="263" margin="-50px -60px 100px 0" css={{ float: 'right' }} mobile={{ all: { margin: '-50px -15px 100px 0' } }} />

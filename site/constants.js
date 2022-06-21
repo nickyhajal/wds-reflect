@@ -35,7 +35,7 @@ constants.fire_key = 'AIzaSyD77ljc6Wdoc3AKg_a1FnE58QDyCWhSgSA';
 constants.fire_url = 'worlddominationsummit';
 constants.stripe_pk = 'pk_test_8WKTIWKXB6T1eFT9sFqrymCM';
 constants.protocol = 'https';
-constants.url = 'wds.nky';
+constants.url = 'api.worlddominationsummit.com';
 if (host === 'worlddominationsummit.com') {
   constants.stripe_pk = 'pk_live_v32iH6nfQOgPmKgQiNOrnZCi';
   constants.url = 'api.worlddominationsummit.com';

@@ -31,6 +31,7 @@ import BookingDetails from '../../site/components/BookingDetails';
 import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 import ComparisonTable from '../../site/components/ComparisonTable';
 import YearReviews from '../../site/components/YearReviews';
+import WdsTitle from '../../site/components/WdsTitle';
 
   
   const Page = (props) => (
@@ -45,7 +46,7 @@ import YearReviews from '../../site/components/YearReviews';
 >
   <Image src="v2/headings/academies.png" width="565px" height="169px" className="scriptHeader" preload/>
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
-    ## WDS Academies will be back with an all-star lineup! {'\n'}
+    ## WDS Academies are back with an all-star lineup! {'\n'}
 At a WDS Academy, you might learn how to develop a fulfilling writing practice, build or business through Youtube, or what it's like to build and live in a tiny house. {'\n'}
 You'll have the opportunity to learn something new to help live your _own_ remarkable life story. It's a great way to lead into the main events of the WDS weekend and keep the conversations going afterward.{'\n'}
   This short video shows more of what it's all about:{'\n'}
@@ -53,19 +54,32 @@ You'll have the opportunity to learn something new to help live your _own_ remar
 <Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" /> 
   <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
         ## The Details{'\n'}
-**All information here is subject to change.** Please use as reference information only until Academies for WDS X are officially announced: Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.{'\n'}
+Registration for Academies is separate from WDS itself and is available to both WDS attendees (at a discounted rate) and to the general public.{'\n'}
 
-- **WDS Attendees:** $29 (early bird) --> $49 per Academy{'\n'}
-- **General Public:** $49 (early bird) --> $69 per Academy{'\n'}
+- **WDS Attendees:** $49 per Academy{'\n'}
+- **General Public:** $69 per Academy{'\n'}
 
 (Please note: if you are attending WDS, [log-in to your WDS account](http://worlddominationsummit.com/login) before making your Academy selection){'\n'}
-                                                                                                                                              
-There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. No physical ticket or confirmation will be required upon check-in, just a valid photo ID. Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.{'\n'}
 
-If you have any questions or need any assistance, please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. {'\n'}
+## Academies FAQs {'\n'}
+
+### How many Academies can I register for?{'\n'}
+                                                                     There is no limit to how many Academies you can register for, but please note that you can only purchase Academies for yourself. {'\n'}
+                                                                     
+### Is there a physical or digital ticket to present?{'\n'}
+                                                                     No physical ticket or confirmation will be required upon check-in, just a valid photo ID.{'\n'}
+                                                                     
+### What are the Acadmies ticket policies?{'\n'}
+                                                                     Academy tickets are capacity controlled and offered on a first-come, first-served basis. All tickets are **_non-refundable_** and **_non-transferrable_**.{'\n'}
+                                                                     
+### What is the COVID policy for WDS Academies?{'\n'}
+                                                                     Proof of full COVID vaccination or a negative COVID test result within 2 days will be required to enter the venue. {'\n'}
+                                                                   
+### What if I have any questions or need any assistance?{'\n'}
+                                                                     Please contact our concierge team at **[concierge@wds.fm](mailto:concierge@wds.fm)**. {'\n'}
 
 </Block>
-<EventList year={20} type="academy" title="WDS X Academy Schedule (full list coming soon)" />
+<EventList year={20} type="academy" title="WDS X Academies Schedule" />
 </Section>
 <Section color="canvas" overflow="hidden" burst>
   <Block margin="60px 0 30px">## WDS X Tickets are Sold Out!</Block>
