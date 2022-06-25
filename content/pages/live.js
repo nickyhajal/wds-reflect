@@ -11,13 +11,7 @@
     Wherever you are right now, we're glad you're here for the main stage livestream. The following schedule is when we hope to start and end sessions. As you know, due to the nature of live events, the timing may not be exact.      
 
       </Block>
-<Video placeholder="photos/academies2.jpg" videoId="121164251" cols="8" />  
-  <Image src="photos/audience.png"
-    width="426" height="263"
-    margin="0 0 -100px -50px"
-    mobile={{ phone: { margin: '0 0 -100px -20px', width: '100%' } }}
-    preload
-  />
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/723825183?h=4220dddb9f&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
    <Block type="padded" cols="6" bleed={false} background="canvas" className="table-list" css={{ padding: '60px 40px', position: 'relative', zIndex:'4' }} clip="top_lr_1.6">
     ## WDS X: Livestream Schedule (in Pacific Time)
     - **Saturday Morning, 9:00am - 12:30pm** Main Stage Session 1 (with midway break)
