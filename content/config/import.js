@@ -32,3 +32,4 @@ import ConnectPurchaseButton from '../../site/components/ConnectPurchaseButton';
 import ComparisonTable from '../../site/components/ComparisonTable';
 import YearReviews from '../../site/components/YearReviews';
 import WdsTitle from '../../site/components/WdsTitle';
+import RedirIfNotLoggedIn from '../../site/components/RedirIfNotLoggedIn';

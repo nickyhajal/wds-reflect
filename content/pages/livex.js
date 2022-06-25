@@ -1,3 +1,5 @@
+import RedirIfNotLoggedIn from '../../site/components/RedirIfNotLoggedIn';
+
 <Section
   headerImage="hero/story.jpg"
   headerClip="rl_header"
@@ -6,6 +8,7 @@
   color="white"
   preload
 >
+  <RedirIfNotLoggedIn />
       <Block cols="6" bleed={false} textAlign="left" margin="80px 0 80px">
     ## WDS X Livestream
     Wherever you are right now, we're glad you're here for the main stage livestream. The following schedule is when we hope to start and end sessions. As you know, due to the nature of live events, the timing may not be exact.  
