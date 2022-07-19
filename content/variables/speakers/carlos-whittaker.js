@@ -1,5 +1,5 @@
 name: "Carlos Whittaker",
-year: "2022",
+year: "WDS X (2022)",
 headerPhotos: "https://live.staticflickr.com/65535/52185770014_acd73377d6_k_d.jpg, https://live.staticflickr.com/65535/52185769684_284352e9b8_k_d.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Carlos-Whittaker.png",
 video: "https://youtu.be/nqTUar3B1bc",
