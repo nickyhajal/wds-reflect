@@ -1,4 +1,4 @@
-name: "Jonathan Fields",
+name: "Jonathan",
 year: "WDS X (2022)",
 headerPhotos: "https://live.staticflickr.com/65535/52186151185_51518fccc9_k_d.jpg, https://live.staticflickr.com/65535/52185673848_b923b3cfda_k_d.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/jonathan-fields-2.png",
