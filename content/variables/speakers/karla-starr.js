@@ -1,5 +1,5 @@
 name: "Karla Starr",
-year: "2022",
+year: "WDS X (2022)",
 headerPhotos: "https://live.staticflickr.com/65535/52185676633_0ab2bd8c3c_k_d.jpg, https://live.staticflickr.com/65535/52186153835_2d3ab6ce52_k_d.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Karla-Starr-WDS.speaker.png",
 video: "https://youtu.be/ow1bZvVWAsc",
