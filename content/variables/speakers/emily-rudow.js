@@ -1,5 +1,5 @@
 name: "Emily Rudow",
-year: "2022",
+year: "WDS X (2022)",
 headerPhotos: "https://live.staticflickr.com/65535/52186024810_1059aa8d5f_k_d.jpg, https://live.staticflickr.com/65535/52185544481_ece1df2bcb_k_d.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Emily-Rudow.png",
 video: "https://youtu.be/VwdsK69N05I",
