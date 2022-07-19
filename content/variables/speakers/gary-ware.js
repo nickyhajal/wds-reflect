@@ -1,5 +1,5 @@
 name: "Gary Ware",
-year: "2022",
+year: "WDS X (2022)",
 headerPhotos: "https://live.staticflickr.com/65535/52173960937_1a70698a1d_k_d.jpg, https://live.staticflickr.com/65535/52174987113_5709cb038c_k_d.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Gary-Ware-WDS-Speaker.png",
 video: "https://youtu.be/4rqz5PqaSHY",
