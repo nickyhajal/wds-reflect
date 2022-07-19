@@ -10,4 +10,4 @@ quote: "",
 
 What started as a quest to deal with a chronic illness turned into a life-long mission to help people harness the full potential of their ideas and turn them into reality.  
 
-His work has been featured in media outlets like _The New York Times_, _Lifehacker_, _The Atlantic_, _Thrive Global_, and _Quartz. 
+His work has been featured in media outlets like _The New York Times_, _Lifehacker_, _The Atlantic_, _Thrive Global_, and _Quartz_. 
