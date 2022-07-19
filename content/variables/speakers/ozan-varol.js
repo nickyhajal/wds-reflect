@@ -1,5 +1,5 @@
 name: "Ozan Varol",
-year: "X",
+year: "WDS X (2022)",
 headerPhotos: "https://live.staticflickr.com/65535/52185335066_e0c4c5d940_k_d.jpg, https://live.staticflickr.com/65535/52185819150_7a91f99630_k_d.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Ozan-Varol-WDS-Main-Stage-Speaker.png",
 video: "https://youtu.be/cOsIvqAnd20",
