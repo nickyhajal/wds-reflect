@@ -1,7 +1,7 @@
 name: "Frank Warren",
 year: "X",
 headerPhotos: "https://live.staticflickr.com/65535/52186013320_400e09aea9_k_d.jpg, https://live.staticflickr.com/65535/52185537551_5b108057fd_k_d.jpg",
-photo: "https://s3.amazonaws.com/el-files-wds/images/speakers/Humble-The-Poet-thumbnail.png",
+photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Frank-Warren.png",
 video: "https://www.youtube.com/watch?v=Bx50BUOwp-8",
 headerPosition: "-10px",
 quote: "",
