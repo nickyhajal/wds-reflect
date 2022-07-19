@@ -1,5 +1,5 @@
 name: "Frank Warren",
-year: "X",
+year: "WDS X (2022)",
 headerPhotos: "https://live.staticflickr.com/65535/52186013320_400e09aea9_k_d.jpg, https://live.staticflickr.com/65535/52185537551_5b108057fd_k_d.jpg",
 photo: "https://el-files-wds.s3.amazonaws.com/images/speakers/Frank-Warren.png",
 video: "https://www.youtube.com/watch?v=Bx50BUOwp-8",
