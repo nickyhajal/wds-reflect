@@ -11,7 +11,7 @@
       WDS Alumni Speakers 
     </h2> 
   Our keynote speakers are bestselling authors, leading activists, and in-demand storyteller and they come to WDS to share their stories, experiences, and lessons with our community.  
-  /*Here is a list of superheroes that have taken part in previous WDS events:*/
+ Here is a list of superheroes that have taken part in previous WDS events:
     </block>
   <SpeakerList title="2019 Speakers" year="2019" type="expanded" />
   <SpeakerList title="2018 Speakers" year="2018" type="expanded" />  
